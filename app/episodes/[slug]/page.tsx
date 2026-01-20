@@ -5,7 +5,7 @@ import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Clock, Eye, Calendar, Play, Search, Share2, Hash, X, Lightbulb, MessageSquare, Target } from 'lucide-react';
+import { ArrowLeft, Clock, Eye, Calendar, Play, Search, Share2, Hash, X, Lightbulb, MessageSquare, Target, Quote as QuoteIcon } from 'lucide-react';
 import { getEpisodeBySlug, allEpisodes, Episode } from '@/lib/allEpisodes';
 import { episodeInsights, EpisodeInsights } from '@/lib/insightsData';
 import { getEpisodeEnrichment } from '@/lib/verifiedQuotes';
@@ -505,40 +505,62 @@ export default function EpisodePage() {
               activeTab === 'insights' ? 'block' : 'hidden'
             } lg:block`}>
               <div className="space-y-8 pb-8">
+                {/* Key Takeaways - Priority Section */}
+                {verifiedEnrichment && verifiedEnrichment.takeaways && verifiedEnrichment.takeaways.length > 0 && (
+                  <div className="border-2 border-amber bg-void-light p-6">
+                    <h3 className="text-lg font-bold text-amber mb-4">🎯 KEY TAKEAWAYS</h3>
+                    <div className="space-y-3">
+                      {verifiedEnrichment.takeaways.map((takeaway, i) => (
+                        <div key={i} className="flex gap-3">
+                          <span className="text-amber font-bold text-sm flex-shrink-0">{i + 1}.</span>
+                          <p className="text-ash-dark text-sm leading-relaxed">{takeaway}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
 
                 {/* Insights Stats */}
-                {insights && (
+                {insights && (transcript || insights.quotableMoments.length > 0 || insights.contrarianViews.length > 0) && (
                   <div className="border-2 border-ash-darker bg-void-light p-6">
                     <h3 className="text-lg font-bold text-amber mb-4">INSIGHTS</h3>
                     <div className="space-y-3">
-                      <div className="flex justify-between items-center">
-                        <span className="text-ash-dark flex items-center gap-2">
-                          <MessageSquare className="w-4 h-4" />
-                          Transcript Segments
-                        </span>
-                        <span className="text-amber font-bold">{transcript?.length || 0}</span>
-                      </div>
-                      <div className="flex justify-between items-center">
-                        <span className="text-ash-dark flex items-center gap-2">
-                          <Lightbulb className="w-4 h-4" />
-                          Quotable Moments
-                        </span>
-                        <span className="text-amber font-bold">{insights.quotableMoments.length}</span>
-                      </div>
-                      <div className="flex justify-between items-center">
-                        <span className="text-ash-dark flex items-center gap-2">
-                          <Target className="w-4 h-4" />
-                          Contrarian Views
-                        </span>
-                        <span className="text-amber font-bold">{insights.contrarianViews.length}</span>
-                      </div>
-                      <div className="flex justify-between items-center">
-                        <span className="text-ash-dark flex items-center gap-2">
-                          <Hash className="w-4 h-4" />
-                          Frameworks
-                        </span>
-                        <span className="text-amber font-bold">{insights.frameworks.length}</span>
-                      </div>
+                      {transcript && transcript.length > 0 && (
+                        <div className="flex justify-between items-center">
+                          <span className="text-ash-dark flex items-center gap-2">
+                            <MessageSquare className="w-4 h-4" />
+                            Transcript Segments
+                          </span>
+                          <span className="text-amber font-bold">{transcript.length}</span>
+                        </div>
+                      )}
+                      {verifiedEnrichment && verifiedEnrichment.keyQuotes.length > 0 && (
+                        <div className="flex justify-between items-center">
+                          <span className="text-ash-dark flex items-center gap-2">
+                            <QuoteIcon className="w-4 h-4" />
+                            Verified Quotes
+                          </span>
+                          <span className="text-amber font-bold">{verifiedEnrichment.keyQuotes.length}</span>
+                        </div>
+                      )}
+                      {insights.quotableMoments && insights.quotableMoments.length > 0 && (
+                        <div className="flex justify-between items-center">
+                          <span className="text-ash-dark flex items-center gap-2">
+                            <Lightbulb className="w-4 h-4" />
+                            Quotable Moments
+                          </span>
+                          <span className="text-amber font-bold">{insights.quotableMoments.length}</span>
+                        </div>
+                      )}
+                      {insights.contrarianViews && insights.contrarianViews.length > 0 && (
+                        <div className="flex justify-between items-center">
+                          <span className="text-ash-dark flex items-center gap-2">
+                            <Target className="w-4 h-4" />
+                            Contrarian Views
+                          </span>
+                          <span className="text-amber font-bold">{insights.contrarianViews.length}</span>
+                        </div>
+                      )}
                     </div>
                   </div>
                 )}
