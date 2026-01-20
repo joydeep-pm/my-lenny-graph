@@ -180,14 +180,18 @@ Original system used generic/synthetic quotes. Building comprehensive verified c
 - Created `components/VerifiedQuotes.tsx` - displays verified quotes on episode pages with theme/zone filters
 - Created `.claude/skills/curate-episode/SKILL.md` - Claude skill with YAML frontmatter for AI agents to curate episodes
 
-**Episodes Curated** (5/303 = 1.7% coverage) ⚠️
+**Episodes Curated** (8/303 = 2.6% coverage) ⚠️
 1. **Brian Chesky** (10 quotes) - Leadership, details, alignment, perfection
 2. **Rahul Vohra** (11 quotes) - Velocity, PMF, design, focus
-3. **Elena Verna** (12 quotes) - Data, metrics, growth, experimentation  
+3. **Elena Verna** (12 quotes) - Data, metrics, growth, experimentation
 4. **Dylan Field** (11 quotes) - Intuition, craft, simplicity, vision
 5. **Amjad Masad** (11 quotes) - Chaos, velocity, flexibility, building
+6. **Jason Fried** - Simplicity, focus, constraints
+7. **Casey Winters** - Growth, metrics, systems
+8. **Marty Cagan** - Discovery, empowerment, product leadership
 
-**Total:** 55 verified quotes with exact line numbers, timestamps, themes, zone mappings
+**Total:** 91 verified quotes with exact line numbers, timestamps, themes, zone mappings
+**In Progress:** 4 more episodes being curated (shreyas-doshi, april-dunford, gibson-biddle, julie-zhuo)
 
 **Zones Updated** ✅
 - ALL 8 zones now use verified `quoteId` references (no fake quotes)
@@ -210,21 +214,21 @@ Original system used generic/synthetic quotes. Building comprehensive verified c
 - ✅ Generates `data/verified/verified-content.json` registry
 - ✅ Generates `lib/verifiedContent.ts` with constants
 
-**Coverage Statistics** (Current)
+**Coverage Statistics** (Current - Updated 2026-01-20)
 ```
-Episodes curated: 5/303 (1.7%)
-Quotes extracted: 55
-Avg quotes/episode: 11.0
+Episodes curated: 8/303 (2.6%)
+Quotes extracted: 91
+Avg quotes/episode: 11.4
 
-Zones needing more coverage (target: 10+ episodes):
-- chaos: 2 episodes (need 8 more)  
-- data: 3 episodes (need 7 more)
-- perfection: 4 episodes (need 6 more)
-- discovery: 4 episodes (need 6 more)  
-- intuition: 4 episodes (need 6 more)
-- alignment: 4 episodes (need 6 more)
-- velocity: 5 episodes (need 5 more)
-- focus: 5 episodes (need 5 more)
+Zone Coverage:
+- velocity: 8 episodes ✓ (target met: 10+)
+- focus: 8 episodes ✓ (target met: 10+)
+- intuition: 7 episodes (need 3 more)
+- perfection: 6 episodes (need 4 more)
+- discovery: 6 episodes (need 4 more)
+- alignment: 6 episodes (need 4 more)
+- data: 5 episodes (need 5 more)
+- chaos: 4 episodes (need 6 more)
 ```
 
 **REMAINING WORK** 🚧
