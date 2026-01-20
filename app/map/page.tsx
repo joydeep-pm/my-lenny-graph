@@ -161,7 +161,15 @@ function MapContent() {
                 transition={{ delay: 1.2 }}
                 className="text-amber/60 text-sm tracking-widest mb-4"
               >
-                PHILOSOPHY IDENTIFIED
+                {selectedZone && selectedZone !== primaryZone ? (
+                  <span className="flex items-center justify-center gap-2">
+                    <span className="text-ash-dark">EXPLORING</span>
+                    <span className="text-amber/40">•</span>
+                    <span>YOUR RESULT: {zones[primaryZone].icon} {zones[primaryZone].name}</span>
+                  </span>
+                ) : (
+                  'YOUR PHILOSOPHY'
+                )}
               </motion.div>
 
               <motion.h1
