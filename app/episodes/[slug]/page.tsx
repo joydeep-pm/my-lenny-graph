@@ -3,6 +3,7 @@
 import { useState, useEffect, useMemo, useRef } from 'react';
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
+import Head from 'next/head';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Clock, Eye, Calendar, Play, Search, Share2, Hash, X, Lightbulb, MessageSquare, Target } from 'lucide-react';
 import { getEpisodeBySlug, allEpisodes, Episode } from '@/lib/allEpisodes';
@@ -40,6 +41,15 @@ export default function EpisodePage() {
   const slug = params.slug as string;
   
   const episode = getEpisodeBySlug(slug);
+  
+  // Update document title dynamically
+  useEffect(() => {
+    if (episode) {
+      document.title = `${episode.guest} | PM Philosophy Map`;
+    } else {
+      document.title = 'Episode Not Found | PM Philosophy Map';
+    }
+  }, [episode]);
   const verifiedEnrichment = useMemo(() => getEpisodeEnrichment(slug), [slug]);
   
   const insights = useMemo(() => {
