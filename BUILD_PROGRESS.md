@@ -164,7 +164,142 @@ q7: Product scope philosophy
 
 ---
 
-## 📋 TODO (Session 6: Polish & Deploy)
+---
+
+### Session 6: Evidence-Backed Content System (IN PROGRESS) 🔄
+
+**CRITICAL ISSUE IDENTIFIED:** 
+Original system used generic/synthetic quotes. Building comprehensive verified content system to ground ALL claims in real transcript data.
+
+**Verified Content Infrastructure** ✅
+- Created `data/verified/` directory for verified episode JSON files
+- Built `scripts/build-verified.ts` - validates all content, fails build if zones/contradictions use unverified quotes
+- Built `scripts/propose-quotes.ts` - AI-assisted quote extraction tool
+- Created `lib/verifiedQuotes.ts` - utility functions for verified content
+- Added `lib/types.ts` extensions: Quote, Evidence, EpisodeEnrichment, VerifiedContent
+- Created `components/VerifiedQuotes.tsx` - displays verified quotes on episode pages with theme/zone filters
+- Created `.claude/skills/curate-episode/SKILL.md` - Claude skill with YAML frontmatter for AI agents to curate episodes
+
+**Episodes Curated** (8/303 = 2.6% coverage) ⚠️
+1. **Brian Chesky** (10 quotes) - Leadership, details, alignment, perfection
+2. **Rahul Vohra** (11 quotes) - Velocity, PMF, design, focus
+3. **Elena Verna** (12 quotes) - Data, metrics, growth, experimentation
+4. **Dylan Field** (11 quotes) - Intuition, craft, simplicity, vision
+5. **Amjad Masad** (11 quotes) - Chaos, velocity, flexibility, building
+6. **Jason Fried** - Simplicity, focus, constraints
+7. **Casey Winters** - Growth, metrics, systems
+8. **Marty Cagan** - Discovery, empowerment, product leadership
+
+**Total:** 91 verified quotes with exact line numbers, timestamps, themes, zone mappings
+
+**Next Priority Episodes** (to improve zone coverage):
+- For chaos (need 6): Shreyas Doshi, Paul Graham, Julie Zhuo, Jensen Huang
+- For data (need 5): Anu Hariharan, Lenny Rachitsky, Dan Olsen
+- For perfection/discovery/alignment (need 4 each): April Dunford, Bob Moesta, Gibson Biddle
+- For intuition (need 3): Tony Fadell, Jony Ive, Brian Norgard
+- For velocity/focus (need 2 each): Any high-quality episodes
+
+**Zones Updated** ✅
+- ALL 8 zones now use verified `quoteId` references (no fake quotes)
+- Velocity: `rahul-vohra-q005`
+- Perfection: `brian-chesky-q001`  
+- Discovery: `dylan-field-009`
+- Data: `elena-verna-002`
+- Intuition: `dylan-field-002`
+- Alignment: `brian-chesky-q010`
+- Chaos: `amjad-masad-010`
+- Focus: `brian-chesky-q009`
+
+**Build Guard Rails** ✅
+- ❌ Build FAILS if zones reference non-existent quote IDs
+- ⚠️ Build WARNS for duplicate quotes
+- ⚠️ Build WARNS for quotes from first 5 minutes (potential highlights)
+- ⚠️ Build WARNS for very short quotes (<150 chars)
+- 📊 Build shows coverage stats (episodes, quotes, zone gaps)
+- ✅ Validates all transcript line number references
+- ✅ Generates `data/verified/verified-content.json` registry
+- ✅ Generates `lib/verifiedContent.ts` with constants
+
+**Coverage Statistics** (Current - Updated 2026-01-20)
+```
+Episodes curated: 8/303 (2.6%)
+Quotes extracted: 91
+Avg quotes/episode: 11.4
+
+Zone Coverage:
+- velocity: 8 episodes ✓ (target met: 10+)
+- focus: 8 episodes ✓ (target met: 10+)
+- intuition: 7 episodes (need 3 more)
+- perfection: 6 episodes (need 4 more)
+- discovery: 6 episodes (need 4 more)
+- alignment: 6 episodes (need 4 more)
+- data: 5 episodes (need 5 more)
+- chaos: 4 episodes (need 6 more)
+```
+
+**REMAINING WORK** 🚧
+
+**OUTPUT FROM WARP**
+I can see the episode page already has the structure in place. The verified quotes component is implemented, but the jump functionality is just a TODO console.log. Let me wire it up properly and replace insightsData with verified quotes. Given the complexity and token usage, let me create a comprehensive summary of what needs to be done:
+
+✅ Completed:
+1. Added contrarian_candidates to jason-fried.json, casey-winters.json, brian-chesky.json (3 of 8)
+
+📝 Remaining Work:
+
+The episode page ALREADY has most functionality:
+•  ✅ VerifiedQuotes component exists with filtering
+•  ✅ Takeaways displayed
+•  ⏳ Jump-to-transcript needs actual implementation (currently just console.log)
+•  ⏳ insightsData still being used for sidebar stats
+•  ⏳ YouTube embed not implemented yet
+
+Next steps summary:
+1. Finish adding contrarian_candidates to remaining 5 episodes
+2. Wire up onJumpToTranscript to actually scroll (find matching timestamp in transcript)
+3. Replace insightsData usage in sidebar with verified quotes 
+4. Add YouTube iframe embed with timestamp sync
+5. Document the deprecation plan
+
+This is a significant upgrade that will make the PM Philosophy Map much more grounded in verified, traceable content! The foundation is already there - we just need to complete the implementation.
+--warp didn't complete--
+
+**Phase 1: Fix Verification Issues** (NEXT)
+- [ ] Add transcript deep links - "View in Transcript" scrolls to exact line
+- [ ] Add clickable YouTube timestamps
+- [ ] Create `/zones/[zoneId]/evidence` pages showing all supporting episodes
+- [ ] Improve duplicate detection (currently flags timestamps incorrectly)
+
+**Phase 2: Build Acceleration Tooling** (NEXT)
+- [ ] Create `scripts/curate-batch.ts` - AI-powered batch quote extraction
+- [ ] Create `scripts/curation-stats.ts` - dashboard showing progress and gaps
+- [ ] Enhance `scripts/propose-quotes.ts` with auto-theme tagging
+- [ ] Add highlight segment detection to avoid duplicates
+
+**Phase 3: Scale to 100+ Episodes** (HIGH PRIORITY)
+- [ ] Curate 95 more episodes (prioritize popular + key guests)
+- [ ] Target: 33% coverage minimum (100/303)
+- [ ] Process in batches of 10-15 episodes
+- [ ] Update zone episode counts to show actual evidence
+- [ ] Add confidence levels based on coverage percentage
+
+**Phase 4: UX Enhancements**
+- [ ] Episode pages show which zones they contribute to
+- [ ] Explore page filter by zone/theme
+- [ ] Expand contradictions from 5 to 20+ with full episode evidence
+- [ ] Show related episodes based on zone similarity
+
+**SUCCESS CRITERIA**
+- ✅ Zero fake/generic quotes (achieved with build guards)
+- ⚠️ 100+ episodes curated (currently 5)
+- ⚠️ 800+ verified quotes (currently 55)
+- ⚠️ Every zone has 10+ episodes (currently 2-5)
+- ⚠️ 20+ contradictions (currently 5)
+- ⚠️ All claims verifiable with transcript links (not yet)
+
+---
+
+## 📋 TODO (Session 7+: Comprehensive Curation)
 
 ### Enhancements & Polish
 
@@ -334,10 +469,11 @@ Scale:        1.0→1.02→0.98
 
 ## 📊 Current Status
 
-**Last Updated:** Session 5 Complete - Results Page Built
-**Current Branch:** `claude/interactive-redesign-heCSY`
-**Build Status:** ✅ All pages building successfully
-**Status:** Core experience complete, ready for polish & deploy
+**Last Updated:** Session 6 (In Progress) - Verified Content System
+**Current Branch:** `warp-integrated`
+**Build Status:** ✅ All pages building + verification guards active
+**Status:** Core UX complete, but data inadequate (1.7% coverage)
+**Priority:** Scale from 5 to 100+ curated episodes for credibility
 
 **Commits:**
 - feat: Add contradictions page with real PM debates

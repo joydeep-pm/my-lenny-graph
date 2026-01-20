@@ -1,0 +1,4125 @@
+{
+  "episodes": [
+    {
+      "episode_slug": "amjad-masad",
+      "guest": "Amjad Masad",
+      "episode_title": "Behind the product: Replit | Amjad Masad (co-founder and CEO)",
+      "verification_date": "2026-01-20",
+      "verified_by": "warp-agent",
+      "quotes": [
+        {
+          "id": "amjad-masad-001",
+          "text": "Typically, you're bottlenecked where your ideas are not fitting in because they need to be made and they need to be made quickly. Now, you open up that bottleneck. So now actually making things is a lot easier. Actually, you become limited by how fast you can generate ideas.",
+          "source": {
+            "line_start": 43,
+            "line_end": 43,
+            "timestamp": "00:00:27",
+            "speaker": "Amjad Masad"
+          },
+          "themes": [
+            "velocity",
+            "ideas",
+            "bottlenecks",
+            "execution",
+            "creativity"
+          ],
+          "zones": [
+            "velocity",
+            "chaos"
+          ]
+        },
+        {
+          "id": "amjad-masad-002",
+          "text": "I could imagine whatever five years from now, someone running a billion-dollar company with zero employees where it's like the support is handled by AI, the development is handled by AI, and you're just building and creating this thing.",
+          "source": {
+            "line_start": 49,
+            "line_end": 49,
+            "timestamp": "00:00:47",
+            "speaker": "Amjad Masad"
+          },
+          "themes": [
+            "future",
+            "ai",
+            "automation",
+            "vision",
+            "startups"
+          ],
+          "zones": [
+            "chaos",
+            "intuition",
+            "velocity"
+          ]
+        },
+        {
+          "id": "amjad-masad-003",
+          "text": "The vision for Replit has always been is like, okay, making software is fun, is great, more people should do it, but so for more people to do it, it needs to be easier to do, it needs to be in one place, and it needs to be learnable.",
+          "source": {
+            "line_start": 67,
+            "line_end": 67,
+            "timestamp": "00:03:42",
+            "speaker": "Amjad Masad"
+          },
+          "themes": [
+            "vision",
+            "democratization",
+            "simplicity",
+            "accessibility"
+          ],
+          "zones": [
+            "discovery",
+            "focus"
+          ]
+        },
+        {
+          "id": "amjad-masad-004",
+          "text": "I often go with minimalist prompts. That's also how I code as well. I have a vague idea for what I want to build and iterate from there. Other people, product managers like to write PRDs and more descriptive things, and you can do either of those things.",
+          "source": {
+            "line_start": 124,
+            "line_end": 124,
+            "timestamp": "00:13:47",
+            "speaker": "Amjad Masad"
+          },
+          "themes": [
+            "iteration",
+            "building",
+            "process",
+            "flexibility"
+          ],
+          "zones": [
+            "chaos",
+            "velocity"
+          ]
+        },
+        {
+          "id": "amjad-masad-005",
+          "text": "If you think about it's like we're building as you were building, so we're building out the agent so that it can continue getting better as our users are also building their applications.",
+          "source": {
+            "line_start": 142,
+            "line_end": 142,
+            "timestamp": "00:17:56",
+            "speaker": "Amjad Masad"
+          },
+          "themes": [
+            "iteration",
+            "building",
+            "meta",
+            "velocity"
+          ],
+          "zones": [
+            "velocity",
+            "chaos"
+          ]
+        },
+        {
+          "id": "amjad-masad-006",
+          "text": "When the cost of things go down, the total consumption of it goes up. And so I think that's going to be the case of software. As the costs go down, people will just make a lot more software to improve their lives and to improve their work and start more startups and all of that.",
+          "source": {
+            "line_start": 229,
+            "line_end": 229,
+            "timestamp": "00:24:26",
+            "speaker": "Amjad Masad"
+          },
+          "themes": [
+            "economics",
+            "velocity",
+            "startups",
+            "future"
+          ],
+          "zones": [
+            "velocity",
+            "chaos"
+          ]
+        },
+        {
+          "id": "amjad-masad-007",
+          "text": "These silos between designers, product managers, and engineers. Everyone feels that pain of, we have low bandwidth communication, which is language and then text on Slack and Zoom calls. The common language that everyone shares is code. What if the language becomes actually working prototypes and working applications?",
+          "source": {
+            "line_start": 358,
+            "line_end": 361,
+            "timestamp": "00:41:08",
+            "speaker": "Amjad Masad"
+          },
+          "themes": [
+            "collaboration",
+            "communication",
+            "silos",
+            "prototypes"
+          ],
+          "zones": [
+            "alignment",
+            "velocity"
+          ]
+        },
+        {
+          "id": "amjad-masad-008",
+          "text": "Being generative, being able to generate new ideas quickly, because you can think about it as a factory line. Typically you're bottlenecked by the middle part where your ideas are kind of like they're a lot of them and they're not fitting in, because they need to be made and they need to be made quickly. Now you open up that bottleneck. Actually, you become limited by how fast you can generate ideas.",
+          "source": {
+            "line_start": 367,
+            "line_end": 367,
+            "timestamp": "00:44:25",
+            "speaker": "Amjad Masad"
+          },
+          "themes": [
+            "creativity",
+            "ideas",
+            "bottlenecks",
+            "velocity",
+            "generative"
+          ],
+          "zones": [
+            "chaos",
+            "velocity",
+            "intuition"
+          ]
+        },
+        {
+          "id": "amjad-masad-009",
+          "text": "The return on investment for learn to code is doubling every six months. Every six months, that's netting you more and more power because you're going to be able to create a lot more. It's going to be easier to create. You're going to be able to create a lot more complete things.",
+          "source": {
+            "line_start": 373,
+            "line_end": 373,
+            "timestamp": "00:47:09",
+            "speaker": "Amjad Masad"
+          },
+          "themes": [
+            "learning",
+            "velocity",
+            "roi",
+            "future",
+            "skills"
+          ],
+          "zones": [
+            "velocity",
+            "discovery"
+          ]
+        },
+        {
+          "id": "amjad-masad-010",
+          "text": "The way we work is going to change rapidly, and it's important to be resilient to that change. You want to be able to react to it really quickly. When the Anthropic drop the computer use set of capability, we slaughtered our roadmap. We immediately jumped on it and started building things. Being agile, not being stuck with roadmaps, being able to just say, oh, we're just going to switch priorities right away, is going to be super important.",
+          "source": {
+            "line_start": 424,
+            "line_end": 424,
+            "timestamp": "00:56:43",
+            "speaker": "Amjad Masad"
+          },
+          "themes": [
+            "agility",
+            "change",
+            "roadmaps",
+            "velocity",
+            "adaptation"
+          ],
+          "zones": [
+            "chaos",
+            "velocity"
+          ]
+        },
+        {
+          "id": "amjad-masad-011",
+          "text": "You got to be fluid because when designers can code and engineers can design, it really becomes, you can't have a lot of structure around that. So you want to build a culture and you want to build an environment or milieu that is really, really flexible, which is uncomfortable for a lot of people.",
+          "source": {
+            "line_start": 427,
+            "line_end": 427,
+            "timestamp": "00:57:59",
+            "speaker": "Amjad Masad"
+          },
+          "themes": [
+            "culture",
+            "flexibility",
+            "silos",
+            "cross-functional"
+          ],
+          "zones": [
+            "chaos",
+            "alignment"
+          ]
+        }
+      ],
+      "takeaways": [
+        "The bottleneck is shifting from execution to idea generation - when tools make building easy, creativity becomes the constraint",
+        "Amjad's Law: The ROI on learning to code doubles every 6 months as AI tools improve exponentially",
+        "Working prototypes become the common language that breaks down silos between designers, PMs, and engineers",
+        "Resilience > roadmaps - be ready to 'slaughter your roadmap' when new capabilities drop that change everything",
+        "Build flexible, fluid cultures where people can work across traditional role boundaries without rigid structure"
+      ],
+      "zone_influence": {
+        "chaos": 0.35,
+        "velocity": 0.3,
+        "intuition": 0.15,
+        "alignment": 0.1,
+        "discovery": 0.1
+      }
+    },
+    {
+      "slug": "brian-chesky",
+      "keyQuotes": [
+        {
+          "id": "brian-chesky-q001",
+          "speaker": "Brian Chesky",
+          "text": "Leaders are in the details. And there's this negative term called micromanagement. I think there's a difference between micromanagement, which is like telling people exactly what to do, and being in the details. Being in the details is what every responsible company's board does to the CEO. That doesn't mean the board is telling them what to do. But if you don't know the details, how do you know people are doing a good job?",
+          "timestamp": "00:00:00",
+          "source": {
+            "slug": "brian-chesky",
+            "path": "episodes/brian-chesky/transcript.md",
+            "lineStart": 39,
+            "lineEnd": 39
+          },
+          "themes": [
+            "leadership",
+            "management",
+            "details"
+          ],
+          "zones": [
+            "perfection",
+            "alignment"
+          ]
+        },
+        {
+          "id": "brian-chesky-q002",
+          "speaker": "Brian Chesky",
+          "text": "You can't build a product unless you know how to talk about the product. You can't be an expert in making the product unless you're also an expert in the market of it. If you build a great product and no one knows about it, did you even build a product?",
+          "timestamp": "00:07:42",
+          "source": {
+            "slug": "brian-chesky",
+            "path": "episodes/brian-chesky/transcript.md",
+            "lineStart": 81,
+            "lineEnd": 81
+          },
+          "themes": [
+            "product",
+            "marketing",
+            "strategy"
+          ],
+          "zones": [
+            "perfection",
+            "velocity"
+          ]
+        },
+        {
+          "id": "brian-chesky-q003",
+          "speaker": "Brian Chesky",
+          "text": "We wanted a company where a thousand people could work, but it'll look like 10 people did it.",
+          "timestamp": "00:14:26",
+          "source": {
+            "slug": "brian-chesky",
+            "path": "episodes/brian-chesky/transcript.md",
+            "lineStart": 105,
+            "lineEnd": 105
+          },
+          "themes": [
+            "culture",
+            "quality",
+            "design"
+          ],
+          "zones": [
+            "perfection",
+            "focus",
+            "alignment"
+          ]
+        },
+        {
+          "id": "brian-chesky-q004",
+          "speaker": "Brian Chesky",
+          "text": "I think the CEO should be basically the chief product officer of a product or tech company. If the CEO is not the chief product officer then I don't know if they're a product or tech led company.",
+          "timestamp": "00:16:08",
+          "source": {
+            "slug": "brian-chesky",
+            "path": "episodes/brian-chesky/transcript.md",
+            "lineStart": 117,
+            "lineEnd": 117
+          },
+          "themes": [
+            "leadership",
+            "product",
+            "founder-mode"
+          ],
+          "zones": [
+            "perfection",
+            "focus"
+          ]
+        },
+        {
+          "id": "brian-chesky-q005",
+          "speaker": "Brian Chesky",
+          "text": "The less involved I was in the project, the more spin there was, the less clear the goals, the less advocacy the team had, the less resources, the fewer resources they had. And then therefore the slower they moved. And the slower they moved, the more they assumed it was because I was too involved.",
+          "timestamp": "00:17:27",
+          "source": {
+            "slug": "brian-chesky",
+            "path": "episodes/brian-chesky/transcript.md",
+            "lineStart": 123,
+            "lineEnd": 123
+          },
+          "themes": [
+            "leadership",
+            "delegation",
+            "velocity"
+          ],
+          "zones": [
+            "velocity",
+            "focus",
+            "alignment"
+          ]
+        },
+        {
+          "id": "brian-chesky-q006",
+          "speaker": "Brian Chesky",
+          "text": "There's a great saying that the best way to slow a project down is add more people to it. We have fewer than 7,000 employees today. As a relative comparison, I think Uber has 30,000. And it's not to say they're big, it's just say that's how small we are and we've really benefited from having not a lot of employees.",
+          "timestamp": "00:25:54",
+          "source": {
+            "slug": "brian-chesky",
+            "path": "episodes/brian-chesky/transcript.md",
+            "lineStart": 150,
+            "lineEnd": 150
+          },
+          "themes": [
+            "team-size",
+            "efficiency",
+            "velocity"
+          ],
+          "zones": [
+            "velocity",
+            "focus"
+          ]
+        },
+        {
+          "id": "brian-chesky-q007",
+          "speaker": "Brian Chesky",
+          "text": "A design leader's job should be managing the design first, the people second. That's what Jony did. I could never imagine Jony out at Apple just being a manager of people. He was looking and designing the work with the team. How do you manage the people without managing their work? How do you give them development if you're not in the details with them on the work?",
+          "timestamp": "00:26:28",
+          "source": {
+            "slug": "brian-chesky",
+            "path": "episodes/brian-chesky/transcript.md",
+            "lineStart": 153,
+            "lineEnd": 153
+          },
+          "themes": [
+            "leadership",
+            "design",
+            "management"
+          ],
+          "zones": [
+            "perfection",
+            "focus"
+          ]
+        },
+        {
+          "id": "brian-chesky-q008",
+          "speaker": "Brian Chesky",
+          "text": "Way too many founders apologize for how they want to run the company. They find some midpoint between how they want to run a company and how the people they lead want to run the company. That's a good way to make everyone miserable. Because what everyone really wants is clarity. And what everyone really wants is to be able to row in the same direction really quickly.",
+          "timestamp": "00:31:16",
+          "source": {
+            "slug": "brian-chesky",
+            "path": "episodes/brian-chesky/transcript.md",
+            "lineStart": 171,
+            "lineEnd": 171
+          },
+          "themes": [
+            "leadership",
+            "founder-mode",
+            "culture"
+          ],
+          "zones": [
+            "focus",
+            "alignment",
+            "perfection"
+          ]
+        },
+        {
+          "id": "brian-chesky-q009",
+          "speaker": "Brian Chesky",
+          "text": "Five teams should do one thing rather than one team do five things. People should work together. I think that people should consider doing launches. You can by the way, ship every hour of every day, but then package it and tell a story if you want hold the product back.",
+          "timestamp": "00:36:18",
+          "source": {
+            "slug": "brian-chesky",
+            "path": "episodes/brian-chesky/transcript.md",
+            "lineStart": 192,
+            "lineEnd": 192
+          },
+          "themes": [
+            "product",
+            "focus",
+            "velocity",
+            "marketing"
+          ],
+          "zones": [
+            "focus",
+            "velocity",
+            "perfection"
+          ]
+        },
+        {
+          "id": "brian-chesky-q010",
+          "speaker": "Brian Chesky",
+          "text": "Everyone should row in the same direction. If there's only one thing I said in this interview today, actually I'm not sure what it would be, but I think a good candidate is try to get everyone to row together in the same direction. Otherwise, why the hell are you all in the same company?",
+          "timestamp": "00:38:18",
+          "source": {
+            "slug": "brian-chesky",
+            "path": "episodes/brian-chesky/transcript.md",
+            "lineStart": 198,
+            "lineEnd": 198
+          },
+          "themes": [
+            "alignment",
+            "culture",
+            "strategy"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ]
+        }
+      ],
+      "themes": [
+        "leadership",
+        "product-management",
+        "founder-mode",
+        "details",
+        "velocity",
+        "quality",
+        "focus",
+        "alignment"
+      ],
+      "takeaways": [
+        "Leaders must be in the details without micromanaging - there's a critical difference between telling people what to do and understanding their work deeply enough to guide and develop them.",
+        "Product and marketing are inseparable - if you can't articulate the product, you haven't truly built it. Brian merged product management with product marketing at Airbnb.",
+        "Company clarity comes from focused direction - everyone rowing together in the same direction beats distributed empowerment that creates politics and bureaucracy.",
+        "Small, expert teams beat large generalist ones - Airbnb has 7,000 employees vs Uber's 30,000, and leaders must be domain experts who manage the work first, people second.",
+        "The CEO should be the chief product officer in product-led companies - delegating away your core strength as a founder creates the conditions for organizational decay."
+      ],
+      "zone_influence": {
+        "velocity": 0.1,
+        "perfection": 0.25,
+        "discovery": 0.05,
+        "data": 0.05,
+        "intuition": 0.05,
+        "alignment": 0.25,
+        "chaos": 0,
+        "focus": 0.25
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "brian-chesky-q001",
+          "why": "Leaders must be in the details, not delegate - attacks micromanagement criticism as excuse for ignorance",
+          "related_zones": [
+            "perfection",
+            "alignment"
+          ]
+        },
+        {
+          "quoteId": "brian-chesky-q008",
+          "why": "Founders apologize for how they run companies, seeking midpoint makes everyone miserable - anti-consensus",
+          "related_zones": [
+            "focus",
+            "alignment"
+          ]
+        }
+      ]
+    },
+    {
+      "episode_slug": "casey-winters",
+      "guest": "Casey Winters",
+      "episode_title": "Why most product managers are unprepared for the demands of a real startup | Casey Winters",
+      "verification_date": "2025-01-20",
+      "verified_by": "warp-agent",
+      "quotes": [
+        {
+          "id": "casey-winters-001",
+          "text": "A lot of managers and leaders would just try to deal with issues on their own and not raise them or escalate them with me. And some of these were really tough situations, so then later on, I'd ask why something went wrong. And I get feedback like, you don't understand the situation. Yeah, of course I don't understand this situation because you haven't told me about it. These people on my team thought that being a leader was handling it the best they could given the circumstances when in many cases the right way is to escalate the issue so that perhaps I could help them change the circumstances. I find that in general people just way under communicate upward inside of companies. And then they'll complain that executives are out of touch when they aren't telling executives what the executives need to know.",
+          "source": {
+            "line_start": 97,
+            "line_end": 100,
+            "timestamp": "00:07:11",
+            "speaker": "Casey Winters"
+          },
+          "context": "Explaining why communication upward is critical for leadership effectiveness",
+          "themes": [
+            "communication",
+            "leadership",
+            "alignment",
+            "escalation"
+          ],
+          "zones": [
+            "alignment"
+          ],
+          "verified": true
+        },
+        {
+          "id": "casey-winters-002",
+          "text": "If you're not an executive, whatever you're working on, you're basically writing and telling a story. And when you talk to an exec about that story, you have to start with chapter one, which is what part of the company strategy are you working on? What metrics are you trying to improve? What assumptions are you making? Many times when non-executives are presenting to execs, they'll start on like chapter six, so even if that part of the story is right, you haven't earned the right to tell that part of the story yet because you skipped the first five chapters.",
+          "source": {
+            "line_start": 103,
+            "line_end": 103,
+            "timestamp": "00:09:14",
+            "speaker": "Casey Winters"
+          },
+          "context": "Teaching PMs how to communicate effectively with executives",
+          "themes": [
+            "communication",
+            "strategy",
+            "storytelling",
+            "alignment"
+          ],
+          "zones": [
+            "alignment",
+            "data"
+          ],
+          "verified": true
+        },
+        {
+          "id": "casey-winters-003",
+          "text": "Executive communication is actually executives communication. You're communicating with individual executives that all have different styles and different concerns about the business or about the particular problem you're working on. And you want to anticipate that. The other thing that I push a lot of my team to do is have pre-meetings with some of those key individuals, so that they're going to be less surprised in the meeting about what you're talking about, that you've gotten any major concerns brought to your attention before the big meeting. And that helps de-risk how poorly a meeting like that can go.",
+          "source": {
+            "line_start": 115,
+            "line_end": 115,
+            "timestamp": "00:12:28",
+            "speaker": "Casey Winters"
+          },
+          "context": "Coaching PMs on how to prepare for important executive presentations",
+          "themes": [
+            "communication",
+            "preparation",
+            "alignment",
+            "de-risking"
+          ],
+          "zones": [
+            "alignment"
+          ],
+          "verified": true
+        },
+        {
+          "id": "casey-winters-004",
+          "text": "For any of these types of communications, how well do you really know the material, and how well do you really know what your audience is going to care about with that material so that you are prepared for every question you might get. If you haven't thought through all the questions that might be asked from the document that you're sharing or the presentation you're about to present, you're not prepared enough. You need to know the entire universe of how that meeting can go. And that may take you dozens of hours, it might take you three hours, but the most important thing is that you've asked what possible questions can be asked and am I prepared to answer all of those?",
+          "source": {
+            "line_start": 130,
+            "line_end": 130,
+            "timestamp": "00:16:17",
+            "speaker": "Casey Winters"
+          },
+          "context": "Explaining the importance of thorough preparation for key meetings",
+          "themes": [
+            "preparation",
+            "communication",
+            "diligence",
+            "alignment"
+          ],
+          "zones": [
+            "perfection",
+            "alignment"
+          ],
+          "verified": true
+        },
+        {
+          "id": "casey-winters-005",
+          "text": "The way that a lot of key decisions are made inside companies are through these types of forums and meetings. And it's an extremely high leverage piece of time for a product manager or a product designer in terms of how much impact they can have. If you are under preparing for those sorts of things, the chances of you being able to have the type of impact you want, to have the type of career growth you want just go down dramatically.",
+          "source": {
+            "line_start": 136,
+            "line_end": 136,
+            "timestamp": "00:17:33",
+            "speaker": "Casey Winters"
+          },
+          "context": "Emphasizing why meeting preparation is high-leverage work for PMs",
+          "themes": [
+            "leverage",
+            "preparation",
+            "impact",
+            "career-growth"
+          ],
+          "zones": [
+            "focus"
+          ],
+          "verified": true
+        },
+        {
+          "id": "casey-winters-006",
+          "text": "We strive for this concept of what we call perceived simplicity, which is there are advanced features in the product and they are easily discoverable when you look for them, but they're effectively hidden if you're not looking for them. And of course the majority of users aren't going to ever look for them, so the advanced more complex areas of the product don't make the product harder to use for the majority who will never need that level of complexity. WhatsApp does the best job of this. At its core, it's a chat app and it's really good at being a chat app. It would take less than a second to figure out how to use the more advanced stuff, but it's effectively kind of hidden if you're not looking for it.",
+          "source": {
+            "line_start": 151,
+            "line_end": 154,
+            "timestamp": "00:21:32",
+            "speaker": "Casey Winters"
+          },
+          "context": "Explaining Eventbrite's approach to adding complexity while maintaining simplicity",
+          "themes": [
+            "simplicity",
+            "ux",
+            "progressive-disclosure",
+            "design"
+          ],
+          "zones": [
+            "perfection",
+            "focus"
+          ],
+          "verified": true
+        },
+        {
+          "id": "casey-winters-007",
+          "text": "Some of the most impactful projects that product teams can work on at scale are the hardest to measure. And because of that, they just get chronically underfunded. For things like user experience, or performance, or developer velocity, or just a product area that's deemed un-sexy, you have to get a team to buy-in to this. You can't really do a lot of this work alone. If you can get a small team, like two, three people aligned on the importance of something that's deemed un-sexy, it's a lot easier to start to build this game plan around metrics or running small tests or structuring OKRs to not only prioritize this work, but to show some really massive impact. Which could then get the rest of the company much more excited to make investments themselves.",
+          "source": {
+            "line_start": 169,
+            "line_end": 172,
+            "timestamp": "00:24:49",
+            "speaker": "Casey Winters"
+          },
+          "context": "Discussing how to justify non-sexy product investments like stability and performance",
+          "themes": [
+            "alignment",
+            "metrics",
+            "unsexy-work",
+            "impact"
+          ],
+          "zones": [
+            "alignment",
+            "data"
+          ],
+          "verified": true
+        },
+        {
+          "id": "casey-winters-008",
+          "text": "When you're an early stage company, everything you're doing is trying to drive upside, trying to drive growth. But when you've actually built a real business, a lot of times people are still in that same mode. But when you're at scale, you can actually lose what you've built. Trying to help whether it's executives or just your manager, understand that this thing we've got, whether it's a high conversion rate or good engagement on this feature, it could go away if we don't do these other things. And here's what it would look like if that goes away, that can be incredibly powerful. Protecting what we've got actually is increasingly important once you build scale, because now you've built something really valuable already.",
+          "source": {
+            "line_start": 187,
+            "line_end": 190,
+            "timestamp": "00:27:57",
+            "speaker": "Casey Winters"
+          },
+          "context": "Explaining the shift from pure growth to protecting value at scale",
+          "themes": [
+            "scale",
+            "retention",
+            "value-protection",
+            "growth"
+          ],
+          "zones": [
+            "data",
+            "focus"
+          ],
+          "verified": true
+        },
+        {
+          "id": "casey-winters-009",
+          "text": "User expectations just continue to go up every day in terms of their expectations on user experience, on the value that they expect your product to provide, but also the competitive landscape in the market continues to get better. If you're not continually pushing to make your product better, your user experience better, your latency better, then you're eventually not necessarily tomorrow, but maybe in a year, maybe in five years, you might find yourself fall out of product market fit entirely. And that's a really dangerous place to be, because then it's going to take a long time to figure that out and make adjustments.",
+          "source": {
+            "line_start": 196,
+            "line_end": 196,
+            "timestamp": "00:29:54",
+            "speaker": "Casey Winters"
+          },
+          "context": "Warning that product-market fit erodes over time without continuous improvement",
+          "themes": [
+            "pmf",
+            "competition",
+            "continuous-improvement",
+            "ux"
+          ],
+          "zones": [
+            "discovery",
+            "perfection"
+          ],
+          "verified": true
+        },
+        {
+          "id": "casey-winters-010",
+          "text": "Product leaders can struggle with assuming that questions from executives are them trying to learn versus them assuming you don't know something and testing you about it. I find that a lot of people get intimidated by executive questions when the executive is just trying to understand things. And then that changes the interaction you can have. Refusing to specialize served me well. I thought if I could learn all the skills that would allow me to combine them to work on the most important things versus only work on the thing I knew how to work on. That was a much faster path to the true executive role because I could speak better with CEOs about more topics than most of my peers.",
+          "source": {
+            "line_start": 252,
+            "line_end": 253,
+            "timestamp": "00:39:47",
+            "speaker": "Casey Winters"
+          },
+          "context": "Sharing advice on how to get to CPO level",
+          "themes": [
+            "executive-communication",
+            "learning",
+            "generalist",
+            "career-growth"
+          ],
+          "zones": [
+            "discovery",
+            "intuition"
+          ],
+          "verified": true
+        },
+        {
+          "id": "casey-winters-011",
+          "text": "Early on in your career as a PM, you're going to get the most value by showing that you can ship real things to customers and that the customers like them. But if you want to start managing groups of PMs, if you want to start running a business unit, or a pillar, or a theme. I as a chief product officer, I'm going to expect you to be able to write that strategy doc without me. A lot of people couldn't do that step. And that means when you try to become a product leader at the company and the CEO expects that from you and you can't do it, you're going to set yourself up to really cap hard on how fast your career can grow. That's definitely where I've seen the biggest bottleneck in terms of skill sets. That one to get to the top is the great filter.",
+          "source": {
+            "line_start": 280,
+            "line_end": 283,
+            "timestamp": "00:45:30",
+            "speaker": "Casey Winters"
+          },
+          "context": "Explaining that strategic thinking is the key skill for PMs to advance to leadership",
+          "themes": [
+            "strategy",
+            "career-growth",
+            "leadership",
+            "skill-development"
+          ],
+          "zones": [
+            "focus",
+            "discovery"
+          ],
+          "verified": true
+        },
+        {
+          "id": "casey-winters-012",
+          "text": "The goal of your kindle strategies, these like non-scalable hacks, they only exist to unlock the fire strategies, to unlock the things that could take you to millions of users. It's once you unlock a fire strategy, that's when I think you think about hiring someone full time on growth to fully harness that new growth loop you've built. I still think data network effects are underrated. Leveraging product usage data to make the product value stronger and stronger over time. That could be personalized results in the case of Pinterest or better targeting data for advertising. Especially with Facebook and Apple's platform changes your product being able to generate its own data, versus just relying on the big platforms to do all the work for you. That's a real edge.",
+          "source": {
+            "line_start": 343,
+            "line_end": 352,
+            "timestamp": "00:51:24",
+            "speaker": "Casey Winters"
+          },
+          "context": "Discussing growth strategy phases and the power of data network effects",
+          "themes": [
+            "growth",
+            "data-network-effects",
+            "scaling",
+            "strategy"
+          ],
+          "zones": [
+            "data",
+            "velocity"
+          ],
+          "verified": true
+        }
+      ],
+      "takeaways": [
+        "Under-communication upward kills alignment - escalate issues early so executives can help change circumstances, not just judge outcomes",
+        "Present to executives like telling a story - start with strategy/metrics/assumptions (chapter 1), not implementation details (chapter 6)",
+        "Thorough meeting prep is high-leverage work - anticipate every question, run pre-meetings, know the entire universe of how it can go",
+        "Perceived simplicity hides complexity well - advanced features easily discoverable when sought, effectively hidden when not (see WhatsApp)",
+        "Strategic thinking is the great filter for PM career growth - shipping is table stakes, writing strategy without help unlocks leadership"
+      ],
+      "zone_influence": {
+        "velocity": 0.1,
+        "perfection": 0.15,
+        "discovery": 0.15,
+        "data": 0.2,
+        "intuition": 0.05,
+        "alignment": 0.25,
+        "chaos": 0.05,
+        "focus": 0.05
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "casey-winters-001",
+          "why": "Blames PMs for under-communicating, not executives for being out of touch - flips typical complaint",
+          "related_zones": [
+            "alignment"
+          ]
+        },
+        {
+          "quoteId": "casey-winters-009",
+          "why": "Product-market fit erodes constantly and you'll fall out of PMF - challenges idea that PMF is permanent",
+          "related_zones": [
+            "discovery",
+            "perfection"
+          ]
+        }
+      ]
+    },
+    {
+      "episode_slug": "dylan-field",
+      "guest": "Dylan Field",
+      "episode_title": "Figma's CEO: Why AI makes design, craft, and quality the new moat for startups | Dylan Field",
+      "verification_date": "2026-01-20",
+      "verified_by": "warp-agent",
+      "quotes": [
+        {
+          "id": "dylan-field-001",
+          "text": "Design is art applied to problem solving. I think that design is often... There is some component of creativity to it and unique expression that you're trying to provide and create and put out into the world. But you are also trying to do it and match it to a user need, a problem that needs to be solved. And I think that it's not pure art, but if you lose the art and you're just solving the problem, it's totally utilitarian and it lacks soul.",
+          "source": {
+            "line_start": 100,
+            "line_end": 100,
+            "timestamp": "07:09",
+            "speaker": "Dylan Field"
+          },
+          "themes": [
+            "design",
+            "craft",
+            "problem-solving",
+            "vision",
+            "quality"
+          ],
+          "zones": [
+            "perfection",
+            "intuition"
+          ]
+        },
+        {
+          "id": "dylan-field-002",
+          "text": "Intuition is like a hypothesis generator and you're constantly generating these hypotheses and others are generating hypotheses as well. And you then take these hypotheses and you put them forward and you debate them and you try to find data to support them or negate them. And then you winnow it down into what is our working hypothesis? And from that you move forward.",
+          "source": {
+            "line_start": 199,
+            "line_end": 199,
+            "timestamp": "11:19",
+            "speaker": "Dylan Field"
+          },
+          "themes": [
+            "intuition",
+            "decision-making",
+            "hypotheses",
+            "data",
+            "product-management"
+          ],
+          "zones": [
+            "intuition",
+            "discovery",
+            "data"
+          ]
+        },
+        {
+          "id": "dylan-field-003",
+          "text": "I think the more concrete an artifact is or the more you can debate something, the better. I ask for examples a lot, I try to ask follow up questions about things and make sure I fully understand it. And I think where I get stuck sometimes is if I ask follow up questions and we don't have answers yet, and then my response might be, 'Let's go find the answer to these questions and then let's go back to this conversation.'",
+          "source": {
+            "line_start": 220,
+            "line_end": 220,
+            "timestamp": "15:05",
+            "speaker": "Dylan Field"
+          },
+          "themes": [
+            "decision-making",
+            "leadership",
+            "first-principles",
+            "learning"
+          ],
+          "zones": [
+            "discovery",
+            "focus"
+          ]
+        },
+        {
+          "id": "dylan-field-004",
+          "text": "Good product people are able to create great frameworks that bring everyone along with them. And so everyone's able to have a shared head space around what it is they're trying to get to. The best PMs create those frameworks that bring everyone else along and those frameworks also have a point of view and a strategy associated with them. So you're able to take the strategy, take the point of view, wrap it all up in a framework, and then make it so that everyone knows what the destination is and how to get there.",
+          "source": {
+            "line_start": 247,
+            "line_end": 259,
+            "timestamp": "20:16",
+            "speaker": "Dylan Field"
+          },
+          "themes": [
+            "product-management",
+            "frameworks",
+            "strategy",
+            "alignment",
+            "leadership"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ]
+        },
+        {
+          "id": "dylan-field-005",
+          "text": "One plus one does not equal three, it sometimes equals one and a half. And the more that you add and the more that you continue to put in something, the more complex it gets and the worse it gets. And I think this is definitely true for tools. We can make it more powerful, but to do that in a way that's not making it more complex at the same time is extremely hard.",
+          "source": {
+            "line_start": 265,
+            "line_end": 267,
+            "timestamp": "23:06",
+            "speaker": "Dylan Field"
+          },
+          "themes": [
+            "simplicity",
+            "complexity",
+            "design",
+            "product-management"
+          ],
+          "zones": [
+            "perfection",
+            "focus"
+          ]
+        },
+        {
+          "id": "dylan-field-006",
+          "text": "Keep the simple things simple. Make the complex things possible. I think that's a really important principle to hold as you're designing tools. And I'd say that it's really easy to make the simple things complex, unfortunately.",
+          "source": {
+            "line_start": 289,
+            "line_end": 289,
+            "timestamp": "25:46",
+            "speaker": "Dylan Field"
+          },
+          "themes": [
+            "simplicity",
+            "design",
+            "principles",
+            "craft"
+          ],
+          "zones": [
+            "perfection",
+            "focus"
+          ]
+        },
+        {
+          "id": "dylan-field-007",
+          "text": "Get it out as fast as you possibly can. Everything they tell you about making sure that you get a product out really quickly is totally true. The faster you get it out, the more feedback you get. That is a positive thing. And now I index on that when we try to build.",
+          "source": {
+            "line_start": 312,
+            "line_end": 313,
+            "timestamp": "27:49",
+            "speaker": "Dylan Field"
+          },
+          "themes": [
+            "velocity",
+            "shipping",
+            "iteration",
+            "feedback"
+          ],
+          "zones": [
+            "velocity",
+            "discovery"
+          ]
+        },
+        {
+          "id": "dylan-field-008",
+          "text": "For a new launch, you got quality, features, deadline, choose two. And I think that the beautiful thing about software is you can keep iterating on it. So it's not like a physical product where you have to always have quality in there, otherwise it's never going to have quality. You can ship it with features and deadline and then improve it iteratively over time.",
+          "source": {
+            "line_start": 328,
+            "line_end": 328,
+            "timestamp": "29:32",
+            "speaker": "Dylan Field"
+          },
+          "themes": [
+            "tradeoffs",
+            "shipping",
+            "quality",
+            "iteration",
+            "strategy"
+          ],
+          "zones": [
+            "velocity",
+            "perfection",
+            "focus"
+          ]
+        },
+        {
+          "id": "dylan-field-009",
+          "text": "I constructed this list of, 'Here are the most central designers in the graph', but also then I looked at their work. And the ones that I was really inspired by as a total fanboy, and someone who wanted to learn as much as I could about design, was inspired by these folks, the ones I was inspired by I reached out to and said, 'Hey, can I buy you a coffee?' And I think it started honestly more as me fanboy and me getting feedback.",
+          "source": {
+            "line_start": 337,
+            "line_end": 340,
+            "timestamp": "31:01",
+            "speaker": "Dylan Field"
+          },
+          "themes": [
+            "user-research",
+            "learning",
+            "community",
+            "feedback",
+            "growth"
+          ],
+          "zones": [
+            "discovery",
+            "velocity"
+          ]
+        },
+        {
+          "id": "dylan-field-010",
+          "text": "When people give you advice, they're not giving you advice, they're giving themselves advice in your shoes. I think that's an interesting one. So if I gave you advice here, I'm giving myself advice in your shoes.",
+          "source": {
+            "line_start": 496,
+            "line_end": 496,
+            "timestamp": "45:22",
+            "speaker": "Dylan Field"
+          },
+          "themes": [
+            "advice",
+            "mentorship",
+            "learning",
+            "perspective"
+          ],
+          "zones": [
+            "intuition",
+            "discovery"
+          ]
+        },
+        {
+          "id": "dylan-field-011",
+          "text": "Mentors can come from anywhere. It can come from the community. Mentorship can come from the people you hire. It can come from folks that you actively seek out as investors or explicit mentorship and mentors. There have been plenty of people where they ask me a question at some point and I give them an answer and they think it's insightful for whatever reason. And then years later where we're talking again and I ask them a question and they're like, 'Well, years ago you told me...' And they repeat back what I told them like, 'That's a really good point.'",
+          "source": {
+            "line_start": 433,
+            "line_end": 433,
+            "timestamp": "39:51",
+            "speaker": "Dylan Field"
+          },
+          "themes": [
+            "mentorship",
+            "learning",
+            "growth",
+            "leadership"
+          ],
+          "zones": [
+            "discovery",
+            "alignment"
+          ]
+        }
+      ],
+      "takeaways": [
+        "Intuition is a hypothesis generator - constantly generate hypotheses, debate them with data, winnow down to working hypotheses",
+        "Design = art applied to problem solving. Without art it's utilitarian and lacks soul; without problem-solving it's not useful",
+        "For new launches: quality, features, deadline - choose two. Software can be iterated so you can ship with less and improve over time",
+        "Keep simple things simple, make complex things possible - but it's extremely hard to add power without adding complexity",
+        "Ship as fast as possible to get feedback - speed of iteration matters more than perfection at launch"
+      ],
+      "zone_influence": {
+        "intuition": 0.3,
+        "perfection": 0.25,
+        "discovery": 0.2,
+        "focus": 0.15,
+        "velocity": 0.1
+      }
+    },
+    {
+      "episode_slug": "elena-verna",
+      "guest": "Elena Verna",
+      "episode_title": "10 growth tactics that never work | Elena Verna (Amplitude, Miro, Dropbox, SurveyMonkey)",
+      "verification_date": "2026-01-20",
+      "verified_by": "warp-agent",
+      "quotes": [
+        {
+          "id": "elena-verna-001",
+          "text": "You have to fail to learn. You can't just constantly succeed. Success is an output of a lot of failures, but the question is, how much time do you have to fail? And a lot of times we don't realize how many failure cycles we're going to have to go through before we get a success, and that company, or even market, has no time for that.",
+          "source": {
+            "line_start": 337,
+            "line_end": 337,
+            "timestamp": "00:40:12",
+            "speaker": "Elena Verna"
+          },
+          "themes": [
+            "experimentation",
+            "growth",
+            "failure",
+            "learning",
+            "velocity"
+          ],
+          "zones": [
+            "velocity",
+            "chaos"
+          ]
+        },
+        {
+          "id": "elena-verna-002",
+          "text": "Growth cannot function without data. If you have 10 users or 10 customers, that's not data, that's a G-sheet with your customers and you don't need a growth team for that. Until you have data that you can actually do an analysis and you can create hypotheses on and you can start applying experimentation, don't even think about growth team.",
+          "source": {
+            "line_start": 112,
+            "line_end": 112,
+            "timestamp": "00:10:35",
+            "speaker": "Elena Verna"
+          },
+          "themes": [
+            "data",
+            "growth",
+            "metrics",
+            "experimentation",
+            "product-market-fit"
+          ],
+          "zones": [
+            "data",
+            "velocity"
+          ]
+        },
+        {
+          "id": "elena-verna-003",
+          "text": "Growth can amplify great product market fit and growth can help you grow faster once you are already growing. But if you are slowing down and you have issues with either your go-to-market strategy or your core product strategy with your core product market fit, growth is going to be absolutely helpless to do anything.",
+          "source": {
+            "line_start": 178,
+            "line_end": 178,
+            "timestamp": "00:16:59",
+            "speaker": "Elena Verna"
+          },
+          "themes": [
+            "product-market-fit",
+            "growth",
+            "strategy",
+            "retention"
+          ],
+          "zones": [
+            "discovery",
+            "focus"
+          ]
+        },
+        {
+          "id": "elena-verna-004",
+          "text": "Never ever once have I seen a rebrand or redesign, especially of UK marketing site produce good performance results. New CMO comes in designing their website or designing the brand as if it was reflection of their personal taste, and oftentimes it's promised with our acquisition is going to go up and it never materializes into anything meaningful.",
+          "source": {
+            "line_start": 193,
+            "line_end": 193,
+            "timestamp": "00:20:22",
+            "speaker": "Elena Verna"
+          },
+          "themes": [
+            "marketing",
+            "design",
+            "optimization",
+            "acquisition"
+          ],
+          "zones": [
+            "data",
+            "perfection"
+          ]
+        },
+        {
+          "id": "elena-verna-005",
+          "text": "Benchmarks are usually done on all of the competition, on all of the softwares out there. And the way people define numbers is so different from company to company. Even if you look as something as simple as signups. So taking also any benchmark that is derived from competition and saying, 'This is where we should be,' is also so dangerous because it might not even be applicable depending on how you define the metric.",
+          "source": {
+            "line_start": 253,
+            "line_end": 256,
+            "timestamp": "00:29:21",
+            "speaker": "Elena Verna"
+          },
+          "themes": [
+            "metrics",
+            "data",
+            "benchmarking",
+            "competition"
+          ],
+          "zones": [
+            "data",
+            "discovery"
+          ]
+        },
+        {
+          "id": "elena-verna-006",
+          "text": "There are patterns and there are frameworks, but there's no shortcuts.",
+          "source": {
+            "line_start": 262,
+            "line_end": 262,
+            "timestamp": "00:30:20",
+            "speaker": "Elena Verna"
+          },
+          "themes": [
+            "frameworks",
+            "patterns",
+            "growth",
+            "decision-making"
+          ],
+          "zones": [
+            "focus",
+            "data"
+          ]
+        },
+        {
+          "id": "elena-verna-007",
+          "text": "Your problem is not unique. I am 99% sure of that. Your problem has been felt by somebody somewhere in probably many, many places and you trying to re-engineer solution is time lost to market and has a huge opportunity cost. Do not start from scratch. It's the worst thing that you can do because you can waste so many cycles on trying to do something that probably has already been solved.",
+          "source": {
+            "line_start": 301,
+            "line_end": 304,
+            "timestamp": "00:34:49",
+            "speaker": "Elena Verna"
+          },
+          "themes": [
+            "problem-solving",
+            "patterns",
+            "velocity",
+            "learning"
+          ],
+          "zones": [
+            "velocity",
+            "discovery"
+          ]
+        },
+        {
+          "id": "elena-verna-008",
+          "text": "Focusing on these earned channels that you own becomes the outmost priority. And if you don't have them on your growth roadmap, you are going to be in some really big trouble over the next year to two years because your cost of acquisition is only going to go up. Your competition and those channel is only going to go up.",
+          "source": {
+            "line_start": 394,
+            "line_end": 394,
+            "timestamp": "00:47:05",
+            "speaker": "Elena Verna"
+          },
+          "themes": [
+            "acquisition",
+            "channels",
+            "virality",
+            "product-led-growth"
+          ],
+          "zones": [
+            "velocity",
+            "focus"
+          ]
+        },
+        {
+          "id": "elena-verna-009",
+          "text": "If every single one of your initiatives that you're doing on growth is an experiment, that's a problem. It's almost like a disease, like a paralyzing disease, that slows down progress, that slows down velocity, that slows down learnings, that creates very terrible consequences to the output that growth teams produce.",
+          "source": {
+            "line_start": 508,
+            "line_end": 511,
+            "timestamp": "01:06:47",
+            "speaker": "Elena Verna"
+          },
+          "themes": [
+            "experimentation",
+            "velocity",
+            "decision-making",
+            "paralysis"
+          ],
+          "zones": [
+            "velocity",
+            "intuition"
+          ]
+        },
+        {
+          "id": "elena-verna-010",
+          "text": "Data is good, but data is only good if you have enough of it. So if you have low volume real estate, that is going to take you eight months to reach some sort of answer. Do you really want to test it for eight months? My rule of thumb, if we cannot collect the sample size in the month, we shouldn't test it, period.",
+          "source": {
+            "line_start": 517,
+            "line_end": 517,
+            "timestamp": "01:07:52",
+            "speaker": "Elena Verna"
+          },
+          "themes": [
+            "data",
+            "experimentation",
+            "metrics",
+            "velocity",
+            "decision-making"
+          ],
+          "zones": [
+            "data",
+            "velocity",
+            "intuition"
+          ]
+        },
+        {
+          "id": "elena-verna-011",
+          "text": "People stop in this age of data, almost rely enough on their element intuition. Experimentation cannot be the way that people make decisions in the company. There's still so much about knowing your user, understanding the market for your brain to connect all of those dots and to know what needs to be an experience that your customers are going to want.",
+          "source": {
+            "line_start": 529,
+            "line_end": 520,
+            "timestamp": "01:10:08",
+            "speaker": "Elena Verna"
+          },
+          "themes": [
+            "intuition",
+            "decision-making",
+            "data",
+            "user-research"
+          ],
+          "zones": [
+            "intuition",
+            "discovery",
+            "data"
+          ]
+        },
+        {
+          "id": "elena-verna-012",
+          "text": "Growth teams are often too obsessed about removing friction. If you ever have a line item on your roadmap that says simplified onboarding, please cross it out. It's not going to work because simplifying onboarding is an action. What is the problem that you're solving? You always have a problem of people are confused in it, but people don't know where to go or they get lost in it or they're not educated enough. That is the problem.",
+          "source": {
+            "line_start": 549,
+            "line_end": 553,
+            "timestamp": "01:13:09",
+            "speaker": "Elena Verna"
+          },
+          "themes": [
+            "friction",
+            "onboarding",
+            "problem-solving",
+            "optimization"
+          ],
+          "zones": [
+            "discovery",
+            "focus"
+          ]
+        }
+      ],
+      "takeaways": [
+        "Growth requires real data (not 10 users) and proven PMF before you can experiment and optimize effectively",
+        "Over-testing everything creates paralysis - trust your intuition when you don't have volume for fast statistical significance",
+        "Benchmarks are dangerous because companies define metrics differently - focus on your own patterns",
+        "Your problems aren't unique - seek out people who've solved similar problems rather than starting from scratch",
+        "Earned channels (virality, UGC, word-of-mouth) are more sustainable than paid/algorithmic channels you don't control"
+      ],
+      "zone_influence": {
+        "data": 0.35,
+        "velocity": 0.25,
+        "intuition": 0.15,
+        "discovery": 0.1,
+        "focus": 0.1,
+        "chaos": 0.05
+      }
+    },
+    {
+      "episode_slug": "jason-fried",
+      "guest": "Jason Fried",
+      "episode_title": "How to get press for your product | Jason Feifer (editor in chief of Entrepreneur magazine)",
+      "verification_date": "2025-01-20",
+      "verified_by": "warp-agent",
+      "quotes": [
+        {
+          "id": "jason-fried-001",
+          "text": "We run a very different kind of business. We are focused on efficiency, we're not focused on growth. We don't have any salespeople. We don't have 15 different versions of Basecamp. We're not after enterprise, so we don't have the enormous support costs and enormous support infrastructure required to service customers like that. Nobody can pay us more than 300 bucks. What that allows us to do is to just build one product, do a really nice job, keep it tight, and simple, and clear, and not have the complexity that comes with trying to service and satisfy so many different kinds of companies at different price levels with different price points and different expectations.",
+          "source": {
+            "line_start": 100,
+            "line_end": 103,
+            "timestamp": "00:10:31",
+            "speaker": "Jason Fried",
+            "video_id": "LZLdoAq3R7Y"
+          },
+          "context": "Explaining why 37signals has 75 employees while competitors have 1000-3000 employees with similar customer counts",
+          "themes": [
+            "simplicity",
+            "constraints",
+            "focus",
+            "efficiency"
+          ],
+          "zones": [
+            "focus"
+          ],
+          "verified": true
+        },
+        {
+          "id": "jason-fried-002",
+          "text": "We build products with two people at a time. So every feature we work on in Basecamp, or HEY, or whatever we're building is two people, one programmer, one designer, and they have a maximum of six weeks to deliver the feature that they're working on. Most of them are usually a couple of weeks, but they have a maximum of six weeks. So we don't get stuck in these big huge projects, with meetings with 18 people, and slow decision-making, and indecision, and complexity, and all the things that come with trying to do too many things for too many people.",
+          "source": {
+            "line_start": 106,
+            "line_end": 106,
+            "timestamp": "00:11:58",
+            "speaker": "Jason Fried",
+            "video_id": "LZLdoAq3R7Y"
+          },
+          "context": "Describing 37signals' Shape Up methodology for product development",
+          "themes": [
+            "small teams",
+            "constraints",
+            "velocity",
+            "simplicity"
+          ],
+          "zones": [
+            "velocity",
+            "focus"
+          ],
+          "verified": true
+        },
+        {
+          "id": "jason-fried-003",
+          "text": "We think that constraints, simplicity, small teams actually are where it's at, and keep us honest, and allow us to do great work for our customer base that we know, small businesses, very tight companies like ours. If you gave me 1,000 people, I wouldn't know what to do with them. We would fall apart. If you gave me 500 people, I wouldn't know what to do with them. We would fall apart. We would be a worse off company with 500 people. I'd be completely lost.",
+          "source": {
+            "line_start": 109,
+            "line_end": 109,
+            "timestamp": "00:12:49",
+            "speaker": "Jason Fried",
+            "video_id": "LZLdoAq3R7Y"
+          },
+          "context": "Discussing why staying small is intentional, not just a stepping stone",
+          "themes": [
+            "constraints",
+            "small teams",
+            "simplicity"
+          ],
+          "zones": [
+            "focus",
+            "chaos"
+          ],
+          "verified": true
+        },
+        {
+          "id": "jason-fried-004",
+          "text": "For me, it's really about, would I want to do this again? If the answer is, 'Yeah, that was enjoyable. I enjoyed that. That was worthwhile. I'm glad I did that. I'd like to do that again,' then it was successful. On the business side of things, we have to be profitable. It's in total, collectively, are we making more money than we spend? That's the only thing we ultimately look at. We don't have financial goals. We don't have OKRs or KPIs. I don't have revenue targets. I don't have growth targets. It's just, at the end, 'Did we make more than we spend? We did. Then the things we did this year were worth it.'",
+          "source": {
+            "line_start": 139,
+            "line_end": 145,
+            "timestamp": "00:14:53",
+            "speaker": "Jason Fried",
+            "video_id": "LZLdoAq3R7Y"
+          },
+          "context": "Defining what success means at 37signals - enjoyment over metrics",
+          "themes": [
+            "success metrics",
+            "profit",
+            "goals",
+            "sustainability"
+          ],
+          "zones": [
+            "chaos",
+            "intuition"
+          ],
+          "verified": true
+        },
+        {
+          "id": "jason-fried-005",
+          "text": "This is my day job. I want to create the company that I want to work at, and I want to keep doing this job for as long as I can. As long as I'm useful, I'm good at it, I enjoy it, I want to keep doing that. To get in bed with an investment that would say, 'In five years you have to stop doing what you're doing, you're going to get a big paycheck maybe, but you got to stop doing what you're doing because we're going to sell this business,' that just has no appeal to me at all. I'd rather just keep doing the thing that I'm enjoying doing, as long as I can continue to make it work.",
+          "source": {
+            "line_start": 166,
+            "line_end": 169,
+            "timestamp": "00:18:31",
+            "speaker": "Jason Fried",
+            "video_id": "LZLdoAq3R7Y"
+          },
+          "context": "Discussing infinite games and why raising venture capital doesn't align with his goals",
+          "themes": [
+            "infinite games",
+            "independence",
+            "sustainability",
+            "bootstrapping"
+          ],
+          "zones": [
+            "chaos",
+            "focus"
+          ],
+          "verified": true
+        },
+        {
+          "id": "jason-fried-006",
+          "text": "There's only a few slots for a few companies like that at any one time. Meanwhile, there are hundreds or thousands of slots for other kinds of companies to make it if they don't go for the moon. My interest is optionality. If I could land in 135 different positions and have a sustainable business, that's great. Versus saying there's only one way I'm going to be successful or happy. Those odds aren't really in anyone's favor.",
+          "source": {
+            "line_start": 259,
+            "line_end": 259,
+            "timestamp": "00:29:29",
+            "speaker": "Jason Fried",
+            "video_id": "LZLdoAq3R7Y"
+          },
+          "context": "Explaining why the venture-backed unicorn path is not the only path to success",
+          "themes": [
+            "bootstrapping",
+            "optionality",
+            "alternatives",
+            "success"
+          ],
+          "zones": [
+            "chaos",
+            "focus"
+          ],
+          "verified": true
+        },
+        {
+          "id": "jason-fried-007",
+          "text": "We instead have appetites. And our appetite for any individual feature is no more than six weeks. Essentially that's our budget we're willing to spend. I'm only willing to spend six weeks on any feature. So we have to figure out the simplest, most effective version of that to get that done within six weeks and get it done by two people. Work expands to fill the time available. So for us it's about appetite.",
+          "source": {
+            "line_start": 280,
+            "line_end": 280,
+            "timestamp": "00:34:21",
+            "speaker": "Jason Fried",
+            "video_id": "LZLdoAq3R7Y"
+          },
+          "context": "Explaining the Shape Up methodology's concept of appetites vs estimates",
+          "themes": [
+            "appetites",
+            "constraints",
+            "velocity",
+            "simplicity"
+          ],
+          "zones": [
+            "velocity",
+            "focus"
+          ],
+          "verified": true
+        },
+        {
+          "id": "jason-fried-008",
+          "text": "Promises are the downfall of every business. Every time we've made a promise to get something out in a certain period of time and we kind of inevitably seem to miss it, it's funny how it's almost like it would've been out in time, but the fact that we'd promised it made it not deliver in time. There's some strange thing that happens when you promise things. So we've learned to not promise anything. The worst promise is by the end of the year. That's the one promise you got to be very careful of, because it's so easy to make. There's nothing easier than promising work later.",
+          "source": {
+            "line_start": 304,
+            "line_end": 304,
+            "timestamp": "00:38:43",
+            "speaker": "Jason Fried",
+            "video_id": "LZLdoAq3R7Y"
+          },
+          "context": "Discussing why they don't make promises about delivery dates",
+          "themes": [
+            "promises",
+            "deadlines",
+            "flexibility",
+            "planning"
+          ],
+          "zones": [
+            "chaos",
+            "velocity"
+          ],
+          "verified": true
+        },
+        {
+          "id": "jason-fried-009",
+          "text": "I think everything's a judgment call. Yeah, data can play a part. All sorts of things can play a part, but unless you're letting a machine make the decision, that's purely rational. If you're asking a human to make it's a judgment call. They're bringing to bear thousands of things they know and don't know about that influence them about this particular decision. When companies hire executives, what are they looking for? They typically go judgment and experience. They're not like they can read an Excel spreadsheet. They're looking for judgment and experience, which is a very amorphous thing.",
+          "source": {
+            "line_start": 337,
+            "line_end": 337,
+            "timestamp": "00:44:15",
+            "speaker": "Jason Fried",
+            "video_id": "LZLdoAq3R7Y"
+          },
+          "context": "Defending gut-driven decision making over data-driven approaches",
+          "themes": [
+            "intuition",
+            "judgment",
+            "decision-making",
+            "experience"
+          ],
+          "zones": [
+            "intuition"
+          ],
+          "verified": true
+        },
+        {
+          "id": "jason-fried-010",
+          "text": "Give your intuition credit. Give your gut credit. It's absorbed everything. And plus the things that you don't know it absorbed that are valuable. We ask people, what do you think? We might say, what do you know? But we also say, what do you think more often. We talk about how does this feel? How does this screen feel? How does this flow feel? How does this feature feel? Because human beings feel. While we have a logical side to us and a rational side to us, we're primarily feeling creatures.",
+          "source": {
+            "line_start": 343,
+            "line_end": 352,
+            "timestamp": "00:46:42",
+            "speaker": "Jason Fried",
+            "video_id": "LZLdoAq3R7Y"
+          },
+          "context": "Encouraging teams to trust their instincts and feelings in product decisions",
+          "themes": [
+            "intuition",
+            "gut feel",
+            "decision-making",
+            "product development"
+          ],
+          "zones": [
+            "intuition"
+          ],
+          "verified": true
+        },
+        {
+          "id": "jason-fried-011",
+          "text": "I didn't have any of this planned out. I didn't decide I wanted to be like this or like that. I just figure out what works and keep doing that until it doesn't. And then, maybe we do something else. We're very much an in-the-now company, making it up as we go. I'm not on a path. I can't see the path. I don't know where I'm going, and I'm perfectly comfortable with that. I think the further out you plan, the less you know about the decisions you're making. And by the time you get there, you're probably going to be wrong, or you're going to want to do something else.",
+          "source": {
+            "line_start": 457,
+            "line_end": 463,
+            "timestamp": "01:03:33",
+            "speaker": "Jason Fried",
+            "video_id": "LZLdoAq3R7Y"
+          },
+          "context": "Explaining why they don't do long-term planning and embrace uncertainty",
+          "themes": [
+            "planning",
+            "uncertainty",
+            "flexibility",
+            "intuition"
+          ],
+          "zones": [
+            "chaos",
+            "intuition"
+          ],
+          "verified": true
+        },
+        {
+          "id": "jason-fried-012",
+          "text": "The reason I think it's great for entrepreneurs to start bootstrapping is because they just have more practice making money. They get better and better and better at the fundamental skill you need to have ultimately to run a successful business, which is to make money. Getting good at spending money is not a valuable skill as getting good at making money. You need constraints. When you have just loads of money, you basically have very few constraints. That's what tends to lead to slop.",
+          "source": {
+            "line_start": 577,
+            "line_end": 586,
+            "timestamp": "01:18:36",
+            "speaker": "Jason Fried",
+            "video_id": "LZLdoAq3R7Y"
+          },
+          "context": "Explaining why bootstrapping teaches better business fundamentals than venture capital",
+          "themes": [
+            "bootstrapping",
+            "constraints",
+            "discipline",
+            "profitability"
+          ],
+          "zones": [
+            "focus",
+            "chaos"
+          ],
+          "verified": true
+        }
+      ],
+      "takeaways": [
+        "Constraints and small teams breed better work than unlimited resources - staying small is a destination, not just a stepping stone",
+        "Success means wanting to do it again, not hitting arbitrary metrics - profitable enjoyment over growth targets and OKRs",
+        "Appetites (fixed time budgets) beat estimates - give features 6 weeks max, forcing simplicity and preventing endless projects",
+        "Bootstrapping teaches the fundamental skill of making money through practice and constraints, while VC money teaches spending",
+        "Trust gut and intuition in decisions - executives hire for judgment and experience, not Excel-reading ability"
+      ],
+      "zone_influence": {
+        "velocity": 0.1,
+        "perfection": 0.05,
+        "discovery": 0.05,
+        "data": 0.05,
+        "intuition": 0.2,
+        "alignment": 0.05,
+        "chaos": 0.3,
+        "focus": 0.2
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "jason-fried-004",
+          "why": "Rejects OKRs, revenue targets, and growth metrics entirely - success is just 'would I do this again?'",
+          "related_zones": [
+            "chaos",
+            "intuition"
+          ]
+        },
+        {
+          "quoteId": "jason-fried-008",
+          "why": "Claims promises are the downfall of every business - directly challenges roadmap/commitment culture",
+          "related_zones": [
+            "chaos",
+            "velocity"
+          ]
+        },
+        {
+          "quoteId": "jason-fried-009",
+          "why": "Everything is a judgment call, not data-driven - executives hired for judgment, not Excel skills",
+          "related_zones": [
+            "intuition"
+          ]
+        }
+      ]
+    },
+    {
+      "episode_slug": "marty-cagan",
+      "guest": "Marty Cagan",
+      "episode_title": "Product management theater | Marty Cagan (Silicon Valley Product Group)",
+      "verification_date": "2026-01-20",
+      "verified_by": "warp-agent",
+      "quotes": [
+        {
+          "id": "marty-cagan-001",
+          "text": "There is no question that a lot of companies overhired during the pandemic. I go into some companies and honestly I can't believe all the ridiculous roles that they have, agile coaches and product owners and product ops and business analysts. They're dramatically overpaid for the value they provide. Because it's a project management role.",
+          "source": {
+            "line_start": 39,
+            "line_end": 45,
+            "timestamp": "00:00:00",
+            "speaker": "Marty Cagan"
+          },
+          "themes": [
+            "hiring",
+            "roles",
+            "product-management",
+            "theater"
+          ],
+          "zones": [
+            "focus",
+            "perfection"
+          ]
+        },
+        {
+          "id": "marty-cagan-002",
+          "text": "Too many people in our industry view themselves as a victim of their company, like they're stuck in a feature team and there's nothing they can do about it other than quit. I think that's not true. There is so much they can do.",
+          "source": {
+            "line_start": 51,
+            "line_end": 51,
+            "timestamp": "00:00:31",
+            "speaker": "Marty Cagan"
+          },
+          "themes": [
+            "empowerment",
+            "agency",
+            "feature-teams",
+            "mindset"
+          ],
+          "zones": [
+            "chaos",
+            "intuition"
+          ]
+        },
+        {
+          "id": "marty-cagan-003",
+          "text": "On a feature team, you're basically given a roadmap of output. Their features are projects. You're being asked to design, build, test, deploy that feature. It is a lot easier to deliver output than it is to deliver outcomes. A product team, instead of being given that roadmap of features, they're given problems to solve.",
+          "source": {
+            "line_start": 150,
+            "line_end": 150,
+            "timestamp": "00:21:01",
+            "speaker": "Marty Cagan"
+          },
+          "themes": [
+            "outcomes",
+            "feature-teams",
+            "empowerment",
+            "product-management"
+          ],
+          "zones": [
+            "discovery",
+            "focus"
+          ]
+        },
+        {
+          "id": "marty-cagan-004",
+          "text": "Strong product companies understand it's all about outcomes. You just don't get points for shipping, you get points for delivering the value. It's about time to money more than time to market. We know how to do time to market. The harder part is time to money.",
+          "source": {
+            "line_start": 153,
+            "line_end": 153,
+            "timestamp": "00:22:51",
+            "speaker": "Marty Cagan"
+          },
+          "themes": [
+            "outcomes",
+            "value",
+            "metrics",
+            "strategy"
+          ],
+          "zones": [
+            "data",
+            "focus",
+            "velocity"
+          ]
+        },
+        {
+          "id": "marty-cagan-005",
+          "text": "You need this person who understands the customers and understands the business deeply. That's where the product manager role came from. You need a different set of skills that your engineers and your designers almost never have. Those are very different skillsets.",
+          "source": {
+            "line_start": 156,
+            "line_end": 156,
+            "timestamp": "00:24:00",
+            "speaker": "Marty Cagan"
+          },
+          "themes": [
+            "product-management",
+            "skills",
+            "value",
+            "viability"
+          ],
+          "zones": [
+            "discovery",
+            "data"
+          ]
+        },
+        {
+          "id": "marty-cagan-006",
+          "text": "On a real empowered product team, product manager is a creator, not a facilitator. I always cringe when somebody tells me, oh, my job is to say why? And I'm like, 'Well, what do you do for the rest of the week besides the 10 minutes it takes you to say why?' It's ridiculous.",
+          "source": {
+            "line_start": 168,
+            "line_end": 168,
+            "timestamp": "00:24:58",
+            "speaker": "Marty Cagan"
+          },
+          "themes": [
+            "product-management",
+            "empowerment",
+            "creator",
+            "theater"
+          ],
+          "zones": [
+            "focus",
+            "perfection"
+          ]
+        },
+        {
+          "id": "marty-cagan-007",
+          "text": "I was not allowed to take the product manager role until I had visited 30 customers in person, 15 in the US, 15 in Europe. Those 30 customers changed my life because I thought I knew our customers and I really didn't.",
+          "source": {
+            "line_start": 171,
+            "line_end": 171,
+            "timestamp": "00:25:45",
+            "speaker": "Marty Cagan"
+          },
+          "themes": [
+            "user-research",
+            "customers",
+            "learning",
+            "discovery"
+          ],
+          "zones": [
+            "discovery"
+          ]
+        },
+        {
+          "id": "marty-cagan-008",
+          "text": "You're supposed to be the expert on the data. How is our product being used? How is that usage changing over time? Another big one is you are the person on the team that represents the compliance issues, the sales issues, the marketing issues, the financial cost issues, the monetization issues, go to market in general. This is all the product manager.",
+          "source": {
+            "line_start": 171,
+            "line_end": 173,
+            "timestamp": "00:26:51",
+            "speaker": "Marty Cagan"
+          },
+          "themes": [
+            "data",
+            "viability",
+            "product-management",
+            "expertise"
+          ],
+          "zones": [
+            "data",
+            "alignment"
+          ]
+        },
+        {
+          "id": "marty-cagan-009",
+          "text": "Most product management advice you find online, probably 90% of the content out there is from the feature team world or worse. Unless they get really lucky or they happen to have a manager that is guiding them in a good direction, it just propagates.",
+          "source": {
+            "line_start": 198,
+            "line_end": 198,
+            "timestamp": "00:33:11",
+            "speaker": "Marty Cagan"
+          },
+          "themes": [
+            "advice",
+            "learning",
+            "feature-teams",
+            "misinformation"
+          ],
+          "zones": [
+            "discovery",
+            "chaos"
+          ]
+        },
+        {
+          "id": "marty-cagan-010",
+          "text": "Product leaders do product strategy. Product teams don't do product strategy. That is the job, is to make these strategic decisions, the focus decisions, the bets you're going to place. Then you give those bets to the teams and you really do give them latitude to figure it out.",
+          "source": {
+            "line_start": 258,
+            "line_end": 261,
+            "timestamp": "00:45:03",
+            "speaker": "Marty Cagan"
+          },
+          "themes": [
+            "strategy",
+            "leadership",
+            "empowerment",
+            "alignment"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ]
+        },
+        {
+          "id": "marty-cagan-011",
+          "text": "Empowerment does not mean you set up this product team and they go decide what to work on. That would just be anarchy. Empowerment means the leaders do their job, come up with the bets, and then the teams are able to figure out the best way to solve those problems.",
+          "source": {
+            "line_start": 261,
+            "line_end": 261,
+            "timestamp": "00:46:08",
+            "speaker": "Marty Cagan"
+          },
+          "themes": [
+            "empowerment",
+            "strategy",
+            "alignment",
+            "leadership"
+          ],
+          "zones": [
+            "alignment",
+            "focus",
+            "discovery"
+          ]
+        },
+        {
+          "id": "marty-cagan-012",
+          "text": "If you are fundamentally a backlog administrator, good luck protecting that because already people are doing that with AI. That is not a good job prospect. For an empowered product manager, if your responsibility is value and viability, that's the real challenge left.",
+          "source": {
+            "line_start": 291,
+            "line_end": 294,
+            "timestamp": "00:52:38",
+            "speaker": "Marty Cagan"
+          },
+          "themes": [
+            "ai",
+            "skills",
+            "value",
+            "viability",
+            "future"
+          ],
+          "zones": [
+            "intuition",
+            "data",
+            "discovery"
+          ]
+        }
+      ],
+      "takeaways": [
+        "Product managers must be creators solving real problems, not facilitators managing backlogs - that's theater, not real PM work",
+        "Feature teams get roadmaps of output to ship; empowered product teams get problems to solve and are measured on outcomes",
+        "Strong PMs deeply understand customers (30+ visits), data (usage patterns), and business viability (legal, sales, monetization)",
+        "Most online PM advice (90%) comes from feature team environments and propagates the wrong model of product management",
+        "Empowerment means leaders set strategy and bets, teams figure out how to solve - not anarchy where teams pick their own problems"
+      ],
+      "zone_influence": {
+        "discovery": 0.3,
+        "focus": 0.2,
+        "alignment": 0.15,
+        "data": 0.15,
+        "perfection": 0.1,
+        "intuition": 0.05,
+        "chaos": 0.05,
+        "velocity": 0
+      }
+    },
+    {
+      "slug": "rahul-vohra",
+      "keyQuotes": [
+        {
+          "id": "rahul-vohra-q001",
+          "speaker": "Rahul Vohra",
+          "text": "There is no such thing as a truly viral product. Even Facebook in its heyday had a viral factor of about 0.7. What I mean is, no app has sustained a viral factor of greater than one for any real period of time. The true secret behind virality is word of mouth. It is the virality you can't measure that isn't a mechanic that isn't in a feature. It is when one user spontaneously tells another user about your product.",
+          "timestamp": "00:07:08",
+          "source": {
+            "slug": "rahul-vohra",
+            "path": "episodes/rahul-vohra/transcript.md",
+            "lineStart": 96,
+            "lineEnd": 102
+          },
+          "themes": [
+            "growth",
+            "virality",
+            "word-of-mouth"
+          ],
+          "zones": [
+            "velocity",
+            "perfection"
+          ]
+        },
+        {
+          "id": "rahul-vohra-q002",
+          "speaker": "Rahul Vohra",
+          "text": "The Switch log. It's born out of the observation that your calendar says what you thought you were going to do, but it's really only your trail of work that describes what you actually did. What if I just did whatever the heck I wanted? Every single time I change task I just Slack DM'd my EA and said, 'TS:,' and then a few words for the task I was doing.",
+          "timestamp": "00:21:45",
+          "source": {
+            "slug": "rahul-vohra",
+            "path": "episodes/rahul-vohra/transcript.md",
+            "lineStart": 168,
+            "lineEnd": 168
+          },
+          "themes": [
+            "productivity",
+            "time-management",
+            "focus"
+          ],
+          "zones": [
+            "focus",
+            "data"
+          ]
+        },
+        {
+          "id": "rahul-vohra-q003",
+          "speaker": "Rahul Vohra",
+          "text": "I looked at all of the major font families, and honestly none of them was what I would call truly excellent. I was looking for a font that was in and of itself gorgeous, that could convey a message of any kind without overpowering the sentiment, that made reading speed and comprehension really fast, and that made email addresses themselves look great.",
+          "timestamp": "00:33:56",
+          "source": {
+            "slug": "rahul-vohra",
+            "path": "episodes/rahul-vohra/transcript.md",
+            "lineStart": 252,
+            "lineEnd": 255
+          },
+          "themes": [
+            "design",
+            "craft",
+            "details"
+          ],
+          "zones": [
+            "perfection",
+            "focus"
+          ]
+        },
+        {
+          "id": "rahul-vohra-q004",
+          "speaker": "Rahul Vohra",
+          "text": "Email is mission-critical. It's not something where you can simply launch with a half-baked product. When you have mission-critical products like email where you are interfacing with customers, with candidates, with investors, it turns out to really matter. That's why you can't just launch with a half-baked product.",
+          "timestamp": "00:42:08",
+          "source": {
+            "slug": "rahul-vohra",
+            "path": "episodes/rahul-vohra/transcript.md",
+            "lineStart": 294,
+            "lineEnd": 294
+          },
+          "themes": [
+            "product",
+            "quality",
+            "launch-strategy"
+          ],
+          "zones": [
+            "perfection",
+            "focus"
+          ]
+        },
+        {
+          "id": "rahul-vohra-q005",
+          "speaker": "Rahul Vohra",
+          "text": "You have to pick something. The most well-known brands have stood for one clear thing, they have a clear position. So in order for Superhuman to be memorable, I believed that we needed to occupy a clear position that was unique and which was available and which reinforced our product strategy. That's how speed became our position.",
+          "timestamp": "00:43:37",
+          "source": {
+            "slug": "rahul-vohra",
+            "path": "episodes/rahul-vohra/transcript.md",
+            "lineStart": 303,
+            "lineEnd": 303
+          },
+          "themes": [
+            "positioning",
+            "strategy",
+            "branding"
+          ],
+          "zones": [
+            "focus",
+            "velocity"
+          ]
+        },
+        {
+          "id": "rahul-vohra-q006",
+          "speaker": "Rahul Vohra",
+          "text": "At peak we had about 20 people doing manual onboarding. What we found is two things. Number one, the user metrics are excellent for things like engagement, retention, product market fit score, MPS, virality. And number two, in a world where you can easily and quickly raise funding, you can actually use dollars to avoid building a first-time user experience and instead focus all of your engineers on finding product market fit.",
+          "timestamp": "00:48:12",
+          "source": {
+            "slug": "rahul-vohra",
+            "path": "episodes/rahul-vohra/transcript.md",
+            "lineStart": 336,
+            "lineEnd": 348
+          },
+          "themes": [
+            "onboarding",
+            "growth",
+            "strategy"
+          ],
+          "zones": [
+            "velocity",
+            "focus",
+            "discovery"
+          ]
+        },
+        {
+          "id": "rahul-vohra-q007",
+          "speaker": "Rahul Vohra",
+          "text": "You can measure product market fit. You can optimize product market fit. You can systematically, even numerically increase product market fit. And you can even have an algorithm write your roadmap for you, and that is a roadmap that is guaranteed to increase product market fit.",
+          "timestamp": "00:53:12",
+          "source": {
+            "slug": "rahul-vohra",
+            "path": "episodes/rahul-vohra/transcript.md",
+            "lineStart": 360,
+            "lineEnd": 360
+          },
+          "themes": [
+            "product-market-fit",
+            "metrics",
+            "roadmap"
+          ],
+          "zones": [
+            "data",
+            "focus"
+          ]
+        },
+        {
+          "id": "rahul-vohra-q008",
+          "speaker": "Rahul Vohra",
+          "text": "To get to product market fit, you have to deliberately not act on the feedback of many of your early users. You're listening to people intensely and building what people want. But it can't be all people. The question becomes, how do you listen to them? And then even of what they say, what do you pay attention to and what don't you?",
+          "timestamp": "00:54:07",
+          "source": {
+            "slug": "rahul-vohra",
+            "path": "episodes/rahul-vohra/transcript.md",
+            "lineStart": 363,
+            "lineEnd": 363
+          },
+          "themes": [
+            "product-market-fit",
+            "user-feedback",
+            "focus"
+          ],
+          "zones": [
+            "focus",
+            "discovery"
+          ]
+        },
+        {
+          "id": "rahul-vohra-q009",
+          "speaker": "Rahul Vohra",
+          "text": "We should make business software like we make games, because when we make products like we make games, people find them fun. They tell their friends, they fall in love with them. It's another way of backing into word of mouth. It's not gamification, that doesn't work. Game design works, but game design is not gamification.",
+          "timestamp": "00:59:58",
+          "source": {
+            "slug": "rahul-vohra",
+            "path": "episodes/rahul-vohra/transcript.md",
+            "lineStart": 402,
+            "lineEnd": 402
+          },
+          "themes": [
+            "product-design",
+            "game-design",
+            "user-experience"
+          ],
+          "zones": [
+            "perfection",
+            "velocity"
+          ]
+        },
+        {
+          "id": "rahul-vohra-q010",
+          "speaker": "Rahul Vohra",
+          "text": "Make fun toys and then combine those into games. The best games are constructed out of toys. Why? Because then they are fun on both levels, the toy and the game itself. Think about the features of your product. Do those features indulge playful exploration? Are they fun even without a goal? Do they elicit moments of pleasant surprise?",
+          "timestamp": "01:03:12",
+          "source": {
+            "slug": "rahul-vohra",
+            "path": "episodes/rahul-vohra/transcript.md",
+            "lineStart": 414,
+            "lineEnd": 423
+          },
+          "themes": [
+            "product-design",
+            "game-design",
+            "user-experience"
+          ],
+          "zones": [
+            "perfection",
+            "intuition"
+          ]
+        },
+        {
+          "id": "rahul-vohra-q011",
+          "speaker": "Rahul Vohra",
+          "text": "SDR - Single Decisive Reason. For important decisions, you should be able to identify one reason that on its own supports the decision. All too often we rely on a collection of weak reasons to justify decisions. Multiple low quality reasons rarely add up to a high quality reason to do something.",
+          "timestamp": "01:19:22",
+          "source": {
+            "slug": "rahul-vohra",
+            "path": "episodes/rahul-vohra/transcript.md",
+            "lineStart": 513,
+            "lineEnd": 528
+          },
+          "themes": [
+            "decision-making",
+            "leadership",
+            "clarity"
+          ],
+          "zones": [
+            "focus",
+            "alignment"
+          ]
+        }
+      ],
+      "themes": [
+        "product-market-fit",
+        "design",
+        "craft",
+        "speed",
+        "positioning",
+        "game-design",
+        "growth",
+        "virality",
+        "focus",
+        "decision-making"
+      ],
+      "takeaways": [
+        "True virality comes from word of mouth, not viral mechanics - even Facebook never sustained a viral factor above 1.0. Focus on creating products people spontaneously tell others about.",
+        "Manual onboarding at scale is viable with the right economics - Superhuman had 20 people doing manual onboarding, which drove exceptional engagement metrics and let engineers focus on product-market fit instead of activation flows.",
+        "Product-market fit can be measured and systematically improved - focus on the 'somewhat disappointed' users for whom your main benefit resonates, not the people who already love you or those who don't care.",
+        "Game design (not gamification) makes products delightful - create 'toys' that are fun even without goals, that invite playful exploration and pleasant surprises, then combine them into games.",
+        "Single Decisive Reason (SDR) cuts through weak justifications - for any important decision, identify one reason that alone supports it. Multiple weak reasons rarely add up to a strong one."
+      ],
+      "zone_influence": {
+        "velocity": 0.15,
+        "perfection": 0.25,
+        "discovery": 0.15,
+        "data": 0.15,
+        "intuition": 0.1,
+        "alignment": 0.05,
+        "chaos": 0,
+        "focus": 0.15
+      }
+    }
+  ],
+  "quotes": [
+    {
+      "id": "amjad-masad-001",
+      "text": "Typically, you're bottlenecked where your ideas are not fitting in because they need to be made and they need to be made quickly. Now, you open up that bottleneck. So now actually making things is a lot easier. Actually, you become limited by how fast you can generate ideas.",
+      "source": {
+        "line_start": 43,
+        "line_end": 43,
+        "timestamp": "00:00:27",
+        "speaker": "Amjad Masad"
+      },
+      "themes": [
+        "velocity",
+        "ideas",
+        "bottlenecks",
+        "execution",
+        "creativity"
+      ],
+      "zones": [
+        "velocity",
+        "chaos"
+      ]
+    },
+    {
+      "id": "amjad-masad-002",
+      "text": "I could imagine whatever five years from now, someone running a billion-dollar company with zero employees where it's like the support is handled by AI, the development is handled by AI, and you're just building and creating this thing.",
+      "source": {
+        "line_start": 49,
+        "line_end": 49,
+        "timestamp": "00:00:47",
+        "speaker": "Amjad Masad"
+      },
+      "themes": [
+        "future",
+        "ai",
+        "automation",
+        "vision",
+        "startups"
+      ],
+      "zones": [
+        "chaos",
+        "intuition",
+        "velocity"
+      ]
+    },
+    {
+      "id": "amjad-masad-003",
+      "text": "The vision for Replit has always been is like, okay, making software is fun, is great, more people should do it, but so for more people to do it, it needs to be easier to do, it needs to be in one place, and it needs to be learnable.",
+      "source": {
+        "line_start": 67,
+        "line_end": 67,
+        "timestamp": "00:03:42",
+        "speaker": "Amjad Masad"
+      },
+      "themes": [
+        "vision",
+        "democratization",
+        "simplicity",
+        "accessibility"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ]
+    },
+    {
+      "id": "amjad-masad-004",
+      "text": "I often go with minimalist prompts. That's also how I code as well. I have a vague idea for what I want to build and iterate from there. Other people, product managers like to write PRDs and more descriptive things, and you can do either of those things.",
+      "source": {
+        "line_start": 124,
+        "line_end": 124,
+        "timestamp": "00:13:47",
+        "speaker": "Amjad Masad"
+      },
+      "themes": [
+        "iteration",
+        "building",
+        "process",
+        "flexibility"
+      ],
+      "zones": [
+        "chaos",
+        "velocity"
+      ]
+    },
+    {
+      "id": "amjad-masad-005",
+      "text": "If you think about it's like we're building as you were building, so we're building out the agent so that it can continue getting better as our users are also building their applications.",
+      "source": {
+        "line_start": 142,
+        "line_end": 142,
+        "timestamp": "00:17:56",
+        "speaker": "Amjad Masad"
+      },
+      "themes": [
+        "iteration",
+        "building",
+        "meta",
+        "velocity"
+      ],
+      "zones": [
+        "velocity",
+        "chaos"
+      ]
+    },
+    {
+      "id": "amjad-masad-006",
+      "text": "When the cost of things go down, the total consumption of it goes up. And so I think that's going to be the case of software. As the costs go down, people will just make a lot more software to improve their lives and to improve their work and start more startups and all of that.",
+      "source": {
+        "line_start": 229,
+        "line_end": 229,
+        "timestamp": "00:24:26",
+        "speaker": "Amjad Masad"
+      },
+      "themes": [
+        "economics",
+        "velocity",
+        "startups",
+        "future"
+      ],
+      "zones": [
+        "velocity",
+        "chaos"
+      ]
+    },
+    {
+      "id": "amjad-masad-007",
+      "text": "These silos between designers, product managers, and engineers. Everyone feels that pain of, we have low bandwidth communication, which is language and then text on Slack and Zoom calls. The common language that everyone shares is code. What if the language becomes actually working prototypes and working applications?",
+      "source": {
+        "line_start": 358,
+        "line_end": 361,
+        "timestamp": "00:41:08",
+        "speaker": "Amjad Masad"
+      },
+      "themes": [
+        "collaboration",
+        "communication",
+        "silos",
+        "prototypes"
+      ],
+      "zones": [
+        "alignment",
+        "velocity"
+      ]
+    },
+    {
+      "id": "amjad-masad-008",
+      "text": "Being generative, being able to generate new ideas quickly, because you can think about it as a factory line. Typically you're bottlenecked by the middle part where your ideas are kind of like they're a lot of them and they're not fitting in, because they need to be made and they need to be made quickly. Now you open up that bottleneck. Actually, you become limited by how fast you can generate ideas.",
+      "source": {
+        "line_start": 367,
+        "line_end": 367,
+        "timestamp": "00:44:25",
+        "speaker": "Amjad Masad"
+      },
+      "themes": [
+        "creativity",
+        "ideas",
+        "bottlenecks",
+        "velocity",
+        "generative"
+      ],
+      "zones": [
+        "chaos",
+        "velocity",
+        "intuition"
+      ]
+    },
+    {
+      "id": "amjad-masad-009",
+      "text": "The return on investment for learn to code is doubling every six months. Every six months, that's netting you more and more power because you're going to be able to create a lot more. It's going to be easier to create. You're going to be able to create a lot more complete things.",
+      "source": {
+        "line_start": 373,
+        "line_end": 373,
+        "timestamp": "00:47:09",
+        "speaker": "Amjad Masad"
+      },
+      "themes": [
+        "learning",
+        "velocity",
+        "roi",
+        "future",
+        "skills"
+      ],
+      "zones": [
+        "velocity",
+        "discovery"
+      ]
+    },
+    {
+      "id": "amjad-masad-010",
+      "text": "The way we work is going to change rapidly, and it's important to be resilient to that change. You want to be able to react to it really quickly. When the Anthropic drop the computer use set of capability, we slaughtered our roadmap. We immediately jumped on it and started building things. Being agile, not being stuck with roadmaps, being able to just say, oh, we're just going to switch priorities right away, is going to be super important.",
+      "source": {
+        "line_start": 424,
+        "line_end": 424,
+        "timestamp": "00:56:43",
+        "speaker": "Amjad Masad"
+      },
+      "themes": [
+        "agility",
+        "change",
+        "roadmaps",
+        "velocity",
+        "adaptation"
+      ],
+      "zones": [
+        "chaos",
+        "velocity"
+      ]
+    },
+    {
+      "id": "amjad-masad-011",
+      "text": "You got to be fluid because when designers can code and engineers can design, it really becomes, you can't have a lot of structure around that. So you want to build a culture and you want to build an environment or milieu that is really, really flexible, which is uncomfortable for a lot of people.",
+      "source": {
+        "line_start": 427,
+        "line_end": 427,
+        "timestamp": "00:57:59",
+        "speaker": "Amjad Masad"
+      },
+      "themes": [
+        "culture",
+        "flexibility",
+        "silos",
+        "cross-functional"
+      ],
+      "zones": [
+        "chaos",
+        "alignment"
+      ]
+    },
+    {
+      "id": "brian-chesky-q001",
+      "speaker": "Brian Chesky",
+      "text": "Leaders are in the details. And there's this negative term called micromanagement. I think there's a difference between micromanagement, which is like telling people exactly what to do, and being in the details. Being in the details is what every responsible company's board does to the CEO. That doesn't mean the board is telling them what to do. But if you don't know the details, how do you know people are doing a good job?",
+      "timestamp": "00:00:00",
+      "source": {
+        "slug": "brian-chesky",
+        "path": "episodes/brian-chesky/transcript.md",
+        "lineStart": 39,
+        "lineEnd": 39
+      },
+      "themes": [
+        "leadership",
+        "management",
+        "details"
+      ],
+      "zones": [
+        "perfection",
+        "alignment"
+      ]
+    },
+    {
+      "id": "brian-chesky-q002",
+      "speaker": "Brian Chesky",
+      "text": "You can't build a product unless you know how to talk about the product. You can't be an expert in making the product unless you're also an expert in the market of it. If you build a great product and no one knows about it, did you even build a product?",
+      "timestamp": "00:07:42",
+      "source": {
+        "slug": "brian-chesky",
+        "path": "episodes/brian-chesky/transcript.md",
+        "lineStart": 81,
+        "lineEnd": 81
+      },
+      "themes": [
+        "product",
+        "marketing",
+        "strategy"
+      ],
+      "zones": [
+        "perfection",
+        "velocity"
+      ]
+    },
+    {
+      "id": "brian-chesky-q003",
+      "speaker": "Brian Chesky",
+      "text": "We wanted a company where a thousand people could work, but it'll look like 10 people did it.",
+      "timestamp": "00:14:26",
+      "source": {
+        "slug": "brian-chesky",
+        "path": "episodes/brian-chesky/transcript.md",
+        "lineStart": 105,
+        "lineEnd": 105
+      },
+      "themes": [
+        "culture",
+        "quality",
+        "design"
+      ],
+      "zones": [
+        "perfection",
+        "focus",
+        "alignment"
+      ]
+    },
+    {
+      "id": "brian-chesky-q004",
+      "speaker": "Brian Chesky",
+      "text": "I think the CEO should be basically the chief product officer of a product or tech company. If the CEO is not the chief product officer then I don't know if they're a product or tech led company.",
+      "timestamp": "00:16:08",
+      "source": {
+        "slug": "brian-chesky",
+        "path": "episodes/brian-chesky/transcript.md",
+        "lineStart": 117,
+        "lineEnd": 117
+      },
+      "themes": [
+        "leadership",
+        "product",
+        "founder-mode"
+      ],
+      "zones": [
+        "perfection",
+        "focus"
+      ]
+    },
+    {
+      "id": "brian-chesky-q005",
+      "speaker": "Brian Chesky",
+      "text": "The less involved I was in the project, the more spin there was, the less clear the goals, the less advocacy the team had, the less resources, the fewer resources they had. And then therefore the slower they moved. And the slower they moved, the more they assumed it was because I was too involved.",
+      "timestamp": "00:17:27",
+      "source": {
+        "slug": "brian-chesky",
+        "path": "episodes/brian-chesky/transcript.md",
+        "lineStart": 123,
+        "lineEnd": 123
+      },
+      "themes": [
+        "leadership",
+        "delegation",
+        "velocity"
+      ],
+      "zones": [
+        "velocity",
+        "focus",
+        "alignment"
+      ]
+    },
+    {
+      "id": "brian-chesky-q006",
+      "speaker": "Brian Chesky",
+      "text": "There's a great saying that the best way to slow a project down is add more people to it. We have fewer than 7,000 employees today. As a relative comparison, I think Uber has 30,000. And it's not to say they're big, it's just say that's how small we are and we've really benefited from having not a lot of employees.",
+      "timestamp": "00:25:54",
+      "source": {
+        "slug": "brian-chesky",
+        "path": "episodes/brian-chesky/transcript.md",
+        "lineStart": 150,
+        "lineEnd": 150
+      },
+      "themes": [
+        "team-size",
+        "efficiency",
+        "velocity"
+      ],
+      "zones": [
+        "velocity",
+        "focus"
+      ]
+    },
+    {
+      "id": "brian-chesky-q007",
+      "speaker": "Brian Chesky",
+      "text": "A design leader's job should be managing the design first, the people second. That's what Jony did. I could never imagine Jony out at Apple just being a manager of people. He was looking and designing the work with the team. How do you manage the people without managing their work? How do you give them development if you're not in the details with them on the work?",
+      "timestamp": "00:26:28",
+      "source": {
+        "slug": "brian-chesky",
+        "path": "episodes/brian-chesky/transcript.md",
+        "lineStart": 153,
+        "lineEnd": 153
+      },
+      "themes": [
+        "leadership",
+        "design",
+        "management"
+      ],
+      "zones": [
+        "perfection",
+        "focus"
+      ]
+    },
+    {
+      "id": "brian-chesky-q008",
+      "speaker": "Brian Chesky",
+      "text": "Way too many founders apologize for how they want to run the company. They find some midpoint between how they want to run a company and how the people they lead want to run the company. That's a good way to make everyone miserable. Because what everyone really wants is clarity. And what everyone really wants is to be able to row in the same direction really quickly.",
+      "timestamp": "00:31:16",
+      "source": {
+        "slug": "brian-chesky",
+        "path": "episodes/brian-chesky/transcript.md",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "themes": [
+        "leadership",
+        "founder-mode",
+        "culture"
+      ],
+      "zones": [
+        "focus",
+        "alignment",
+        "perfection"
+      ]
+    },
+    {
+      "id": "brian-chesky-q009",
+      "speaker": "Brian Chesky",
+      "text": "Five teams should do one thing rather than one team do five things. People should work together. I think that people should consider doing launches. You can by the way, ship every hour of every day, but then package it and tell a story if you want hold the product back.",
+      "timestamp": "00:36:18",
+      "source": {
+        "slug": "brian-chesky",
+        "path": "episodes/brian-chesky/transcript.md",
+        "lineStart": 192,
+        "lineEnd": 192
+      },
+      "themes": [
+        "product",
+        "focus",
+        "velocity",
+        "marketing"
+      ],
+      "zones": [
+        "focus",
+        "velocity",
+        "perfection"
+      ]
+    },
+    {
+      "id": "brian-chesky-q010",
+      "speaker": "Brian Chesky",
+      "text": "Everyone should row in the same direction. If there's only one thing I said in this interview today, actually I'm not sure what it would be, but I think a good candidate is try to get everyone to row together in the same direction. Otherwise, why the hell are you all in the same company?",
+      "timestamp": "00:38:18",
+      "source": {
+        "slug": "brian-chesky",
+        "path": "episodes/brian-chesky/transcript.md",
+        "lineStart": 198,
+        "lineEnd": 198
+      },
+      "themes": [
+        "alignment",
+        "culture",
+        "strategy"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "casey-winters-001",
+      "text": "A lot of managers and leaders would just try to deal with issues on their own and not raise them or escalate them with me. And some of these were really tough situations, so then later on, I'd ask why something went wrong. And I get feedback like, you don't understand the situation. Yeah, of course I don't understand this situation because you haven't told me about it. These people on my team thought that being a leader was handling it the best they could given the circumstances when in many cases the right way is to escalate the issue so that perhaps I could help them change the circumstances. I find that in general people just way under communicate upward inside of companies. And then they'll complain that executives are out of touch when they aren't telling executives what the executives need to know.",
+      "source": {
+        "line_start": 97,
+        "line_end": 100,
+        "timestamp": "00:07:11",
+        "speaker": "Casey Winters"
+      },
+      "context": "Explaining why communication upward is critical for leadership effectiveness",
+      "themes": [
+        "communication",
+        "leadership",
+        "alignment",
+        "escalation"
+      ],
+      "zones": [
+        "alignment"
+      ],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-002",
+      "text": "If you're not an executive, whatever you're working on, you're basically writing and telling a story. And when you talk to an exec about that story, you have to start with chapter one, which is what part of the company strategy are you working on? What metrics are you trying to improve? What assumptions are you making? Many times when non-executives are presenting to execs, they'll start on like chapter six, so even if that part of the story is right, you haven't earned the right to tell that part of the story yet because you skipped the first five chapters.",
+      "source": {
+        "line_start": 103,
+        "line_end": 103,
+        "timestamp": "00:09:14",
+        "speaker": "Casey Winters"
+      },
+      "context": "Teaching PMs how to communicate effectively with executives",
+      "themes": [
+        "communication",
+        "strategy",
+        "storytelling",
+        "alignment"
+      ],
+      "zones": [
+        "alignment",
+        "data"
+      ],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-003",
+      "text": "Executive communication is actually executives communication. You're communicating with individual executives that all have different styles and different concerns about the business or about the particular problem you're working on. And you want to anticipate that. The other thing that I push a lot of my team to do is have pre-meetings with some of those key individuals, so that they're going to be less surprised in the meeting about what you're talking about, that you've gotten any major concerns brought to your attention before the big meeting. And that helps de-risk how poorly a meeting like that can go.",
+      "source": {
+        "line_start": 115,
+        "line_end": 115,
+        "timestamp": "00:12:28",
+        "speaker": "Casey Winters"
+      },
+      "context": "Coaching PMs on how to prepare for important executive presentations",
+      "themes": [
+        "communication",
+        "preparation",
+        "alignment",
+        "de-risking"
+      ],
+      "zones": [
+        "alignment"
+      ],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-004",
+      "text": "For any of these types of communications, how well do you really know the material, and how well do you really know what your audience is going to care about with that material so that you are prepared for every question you might get. If you haven't thought through all the questions that might be asked from the document that you're sharing or the presentation you're about to present, you're not prepared enough. You need to know the entire universe of how that meeting can go. And that may take you dozens of hours, it might take you three hours, but the most important thing is that you've asked what possible questions can be asked and am I prepared to answer all of those?",
+      "source": {
+        "line_start": 130,
+        "line_end": 130,
+        "timestamp": "00:16:17",
+        "speaker": "Casey Winters"
+      },
+      "context": "Explaining the importance of thorough preparation for key meetings",
+      "themes": [
+        "preparation",
+        "communication",
+        "diligence",
+        "alignment"
+      ],
+      "zones": [
+        "perfection",
+        "alignment"
+      ],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-005",
+      "text": "The way that a lot of key decisions are made inside companies are through these types of forums and meetings. And it's an extremely high leverage piece of time for a product manager or a product designer in terms of how much impact they can have. If you are under preparing for those sorts of things, the chances of you being able to have the type of impact you want, to have the type of career growth you want just go down dramatically.",
+      "source": {
+        "line_start": 136,
+        "line_end": 136,
+        "timestamp": "00:17:33",
+        "speaker": "Casey Winters"
+      },
+      "context": "Emphasizing why meeting preparation is high-leverage work for PMs",
+      "themes": [
+        "leverage",
+        "preparation",
+        "impact",
+        "career-growth"
+      ],
+      "zones": [
+        "focus"
+      ],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-006",
+      "text": "We strive for this concept of what we call perceived simplicity, which is there are advanced features in the product and they are easily discoverable when you look for them, but they're effectively hidden if you're not looking for them. And of course the majority of users aren't going to ever look for them, so the advanced more complex areas of the product don't make the product harder to use for the majority who will never need that level of complexity. WhatsApp does the best job of this. At its core, it's a chat app and it's really good at being a chat app. It would take less than a second to figure out how to use the more advanced stuff, but it's effectively kind of hidden if you're not looking for it.",
+      "source": {
+        "line_start": 151,
+        "line_end": 154,
+        "timestamp": "00:21:32",
+        "speaker": "Casey Winters"
+      },
+      "context": "Explaining Eventbrite's approach to adding complexity while maintaining simplicity",
+      "themes": [
+        "simplicity",
+        "ux",
+        "progressive-disclosure",
+        "design"
+      ],
+      "zones": [
+        "perfection",
+        "focus"
+      ],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-007",
+      "text": "Some of the most impactful projects that product teams can work on at scale are the hardest to measure. And because of that, they just get chronically underfunded. For things like user experience, or performance, or developer velocity, or just a product area that's deemed un-sexy, you have to get a team to buy-in to this. You can't really do a lot of this work alone. If you can get a small team, like two, three people aligned on the importance of something that's deemed un-sexy, it's a lot easier to start to build this game plan around metrics or running small tests or structuring OKRs to not only prioritize this work, but to show some really massive impact. Which could then get the rest of the company much more excited to make investments themselves.",
+      "source": {
+        "line_start": 169,
+        "line_end": 172,
+        "timestamp": "00:24:49",
+        "speaker": "Casey Winters"
+      },
+      "context": "Discussing how to justify non-sexy product investments like stability and performance",
+      "themes": [
+        "alignment",
+        "metrics",
+        "unsexy-work",
+        "impact"
+      ],
+      "zones": [
+        "alignment",
+        "data"
+      ],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-008",
+      "text": "When you're an early stage company, everything you're doing is trying to drive upside, trying to drive growth. But when you've actually built a real business, a lot of times people are still in that same mode. But when you're at scale, you can actually lose what you've built. Trying to help whether it's executives or just your manager, understand that this thing we've got, whether it's a high conversion rate or good engagement on this feature, it could go away if we don't do these other things. And here's what it would look like if that goes away, that can be incredibly powerful. Protecting what we've got actually is increasingly important once you build scale, because now you've built something really valuable already.",
+      "source": {
+        "line_start": 187,
+        "line_end": 190,
+        "timestamp": "00:27:57",
+        "speaker": "Casey Winters"
+      },
+      "context": "Explaining the shift from pure growth to protecting value at scale",
+      "themes": [
+        "scale",
+        "retention",
+        "value-protection",
+        "growth"
+      ],
+      "zones": [
+        "data",
+        "focus"
+      ],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-009",
+      "text": "User expectations just continue to go up every day in terms of their expectations on user experience, on the value that they expect your product to provide, but also the competitive landscape in the market continues to get better. If you're not continually pushing to make your product better, your user experience better, your latency better, then you're eventually not necessarily tomorrow, but maybe in a year, maybe in five years, you might find yourself fall out of product market fit entirely. And that's a really dangerous place to be, because then it's going to take a long time to figure that out and make adjustments.",
+      "source": {
+        "line_start": 196,
+        "line_end": 196,
+        "timestamp": "00:29:54",
+        "speaker": "Casey Winters"
+      },
+      "context": "Warning that product-market fit erodes over time without continuous improvement",
+      "themes": [
+        "pmf",
+        "competition",
+        "continuous-improvement",
+        "ux"
+      ],
+      "zones": [
+        "discovery",
+        "perfection"
+      ],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-010",
+      "text": "Product leaders can struggle with assuming that questions from executives are them trying to learn versus them assuming you don't know something and testing you about it. I find that a lot of people get intimidated by executive questions when the executive is just trying to understand things. And then that changes the interaction you can have. Refusing to specialize served me well. I thought if I could learn all the skills that would allow me to combine them to work on the most important things versus only work on the thing I knew how to work on. That was a much faster path to the true executive role because I could speak better with CEOs about more topics than most of my peers.",
+      "source": {
+        "line_start": 252,
+        "line_end": 253,
+        "timestamp": "00:39:47",
+        "speaker": "Casey Winters"
+      },
+      "context": "Sharing advice on how to get to CPO level",
+      "themes": [
+        "executive-communication",
+        "learning",
+        "generalist",
+        "career-growth"
+      ],
+      "zones": [
+        "discovery",
+        "intuition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-011",
+      "text": "Early on in your career as a PM, you're going to get the most value by showing that you can ship real things to customers and that the customers like them. But if you want to start managing groups of PMs, if you want to start running a business unit, or a pillar, or a theme. I as a chief product officer, I'm going to expect you to be able to write that strategy doc without me. A lot of people couldn't do that step. And that means when you try to become a product leader at the company and the CEO expects that from you and you can't do it, you're going to set yourself up to really cap hard on how fast your career can grow. That's definitely where I've seen the biggest bottleneck in terms of skill sets. That one to get to the top is the great filter.",
+      "source": {
+        "line_start": 280,
+        "line_end": 283,
+        "timestamp": "00:45:30",
+        "speaker": "Casey Winters"
+      },
+      "context": "Explaining that strategic thinking is the key skill for PMs to advance to leadership",
+      "themes": [
+        "strategy",
+        "career-growth",
+        "leadership",
+        "skill-development"
+      ],
+      "zones": [
+        "focus",
+        "discovery"
+      ],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-012",
+      "text": "The goal of your kindle strategies, these like non-scalable hacks, they only exist to unlock the fire strategies, to unlock the things that could take you to millions of users. It's once you unlock a fire strategy, that's when I think you think about hiring someone full time on growth to fully harness that new growth loop you've built. I still think data network effects are underrated. Leveraging product usage data to make the product value stronger and stronger over time. That could be personalized results in the case of Pinterest or better targeting data for advertising. Especially with Facebook and Apple's platform changes your product being able to generate its own data, versus just relying on the big platforms to do all the work for you. That's a real edge.",
+      "source": {
+        "line_start": 343,
+        "line_end": 352,
+        "timestamp": "00:51:24",
+        "speaker": "Casey Winters"
+      },
+      "context": "Discussing growth strategy phases and the power of data network effects",
+      "themes": [
+        "growth",
+        "data-network-effects",
+        "scaling",
+        "strategy"
+      ],
+      "zones": [
+        "data",
+        "velocity"
+      ],
+      "verified": true
+    },
+    {
+      "id": "dylan-field-001",
+      "text": "Design is art applied to problem solving. I think that design is often... There is some component of creativity to it and unique expression that you're trying to provide and create and put out into the world. But you are also trying to do it and match it to a user need, a problem that needs to be solved. And I think that it's not pure art, but if you lose the art and you're just solving the problem, it's totally utilitarian and it lacks soul.",
+      "source": {
+        "line_start": 100,
+        "line_end": 100,
+        "timestamp": "07:09",
+        "speaker": "Dylan Field"
+      },
+      "themes": [
+        "design",
+        "craft",
+        "problem-solving",
+        "vision",
+        "quality"
+      ],
+      "zones": [
+        "perfection",
+        "intuition"
+      ]
+    },
+    {
+      "id": "dylan-field-002",
+      "text": "Intuition is like a hypothesis generator and you're constantly generating these hypotheses and others are generating hypotheses as well. And you then take these hypotheses and you put them forward and you debate them and you try to find data to support them or negate them. And then you winnow it down into what is our working hypothesis? And from that you move forward.",
+      "source": {
+        "line_start": 199,
+        "line_end": 199,
+        "timestamp": "11:19",
+        "speaker": "Dylan Field"
+      },
+      "themes": [
+        "intuition",
+        "decision-making",
+        "hypotheses",
+        "data",
+        "product-management"
+      ],
+      "zones": [
+        "intuition",
+        "discovery",
+        "data"
+      ]
+    },
+    {
+      "id": "dylan-field-003",
+      "text": "I think the more concrete an artifact is or the more you can debate something, the better. I ask for examples a lot, I try to ask follow up questions about things and make sure I fully understand it. And I think where I get stuck sometimes is if I ask follow up questions and we don't have answers yet, and then my response might be, 'Let's go find the answer to these questions and then let's go back to this conversation.'",
+      "source": {
+        "line_start": 220,
+        "line_end": 220,
+        "timestamp": "15:05",
+        "speaker": "Dylan Field"
+      },
+      "themes": [
+        "decision-making",
+        "leadership",
+        "first-principles",
+        "learning"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ]
+    },
+    {
+      "id": "dylan-field-004",
+      "text": "Good product people are able to create great frameworks that bring everyone along with them. And so everyone's able to have a shared head space around what it is they're trying to get to. The best PMs create those frameworks that bring everyone else along and those frameworks also have a point of view and a strategy associated with them. So you're able to take the strategy, take the point of view, wrap it all up in a framework, and then make it so that everyone knows what the destination is and how to get there.",
+      "source": {
+        "line_start": 247,
+        "line_end": 259,
+        "timestamp": "20:16",
+        "speaker": "Dylan Field"
+      },
+      "themes": [
+        "product-management",
+        "frameworks",
+        "strategy",
+        "alignment",
+        "leadership"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "dylan-field-005",
+      "text": "One plus one does not equal three, it sometimes equals one and a half. And the more that you add and the more that you continue to put in something, the more complex it gets and the worse it gets. And I think this is definitely true for tools. We can make it more powerful, but to do that in a way that's not making it more complex at the same time is extremely hard.",
+      "source": {
+        "line_start": 265,
+        "line_end": 267,
+        "timestamp": "23:06",
+        "speaker": "Dylan Field"
+      },
+      "themes": [
+        "simplicity",
+        "complexity",
+        "design",
+        "product-management"
+      ],
+      "zones": [
+        "perfection",
+        "focus"
+      ]
+    },
+    {
+      "id": "dylan-field-006",
+      "text": "Keep the simple things simple. Make the complex things possible. I think that's a really important principle to hold as you're designing tools. And I'd say that it's really easy to make the simple things complex, unfortunately.",
+      "source": {
+        "line_start": 289,
+        "line_end": 289,
+        "timestamp": "25:46",
+        "speaker": "Dylan Field"
+      },
+      "themes": [
+        "simplicity",
+        "design",
+        "principles",
+        "craft"
+      ],
+      "zones": [
+        "perfection",
+        "focus"
+      ]
+    },
+    {
+      "id": "dylan-field-007",
+      "text": "Get it out as fast as you possibly can. Everything they tell you about making sure that you get a product out really quickly is totally true. The faster you get it out, the more feedback you get. That is a positive thing. And now I index on that when we try to build.",
+      "source": {
+        "line_start": 312,
+        "line_end": 313,
+        "timestamp": "27:49",
+        "speaker": "Dylan Field"
+      },
+      "themes": [
+        "velocity",
+        "shipping",
+        "iteration",
+        "feedback"
+      ],
+      "zones": [
+        "velocity",
+        "discovery"
+      ]
+    },
+    {
+      "id": "dylan-field-008",
+      "text": "For a new launch, you got quality, features, deadline, choose two. And I think that the beautiful thing about software is you can keep iterating on it. So it's not like a physical product where you have to always have quality in there, otherwise it's never going to have quality. You can ship it with features and deadline and then improve it iteratively over time.",
+      "source": {
+        "line_start": 328,
+        "line_end": 328,
+        "timestamp": "29:32",
+        "speaker": "Dylan Field"
+      },
+      "themes": [
+        "tradeoffs",
+        "shipping",
+        "quality",
+        "iteration",
+        "strategy"
+      ],
+      "zones": [
+        "velocity",
+        "perfection",
+        "focus"
+      ]
+    },
+    {
+      "id": "dylan-field-009",
+      "text": "I constructed this list of, 'Here are the most central designers in the graph', but also then I looked at their work. And the ones that I was really inspired by as a total fanboy, and someone who wanted to learn as much as I could about design, was inspired by these folks, the ones I was inspired by I reached out to and said, 'Hey, can I buy you a coffee?' And I think it started honestly more as me fanboy and me getting feedback.",
+      "source": {
+        "line_start": 337,
+        "line_end": 340,
+        "timestamp": "31:01",
+        "speaker": "Dylan Field"
+      },
+      "themes": [
+        "user-research",
+        "learning",
+        "community",
+        "feedback",
+        "growth"
+      ],
+      "zones": [
+        "discovery",
+        "velocity"
+      ]
+    },
+    {
+      "id": "dylan-field-010",
+      "text": "When people give you advice, they're not giving you advice, they're giving themselves advice in your shoes. I think that's an interesting one. So if I gave you advice here, I'm giving myself advice in your shoes.",
+      "source": {
+        "line_start": 496,
+        "line_end": 496,
+        "timestamp": "45:22",
+        "speaker": "Dylan Field"
+      },
+      "themes": [
+        "advice",
+        "mentorship",
+        "learning",
+        "perspective"
+      ],
+      "zones": [
+        "intuition",
+        "discovery"
+      ]
+    },
+    {
+      "id": "dylan-field-011",
+      "text": "Mentors can come from anywhere. It can come from the community. Mentorship can come from the people you hire. It can come from folks that you actively seek out as investors or explicit mentorship and mentors. There have been plenty of people where they ask me a question at some point and I give them an answer and they think it's insightful for whatever reason. And then years later where we're talking again and I ask them a question and they're like, 'Well, years ago you told me...' And they repeat back what I told them like, 'That's a really good point.'",
+      "source": {
+        "line_start": 433,
+        "line_end": 433,
+        "timestamp": "39:51",
+        "speaker": "Dylan Field"
+      },
+      "themes": [
+        "mentorship",
+        "learning",
+        "growth",
+        "leadership"
+      ],
+      "zones": [
+        "discovery",
+        "alignment"
+      ]
+    },
+    {
+      "id": "elena-verna-001",
+      "text": "You have to fail to learn. You can't just constantly succeed. Success is an output of a lot of failures, but the question is, how much time do you have to fail? And a lot of times we don't realize how many failure cycles we're going to have to go through before we get a success, and that company, or even market, has no time for that.",
+      "source": {
+        "line_start": 337,
+        "line_end": 337,
+        "timestamp": "00:40:12",
+        "speaker": "Elena Verna"
+      },
+      "themes": [
+        "experimentation",
+        "growth",
+        "failure",
+        "learning",
+        "velocity"
+      ],
+      "zones": [
+        "velocity",
+        "chaos"
+      ]
+    },
+    {
+      "id": "elena-verna-002",
+      "text": "Growth cannot function without data. If you have 10 users or 10 customers, that's not data, that's a G-sheet with your customers and you don't need a growth team for that. Until you have data that you can actually do an analysis and you can create hypotheses on and you can start applying experimentation, don't even think about growth team.",
+      "source": {
+        "line_start": 112,
+        "line_end": 112,
+        "timestamp": "00:10:35",
+        "speaker": "Elena Verna"
+      },
+      "themes": [
+        "data",
+        "growth",
+        "metrics",
+        "experimentation",
+        "product-market-fit"
+      ],
+      "zones": [
+        "data",
+        "velocity"
+      ]
+    },
+    {
+      "id": "elena-verna-003",
+      "text": "Growth can amplify great product market fit and growth can help you grow faster once you are already growing. But if you are slowing down and you have issues with either your go-to-market strategy or your core product strategy with your core product market fit, growth is going to be absolutely helpless to do anything.",
+      "source": {
+        "line_start": 178,
+        "line_end": 178,
+        "timestamp": "00:16:59",
+        "speaker": "Elena Verna"
+      },
+      "themes": [
+        "product-market-fit",
+        "growth",
+        "strategy",
+        "retention"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ]
+    },
+    {
+      "id": "elena-verna-004",
+      "text": "Never ever once have I seen a rebrand or redesign, especially of UK marketing site produce good performance results. New CMO comes in designing their website or designing the brand as if it was reflection of their personal taste, and oftentimes it's promised with our acquisition is going to go up and it never materializes into anything meaningful.",
+      "source": {
+        "line_start": 193,
+        "line_end": 193,
+        "timestamp": "00:20:22",
+        "speaker": "Elena Verna"
+      },
+      "themes": [
+        "marketing",
+        "design",
+        "optimization",
+        "acquisition"
+      ],
+      "zones": [
+        "data",
+        "perfection"
+      ]
+    },
+    {
+      "id": "elena-verna-005",
+      "text": "Benchmarks are usually done on all of the competition, on all of the softwares out there. And the way people define numbers is so different from company to company. Even if you look as something as simple as signups. So taking also any benchmark that is derived from competition and saying, 'This is where we should be,' is also so dangerous because it might not even be applicable depending on how you define the metric.",
+      "source": {
+        "line_start": 253,
+        "line_end": 256,
+        "timestamp": "00:29:21",
+        "speaker": "Elena Verna"
+      },
+      "themes": [
+        "metrics",
+        "data",
+        "benchmarking",
+        "competition"
+      ],
+      "zones": [
+        "data",
+        "discovery"
+      ]
+    },
+    {
+      "id": "elena-verna-006",
+      "text": "There are patterns and there are frameworks, but there's no shortcuts.",
+      "source": {
+        "line_start": 262,
+        "line_end": 262,
+        "timestamp": "00:30:20",
+        "speaker": "Elena Verna"
+      },
+      "themes": [
+        "frameworks",
+        "patterns",
+        "growth",
+        "decision-making"
+      ],
+      "zones": [
+        "focus",
+        "data"
+      ]
+    },
+    {
+      "id": "elena-verna-007",
+      "text": "Your problem is not unique. I am 99% sure of that. Your problem has been felt by somebody somewhere in probably many, many places and you trying to re-engineer solution is time lost to market and has a huge opportunity cost. Do not start from scratch. It's the worst thing that you can do because you can waste so many cycles on trying to do something that probably has already been solved.",
+      "source": {
+        "line_start": 301,
+        "line_end": 304,
+        "timestamp": "00:34:49",
+        "speaker": "Elena Verna"
+      },
+      "themes": [
+        "problem-solving",
+        "patterns",
+        "velocity",
+        "learning"
+      ],
+      "zones": [
+        "velocity",
+        "discovery"
+      ]
+    },
+    {
+      "id": "elena-verna-008",
+      "text": "Focusing on these earned channels that you own becomes the outmost priority. And if you don't have them on your growth roadmap, you are going to be in some really big trouble over the next year to two years because your cost of acquisition is only going to go up. Your competition and those channel is only going to go up.",
+      "source": {
+        "line_start": 394,
+        "line_end": 394,
+        "timestamp": "00:47:05",
+        "speaker": "Elena Verna"
+      },
+      "themes": [
+        "acquisition",
+        "channels",
+        "virality",
+        "product-led-growth"
+      ],
+      "zones": [
+        "velocity",
+        "focus"
+      ]
+    },
+    {
+      "id": "elena-verna-009",
+      "text": "If every single one of your initiatives that you're doing on growth is an experiment, that's a problem. It's almost like a disease, like a paralyzing disease, that slows down progress, that slows down velocity, that slows down learnings, that creates very terrible consequences to the output that growth teams produce.",
+      "source": {
+        "line_start": 508,
+        "line_end": 511,
+        "timestamp": "01:06:47",
+        "speaker": "Elena Verna"
+      },
+      "themes": [
+        "experimentation",
+        "velocity",
+        "decision-making",
+        "paralysis"
+      ],
+      "zones": [
+        "velocity",
+        "intuition"
+      ]
+    },
+    {
+      "id": "elena-verna-010",
+      "text": "Data is good, but data is only good if you have enough of it. So if you have low volume real estate, that is going to take you eight months to reach some sort of answer. Do you really want to test it for eight months? My rule of thumb, if we cannot collect the sample size in the month, we shouldn't test it, period.",
+      "source": {
+        "line_start": 517,
+        "line_end": 517,
+        "timestamp": "01:07:52",
+        "speaker": "Elena Verna"
+      },
+      "themes": [
+        "data",
+        "experimentation",
+        "metrics",
+        "velocity",
+        "decision-making"
+      ],
+      "zones": [
+        "data",
+        "velocity",
+        "intuition"
+      ]
+    },
+    {
+      "id": "elena-verna-011",
+      "text": "People stop in this age of data, almost rely enough on their element intuition. Experimentation cannot be the way that people make decisions in the company. There's still so much about knowing your user, understanding the market for your brain to connect all of those dots and to know what needs to be an experience that your customers are going to want.",
+      "source": {
+        "line_start": 529,
+        "line_end": 520,
+        "timestamp": "01:10:08",
+        "speaker": "Elena Verna"
+      },
+      "themes": [
+        "intuition",
+        "decision-making",
+        "data",
+        "user-research"
+      ],
+      "zones": [
+        "intuition",
+        "discovery",
+        "data"
+      ]
+    },
+    {
+      "id": "elena-verna-012",
+      "text": "Growth teams are often too obsessed about removing friction. If you ever have a line item on your roadmap that says simplified onboarding, please cross it out. It's not going to work because simplifying onboarding is an action. What is the problem that you're solving? You always have a problem of people are confused in it, but people don't know where to go or they get lost in it or they're not educated enough. That is the problem.",
+      "source": {
+        "line_start": 549,
+        "line_end": 553,
+        "timestamp": "01:13:09",
+        "speaker": "Elena Verna"
+      },
+      "themes": [
+        "friction",
+        "onboarding",
+        "problem-solving",
+        "optimization"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ]
+    },
+    {
+      "id": "jason-fried-001",
+      "text": "We run a very different kind of business. We are focused on efficiency, we're not focused on growth. We don't have any salespeople. We don't have 15 different versions of Basecamp. We're not after enterprise, so we don't have the enormous support costs and enormous support infrastructure required to service customers like that. Nobody can pay us more than 300 bucks. What that allows us to do is to just build one product, do a really nice job, keep it tight, and simple, and clear, and not have the complexity that comes with trying to service and satisfy so many different kinds of companies at different price levels with different price points and different expectations.",
+      "source": {
+        "line_start": 100,
+        "line_end": 103,
+        "timestamp": "00:10:31",
+        "speaker": "Jason Fried",
+        "video_id": "LZLdoAq3R7Y"
+      },
+      "context": "Explaining why 37signals has 75 employees while competitors have 1000-3000 employees with similar customer counts",
+      "themes": [
+        "simplicity",
+        "constraints",
+        "focus",
+        "efficiency"
+      ],
+      "zones": [
+        "focus"
+      ],
+      "verified": true
+    },
+    {
+      "id": "jason-fried-002",
+      "text": "We build products with two people at a time. So every feature we work on in Basecamp, or HEY, or whatever we're building is two people, one programmer, one designer, and they have a maximum of six weeks to deliver the feature that they're working on. Most of them are usually a couple of weeks, but they have a maximum of six weeks. So we don't get stuck in these big huge projects, with meetings with 18 people, and slow decision-making, and indecision, and complexity, and all the things that come with trying to do too many things for too many people.",
+      "source": {
+        "line_start": 106,
+        "line_end": 106,
+        "timestamp": "00:11:58",
+        "speaker": "Jason Fried",
+        "video_id": "LZLdoAq3R7Y"
+      },
+      "context": "Describing 37signals' Shape Up methodology for product development",
+      "themes": [
+        "small teams",
+        "constraints",
+        "velocity",
+        "simplicity"
+      ],
+      "zones": [
+        "velocity",
+        "focus"
+      ],
+      "verified": true
+    },
+    {
+      "id": "jason-fried-003",
+      "text": "We think that constraints, simplicity, small teams actually are where it's at, and keep us honest, and allow us to do great work for our customer base that we know, small businesses, very tight companies like ours. If you gave me 1,000 people, I wouldn't know what to do with them. We would fall apart. If you gave me 500 people, I wouldn't know what to do with them. We would fall apart. We would be a worse off company with 500 people. I'd be completely lost.",
+      "source": {
+        "line_start": 109,
+        "line_end": 109,
+        "timestamp": "00:12:49",
+        "speaker": "Jason Fried",
+        "video_id": "LZLdoAq3R7Y"
+      },
+      "context": "Discussing why staying small is intentional, not just a stepping stone",
+      "themes": [
+        "constraints",
+        "small teams",
+        "simplicity"
+      ],
+      "zones": [
+        "focus",
+        "chaos"
+      ],
+      "verified": true
+    },
+    {
+      "id": "jason-fried-004",
+      "text": "For me, it's really about, would I want to do this again? If the answer is, 'Yeah, that was enjoyable. I enjoyed that. That was worthwhile. I'm glad I did that. I'd like to do that again,' then it was successful. On the business side of things, we have to be profitable. It's in total, collectively, are we making more money than we spend? That's the only thing we ultimately look at. We don't have financial goals. We don't have OKRs or KPIs. I don't have revenue targets. I don't have growth targets. It's just, at the end, 'Did we make more than we spend? We did. Then the things we did this year were worth it.'",
+      "source": {
+        "line_start": 139,
+        "line_end": 145,
+        "timestamp": "00:14:53",
+        "speaker": "Jason Fried",
+        "video_id": "LZLdoAq3R7Y"
+      },
+      "context": "Defining what success means at 37signals - enjoyment over metrics",
+      "themes": [
+        "success metrics",
+        "profit",
+        "goals",
+        "sustainability"
+      ],
+      "zones": [
+        "chaos",
+        "intuition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "jason-fried-005",
+      "text": "This is my day job. I want to create the company that I want to work at, and I want to keep doing this job for as long as I can. As long as I'm useful, I'm good at it, I enjoy it, I want to keep doing that. To get in bed with an investment that would say, 'In five years you have to stop doing what you're doing, you're going to get a big paycheck maybe, but you got to stop doing what you're doing because we're going to sell this business,' that just has no appeal to me at all. I'd rather just keep doing the thing that I'm enjoying doing, as long as I can continue to make it work.",
+      "source": {
+        "line_start": 166,
+        "line_end": 169,
+        "timestamp": "00:18:31",
+        "speaker": "Jason Fried",
+        "video_id": "LZLdoAq3R7Y"
+      },
+      "context": "Discussing infinite games and why raising venture capital doesn't align with his goals",
+      "themes": [
+        "infinite games",
+        "independence",
+        "sustainability",
+        "bootstrapping"
+      ],
+      "zones": [
+        "chaos",
+        "focus"
+      ],
+      "verified": true
+    },
+    {
+      "id": "jason-fried-006",
+      "text": "There's only a few slots for a few companies like that at any one time. Meanwhile, there are hundreds or thousands of slots for other kinds of companies to make it if they don't go for the moon. My interest is optionality. If I could land in 135 different positions and have a sustainable business, that's great. Versus saying there's only one way I'm going to be successful or happy. Those odds aren't really in anyone's favor.",
+      "source": {
+        "line_start": 259,
+        "line_end": 259,
+        "timestamp": "00:29:29",
+        "speaker": "Jason Fried",
+        "video_id": "LZLdoAq3R7Y"
+      },
+      "context": "Explaining why the venture-backed unicorn path is not the only path to success",
+      "themes": [
+        "bootstrapping",
+        "optionality",
+        "alternatives",
+        "success"
+      ],
+      "zones": [
+        "chaos",
+        "focus"
+      ],
+      "verified": true
+    },
+    {
+      "id": "jason-fried-007",
+      "text": "We instead have appetites. And our appetite for any individual feature is no more than six weeks. Essentially that's our budget we're willing to spend. I'm only willing to spend six weeks on any feature. So we have to figure out the simplest, most effective version of that to get that done within six weeks and get it done by two people. Work expands to fill the time available. So for us it's about appetite.",
+      "source": {
+        "line_start": 280,
+        "line_end": 280,
+        "timestamp": "00:34:21",
+        "speaker": "Jason Fried",
+        "video_id": "LZLdoAq3R7Y"
+      },
+      "context": "Explaining the Shape Up methodology's concept of appetites vs estimates",
+      "themes": [
+        "appetites",
+        "constraints",
+        "velocity",
+        "simplicity"
+      ],
+      "zones": [
+        "velocity",
+        "focus"
+      ],
+      "verified": true
+    },
+    {
+      "id": "jason-fried-008",
+      "text": "Promises are the downfall of every business. Every time we've made a promise to get something out in a certain period of time and we kind of inevitably seem to miss it, it's funny how it's almost like it would've been out in time, but the fact that we'd promised it made it not deliver in time. There's some strange thing that happens when you promise things. So we've learned to not promise anything. The worst promise is by the end of the year. That's the one promise you got to be very careful of, because it's so easy to make. There's nothing easier than promising work later.",
+      "source": {
+        "line_start": 304,
+        "line_end": 304,
+        "timestamp": "00:38:43",
+        "speaker": "Jason Fried",
+        "video_id": "LZLdoAq3R7Y"
+      },
+      "context": "Discussing why they don't make promises about delivery dates",
+      "themes": [
+        "promises",
+        "deadlines",
+        "flexibility",
+        "planning"
+      ],
+      "zones": [
+        "chaos",
+        "velocity"
+      ],
+      "verified": true
+    },
+    {
+      "id": "jason-fried-009",
+      "text": "I think everything's a judgment call. Yeah, data can play a part. All sorts of things can play a part, but unless you're letting a machine make the decision, that's purely rational. If you're asking a human to make it's a judgment call. They're bringing to bear thousands of things they know and don't know about that influence them about this particular decision. When companies hire executives, what are they looking for? They typically go judgment and experience. They're not like they can read an Excel spreadsheet. They're looking for judgment and experience, which is a very amorphous thing.",
+      "source": {
+        "line_start": 337,
+        "line_end": 337,
+        "timestamp": "00:44:15",
+        "speaker": "Jason Fried",
+        "video_id": "LZLdoAq3R7Y"
+      },
+      "context": "Defending gut-driven decision making over data-driven approaches",
+      "themes": [
+        "intuition",
+        "judgment",
+        "decision-making",
+        "experience"
+      ],
+      "zones": [
+        "intuition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "jason-fried-010",
+      "text": "Give your intuition credit. Give your gut credit. It's absorbed everything. And plus the things that you don't know it absorbed that are valuable. We ask people, what do you think? We might say, what do you know? But we also say, what do you think more often. We talk about how does this feel? How does this screen feel? How does this flow feel? How does this feature feel? Because human beings feel. While we have a logical side to us and a rational side to us, we're primarily feeling creatures.",
+      "source": {
+        "line_start": 343,
+        "line_end": 352,
+        "timestamp": "00:46:42",
+        "speaker": "Jason Fried",
+        "video_id": "LZLdoAq3R7Y"
+      },
+      "context": "Encouraging teams to trust their instincts and feelings in product decisions",
+      "themes": [
+        "intuition",
+        "gut feel",
+        "decision-making",
+        "product development"
+      ],
+      "zones": [
+        "intuition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "jason-fried-011",
+      "text": "I didn't have any of this planned out. I didn't decide I wanted to be like this or like that. I just figure out what works and keep doing that until it doesn't. And then, maybe we do something else. We're very much an in-the-now company, making it up as we go. I'm not on a path. I can't see the path. I don't know where I'm going, and I'm perfectly comfortable with that. I think the further out you plan, the less you know about the decisions you're making. And by the time you get there, you're probably going to be wrong, or you're going to want to do something else.",
+      "source": {
+        "line_start": 457,
+        "line_end": 463,
+        "timestamp": "01:03:33",
+        "speaker": "Jason Fried",
+        "video_id": "LZLdoAq3R7Y"
+      },
+      "context": "Explaining why they don't do long-term planning and embrace uncertainty",
+      "themes": [
+        "planning",
+        "uncertainty",
+        "flexibility",
+        "intuition"
+      ],
+      "zones": [
+        "chaos",
+        "intuition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "jason-fried-012",
+      "text": "The reason I think it's great for entrepreneurs to start bootstrapping is because they just have more practice making money. They get better and better and better at the fundamental skill you need to have ultimately to run a successful business, which is to make money. Getting good at spending money is not a valuable skill as getting good at making money. You need constraints. When you have just loads of money, you basically have very few constraints. That's what tends to lead to slop.",
+      "source": {
+        "line_start": 577,
+        "line_end": 586,
+        "timestamp": "01:18:36",
+        "speaker": "Jason Fried",
+        "video_id": "LZLdoAq3R7Y"
+      },
+      "context": "Explaining why bootstrapping teaches better business fundamentals than venture capital",
+      "themes": [
+        "bootstrapping",
+        "constraints",
+        "discipline",
+        "profitability"
+      ],
+      "zones": [
+        "focus",
+        "chaos"
+      ],
+      "verified": true
+    },
+    {
+      "id": "marty-cagan-001",
+      "text": "There is no question that a lot of companies overhired during the pandemic. I go into some companies and honestly I can't believe all the ridiculous roles that they have, agile coaches and product owners and product ops and business analysts. They're dramatically overpaid for the value they provide. Because it's a project management role.",
+      "source": {
+        "line_start": 39,
+        "line_end": 45,
+        "timestamp": "00:00:00",
+        "speaker": "Marty Cagan"
+      },
+      "themes": [
+        "hiring",
+        "roles",
+        "product-management",
+        "theater"
+      ],
+      "zones": [
+        "focus",
+        "perfection"
+      ]
+    },
+    {
+      "id": "marty-cagan-002",
+      "text": "Too many people in our industry view themselves as a victim of their company, like they're stuck in a feature team and there's nothing they can do about it other than quit. I think that's not true. There is so much they can do.",
+      "source": {
+        "line_start": 51,
+        "line_end": 51,
+        "timestamp": "00:00:31",
+        "speaker": "Marty Cagan"
+      },
+      "themes": [
+        "empowerment",
+        "agency",
+        "feature-teams",
+        "mindset"
+      ],
+      "zones": [
+        "chaos",
+        "intuition"
+      ]
+    },
+    {
+      "id": "marty-cagan-003",
+      "text": "On a feature team, you're basically given a roadmap of output. Their features are projects. You're being asked to design, build, test, deploy that feature. It is a lot easier to deliver output than it is to deliver outcomes. A product team, instead of being given that roadmap of features, they're given problems to solve.",
+      "source": {
+        "line_start": 150,
+        "line_end": 150,
+        "timestamp": "00:21:01",
+        "speaker": "Marty Cagan"
+      },
+      "themes": [
+        "outcomes",
+        "feature-teams",
+        "empowerment",
+        "product-management"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ]
+    },
+    {
+      "id": "marty-cagan-004",
+      "text": "Strong product companies understand it's all about outcomes. You just don't get points for shipping, you get points for delivering the value. It's about time to money more than time to market. We know how to do time to market. The harder part is time to money.",
+      "source": {
+        "line_start": 153,
+        "line_end": 153,
+        "timestamp": "00:22:51",
+        "speaker": "Marty Cagan"
+      },
+      "themes": [
+        "outcomes",
+        "value",
+        "metrics",
+        "strategy"
+      ],
+      "zones": [
+        "data",
+        "focus",
+        "velocity"
+      ]
+    },
+    {
+      "id": "marty-cagan-005",
+      "text": "You need this person who understands the customers and understands the business deeply. That's where the product manager role came from. You need a different set of skills that your engineers and your designers almost never have. Those are very different skillsets.",
+      "source": {
+        "line_start": 156,
+        "line_end": 156,
+        "timestamp": "00:24:00",
+        "speaker": "Marty Cagan"
+      },
+      "themes": [
+        "product-management",
+        "skills",
+        "value",
+        "viability"
+      ],
+      "zones": [
+        "discovery",
+        "data"
+      ]
+    },
+    {
+      "id": "marty-cagan-006",
+      "text": "On a real empowered product team, product manager is a creator, not a facilitator. I always cringe when somebody tells me, oh, my job is to say why? And I'm like, 'Well, what do you do for the rest of the week besides the 10 minutes it takes you to say why?' It's ridiculous.",
+      "source": {
+        "line_start": 168,
+        "line_end": 168,
+        "timestamp": "00:24:58",
+        "speaker": "Marty Cagan"
+      },
+      "themes": [
+        "product-management",
+        "empowerment",
+        "creator",
+        "theater"
+      ],
+      "zones": [
+        "focus",
+        "perfection"
+      ]
+    },
+    {
+      "id": "marty-cagan-007",
+      "text": "I was not allowed to take the product manager role until I had visited 30 customers in person, 15 in the US, 15 in Europe. Those 30 customers changed my life because I thought I knew our customers and I really didn't.",
+      "source": {
+        "line_start": 171,
+        "line_end": 171,
+        "timestamp": "00:25:45",
+        "speaker": "Marty Cagan"
+      },
+      "themes": [
+        "user-research",
+        "customers",
+        "learning",
+        "discovery"
+      ],
+      "zones": [
+        "discovery"
+      ]
+    },
+    {
+      "id": "marty-cagan-008",
+      "text": "You're supposed to be the expert on the data. How is our product being used? How is that usage changing over time? Another big one is you are the person on the team that represents the compliance issues, the sales issues, the marketing issues, the financial cost issues, the monetization issues, go to market in general. This is all the product manager.",
+      "source": {
+        "line_start": 171,
+        "line_end": 173,
+        "timestamp": "00:26:51",
+        "speaker": "Marty Cagan"
+      },
+      "themes": [
+        "data",
+        "viability",
+        "product-management",
+        "expertise"
+      ],
+      "zones": [
+        "data",
+        "alignment"
+      ]
+    },
+    {
+      "id": "marty-cagan-009",
+      "text": "Most product management advice you find online, probably 90% of the content out there is from the feature team world or worse. Unless they get really lucky or they happen to have a manager that is guiding them in a good direction, it just propagates.",
+      "source": {
+        "line_start": 198,
+        "line_end": 198,
+        "timestamp": "00:33:11",
+        "speaker": "Marty Cagan"
+      },
+      "themes": [
+        "advice",
+        "learning",
+        "feature-teams",
+        "misinformation"
+      ],
+      "zones": [
+        "discovery",
+        "chaos"
+      ]
+    },
+    {
+      "id": "marty-cagan-010",
+      "text": "Product leaders do product strategy. Product teams don't do product strategy. That is the job, is to make these strategic decisions, the focus decisions, the bets you're going to place. Then you give those bets to the teams and you really do give them latitude to figure it out.",
+      "source": {
+        "line_start": 258,
+        "line_end": 261,
+        "timestamp": "00:45:03",
+        "speaker": "Marty Cagan"
+      },
+      "themes": [
+        "strategy",
+        "leadership",
+        "empowerment",
+        "alignment"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "marty-cagan-011",
+      "text": "Empowerment does not mean you set up this product team and they go decide what to work on. That would just be anarchy. Empowerment means the leaders do their job, come up with the bets, and then the teams are able to figure out the best way to solve those problems.",
+      "source": {
+        "line_start": 261,
+        "line_end": 261,
+        "timestamp": "00:46:08",
+        "speaker": "Marty Cagan"
+      },
+      "themes": [
+        "empowerment",
+        "strategy",
+        "alignment",
+        "leadership"
+      ],
+      "zones": [
+        "alignment",
+        "focus",
+        "discovery"
+      ]
+    },
+    {
+      "id": "marty-cagan-012",
+      "text": "If you are fundamentally a backlog administrator, good luck protecting that because already people are doing that with AI. That is not a good job prospect. For an empowered product manager, if your responsibility is value and viability, that's the real challenge left.",
+      "source": {
+        "line_start": 291,
+        "line_end": 294,
+        "timestamp": "00:52:38",
+        "speaker": "Marty Cagan"
+      },
+      "themes": [
+        "ai",
+        "skills",
+        "value",
+        "viability",
+        "future"
+      ],
+      "zones": [
+        "intuition",
+        "data",
+        "discovery"
+      ]
+    },
+    {
+      "id": "rahul-vohra-q001",
+      "speaker": "Rahul Vohra",
+      "text": "There is no such thing as a truly viral product. Even Facebook in its heyday had a viral factor of about 0.7. What I mean is, no app has sustained a viral factor of greater than one for any real period of time. The true secret behind virality is word of mouth. It is the virality you can't measure that isn't a mechanic that isn't in a feature. It is when one user spontaneously tells another user about your product.",
+      "timestamp": "00:07:08",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 96,
+        "lineEnd": 102
+      },
+      "themes": [
+        "growth",
+        "virality",
+        "word-of-mouth"
+      ],
+      "zones": [
+        "velocity",
+        "perfection"
+      ]
+    },
+    {
+      "id": "rahul-vohra-q002",
+      "speaker": "Rahul Vohra",
+      "text": "The Switch log. It's born out of the observation that your calendar says what you thought you were going to do, but it's really only your trail of work that describes what you actually did. What if I just did whatever the heck I wanted? Every single time I change task I just Slack DM'd my EA and said, 'TS:,' and then a few words for the task I was doing.",
+      "timestamp": "00:21:45",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 168,
+        "lineEnd": 168
+      },
+      "themes": [
+        "productivity",
+        "time-management",
+        "focus"
+      ],
+      "zones": [
+        "focus",
+        "data"
+      ]
+    },
+    {
+      "id": "rahul-vohra-q003",
+      "speaker": "Rahul Vohra",
+      "text": "I looked at all of the major font families, and honestly none of them was what I would call truly excellent. I was looking for a font that was in and of itself gorgeous, that could convey a message of any kind without overpowering the sentiment, that made reading speed and comprehension really fast, and that made email addresses themselves look great.",
+      "timestamp": "00:33:56",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 252,
+        "lineEnd": 255
+      },
+      "themes": [
+        "design",
+        "craft",
+        "details"
+      ],
+      "zones": [
+        "perfection",
+        "focus"
+      ]
+    },
+    {
+      "id": "rahul-vohra-q004",
+      "speaker": "Rahul Vohra",
+      "text": "Email is mission-critical. It's not something where you can simply launch with a half-baked product. When you have mission-critical products like email where you are interfacing with customers, with candidates, with investors, it turns out to really matter. That's why you can't just launch with a half-baked product.",
+      "timestamp": "00:42:08",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 294,
+        "lineEnd": 294
+      },
+      "themes": [
+        "product",
+        "quality",
+        "launch-strategy"
+      ],
+      "zones": [
+        "perfection",
+        "focus"
+      ]
+    },
+    {
+      "id": "rahul-vohra-q005",
+      "speaker": "Rahul Vohra",
+      "text": "You have to pick something. The most well-known brands have stood for one clear thing, they have a clear position. So in order for Superhuman to be memorable, I believed that we needed to occupy a clear position that was unique and which was available and which reinforced our product strategy. That's how speed became our position.",
+      "timestamp": "00:43:37",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 303,
+        "lineEnd": 303
+      },
+      "themes": [
+        "positioning",
+        "strategy",
+        "branding"
+      ],
+      "zones": [
+        "focus",
+        "velocity"
+      ]
+    },
+    {
+      "id": "rahul-vohra-q006",
+      "speaker": "Rahul Vohra",
+      "text": "At peak we had about 20 people doing manual onboarding. What we found is two things. Number one, the user metrics are excellent for things like engagement, retention, product market fit score, MPS, virality. And number two, in a world where you can easily and quickly raise funding, you can actually use dollars to avoid building a first-time user experience and instead focus all of your engineers on finding product market fit.",
+      "timestamp": "00:48:12",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 336,
+        "lineEnd": 348
+      },
+      "themes": [
+        "onboarding",
+        "growth",
+        "strategy"
+      ],
+      "zones": [
+        "velocity",
+        "focus",
+        "discovery"
+      ]
+    },
+    {
+      "id": "rahul-vohra-q007",
+      "speaker": "Rahul Vohra",
+      "text": "You can measure product market fit. You can optimize product market fit. You can systematically, even numerically increase product market fit. And you can even have an algorithm write your roadmap for you, and that is a roadmap that is guaranteed to increase product market fit.",
+      "timestamp": "00:53:12",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 360,
+        "lineEnd": 360
+      },
+      "themes": [
+        "product-market-fit",
+        "metrics",
+        "roadmap"
+      ],
+      "zones": [
+        "data",
+        "focus"
+      ]
+    },
+    {
+      "id": "rahul-vohra-q008",
+      "speaker": "Rahul Vohra",
+      "text": "To get to product market fit, you have to deliberately not act on the feedback of many of your early users. You're listening to people intensely and building what people want. But it can't be all people. The question becomes, how do you listen to them? And then even of what they say, what do you pay attention to and what don't you?",
+      "timestamp": "00:54:07",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 363,
+        "lineEnd": 363
+      },
+      "themes": [
+        "product-market-fit",
+        "user-feedback",
+        "focus"
+      ],
+      "zones": [
+        "focus",
+        "discovery"
+      ]
+    },
+    {
+      "id": "rahul-vohra-q009",
+      "speaker": "Rahul Vohra",
+      "text": "We should make business software like we make games, because when we make products like we make games, people find them fun. They tell their friends, they fall in love with them. It's another way of backing into word of mouth. It's not gamification, that doesn't work. Game design works, but game design is not gamification.",
+      "timestamp": "00:59:58",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 402,
+        "lineEnd": 402
+      },
+      "themes": [
+        "product-design",
+        "game-design",
+        "user-experience"
+      ],
+      "zones": [
+        "perfection",
+        "velocity"
+      ]
+    },
+    {
+      "id": "rahul-vohra-q010",
+      "speaker": "Rahul Vohra",
+      "text": "Make fun toys and then combine those into games. The best games are constructed out of toys. Why? Because then they are fun on both levels, the toy and the game itself. Think about the features of your product. Do those features indulge playful exploration? Are they fun even without a goal? Do they elicit moments of pleasant surprise?",
+      "timestamp": "01:03:12",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 414,
+        "lineEnd": 423
+      },
+      "themes": [
+        "product-design",
+        "game-design",
+        "user-experience"
+      ],
+      "zones": [
+        "perfection",
+        "intuition"
+      ]
+    },
+    {
+      "id": "rahul-vohra-q011",
+      "speaker": "Rahul Vohra",
+      "text": "SDR - Single Decisive Reason. For important decisions, you should be able to identify one reason that on its own supports the decision. All too often we rely on a collection of weak reasons to justify decisions. Multiple low quality reasons rarely add up to a high quality reason to do something.",
+      "timestamp": "01:19:22",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 513,
+        "lineEnd": 528
+      },
+      "themes": [
+        "decision-making",
+        "leadership",
+        "clarity"
+      ],
+      "zones": [
+        "focus",
+        "alignment"
+      ]
+    }
+  ],
+  "lastUpdated": "2026-01-20T21:53:03.151Z"
+}
