@@ -72,11 +72,12 @@ function parseTranscriptSections(content: string): TranscriptSection[] {
 
   // First, collect all speaker matches
   while ((match = speakerRegex.exec(content)) !== null) {
-    const lineNumber = content.substring(0, match.index).split('\n').length;
+    const currentMatch = match; // Store to satisfy TypeScript null check
+    const lineNumber = content.substring(0, currentMatch.index).split('\n').length;
     matches.push({
-      speaker: match[1].trim(),
-      timestamp: match[2],
-      index: match.index,
+      speaker: currentMatch[1].trim(),
+      timestamp: currentMatch[2],
+      index: currentMatch.index,
       lineNumber,
       isContinuation: false
     });
@@ -84,15 +85,16 @@ function parseTranscriptSections(content: string): TranscriptSection[] {
 
   // Then, collect continuation timestamp matches
   while ((match = continuationRegex.exec(content)) !== null) {
-    const lineNumber = content.substring(0, match.index).split('\n').length;
+    const currentMatch = match; // Store to satisfy TypeScript null check
+    const lineNumber = content.substring(0, currentMatch.index).split('\n').length;
 
     // Only add if this isn't already captured by speakerRegex
-    const alreadyMatched = matches.some(m => m.index === match.index);
+    const alreadyMatched = matches.some(m => m.index === currentMatch.index);
     if (!alreadyMatched) {
       matches.push({
         speaker: null, // Will inherit from previous section
-        timestamp: match[1],
-        index: match.index,
+        timestamp: currentMatch[1],
+        index: currentMatch.index,
         lineNumber,
         isContinuation: true
       });
