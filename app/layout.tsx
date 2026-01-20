@@ -53,14 +53,6 @@ export default function RootLayout({
       <body className="font-sans antialiased cursor-none">
         <CustomCursor />
         {children}
-        <style jsx global>{`
-          * {
-            cursor: none !important;
-          }
-          a, button, [role="button"] {
-            cursor: none !important;
-          }
-        `}</style>
       </body>
     </html>
   );
