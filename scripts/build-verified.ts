@@ -73,10 +73,15 @@ function extractAllQuotes(episodes: EpisodeEnrichment[]): Quote[] {
 }
 
 function validateZoneReferences(quotes: Quote[]): void {
-  const quoteIds = new Set(quotes.map(q => q.id));
+  const quoteIds = new Set(quotes.filter(q => q && q.id).map(q => q.id));
   const errors: string[] = [];
   
   for (const [zoneId, zone] of Object.entries(zones)) {
+    if (!zone) {
+      errors.push(`Zone '${zoneId}' is undefined`);
+      continue;
+    }
+    
     if (zone.quoteId && !quoteIds.has(zone.quoteId)) {
       errors.push(`Zone '${zoneId}' references non-existent quote: ${zone.quoteId}`);
     }
@@ -95,20 +100,20 @@ function validateZoneReferences(quotes: Quote[]): void {
 }
 
 function validateContradictionReferences(quotes: Quote[]): void {
-  const quoteIds = new Set(quotes.map(q => q.id));
+  const quoteIds = new Set(quotes.filter(q => q && q.id).map(q => q.id));
   const errors: string[] = [];
   
   for (const contradiction of contradictions) {
     // Check if episodeSlug exists in verified episodes
     if (contradiction.sideA.episodeSlug) {
-      const hasQuotes = quotes.some(q => q.source.slug === contradiction.sideA.episodeSlug);
+      const hasQuotes = quotes.some(q => q && q.source && q.source.slug === contradiction.sideA.episodeSlug);
       if (!hasQuotes) {
         errors.push(`Contradiction '${contradiction.id}' sideA references unverified episode: ${contradiction.sideA.episodeSlug}`);
       }
     }
     
     if (contradiction.sideB.episodeSlug) {
-      const hasQuotes = quotes.some(q => q.source.slug === contradiction.sideB.episodeSlug);
+      const hasQuotes = quotes.some(q => q && q.source && q.source.slug === contradiction.sideB.episodeSlug);
       if (!hasQuotes) {
         errors.push(`Contradiction '${contradiction.id}' sideB references unverified episode: ${contradiction.sideB.episodeSlug}`);
       }

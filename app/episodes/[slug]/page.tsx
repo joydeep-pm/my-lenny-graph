@@ -7,6 +7,8 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, Clock, Eye, Calendar, Play, Search, Share2, Hash, X, Lightbulb, MessageSquare, Target } from 'lucide-react';
 import { getEpisodeBySlug, allEpisodes, Episode } from '@/lib/allEpisodes';
 import { episodeInsights, EpisodeInsights } from '@/lib/insightsData';
+import { getEpisodeEnrichment } from '@/lib/verifiedQuotes';
+import VerifiedQuotes from '@/components/VerifiedQuotes';
 
 // Client-side transcript loading
 async function loadTranscript(slug: string) {
@@ -38,6 +40,7 @@ export default function EpisodePage() {
   const slug = params.slug as string;
   
   const episode = getEpisodeBySlug(slug);
+  const verifiedEnrichment = useMemo(() => getEpisodeEnrichment(slug), [slug]);
   
   const insights = useMemo(() => {
     const raw = episodeInsights.find(i => i.slug === slug);
@@ -261,6 +264,19 @@ export default function EpisodePage() {
                   </div>
                 )}
               </div>
+
+              {/* Verified Quotes Section */}
+              {verifiedEnrichment && (
+                <div className="mb-12">
+                  <VerifiedQuotes
+                    enrichment={verifiedEnrichment}
+                    onJumpToTranscript={(lineStart) => {
+                      // TODO: Implement jump to line functionality
+                      console.log('Jump to line:', lineStart);
+                    }}
+                  />
+                </div>
+              )}
 
               {/* Search Transcript */}
               <div className="mb-6">
