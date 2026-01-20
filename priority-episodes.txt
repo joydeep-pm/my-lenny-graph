@@ -1,0 +1,104 @@
+# Priority Episodes for Batch Curation
+# Based on: view counts, key guests mentioned in zones, diverse topic coverage
+# Target: Get to 100+ episodes curated (currently at 5)
+#
+# Format: one episode-slug per line
+# Lines starting with # are comments
+
+# === HIGH PRIORITY: Key Zone Guests (20 episodes) ===
+# These guests are explicitly mentioned in zone descriptions
+
+marty-cagan
+teresa-torres
+april-dunford
+casey-winters
+brian-balfour
+paul-graham
+jason-fried
+guillermo-rauch
+karri-saarinen
+gokul-rajaram
+claire-hughes-johnson
+shreyas-doshi
+tobi-lutke
+anton-osika
+
+# === POPULAR EPISODES: High View Counts (15 episodes) ===
+# These are most watched and likely have great content
+
+adam-nash
+julie-zhuo
+kevin-systrom
+elad-gil
+josh-miller
+bangaly-kaba
+thomas-curran
+shahed-khan
+shreyas-doshi-1
+emily-kramer
+ben-horowitz
+andrew-chen
+reforge-casey-winters
+lenny-rachitsky-product-market-fit
+
+# === CHAOS ZONE: Need More Coverage (10 episodes) ===
+# Currently only 2 episodes, need fast-moving builder types
+
+jason-fried-1
+david-heinemeier-hansson
+paul-adams
+soleio-cuervo
+julie-supan
+fareed-mosavat
+des-traynor
+mathilde-collin
+eric-migicovsky
+
+# === DATA ZONE: Analytics & Metrics Experts (10 episodes) ===
+# Currently only 3 episodes, need metrics-focused content
+
+dan-hockenmaier
+lenny-rachitsky-growth
+adam-fishman
+archana-madhavan
+shahed-khan-1
+fareed-mosavat-growth
+dan-wolchonok
+anu-hariharan
+
+# === DISCOVERY ZONE: User Research Focused (10 episodes) ===
+# Currently only 4 episodes, need more research-driven content
+
+teresa-torres-1
+indi-young
+bob-moesta
+des-traynor-jobs-to-be-done
+michael-margolis
+erika-hall
+judd-antin
+
+# === PERFECTION ZONE: Craft & Quality (10 episodes) ===
+# Currently only 4 episodes, need design/craft focus
+
+jony-ive
+soleio-cuervo-design
+josh-miller-browser
+julie-zhuo-design
+kevin-hale
+yuhki-yamashita
+
+# === RECENT POPULAR (2024-2025) (15 episodes) ===
+# Fresh content for relevance
+
+sam-altman
+patrick-collison
+jensen-huang
+mustafa-suleyman
+demis-hassabis
+dario-amodei
+satya-nadella
+marc-andreessen
+reid-hoffman
+eric-schmidt
+
+# Total: ~95 episodes + 5 existing = 100 episodes
