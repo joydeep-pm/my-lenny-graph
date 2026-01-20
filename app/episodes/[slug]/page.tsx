@@ -426,8 +426,13 @@ export default function EpisodePage() {
                     >
                       <div className="flex items-start gap-4">
                         <button
-                          onClick={() => jumpToTimestamp(index)}
-                          className="flex-shrink-0 w-20 text-xs font-mono text-ash-dark hover:text-amber transition-colors flex items-center gap-1 select-none"
+                          onClick={(e) => {
+                            e.preventDefault();
+                            jumpToTimestamp(index);
+                          }}
+                          onMouseDown={(e) => e.preventDefault()}
+                          className="flex-shrink-0 w-20 text-xs font-mono text-ash-dark hover:text-amber transition-colors flex items-center gap-1 select-none cursor-pointer"
+                          style={{ userSelect: 'none', WebkitUserSelect: 'none' }}
                           title="Jump to timestamp"
                         >
                           <Hash className="w-3 h-3" />
@@ -541,18 +546,9 @@ export default function EpisodePage() {
                         <div className="flex justify-between items-center">
                           <span className="text-ash-dark flex items-center gap-2">
                             <QuoteIcon className="w-4 h-4" />
-                            Verified Quotes
+                            Curated Quotes
                           </span>
                           <span className="text-amber font-bold">{verifiedEnrichment.keyQuotes.length}</span>
-                        </div>
-                      )}
-                      {insights.quotableMoments && insights.quotableMoments.length > 0 && (
-                        <div className="flex justify-between items-center">
-                          <span className="text-ash-dark flex items-center gap-2">
-                            <Lightbulb className="w-4 h-4" />
-                            Quotable Moments
-                          </span>
-                          <span className="text-amber font-bold">{insights.quotableMoments.length}</span>
                         </div>
                       )}
                       {insights.contrarianViews && insights.contrarianViews.length > 0 && (
@@ -591,32 +587,6 @@ export default function EpisodePage() {
                         className="mt-4 text-xs text-crimson hover:text-crimson/80 transition-colors"
                       >
                         {showAllContrarian ? '▲ Show Less' : `▼ Show ${insights.contrarianViews.length - 2} More`}
-                      </button>
-                    )}
-                  </div>
-                )}
-
-                {/* Quotable Moments */}
-                {insights && insights.quotableMoments.length > 0 && (
-                  <div className="border-2 border-amber/30 bg-void-light p-6">
-                    <h3 className="text-lg font-bold text-amber mb-4">💡 QUOTABLE MOMENTS</h3>
-                    <div className="space-y-4">
-                      {insights.quotableMoments.slice(0, showAllQuotes ? undefined : 3).map((moment, i) => (
-                        <div key={i} className="border-l-2 border-amber/50 pl-3">
-                          <p className="text-sm text-ash mb-2">"{moment.quote}"
-                          </p>
-                          <div className="flex items-center gap-2 text-xs text-ash-dark">
-                            <span>{moment.timestamp}</span>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                    {insights.quotableMoments.length > 3 && (
-                      <button
-                        onClick={() => setShowAllQuotes(!showAllQuotes)}
-                        className="mt-4 text-xs text-amber hover:text-amber/80 transition-colors"
-                      >
-                        {showAllQuotes ? '▲ Show Less' : `▼ Show ${insights.quotableMoments.length - 3} More`}
                       </button>
                     )}
                   </div>

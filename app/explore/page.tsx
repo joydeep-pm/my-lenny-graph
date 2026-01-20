@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect, memo } from 'react';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, Filter, Play, Clock, Eye, Calendar, Flame, ExternalLink } from 'lucide-react';
@@ -8,11 +8,43 @@ import InteractiveSpace from '@/components/InteractiveSpace';
 import {allEpisodes, getAllKeywords, searchEpisodes, sortEpisodes, SortOption, Episode } from '@/lib/allEpisodes';
 import { getEpisodeEnrichment } from '@/lib/verifiedQuotes';
 
+const STORAGE_KEY = 'lenny-explore-filters';
+
 export default function ExplorePage() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedKeywords, setSelectedKeywords] = useState<string[]>([]);
   const [sortBy, setSortBy] = useState<SortOption>('date-desc');
   const [showFilters, setShowFilters] = useState(false);
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  // Load filters from localStorage on mount
+  useEffect(() => {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) {
+      try {
+        const { searchQuery: sq, selectedKeywords: sk, sortBy: sb, showFilters: sf } = JSON.parse(saved);
+        if (sq !== undefined) setSearchQuery(sq);
+        if (sk !== undefined) setSelectedKeywords(sk);
+        if (sb !== undefined) setSortBy(sb);
+        if (sf !== undefined) setShowFilters(sf);
+      } catch (e) {
+        console.error('Error loading filters:', e);
+      }
+    }
+    setIsLoaded(true);
+  }, []);
+
+  // Save filters to localStorage whenever they change
+  useEffect(() => {
+    if (isLoaded) {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({
+        searchQuery,
+        selectedKeywords,
+        sortBy,
+        showFilters
+      }));
+    }
+  }, [searchQuery, selectedKeywords, sortBy, showFilters, isLoaded]);
 
   const allKeywords = useMemo(() => getAllKeywords(), []);
 
@@ -250,7 +282,7 @@ export default function ExplorePage() {
   );
 }
 
-function EpisodeCard({
+const EpisodeCard = memo(function EpisodeCard({
   episode,
   index,
   selectedKeywords
@@ -344,7 +376,7 @@ function EpisodeCard({
           const enrichment = getEpisodeEnrichment(episode.slug);
           return enrichment ? (
             <div className="font-mono">
-              <span className="text-amber">{enrichment.keyQuotes.length}</span> verified quotes
+              <span className="text-amber">{enrichment.keyQuotes.length}</span> curated quotes
             </div>
           ) : null;
         })()}
@@ -373,4 +405,4 @@ function EpisodeCard({
       </div>
     </motion.div>
   );
-}
+});

@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Quote as QuoteIcon, Clock, MapPin, ChevronRight } from 'lucide-react';
+import { Quote as QuoteIcon, Clock, MapPin } from 'lucide-react';
 import { Quote, EpisodeEnrichment, ZoneId } from '@/lib/types';
 import { zones } from '@/lib/zones';
 
@@ -32,10 +32,10 @@ export default function VerifiedQuotes({ enrichment, onJumpToTranscript }: Verif
       <div className="border-b-2 border-amber/20 pb-4">
         <div className="flex items-center gap-3 mb-2">
           <QuoteIcon className="w-6 h-6 text-amber" />
-          <h2 className="text-2xl font-bold text-amber">VERIFIED QUOTES</h2>
+          <h2 className="text-2xl font-bold text-amber">CURATED QUOTES</h2>
         </div>
         <p className="text-ash-dark text-sm">
-          {enrichment.keyQuotes.length} verified quotes extracted from the transcript
+          {enrichment.keyQuotes.length} curated quotes extracted from the transcript
         </p>
       </div>
 
@@ -138,32 +138,6 @@ export default function VerifiedQuotes({ enrichment, onJumpToTranscript }: Verif
           )}
         </motion.div>
       </AnimatePresence>
-
-      {/* Takeaways */}
-      {enrichment.takeaways.length > 0 && (
-        <div className="mt-12 pt-8 border-t-2 border-ash-darker">
-          <div className="flex items-center gap-3 mb-6">
-            <ChevronRight className="w-5 h-5 text-crimson" />
-            <h3 className="text-xl font-bold text-amber">KEY TAKEAWAYS</h3>
-          </div>
-          <div className="space-y-4">
-            {enrichment.takeaways.map((takeaway, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: index * 0.1 }}
-                className="flex gap-4 p-4 bg-void-light border border-ash-darker hover:border-amber/30 transition-colors"
-              >
-                <div className="text-amber font-bold text-sm flex-shrink-0">
-                  {String(index + 1).padStart(2, '0')}
-                </div>
-                <p className="text-ash leading-relaxed">{takeaway}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      )}
     </div>
   );
 }
