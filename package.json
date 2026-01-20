@@ -16,6 +16,7 @@
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.5.0",
     "framer-motion": "^12.27.1",
+    "gray-matter": "^4.0.3",
     "html2canvas": "^1.4.1",
     "lucide-react": "^0.562.0",
     "maath": "^0.10.8",
