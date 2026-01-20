@@ -34,7 +34,8 @@ function ContradictionsContent() {
     if (isTransitioning) return;
 
     const contradiction = contradictions[currentIndex];
-    setSelections({ ...selections, [contradiction.id]: selection });
+    const updatedSelections = { ...selections, [contradiction.id]: selection };
+    setSelections(updatedSelections);
     setIsTransitioning(true);
 
     setTimeout(() => {
@@ -43,9 +44,9 @@ function ContradictionsContent() {
         setIsTransitioning(false);
       } else {
         // All contradictions complete - navigate to results
-        const selectionsParam = encodeURIComponent(JSON.stringify(selections));
+        const contradictionsParam = encodeURIComponent(JSON.stringify(updatedSelections));
         const answersParam = searchParams.get('answers');
-        router.push(`/results?answers=${answersParam}&zone=${zone}&selections=${selectionsParam}`);
+        router.push(`/results?answers=${answersParam}&contradictions=${contradictionsParam}`);
       }
     }, 600);
   };
