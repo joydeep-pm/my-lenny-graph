@@ -469,27 +469,142 @@ Scale:        1.0→1.02→0.98
 
 ## 📊 Current Status
 
-**Last Updated:** Session 6 (In Progress) - Verified Content System
-**Current Branch:** `warp-integrated`
+**Last Updated:** Session 7 - Quality Improvements & Podcast Recommendation Engine Planning
+**Current Branch:** `claude/rethink-philosophy-calculation-3wgE6`
 **Build Status:** ✅ All pages building + verification guards active
-**Status:** Core UX complete, but data inadequate (1.7% coverage)
-**Priority:** Scale from 5 to 100+ curated episodes for credibility
+**Status:** Quality fixes complete, ready to scale curation and redesign results
+**Priority:** Transform quiz results into podcast recommendation engine
 
-**Commits:**
-- feat: Add contradictions page with real PM debates
-- feat: Build complete PM Philosophy results page
-- fix: Correct contradictions navigation parameter name
+---
+
+## ✅ Session 7: Quality Improvements (COMPLETED - Jan 22, 2026)
+
+### Critical Bug Fixes ✅
+- **Fixed transcript search index bug**: Clicking search results now correctly jumps to matching segments (not literal index)
+- **Fixed sitemap domain**: Changed from `localhost` to `lenny.productbuilder.net` fallback
+- **Fixed episode metadata**: Updated to use environment variable for domain references
+- **Fixed hardcoded domains**: Removed `pmphilosophy.com` references
+
+### UX Improvements ✅
+- **Made YouTube video sticky**: Video now stays at top while transcript scrolls behind
+- **Removed confusing 3D map link**: Simplified results page (removed "View Your Map" button)
+- **Removed zone tags from verified quotes**: Cleaned up quote display on episode pages
+- **Simplified quote filtering**: Removed zone filter, kept theme filter (more useful)
+
+### SEO & Analytics ✅
+- **Google Analytics integration**: Added GA4 support with `NEXT_PUBLIC_GA_ID`
+- **Fixed SEO metadata**: Updated all fallback domains to `lenny.productbuilder.net`
+- **Sitemap cleanup**: Removed localhost references throughout codebase
+
+### Developer Tools ✅
+Created 3 new Claude skills for recurring maintenance tasks:
+- **`/verify-seo`**: Complete SEO metadata validation
+- **`/verify-sitemap`**: Sitemap.xml generation and URL validation
+- **`/update-og-images`**: OpenGraph image management and batch generation
+
+**Files Changed:**
+- `app/episodes/[slug]/page.tsx` - Fixed search + sticky video
+- `app/episodes/[slug]/layout.tsx` - Fixed domain
+- `app/layout.tsx` - Fixed domain + added GA
+- `app/results/page.tsx` - Removed 3D map
+- `app/sitemap.ts` - Fixed domain
+- `components/VerifiedQuotes.tsx` - Removed zone tags
+- `components/GoogleAnalytics.tsx` - New component
+- `.claude/skills/` - 3 new skill docs
+
+---
+
+## 🎯 NEXT PRIORITY: Podcast Recommendation Engine
+
+### Current Problem
+Quiz results show abstract "zones" and philosophy cards - doesn't leverage the 91 curated quotes effectively or drive podcast listening.
+
+### New Vision: Transform Results into Podcast Discovery
+**Instead of:** "Your primary philosophy is The Velocity Nebula"
+**Show:** "Based on your answers, you should listen to these episodes..."
+
+### Recommendation Engine Components
+
+#### 1. Matching Episodes (3-5 recommendations)
+- Match quiz answers to specific quotes from curated episodes
+- Show guest name, episode title, matching quote
+- Link directly to episode page with timestamp
+- Shareable format: "I'm 85% aligned with Brian Chesky's philosophy"
+
+#### 2. Contrarian Episodes (2-3 recommendations)
+- Find episodes that challenge the user's worldview
+- "These perspectives might expand your thinking..."
+- Encourage intellectual diversity
+- Link to episodes with opposing philosophies
+
+#### 3. Personal Philosophy Summary
+- Your top strengths (based on high-scoring zones)
+- Your blind spots (based on low-scoring zones)
+- Growth areas (which contrarian episodes to explore)
+- Shareable card with key insights
+
+#### 4. Quote Evidence
+- Show 2-3 actual quotes that match their philosophy
+- "This is why we recommend Episode X..."
+- Build trust through concrete examples
+- Link quotes to full episode pages
+
+### Technical Requirements
+- [ ] Build quote-matching algorithm (quiz answers → quotes)
+- [ ] Calculate episode alignment scores (user profile vs episode zone_influence)
+- [ ] Find contrarian episodes (inverse alignment)
+- [ ] Redesign results page UI
+- [ ] Make results highly shareable
+- [ ] Track click-through to episodes
+
+### Success Metrics
+- Increase episode page visits from results
+- Higher social sharing of results
+- More time spent on site (listening to recommended episodes)
+- Quiz completion → episode listening conversion
+
+---
+
+## 📊 Current Coverage Status
+
+**Episodes Curated:** 8/303 (2.6%)
+**Target:** 100+ episodes (33%)
+**Verified Quotes:** 91
+
+**Zone Coverage:**
+- velocity: 8 episodes ✓ (target met)
+- focus: 8 episodes ✓ (target met)
+- intuition: 7 episodes (need 3 more)
+- perfection: 6 episodes (need 4 more)
+- discovery: 6 episodes (need 4 more)
+- alignment: 6 episodes (need 4 more)
+- data: 5 episodes (need 5 more)
+- chaos: 4 episodes (need 6 more)
+
+**Priority:** Continue curation in parallel with recommendation engine development
+
+---
+
+## 🏗️ Active Development Branches
+
+- `claude/rethink-philosophy-calculation-3wgE6` - Quality fixes (current)
+- `warp-integrated` - Previous main branch
+- `main` - Production branch
+
+**Commits (Latest Session):**
+- feat: Quality improvements and Claude skills for maintenance
+- docs: Add comprehensive build progress tracker
 
 **Pages Live:**
 - `/` - Landing (3D starfield, terminal aesthetic)
 - `/quiz` - 7 questions
 - `/map` - Zone reveal with transcript data
-- `/contradictions` - 5 PM debates
-- `/results` - Full philosophy profile
+- `/explore` - Browse all 303 episodes
+- `/episodes/[slug]` - Individual episode pages with verified quotes
+- `/results` - Philosophy profile (to be redesigned)
 
-**Data Surfaced:**
-- 303 episodes referenced throughout
-- 8 zones with real guest quotes
-- 5 contradictions with opposing viewpoints
-- Guest attributions (Brian Chesky, Rahul Vohra, Marty Cagan, Dylan Field, Amjad Masad, etc.)
-- Episode titles and counts per zone
+**Data Quality:**
+- 8 episodes with 91 verified quotes
+- All quotes timestamped and validated
+- No quotes from first 5 minutes (highlights filtered out)
+- All zone references point to real quotes (no fake data)
