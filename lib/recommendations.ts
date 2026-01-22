@@ -164,10 +164,9 @@ export function calculateEpisodeAlignment(
   const episodeMetadata = allEpisodes.find(ep => ep.slug === slug);
   if (!episodeMetadata) return null;
 
-  // Note: JSON uses snake_case (zone_influence) but we need camelCase
-  // The episode object from verified-content.json will have zoneInfluence
-  // @ts-ignore - Type mismatch between JSON and TypeScript
-  const episodeZones: Record<ZoneId, number> = episode.zoneInfluence || {};
+  // Note: JSON uses snake_case (zone_influence) but TypeScript type expects camelCase
+  // Access the data correctly from the JSON structure
+  const episodeZones: Record<ZoneId, number> = (episode as any).zoneInfluence || (episode as any).zone_influence || {};
 
   // Calculate alignment
   const alignmentScore = calculateAlignmentScore(userProfile, episodeZones);

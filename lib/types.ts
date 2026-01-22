@@ -63,7 +63,8 @@ export interface EpisodeEnrichment {
   themes: string[];
   takeaways: string[];
   contradictionsRefs: string[];
-  zoneInfluence: Record<ZoneId, number>;
+  zoneInfluence: Record<ZoneId, number>; // TypeScript uses camelCase
+  zone_influence?: Record<ZoneId, number>; // JSON uses snake_case (for compatibility)
 }
 
 export interface VerifiedContent {
