@@ -19,15 +19,15 @@ export default function NotFound() {
 
           {/* Message */}
           <h1 className="text-3xl md:text-4xl font-bold text-ash mb-4">
-            LOCATION NOT FOUND
+            PAGE NOT FOUND
           </h1>
           <p className="text-xl text-ash-dark mb-8">
-            This zone doesn't exist in the Product Universe
+            This page doesn't exist
           </p>
 
-          {/* Glitch Effect */}
+          {/* Error message */}
           <div className="text-crimson text-sm mb-8 animate-pulse">
-            ERROR: COORDINATES_INVALID
+            ERROR: ROUTE_NOT_FOUND
           </div>
 
           {/* Navigation Options */}
@@ -80,7 +80,7 @@ export default function NotFound() {
           {/* ASCII Art Terminal Border */}
           <div className="mt-12 text-ash-darker text-xs">
             <div>╔════════════════════════════════════╗</div>
-            <div>║  SYSTEM: PM PHILOSOPHY MAP v1.0   ║</div>
+            <div>║  PHILOSOPHY QUIZ • LENNY'S PODCAST ║</div>
             <div>║  STATUS: ROUTE_NOT_FOUND          ║</div>
             <div>╚════════════════════════════════════╝</div>
           </div>

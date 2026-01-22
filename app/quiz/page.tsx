@@ -102,7 +102,7 @@ function QuizContent() {
         localStorage.setItem('pm_map_name', userName);
         localStorage.setItem('pm_map_role', userRole);
 
-        router.push(`/map?answers=${answersParam}&name=${nameParam}&role=${roleParam}`);
+        router.push(`/results?answers=${answersParam}&name=${nameParam}`);
       }
     }, 600);
   };
