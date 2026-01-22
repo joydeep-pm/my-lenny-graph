@@ -2610,6 +2610,322 @@
       ]
     },
     {
+      "episode_slug": "julie-zhuo",
+      "guest": "Julie Zhuo",
+      "episode_title": "From managing people to managing AI: The leadership skills everyone needs now | Julie Zhuo",
+      "verification_date": "2026-01-22",
+      "verified_by": "claude-agent",
+      "quotes": [
+        {
+          "id": "julie-zhuo-001",
+          "text": "Management is just about having an outcome. You have a north star, you have a vision, and you're just trying to figure out how to use the resources that you have to get that thing done. Used to be people, but now it's basically models and different models have different strengths. You have to assemble the Avengers so that you can use the right tools for the right purposes.",
+          "source": {
+            "line_start": 115,
+            "line_end": 118,
+            "timestamp": "00:10:07",
+            "speaker": "Julie Zhuo"
+          },
+          "context": "Explaining how management principles apply directly to working with AI agents and models",
+          "themes": [
+            "management",
+            "ai",
+            "agents",
+            "resources"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ],
+          "verified": true
+        },
+        {
+          "id": "julie-zhuo-002",
+          "text": "Defining the goal and defining the outcome and being really, really crystal clear on what does success look like is the first skill. Different people may have different pictures of what success looks like. How do we get even more specific so that we know without question whether we've hit it or not. This is actually a really, really difficult problem.",
+          "source": {
+            "line_start": 132,
+            "line_end": 136,
+            "timestamp": "00:13:06",
+            "speaker": "Julie Zhuo"
+          },
+          "context": "Explaining why clarity of outcomes is the most important skill for working with AI and teams",
+          "themes": [
+            "clarity",
+            "goals",
+            "alignment",
+            "outcomes"
+          ],
+          "zones": [
+            "alignment",
+            "data"
+          ],
+          "verified": true
+        },
+        {
+          "id": "julie-zhuo-003",
+          "text": "AI allows me to do many of those jobs myself. Now, I'm not going to do them at the PhD or the highest 1%, 10% level, but if I was at the zero or 10th percentile, it can certainly get me even today very quickly up to the 60th, 70th. We need to dissolve the boundaries of these traditional roles. Call ourselves builders. I'd love for us to get to the world where that's the title.",
+          "source": {
+            "line_start": 142,
+            "line_end": 145,
+            "timestamp": "00:15:34",
+            "speaker": "Julie Zhuo"
+          },
+          "context": "Describing how AI empowers individuals to transcend traditional role boundaries",
+          "themes": [
+            "ai",
+            "roles",
+            "builders",
+            "empowerment"
+          ],
+          "zones": [
+            "velocity",
+            "chaos"
+          ],
+          "verified": true
+        },
+        {
+          "id": "julie-zhuo-004",
+          "text": "I don't actually think a lot of the fast-growing companies are using data well at this point. Traditionally things just didn't grow that fast. These companies are totally getting by on just good instincts and good vibes. But what always happens is eventually things stop growing. Growth does not happen forever. And usually when growth stops, that's when you start to see the power of good observability.",
+          "source": {
+            "line_start": 199,
+            "line_end": 202,
+            "timestamp": "00:28:25",
+            "speaker": "Julie Zhuo"
+          },
+          "context": "Contrarian take on how fast-growing AI companies succeed initially without data infrastructure",
+          "themes": [
+            "data",
+            "growth",
+            "observability",
+            "hypergrowth"
+          ],
+          "zones": [
+            "data",
+            "discovery"
+          ],
+          "verified": true
+        },
+        {
+          "id": "julie-zhuo-005",
+          "text": "What you really want is you want to diagnose with data and treat with design. Data is not a tool that's going to tell you what you should build or what the solution is. But it can tell you if you have a problem and where that problem or opportunity might be. You still need to go back and undergo a very creative process to figure out what's the best way to solve that.",
+          "source": {
+            "line_start": 228,
+            "line_end": 229,
+            "timestamp": "00:33:32",
+            "speaker": "Julie Zhuo"
+          },
+          "context": "Sharing the perfect framework for balancing data and design that she and her co-founder use",
+          "themes": [
+            "data",
+            "design",
+            "frameworks",
+            "balance"
+          ],
+          "zones": [
+            "data",
+            "perfection"
+          ],
+          "verified": true
+        },
+        {
+          "id": "julie-zhuo-006",
+          "text": "Management is really about this idea of be sturdy while being flexible. I think about this metaphor a lot of the willow tree. The willow tree is a very sturdy tree. It can survive a lot of storms, disasters, et cetera, but it's also very flexible. The branches are very, very flexible, and that's in some ways what allows it to be very sturdy.",
+          "source": {
+            "line_start": 258,
+            "line_end": 259,
+            "timestamp": "00:40:23",
+            "speaker": "Julie Zhuo"
+          },
+          "context": "Describing the essential balance managers need in times of rapid change and uncertainty",
+          "themes": [
+            "change-management",
+            "resilience",
+            "flexibility",
+            "metaphor"
+          ],
+          "zones": [
+            "chaos",
+            "intuition"
+          ],
+          "verified": true
+        },
+        {
+          "id": "julie-zhuo-007",
+          "text": "I'm a big believer that every strength is its own weakness, and every weakness is a strength. There's no such thing as you're going to somehow get every dimension to be 100%. We can kind of look at you in infinite dimensions. Each of our profiles is very unique, it's like a fingerprint. None of these dimensions are you entirely. Somebody can give you feedback or you can have room to improve, and that's not who you are.",
+          "source": {
+            "line_start": 283,
+            "line_end": 301,
+            "timestamp": "00:43:18",
+            "speaker": "Julie Zhuo"
+          },
+          "context": "Introducing the dimensionality framework for self-awareness and managing personal development",
+          "themes": [
+            "self-awareness",
+            "dimensionality",
+            "growth",
+            "identity"
+          ],
+          "zones": [
+            "discovery",
+            "perfection"
+          ],
+          "verified": true
+        },
+        {
+          "id": "julie-zhuo-008",
+          "text": "Feedback is essentially trying to put your hypotheses and test them against reality. I'm going to ask you for feedback and you're going to give me a gift. It'll be a gift of reflecting something back of what you see that I can't see. Just like if I have a leaf in the back of my head, I can't see that. That is what feedback is. It is essentially reflection back.",
+          "source": {
+            "line_start": 397,
+            "line_end": 409,
+            "timestamp": "00:58:50",
+            "speaker": "Julie Zhuo"
+          },
+          "context": "Reframing feedback as a gift that helps calibrate our self-perception to reality",
+          "themes": [
+            "feedback",
+            "reflection",
+            "reality",
+            "growth"
+          ],
+          "zones": [
+            "discovery",
+            "perfection"
+          ],
+          "verified": true
+        },
+        {
+          "id": "julie-zhuo-009",
+          "text": "It's very difficult for managers to convey purpose if you don't have conviction yourself. Watching your conviction is really important. Sometimes what new managers don't pay attention to enough is what is their true belief. If you don't really believe in what you're doing or you're just parroting the thing that got passed through the organization, it's very hard to be effective or hold that vision and purpose.",
+          "source": {
+            "line_start": 487,
+            "line_end": 499,
+            "timestamp": "01:10:21",
+            "speaker": "Julie Zhuo"
+          },
+          "context": "Explaining why managers must develop genuine conviction rather than just executing orders",
+          "themes": [
+            "conviction",
+            "purpose",
+            "belief",
+            "leadership"
+          ],
+          "zones": [
+            "focus",
+            "intuition"
+          ],
+          "verified": true
+        },
+        {
+          "id": "julie-zhuo-010",
+          "text": "I think if you start thinking adversarially like 'my getting better outcomes has to come at the expense of somebody else losing something,' it's very difficult to be successful. If you say, 'Look, actually, my job is to figure out how to create win-wins,' a lot of things get easier. That has to be a collaboration. If it's not win-win and you could be wrong, that would actually be great information because then maybe we can go back and find a way to make it win-win.",
+          "source": {
+            "line_start": 460,
+            "line_end": 475,
+            "timestamp": "01:06:33",
+            "speaker": "Julie Zhuo"
+          },
+          "context": "Describing win-win thinking as fundamental to effective management and difficult conversations",
+          "themes": [
+            "win-win",
+            "collaboration",
+            "management",
+            "mindset"
+          ],
+          "zones": [
+            "alignment",
+            "intuition"
+          ],
+          "verified": true
+        },
+        {
+          "id": "julie-zhuo-011",
+          "text": "I believe that there's infinity in every direction. If my kids say something like going outside is boring or taking a walk is boring, my general response will be, 'Well, it's because you're not seeing the infinity that's in that direction.' Even something really mundane like staring at a blank wall, you can make that actually deeply, deeply interesting if you can find the thing that is deep, and rich, and infinite in that direction.",
+          "source": {
+            "line_start": 622,
+            "line_end": 625,
+            "timestamp": "01:21:05",
+            "speaker": "Julie Zhuo"
+          },
+          "context": "Sharing her contrarian philosophical worldview that applies to work and life",
+          "themes": [
+            "philosophy",
+            "perspective",
+            "mindfulness",
+            "infinity"
+          ],
+          "zones": [
+            "intuition",
+            "discovery"
+          ],
+          "verified": true
+        },
+        {
+          "id": "julie-zhuo-012",
+          "text": "Emotional regulation is still really, really important. AI makes things so much more comfortable. Technology makes things a lot easier, but you can shortcut a lot of things. How do we actually still learn to sit with what is our true biology that's not changing? True freedom is you can pick the things that are hard and you can feel pride in becoming the thing that you want to be. Don't think about it as a shortcut tool.",
+          "source": {
+            "line_start": 739,
+            "line_end": 745,
+            "timestamp": "01:32:05",
+            "speaker": "Julie Zhuo"
+          },
+          "context": "Explaining what she teaches her kids about emotional skills in an AI-powered future",
+          "themes": [
+            "emotional-regulation",
+            "ai",
+            "challenge",
+            "human-skills"
+          ],
+          "zones": [
+            "chaos",
+            "intuition"
+          ],
+          "verified": true
+        }
+      ],
+      "takeaways": [
+        "Managing AI agents requires the same skills as managing people - define clear outcomes, understand each agent's strengths like assembling the Avengers, and create the right processes; the fundamentals haven't changed",
+        "Diagnose with data, treat with design - data tells you if you have a problem and where it is, but you still need creative design thinking to figure out the solution; they're complementary tools not opposites",
+        "Be like the willow tree in times of change - sturdy enough to survive storms but flexible enough to bend; managers must balance certainty and adaptability as AI accelerates the rate of change",
+        "Use the dimensionality framework for self-awareness - every human has infinite dimensions of strengths and weaknesses; feedback on one dimension doesn't threaten your identity, and every strength has a corresponding weakness",
+        "Managers need genuine conviction not just orders - if you don't truly believe in what you're doing, you're just parroting and won't be effective at holding the vision; work through disagreements to find real belief or test assumptions"
+      ],
+      "zone_influence": {
+        "velocity": 0.1,
+        "perfection": 0.15,
+        "discovery": 0.2,
+        "data": 0.15,
+        "intuition": 0.2,
+        "alignment": 0.15,
+        "chaos": 0.1,
+        "focus": 0.05
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "julie-zhuo-004",
+          "why": "Challenges the narrative that fast-growing AI companies are data-driven - argues they're succeeding on vibes and instincts, data becomes important only when growth stops",
+          "related_zones": [
+            "data",
+            "discovery"
+          ]
+        },
+        {
+          "quoteId": "julie-zhuo-007",
+          "why": "Rejects the self-improvement narrative of eliminating weaknesses - argues every strength IS a weakness and vice versa, you can't max out every dimension",
+          "related_zones": [
+            "discovery",
+            "perfection"
+          ]
+        },
+        {
+          "quoteId": "julie-zhuo-012",
+          "why": "Warns against using AI as shortcuts - while most focus on AI's productivity gains, Julie argues emotional regulation and choosing hard things is more important for human fulfillment",
+          "related_zones": [
+            "chaos",
+            "intuition"
+          ]
+        }
+      ]
+    },
+    {
       "episode_slug": "marty-cagan",
       "guest": "Marty Cagan",
       "episode_title": "Product management theater | Marty Cagan (Silicon Valley Product Group)",
@@ -6651,6 +6967,270 @@
       "verified": true
     },
     {
+      "id": "julie-zhuo-001",
+      "text": "Management is just about having an outcome. You have a north star, you have a vision, and you're just trying to figure out how to use the resources that you have to get that thing done. Used to be people, but now it's basically models and different models have different strengths. You have to assemble the Avengers so that you can use the right tools for the right purposes.",
+      "source": {
+        "line_start": 115,
+        "line_end": 118,
+        "timestamp": "00:10:07",
+        "speaker": "Julie Zhuo"
+      },
+      "context": "Explaining how management principles apply directly to working with AI agents and models",
+      "themes": [
+        "management",
+        "ai",
+        "agents",
+        "resources"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ],
+      "verified": true
+    },
+    {
+      "id": "julie-zhuo-002",
+      "text": "Defining the goal and defining the outcome and being really, really crystal clear on what does success look like is the first skill. Different people may have different pictures of what success looks like. How do we get even more specific so that we know without question whether we've hit it or not. This is actually a really, really difficult problem.",
+      "source": {
+        "line_start": 132,
+        "line_end": 136,
+        "timestamp": "00:13:06",
+        "speaker": "Julie Zhuo"
+      },
+      "context": "Explaining why clarity of outcomes is the most important skill for working with AI and teams",
+      "themes": [
+        "clarity",
+        "goals",
+        "alignment",
+        "outcomes"
+      ],
+      "zones": [
+        "alignment",
+        "data"
+      ],
+      "verified": true
+    },
+    {
+      "id": "julie-zhuo-003",
+      "text": "AI allows me to do many of those jobs myself. Now, I'm not going to do them at the PhD or the highest 1%, 10% level, but if I was at the zero or 10th percentile, it can certainly get me even today very quickly up to the 60th, 70th. We need to dissolve the boundaries of these traditional roles. Call ourselves builders. I'd love for us to get to the world where that's the title.",
+      "source": {
+        "line_start": 142,
+        "line_end": 145,
+        "timestamp": "00:15:34",
+        "speaker": "Julie Zhuo"
+      },
+      "context": "Describing how AI empowers individuals to transcend traditional role boundaries",
+      "themes": [
+        "ai",
+        "roles",
+        "builders",
+        "empowerment"
+      ],
+      "zones": [
+        "velocity",
+        "chaos"
+      ],
+      "verified": true
+    },
+    {
+      "id": "julie-zhuo-004",
+      "text": "I don't actually think a lot of the fast-growing companies are using data well at this point. Traditionally things just didn't grow that fast. These companies are totally getting by on just good instincts and good vibes. But what always happens is eventually things stop growing. Growth does not happen forever. And usually when growth stops, that's when you start to see the power of good observability.",
+      "source": {
+        "line_start": 199,
+        "line_end": 202,
+        "timestamp": "00:28:25",
+        "speaker": "Julie Zhuo"
+      },
+      "context": "Contrarian take on how fast-growing AI companies succeed initially without data infrastructure",
+      "themes": [
+        "data",
+        "growth",
+        "observability",
+        "hypergrowth"
+      ],
+      "zones": [
+        "data",
+        "discovery"
+      ],
+      "verified": true
+    },
+    {
+      "id": "julie-zhuo-005",
+      "text": "What you really want is you want to diagnose with data and treat with design. Data is not a tool that's going to tell you what you should build or what the solution is. But it can tell you if you have a problem and where that problem or opportunity might be. You still need to go back and undergo a very creative process to figure out what's the best way to solve that.",
+      "source": {
+        "line_start": 228,
+        "line_end": 229,
+        "timestamp": "00:33:32",
+        "speaker": "Julie Zhuo"
+      },
+      "context": "Sharing the perfect framework for balancing data and design that she and her co-founder use",
+      "themes": [
+        "data",
+        "design",
+        "frameworks",
+        "balance"
+      ],
+      "zones": [
+        "data",
+        "perfection"
+      ],
+      "verified": true
+    },
+    {
+      "id": "julie-zhuo-006",
+      "text": "Management is really about this idea of be sturdy while being flexible. I think about this metaphor a lot of the willow tree. The willow tree is a very sturdy tree. It can survive a lot of storms, disasters, et cetera, but it's also very flexible. The branches are very, very flexible, and that's in some ways what allows it to be very sturdy.",
+      "source": {
+        "line_start": 258,
+        "line_end": 259,
+        "timestamp": "00:40:23",
+        "speaker": "Julie Zhuo"
+      },
+      "context": "Describing the essential balance managers need in times of rapid change and uncertainty",
+      "themes": [
+        "change-management",
+        "resilience",
+        "flexibility",
+        "metaphor"
+      ],
+      "zones": [
+        "chaos",
+        "intuition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "julie-zhuo-007",
+      "text": "I'm a big believer that every strength is its own weakness, and every weakness is a strength. There's no such thing as you're going to somehow get every dimension to be 100%. We can kind of look at you in infinite dimensions. Each of our profiles is very unique, it's like a fingerprint. None of these dimensions are you entirely. Somebody can give you feedback or you can have room to improve, and that's not who you are.",
+      "source": {
+        "line_start": 283,
+        "line_end": 301,
+        "timestamp": "00:43:18",
+        "speaker": "Julie Zhuo"
+      },
+      "context": "Introducing the dimensionality framework for self-awareness and managing personal development",
+      "themes": [
+        "self-awareness",
+        "dimensionality",
+        "growth",
+        "identity"
+      ],
+      "zones": [
+        "discovery",
+        "perfection"
+      ],
+      "verified": true
+    },
+    {
+      "id": "julie-zhuo-008",
+      "text": "Feedback is essentially trying to put your hypotheses and test them against reality. I'm going to ask you for feedback and you're going to give me a gift. It'll be a gift of reflecting something back of what you see that I can't see. Just like if I have a leaf in the back of my head, I can't see that. That is what feedback is. It is essentially reflection back.",
+      "source": {
+        "line_start": 397,
+        "line_end": 409,
+        "timestamp": "00:58:50",
+        "speaker": "Julie Zhuo"
+      },
+      "context": "Reframing feedback as a gift that helps calibrate our self-perception to reality",
+      "themes": [
+        "feedback",
+        "reflection",
+        "reality",
+        "growth"
+      ],
+      "zones": [
+        "discovery",
+        "perfection"
+      ],
+      "verified": true
+    },
+    {
+      "id": "julie-zhuo-009",
+      "text": "It's very difficult for managers to convey purpose if you don't have conviction yourself. Watching your conviction is really important. Sometimes what new managers don't pay attention to enough is what is their true belief. If you don't really believe in what you're doing or you're just parroting the thing that got passed through the organization, it's very hard to be effective or hold that vision and purpose.",
+      "source": {
+        "line_start": 487,
+        "line_end": 499,
+        "timestamp": "01:10:21",
+        "speaker": "Julie Zhuo"
+      },
+      "context": "Explaining why managers must develop genuine conviction rather than just executing orders",
+      "themes": [
+        "conviction",
+        "purpose",
+        "belief",
+        "leadership"
+      ],
+      "zones": [
+        "focus",
+        "intuition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "julie-zhuo-010",
+      "text": "I think if you start thinking adversarially like 'my getting better outcomes has to come at the expense of somebody else losing something,' it's very difficult to be successful. If you say, 'Look, actually, my job is to figure out how to create win-wins,' a lot of things get easier. That has to be a collaboration. If it's not win-win and you could be wrong, that would actually be great information because then maybe we can go back and find a way to make it win-win.",
+      "source": {
+        "line_start": 460,
+        "line_end": 475,
+        "timestamp": "01:06:33",
+        "speaker": "Julie Zhuo"
+      },
+      "context": "Describing win-win thinking as fundamental to effective management and difficult conversations",
+      "themes": [
+        "win-win",
+        "collaboration",
+        "management",
+        "mindset"
+      ],
+      "zones": [
+        "alignment",
+        "intuition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "julie-zhuo-011",
+      "text": "I believe that there's infinity in every direction. If my kids say something like going outside is boring or taking a walk is boring, my general response will be, 'Well, it's because you're not seeing the infinity that's in that direction.' Even something really mundane like staring at a blank wall, you can make that actually deeply, deeply interesting if you can find the thing that is deep, and rich, and infinite in that direction.",
+      "source": {
+        "line_start": 622,
+        "line_end": 625,
+        "timestamp": "01:21:05",
+        "speaker": "Julie Zhuo"
+      },
+      "context": "Sharing her contrarian philosophical worldview that applies to work and life",
+      "themes": [
+        "philosophy",
+        "perspective",
+        "mindfulness",
+        "infinity"
+      ],
+      "zones": [
+        "intuition",
+        "discovery"
+      ],
+      "verified": true
+    },
+    {
+      "id": "julie-zhuo-012",
+      "text": "Emotional regulation is still really, really important. AI makes things so much more comfortable. Technology makes things a lot easier, but you can shortcut a lot of things. How do we actually still learn to sit with what is our true biology that's not changing? True freedom is you can pick the things that are hard and you can feel pride in becoming the thing that you want to be. Don't think about it as a shortcut tool.",
+      "source": {
+        "line_start": 739,
+        "line_end": 745,
+        "timestamp": "01:32:05",
+        "speaker": "Julie Zhuo"
+      },
+      "context": "Explaining what she teaches her kids about emotional skills in an AI-powered future",
+      "themes": [
+        "emotional-regulation",
+        "ai",
+        "challenge",
+        "human-skills"
+      ],
+      "zones": [
+        "chaos",
+        "intuition"
+      ],
+      "verified": true
+    },
+    {
       "id": "marty-cagan-001",
       "text": "There is no question that a lot of companies overhired during the pandemic. I go into some companies and honestly I can't believe all the ridiculous roles that they have, agile coaches and product owners and product ops and business analysts. They're dramatically overpaid for the value they provide. Because it's a project management role.",
       "source": {
@@ -8183,5 +8763,5 @@
       "verified": true
     }
   ],
-  "lastUpdated": "2026-01-22T22:07:46.715Z"
+  "lastUpdated": "2026-01-22T22:10:28.056Z"
 }
