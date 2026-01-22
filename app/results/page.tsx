@@ -56,6 +56,8 @@ function ResultsContent() {
   };
 
   const handleShare = () => {
+    if (!recommendations) return;
+
     const primaryZone = zones[recommendations.userProfile.primaryZone];
     const shareText = `I just discovered my product philosophy: ${primaryZone.name}! ${primaryZone.tagline}\n\nTake the quiz: ${window.location.origin}`;
 
