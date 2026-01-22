@@ -3461,6 +3461,322 @@
       ]
     },
     {
+      "episode_slug": "stewart-butterfield",
+      "guest": "Stewart Butterfield",
+      "episode_title": "Mental models for building products people love ft. Stewart Butterfield",
+      "verification_date": "2026-01-22",
+      "verified_by": "claude-agent",
+      "quotes": [
+        {
+          "id": "stewart-butterfield-001",
+          "text": "We're on these narrow sidewalks in Vancouver when it starts raining. Most people with umbrellas wouldn't move them out of the way - the pokey bits are at eye level. Only one-third would tilt their umbrella. We said your failure to really exercise this courtesy and be empathic about other people's experience is an advantage that you can create.",
+          "source": {
+            "line_start": 129,
+            "line_end": 138,
+            "timestamp": "00:17:54",
+            "speaker": "Stewart Butterfield"
+          },
+          "context": "The umbrella tilt story that became a core Slack value about product craftsmanship and empathy",
+          "themes": [
+            "empathy",
+            "craft",
+            "product-design",
+            "slack"
+          ],
+          "zones": [
+            "perfection",
+            "intuition"
+          ],
+          "verified": true
+        },
+        {
+          "id": "stewart-butterfield-002",
+          "text": "Utility curves: first bit of effort produces no value, then there's a magic threshold where it produces enormous value, then continued investment doesn't pay off. We would investigate whether we were on the first shallow part of the curve, the second shallow part, or just coming up to it. This helped us decide whether something was worth it.",
+          "source": {
+            "line_start": 96,
+            "line_end": 102,
+            "timestamp": "00:08:06",
+            "speaker": "Stewart Butterfield"
+          },
+          "context": "Explaining the utility curve S-curve framework for product investment decisions",
+          "themes": [
+            "frameworks",
+            "prioritization",
+            "utility-curves",
+            "value"
+          ],
+          "zones": [
+            "focus",
+            "perfection"
+          ],
+          "verified": true
+        },
+        {
+          "id": "stewart-butterfield-003",
+          "text": "It became an assumption that you should always be trying to remove friction. But the challenge is really comprehension. If your software stops me and asks me to make a decision and I don't really understand it, you make me feel stupid. Instead of reducing clicks or taps, focus on how can I make this simple? How do I prevent people from having to think?",
+          "source": {
+            "line_start": 207,
+            "line_end": 237,
+            "timestamp": "00:28:46",
+            "speaker": "Stewart Butterfield"
+          },
+          "context": "Explaining why comprehension matters more than reducing friction or clicks",
+          "themes": [
+            "comprehension",
+            "friction",
+            "design",
+            "dont-make-me-think"
+          ],
+          "zones": [
+            "perfection",
+            "intuition"
+          ],
+          "verified": true
+        },
+        {
+          "id": "stewart-butterfield-004",
+          "text": "Have you exhausted the possibilities? Creating the distance so that you can make an intellectual rational decision rather than an emotional decision is essential. The reason I say you have to be coldly rational is because pivoting is fucking humiliating. You convinced so many people - investors, employees, press, users - and now you're admitting 'I was wrong. This didn't work.'",
+          "source": {
+            "line_start": 468,
+            "line_end": 477,
+            "timestamp": "01:13:43",
+            "speaker": "Stewart Butterfield"
+          },
+          "context": "Explaining the emotional difficulty of pivoting after Glitch → Slack and Flickr pivots",
+          "themes": [
+            "pivoting",
+            "humility",
+            "decision-making",
+            "emotional-difficulty"
+          ],
+          "zones": [
+            "chaos",
+            "focus"
+          ],
+          "verified": true
+        },
+        {
+          "id": "stewart-butterfield-005",
+          "text": "This is 2014, the year Slack launched. MIT Technology Review asked if we were working to improve Slack. I said, 'I feel like what we have right now is just a giant piece of shit. It's terrible and we should be humiliated that we offer this to the public.' If you can't see almost limitless opportunities to improve, you shouldn't be designing the product.",
+          "source": {
+            "line_start": 38,
+            "line_end": 42,
+            "timestamp": "00:00:14",
+            "speaker": "Stewart Butterfield"
+          },
+          "context": "Expressing divine discontent and high standards for Slack even after launch",
+          "themes": [
+            "standards",
+            "craft",
+            "divine-discontent",
+            "improvement"
+          ],
+          "zones": [
+            "perfection",
+            "chaos"
+          ],
+          "verified": true
+        },
+        {
+          "id": "stewart-butterfield-006",
+          "text": "We invented the magic link experience. Typing your password on your phone if you have any minimal threshold of password hygiene is a terrible experience. Capital H, lowercase Q, six, caret, period. So let's just have them enter email address, send them a link, and it automatically opens the app and authenticates them.",
+          "source": {
+            "line_start": 150,
+            "line_end": 153,
+            "timestamp": "00:21:07",
+            "speaker": "Stewart Butterfield"
+          },
+          "context": "Describing Slack's early UX innovation that became an industry standard",
+          "themes": [
+            "ux",
+            "authentication",
+            "mobile",
+            "innovation"
+          ],
+          "zones": [
+            "perfection",
+            "velocity"
+          ],
+          "verified": true
+        },
+        {
+          "id": "stewart-butterfield-007",
+          "text": "We came up with the shouty rooster. When you @everyone, a little rooster pops up with sound waves and says 'This is going to cause a notification for 147 people in eight different time zones. Are you sure?' That worked amazingly - it dropped off the abuse. It also taught people how the product worked because they probably didn't think about the cost.",
+          "source": {
+            "line_start": 174,
+            "line_end": 183,
+            "timestamp": "00:24:16",
+            "speaker": "Stewart Butterfield"
+          },
+          "context": "Example of delightful UX that shapes behavior and prevents spam",
+          "themes": [
+            "ux",
+            "behavior-design",
+            "delight",
+            "notifications"
+          ],
+          "zones": [
+            "perfection",
+            "intuition"
+          ],
+          "verified": true
+        },
+        {
+          "id": "stewart-butterfield-008",
+          "text": "In the long run, the measure of our success will be the amount of value that we create for customers. You can put effort into demonstrating that you have created this value, but there's no substitute for actually having created it. I made everyone in the company repeat this as a chant at all hands.",
+          "source": {
+            "line_start": 47,
+            "line_end": 48,
+            "timestamp": "00:00:45",
+            "speaker": "Stewart Butterfield"
+          },
+          "context": "The core philosophy that guided Slack's product development",
+          "themes": [
+            "value-creation",
+            "customer-value",
+            "philosophy",
+            "chant"
+          ],
+          "zones": [
+            "focus",
+            "alignment"
+          ],
+          "verified": true
+        },
+        {
+          "id": "stewart-butterfield-009",
+          "text": "The default advice for anyone is persevere - 'hang in there.' But I think you have to be coldly rational. Slack had an enormous advantage: we were working on it for several years without explicitly working on it, only doing features that were so irritating we couldn't stand it anymore. When I had exhausted every non-ridiculous long shot idea to make Glitch commercially successful, I decided to abandon it.",
+          "source": {
+            "line_start": 468,
+            "line_end": 471,
+            "timestamp": "01:14:52",
+            "speaker": "Stewart Butterfield"
+          },
+          "context": "Explaining when to pivot vs persevere using the Glitch → Slack example",
+          "themes": [
+            "pivoting",
+            "perseverance",
+            "decision-making",
+            "glitch"
+          ],
+          "zones": [
+            "chaos",
+            "focus"
+          ],
+          "verified": true
+        },
+        {
+          "id": "stewart-butterfield-010",
+          "text": "Don't Make Me Think. For two reasons: it's expensive to make a decision - you literally burn glucose, there's cognitive cost. But also there's an emotional aspect: if your software stops me and asks me to make a decision I don't understand, you make me feel stupid. Most people feel 'I'm dumb' not 'the software is stupid.' They associate that bad feeling with the product forever.",
+          "source": {
+            "line_start": 231,
+            "line_end": 240,
+            "timestamp": "00:37:04",
+            "speaker": "Stewart Butterfield"
+          },
+          "context": "Expanding on the Don't Make Me Think mantra with biological and emotional reasoning",
+          "themes": [
+            "dont-make-me-think",
+            "cognitive-cost",
+            "emotion",
+            "ux"
+          ],
+          "zones": [
+            "perfection",
+            "discovery"
+          ],
+          "verified": true
+        },
+        {
+          "id": "stewart-butterfield-011",
+          "text": "Google Calendar's time zone picker presents all time zones in alphabetical order. When I type E-A-S-T, first one is Eastern Australia, New South Wales. It's bananas how bad it is - used by hundreds of millions, presumably every Google employee. No one's going to switch from Outlook because the time zone picker is good, but there's real value in delighting customers. That emotional connection makes them recommend it or advocate for it when they switch companies.",
+          "source": {
+            "line_start": 111,
+            "line_end": 117,
+            "timestamp": "00:12:24",
+            "speaker": "Stewart Butterfield"
+          },
+          "context": "Using Google Calendar as example of neglecting craft and its impact on emotional connection",
+          "themes": [
+            "craft",
+            "delight",
+            "emotional-connection",
+            "ux"
+          ],
+          "zones": [
+            "perfection",
+            "intuition"
+          ],
+          "verified": true
+        },
+        {
+          "id": "stewart-butterfield-012",
+          "text": "When we shut down Glitch, there were people who loved it and would spend all their free time on it. That was their community and it just disappeared. People lost jobs, people who moved families to different cities. Pivots aren't something I take lightly. It's very different to be like 'there's three of us and we pivoted to a different app.' If you're six months in, you're still messing around. That doesn't even really count.",
+          "source": {
+            "line_start": 479,
+            "line_end": 480,
+            "timestamp": "01:16:46",
+            "speaker": "Stewart Butterfield"
+          },
+          "context": "Reflecting on the painful human cost of pivoting from Glitch to Slack",
+          "themes": [
+            "pivoting",
+            "responsibility",
+            "community",
+            "impact"
+          ],
+          "zones": [
+            "chaos",
+            "alignment"
+          ],
+          "verified": true
+        }
+      ],
+      "takeaways": [
+        "Tilt your umbrella - empathy for users' experience is your competitive advantage when most competitors are oblivious to their impact, creating emotional connections that drive organic advocacy",
+        "Utility curves guide investment decisions - the first effort produces no value, then hits a magic threshold of enormous value, then diminishing returns; know which part of the curve you're on before investing more",
+        "Comprehension beats friction reduction - most product challenges aren't about reducing clicks, they're about helping users understand what something does and why they should care without making them feel stupid",
+        "Pivot only after exhausting all realistic ideas - be coldly rational not emotional, because pivoting is humiliating after convincing investors/employees/users, but persevering past the point of viability is worse",
+        "Don't Make Me Think - every decision burns glucose and risks making users feel dumb, so ruthlessly eliminate comprehension barriers and obvious next actions to prevent users from associating bad feelings with your product"
+      ],
+      "zone_influence": {
+        "velocity": 0.08,
+        "perfection": 0.3,
+        "discovery": 0.08,
+        "data": 0.05,
+        "intuition": 0.2,
+        "alignment": 0.1,
+        "chaos": 0.15,
+        "focus": 0.1
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "stewart-butterfield-003",
+          "why": "Directly challenges the ubiquitous 'reduce friction' mantra - argues comprehension matters more than clicks, contradicting decades of UX conventional wisdom",
+          "related_zones": [
+            "perfection",
+            "intuition"
+          ]
+        },
+        {
+          "quoteId": "stewart-butterfield-005",
+          "why": "Calling your own product 'a giant piece of shit' right after launch - extreme divine discontent that most founders would never publicly admit",
+          "related_zones": [
+            "perfection",
+            "chaos"
+          ]
+        },
+        {
+          "quoteId": "stewart-butterfield-004",
+          "why": "Argues pivoting requires 'cold rationality' and admits it's 'fucking humiliating' - challenges the romanticized 'pivot early, pivot often' Silicon Valley narrative",
+          "related_zones": [
+            "chaos",
+            "focus"
+          ]
+        }
+      ]
+    },
+    {
       "episode_slug": "tobi-lutke",
       "guest": "Tobi Lütke",
       "episode_title": "Tobi Lütke's leadership playbook: First principles, infinite games, and maximizing human potential",
@@ -6758,6 +7074,270 @@
       "verified": true
     },
     {
+      "id": "stewart-butterfield-001",
+      "text": "We're on these narrow sidewalks in Vancouver when it starts raining. Most people with umbrellas wouldn't move them out of the way - the pokey bits are at eye level. Only one-third would tilt their umbrella. We said your failure to really exercise this courtesy and be empathic about other people's experience is an advantage that you can create.",
+      "source": {
+        "line_start": 129,
+        "line_end": 138,
+        "timestamp": "00:17:54",
+        "speaker": "Stewart Butterfield"
+      },
+      "context": "The umbrella tilt story that became a core Slack value about product craftsmanship and empathy",
+      "themes": [
+        "empathy",
+        "craft",
+        "product-design",
+        "slack"
+      ],
+      "zones": [
+        "perfection",
+        "intuition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "stewart-butterfield-002",
+      "text": "Utility curves: first bit of effort produces no value, then there's a magic threshold where it produces enormous value, then continued investment doesn't pay off. We would investigate whether we were on the first shallow part of the curve, the second shallow part, or just coming up to it. This helped us decide whether something was worth it.",
+      "source": {
+        "line_start": 96,
+        "line_end": 102,
+        "timestamp": "00:08:06",
+        "speaker": "Stewart Butterfield"
+      },
+      "context": "Explaining the utility curve S-curve framework for product investment decisions",
+      "themes": [
+        "frameworks",
+        "prioritization",
+        "utility-curves",
+        "value"
+      ],
+      "zones": [
+        "focus",
+        "perfection"
+      ],
+      "verified": true
+    },
+    {
+      "id": "stewart-butterfield-003",
+      "text": "It became an assumption that you should always be trying to remove friction. But the challenge is really comprehension. If your software stops me and asks me to make a decision and I don't really understand it, you make me feel stupid. Instead of reducing clicks or taps, focus on how can I make this simple? How do I prevent people from having to think?",
+      "source": {
+        "line_start": 207,
+        "line_end": 237,
+        "timestamp": "00:28:46",
+        "speaker": "Stewart Butterfield"
+      },
+      "context": "Explaining why comprehension matters more than reducing friction or clicks",
+      "themes": [
+        "comprehension",
+        "friction",
+        "design",
+        "dont-make-me-think"
+      ],
+      "zones": [
+        "perfection",
+        "intuition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "stewart-butterfield-004",
+      "text": "Have you exhausted the possibilities? Creating the distance so that you can make an intellectual rational decision rather than an emotional decision is essential. The reason I say you have to be coldly rational is because pivoting is fucking humiliating. You convinced so many people - investors, employees, press, users - and now you're admitting 'I was wrong. This didn't work.'",
+      "source": {
+        "line_start": 468,
+        "line_end": 477,
+        "timestamp": "01:13:43",
+        "speaker": "Stewart Butterfield"
+      },
+      "context": "Explaining the emotional difficulty of pivoting after Glitch → Slack and Flickr pivots",
+      "themes": [
+        "pivoting",
+        "humility",
+        "decision-making",
+        "emotional-difficulty"
+      ],
+      "zones": [
+        "chaos",
+        "focus"
+      ],
+      "verified": true
+    },
+    {
+      "id": "stewart-butterfield-005",
+      "text": "This is 2014, the year Slack launched. MIT Technology Review asked if we were working to improve Slack. I said, 'I feel like what we have right now is just a giant piece of shit. It's terrible and we should be humiliated that we offer this to the public.' If you can't see almost limitless opportunities to improve, you shouldn't be designing the product.",
+      "source": {
+        "line_start": 38,
+        "line_end": 42,
+        "timestamp": "00:00:14",
+        "speaker": "Stewart Butterfield"
+      },
+      "context": "Expressing divine discontent and high standards for Slack even after launch",
+      "themes": [
+        "standards",
+        "craft",
+        "divine-discontent",
+        "improvement"
+      ],
+      "zones": [
+        "perfection",
+        "chaos"
+      ],
+      "verified": true
+    },
+    {
+      "id": "stewart-butterfield-006",
+      "text": "We invented the magic link experience. Typing your password on your phone if you have any minimal threshold of password hygiene is a terrible experience. Capital H, lowercase Q, six, caret, period. So let's just have them enter email address, send them a link, and it automatically opens the app and authenticates them.",
+      "source": {
+        "line_start": 150,
+        "line_end": 153,
+        "timestamp": "00:21:07",
+        "speaker": "Stewart Butterfield"
+      },
+      "context": "Describing Slack's early UX innovation that became an industry standard",
+      "themes": [
+        "ux",
+        "authentication",
+        "mobile",
+        "innovation"
+      ],
+      "zones": [
+        "perfection",
+        "velocity"
+      ],
+      "verified": true
+    },
+    {
+      "id": "stewart-butterfield-007",
+      "text": "We came up with the shouty rooster. When you @everyone, a little rooster pops up with sound waves and says 'This is going to cause a notification for 147 people in eight different time zones. Are you sure?' That worked amazingly - it dropped off the abuse. It also taught people how the product worked because they probably didn't think about the cost.",
+      "source": {
+        "line_start": 174,
+        "line_end": 183,
+        "timestamp": "00:24:16",
+        "speaker": "Stewart Butterfield"
+      },
+      "context": "Example of delightful UX that shapes behavior and prevents spam",
+      "themes": [
+        "ux",
+        "behavior-design",
+        "delight",
+        "notifications"
+      ],
+      "zones": [
+        "perfection",
+        "intuition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "stewart-butterfield-008",
+      "text": "In the long run, the measure of our success will be the amount of value that we create for customers. You can put effort into demonstrating that you have created this value, but there's no substitute for actually having created it. I made everyone in the company repeat this as a chant at all hands.",
+      "source": {
+        "line_start": 47,
+        "line_end": 48,
+        "timestamp": "00:00:45",
+        "speaker": "Stewart Butterfield"
+      },
+      "context": "The core philosophy that guided Slack's product development",
+      "themes": [
+        "value-creation",
+        "customer-value",
+        "philosophy",
+        "chant"
+      ],
+      "zones": [
+        "focus",
+        "alignment"
+      ],
+      "verified": true
+    },
+    {
+      "id": "stewart-butterfield-009",
+      "text": "The default advice for anyone is persevere - 'hang in there.' But I think you have to be coldly rational. Slack had an enormous advantage: we were working on it for several years without explicitly working on it, only doing features that were so irritating we couldn't stand it anymore. When I had exhausted every non-ridiculous long shot idea to make Glitch commercially successful, I decided to abandon it.",
+      "source": {
+        "line_start": 468,
+        "line_end": 471,
+        "timestamp": "01:14:52",
+        "speaker": "Stewart Butterfield"
+      },
+      "context": "Explaining when to pivot vs persevere using the Glitch → Slack example",
+      "themes": [
+        "pivoting",
+        "perseverance",
+        "decision-making",
+        "glitch"
+      ],
+      "zones": [
+        "chaos",
+        "focus"
+      ],
+      "verified": true
+    },
+    {
+      "id": "stewart-butterfield-010",
+      "text": "Don't Make Me Think. For two reasons: it's expensive to make a decision - you literally burn glucose, there's cognitive cost. But also there's an emotional aspect: if your software stops me and asks me to make a decision I don't understand, you make me feel stupid. Most people feel 'I'm dumb' not 'the software is stupid.' They associate that bad feeling with the product forever.",
+      "source": {
+        "line_start": 231,
+        "line_end": 240,
+        "timestamp": "00:37:04",
+        "speaker": "Stewart Butterfield"
+      },
+      "context": "Expanding on the Don't Make Me Think mantra with biological and emotional reasoning",
+      "themes": [
+        "dont-make-me-think",
+        "cognitive-cost",
+        "emotion",
+        "ux"
+      ],
+      "zones": [
+        "perfection",
+        "discovery"
+      ],
+      "verified": true
+    },
+    {
+      "id": "stewart-butterfield-011",
+      "text": "Google Calendar's time zone picker presents all time zones in alphabetical order. When I type E-A-S-T, first one is Eastern Australia, New South Wales. It's bananas how bad it is - used by hundreds of millions, presumably every Google employee. No one's going to switch from Outlook because the time zone picker is good, but there's real value in delighting customers. That emotional connection makes them recommend it or advocate for it when they switch companies.",
+      "source": {
+        "line_start": 111,
+        "line_end": 117,
+        "timestamp": "00:12:24",
+        "speaker": "Stewart Butterfield"
+      },
+      "context": "Using Google Calendar as example of neglecting craft and its impact on emotional connection",
+      "themes": [
+        "craft",
+        "delight",
+        "emotional-connection",
+        "ux"
+      ],
+      "zones": [
+        "perfection",
+        "intuition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "stewart-butterfield-012",
+      "text": "When we shut down Glitch, there were people who loved it and would spend all their free time on it. That was their community and it just disappeared. People lost jobs, people who moved families to different cities. Pivots aren't something I take lightly. It's very different to be like 'there's three of us and we pivoted to a different app.' If you're six months in, you're still messing around. That doesn't even really count.",
+      "source": {
+        "line_start": 479,
+        "line_end": 480,
+        "timestamp": "01:16:46",
+        "speaker": "Stewart Butterfield"
+      },
+      "context": "Reflecting on the painful human cost of pivoting from Glitch to Slack",
+      "themes": [
+        "pivoting",
+        "responsibility",
+        "community",
+        "impact"
+      ],
+      "zones": [
+        "chaos",
+        "alignment"
+      ],
+      "verified": true
+    },
+    {
       "id": "tobi-lutke-001",
       "text": "My energy source is dissatisfaction with status quo. I think today is the dystopia of the future. It behooves us to try to build the kinds of products that lead towards progress.",
       "source": {
@@ -7023,5 +7603,5 @@
       "verified": true
     }
   ],
-  "lastUpdated": "2026-01-22T21:53:02.599Z"
+  "lastUpdated": "2026-01-22T21:55:49.422Z"
 }
