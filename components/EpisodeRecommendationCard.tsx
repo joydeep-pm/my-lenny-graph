@@ -26,25 +26,20 @@ export default function EpisodeRecommendationCard({ episode, index, variant = 'p
         className="block p-6 border-2 border-ash-darker bg-void-light hover:border-amber transition-all hover:bg-void"
       >
         {/* Header */}
-        <div className="flex items-start justify-between mb-4">
-          <div className="flex-1">
-            <h3 className="text-xl font-bold text-amber mb-1 group-hover:text-amber-dark transition-colors">
+        <div className="mb-4">
+          <div className="flex items-start justify-between mb-2">
+            <h3 className="text-xl font-bold text-amber group-hover:text-amber-dark transition-colors">
               {episode.guest}
             </h3>
-            <p className="text-sm text-ash-dark line-clamp-2">
-              {episode.title}
-            </p>
+            {isPrimary && (
+              <div className="flex-shrink-0 ml-4 px-3 py-1 bg-amber/10 border border-amber/30 text-amber text-xs font-mono">
+                RECOMMENDED
+              </div>
+            )}
           </div>
-          <div className="flex-shrink-0 ml-4">
-            <div className={`text-2xl font-bold font-mono ${
-              isPrimary ? 'text-amber' : 'text-crimson'
-            }`}>
-              {episode.alignmentScore}%
-            </div>
-            <div className="text-xs text-ash-dark">
-              {isPrimary ? 'match' : 'different'}
-            </div>
-          </div>
+          <p className="text-sm text-ash-dark line-clamp-2">
+            {episode.title}
+          </p>
         </div>
 
         {/* Match Reason */}

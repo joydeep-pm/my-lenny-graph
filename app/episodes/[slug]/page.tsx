@@ -338,16 +338,6 @@ export default function EpisodePage() {
                   )}
                 </div>
 
-                {/* Actions */}
-                <div className="flex flex-wrap gap-3">
-                  <Link
-                    href="/quiz"
-                    className="inline-flex items-center gap-2 px-6 py-3 border-2 border-amber text-amber hover:bg-amber hover:text-void transition-all font-bold"
-                  >
-                    TAKE THE QUIZ
-                  </Link>
-                </div>
-
                 {/* Keywords */}
                 {episode.keywords && episode.keywords.length > 0 && (
                   <div className="mt-6">

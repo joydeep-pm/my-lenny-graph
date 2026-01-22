@@ -55,9 +55,19 @@ function ResultsContent() {
     }
   };
 
-  const handleCopyLink = () => {
-    navigator.clipboard.writeText(window.location.href);
-    alert('Link copied to clipboard!');
+  const handleShare = () => {
+    const primaryZone = zones[recommendations.userProfile.primaryZone];
+    const shareText = `I just discovered my product philosophy: ${primaryZone.name}! ${primaryZone.tagline}\n\nTake the quiz: ${window.location.origin}`;
+
+    if (navigator.share) {
+      navigator.share({
+        title: 'My Product Philosophy',
+        text: shareText,
+      }).catch(err => console.log('Error sharing:', err));
+    } else {
+      navigator.clipboard.writeText(shareText);
+      alert('Shareable text copied to clipboard!');
+    }
   };
 
   const handleRetake = () => {
@@ -95,19 +105,22 @@ function ResultsContent() {
         animate={{ opacity: 1, y: 0 }}
         className="max-w-5xl mx-auto mb-12"
       >
-        <div className="flex items-center justify-between mb-4">
-          <div className="text-xs text-ash-darker font-mono tracking-wider">
-            BASED ON 7 QUESTIONS
+        <div className="flex items-center justify-between mb-6">
+          <div className="flex items-center gap-3">
+            <div className="w-2 h-2 bg-amber rounded-full animate-pulse" />
+            <div className="text-xs text-ash-dark font-mono tracking-wider">
+              PHILOSOPHY DISCOVERED
+            </div>
           </div>
-          <div className="text-xs text-amber font-mono">
-            {primary.length + contrarian.length} EPISODE{primary.length + contrarian.length !== 1 ? 'S' : ''} MATCHED
+          <div className="px-3 py-1 bg-amber/10 border border-amber/30 text-amber text-xs font-mono">
+            {primary.length + contrarian.length} EPISODES MATCHED
           </div>
         </div>
-        <h1 className="text-4xl md:text-6xl font-bold text-amber mb-2">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-amber mb-4 leading-tight">
           {userName !== 'Your' ? `${userName}'s` : 'Your'} Product Philosophy
         </h1>
-        <p className="text-ash-dark text-lg">
-          And the podcast episodes that match how you work
+        <p className="text-xl md:text-2xl text-ash leading-relaxed">
+          Podcast episodes curated for how you work as a PM
         </p>
       </motion.div>
 
@@ -237,32 +250,39 @@ function ResultsContent() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9 }}
-          className="flex flex-wrap gap-4 justify-center pt-8"
+          className="space-y-6"
         >
-          <button
-            onClick={handleDownload}
-            className="px-8 py-4 bg-amber text-void font-mono font-bold hover:bg-amber-dark transition-all hover:scale-105 active:scale-95"
-          >
-            📥 DOWNLOAD YOUR RESULTS
-          </button>
-          <button
-            onClick={handleCopyLink}
-            className="px-8 py-4 border-2 border-amber text-amber font-mono font-bold hover:bg-amber hover:text-void transition-all hover:scale-105 active:scale-95"
-          >
-            SHARE YOUR RESULTS
-          </button>
-          <button
-            onClick={handleExplore}
-            className="px-8 py-4 border-2 border-ash-darker text-ash font-mono font-bold hover:bg-ash-darker hover:text-void transition-all hover:scale-105 active:scale-95"
-          >
-            EXPLORE ALL EPISODES
-          </button>
-          <button
-            onClick={handleRetake}
-            className="px-8 py-4 border border-ash-darker text-ash-dark font-mono hover:text-ash hover:border-ash transition-all"
-          >
-            RETAKE QUIZ
-          </button>
+          {/* Primary actions */}
+          <div className="flex flex-wrap gap-4 justify-center">
+            <button
+              onClick={handleShare}
+              className="px-10 py-5 bg-amber text-void font-mono font-bold hover:bg-amber-dark transition-all hover:scale-105 active:scale-95 text-lg"
+            >
+              🔥 SHARE YOUR PHILOSOPHY
+            </button>
+            <button
+              onClick={handleDownload}
+              className="px-10 py-5 border-2 border-amber text-amber font-mono font-bold hover:bg-amber hover:text-void transition-all hover:scale-105 active:scale-95 text-lg"
+            >
+              📥 DOWNLOAD RESULTS
+            </button>
+          </div>
+
+          {/* Secondary actions */}
+          <div className="flex flex-wrap gap-4 justify-center text-sm">
+            <button
+              onClick={handleExplore}
+              className="px-6 py-3 border border-ash-darker text-ash-dark font-mono hover:text-amber hover:border-amber transition-all"
+            >
+              Browse All Episodes
+            </button>
+            <button
+              onClick={handleRetake}
+              className="px-6 py-3 border border-ash-darker text-ash-dark font-mono hover:text-amber hover:border-amber transition-all"
+            >
+              Retake Quiz
+            </button>
+          </div>
         </motion.div>
 
         {/* Footer */}
