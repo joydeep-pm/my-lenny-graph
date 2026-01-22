@@ -2829,6 +2829,322 @@
       }
     },
     {
+      "episode_slug": "shreyas-doshi",
+      "guest": "Shreyas Doshi",
+      "episode_title": "The art of product management | Shreyas Doshi (Stripe, Twitter, Google, Yahoo)",
+      "verification_date": "2026-01-22",
+      "verified_by": "claude-agent",
+      "quotes": [
+        {
+          "id": "shreyas-doshi-001",
+          "text": "If you do a pre-mortem right, you will not have to do an ugly post-mortem. The genius is the initial prompt: imagine this project has failed six months from now. Now work backwards and ask what went wrong. It creates psychological safety for team members to talk about things they're concerned about without being negative.",
+          "source": {
+            "line_start": 180,
+            "line_end": 183,
+            "timestamp": "00:25:47",
+            "speaker": "Shreyas Doshi"
+          },
+          "context": "Introducing the pre-mortem framework with tigers, paper tigers, and elephants",
+          "themes": [
+            "pre-mortems",
+            "risk-management",
+            "psychological-safety",
+            "frameworks"
+          ],
+          "zones": [
+            "data",
+            "perfection"
+          ],
+          "verified": true
+        },
+        {
+          "id": "shreyas-doshi-002",
+          "text": "In a pre-mortem, bring up three things: a tiger (a threat that will actually kill us), a paper tiger (a seeming threat others worry about but you're not), and an elephant in the room that nobody is talking about. That shared vocabulary becomes powerful - in future meetings people started saying 'I have this tiger' and it became okay to bring those things up.",
+          "source": {
+            "line_start": 189,
+            "line_end": 195,
+            "timestamp": "00:27:51",
+            "speaker": "Shreyas Doshi"
+          },
+          "context": "Explaining the specific structure of effective pre-mortems",
+          "themes": [
+            "pre-mortems",
+            "frameworks",
+            "vocabulary",
+            "risk-management"
+          ],
+          "zones": [
+            "data",
+            "discovery"
+          ],
+          "verified": true
+        },
+        {
+          "id": "shreyas-doshi-003",
+          "text": "All your tasks are not created equal. There are L tasks (leverage) where you put in effort and get 10X or 100X in return. N tasks (neutral) where you get what you put in. And O tasks (overhead) where you get back less than you put in. Most ambitious people treat each type the same way - and therein lies the problem.",
+          "source": {
+            "line_start": 228,
+            "line_end": 231,
+            "timestamp": "00:35:56",
+            "speaker": "Shreyas Doshi"
+          },
+          "context": "Introducing the LNO framework for prioritizing PM time",
+          "themes": [
+            "prioritization",
+            "leverage",
+            "time-management",
+            "frameworks"
+          ],
+          "zones": [
+            "focus",
+            "data"
+          ],
+          "verified": true
+        },
+        {
+          "id": "shreyas-doshi-004",
+          "text": "The same activity can be an L, N, or O task depending on context. Filing a bug report can be leverage if it's a critical issue requiring detailed documentation, or overhead if it's minor and you're just being thorough. Taking notes can be leverage after a strategic CEO decision, or overhead after a routine sync.",
+          "source": {
+            "line_start": 237,
+            "line_end": 243,
+            "timestamp": "00:38:43",
+            "speaker": "Shreyas Doshi"
+          },
+          "context": "Illustrating how the same activity requires different levels of effort based on strategic importance",
+          "themes": [
+            "prioritization",
+            "context",
+            "frameworks",
+            "time-management"
+          ],
+          "zones": [
+            "focus",
+            "perfection"
+          ],
+          "verified": true
+        },
+        {
+          "id": "shreyas-doshi-005",
+          "text": "Most execution problems that I encounter in high performing environments are actually not execution problems - they are either strategy problems or interpersonal problems or cultural problems. When you put on a bandaid and the bandaid falls off, it's probably not an execution issue.",
+          "source": {
+            "line_start": 318,
+            "line_end": 348,
+            "timestamp": "00:55:36",
+            "speaker": "Shreyas Doshi"
+          },
+          "context": "Explaining why teams stay overwhelmed solving the same problems repeatedly",
+          "themes": [
+            "execution",
+            "strategy",
+            "root-cause",
+            "problem-solving"
+          ],
+          "zones": [
+            "discovery",
+            "focus"
+          ],
+          "verified": true
+        },
+        {
+          "id": "shreyas-doshi-006",
+          "text": "Two teams misaligned? It looks like an execution problem. But often it's because we don't know what the strategy is. We craft OKRs based on what makes sense, but they're not aligned because we lack clear strategy and priorities. All the review meetings in the world won't fix a strategy problem.",
+          "source": {
+            "line_start": 327,
+            "line_end": 336,
+            "timestamp": "00:58:09",
+            "speaker": "Shreyas Doshi"
+          },
+          "context": "Illustrating how lack of strategy manifests as execution problems",
+          "themes": [
+            "strategy",
+            "alignment",
+            "root-cause",
+            "okrs"
+          ],
+          "zones": [
+            "focus",
+            "alignment"
+          ],
+          "verified": true
+        },
+        {
+          "id": "shreyas-doshi-007",
+          "text": "In high leverage roles, stop doing work that simply provides positive ROI. Start focusing on work that minimizes opportunity cost. The problem with ROI mindset is you decrease the denominator by working on quick wins and low-hanging fruit. You fill your plate with quick wins and miss the upside by not focusing on optimal things.",
+          "source": {
+            "line_start": 354,
+            "line_end": 360,
+            "timestamp": "01:03:48",
+            "speaker": "Shreyas Doshi"
+          },
+          "context": "Explaining the opportunity cost framework learned from observing Patrick Collison at Stripe",
+          "themes": [
+            "opportunity-cost",
+            "roi",
+            "prioritization",
+            "leverage"
+          ],
+          "zones": [
+            "focus",
+            "data"
+          ],
+          "verified": true
+        },
+        {
+          "id": "shreyas-doshi-008",
+          "text": "Opportunity cost is the value of the optimal option minus the value of the chosen option. When we reprogram ourselves to think in terms of opportunity cost, we're no longer thinking 'Is this a good use of my time?' Instead: 'Is this the best use of my time?' It's a subtle but profound shift.",
+          "source": {
+            "line_start": 360,
+            "line_end": 363,
+            "timestamp": "01:05:27",
+            "speaker": "Shreyas Doshi"
+          },
+          "context": "Contrasting opportunity cost thinking with traditional ROI thinking",
+          "themes": [
+            "opportunity-cost",
+            "decision-making",
+            "prioritization",
+            "mindset"
+          ],
+          "zones": [
+            "focus",
+            "perfection"
+          ],
+          "verified": true
+        },
+        {
+          "id": "shreyas-doshi-009",
+          "text": "I learned from Google's 70-20-10: during planning, give teams allocation guidance. 60% on incrementals (high ROI features), 30% on big new initiatives (can't be five initiatives, probably one or two), 10% on stability and infrastructure. This gives people space to pursue the right things instead of filling everything with quick wins.",
+          "source": {
+            "line_start": 381,
+            "line_end": 387,
+            "timestamp": "01:09:45",
+            "speaker": "Shreyas Doshi"
+          },
+          "context": "Sharing tactical guidance on portfolio allocation to enable opportunity cost thinking",
+          "themes": [
+            "planning",
+            "allocation",
+            "portfolio",
+            "google"
+          ],
+          "zones": [
+            "focus",
+            "data"
+          ],
+          "verified": true
+        },
+        {
+          "id": "shreyas-doshi-010",
+          "text": "High agency is finding a way to get what you want without waiting for conditions to be perfect or blaming circumstances. The PMs who surprised me in positive ways - exceeded their capabilities on paper - all had high agency: strong ownership, creative execution through challenges, and high resilience.",
+          "source": {
+            "line_start": 392,
+            "line_end": 399,
+            "timestamp": "01:12:55",
+            "speaker": "Shreyas Doshi"
+          },
+          "context": "Describing the trait that differentiates high-impact PMs from those with unrealized potential",
+          "themes": [
+            "agency",
+            "ownership",
+            "resilience",
+            "execution"
+          ],
+          "zones": [
+            "chaos",
+            "focus"
+          ],
+          "verified": true
+        },
+        {
+          "id": "shreyas-doshi-011",
+          "text": "At Google I learned the power of thinking really big. There was this unwritten rule: if it's not going to generate more than $100 million in revenue, it's not worth talking about. They would regularly not pursue $100 million opportunities because they had access to billion dollar ones. That habit to ask 'can we make it 10X bigger?' got ingrained.",
+          "source": {
+            "line_start": 132,
+            "line_end": 141,
+            "timestamp": "00:15:18",
+            "speaker": "Shreyas Doshi"
+          },
+          "context": "Describing Google's culture of thinking big and pursuing only massive opportunities",
+          "themes": [
+            "thinking-big",
+            "ambition",
+            "google",
+            "scale"
+          ],
+          "zones": [
+            "focus",
+            "velocity"
+          ],
+          "verified": true
+        },
+        {
+          "id": "shreyas-doshi-012",
+          "text": "Jack Dorsey would just listen a lot more than you'd expect the CEO to listen. Then he would ask one vital question. We discussed a potential acquisition - went through all the intellectual arguments, strategic arguments, metrics arguments. Jack asked: 'How does this make our users love Twitter more?' Simple question. We never really talked about that. I didn't have a good answer.",
+          "source": {
+            "line_start": 153,
+            "line_end": 162,
+            "timestamp": "00:19:42",
+            "speaker": "Shreyas Doshi"
+          },
+          "context": "Describing Jack Dorsey's leadership style and ability to ask penetrating questions",
+          "themes": [
+            "leadership",
+            "questions",
+            "user-love",
+            "twitter"
+          ],
+          "zones": [
+            "discovery",
+            "focus"
+          ],
+          "verified": true
+        }
+      ],
+      "takeaways": [
+        "Run pre-mortems with tigers, paper tigers, and elephants - imagine the project failed six months from now and work backwards to identify threats, creating psychological safety to discuss concerns without being 'negative'",
+        "Use the LNO framework to prioritize time - identify which tasks are Leverage (10-100X return), Neutral (1X return), or Overhead (<1X return), and treat them differently instead of applying equal effort to everything",
+        "Most execution problems are actually strategy or culture problems - when the same issues keep recurring despite bandaid fixes, look for missing strategy, cultural misalignment, or interpersonal friction as root causes",
+        "Minimize opportunity cost instead of maximizing ROI - stop asking 'is this good use of time?' and start asking 'is this the BEST use of time?' to avoid filling your roadmap with quick wins while missing transformative bets",
+        "High agency PMs exceed their on-paper potential through strong ownership, creative execution through challenges, and resilience - they find ways to achieve goals without waiting for perfect conditions or blaming circumstances"
+      ],
+      "zone_influence": {
+        "velocity": 0.08,
+        "perfection": 0.15,
+        "discovery": 0.15,
+        "data": 0.2,
+        "intuition": 0.05,
+        "alignment": 0.08,
+        "chaos": 0.09,
+        "focus": 0.25
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "shreyas-doshi-005",
+          "why": "Challenges conventional wisdom that execution problems need execution solutions - argues most are actually strategy/culture problems disguised as execution issues",
+          "related_zones": [
+            "discovery",
+            "focus"
+          ]
+        },
+        {
+          "quoteId": "shreyas-doshi-007",
+          "why": "Goes against ubiquitous ROI-maximization advice - argues that chasing positive ROI leads to quick wins addiction and missing transformative opportunities",
+          "related_zones": [
+            "focus",
+            "data"
+          ]
+        },
+        {
+          "quoteId": "shreyas-doshi-011",
+          "why": "Reveals Google's contrarian filter of ignoring $100M opportunities - most companies would celebrate such wins, but thinking bigger meant only pursuing billion-dollar bets",
+          "related_zones": [
+            "focus",
+            "velocity"
+          ]
+        }
+      ]
+    },
+    {
       "episode_slug": "tobi-lutke",
       "guest": "Tobi Lütke",
       "episode_title": "Tobi Lütke's leadership playbook: First principles, infinite games, and maximizing human potential",
@@ -5598,6 +5914,270 @@
       ]
     },
     {
+      "id": "shreyas-doshi-001",
+      "text": "If you do a pre-mortem right, you will not have to do an ugly post-mortem. The genius is the initial prompt: imagine this project has failed six months from now. Now work backwards and ask what went wrong. It creates psychological safety for team members to talk about things they're concerned about without being negative.",
+      "source": {
+        "line_start": 180,
+        "line_end": 183,
+        "timestamp": "00:25:47",
+        "speaker": "Shreyas Doshi"
+      },
+      "context": "Introducing the pre-mortem framework with tigers, paper tigers, and elephants",
+      "themes": [
+        "pre-mortems",
+        "risk-management",
+        "psychological-safety",
+        "frameworks"
+      ],
+      "zones": [
+        "data",
+        "perfection"
+      ],
+      "verified": true
+    },
+    {
+      "id": "shreyas-doshi-002",
+      "text": "In a pre-mortem, bring up three things: a tiger (a threat that will actually kill us), a paper tiger (a seeming threat others worry about but you're not), and an elephant in the room that nobody is talking about. That shared vocabulary becomes powerful - in future meetings people started saying 'I have this tiger' and it became okay to bring those things up.",
+      "source": {
+        "line_start": 189,
+        "line_end": 195,
+        "timestamp": "00:27:51",
+        "speaker": "Shreyas Doshi"
+      },
+      "context": "Explaining the specific structure of effective pre-mortems",
+      "themes": [
+        "pre-mortems",
+        "frameworks",
+        "vocabulary",
+        "risk-management"
+      ],
+      "zones": [
+        "data",
+        "discovery"
+      ],
+      "verified": true
+    },
+    {
+      "id": "shreyas-doshi-003",
+      "text": "All your tasks are not created equal. There are L tasks (leverage) where you put in effort and get 10X or 100X in return. N tasks (neutral) where you get what you put in. And O tasks (overhead) where you get back less than you put in. Most ambitious people treat each type the same way - and therein lies the problem.",
+      "source": {
+        "line_start": 228,
+        "line_end": 231,
+        "timestamp": "00:35:56",
+        "speaker": "Shreyas Doshi"
+      },
+      "context": "Introducing the LNO framework for prioritizing PM time",
+      "themes": [
+        "prioritization",
+        "leverage",
+        "time-management",
+        "frameworks"
+      ],
+      "zones": [
+        "focus",
+        "data"
+      ],
+      "verified": true
+    },
+    {
+      "id": "shreyas-doshi-004",
+      "text": "The same activity can be an L, N, or O task depending on context. Filing a bug report can be leverage if it's a critical issue requiring detailed documentation, or overhead if it's minor and you're just being thorough. Taking notes can be leverage after a strategic CEO decision, or overhead after a routine sync.",
+      "source": {
+        "line_start": 237,
+        "line_end": 243,
+        "timestamp": "00:38:43",
+        "speaker": "Shreyas Doshi"
+      },
+      "context": "Illustrating how the same activity requires different levels of effort based on strategic importance",
+      "themes": [
+        "prioritization",
+        "context",
+        "frameworks",
+        "time-management"
+      ],
+      "zones": [
+        "focus",
+        "perfection"
+      ],
+      "verified": true
+    },
+    {
+      "id": "shreyas-doshi-005",
+      "text": "Most execution problems that I encounter in high performing environments are actually not execution problems - they are either strategy problems or interpersonal problems or cultural problems. When you put on a bandaid and the bandaid falls off, it's probably not an execution issue.",
+      "source": {
+        "line_start": 318,
+        "line_end": 348,
+        "timestamp": "00:55:36",
+        "speaker": "Shreyas Doshi"
+      },
+      "context": "Explaining why teams stay overwhelmed solving the same problems repeatedly",
+      "themes": [
+        "execution",
+        "strategy",
+        "root-cause",
+        "problem-solving"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ],
+      "verified": true
+    },
+    {
+      "id": "shreyas-doshi-006",
+      "text": "Two teams misaligned? It looks like an execution problem. But often it's because we don't know what the strategy is. We craft OKRs based on what makes sense, but they're not aligned because we lack clear strategy and priorities. All the review meetings in the world won't fix a strategy problem.",
+      "source": {
+        "line_start": 327,
+        "line_end": 336,
+        "timestamp": "00:58:09",
+        "speaker": "Shreyas Doshi"
+      },
+      "context": "Illustrating how lack of strategy manifests as execution problems",
+      "themes": [
+        "strategy",
+        "alignment",
+        "root-cause",
+        "okrs"
+      ],
+      "zones": [
+        "focus",
+        "alignment"
+      ],
+      "verified": true
+    },
+    {
+      "id": "shreyas-doshi-007",
+      "text": "In high leverage roles, stop doing work that simply provides positive ROI. Start focusing on work that minimizes opportunity cost. The problem with ROI mindset is you decrease the denominator by working on quick wins and low-hanging fruit. You fill your plate with quick wins and miss the upside by not focusing on optimal things.",
+      "source": {
+        "line_start": 354,
+        "line_end": 360,
+        "timestamp": "01:03:48",
+        "speaker": "Shreyas Doshi"
+      },
+      "context": "Explaining the opportunity cost framework learned from observing Patrick Collison at Stripe",
+      "themes": [
+        "opportunity-cost",
+        "roi",
+        "prioritization",
+        "leverage"
+      ],
+      "zones": [
+        "focus",
+        "data"
+      ],
+      "verified": true
+    },
+    {
+      "id": "shreyas-doshi-008",
+      "text": "Opportunity cost is the value of the optimal option minus the value of the chosen option. When we reprogram ourselves to think in terms of opportunity cost, we're no longer thinking 'Is this a good use of my time?' Instead: 'Is this the best use of my time?' It's a subtle but profound shift.",
+      "source": {
+        "line_start": 360,
+        "line_end": 363,
+        "timestamp": "01:05:27",
+        "speaker": "Shreyas Doshi"
+      },
+      "context": "Contrasting opportunity cost thinking with traditional ROI thinking",
+      "themes": [
+        "opportunity-cost",
+        "decision-making",
+        "prioritization",
+        "mindset"
+      ],
+      "zones": [
+        "focus",
+        "perfection"
+      ],
+      "verified": true
+    },
+    {
+      "id": "shreyas-doshi-009",
+      "text": "I learned from Google's 70-20-10: during planning, give teams allocation guidance. 60% on incrementals (high ROI features), 30% on big new initiatives (can't be five initiatives, probably one or two), 10% on stability and infrastructure. This gives people space to pursue the right things instead of filling everything with quick wins.",
+      "source": {
+        "line_start": 381,
+        "line_end": 387,
+        "timestamp": "01:09:45",
+        "speaker": "Shreyas Doshi"
+      },
+      "context": "Sharing tactical guidance on portfolio allocation to enable opportunity cost thinking",
+      "themes": [
+        "planning",
+        "allocation",
+        "portfolio",
+        "google"
+      ],
+      "zones": [
+        "focus",
+        "data"
+      ],
+      "verified": true
+    },
+    {
+      "id": "shreyas-doshi-010",
+      "text": "High agency is finding a way to get what you want without waiting for conditions to be perfect or blaming circumstances. The PMs who surprised me in positive ways - exceeded their capabilities on paper - all had high agency: strong ownership, creative execution through challenges, and high resilience.",
+      "source": {
+        "line_start": 392,
+        "line_end": 399,
+        "timestamp": "01:12:55",
+        "speaker": "Shreyas Doshi"
+      },
+      "context": "Describing the trait that differentiates high-impact PMs from those with unrealized potential",
+      "themes": [
+        "agency",
+        "ownership",
+        "resilience",
+        "execution"
+      ],
+      "zones": [
+        "chaos",
+        "focus"
+      ],
+      "verified": true
+    },
+    {
+      "id": "shreyas-doshi-011",
+      "text": "At Google I learned the power of thinking really big. There was this unwritten rule: if it's not going to generate more than $100 million in revenue, it's not worth talking about. They would regularly not pursue $100 million opportunities because they had access to billion dollar ones. That habit to ask 'can we make it 10X bigger?' got ingrained.",
+      "source": {
+        "line_start": 132,
+        "line_end": 141,
+        "timestamp": "00:15:18",
+        "speaker": "Shreyas Doshi"
+      },
+      "context": "Describing Google's culture of thinking big and pursuing only massive opportunities",
+      "themes": [
+        "thinking-big",
+        "ambition",
+        "google",
+        "scale"
+      ],
+      "zones": [
+        "focus",
+        "velocity"
+      ],
+      "verified": true
+    },
+    {
+      "id": "shreyas-doshi-012",
+      "text": "Jack Dorsey would just listen a lot more than you'd expect the CEO to listen. Then he would ask one vital question. We discussed a potential acquisition - went through all the intellectual arguments, strategic arguments, metrics arguments. Jack asked: 'How does this make our users love Twitter more?' Simple question. We never really talked about that. I didn't have a good answer.",
+      "source": {
+        "line_start": 153,
+        "line_end": 162,
+        "timestamp": "00:19:42",
+        "speaker": "Shreyas Doshi"
+      },
+      "context": "Describing Jack Dorsey's leadership style and ability to ask penetrating questions",
+      "themes": [
+        "leadership",
+        "questions",
+        "user-love",
+        "twitter"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ],
+      "verified": true
+    },
+    {
       "id": "tobi-lutke-001",
       "text": "My energy source is dissatisfaction with status quo. I think today is the dystopia of the future. It behooves us to try to build the kinds of products that lead towards progress.",
       "source": {
@@ -5863,5 +6443,5 @@
       "verified": true
     }
   ],
-  "lastUpdated": "2026-01-22T21:39:59.004Z"
+  "lastUpdated": "2026-01-22T21:50:14.380Z"
 }
