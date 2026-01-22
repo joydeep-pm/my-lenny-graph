@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import CustomCursor from "@/components/CustomCursor";
 import Footer from "@/components/Footer";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
   description: "Discover your PM philosophy through 7 questions, 303 episodes of Lenny's Podcast, and real debates from the world's best product leaders. Built from actual transcripts.",
   keywords: ["product management", "PM philosophy", "product strategy", "Lenny's Podcast", "product thinking", "product leadership"],
   authors: [{ name: "René DeAnda", url: "https://github.com/renedeanda" }],
-  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://lenny.productbuilder.net'),
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -49,12 +50,15 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const gaId = process.env.NEXT_PUBLIC_GA_ID;
+
   return (
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       </head>
       <body className="font-sans antialiased cursor-none">
+        {gaId && <GoogleAnalytics gaId={gaId} />}
         <CustomCursor />
         {children}
         <Footer />

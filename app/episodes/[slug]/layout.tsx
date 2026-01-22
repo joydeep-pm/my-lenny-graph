@@ -13,6 +13,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const title = `${episode.guest} - Lenny's Podcast | PM Philosophy Map`;
   const description = episode.description || `Listen to ${episode.guest} on Lenny's Podcast`;
   const ogImageUrl = `/og/${episode.slug}.png`;
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://lenny.productbuilder.net';
 
   return {
     title,
@@ -20,7 +21,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     openGraph: {
       title,
       description,
-      url: `https://pmphilosophy.com/episodes/${episode.slug}`,
+      url: `${baseUrl}/episodes/${episode.slug}`,
       siteName: 'PM Philosophy Map',
       images: [
         {

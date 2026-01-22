@@ -13,18 +13,15 @@ interface VerifiedQuotesProps {
 
 export default function VerifiedQuotes({ enrichment, onJumpToTranscript }: VerifiedQuotesProps) {
   const [selectedTheme, setSelectedTheme] = useState<string | null>(null);
-  const [selectedZone, setSelectedZone] = useState<string | null>(null);
 
-  // Filter quotes by selected theme/zone
+  // Filter quotes by selected theme
   const filteredQuotes = enrichment.keyQuotes.filter(quote => {
     if (selectedTheme && !quote.themes.includes(selectedTheme)) return false;
-    if (selectedZone && !quote.zones.includes(selectedZone as ZoneId)) return false;
     return true;
   });
 
-  // Get unique themes and zones from quotes
+  // Get unique themes from quotes
   const themes = Array.from(new Set(enrichment.keyQuotes.flatMap(q => q.themes)));
-  const quoteZones = Array.from(new Set(enrichment.keyQuotes.flatMap(q => q.zones)));
 
   return (
     <div className="space-y-8">
@@ -74,49 +71,12 @@ export default function VerifiedQuotes({ enrichment, onJumpToTranscript }: Verif
             </div>
           </div>
         )}
-
-        {/* Zone Filter */}
-        {quoteZones.length > 0 && (
-          <div>
-            <label className="text-xs text-ash-dark uppercase tracking-wider mb-2 block">
-              Philosophy Zone
-            </label>
-            <div className="flex flex-wrap gap-2">
-              <button
-                onClick={() => setSelectedZone(null)}
-                className={`px-3 py-1 text-xs uppercase tracking-wider transition-colors ${
-                  selectedZone === null
-                    ? 'bg-amber text-void'
-                    : 'bg-void-light text-ash-dark hover:text-amber border border-ash-darker'
-                }`}
-              >
-                All
-              </button>
-              {quoteZones.map(zoneId => {
-                const zone = zones[zoneId as keyof typeof zones];
-                return (
-                  <button
-                    key={zoneId}
-                    onClick={() => setSelectedZone(zoneId === selectedZone ? null : zoneId)}
-                    className={`px-3 py-1 text-xs uppercase tracking-wider transition-colors ${
-                      zoneId === selectedZone
-                        ? 'bg-amber text-void'
-                        : 'bg-void-light text-ash-dark hover:text-amber border border-ash-darker'
-                    }`}
-                  >
-                    {zone?.icon} {zone?.name.replace('The ', '').replace(' Nebula', '').replace(' Peak', '').replace(' Station', '').replace(' Constellation', '').replace(' Vortex', '').replace(' Galaxy', '').replace(' Cluster', '').replace(' Singularity', '')}
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-        )}
       </div>
 
       {/* Quotes Grid */}
       <AnimatePresence mode="wait">
         <motion.div
-          key={`${selectedTheme}-${selectedZone}`}
+          key={selectedTheme || 'all'}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
@@ -220,8 +180,8 @@ function QuoteCard({ quote, index, onJumpToTranscript }: QuoteCardProps) {
         </div>
       </div>
 
-      {/* Themes/Zones Tags */}
-      {(quote.themes.length > 0 || quote.zones.length > 0) && (
+      {/* Theme Tags */}
+      {quote.themes.length > 0 && (
         <div className="mt-4 pt-4 border-t border-ash-darker flex flex-wrap gap-2">
           {quote.themes.map(theme => (
             <span
@@ -231,18 +191,6 @@ function QuoteCard({ quote, index, onJumpToTranscript }: QuoteCardProps) {
               {theme}
             </span>
           ))}
-          {quote.zones.map(zoneId => {
-            const zone = zones[zoneId as keyof typeof zones];
-            return zone ? (
-              <span
-                key={zoneId}
-                className="px-2 py-0.5 text-[10px] uppercase tracking-wider border text-ash-dark"
-                style={{ borderColor: zone.color + '40', color: zone.color }}
-              >
-                {zone.icon} {zone.name.split(' ')[zone.name.split(' ').length - 1]}
-              </span>
-            ) : null;
-          })}
         </div>
       )}
     </motion.div>

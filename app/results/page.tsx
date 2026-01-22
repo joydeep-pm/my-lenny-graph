@@ -98,10 +98,6 @@ function ResultsContent() {
     router.push('/');
   };
 
-  const handleViewMap = () => {
-    router.push(`/map?answers=${encodeURIComponent(JSON.stringify(answers))}`);
-  };
-
   const handleExplore = () => {
     router.push('/explore');
   };
@@ -366,12 +362,6 @@ function ResultsContent() {
             className="px-8 py-4 border-2 border-amber text-amber font-mono font-bold hover:bg-amber hover:text-void transition-all hover:scale-105 active:scale-95"
           >
             COPY LINK TO SHARE
-          </button>
-          <button
-            onClick={handleViewMap}
-            className="px-8 py-4 border-2 border-amber text-amber font-mono font-bold hover:bg-amber hover:text-void transition-all hover:scale-105 active:scale-95"
-          >
-            VIEW YOUR MAP
           </button>
           <button
             onClick={handleExplore}
