@@ -10,6 +10,7 @@ import { getEpisodeBySlug, allEpisodes, Episode } from '@/lib/allEpisodes';
 import { episodeInsights, EpisodeInsights } from '@/lib/insightsData';
 import { getEpisodeEnrichment } from '@/lib/verifiedQuotes';
 import VerifiedQuotes from '@/components/VerifiedQuotes';
+import TopNav from '@/components/TopNav';
 
 // Client-side transcript loading
 async function loadTranscript(slug: string) {
@@ -47,9 +48,9 @@ export default function EpisodePage() {
   // Update document title dynamically
   useEffect(() => {
     if (episode) {
-      document.title = `${episode.guest} | PM Philosophy Map`;
+      document.title = `${episode.guest} | Lenny's Podcast Philosophy`;
     } else {
-      document.title = 'Episode Not Found | PM Philosophy Map';
+      document.title = 'Episode Not Found | Lenny\'s Podcast Philosophy';
     }
   }, [episode]);
   const verifiedEnrichment = useMemo(() => getEpisodeEnrichment(slug), [slug]);
@@ -269,6 +270,8 @@ export default function EpisodePage() {
 
   return (
     <div className="min-h-screen bg-void text-ash font-mono">
+      <TopNav />
+
       {/* Scanlines */}
       <div className="fixed inset-0 pointer-events-none z-20 opacity-5">
         <div className="w-full h-full bg-[repeating-linear-gradient(0deg,transparent,transparent_2px,#ffb347_2px,#ffb347_4px)]" />
@@ -287,20 +290,12 @@ export default function EpisodePage() {
       )}
 
       {/* Main Content */}
-      <div className="relative z-10 min-h-screen px-4 py-8 md:py-12">
+      <div className="relative z-10 min-h-screen px-4 pt-20 pb-8 md:pt-24 md:pb-12">
         <div className="max-w-6xl mx-auto">
-          {/* Back Button */}
-          <Link
-            href="/explore"
-            className="inline-flex items-center gap-2 text-ash-dark hover:text-amber transition-colors mb-8 group"
-          >
-            <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-            <span className="text-sm">BACK TO EXPLORE</span>
-          </Link>
 
           <div className="grid lg:grid-cols-3 gap-8">
             {/* Main Content - 2 columns */}
-            <div className="lg:col-span-2 lg:h-[calc(100vh-12rem)] lg:overflow-y-auto lg:pr-4">
+            <div className="lg:col-span-2 lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto lg:pr-4">
               {/* Header */}
               <div className="mb-8 pb-8 border-b-2 border-ash-darker">
                 <h1 className="text-3xl md:text-5xl font-bold text-amber mb-4 leading-tight">
@@ -358,7 +353,7 @@ export default function EpisodePage() {
 
               {/* YouTube Embed Section - Sticky */}
               {episode.videoId && (
-                <div className="mb-8 sticky top-0 z-10 bg-void pb-4">
+                <div className="mb-0 sticky top-16 md:top-20 z-20 bg-void">
                   <div className="relative w-full aspect-video bg-void-light border-2 border-crimson">
                     <div
                       id="youtube-player"
@@ -368,8 +363,8 @@ export default function EpisodePage() {
                 </div>
               )}
 
-              {/* Mobile Tabs */}
-              <div className="lg:hidden mb-6 border-b-2 border-ash-darker">
+              {/* Mobile Tabs - Sticky below video */}
+              <div className="lg:hidden mb-6 border-b-2 border-ash-darker sticky top-[calc(4rem+100vw*9/16)] md:top-[calc(5rem+100vw*9/16)] z-19 bg-void pb-2 pt-4">
                 <div className="flex gap-4">
                   <button
                     onClick={() => setActiveTab('transcript')}
@@ -508,7 +503,7 @@ export default function EpisodePage() {
             </div>
 
             {/* Sidebar - 1 column (Mobile: shown in Insights tab, Desktop: always visible) */}
-            <div className={`lg:col-span-1 lg:h-[calc(100vh-12rem)] lg:overflow-y-auto lg:pl-4 lg:border-l lg:border-ash-darker/30 ${
+            <div className={`lg:col-span-1 lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto lg:pl-4 lg:border-l lg:border-ash-darker/30 ${
               activeTab === 'insights' ? 'block' : 'hidden'
             } lg:block`}>
               <div className="space-y-8 pb-8">

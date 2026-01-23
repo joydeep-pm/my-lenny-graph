@@ -50,7 +50,7 @@ export default function PersonalizationModal({ onComplete }: PersonalizationModa
         initial={{ scale: 0.9, y: 20 }}
         animate={{ scale: 1, y: 0 }}
         transition={{ delay: 0.1, type: 'spring' }}
-        className="relative w-full max-w-md bg-void-light border-2 border-amber p-8 font-mono"
+        className="relative w-full max-w-md max-h-[90vh] overflow-y-auto bg-void-light border-2 border-amber p-4 md:p-8 font-mono"
       >
         {/* Corner accents */}
         <div className="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-amber" />
@@ -58,22 +58,22 @@ export default function PersonalizationModal({ onComplete }: PersonalizationModa
         <div className="absolute bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-amber" />
         <div className="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-amber" />
 
-        <div className="text-center mb-8">
+        <div className="text-center mb-4 md:mb-8">
           <motion.div
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ delay: 0.3, type: 'spring' }}
-            className="text-5xl mb-4"
+            className="text-3xl md:text-5xl mb-2 md:mb-4"
           >
             🌌
           </motion.div>
-          <h2 className="text-2xl font-bold text-amber mb-2">INITIATE SEQUENCE</h2>
-          <p className="text-ash-dark text-sm">
+          <h2 className="text-xl md:text-2xl font-bold text-amber mb-1 md:mb-2">INITIATE SEQUENCE</h2>
+          <p className="text-ash-dark text-xs md:text-sm">
             Personalize your philosophy profile
           </p>
         </div>
 
-        <form onSubmit={handleSubmit} className="space-y-6">
+        <form onSubmit={handleSubmit} className="space-y-3 md:space-y-6">
           {/* Name Input */}
           <div>
             <label className="block text-xs text-amber tracking-wider mb-2">
@@ -86,9 +86,9 @@ export default function PersonalizationModal({ onComplete }: PersonalizationModa
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 placeholder="Enter your name"
-                className="w-full bg-void border-2 border-ash-darker text-ash pl-10 pr-4 py-3
+                className="w-full bg-void border-2 border-ash-darker text-ash pl-10 pr-4 py-2 md:py-3
                          focus:border-amber focus:outline-none transition-colors
-                         placeholder:text-ash-dark"
+                         placeholder:text-ash-dark text-sm md:text-base"
                 required
                 autoFocus
               />
@@ -107,9 +107,9 @@ export default function PersonalizationModal({ onComplete }: PersonalizationModa
                 value={role}
                 onChange={(e) => setRole(e.target.value)}
                 placeholder="Product Manager"
-                className="w-full bg-void border-2 border-ash-darker text-ash pl-10 pr-4 py-3
+                className="w-full bg-void border-2 border-ash-darker text-ash pl-10 pr-4 py-2 md:py-3
                          focus:border-amber focus:outline-none transition-colors
-                         placeholder:text-ash-dark"
+                         placeholder:text-ash-dark text-sm md:text-base"
                 list="roles"
               />
               <datalist id="roles">
@@ -124,7 +124,7 @@ export default function PersonalizationModal({ onComplete }: PersonalizationModa
           <div>
             <div className="text-xs text-ash-dark mb-2">QUICK SELECT:</div>
             <div className="flex flex-wrap gap-2">
-              {commonRoles.slice(0, 6).map((r) => (
+              {commonRoles.slice(0, 4).map((r) => (
                 <button
                   key={r}
                   type="button"
@@ -144,7 +144,7 @@ export default function PersonalizationModal({ onComplete }: PersonalizationModa
           {/* Submit Button */}
           <motion.button
             type="submit"
-            className="w-full py-4 bg-amber text-void font-bold tracking-wider
+            className="w-full py-3 md:py-4 bg-amber text-void font-bold tracking-wider text-sm md:text-base
                      hover:bg-amber-dark transition-all relative overflow-hidden group
                      disabled:opacity-50 disabled:cursor-not-allowed"
             whileHover={{ scale: 1.02 }}
@@ -156,7 +156,7 @@ export default function PersonalizationModal({ onComplete }: PersonalizationModa
             <span className="relative">BEGIN ASSESSMENT →</span>
           </motion.button>
 
-          <p className="text-xs text-ash-darker text-center">
+          <p className="text-[10px] md:text-xs text-ash-darker text-center">
             Your name will appear on your final philosophy profile
           </p>
         </form>
