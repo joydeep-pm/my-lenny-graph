@@ -9,6 +9,7 @@ import { zones } from '@/lib/zones';
 import { QuizAnswers, ZoneId } from '@/lib/types';
 import PhilosophyInsightCard from '@/components/PhilosophyInsightCard';
 import EpisodeRecommendationCard from '@/components/EpisodeRecommendationCard';
+import QuizAnswersOverview from '@/components/QuizAnswersOverview';
 import TopNav from '@/components/TopNav';
 
 function ResultsContent() {
@@ -130,6 +131,9 @@ function ResultsContent() {
         <div id="philosophy-card">
           <PhilosophyInsightCard userProfile={userProfile} />
         </div>
+
+        {/* Quiz Answers Overview */}
+        <QuizAnswersOverview answers={answers} userName={userName} />
 
         {/* Primary Recommendations */}
         {primary.length > 0 && (

@@ -28489,6 +28489,124 @@ export const allEpisodes: Episode[] = [
     ]
   },
   {
+    "slug": "jason-fried",
+    "guest": "Jason Fried",
+    "title": "Jason Fried challenges your thinking on fundraising, goals, growth, and more",
+    "publishDate": "2023-12-17T00:00:00.000Z",
+    "duration": "1:50:00",
+    "durationSeconds": 6600,
+    "viewCount": 62989,
+    "youtubeUrl": "https://www.youtube.com/watch?v=dAnF0tk0di8",
+    "videoId": "dAnF0tk0di8",
+    "description": "Jason Fried is the co-founder and CEO of 37signals, the maker of Basecamp and HEY. With fewer than 80 employees, they have over 100,000 customers, generate tens of millions of dollars in profit each year, and have no investors, board, or any plans to ever raise money or sell the company. In this conversation, we explore bootstrapping as a path for tech founders, discussing why he and his team prioritize profit above all else, the unexpected challenges with raising venture capital, the Shape Up framework for building products, why and how to foster a gut-driven culture, Jasons thoughts on why work should not feel like war, advice for starting a bootstrapped business, and the philosophy behind Once, 37signalss new line of software products.\n",
+    "keywords": [
+      "bootstrapping",
+      "venture-capital",
+      "independence",
+      "profitability",
+      "constraints",
+      "focus",
+      "simplicity",
+      "gut-instinct",
+      "planning",
+      "team-structure",
+      "calm-company",
+      "shape-up"
+    ],
+    "dialogueCount": 271,
+    "keyQuotesCount": 62,
+    "contrarianCount": 60,
+    "sampleQuotes": [
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:09:58",
+        "quote": "Coming back to something we touched on a bit, is this idea of smaller teams. You tweeted a similar stats, so I'm just going to read these numbers, in terms of your competitors. Asana has 1600 employees. ClickUp has a thousand employees. Slack has 2,500 employees. Smartsheet has 3000 employees. Monday has 1500 employees. You have, I think you said, 70 something employees?",
+        "length": 373
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:10:22",
+        "quote": "You have similar numbers of customers, about 100,000 to 150,000, and you make a lot of profit and they generally don't. How is this possible?",
+        "length": 141
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:13:39",
+        "quote": "Okay. I definitely want to talk about how you operate in your way of working, 'cause it's really interesting and there's a lot companies can take away. But, I want to follow on this thread of small teams. I have a few quotes that you've shared that I love.",
+        "length": 256
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:13:55",
+        "quote": "No, they're awesome. They're great. Around this idea of staying small, one is, \"Small is not just a stepping stone, small is a great destination itself. Also, if you think you're too small to be effective, you've never been in bed with a mosquito.\"",
+        "length": 248
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:17:08",
+        "quote": "You also have no investors. You have no board. You have no plans to go public. You have no plans to sell the business.",
+        "length": 118
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:21:01",
+        "quote": "I feel the same way. I always say this about newsletters, and it's also true for podcasts. Easy to start a newsletter, hard to keep it going.",
+        "length": 141
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:22:25",
+        "quote": "So maybe along that path, one, is there a point at which maybe you started going off track and you realized, \"This is not what I want to be doing. Why did I do this to myself?\" Then two is just, what have you learned being at this for this long?",
+        "length": 245
+      },
+      {
+        "speaker": "So there's just, right now, this outpouring of energy. I'm trying to be very conscious of my energy interest. Right now, I'm getting energy from the business. There are times in the past where the business sapped energy for me. If it SAPs too much, at some point, you start to think, \"Is it worth it? Do I want to keep doing this?\" Right now, I'm fueled again by it. But, I don't know what it'll be like in a year from now. I really don't know. I think I'm more conscious of that than I've ever been given how long I've been doing this.",
+        "timestamp": "00:24:21",
+        "quote": "Also, I always have this strange fantasy, I'm always curious, \"What would someone else do with this place? What if someone else could just step in tomorrow? How would they run it? No one's ever had a chance to run it but me. What would they do differently?\" I'd have to be completely detached from it to let them really run with it. But, what would they do? I always have this curious about that, I would say. Not curious enough to find out, but still curious. It's always in the back of my head.",
+        "length": 496
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:26:21",
+        "quote": "And there's another... This a cool exercise, actually, just to think about it. If I were to bring in any leader, what would they do? Just as a thought exercise.",
+        "length": 160
+      },
+      {
+        "speaker": "This is a weird way to think about it, but I almost would be embarrassed by what someone would come in and look at, and go, \"Oh my God, you guys are missing so many opportunities here.\" I'd be like, \"Yeah, I know. I know we are, but I'm totally fine with it.\" But, there'd be this moment of judgment and reckoning with, \"Do you realize how much you're leaving on the table?\" You could have five different pricing tiers, and make a lot more money, and you can maximize this and maximize that, and squeeze this and squeeze that, and address this market, and you could have special versions of Basecamp. Wow, churches are using Basecamp? We could do a special version for churches, and for synagogues, and religious institutions, or education or nonprofits. Think of all the slight different things you could do with these different...\"",
+        "timestamp": "00:27:06",
+        "quote": "I'm certain that all those opportunities exist on the table. They don't interest me, personally, in terms of making multiple products. But I could see someone else going, \"There's a huge opportunity here. We got to pursue this.\" I'd be really proud if someone did that, and made the business bigger and better. I could never have done that. I'm glad someone else did that. But right now, we're running it our way.",
+        "length": 413
+      }
+    ],
+    "sampleContrarian": [
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:06:47",
+        "text": "Just following the same thread, the bet that companies are making, obviously going down the venture route, they're going to lose money for a long time so that they can make much, much more money in the future. So the idea there is, grow as fast as possible, as big as possible, and then we'll make money. You're a big advocate of not raising venture and bootstrapping. So what's your advice to founders for when raising money makes sense? I actually wrote this article, one's called, Your Startup Is Probably Not Venture-Scale, just trying to convince people, you may have a really good idea, but it doesn't mean it's a venture-scale business. I feel like we're aligned on this. What's your advice to founders there?"
+      },
+      {
+        "speaker": "But everyone, the corner store, the pizza shop, they wish they could do this, and they can't because they have physical products that they have to sell, and they have to buy goods, and they have to get raw materials and convert that into a pizza, and there's just costs involved with that. They can't sell it for too much because the other place down the street sells it for less. So again, I'm getting off track, but if you're going to start a business that really truly requires cash, typically capital expenditures, expensive things, hardware, whatever, of course you need that. But, I don't think you do otherwise.",
+        "timestamp": "00:09:20",
+        "text": "I think it actually hurts you if you go out and think that you do, because there really is only one outcome for venture-backed companies, which is go huge. If you think about all of the space between a small business and a massive, huge unicorn-y business, there's so much room there that you could normally find your own way, and slide into a slot or a place that makes sense for you. But if you're venture-backed, you just don't even have the opportunity. You blow right past those, or they want you to blow right past those. If you don't, you wither on the vine and die essentially, and it's just too bad."
+      },
+      {
+        "speaker": "They also, frankly, build products just differently. We build products with two people at a time. So every feature we work on in Basecamp, or HEY, or whatever we're building is two people, one programmer, one designer, and they have a maximum of six weeks to deliver the feature that they're working on. Most of them are usually a couple of weeks, but they have a maximum of six weeks. So we don't get stuck in these big huge projects, with meetings with 18 people, and slow decision-making, and indecision, and complexity, and all the things that come with trying to do too many things for too many people. Now, all that said, we could still make the mistake of hiring hundreds of people because we could afford to do so. But to spend money because you have it on things you don't need is something that Silicon Valley's gotten quite good at, but we're quite bad at intentionally. I don't want to spend money on things we don't need.",
+        "timestamp": "00:12:49",
+        "text": "So we think that constraints, simplicity, small teams actually are where it's at, and keep us honest, and allow us to do great work for our customer base that we know, small businesses, very tight companies like ours, and satisfy them versus trying to go after the big companies, and have to have salespeople, and have long sales cycles, and whatnot. Honestly, if you gave me 1,000 people, I wouldn't know what to do with them. We would fall apart. If you gave me 500 people, I wouldn't know what to do with them. We would fall apart. We would be a worse off company with 500 people. I'd be completely lost. So, that's the other thing. I don't even understand how they run, and the amount of layers they must need, and the amount of complexity organizationally that they must have to... The latticework they have to build up to support all that weight, is just remarkable and it's foreign to us."
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:13:39",
+        "text": "Okay. I definitely want to talk about how you operate in your way of working, 'cause it's really interesting and there's a lot companies can take away. But, I want to follow on this thread of small teams. I have a few quotes that you've shared that I love."
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:17:20",
+        "text": "Okay. I think you would love it. The whole premise of this book, it's like a terse, tricky, philosophical book, but it's very short. It espouses, you want to be playing infinite games to be happy in life, games that never end versus games like, I'm going to build a business and sell it. Or, I'm going to go public, that's my goal. Or, I want to achieve this promotion. You get most joy out of things that never end, like building great relationships, building a company you want to keep working at forever."
+      }
+    ]
+  },
+  {
     "slug": "failure",
     "guest": "Failure",
     "title": "Failure",
@@ -29245,127 +29363,6 @@ export const allEpisodes: Episode[] = [
         "speaker": "Yeah, it's tremendous. It's ridiculous. I would say that by the time we are done recording this podcast, I'll have, I don't know. I mean, it could be anywhere from 30 to 50 pitches in my inbox. It comes all day. Now, to be clear, most of that is garbage in the real garbagey sense, right.",
         "timestamp": "00:05:36",
         "text": "It's a lot of completely unrelevant press releases that were sent to me and a bazillion other people. But within, there are definitely some people who have spent the time to reach out very specifically to me, and everybody in media gets some kind of volume like that. To reach out to somebody in media is to be shouting over a lot of noise."
-      }
-    ]
-  },
-  {
-    "slug": "jason-fried",
-    "guest": "Jason Fried",
-    "title": "How to get press for your product | Jason Feifer (editor in chief of Entrepreneur magazine)",
-    "publishDate": "2023-10-12T00:00:00.000Z",
-    "duration": "1:42:28",
-    "durationSeconds": 6148,
-    "viewCount": 3834,
-    "youtubeUrl": "https://www.youtube.com/watch?v=LZLdoAq3R7Y",
-    "videoId": "LZLdoAq3R7Y",
-    "description": "Jason Feifer is the editor in chief of Entrepreneur magazine and a former editor at Fast Company. He’s also a podcast host, book author, keynote speaker, and startup advisor. Every week,...\n",
-    "keywords": [
-      "growth",
-      "acquisition",
-      "metrics",
-      "okrs",
-      "kpis",
-      "roadmap",
-      "data-driven",
-      "pricing",
-      "subscription",
-      "revenue",
-      "hiring",
-      "management",
-      "strategy",
-      "vision",
-      "mission"
-    ],
-    "dialogueCount": 271,
-    "keyQuotesCount": 62,
-    "contrarianCount": 60,
-    "sampleQuotes": [
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:09:58",
-        "quote": "Coming back to something we touched on a bit, is this idea of smaller teams. You tweeted a similar stats, so I'm just going to read these numbers, in terms of your competitors. Asana has 1600 employees. ClickUp has a thousand employees. Slack has 2,500 employees. Smartsheet has 3000 employees. Monday has 1500 employees. You have, I think you said, 70 something employees?",
-        "length": 373
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:10:22",
-        "quote": "You have similar numbers of customers, about 100,000 to 150,000, and you make a lot of profit and they generally don't. How is this possible?",
-        "length": 141
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:13:39",
-        "quote": "Okay. I definitely want to talk about how you operate in your way of working, 'cause it's really interesting and there's a lot companies can take away. But, I want to follow on this thread of small teams. I have a few quotes that you've shared that I love.",
-        "length": 256
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:13:55",
-        "quote": "No, they're awesome. They're great. Around this idea of staying small, one is, \"Small is not just a stepping stone, small is a great destination itself. Also, if you think you're too small to be effective, you've never been in bed with a mosquito.\"",
-        "length": 248
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:17:08",
-        "quote": "You also have no investors. You have no board. You have no plans to go public. You have no plans to sell the business.",
-        "length": 118
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:21:01",
-        "quote": "I feel the same way. I always say this about newsletters, and it's also true for podcasts. Easy to start a newsletter, hard to keep it going.",
-        "length": 141
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:22:25",
-        "quote": "So maybe along that path, one, is there a point at which maybe you started going off track and you realized, \"This is not what I want to be doing. Why did I do this to myself?\" Then two is just, what have you learned being at this for this long?",
-        "length": 245
-      },
-      {
-        "speaker": "So there's just, right now, this outpouring of energy. I'm trying to be very conscious of my energy interest. Right now, I'm getting energy from the business. There are times in the past where the business sapped energy for me. If it SAPs too much, at some point, you start to think, \"Is it worth it? Do I want to keep doing this?\" Right now, I'm fueled again by it. But, I don't know what it'll be like in a year from now. I really don't know. I think I'm more conscious of that than I've ever been given how long I've been doing this.",
-        "timestamp": "00:24:21",
-        "quote": "Also, I always have this strange fantasy, I'm always curious, \"What would someone else do with this place? What if someone else could just step in tomorrow? How would they run it? No one's ever had a chance to run it but me. What would they do differently?\" I'd have to be completely detached from it to let them really run with it. But, what would they do? I always have this curious about that, I would say. Not curious enough to find out, but still curious. It's always in the back of my head.",
-        "length": 496
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:26:21",
-        "quote": "And there's another... This a cool exercise, actually, just to think about it. If I were to bring in any leader, what would they do? Just as a thought exercise.",
-        "length": 160
-      },
-      {
-        "speaker": "This is a weird way to think about it, but I almost would be embarrassed by what someone would come in and look at, and go, \"Oh my God, you guys are missing so many opportunities here.\" I'd be like, \"Yeah, I know. I know we are, but I'm totally fine with it.\" But, there'd be this moment of judgment and reckoning with, \"Do you realize how much you're leaving on the table?\" You could have five different pricing tiers, and make a lot more money, and you can maximize this and maximize that, and squeeze this and squeeze that, and address this market, and you could have special versions of Basecamp. Wow, churches are using Basecamp? We could do a special version for churches, and for synagogues, and religious institutions, or education or nonprofits. Think of all the slight different things you could do with these different...\"",
-        "timestamp": "00:27:06",
-        "quote": "I'm certain that all those opportunities exist on the table. They don't interest me, personally, in terms of making multiple products. But I could see someone else going, \"There's a huge opportunity here. We got to pursue this.\" I'd be really proud if someone did that, and made the business bigger and better. I could never have done that. I'm glad someone else did that. But right now, we're running it our way.",
-        "length": 413
-      }
-    ],
-    "sampleContrarian": [
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:06:47",
-        "text": "Just following the same thread, the bet that companies are making, obviously going down the venture route, they're going to lose money for a long time so that they can make much, much more money in the future. So the idea there is, grow as fast as possible, as big as possible, and then we'll make money. You're a big advocate of not raising venture and bootstrapping. So what's your advice to founders for when raising money makes sense? I actually wrote this article, one's called, Your Startup Is Probably Not Venture-Scale, just trying to convince people, you may have a really good idea, but it doesn't mean it's a venture-scale business. I feel like we're aligned on this. What's your advice to founders there?"
-      },
-      {
-        "speaker": "But everyone, the corner store, the pizza shop, they wish they could do this, and they can't because they have physical products that they have to sell, and they have to buy goods, and they have to get raw materials and convert that into a pizza, and there's just costs involved with that. They can't sell it for too much because the other place down the street sells it for less. So again, I'm getting off track, but if you're going to start a business that really truly requires cash, typically capital expenditures, expensive things, hardware, whatever, of course you need that. But, I don't think you do otherwise.",
-        "timestamp": "00:09:20",
-        "text": "I think it actually hurts you if you go out and think that you do, because there really is only one outcome for venture-backed companies, which is go huge. If you think about all of the space between a small business and a massive, huge unicorn-y business, there's so much room there that you could normally find your own way, and slide into a slot or a place that makes sense for you. But if you're venture-backed, you just don't even have the opportunity. You blow right past those, or they want you to blow right past those. If you don't, you wither on the vine and die essentially, and it's just too bad."
-      },
-      {
-        "speaker": "They also, frankly, build products just differently. We build products with two people at a time. So every feature we work on in Basecamp, or HEY, or whatever we're building is two people, one programmer, one designer, and they have a maximum of six weeks to deliver the feature that they're working on. Most of them are usually a couple of weeks, but they have a maximum of six weeks. So we don't get stuck in these big huge projects, with meetings with 18 people, and slow decision-making, and indecision, and complexity, and all the things that come with trying to do too many things for too many people. Now, all that said, we could still make the mistake of hiring hundreds of people because we could afford to do so. But to spend money because you have it on things you don't need is something that Silicon Valley's gotten quite good at, but we're quite bad at intentionally. I don't want to spend money on things we don't need.",
-        "timestamp": "00:12:49",
-        "text": "So we think that constraints, simplicity, small teams actually are where it's at, and keep us honest, and allow us to do great work for our customer base that we know, small businesses, very tight companies like ours, and satisfy them versus trying to go after the big companies, and have to have salespeople, and have long sales cycles, and whatnot. Honestly, if you gave me 1,000 people, I wouldn't know what to do with them. We would fall apart. If you gave me 500 people, I wouldn't know what to do with them. We would fall apart. We would be a worse off company with 500 people. I'd be completely lost. So, that's the other thing. I don't even understand how they run, and the amount of layers they must need, and the amount of complexity organizationally that they must have to... The latticework they have to build up to support all that weight, is just remarkable and it's foreign to us."
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:13:39",
-        "text": "Okay. I definitely want to talk about how you operate in your way of working, 'cause it's really interesting and there's a lot companies can take away. But, I want to follow on this thread of small teams. I have a few quotes that you've shared that I love."
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:17:20",
-        "text": "Okay. I think you would love it. The whole premise of this book, it's like a terse, tricky, philosophical book, but it's very short. It espouses, you want to be playing infinite games to be happy in life, games that never end versus games like, I'm going to build a business and sell it. Or, I'm going to go public, that's my goal. Or, I want to achieve this promotion. You get most joy out of things that never end, like building great relationships, building a company you want to keep working at forever."
       }
     ]
   },

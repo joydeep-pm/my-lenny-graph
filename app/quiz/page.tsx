@@ -99,6 +99,9 @@ function QuizContent() {
         localStorage.setItem('pm_map_name', userName);
         localStorage.setItem('pm_map_role', userRole);
 
+        // Dispatch event to update footer and other components
+        window.dispatchEvent(new Event('quizUpdated'));
+
         router.push('/results');
       }
     }, 600);

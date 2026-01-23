@@ -62,7 +62,13 @@ export default function Home() {
     try {
       localStorage.removeItem('pm_quiz_answers');
       localStorage.removeItem('pm_map_name');
+      localStorage.removeItem('pm_map_role');
+      localStorage.removeItem('pm_map_quiz_progress');
       setHasQuizResults(false);
+
+      // Dispatch event to update footer and other components
+      window.dispatchEvent(new Event('quizUpdated'));
+
       router.push('/quiz');
     } catch (e) {
       console.error('Error clearing quiz data:', e);

@@ -15,13 +15,38 @@ export default function Footer() {
           const answers = JSON.parse(savedAnswers);
           const answerCount = Object.keys(answers).length;
           setHasQuizResults(answerCount >= 7);
+        } else {
+          setHasQuizResults(false);
         }
       } catch (e) {
         console.error('Error checking quiz completion:', e);
       }
     };
 
+    // Check on mount
     checkQuizCompletion();
+
+    // Re-check when window regains focus (after completing quiz)
+    const handleFocus = () => checkQuizCompletion();
+    window.addEventListener('focus', handleFocus);
+
+    // Listen for storage changes (when quiz completes in same window)
+    const handleStorage = (e: StorageEvent) => {
+      if (e.key === 'pm_quiz_answers') {
+        checkQuizCompletion();
+      }
+    };
+    window.addEventListener('storage', handleStorage);
+
+    // Custom event for same-window updates
+    const handleQuizUpdate = () => checkQuizCompletion();
+    window.addEventListener('quizUpdated', handleQuizUpdate);
+
+    return () => {
+      window.removeEventListener('focus', handleFocus);
+      window.removeEventListener('storage', handleStorage);
+      window.removeEventListener('quizUpdated', handleQuizUpdate);
+    };
   }, []);
 
   return (

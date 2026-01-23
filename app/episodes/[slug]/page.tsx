@@ -353,7 +353,7 @@ export default function EpisodePage() {
 
               {/* YouTube Embed Section - Sticky */}
               {episode.videoId && (
-                <div className="mb-8 sticky top-0 z-20 bg-void pb-4">
+                <div className="mb-0 sticky top-16 md:top-20 z-20 bg-void">
                   <div className="relative w-full aspect-video bg-void-light border-2 border-crimson">
                     <div
                       id="youtube-player"
@@ -364,7 +364,7 @@ export default function EpisodePage() {
               )}
 
               {/* Mobile Tabs - Sticky below video */}
-              <div className="lg:hidden mb-6 border-b-2 border-ash-darker sticky top-[calc(100vw*9/16+2rem)] z-10 bg-void pb-2">
+              <div className="lg:hidden mb-6 border-b-2 border-ash-darker sticky top-[calc(4rem+100vw*9/16)] md:top-[calc(5rem+100vw*9/16)] z-19 bg-void pb-2 pt-4">
                 <div className="flex gap-4">
                   <button
                     onClick={() => setActiveTab('transcript')}

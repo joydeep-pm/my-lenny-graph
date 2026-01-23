@@ -8,16 +8,31 @@ export default function TopNav() {
   const [hasQuizResults, setHasQuizResults] = useState(false);
 
   useEffect(() => {
-    try {
-      const savedAnswers = localStorage.getItem('pm_quiz_answers');
-      if (savedAnswers) {
-        const answers = JSON.parse(savedAnswers);
-        const answerCount = Object.keys(answers).length;
-        setHasQuizResults(answerCount >= 7);
+    const checkQuizCompletion = () => {
+      try {
+        const savedAnswers = localStorage.getItem('pm_quiz_answers');
+        if (savedAnswers) {
+          const answers = JSON.parse(savedAnswers);
+          const answerCount = Object.keys(answers).length;
+          setHasQuizResults(answerCount >= 7);
+        } else {
+          setHasQuizResults(false);
+        }
+      } catch (e) {
+        console.error('Error checking quiz completion:', e);
       }
-    } catch (e) {
-      console.error('Error checking quiz completion:', e);
-    }
+    };
+
+    // Check on mount
+    checkQuizCompletion();
+
+    // Listen for quiz updates
+    const handleQuizUpdate = () => checkQuizCompletion();
+    window.addEventListener('quizUpdated', handleQuizUpdate);
+
+    return () => {
+      window.removeEventListener('quizUpdated', handleQuizUpdate);
+    };
   }, []);
 
   return (
