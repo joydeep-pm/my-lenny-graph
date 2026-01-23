@@ -63,11 +63,16 @@ export default function ExplorePage() {
     try {
       const savedAnswers = localStorage.getItem('pm_quiz_answers');
       if (savedAnswers) {
-        const answers: QuizAnswers = JSON.parse(savedAnswers);
+        // Decode if URL-encoded, otherwise parse directly
+        const decodedAnswers = savedAnswers.startsWith('%7B') || savedAnswers.startsWith('{')
+          ? (savedAnswers.startsWith('%7B') ? decodeURIComponent(savedAnswers) : savedAnswers)
+          : savedAnswers;
+        const answers: QuizAnswers = JSON.parse(decodedAnswers);
         const answerCount = Object.keys(answers).length;
         if (answerCount >= 7) {
           const recs = generateRecommendations(answers);
           setRecommendations({ primary: recs.primary, contrarian: recs.contrarian });
+          setShowRecommendations(true); // Show recommendations by default
         }
       }
     } catch (e) {
