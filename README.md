@@ -1,4 +1,4 @@
-# PM Philosophy Map
+# PM Philosophy Recommendations
 
 > Discover your product management philosophy through an interactive quiz powered by 303 episodes of Lenny's Podcast
 
@@ -8,7 +8,7 @@
 
 ## 🎯 What is this?
 
-PM Philosophy Map helps product managers discover their unique approach to building products through a dark sci-fi quiz experience. Every insight, quote, and recommendation is grounded in real transcript data from Lenny's Podcast.
+PM Philosophy Recommendations helps product managers discover their unique approach to building products through a dark sci-fi quiz experience. Every insight, quote, and recommendation is grounded in real transcript data from Lenny's Podcast.
 
 **Key Features:**
 - 🧭 **10-question philosophy quiz** with AI-focused questions
