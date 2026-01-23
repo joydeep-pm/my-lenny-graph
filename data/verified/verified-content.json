@@ -2091,6 +2091,324 @@
       ]
     },
     {
+      "episode_slug": "dalton-caldwell",
+      "guest": "Dalton Caldwell",
+      "episode_title": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (YC)",
+      "verification_date": "2026-01-23",
+      "verified_by": "claude-agent",
+      "quotes": [
+        {
+          "id": "dalton-caldwell-001",
+          "text": "One of my mantras is just don't die. Just keep your startup going. Just keep going. And I say that over and over again and honestly, that is often what people tell me is the most impactful thing I said. It's not that I said some Ninja 5D chess move that they never would've thought of before. It's just the constant affirmation that continuing to keep going and doing high quality reps is the game.",
+          "source": {
+            "line_start": 94,
+            "line_end": 94,
+            "timestamp": "00:06:33",
+            "speaker": "Dalton Caldwell"
+          },
+          "context": "Explaining why simple pragmatic advice like 'don't die' is more impactful than complex strategic advice",
+          "themes": [
+            "resilience",
+            "persistence",
+            "fundamentals",
+            "execution"
+          ],
+          "zones": [
+            "velocity",
+            "focus"
+          ],
+          "verified": true
+        },
+        {
+          "id": "dalton-caldwell-002",
+          "text": "The underlying theme is that rationally the founder should have given up at some point. They probably should have shut down three or four times before they got into YC. It objectively wasn't working. They were basically ruining their lives, they were disappointing their parents, everything was wrong and it was a purely irrational act for the founders of Airbnb to keep working on their goofy startup.",
+          "source": {
+            "line_start": 100,
+            "line_end": 100,
+            "timestamp": "00:07:14",
+            "speaker": "Dalton Caldwell"
+          },
+          "context": "Using Airbnb as example of irrational persistence leading to success",
+          "themes": [
+            "airbnb",
+            "near-death-experience",
+            "persistence",
+            "irrational-optimism"
+          ],
+          "zones": [
+            "chaos",
+            "velocity"
+          ],
+          "verified": true
+        },
+        {
+          "id": "dalton-caldwell-003",
+          "text": "Are you still having fun? Do you still enjoy doing what you're doing? Do you enjoy spending time with your co-founders? Is this actually a fun thing you're doing? If the answer there is yes, I would tend to lean on the keep going. Something that a lot of the folks that turn it around have in common is they actually do love their customers and they love their product.",
+          "source": {
+            "line_start": 109,
+            "line_end": 109,
+            "timestamp": "00:09:01",
+            "speaker": "Dalton Caldwell"
+          },
+          "context": "Practical advice on when to keep going vs when to shut down a struggling startup",
+          "themes": [
+            "decision-making",
+            "co-founders",
+            "passion",
+            "customer-love"
+          ],
+          "zones": [
+            "intuition",
+            "discovery"
+          ],
+          "verified": true
+        },
+        {
+          "id": "dalton-caldwell-004",
+          "text": "A good pivot is like going home. It's warmer, it's closer to something that you're an expert at. And it never occurred to you that this thing you know all about would be a good idea or maybe you consciously are like, 'I don't want to work on this because burnt out on it.' Sometimes someone has to get over this barrier they have on why they don't want to work on a certain idea.",
+          "source": {
+            "line_start": 142,
+            "line_end": 142,
+            "timestamp": "00:15:41",
+            "speaker": "Dalton Caldwell"
+          },
+          "context": "Explaining what makes a successful pivot - moving towards expertise rather than away from it",
+          "themes": [
+            "pivoting",
+            "expertise",
+            "founder-psychology",
+            "strategy"
+          ],
+          "zones": [
+            "intuition",
+            "discovery",
+            "focus"
+          ],
+          "verified": true
+        },
+        {
+          "id": "dalton-caldwell-005",
+          "text": "There's no universe where they would've made up the idea for Segment because they didn't know anything about how analytics worked, but because they were grinding for multiple years and became experts on these things as a side effect of their earlier ideas, they ended up with really good unique insights.",
+          "source": {
+            "line_start": 148,
+            "line_end": 151,
+            "timestamp": "00:17:30",
+            "speaker": "Dalton Caldwell"
+          },
+          "context": "Segment's multi-year pivot story - expertise built through struggling on earlier ideas",
+          "themes": [
+            "pivoting",
+            "expertise",
+            "learning",
+            "insights",
+            "segment"
+          ],
+          "zones": [
+            "discovery",
+            "chaos",
+            "focus"
+          ],
+          "verified": true
+        },
+        {
+          "id": "dalton-caldwell-006",
+          "text": "The weird aspect of what we call a tarpit idea is an idea that a lot of people come up with and then it seems like an unsolved problem and you get lots of positive feedback for. You have a really good set of arguments that it's a really good startup idea. Man, people have been starting that startup since the '90s and so you can validate it. Part of being a true tarpit is that you can get good initial validation.",
+          "source": {
+            "line_start": 202,
+            "line_end": 205,
+            "timestamp": "00:24:10",
+            "speaker": "Dalton Caldwell"
+          },
+          "context": "Defining 'tarpit ideas' - ideas that seem great and validate well but consistently fail",
+          "themes": [
+            "tarpit-ideas",
+            "validation",
+            "idea-quality",
+            "trap"
+          ],
+          "zones": [
+            "discovery",
+            "chaos"
+          ],
+          "verified": true
+        },
+        {
+          "id": "dalton-caldwell-007",
+          "text": "My best advice here is for founders to put themselves in the shoes of investors and just imagine what their life is like and how if you are in their shoes you would make decisions. A lot of investors just don't make that many investments and as per what we talked about earlier, life is short. Anything that doesn't seem like this is the one, this is the one I want to do is a no.",
+          "source": {
+            "line_start": 229,
+            "line_end": 232,
+            "timestamp": "00:27:09",
+            "speaker": "Dalton Caldwell"
+          },
+          "context": "Explaining why investors say no - not necessarily flaws in your startup, but better alternatives",
+          "themes": [
+            "fundraising",
+            "investor-psychology",
+            "rejection",
+            "empathy"
+          ],
+          "zones": [
+            "intuition",
+            "alignment"
+          ],
+          "verified": true
+        },
+        {
+          "id": "dalton-caldwell-008",
+          "text": "The TAM of Uber would be nothing. The TAM of Airbnb would've been nothing. I funded Razorpay, which is the largest payment processor in India, and the TAM of that was tiny because no one was using credit cards in 2015 in India. You had to believe that the size of the credit card industry in India would 100X. Well, guess what happened? Trying to be super pedantic about market size when it's a pre-seed company or someone applying to YC, it's just not something I'd put a lot of thought.",
+          "source": {
+            "line_start": 244,
+            "line_end": 244,
+            "timestamp": "00:29:25",
+            "speaker": "Dalton Caldwell"
+          },
+          "context": "Arguing TAM analysis is overrated at early stages - markets can be created",
+          "themes": [
+            "tam",
+            "market-size",
+            "contrarian",
+            "early-stage"
+          ],
+          "zones": [
+            "intuition",
+            "chaos"
+          ],
+          "verified": true
+        },
+        {
+          "id": "dalton-caldwell-009",
+          "text": "You can't delegate caring about your users and you can't delegate caring that the product is great. That is so critical. You end up with super nice people with super shiny resumes from big tech companies and then you wake up one day and you're like, 'Oh wow, everything went wrong.' It's not really anyone's fault, it's just that you took your eye off the ball.",
+          "source": {
+            "line_start": 265,
+            "line_end": 271,
+            "timestamp": "00:33:36",
+            "speaker": "Dalton Caldwell"
+          },
+          "context": "Warning about over-delegating and hiring fancy executives too early",
+          "themes": [
+            "delegation",
+            "hiring",
+            "founder-mode",
+            "execution"
+          ],
+          "zones": [
+            "focus",
+            "perfection"
+          ],
+          "verified": true
+        },
+        {
+          "id": "dalton-caldwell-010",
+          "text": "I think is that the founders lose hope. And when you and your heart is like, 'Yeah, we're failing.' I can see it when I'm meeting with a founder, when they resign themselves that they're failing versus when like, 'We got one more move in us. We got one more try.' It's much more common that they still have some money left and they're just like, 'Yeah, I'm done. I'm out of ideas. I don't want to do this anymore.'",
+          "source": {
+            "line_start": 292,
+            "line_end": 295,
+            "timestamp": "00:37:23",
+            "speaker": "Dalton Caldwell"
+          },
+          "context": "Explaining the real reason startups fail - losing hope rather than running out of money",
+          "themes": [
+            "failure",
+            "psychology",
+            "giving-up",
+            "hope"
+          ],
+          "zones": [
+            "chaos",
+            "velocity"
+          ],
+          "verified": true
+        },
+        {
+          "id": "dalton-caldwell-011",
+          "text": "If we define it as the company had a near death experience where it was going poorly and the founders seriously wondered if it was all going to be over, a hundred percent of the time people go through that. At least you feel that way at some point in your startup journey, man, everyone goes through that. Maybe 50% truly got down to very, very hard situations. There's a lot of founders that come this close to it all being over and through sheer will just keep it going.",
+          "source": {
+            "line_start": 307,
+            "line_end": 307,
+            "timestamp": "00:39:41",
+            "speaker": "Dalton Caldwell"
+          },
+          "context": "Revealing that 100% of successful founders experience near-death moments",
+          "themes": [
+            "near-death-experience",
+            "persistence",
+            "normalizing-struggle"
+          ],
+          "zones": [
+            "chaos",
+            "velocity"
+          ],
+          "verified": true
+        },
+        {
+          "id": "dalton-caldwell-012",
+          "text": "You can do a self-assessment. In the past month, how many in-person physical meetings have I had with potential customers? Look at your calendar and there should be 20 or 30% of your time that the calendar says something like customer meeting, customer call. Nothing substitutes for an actual conversation versus just staring at analytics dashboards.",
+          "source": {
+            "line_start": 316,
+            "line_end": 331,
+            "timestamp": "00:41:49",
+            "speaker": "Dalton Caldwell"
+          },
+          "context": "Giving specific heuristic for how much time founders should spend talking to customers",
+          "themes": [
+            "customer-research",
+            "user-interviews",
+            "metrics",
+            "execution"
+          ],
+          "zones": [
+            "discovery",
+            "data"
+          ],
+          "verified": true
+        }
+      ],
+      "takeaways": [
+        "The core mantra for startup survival is 'just don't die' - keep doing high quality reps and don't accept failure until you truly run out of ideas and passion for the work",
+        "Good pivots get 'warmer not colder' - move towards areas where you have expertise, even if that expertise was built while struggling on previous ideas (like Brex, Retool, Segment)",
+        "Tarpit ideas seem great and validate well but consistently fail - beware ideas everyone has, that get positive feedback, but have been attempted since the '90s without success",
+        "100% of successful founders experience near-death moments where they seriously question if it's over - the difference is continuing through sheer will versus losing hope and giving up",
+        "Founders should spend 20-30% of calendar time in actual customer conversations - not analytics dashboards, not buying ads, but real in-person meetings to overcome social anxiety and learn"
+      ],
+      "zone_influence": {
+        "velocity": 0.2,
+        "perfection": 0.05,
+        "discovery": 0.3,
+        "data": 0.1,
+        "intuition": 0.15,
+        "alignment": 0.05,
+        "chaos": 0.1,
+        "focus": 0.05
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "dalton-caldwell-002",
+          "why": "Claims rationally founders SHOULD give up but irrational persistence is what works - counter to conventional wisdom about knowing when to quit",
+          "related_zones": [
+            "chaos",
+            "velocity"
+          ]
+        },
+        {
+          "quoteId": "dalton-caldwell-008",
+          "why": "Argues TAM analysis is mostly useless at early stages when many VCs obsess over it - cites Uber, Airbnb, Razorpay having 'no TAM'",
+          "related_zones": [
+            "intuition",
+            "chaos"
+          ]
+        },
+        {
+          "quoteId": "dalton-caldwell-010",
+          "why": "Claims startups don't die from running out of money but from founders losing hope - shifts blame from capital to psychology",
+          "related_zones": [
+            "chaos",
+            "velocity"
+          ]
+        }
+      ]
+    },
+    {
       "episode_slug": "dylan-field",
       "guest": "Dylan Field",
       "episode_title": "Figma's CEO: Why AI makes design, craft, and quality the new moat for startups | Dylan Field",
@@ -7132,6 +7450,272 @@
       "verified": true
     },
     {
+      "id": "dalton-caldwell-001",
+      "text": "One of my mantras is just don't die. Just keep your startup going. Just keep going. And I say that over and over again and honestly, that is often what people tell me is the most impactful thing I said. It's not that I said some Ninja 5D chess move that they never would've thought of before. It's just the constant affirmation that continuing to keep going and doing high quality reps is the game.",
+      "source": {
+        "line_start": 94,
+        "line_end": 94,
+        "timestamp": "00:06:33",
+        "speaker": "Dalton Caldwell"
+      },
+      "context": "Explaining why simple pragmatic advice like 'don't die' is more impactful than complex strategic advice",
+      "themes": [
+        "resilience",
+        "persistence",
+        "fundamentals",
+        "execution"
+      ],
+      "zones": [
+        "velocity",
+        "focus"
+      ],
+      "verified": true
+    },
+    {
+      "id": "dalton-caldwell-002",
+      "text": "The underlying theme is that rationally the founder should have given up at some point. They probably should have shut down three or four times before they got into YC. It objectively wasn't working. They were basically ruining their lives, they were disappointing their parents, everything was wrong and it was a purely irrational act for the founders of Airbnb to keep working on their goofy startup.",
+      "source": {
+        "line_start": 100,
+        "line_end": 100,
+        "timestamp": "00:07:14",
+        "speaker": "Dalton Caldwell"
+      },
+      "context": "Using Airbnb as example of irrational persistence leading to success",
+      "themes": [
+        "airbnb",
+        "near-death-experience",
+        "persistence",
+        "irrational-optimism"
+      ],
+      "zones": [
+        "chaos",
+        "velocity"
+      ],
+      "verified": true
+    },
+    {
+      "id": "dalton-caldwell-003",
+      "text": "Are you still having fun? Do you still enjoy doing what you're doing? Do you enjoy spending time with your co-founders? Is this actually a fun thing you're doing? If the answer there is yes, I would tend to lean on the keep going. Something that a lot of the folks that turn it around have in common is they actually do love their customers and they love their product.",
+      "source": {
+        "line_start": 109,
+        "line_end": 109,
+        "timestamp": "00:09:01",
+        "speaker": "Dalton Caldwell"
+      },
+      "context": "Practical advice on when to keep going vs when to shut down a struggling startup",
+      "themes": [
+        "decision-making",
+        "co-founders",
+        "passion",
+        "customer-love"
+      ],
+      "zones": [
+        "intuition",
+        "discovery"
+      ],
+      "verified": true
+    },
+    {
+      "id": "dalton-caldwell-004",
+      "text": "A good pivot is like going home. It's warmer, it's closer to something that you're an expert at. And it never occurred to you that this thing you know all about would be a good idea or maybe you consciously are like, 'I don't want to work on this because burnt out on it.' Sometimes someone has to get over this barrier they have on why they don't want to work on a certain idea.",
+      "source": {
+        "line_start": 142,
+        "line_end": 142,
+        "timestamp": "00:15:41",
+        "speaker": "Dalton Caldwell"
+      },
+      "context": "Explaining what makes a successful pivot - moving towards expertise rather than away from it",
+      "themes": [
+        "pivoting",
+        "expertise",
+        "founder-psychology",
+        "strategy"
+      ],
+      "zones": [
+        "intuition",
+        "discovery",
+        "focus"
+      ],
+      "verified": true
+    },
+    {
+      "id": "dalton-caldwell-005",
+      "text": "There's no universe where they would've made up the idea for Segment because they didn't know anything about how analytics worked, but because they were grinding for multiple years and became experts on these things as a side effect of their earlier ideas, they ended up with really good unique insights.",
+      "source": {
+        "line_start": 148,
+        "line_end": 151,
+        "timestamp": "00:17:30",
+        "speaker": "Dalton Caldwell"
+      },
+      "context": "Segment's multi-year pivot story - expertise built through struggling on earlier ideas",
+      "themes": [
+        "pivoting",
+        "expertise",
+        "learning",
+        "insights",
+        "segment"
+      ],
+      "zones": [
+        "discovery",
+        "chaos",
+        "focus"
+      ],
+      "verified": true
+    },
+    {
+      "id": "dalton-caldwell-006",
+      "text": "The weird aspect of what we call a tarpit idea is an idea that a lot of people come up with and then it seems like an unsolved problem and you get lots of positive feedback for. You have a really good set of arguments that it's a really good startup idea. Man, people have been starting that startup since the '90s and so you can validate it. Part of being a true tarpit is that you can get good initial validation.",
+      "source": {
+        "line_start": 202,
+        "line_end": 205,
+        "timestamp": "00:24:10",
+        "speaker": "Dalton Caldwell"
+      },
+      "context": "Defining 'tarpit ideas' - ideas that seem great and validate well but consistently fail",
+      "themes": [
+        "tarpit-ideas",
+        "validation",
+        "idea-quality",
+        "trap"
+      ],
+      "zones": [
+        "discovery",
+        "chaos"
+      ],
+      "verified": true
+    },
+    {
+      "id": "dalton-caldwell-007",
+      "text": "My best advice here is for founders to put themselves in the shoes of investors and just imagine what their life is like and how if you are in their shoes you would make decisions. A lot of investors just don't make that many investments and as per what we talked about earlier, life is short. Anything that doesn't seem like this is the one, this is the one I want to do is a no.",
+      "source": {
+        "line_start": 229,
+        "line_end": 232,
+        "timestamp": "00:27:09",
+        "speaker": "Dalton Caldwell"
+      },
+      "context": "Explaining why investors say no - not necessarily flaws in your startup, but better alternatives",
+      "themes": [
+        "fundraising",
+        "investor-psychology",
+        "rejection",
+        "empathy"
+      ],
+      "zones": [
+        "intuition",
+        "alignment"
+      ],
+      "verified": true
+    },
+    {
+      "id": "dalton-caldwell-008",
+      "text": "The TAM of Uber would be nothing. The TAM of Airbnb would've been nothing. I funded Razorpay, which is the largest payment processor in India, and the TAM of that was tiny because no one was using credit cards in 2015 in India. You had to believe that the size of the credit card industry in India would 100X. Well, guess what happened? Trying to be super pedantic about market size when it's a pre-seed company or someone applying to YC, it's just not something I'd put a lot of thought.",
+      "source": {
+        "line_start": 244,
+        "line_end": 244,
+        "timestamp": "00:29:25",
+        "speaker": "Dalton Caldwell"
+      },
+      "context": "Arguing TAM analysis is overrated at early stages - markets can be created",
+      "themes": [
+        "tam",
+        "market-size",
+        "contrarian",
+        "early-stage"
+      ],
+      "zones": [
+        "intuition",
+        "chaos"
+      ],
+      "verified": true
+    },
+    {
+      "id": "dalton-caldwell-009",
+      "text": "You can't delegate caring about your users and you can't delegate caring that the product is great. That is so critical. You end up with super nice people with super shiny resumes from big tech companies and then you wake up one day and you're like, 'Oh wow, everything went wrong.' It's not really anyone's fault, it's just that you took your eye off the ball.",
+      "source": {
+        "line_start": 265,
+        "line_end": 271,
+        "timestamp": "00:33:36",
+        "speaker": "Dalton Caldwell"
+      },
+      "context": "Warning about over-delegating and hiring fancy executives too early",
+      "themes": [
+        "delegation",
+        "hiring",
+        "founder-mode",
+        "execution"
+      ],
+      "zones": [
+        "focus",
+        "perfection"
+      ],
+      "verified": true
+    },
+    {
+      "id": "dalton-caldwell-010",
+      "text": "I think is that the founders lose hope. And when you and your heart is like, 'Yeah, we're failing.' I can see it when I'm meeting with a founder, when they resign themselves that they're failing versus when like, 'We got one more move in us. We got one more try.' It's much more common that they still have some money left and they're just like, 'Yeah, I'm done. I'm out of ideas. I don't want to do this anymore.'",
+      "source": {
+        "line_start": 292,
+        "line_end": 295,
+        "timestamp": "00:37:23",
+        "speaker": "Dalton Caldwell"
+      },
+      "context": "Explaining the real reason startups fail - losing hope rather than running out of money",
+      "themes": [
+        "failure",
+        "psychology",
+        "giving-up",
+        "hope"
+      ],
+      "zones": [
+        "chaos",
+        "velocity"
+      ],
+      "verified": true
+    },
+    {
+      "id": "dalton-caldwell-011",
+      "text": "If we define it as the company had a near death experience where it was going poorly and the founders seriously wondered if it was all going to be over, a hundred percent of the time people go through that. At least you feel that way at some point in your startup journey, man, everyone goes through that. Maybe 50% truly got down to very, very hard situations. There's a lot of founders that come this close to it all being over and through sheer will just keep it going.",
+      "source": {
+        "line_start": 307,
+        "line_end": 307,
+        "timestamp": "00:39:41",
+        "speaker": "Dalton Caldwell"
+      },
+      "context": "Revealing that 100% of successful founders experience near-death moments",
+      "themes": [
+        "near-death-experience",
+        "persistence",
+        "normalizing-struggle"
+      ],
+      "zones": [
+        "chaos",
+        "velocity"
+      ],
+      "verified": true
+    },
+    {
+      "id": "dalton-caldwell-012",
+      "text": "You can do a self-assessment. In the past month, how many in-person physical meetings have I had with potential customers? Look at your calendar and there should be 20 or 30% of your time that the calendar says something like customer meeting, customer call. Nothing substitutes for an actual conversation versus just staring at analytics dashboards.",
+      "source": {
+        "line_start": 316,
+        "line_end": 331,
+        "timestamp": "00:41:49",
+        "speaker": "Dalton Caldwell"
+      },
+      "context": "Giving specific heuristic for how much time founders should spend talking to customers",
+      "themes": [
+        "customer-research",
+        "user-interviews",
+        "metrics",
+        "execution"
+      ],
+      "zones": [
+        "discovery",
+        "data"
+      ],
+      "verified": true
+    },
+    {
       "id": "dylan-field-001",
       "text": "Design is art applied to problem solving. I think that design is often... There is some component of creativity to it and unique expression that you're trying to provide and create and put out into the world. But you are also trying to do it and match it to a user need, a problem that needs to be solved. And I think that it's not pure art, but if you lose the art and you're just solving the problem, it's totally utilitarian and it lacks soul.",
       "source": {
@@ -9936,5 +10520,5 @@
       "verified": true
     }
   ],
-  "lastUpdated": "2026-01-23T02:48:39.903Z"
+  "lastUpdated": "2026-01-23T03:03:03.820Z"
 }
