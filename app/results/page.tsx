@@ -15,17 +15,12 @@ function ResultsContent() {
   const router = useRouter();
 
   const { answers, userName } = useMemo(() => {
-    let answersParam = searchParams.get('answers');
-    const nameParam = searchParams.get('name');
-
-    // Try localStorage if not in URL
-    if (!answersParam) {
-      answersParam = localStorage.getItem('pm_quiz_answers');
-    }
+    // Always load from localStorage (no longer using URL params)
+    const answersParam = localStorage.getItem('pm_quiz_answers');
 
     return {
-      answers: answersParam ? JSON.parse(decodeURIComponent(answersParam)) as QuizAnswers : {},
-      userName: nameParam || localStorage.getItem('pm_map_name') || 'Your'
+      answers: answersParam ? JSON.parse(answersParam) as QuizAnswers : {},
+      userName: localStorage.getItem('pm_map_name') || 'Your'
     };
   }, [searchParams]);
 

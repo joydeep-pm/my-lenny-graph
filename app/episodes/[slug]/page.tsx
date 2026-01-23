@@ -10,6 +10,7 @@ import { getEpisodeBySlug, allEpisodes, Episode } from '@/lib/allEpisodes';
 import { episodeInsights, EpisodeInsights } from '@/lib/insightsData';
 import { getEpisodeEnrichment } from '@/lib/verifiedQuotes';
 import VerifiedQuotes from '@/components/VerifiedQuotes';
+import TopNav from '@/components/TopNav';
 
 // Client-side transcript loading
 async function loadTranscript(slug: string) {
@@ -47,9 +48,9 @@ export default function EpisodePage() {
   // Update document title dynamically
   useEffect(() => {
     if (episode) {
-      document.title = `${episode.guest} | PM Philosophy Map`;
+      document.title = `${episode.guest} | Lenny's Podcast Philosophy`;
     } else {
-      document.title = 'Episode Not Found | PM Philosophy Map';
+      document.title = 'Episode Not Found | Lenny\'s Podcast Philosophy';
     }
   }, [episode]);
   const verifiedEnrichment = useMemo(() => getEpisodeEnrichment(slug), [slug]);
@@ -269,6 +270,8 @@ export default function EpisodePage() {
 
   return (
     <div className="min-h-screen bg-void text-ash font-mono">
+      <TopNav />
+
       {/* Scanlines */}
       <div className="fixed inset-0 pointer-events-none z-20 opacity-5">
         <div className="w-full h-full bg-[repeating-linear-gradient(0deg,transparent,transparent_2px,#ffb347_2px,#ffb347_4px)]" />
@@ -287,16 +290,8 @@ export default function EpisodePage() {
       )}
 
       {/* Main Content */}
-      <div className="relative z-10 min-h-screen px-4 py-8 md:py-12">
+      <div className="relative z-10 min-h-screen px-4 pt-20 pb-8 md:pt-24 md:pb-12">
         <div className="max-w-6xl mx-auto">
-          {/* Back Button */}
-          <Link
-            href="/explore"
-            className="inline-flex items-center gap-2 text-ash-dark hover:text-amber transition-colors mb-8 group"
-          >
-            <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-            <span className="text-sm">BACK TO EXPLORE</span>
-          </Link>
 
           <div className="grid lg:grid-cols-3 gap-8">
             {/* Main Content - 2 columns */}

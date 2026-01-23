@@ -93,16 +93,13 @@ function QuizContent() {
       } else {
         // Quiz complete - save final answers and navigate
         localStorage.removeItem('pm_map_quiz_progress');
-        const answersParam = encodeURIComponent(JSON.stringify(newAnswers));
-        const nameParam = encodeURIComponent(userName);
-        const roleParam = encodeURIComponent(userRole);
 
-        // Save final answers to localStorage for persistence
-        localStorage.setItem('pm_quiz_answers', answersParam);
+        // Save final answers to localStorage for persistence (plain JSON)
+        localStorage.setItem('pm_quiz_answers', JSON.stringify(newAnswers));
         localStorage.setItem('pm_map_name', userName);
         localStorage.setItem('pm_map_role', userRole);
 
-        router.push(`/results?answers=${answersParam}&name=${nameParam}`);
+        router.push('/results');
       }
     }, 600);
   };
@@ -136,21 +133,21 @@ function QuizContent() {
       </div>
 
       {/* Main content */}
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-20">
+      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-16 md:py-20">
         {/* User greeting and question counter */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="mb-12 text-center space-y-3"
+          className="mb-6 md:mb-12 text-center space-y-2 md:space-y-3"
         >
           {userName && (
-            <div className="flex items-center justify-center gap-2 text-amber text-sm">
-              <User className="w-4 h-4" />
+            <div className="flex items-center justify-center gap-2 text-amber text-xs md:text-sm">
+              <User className="w-3 h-3 md:w-4 md:h-4" />
               <span>{userName}'s Philosophy Assessment</span>
             </div>
           )}
-          <div className="flex items-center justify-center gap-3 text-amber/60 text-sm">
-            <Flame className="w-4 h-4 animate-pulse" />
+          <div className="flex items-center justify-center gap-3 text-amber/60 text-xs md:text-sm">
+            <Flame className="w-3 h-3 md:w-4 md:h-4 animate-pulse" />
             <span>QUESTION {question.number} OF {questions.length}</span>
           </div>
         </motion.div>
@@ -162,11 +159,11 @@ function QuizContent() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -100 }}
             transition={{ duration: 0.4, ease: 'easeInOut' }}
-            className="w-full max-w-3xl space-y-12"
+            className="w-full max-w-3xl space-y-6 md:space-y-12"
           >
             {/* Question text */}
             <motion.h2
-              className="text-3xl md:text-4xl font-bold text-ash leading-relaxed text-center"
+              className="text-xl md:text-4xl font-bold text-ash leading-snug md:leading-relaxed text-center px-2"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
@@ -175,14 +172,14 @@ function QuizContent() {
             </motion.h2>
 
             {/* Answer options */}
-            <div className="space-y-4">
+            <div className="space-y-3 md:space-y-4">
               {question.answers.map((answer, index) => {
                 const isPreviouslySelected = answers[question.id] === answer.id;
                 return (
                   <motion.button
                     key={answer.id}
                     onClick={() => handleAnswer(answer.id)}
-                    className={`group relative w-full p-6 text-left border-2 transition-all duration-300 ${
+                    className={`group relative w-full p-4 md:p-6 text-left border-2 transition-all duration-300 ${
                       selectedAnswer === answer.id
                         ? 'border-amber bg-amber/10'
                         : isPreviouslySelected
@@ -200,12 +197,12 @@ function QuizContent() {
                     <div className="absolute inset-0 bg-gradient-to-r from-amber/0 via-amber/5 to-amber/0 opacity-0 group-hover:opacity-100 transition-opacity" />
 
                     {/* Content */}
-                    <div className="relative flex items-start gap-4">
-                      <span className="text-4xl flex-shrink-0 transition-transform group-hover:scale-110">
+                    <div className="relative flex items-start gap-3 md:gap-4">
+                      <span className="text-2xl md:text-4xl flex-shrink-0 transition-transform group-hover:scale-110">
                         {answer.icon}
                       </span>
                       <div className="flex-1">
-                        <div className="text-lg text-ash group-hover:text-white transition-colors">
+                        <div className="text-sm md:text-lg text-ash group-hover:text-white transition-colors leading-snug md:leading-normal">
                           {answer.text}
                         </div>
                       </div>

@@ -44,11 +44,7 @@ export default function Home() {
       try {
         const savedAnswers = localStorage.getItem('pm_quiz_answers');
         if (savedAnswers) {
-          // Decode if URL-encoded, otherwise parse directly
-          const decodedAnswers = savedAnswers.startsWith('%7B') || savedAnswers.startsWith('{')
-            ? (savedAnswers.startsWith('%7B') ? decodeURIComponent(savedAnswers) : savedAnswers)
-            : savedAnswers;
-          const answers = JSON.parse(decodedAnswers);
+          const answers = JSON.parse(savedAnswers);
           // Check if quiz has at least 7 answers (old quiz had 7, new has 10)
           const answerCount = Object.keys(answers).length;
           setHasQuizResults(answerCount >= 7);

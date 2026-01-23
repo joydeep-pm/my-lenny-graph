@@ -6,11 +6,11 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   
   if (!episode) {
     return {
-      title: 'Episode Not Found - PM Philosophy Map',
+      title: 'Episode Not Found - Lenny\'s Podcast Philosophy',
     };
   }
 
-  const title = `${episode.guest} - Lenny's Podcast | PM Philosophy Map`;
+  const title = `${episode.guest} - Lenny's Podcast | PM Philosophy`;
   const description = episode.description || `Listen to ${episode.guest} on Lenny's Podcast`;
   const ogImageUrl = `/og/${episode.slug}.png`;
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://lenny.productbuilder.net';
@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       title,
       description,
       url: `${baseUrl}/episodes/${episode.slug}`,
-      siteName: 'PM Philosophy Map',
+      siteName: 'PM Philosophy Quiz',
       images: [
         {
           url: ogImageUrl,

@@ -12,11 +12,7 @@ export default function Footer() {
       try {
         const savedAnswers = localStorage.getItem('pm_quiz_answers');
         if (savedAnswers) {
-          // Decode if URL-encoded, otherwise parse directly
-          const decodedAnswers = savedAnswers.startsWith('%7B') || savedAnswers.startsWith('{')
-            ? (savedAnswers.startsWith('%7B') ? decodeURIComponent(savedAnswers) : savedAnswers)
-            : savedAnswers;
-          const answers = JSON.parse(decodedAnswers);
+          const answers = JSON.parse(savedAnswers);
           const answerCount = Object.keys(answers).length;
           setHasQuizResults(answerCount >= 7);
         }
@@ -74,8 +70,8 @@ export default function Footer() {
           <div>
             <h3 className="text-amber font-bold mb-4 text-sm tracking-wider">ABOUT</h3>
             <p className="text-ash-dark text-sm leading-relaxed">
-              An interactive PM philosophy map built from 303 episodes of <span className="text-amber">Lenny's Podcast</span>.
-              Discover your product philosophy through existential questions and explore a cosmic universe of PM thinking.
+              Discover your product philosophy through a quiz built from 303 episodes of <span className="text-amber">Lenny's Podcast</span>.
+              Get personalized episode recommendations that match how you work.
             </p>
           </div>
 
