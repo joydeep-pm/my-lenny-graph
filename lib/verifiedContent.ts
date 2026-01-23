@@ -6,11 +6,11 @@ export const VERIFIED_QUOTE_COUNT = 247;
 
 export const ZONE_EPISODE_COUNTS = {
   "velocity": 17,
-  "perfection": 18,
-  "discovery": 18,
+  "perfection": 19,
+  "discovery": 19,
   "data": 17,
   "intuition": 17,
-  "alignment": 18,
+  "alignment": 19,
   "chaos": 17,
   "focus": 21
 } as const;
