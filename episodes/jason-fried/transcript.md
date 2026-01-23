@@ -1,8 +1,8 @@
 ---
 guest: Jason Fried
 title: Jason Fried challenges your thinking on fundraising, goals, growth, and more
-youtube_url: NEEDS_MANUAL_LOOKUP
-video_id: NEEDS_MANUAL_LOOKUP
+youtube_url: https://www.youtube.com/watch?v=dAnF0tk0di8
+video_id: dAnF0tk0di8
 publish_date: 2023-12-17
 description: 'Jason Fried is the co-founder and CEO of 37signals, the maker of Basecamp
   and HEY. With fewer than 80 employees, they have over 100,000 customers, generate
@@ -17,7 +17,7 @@ description: 'Jason Fried is the co-founder and CEO of 37signals, the maker of B
   '
 duration_seconds: 6600.0
 duration: '1:50:00'
-view_count: TBD
+view_count: 62989
 channel: Lenny's Podcast
 keywords:
 - bootstrapping
