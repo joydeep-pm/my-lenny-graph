@@ -132,7 +132,7 @@ async function generateOGImage(episode) {
       <!-- Bottom branding -->
       <text x="600" y="${height - 80}" font-family="monospace" font-size="28"
             fill="#ffb347" text-anchor="middle" opacity="0.6">
-        PM PHILOSOPHY MAP
+        PM PHILOSOPHY QUIZ
       </text>
 
       <!-- Decorative stars -->
