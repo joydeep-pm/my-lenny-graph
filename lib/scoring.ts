@@ -37,6 +37,21 @@ const scoringMatrix: Record<string, Record<string, Partial<ZoneScores>>> = {
     a: { focus: 3 },
     b: { discovery: 2, alignment: 1 },
     c: { focus: 1, velocity: 1, data: 1 }
+  },
+  q8: {
+    a: { velocity: 3, chaos: 2 },
+    b: { perfection: 2, discovery: 2 },
+    c: { velocity: 1, data: 2 }
+  },
+  q9: {
+    a: { data: 3 },
+    b: { intuition: 3 },
+    c: { intuition: 1, data: 1, focus: 1 }
+  },
+  q10: {
+    a: { velocity: 3, chaos: 1 },
+    b: { perfection: 3, intuition: 1 },
+    c: { focus: 3 }
   }
 };
 

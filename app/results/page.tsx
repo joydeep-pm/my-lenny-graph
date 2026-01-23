@@ -3,19 +3,20 @@
 import { Suspense, useMemo } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import { motion } from 'framer-motion';
-import { calculateZoneScores, getZonePercentages } from '@/lib/scoring';
-import { zones, getZoneEpisodePercentage, TOTAL_EPISODES } from '@/lib/zones';
-import { getQuoteById } from '@/lib/verifiedQuotes';
+import { generateRecommendations, getBlindSpotDescription } from '@/lib/recommendations';
+import { getRegistryInfo } from '@/lib/verifiedQuotes';
+import { zones } from '@/lib/zones';
 import { QuizAnswers, ZoneId } from '@/lib/types';
+import PhilosophyInsightCard from '@/components/PhilosophyInsightCard';
+import EpisodeRecommendationCard from '@/components/EpisodeRecommendationCard';
 
 function ResultsContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
 
-  const { answers, userName, userRole } = useMemo(() => {
+  const { answers, userName } = useMemo(() => {
     let answersParam = searchParams.get('answers');
     const nameParam = searchParams.get('name');
-    const roleParam = searchParams.get('role');
 
     // Try localStorage if not in URL
     if (!answersParam) {
@@ -24,49 +25,15 @@ function ResultsContent() {
 
     return {
       answers: answersParam ? JSON.parse(decodeURIComponent(answersParam)) as QuizAnswers : {},
-      userName: nameParam || localStorage.getItem('pm_map_name') || 'Your',
-      userRole: roleParam || localStorage.getItem('pm_map_role') || 'Product Manager'
+      userName: nameParam || localStorage.getItem('pm_map_name') || 'Your'
     };
   }, [searchParams]);
 
-  const zoneScores = useMemo(() => calculateZoneScores(answers), [answers]);
-  const zonePercentages = useMemo(() => getZonePercentages(zoneScores), [zoneScores]);
-
-  // Get primary zone (highest score)
-  const primaryZoneId = useMemo(() => {
-    return Object.entries(zonePercentages).reduce((a, b) =>
-      zonePercentages[a[0] as ZoneId] > zonePercentages[b[0] as ZoneId] ? a : b
-    )[0] as ZoneId;
-  }, [zonePercentages]);
-
-  // Get secondary zone (second highest)
-  const secondaryZoneId = useMemo(() => {
-    const sorted = Object.entries(zonePercentages)
-      .sort((a, b) => zonePercentages[b[0] as ZoneId] - zonePercentages[a[0] as ZoneId]);
-    return sorted[1][0] as ZoneId;
-  }, [zonePercentages]);
-
-  // Get blind spot (lowest score)
-  const blindSpotZoneId = useMemo(() => {
-    return Object.entries(zonePercentages).reduce((a, b) =>
-      zonePercentages[a[0] as ZoneId] < zonePercentages[b[0] as ZoneId] ? a : b
-    )[0] as ZoneId;
-  }, [zonePercentages]);
-
-  const primaryZone = zones[primaryZoneId];
-  const secondaryZone = zones[secondaryZoneId];
-  const blindSpotZone = zones[blindSpotZoneId];
-
-  // Look up the verified quote for the primary zone
-  const primaryQuote = useMemo(() => {
-    if (primaryZone.quoteId) {
-      return getQuoteById(primaryZone.quoteId);
-    }
-    return null;
-  }, [primaryZone.quoteId]);
-
-  // Safe default for optional data
-  const episodeCount = primaryZone.episodeCount ?? 0;
+  // Generate recommendations using new algorithm
+  const recommendations = useMemo(() => {
+    if (Object.keys(answers).length === 0) return null;
+    return generateRecommendations(answers);
+  }, [answers]);
 
   const handleDownload = async () => {
     const cardElement = document.getElementById('philosophy-card');
@@ -89,22 +56,49 @@ function ResultsContent() {
     }
   };
 
-  const handleCopyLink = () => {
-    navigator.clipboard.writeText(window.location.origin);
-    alert('Link copied to clipboard!');
+  const handleShare = () => {
+    if (!recommendations) return;
+
+    const primaryZone = zones[recommendations.userProfile.primaryZone];
+    const shareText = `I just discovered my product philosophy: ${primaryZone.name}! ${primaryZone.tagline}\n\nTake the quiz: ${window.location.origin}`;
+
+    if (navigator.share) {
+      navigator.share({
+        title: 'My Product Philosophy',
+        text: shareText,
+      }).catch(err => console.log('Error sharing:', err));
+    } else {
+      navigator.clipboard.writeText(shareText);
+      alert('Shareable text copied to clipboard!');
+    }
   };
 
   const handleRetake = () => {
     router.push('/');
   };
 
-  const handleViewMap = () => {
-    router.push(`/map?answers=${encodeURIComponent(JSON.stringify(answers))}`);
-  };
-
   const handleExplore = () => {
     router.push('/explore');
   };
+
+  if (!recommendations) {
+    return (
+      <div className="min-h-screen bg-void text-ash flex items-center justify-center p-4">
+        <div className="text-center">
+          <h1 className="text-2xl font-bold text-amber mb-4">No quiz answers found</h1>
+          <p className="text-ash-dark mb-6">Take the quiz to discover your philosophy</p>
+          <button
+            onClick={handleRetake}
+            className="px-8 py-4 border-2 border-amber text-amber font-mono font-bold hover:bg-amber hover:text-void transition-all"
+          >
+            TAKE THE QUIZ
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  const { userProfile, primary, contrarian } = recommendations;
 
   return (
     <div className="min-h-screen bg-void text-ash p-4 md:p-8">
@@ -114,291 +108,257 @@ function ResultsContent() {
         animate={{ opacity: 1, y: 0 }}
         className="max-w-5xl mx-auto mb-12"
       >
-        <div className="flex items-center justify-between mb-4">
-          <div className="text-xs text-ash-darker font-mono tracking-wider">
-            ANALYSIS COMPLETE
+        <div className="flex items-center justify-between mb-6">
+          <div className="flex items-center gap-3">
+            <div className="w-2 h-2 bg-amber rounded-full animate-pulse" />
+            <div className="text-xs text-ash-dark font-mono tracking-wider">
+              PHILOSOPHY DISCOVERED
+            </div>
           </div>
-          <div className="text-xs text-amber font-mono">
-            BASED ON 303 EPISODES
+          <div className="px-3 py-1 bg-amber/10 border border-amber/30 text-amber text-xs font-mono">
+            {primary.length + contrarian.length} EPISODES MATCHED
           </div>
         </div>
-        <h1 className="text-4xl md:text-6xl font-bold text-amber mb-2 font-mono">
-          {userName !== 'Your' ? `${userName}'s` : 'YOUR'} PM PHILOSOPHY
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-amber mb-4 leading-tight">
+          {userName !== 'Your' ? `${userName}'s` : 'Your'} Product Philosophy
         </h1>
-        <div className="text-ash-dark font-mono text-sm">
-          Derived from {Object.keys(answers).length} questions mapped to {TOTAL_EPISODES} podcast episodes
-        </div>
+        <p className="text-xl md:text-2xl text-ash leading-relaxed">
+          Podcast episodes curated for how you work as a PM
+        </p>
       </motion.div>
 
-      <div className="max-w-5xl mx-auto space-y-8">
-        {/* Primary Zone Card - Downloadable */}
-        <motion.div
-          id="philosophy-card"
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.2 }}
-          className="border-2 border-amber bg-void-light p-8 relative overflow-hidden group"
-        >
-          {/* User badge */}
-          {userName !== 'Your' && (
-            <div className="absolute top-4 left-4 px-3 py-1 bg-amber/10 border border-amber/30 text-amber text-xs font-mono">
-              {userName} • {userRole}
-            </div>
-          )}
-          <div className="absolute top-4 right-4 text-4xl opacity-20 group-hover:opacity-30 transition-opacity">
-            {primaryZone.icon}
-          </div>
+      <div className="max-w-5xl mx-auto space-y-12">
+        {/* Personal Philosophy Summary */}
+        <div id="philosophy-card">
+          <PhilosophyInsightCard userProfile={userProfile} />
+        </div>
 
-          <div className="flex items-start gap-3 mb-4">
-            <div className="text-5xl">{primaryZone.icon}</div>
-            <div>
-              <div className="text-xs text-amber font-mono mb-1">PRIMARY PHILOSOPHY</div>
-              <h2 className="text-3xl md:text-4xl font-bold text-amber mb-2">
-                {primaryZone.name}
+        {/* Primary Recommendations */}
+        {primary.length > 0 && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3 }}
+          >
+            <div className="mb-6">
+              <h2 className="text-3xl font-bold text-amber mb-2">
+                Episodes For You
               </h2>
-              <div className="text-xl text-ash-dark italic mb-4">
-                "{primaryZone.tagline}"
-              </div>
+              <p className="text-ash-dark">
+                Based on your philosophy, these episodes will resonate with how you work
+              </p>
             </div>
-          </div>
 
-          <p className="text-lg text-ash leading-relaxed mb-6">
-            {primaryZone.description}
+            <div className="grid gap-6">
+              {primary.map((episode, index) => (
+                <EpisodeRecommendationCard
+                  key={episode.slug}
+                  episode={episode}
+                  index={index}
+                  variant="primary"
+                />
+              ))}
+            </div>
+
+            {primary.length < 5 && (
+              <div className="mt-4 p-4 border border-ash-darker bg-void-light">
+                <p className="text-sm text-ash-dark">
+                  More episodes coming soon! We're currently building a library of {getRegistryInfo().episodeCount} curated episodes from 303 total episodes.
+                </p>
+              </div>
+            )}
+          </motion.div>
+        )}
+
+        {/* Contrarian Recommendations */}
+        {contrarian.length > 0 && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5 }}
+          >
+            <div className="mb-6">
+              <h2 className="text-3xl font-bold text-crimson mb-2">
+                Perspectives to Explore
+              </h2>
+              <p className="text-ash-dark">
+                {getBlindSpotDescription(userProfile.blindSpotZone)}
+              </p>
+            </div>
+
+            <div className="grid gap-6">
+              {contrarian.map((episode, index) => (
+                <EpisodeRecommendationCard
+                  key={episode.slug}
+                  episode={episode}
+                  index={index}
+                  variant="contrarian"
+                />
+              ))}
+            </div>
+          </motion.div>
+        )}
+
+        {/* Philosophy Breakdown - Simplified */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.7 }}
+          className="border border-ash-darker bg-void-light p-8"
+        >
+          <h3 className="text-2xl font-bold text-amber mb-2">Your Philosophy Mix</h3>
+          <p className="text-sm text-ash-dark mb-8">
+            Your top approaches to product management
           </p>
 
-          {/* Stats Row */}
-          <div className="grid grid-cols-3 gap-4 pt-6 border-t border-ash-darker">
-            <div>
-              <div className="text-2xl font-bold text-amber font-mono">
-                {zonePercentages[primaryZoneId]}%
-              </div>
-              <div className="text-xs text-ash-darker font-mono">ALIGNMENT</div>
-            </div>
-            <div>
-              <div className="text-2xl font-bold text-amber font-mono">
-                {episodeCount}
-              </div>
-              <div className="text-xs text-ash-darker font-mono">EPISODES</div>
-            </div>
-            <div>
-              <div className="text-2xl font-bold text-amber font-mono">
-                {getZoneEpisodePercentage(primaryZone)}%
-              </div>
-              <div className="text-xs text-ash-darker font-mono">OF CATALOG</div>
-            </div>
-          </div>
-        </motion.div>
+          <div className="grid md:grid-cols-2 gap-6">
+            {Object.entries(userProfile.zonePercentages)
+              .sort((a, b) => b[1] - a[1])
+              .slice(0, 4) // Only show top 4 zones
+              .map(([zoneId, percentage], index) => {
+                const zone = zones[zoneId as ZoneId];
+                const isPrimary = index === 0;
+                const isSecondary = index === 1;
 
-        {/* Two Column Layout */}
-        <div className="grid md:grid-cols-2 gap-8">
-          {/* Left Column */}
-          <div className="space-y-8">
-            {/* Superpower & Blind Spot */}
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.3 }}
-              className="border border-ash-darker bg-void-light p-6"
-            >
-              <h3 className="text-xs text-amber font-mono mb-4 tracking-wider">
-                🔥 YOUR SUPERPOWER
-              </h3>
-              <div className="mb-6">
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="text-2xl">{primaryZone.icon}</span>
-                  <div className="text-xl font-bold text-amber">
-                    {primaryZone.name}
-                  </div>
-                </div>
-                <p className="text-sm text-ash-dark">
-                  {primaryZone.tagline}
-                </p>
-              </div>
+                if (percentage < 5) return null; // Skip very low percentages
 
-              <h3 className="text-xs text-crimson font-mono mb-4 tracking-wider">
-                ⚠️ YOUR BLIND SPOT
-              </h3>
-              <div>
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="text-2xl opacity-50">{blindSpotZone.icon}</span>
-                  <div className="text-xl font-bold text-ash-dark">
-                    {blindSpotZone.name}
-                  </div>
-                </div>
-                <p className="text-sm text-ash-dark">
-                  You might undervalue: {blindSpotZone.tagline.toLowerCase()}
-                </p>
-              </div>
-            </motion.div>
-
-            {/* From the Transcripts */}
-            {primaryQuote && (
-              <motion.div
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.4 }}
-                className="border border-ash-darker bg-void-light p-6"
-              >
-                <h3 className="text-xs text-amber font-mono mb-4 tracking-wider flex items-center gap-2">
-                  🔥 FROM THE TRANSCRIPTS
-                </h3>
-                <blockquote className="text-lg text-ash leading-relaxed mb-4 italic border-l-2 border-amber pl-4">
-                  "{primaryQuote.text}"
-                </blockquote>
-                <div className="text-ash-dark">
-                  <div className="font-semibold text-amber">{primaryQuote.speaker}</div>
-                  <div className="text-sm text-ash-darker flex items-center gap-2">
-                    <span>Episode: {primaryQuote.source.slug}</span>
-                    {primaryQuote.timestamp && (
-                      <>
-                        <span>•</span>
-                        <span>{primaryQuote.timestamp}</span>
-                      </>
+                return (
+                  <motion.div
+                    key={zoneId}
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ delay: 0.8 + index * 0.1 }}
+                    className={`border-2 p-5 transition-all ${
+                      isPrimary
+                        ? 'border-amber bg-amber/5'
+                        : isSecondary
+                        ? 'border-amber/50 bg-void'
+                        : 'border-ash-darker bg-void'
+                    }`}
+                  >
+                    {/* Badge */}
+                    {(isPrimary || isSecondary) && (
+                      <div className="mb-3">
+                        <span className={`inline-block px-2 py-1 text-xs font-bold font-mono ${
+                          isPrimary
+                            ? 'bg-amber text-void'
+                            : 'border border-amber/50 text-amber'
+                        }`}>
+                          {isPrimary ? 'PRIMARY' : 'SECONDARY'}
+                        </span>
+                      </div>
                     )}
-                  </div>
-                </div>
-              </motion.div>
-            )}
+
+                    {/* Zone Header */}
+                    <div className="flex items-start justify-between mb-3">
+                      <div className="flex items-center gap-3">
+                        <span className="text-3xl">{zone.icon}</span>
+                        <div>
+                          <div className={`font-bold font-mono ${
+                            isPrimary ? 'text-amber text-lg' : 'text-ash'
+                          }`}>
+                            {zone.name}
+                          </div>
+                          <div className="text-xs text-ash-dark mt-0.5">
+                            {zone.tagline}
+                          </div>
+                        </div>
+                      </div>
+                      <div className={`text-2xl font-bold font-mono ${
+                        isPrimary ? 'text-amber' : 'text-ash-dark'
+                      }`}>
+                        {percentage}%
+                      </div>
+                    </div>
+
+                    {/* Description (only for top 2) */}
+                    {(isPrimary || isSecondary) && (
+                      <p className="text-sm text-ash-dark leading-relaxed">
+                        {zone.description}
+                      </p>
+                    )}
+                  </motion.div>
+                );
+              })}
           </div>
 
-          {/* Right Column */}
-          <div className="space-y-8">
-            {/* Philosophy Balance */}
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.3 }}
-              className="border border-ash-darker bg-void-light p-6"
-            >
-              <h3 className="text-xs text-amber font-mono mb-4 tracking-wider">
-                PHILOSOPHY BALANCE
-              </h3>
-              <div className="space-y-3">
-                {Object.entries(zonePercentages)
+          {/* View Full Breakdown Link */}
+          <div className="mt-6 text-center">
+            <details className="text-sm text-ash-dark hover:text-amber transition-colors cursor-pointer">
+              <summary className="font-mono font-bold list-none inline-flex items-center gap-2">
+                <span>View all 8 zones</span>
+                <span className="text-xs">▼</span>
+              </summary>
+              <div className="mt-4 pt-4 border-t border-ash-darker grid grid-cols-2 md:grid-cols-4 gap-3 text-xs">
+                {Object.entries(userProfile.zonePercentages)
                   .sort((a, b) => b[1] - a[1])
-                  .map(([zoneId, percentage], index) => {
+                  .map(([zoneId, percentage]) => {
                     const zone = zones[zoneId as ZoneId];
-                    const isPrimary = zoneId === primaryZoneId;
-                    const isSecondary = zoneId === secondaryZoneId;
-
                     return (
-                      <div key={zoneId}>
-                        <div className="flex items-center justify-between mb-1">
-                          <div className="flex items-center gap-2">
-                            <span className={isPrimary ? 'text-xl' : 'text-sm opacity-70'}>
-                              {zone.icon}
-                            </span>
-                            <span className={`text-sm font-mono ${isPrimary ? 'text-amber font-bold' : isSecondary ? 'text-ash' : 'text-ash-dark'}`}>
-                              {zone.name}
-                            </span>
-                          </div>
-                          <span className={`text-sm font-mono ${isPrimary ? 'text-amber font-bold' : 'text-ash-dark'}`}>
-                            {percentage}%
-                          </span>
-                        </div>
-                        <motion.div
-                          className="h-1.5 bg-ash-darker rounded-full overflow-hidden"
-                          initial={{ opacity: 0 }}
-                          animate={{ opacity: 1 }}
-                          transition={{ delay: 0.4 + index * 0.05 }}
-                        >
-                          <motion.div
-                            className={`h-full rounded-full ${isPrimary ? 'bg-amber' : isSecondary ? 'bg-amber/60' : 'bg-ash-darker'}`}
-                            initial={{ width: 0 }}
-                            animate={{ width: `${percentage}%` }}
-                            transition={{ delay: 0.5 + index * 0.05, duration: 0.8, ease: 'easeOut' }}
-                          />
-                        </motion.div>
+                      <div key={zoneId} className="text-center">
+                        <div className="text-lg mb-1">{zone.icon}</div>
+                        <div className="font-mono text-ash-dark">{zone.name}</div>
+                        <div className="font-mono font-bold text-amber">{percentage}%</div>
                       </div>
                     );
                   })}
               </div>
-            </motion.div>
-
-            {/* Leaders Who Think Like You */}
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.4 }}
-              className="border border-ash-darker bg-void-light p-6"
-            >
-              <h3 className="text-xs text-amber font-mono mb-4 tracking-wider">
-                LEADERS WHO THINK LIKE YOU
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {primaryZone.associatedGuests.map((guest, index) => (
-                  <motion.div
-                    key={index}
-                    initial={{ opacity: 0, scale: 0.8 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ delay: 0.5 + index * 0.1 }}
-                    className="px-3 py-1.5 bg-ash-darker border border-amber/30 text-ash text-sm font-mono hover:border-amber hover:text-amber transition-all cursor-default"
-                  >
-                    {guest}
-                  </motion.div>
-                ))}
-              </div>
-              <div className="mt-4 pt-4 border-t border-ash-darker">
-                <div className="text-xs text-ash-darker font-mono">
-                  + {Math.max(episodeCount - primaryZone.associatedGuests.length, 0)} more guests across {episodeCount} episodes
-                </div>
-              </div>
-            </motion.div>
+            </details>
           </div>
-        </div>
+        </motion.div>
 
         {/* Action Buttons */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.6 }}
-          className="flex flex-wrap gap-4 justify-center pt-8"
+          transition={{ delay: 0.9 }}
+          className="space-y-6"
         >
-          <button
-            onClick={handleDownload}
-            className="px-8 py-4 bg-amber text-void font-mono font-bold hover:bg-amber-dark transition-all hover:scale-105 active:scale-95 flex items-center gap-2"
-          >
-            <span>📥</span>
-            DOWNLOAD YOUR CARD
-          </button>
-          <button
-            onClick={handleCopyLink}
-            className="px-8 py-4 border-2 border-amber text-amber font-mono font-bold hover:bg-amber hover:text-void transition-all hover:scale-105 active:scale-95"
-          >
-            COPY LINK TO SHARE
-          </button>
-          <button
-            onClick={handleViewMap}
-            className="px-8 py-4 border-2 border-amber text-amber font-mono font-bold hover:bg-amber hover:text-void transition-all hover:scale-105 active:scale-95"
-          >
-            VIEW YOUR MAP
-          </button>
-          <button
-            onClick={handleExplore}
-            className="px-8 py-4 border-2 border-ash-darker text-ash font-mono font-bold hover:bg-ash-darker hover:text-void transition-all hover:scale-105 active:scale-95"
-          >
-            EXPLORE ALL EPISODES
-          </button>
-          <button
-            onClick={handleRetake}
-            className="px-8 py-4 border border-ash-darker text-ash-dark font-mono hover:text-ash hover:border-ash transition-all"
-          >
-            RETAKE QUIZ
-          </button>
+          {/* Primary actions */}
+          <div className="flex flex-wrap gap-4 justify-center">
+            <button
+              onClick={handleShare}
+              className="px-10 py-5 bg-amber text-void font-mono font-bold hover:bg-amber-dark transition-all hover:scale-105 active:scale-95 text-lg"
+            >
+              🔥 SHARE YOUR PHILOSOPHY
+            </button>
+            <button
+              onClick={handleDownload}
+              className="px-10 py-5 border-2 border-amber text-amber font-mono font-bold hover:bg-amber hover:text-void transition-all hover:scale-105 active:scale-95 text-lg"
+            >
+              📥 DOWNLOAD RESULTS
+            </button>
+          </div>
+
+          {/* Secondary actions */}
+          <div className="flex flex-wrap gap-4 justify-center text-sm">
+            <button
+              onClick={handleExplore}
+              className="px-6 py-3 border border-ash-darker text-ash-dark font-mono hover:text-amber hover:border-amber transition-all"
+            >
+              Browse All Episodes
+            </button>
+            <button
+              onClick={handleRetake}
+              className="px-6 py-3 border border-ash-darker text-ash-dark font-mono hover:text-amber hover:border-amber transition-all"
+            >
+              Retake Quiz
+            </button>
+          </div>
         </motion.div>
 
         {/* Footer */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 0.7 }}
+          transition={{ delay: 1 }}
           className="text-center py-8 border-t border-ash-darker mt-12"
         >
           <div className="text-xs text-ash-darker font-mono">
-            Based on analysis of 303 episodes of Lenny's Podcast
+            Based on {Object.keys(answers).length} questions and 303 episodes of Lenny's Podcast
           </div>
           <div className="text-xs text-ash-darker font-mono mt-2">
-            Built with 🔥 for the PM community
+            Built for the PM community
           </div>
         </motion.div>
       </div>
@@ -411,7 +371,7 @@ export default function ResultsPage() {
     <Suspense fallback={
       <div className="min-h-screen bg-void text-ash flex items-center justify-center">
         <div className="text-center">
-          <div className="text-4xl mb-4 animate-pulse">🔥</div>
+          <div className="text-4xl mb-4 animate-pulse">⚡</div>
           <div className="text-ash-dark font-mono text-sm">Analyzing your philosophy...</div>
         </div>
       </div>

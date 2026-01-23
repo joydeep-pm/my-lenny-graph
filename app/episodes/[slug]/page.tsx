@@ -187,13 +187,15 @@ export default function EpisodePage() {
   }, [episode]);
 
   const filteredSections = useMemo(() => {
-    if (!transcript || !searchQuery) return transcript || [];
-    
+    if (!transcript || !searchQuery) return transcript?.map((section, idx) => ({ section, originalIndex: idx })) || [];
+
     const query = searchQuery.toLowerCase();
-    return transcript.filter(section =>
-      section.speaker.toLowerCase().includes(query) ||
-      section.text.toLowerCase().includes(query)
-    );
+    return transcript
+      .map((section, idx) => ({ section, originalIndex: idx }))
+      .filter(({ section }) =>
+        section.speaker.toLowerCase().includes(query) ||
+        section.text.toLowerCase().includes(query)
+      );
   }, [transcript, searchQuery]);
 
   const jumpToTimestamp = (index: number) => {
@@ -336,16 +338,6 @@ export default function EpisodePage() {
                   )}
                 </div>
 
-                {/* Actions */}
-                <div className="flex flex-wrap gap-3">
-                  <Link
-                    href="/quiz"
-                    className="inline-flex items-center gap-2 px-6 py-3 border-2 border-amber text-amber hover:bg-amber hover:text-void transition-all font-bold"
-                  >
-                    TAKE THE QUIZ
-                  </Link>
-                </div>
-
                 {/* Keywords */}
                 {episode.keywords && episode.keywords.length > 0 && (
                   <div className="mt-6">
@@ -364,9 +356,9 @@ export default function EpisodePage() {
                 )}
               </div>
 
-              {/* YouTube Embed Section */}
+              {/* YouTube Embed Section - Sticky */}
               {episode.videoId && (
-                <div className="mb-8">
+                <div className="mb-8 sticky top-0 z-10 bg-void pb-4">
                   <div className="relative w-full aspect-video bg-void-light border-2 border-crimson">
                     <div
                       id="youtube-player"
@@ -447,19 +439,19 @@ export default function EpisodePage() {
                     <div className="animate-pulse">Loading transcript...</div>
                   </div>
                 ) : filteredSections.length > 0 ? (
-                  filteredSections.map((section, index) => (
+                  filteredSections.map(({ section, originalIndex }) => (
                     <div
-                      key={index}
-                      ref={el => { sectionRefs.current[index] = el; }}
+                      key={originalIndex}
+                      ref={el => { sectionRefs.current[originalIndex] = el; }}
                       className={`group hover:bg-void-light transition-colors p-4 -mx-4 ${
-                        selectedSection === index ? 'bg-amber/10' : ''
+                        selectedSection === originalIndex ? 'bg-amber/10' : ''
                       }`}
                     >
                       <div className="flex items-start gap-4">
                         <button
                           onClick={(e) => {
                             e.preventDefault();
-                            jumpToTimestamp(index);
+                            jumpToTimestamp(originalIndex);
                           }}
                           onMouseDown={(e) => e.preventDefault()}
                           className="flex-shrink-0 w-20 text-xs font-mono text-ash-dark hover:text-amber transition-colors flex items-center gap-1 select-none cursor-pointer"

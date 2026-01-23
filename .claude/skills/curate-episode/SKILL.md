@@ -56,9 +56,33 @@ Extract verified quotes from Lenny's Podcast episode transcripts to power the PM
 - Memorable one-liners that crystallize ideas
 - Trade-offs and tensions (not just "best practices")
 
+**AI-Related Insights (IMPORTANT FOR 2024-2026 EPISODES):**
+Many recent episodes discuss AI extensively. When extracting AI-related quotes, capture:
+- **AI adoption strategy**: Fast vs cautious, leading edge vs proven, experimentation mindset
+- **AI vs human judgment**: When to trust AI, when to override, role of taste/intuition
+- **AI in workflows**: How teams actually use AI tools, productivity gains, integration challenges
+- **AI product strategy**: Building AI products, AI-first vs AI-enhanced, competitive moats
+- **AI risks/trade-offs**: What gets lost with AI, quality concerns, human skills atrophy
+- **Contrarian AI takes**: Skepticism of hype, areas where AI fails, human superiority
+
+**Zone Mapping for AI Insights:**
+- **velocity**: AI enables faster shipping, rapid iteration, speed of adoption
+- **perfection**: AI quality concerns, craftsmanship with AI, when to slow down
+- **discovery**: AI in user research, AI-assisted validation, synthetic users
+- **data**: AI-driven insights, ML experimentation, AI analytics
+- **intuition**: AI vs human taste, trusting gut over AI recommendations
+- **alignment**: AI governance, stakeholder AI concerns, change management
+- **chaos**: AI-induced uncertainty, rapid AI landscape changes, adaptability
+- **focus**: AI for one thing vs AI everywhere, constraints in AI era
+
 ### Step 3: Tag Each Quote
 **For each quote, identify:**
-- **Themes** (2-4 tags): e.g., "product-market-fit", "velocity", "user-research", "leadership"
+- **Themes** (2-4 tags): Be specific and descriptive
+  - **AI themes**: "ai-adoption", "ai-product-strategy", "ai-workflows", "ai-vs-human", "ai-risk", "ai-velocity", "ai-quality"
+  - **Product themes**: "product-market-fit", "user-research", "roadmap", "prioritization", "launch-strategy"
+  - **Execution themes**: "velocity", "quality", "team-structure", "decision-making", "metrics"
+  - **Leadership themes**: "founder-mode", "delegation", "communication", "culture", "hiring"
+  - **Growth themes**: "growth-loops", "retention", "acquisition", "monetization"
 - **Zones** (1-3 zones): Which philosophy zones does this quote exemplify?
 - **Line numbers**: Exact line_start and line_end from transcript
 - **Timestamp**: Speaker timestamp (e.g., "00:15:30")
@@ -199,6 +223,23 @@ Before saving, verify:
 7. **Calculate zone influence** - discovery (0.30), focus (0.20), alignment (0.15)... (optional)
 8. **Save to** `data/verified/marty-cagan.json`
 9. **Validate** with `npx tsx scripts/build-verified.ts`
+
+## Example: AI-Heavy Episode
+
+For a 2024-2026 episode with significant AI discussion:
+
+1. **Read transcript** and identify AI segments
+2. **Extract AI-specific quotes**:
+   - "AI lets us ship 10x faster but we still need human taste to know what's worth shipping"
+     → themes: ["ai-velocity", "intuition", "velocity"], zones: ["velocity", "intuition"]
+   - "We moved from 30 customer interviews to 300 AI-simulated users, quality dropped 20% but speed increased 10x"
+     → themes: ["ai-workflows", "user-research", "trade-offs"], zones: ["velocity", "discovery", "chaos"]
+3. **Balance AI with non-AI quotes** - don't make it 100% AI unless guest's primary focus
+4. **Zone influence** should reflect AI's role:
+   - Heavy AI adoption → higher velocity/chaos scores
+   - Cautious AI approach → higher perfection/discovery scores
+   - AI+data emphasis → higher data scores
+5. **Takeaways** should synthesize AI perspective among other insights
 
 ## After Curation
 

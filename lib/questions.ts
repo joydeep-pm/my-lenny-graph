@@ -154,5 +154,71 @@ export const questions: Question[] = [
         icon: "📈"
       }
     ]
+  },
+  {
+    id: 'q8',
+    number: 8,
+    text: "Your approach to AI in product development is...",
+    answers: [
+      {
+        id: 'a',
+        text: "Experiment aggressively, learn by doing",
+        icon: "🚀"
+      },
+      {
+        id: 'b',
+        text: "Wait for proven patterns, move carefully",
+        icon: "🛡️"
+      },
+      {
+        id: 'c',
+        text: "Test quickly, scale what works",
+        icon: "⚖️"
+      }
+    ]
+  },
+  {
+    id: 'q9',
+    number: 9,
+    text: "When AI recommendations conflict with your intuition, you...",
+    answers: [
+      {
+        id: 'a',
+        text: "Trust the AI, data beats gut feeling",
+        icon: "🤖"
+      },
+      {
+        id: 'b',
+        text: "Trust your intuition, humans have taste",
+        icon: "🎨"
+      },
+      {
+        id: 'c',
+        text: "Use AI as input, make the final call",
+        icon: "🧠"
+      }
+    ]
+  },
+  {
+    id: 'q10',
+    number: 10,
+    text: "AI tools in your team's workflow should...",
+    answers: [
+      {
+        id: 'a',
+        text: "Maximize velocity, automate everything possible",
+        icon: "⚡"
+      },
+      {
+        id: 'b',
+        text: "Enhance craft, keep humans in creative decisions",
+        icon: "✨"
+      },
+      {
+        id: 'c',
+        text: "Free up time for high-value human work",
+        icon: "🎯"
+      }
+    ]
   }
 ];

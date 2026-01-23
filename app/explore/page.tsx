@@ -3,12 +3,13 @@
 import { useState, useMemo, useEffect, memo, useRef } from 'react';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search, Filter, Play, Clock, Eye, Calendar, Flame, ExternalLink } from 'lucide-react';
+import { Search, Filter, Play, Clock, Eye, Calendar, Flame, ExternalLink, ChevronLeft, ChevronRight } from 'lucide-react';
 import InteractiveSpace from '@/components/InteractiveSpace';
 import {allEpisodes, getAllKeywords, searchEpisodes, sortEpisodes, SortOption, Episode } from '@/lib/allEpisodes';
-import { getEpisodeEnrichment } from '@/lib/verifiedQuotes';
+import { getVerifiedEpisodeSlugs } from '@/lib/verifiedQuotes';
 
 const STORAGE_KEY = 'lenny-explore-filters';
+const EPISODES_PER_PAGE = 24;
 
 // Helper to safely get initial state from localStorage
 function getInitialState() {
@@ -28,6 +29,7 @@ export default function ExplorePage() {
   const [selectedKeywords, setSelectedKeywords] = useState<string[]>(initialState?.selectedKeywords || []);
   const [sortBy, setSortBy] = useState<SortOption>(initialState?.sortBy || 'date-desc');
   const [showFilters, setShowFilters] = useState(initialState?.showFilters || false);
+  const [currentPage, setCurrentPage] = useState(1);
   const hasMounted = useRef(false);
 
   // Save to localStorage only after initial mount
@@ -51,10 +53,34 @@ export default function ExplorePage() {
 
   const allKeywords = useMemo(() => getAllKeywords(), []);
 
+  // Precompute enrichment data once (avoids 303 lookups per render)
+  const enrichedSlugs = useMemo(() => {
+    const slugs = getVerifiedEpisodeSlugs();
+    return new Set(slugs);
+  }, []);
+
   const filteredAndSortedEpisodes = useMemo(() => {
     const filtered = searchEpisodes(searchQuery, { keywords: selectedKeywords });
     return sortEpisodes(filtered, sortBy);
   }, [searchQuery, selectedKeywords, sortBy]);
+
+  // Reset to page 1 when filters change
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchQuery, selectedKeywords, sortBy]);
+
+  // Scroll to top on page change
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [currentPage]);
+
+  // Paginate results
+  const totalPages = Math.ceil(filteredAndSortedEpisodes.length / EPISODES_PER_PAGE);
+  const paginatedEpisodes = useMemo(() => {
+    const startIndex = (currentPage - 1) * EPISODES_PER_PAGE;
+    const endIndex = startIndex + EPISODES_PER_PAGE;
+    return filteredAndSortedEpisodes.slice(startIndex, endIndex);
+  }, [filteredAndSortedEpisodes, currentPage]);
 
   const toggleKeyword = (keyword: string) => {
     setSelectedKeywords(prev =>
@@ -212,17 +238,81 @@ export default function ExplorePage() {
             transition={{ delay: 0.3 }}
             className="grid md:grid-cols-2 lg:grid-cols-3 gap-6"
           >
-            <AnimatePresence mode="popLayout">
-              {filteredAndSortedEpisodes.map((episode, index) => (
-                <EpisodeCard
-                  key={episode.slug}
-                  episode={episode}
-                  index={index}
-                  selectedKeywords={selectedKeywords}
-                />
-              ))}
-            </AnimatePresence>
+            {paginatedEpisodes.map((episode, index) => (
+              <EpisodeCard
+                key={episode.slug}
+                episode={episode}
+                index={index}
+                selectedKeywords={selectedKeywords}
+                hasEnrichment={enrichedSlugs.has(episode.slug)}
+              />
+            ))}
           </motion.div>
+
+          {/* Pagination */}
+          {totalPages > 1 && filteredAndSortedEpisodes.length > 0 && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.4 }}
+              className="mt-12 flex items-center justify-center gap-2"
+            >
+              <button
+                onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+                disabled={currentPage === 1}
+                className="p-3 border-2 border-ash-darker text-ash hover:border-amber hover:text-amber
+                         transition-all disabled:opacity-30 disabled:cursor-not-allowed disabled:hover:border-ash-darker disabled:hover:text-ash"
+                aria-label="Previous page"
+              >
+                <ChevronLeft className="w-5 h-5" />
+              </button>
+
+              <div className="flex items-center gap-2">
+                {Array.from({ length: Math.min(totalPages, 7) }, (_, i) => {
+                  let pageNum;
+                  if (totalPages <= 7) {
+                    pageNum = i + 1;
+                  } else if (currentPage <= 4) {
+                    pageNum = i + 1;
+                  } else if (currentPage >= totalPages - 3) {
+                    pageNum = totalPages - 6 + i;
+                  } else {
+                    pageNum = currentPage - 3 + i;
+                  }
+
+                  if (pageNum < 1 || pageNum > totalPages) return null;
+
+                  return (
+                    <button
+                      key={pageNum}
+                      onClick={() => setCurrentPage(pageNum)}
+                      className={`px-4 py-2 border-2 font-bold transition-all
+                               ${currentPage === pageNum
+                                 ? 'border-amber bg-amber text-void'
+                                 : 'border-ash-darker text-ash hover:border-amber hover:text-amber'
+                               }`}
+                    >
+                      {pageNum}
+                    </button>
+                  );
+                })}
+              </div>
+
+              <button
+                onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+                disabled={currentPage === totalPages}
+                className="p-3 border-2 border-ash-darker text-ash hover:border-amber hover:text-amber
+                         transition-all disabled:opacity-30 disabled:cursor-not-allowed disabled:hover:border-ash-darker disabled:hover:text-ash"
+                aria-label="Next page"
+              >
+                <ChevronRight className="w-5 h-5" />
+              </button>
+
+              <div className="ml-4 text-sm text-ash-dark font-mono">
+                Page {currentPage} of {totalPages}
+              </div>
+            </motion.div>
+          )}
 
           {/* No Results */}
           {filteredAndSortedEpisodes.length === 0 && (
@@ -288,18 +378,16 @@ export default function ExplorePage() {
 const EpisodeCard = memo(function EpisodeCard({
   episode,
   index,
-  selectedKeywords
+  selectedKeywords,
+  hasEnrichment
 }: {
   episode: Episode;
   index: number;
   selectedKeywords: string[];
+  hasEnrichment: boolean;
 }) {
   return (
-    <motion.div
-      initial={{ opacity: 0, scale: 0.9 }}
-      animate={{ opacity: 1, scale: 1 }}
-      exit={{ opacity: 0, scale: 0.9 }}
-      transition={{ duration: 0.2 }}
+    <div
       className="border-2 border-ash-darker bg-void-light p-6 hover:border-amber
                transition-all group relative overflow-hidden"
     >
@@ -375,14 +463,11 @@ const EpisodeCard = memo(function EpisodeCard({
         <div className="font-mono">
           <span className="text-amber">{episode.dialogueCount}</span> transcript segments
         </div>
-        {(() => {
-          const enrichment = getEpisodeEnrichment(episode.slug);
-          return enrichment ? (
-            <div className="font-mono">
-              <span className="text-amber">{enrichment.keyQuotes.length}</span> curated quotes
-            </div>
-          ) : null;
-        })()}
+        {hasEnrichment && (
+          <div className="font-mono flex items-center gap-1">
+            <span className="text-amber">✓</span> curated quotes
+          </div>
+        )}
       </div>
 
       {/* Action Buttons */}
@@ -406,6 +491,6 @@ const EpisodeCard = memo(function EpisodeCard({
           </a>
         )}
       </div>
-    </motion.div>
+    </div>
   );
 });
