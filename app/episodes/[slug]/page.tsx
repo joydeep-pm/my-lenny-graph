@@ -364,7 +364,7 @@ export default function EpisodePage() {
               )}
 
               {/* Mobile Tabs - Sticky below video */}
-              <div className="lg:hidden mb-6 border-b-2 border-ash-darker sticky top-[calc(4rem+100vw*9/16)] md:top-[calc(5rem+100vw*9/16)] z-19 bg-void pb-2 pt-4">
+              <div className="lg:hidden mb-6 border-b-2 border-ash-darker sticky top-[calc(4rem+100vw*9/16)] md:top-[calc(5rem+100vw*9/16)] z-21 bg-void pb-2">
                 <div className="flex gap-4">
                   <button
                     onClick={() => setActiveTab('transcript')}
@@ -392,7 +392,7 @@ export default function EpisodePage() {
               {/* Transcript Content - Mobile Tab / Desktop Always Visible */}
               <div className={`${activeTab === 'transcript' ? 'block' : 'hidden'} lg:block`}>
                 {/* Search Transcript */}
-                <div className="mb-6">
+                <div className="mb-6 relative z-10">
                 <div className="relative">
                   <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-amber" />
                   <input

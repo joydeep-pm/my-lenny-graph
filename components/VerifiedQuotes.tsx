@@ -130,12 +130,6 @@ function QuoteCard({ quote, index, onJumpToTranscript }: QuoteCardProps) {
     setTimeout(() => setShowCopied(false), 2000);
   };
 
-  const handleViewInTranscript = () => {
-    if (onJumpToTranscript && quote.source?.lineStart !== undefined) {
-      onJumpToTranscript(quote.source.lineStart, quote.timestamp);
-    }
-  };
-
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -177,12 +171,6 @@ function QuoteCard({ quote, index, onJumpToTranscript }: QuoteCardProps) {
 
         {/* Actions */}
         <div className="flex items-center gap-2">
-          <button
-            onClick={handleViewInTranscript}
-            className="px-3 py-1 text-xs uppercase tracking-wider bg-void border border-ash-darker hover:border-amber hover:text-amber transition-colors"
-          >
-            View in Transcript
-          </button>
           <button
             onClick={handleCopy}
             className="px-3 py-1 text-xs uppercase tracking-wider bg-void border border-ash-darker hover:border-amber hover:text-amber transition-colors"
