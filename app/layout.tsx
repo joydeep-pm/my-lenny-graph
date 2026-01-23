@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { Suspense } from "react";
 import "./globals.css";
 import CustomCursor from "@/components/CustomCursor";
 import Footer from "@/components/Footer";
@@ -58,7 +59,9 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       </head>
       <body className="font-sans antialiased cursor-none">
-        {gaId && <GoogleAnalytics gaId={gaId} />}
+        <Suspense fallback={null}>
+          {gaId && <GoogleAnalytics gaId={gaId} />}
+        </Suspense>
         <CustomCursor />
         {children}
         <Footer />
