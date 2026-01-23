@@ -199,52 +199,111 @@ function ResultsContent() {
           </motion.div>
         )}
 
-        {/* Philosophy Breakdown */}
+        {/* Philosophy Breakdown - Simplified */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.7 }}
-          className="border border-ash-darker bg-void-light p-6"
+          className="border border-ash-darker bg-void-light p-8"
         >
-          <h3 className="text-xl font-bold text-amber mb-4">Your Philosophy Breakdown</h3>
-          <div className="space-y-3">
+          <h3 className="text-2xl font-bold text-amber mb-2">Your Philosophy Mix</h3>
+          <p className="text-sm text-ash-dark mb-8">
+            Your top approaches to product management
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-6">
             {Object.entries(userProfile.zonePercentages)
               .sort((a, b) => b[1] - a[1])
+              .slice(0, 4) // Only show top 4 zones
               .map(([zoneId, percentage], index) => {
                 const zone = zones[zoneId as ZoneId];
-                const isPrimary = zoneId === userProfile.primaryZone;
+                const isPrimary = index === 0;
+                const isSecondary = index === 1;
+
+                if (percentage < 5) return null; // Skip very low percentages
 
                 return (
-                  <div key={zoneId}>
-                    <div className="flex items-center justify-between mb-1">
-                      <div className="flex items-center gap-2">
-                        <span className={isPrimary ? 'text-xl' : 'text-sm opacity-70'}>
-                          {zone.icon}
-                        </span>
-                        <span className={`text-sm font-mono ${isPrimary ? 'text-amber font-bold' : 'text-ash-dark'}`}>
-                          {zone.name}
+                  <motion.div
+                    key={zoneId}
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ delay: 0.8 + index * 0.1 }}
+                    className={`border-2 p-5 transition-all ${
+                      isPrimary
+                        ? 'border-amber bg-amber/5'
+                        : isSecondary
+                        ? 'border-amber/50 bg-void'
+                        : 'border-ash-darker bg-void'
+                    }`}
+                  >
+                    {/* Badge */}
+                    {(isPrimary || isSecondary) && (
+                      <div className="mb-3">
+                        <span className={`inline-block px-2 py-1 text-xs font-bold font-mono ${
+                          isPrimary
+                            ? 'bg-amber text-void'
+                            : 'border border-amber/50 text-amber'
+                        }`}>
+                          {isPrimary ? 'PRIMARY' : 'SECONDARY'}
                         </span>
                       </div>
-                      <span className={`text-sm font-mono ${isPrimary ? 'text-amber font-bold' : 'text-ash-dark'}`}>
+                    )}
+
+                    {/* Zone Header */}
+                    <div className="flex items-start justify-between mb-3">
+                      <div className="flex items-center gap-3">
+                        <span className="text-3xl">{zone.icon}</span>
+                        <div>
+                          <div className={`font-bold font-mono ${
+                            isPrimary ? 'text-amber text-lg' : 'text-ash'
+                          }`}>
+                            {zone.name}
+                          </div>
+                          <div className="text-xs text-ash-dark mt-0.5">
+                            {zone.tagline}
+                          </div>
+                        </div>
+                      </div>
+                      <div className={`text-2xl font-bold font-mono ${
+                        isPrimary ? 'text-amber' : 'text-ash-dark'
+                      }`}>
                         {percentage}%
-                      </span>
+                      </div>
                     </div>
-                    <motion.div
-                      className="h-1.5 bg-ash-darker rounded-full overflow-hidden"
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      transition={{ delay: 0.8 + index * 0.05 }}
-                    >
-                      <motion.div
-                        className={`h-full rounded-full ${isPrimary ? 'bg-amber' : 'bg-ash-darker'}`}
-                        initial={{ width: 0 }}
-                        animate={{ width: `${percentage}%` }}
-                        transition={{ delay: 0.9 + index * 0.05, duration: 0.8, ease: 'easeOut' }}
-                      />
-                    </motion.div>
-                  </div>
+
+                    {/* Description (only for top 2) */}
+                    {(isPrimary || isSecondary) && (
+                      <p className="text-sm text-ash-dark leading-relaxed">
+                        {zone.description}
+                      </p>
+                    )}
+                  </motion.div>
                 );
               })}
+          </div>
+
+          {/* View Full Breakdown Link */}
+          <div className="mt-6 text-center">
+            <details className="text-sm text-ash-dark hover:text-amber transition-colors cursor-pointer">
+              <summary className="font-mono font-bold list-none inline-flex items-center gap-2">
+                <span>View all 8 zones</span>
+                <span className="text-xs">▼</span>
+              </summary>
+              <div className="mt-4 pt-4 border-t border-ash-darker grid grid-cols-2 md:grid-cols-4 gap-3 text-xs">
+                {Object.entries(userProfile.zonePercentages)
+                  .sort((a, b) => b[1] - a[1])
+                  .map(([zoneId, percentage]) => {
+                    const zone = zones[zoneId as ZoneId];
+                    return (
+                      <div key={zoneId} className="text-center">
+                        <div className="text-lg mb-1">{zone.icon}</div>
+                        <div className="font-mono text-ash-dark">{zone.name}</div>
+                        <div className="font-mono font-bold text-amber">{percentage}%</div>
+                      </div>
+                    );
+                  })}
+              </div>
+            </details>
           </div>
         </motion.div>
 
