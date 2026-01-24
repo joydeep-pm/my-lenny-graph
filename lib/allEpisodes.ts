@@ -6816,11 +6816,98 @@ export const allEpisodes: Episode[] = [
       "market",
       "segmentation"
     ],
-    "dialogueCount": 0,
-    "keyQuotesCount": 0,
-    "contrarianCount": 0,
-    "sampleQuotes": [],
-    "sampleContrarian": []
+    "dialogueCount": 243,
+    "keyQuotesCount": 85,
+    "contrarianCount": 53,
+    "sampleQuotes": [
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:03:52",
+        "quote": "Well, you're both worthy and I'm honored as well. Thanks for joining me again. I have a lot of stuff that I want to chat about, but first of all, I'm just curious, what are you up to these days? I know you left Eventbrite as CPO, I know you're doing a few advisorships with startups, but how are you spending your days, and what do you think is next for Casey Winters?",
+        "length": 368
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:04:53",
+        "quote": "This is like a rare, free agent Case Winters time. Should people reach out if they're interested in maybe working with you? What's your advice for people listening?",
+        "length": 164
+      },
+      {
+        "speaker": "Casey Winters",
+        "timestamp": "00:05:00",
+        "quote": "Yeah. I always love seeing how I can help companies. Everyone should err on the side of reaching out and seeing if I have time to help, if there's something they think I can help with. I love talking to startups, so yeah, absolutely. I can't promise anything, but yeah, I just love talking to people about this stuff.",
+        "length": 317
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:05:19",
+        "quote": "Awesome. We'll point people to how to get in touch with you at the end of the episode, and it'll be in the show notes too. Talking about the CPO role, you're at Eventbrite. You're a CPO. It reminds me of a post you wrote about how hard the CPO role is. There's some quotes that I recall in your post about how, one, if you ever ask a CPO, chief product officer how they're doing, no one's ever going to say, \"I'm crushing it right now.\"",
+        "length": 436
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:05:41",
+        "quote": "Then there's this other quote about how you basically, as a CPO, just try to put some points on the board before you inevitably get fired. Why is that? Why do you find that, and do you still believe that to be true after leaving that role?",
+        "length": 239
+      },
+      {
+        "speaker": "Frequently, CEOs have visions that can change and get misaligned with the product leader. Also, with leadership roles, you don't get put on a PIP. If a CEO loses confidence, it's over immediately. Nothing like that happened at Eventbrite. I started to see that the areas of leverage for a product leader were just less in my wheelhouse over time. I just talked to my boss about it, and we worked out something where I continue to advise on the things that I'm uniquely good at, and find other people who are better at some of these other things that were maybe more important at the time.",
+        "timestamp": "00:07:09",
+        "quote": "Yeah, I'd say it's a really hard role, or a really challenging role. It can be a lot of fun. I learned a lot from doing it, but yeah, I still believe, and I think I've still yet to hear someone say they've really crushed it.",
+        "length": 224
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:07:26",
+        "quote": "Is there anything that you learned from that experience to have survived in that role for three years? I imagine you have a lot of skills and you were very valuable to the company, but I don't know, for someone in that's role maybe right now, just like, \"Here's something that I did that maybe you should do.\"",
+        "length": 309
+      },
+      {
+        "speaker": "The things they know about great leadership, they don't know if you know those things, so you have to make it really clear, \"Yeah, I know our OKRs are not as quantitative as they should be yet. That's because this team isn't ready for X, Y, and Z. This is where we're going to get them to, but it's going to take some time.\" One of the things we did at Eventbrite that I thought was really helpful is, when you go public, you tend to rotate over your executive team and get public company execs versus startup execs. A few of us were new, and it's just like, \"Hey, let's do a deep dive on product. Let's do a deep dive on customer support. Where's it at right now? What do you feel like your job is? What do you feel like are the issues you're facing? Where do you want to take it over the next three to five years? Then, let's talk about it.\"",
+        "timestamp": "00:09:57",
+        "quote": "Just forcing you to write it all down is really helpful, but then it forces you to explain it. It helps the rest of the executive team get better company execs because now they really understand product a lot more deeply, or understand finance a lot more deeply, whatever the function is.",
+        "length": 288
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:10:15",
+        "quote": "Speaking of gaps and opportunities for people in the company to level up, you've been highlighting this trend that I thought was really interesting, something you call the zero interest rate phenomenon product manager. Can you talk about what that is and what you've been noticing?",
+        "length": 281
+      },
+      {
+        "speaker": "They actually seem pretty ill-prepared for a real startup, or even a public company with some uncertainty around it like Eventbrite, so you start getting these weird responses in the interview process. You ask them to solve a problem and they'd say things like, \"I can't even begin to come up with solutions until I see all the data and talk to customers.\" I'm like, \"Yeah, I get that's something you would normally do if you took the job, but you don't have the data. You can't talk to customers. Make a decision now. What would you do? I want to see how creative you are. I want to see how much you're intuiting about the real problem and solution,\" and they can't really answer.",
+        "timestamp": "00:15:56",
+        "quote": "Then my follow-up, which I don't ask, but what I really want to ask is like, \"When's the last time you used your brain versus followed a process someone else designed at your company?\" Because I want the former, not the latter.",
+        "length": 227
+      }
+    ],
+    "sampleContrarian": [
+      {
+        "speaker": "Casey Winters",
+        "timestamp": "00:03:46",
+        "text": "I feel honored, perhaps a bit unworthy, but I'll go with it."
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:03:52",
+        "text": "Well, you're both worthy and I'm honored as well. Thanks for joining me again. I have a lot of stuff that I want to chat about, but first of all, I'm just curious, what are you up to these days? I know you left Eventbrite as CPO, I know you're doing a few advisorships with startups, but how are you spending your days, and what do you think is next for Casey Winters?"
+      },
+      {
+        "speaker": "Casey Winters",
+        "timestamp": "00:04:10",
+        "text": "I'm still spending some time with Whatnot and Eventbrite as  advisors. I stepped back from the CPO of Eventbrite in October, but still working on some long-term marketplace strategy stuff, some growth strategy stuff. I'm on the board of a company called Beek, which is like Netflix for audio in Latin America, and I'm doing some angel investing in marketplaces in what I call tech debt as a service, which is what are startups that are building out things that were hard for my teams in the past to build or maintain inside previous companies? The other thing I'm working on is revamping the product strategy program for Reforge. I got some things keeping me busy, but definitely not as busy as I was last year."
+      },
+      {
+        "speaker": "Casey Winters",
+        "timestamp": "00:05:00",
+        "text": "Yeah. I always love seeing how I can help companies. Everyone should err on the side of reaching out and seeing if I have time to help, if there's something they think I can help with. I love talking to startups, so yeah, absolutely. I can't promise anything, but yeah, I just love talking to people about this stuff."
+      },
+      {
+        "speaker": "Frequently, CEOs have visions that can change and get misaligned with the product leader. Also, with leadership roles, you don't get put on a PIP. If a CEO loses confidence, it's over immediately. Nothing like that happened at Eventbrite. I started to see that the areas of leverage for a product leader were just less in my wheelhouse over time. I just talked to my boss about it, and we worked out something where I continue to advise on the things that I'm uniquely good at, and find other people who are better at some of these other things that were maybe more important at the time.",
+        "timestamp": "00:07:09",
+        "text": "Yeah, I'd say it's a really hard role, or a really challenging role. It can be a lot of fun. I learned a lot from doing it, but yeah, I still believe, and I think I've still yet to hear someone say they've really crushed it."
+      }
+    ]
   },
   {
     "slug": "christina-wodtke",
@@ -8612,98 +8699,11 @@ export const allEpisodes: Episode[] = [
       "analytics",
       "conversion"
     ],
-    "dialogueCount": 243,
-    "keyQuotesCount": 85,
-    "contrarianCount": 53,
-    "sampleQuotes": [
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:03:52",
-        "quote": "Well, you're both worthy and I'm honored as well. Thanks for joining me again. I have a lot of stuff that I want to chat about, but first of all, I'm just curious, what are you up to these days? I know you left Eventbrite as CPO, I know you're doing a few advisorships with startups, but how are you spending your days, and what do you think is next for Casey Winters?",
-        "length": 368
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:04:53",
-        "quote": "This is like a rare, free agent Case Winters time. Should people reach out if they're interested in maybe working with you? What's your advice for people listening?",
-        "length": 164
-      },
-      {
-        "speaker": "Casey Winters",
-        "timestamp": "00:05:00",
-        "quote": "Yeah. I always love seeing how I can help companies. Everyone should err on the side of reaching out and seeing if I have time to help, if there's something they think I can help with. I love talking to startups, so yeah, absolutely. I can't promise anything, but yeah, I just love talking to people about this stuff.",
-        "length": 317
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:05:19",
-        "quote": "Awesome. We'll point people to how to get in touch with you at the end of the episode, and it'll be in the show notes too. Talking about the CPO role, you're at Eventbrite. You're a CPO. It reminds me of a post you wrote about how hard the CPO role is. There's some quotes that I recall in your post about how, one, if you ever ask a CPO, chief product officer how they're doing, no one's ever going to say, \"I'm crushing it right now.\"",
-        "length": 436
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:05:41",
-        "quote": "Then there's this other quote about how you basically, as a CPO, just try to put some points on the board before you inevitably get fired. Why is that? Why do you find that, and do you still believe that to be true after leaving that role?",
-        "length": 239
-      },
-      {
-        "speaker": "Frequently, CEOs have visions that can change and get misaligned with the product leader. Also, with leadership roles, you don't get put on a PIP. If a CEO loses confidence, it's over immediately. Nothing like that happened at Eventbrite. I started to see that the areas of leverage for a product leader were just less in my wheelhouse over time. I just talked to my boss about it, and we worked out something where I continue to advise on the things that I'm uniquely good at, and find other people who are better at some of these other things that were maybe more important at the time.",
-        "timestamp": "00:07:09",
-        "quote": "Yeah, I'd say it's a really hard role, or a really challenging role. It can be a lot of fun. I learned a lot from doing it, but yeah, I still believe, and I think I've still yet to hear someone say they've really crushed it.",
-        "length": 224
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:07:26",
-        "quote": "Is there anything that you learned from that experience to have survived in that role for three years? I imagine you have a lot of skills and you were very valuable to the company, but I don't know, for someone in that's role maybe right now, just like, \"Here's something that I did that maybe you should do.\"",
-        "length": 309
-      },
-      {
-        "speaker": "The things they know about great leadership, they don't know if you know those things, so you have to make it really clear, \"Yeah, I know our OKRs are not as quantitative as they should be yet. That's because this team isn't ready for X, Y, and Z. This is where we're going to get them to, but it's going to take some time.\" One of the things we did at Eventbrite that I thought was really helpful is, when you go public, you tend to rotate over your executive team and get public company execs versus startup execs. A few of us were new, and it's just like, \"Hey, let's do a deep dive on product. Let's do a deep dive on customer support. Where's it at right now? What do you feel like your job is? What do you feel like are the issues you're facing? Where do you want to take it over the next three to five years? Then, let's talk about it.\"",
-        "timestamp": "00:09:57",
-        "quote": "Just forcing you to write it all down is really helpful, but then it forces you to explain it. It helps the rest of the executive team get better company execs because now they really understand product a lot more deeply, or understand finance a lot more deeply, whatever the function is.",
-        "length": 288
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:10:15",
-        "quote": "Speaking of gaps and opportunities for people in the company to level up, you've been highlighting this trend that I thought was really interesting, something you call the zero interest rate phenomenon product manager. Can you talk about what that is and what you've been noticing?",
-        "length": 281
-      },
-      {
-        "speaker": "They actually seem pretty ill-prepared for a real startup, or even a public company with some uncertainty around it like Eventbrite, so you start getting these weird responses in the interview process. You ask them to solve a problem and they'd say things like, \"I can't even begin to come up with solutions until I see all the data and talk to customers.\" I'm like, \"Yeah, I get that's something you would normally do if you took the job, but you don't have the data. You can't talk to customers. Make a decision now. What would you do? I want to see how creative you are. I want to see how much you're intuiting about the real problem and solution,\" and they can't really answer.",
-        "timestamp": "00:15:56",
-        "quote": "Then my follow-up, which I don't ask, but what I really want to ask is like, \"When's the last time you used your brain versus followed a process someone else designed at your company?\" Because I want the former, not the latter.",
-        "length": 227
-      }
-    ],
-    "sampleContrarian": [
-      {
-        "speaker": "Casey Winters",
-        "timestamp": "00:03:46",
-        "text": "I feel honored, perhaps a bit unworthy, but I'll go with it."
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:03:52",
-        "text": "Well, you're both worthy and I'm honored as well. Thanks for joining me again. I have a lot of stuff that I want to chat about, but first of all, I'm just curious, what are you up to these days? I know you left Eventbrite as CPO, I know you're doing a few advisorships with startups, but how are you spending your days, and what do you think is next for Casey Winters?"
-      },
-      {
-        "speaker": "Casey Winters",
-        "timestamp": "00:04:10",
-        "text": "I'm still spending some time with Whatnot and Eventbrite as  advisors. I stepped back from the CPO of Eventbrite in October, but still working on some long-term marketplace strategy stuff, some growth strategy stuff. I'm on the board of a company called Beek, which is like Netflix for audio in Latin America, and I'm doing some angel investing in marketplaces in what I call tech debt as a service, which is what are startups that are building out things that were hard for my teams in the past to build or maintain inside previous companies? The other thing I'm working on is revamping the product strategy program for Reforge. I got some things keeping me busy, but definitely not as busy as I was last year."
-      },
-      {
-        "speaker": "Casey Winters",
-        "timestamp": "00:05:00",
-        "text": "Yeah. I always love seeing how I can help companies. Everyone should err on the side of reaching out and seeing if I have time to help, if there's something they think I can help with. I love talking to startups, so yeah, absolutely. I can't promise anything, but yeah, I just love talking to people about this stuff."
-      },
-      {
-        "speaker": "Frequently, CEOs have visions that can change and get misaligned with the product leader. Also, with leadership roles, you don't get put on a PIP. If a CEO loses confidence, it's over immediately. Nothing like that happened at Eventbrite. I started to see that the areas of leverage for a product leader were just less in my wheelhouse over time. I just talked to my boss about it, and we worked out something where I continue to advise on the things that I'm uniquely good at, and find other people who are better at some of these other things that were maybe more important at the time.",
-        "timestamp": "00:07:09",
-        "text": "Yeah, I'd say it's a really hard role, or a really challenging role. It can be a lot of fun. I learned a lot from doing it, but yeah, I still believe, and I think I've still yet to hear someone say they've really crushed it."
-      }
-    ]
+    "dialogueCount": 0,
+    "keyQuotesCount": 0,
+    "contrarianCount": 0,
+    "sampleQuotes": [],
+    "sampleContrarian": []
   },
   {
     "slug": "daniel-lereya",
@@ -10555,127 +10555,6 @@ export const allEpisodes: Episode[] = [
     ]
   },
   {
-    "slug": "sean-ellis",
-    "guest": "Sean Ellis",
-    "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
-    "publishDate": "2024-09-05T00:00:00.000Z",
-    "duration": "1:44:26",
-    "durationSeconds": 6266,
-    "viewCount": 38230,
-    "youtubeUrl": "https://www.youtube.com/watch?v=VjJ6xcv7e8s",
-    "videoId": "VjJ6xcv7e8s",
-    "description": "Sean Ellis is one of the earliest and most influential thinkers and operators in growth. He coined the term “growth hacking,” invented the ICE prioritization framework, was one of the earliest...\n",
-    "keywords": [
-      "product-market fit",
-      "pmf",
-      "growth",
-      "retention",
-      "acquisition",
-      "activation",
-      "onboarding",
-      "churn",
-      "metrics",
-      "roadmap",
-      "prioritization",
-      "mvp",
-      "experimentation",
-      "data-driven",
-      "analytics"
-    ],
-    "dialogueCount": 262,
-    "keyQuotesCount": 104,
-    "contrarianCount": 91,
-    "sampleQuotes": [
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:00:00",
-        "quote": "The Sean Ellis test, such a seemingly simple idea that has had such a profound impact on the startup world.",
-        "length": 107
-      },
-      {
-        "speaker": "Sean Ellis",
-        "timestamp": "00:00:07",
-        "quote": "The question is, how would you feel if you could no longer use this product? Once you got a high enough percentage of users saying they'd be very disappointed, most of those products did pretty well. If you felt too low, those products tended to suffer.",
-        "length": 253
-      },
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:00:19",
-        "quote": "Say someone is listening and they're like, \"Okay. Man, I'm getting like 10%. I don't know what to do.\" What do you find often works?",
-        "length": 132
-      },
-      {
-        "speaker": "Sean Ellis",
-        "timestamp": "00:00:25",
-        "quote": "Just ignore the people who say they'd be somewhat disappointed. They're telling you it's a nice to have. If you start paying attention to what your somewhat disappointed users are telling you and then you start tweaking onboarding and product based on their feedback, maybe you're going to dilute it for your must have users.",
-        "length": 325
-      },
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:00:41",
-        "quote": "Moving retention often is really hard, but I guess it sounds like there's often something you can do.",
-        "length": 101
-      },
-      {
-        "speaker": "Sean Ellis",
-        "timestamp": "00:00:45",
-        "quote": "It's usually much more function of onboarding to the right user experience than it is about the kind of the tactical things that people try to do to improve retention.",
-        "length": 167
-      },
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:00:53",
-        "quote": "What are like three or four things that you think people should definitely try to help improve activation?",
-        "length": 106
-      },
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:02:29",
-        "quote": "There's so much that I want to talk about. There's so many directions we can go, but to keep it focused, I want to spend time on two areas. I want to talk about how to know if you have product market fit and what to do once you have product market fit in terms of figuring out how to grow. I know these things are very linked. I know you spent a lot of time on these things. How does this feel?",
-        "length": 394
-      },
-      {
-        "speaker": "And so it's really the combination of those two things. It's set the right expectations and then speed to value. And so the next cohort of people that we surveyed were at 40% saying they'd be very disappointed without the product. So that literally took two weeks to make those changes. Six months later, it was 60% on the score. And then I think they hit the billion dollar valuation four or five years later on ultimately being one of the early unicorns.",
-        "timestamp": "00:12:11",
-        "quote": "And interestingly, as all of those things were built into mobile phones now, they've completely changed the business, but they continue to do really well, but they've continued to iterate the business. I think that having that kind of finger on the pulse early in the business was important to build the muscle in the business to be really responsive as the market changed.",
-        "length": 373
-      },
-      {
-        "speaker": "Sean Ellis",
-        "timestamp": "00:13:02",
-        "quote": "Yeah. And I was coming at it from a marketing perspective initially. Over time, I position myself more in a growth role with product and marketing as areas I could influence. But as a marketer, I probably didn't have a lot of influence on a engineering founded company to say, \"Let's cut out stuff.\" So it made more sense to say, \"Let's just sequence the onboarding so that we're highlighting this and onboarding to this.\" That was a little easier to sell.",
-        "length": 456
-      }
-    ],
-    "sampleContrarian": [
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:00:41",
-        "text": "Moving retention often is really hard, but I guess it sounds like there's often something you can do."
-      },
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:02:29",
-        "text": "There's so much that I want to talk about. There's so many directions we can go, but to keep it focused, I want to spend time on two areas. I want to talk about how to know if you have product market fit and what to do once you have product market fit in terms of figuring out how to grow. I know these things are very linked. I know you spent a lot of time on these things. How does this feel?"
-      },
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:02:51",
-        "text": "Okay. Okay, amazing. Let's talk about, first of all, the Sean Ellis test, slash something people call sometimes the product fit test. Such a seemingly simple idea that has had such a profound impact on the startup world. I've never actually seen you talk about the history of this thing, how you came up with these questions, how you came up 40%, the whole journey of this thing. So let's talk about this. But first of all, can you just tell people what is the Sean Ellis test for folks that aren't exactly familiar with this?"
-      },
-      {
-        "speaker": "Sean Ellis",
-        "timestamp": "00:03:19",
-        "text": "It's a simple question that helps you figure out, does anyone consider your product a must-have, or ideally, who and how many people consider it, but ultimately it's about trying to figure out is your product a must-have, which could be equated to having product market fit. And so the question is, how would you feel if you could no longer use this product? And I give them the choice, very disappointed, somewhat disappointed, or even not disappointed or not applicable, I've already stopped using the product. And what I'm trying to find are those people who say, \"I would be very disappointed if I could no longer use this product,\" then that's a really powerful vein to dig into when you discover that you actually have some people who would give a crap if your product disappears."
-      },
-      {
-        "speaker": "Let me tell you about CommandBar. If you're like me and most users I've built product for, you probably find those little in-product pop-ups really annoying. \"Want to take a tour? Check out this new feature.\" And these pop-ups are becoming less and less effective since most users don't read what they say. They just want to close them as soon as possible. But every product builder knows that users need help to learn the ins and outs of your product. We use so many products every day and we can't possibly know the ins and outs of everyone.",
-        "timestamp": "00:05:34",
-        "text": "CommandBar is an AI-powered toolkit for product, growth, marketing and customer teams to help users get the most out of your product without annoying them. They use AI to get closer to user intent, so they have search and chat products that users describe what they're trying to do in their own words and then see personalized results like customer walkthroughs or actions. And they do pop-ups too, but their nudges are based on in-product like confusion or intent classification, which makes them much less annoying and much more impactful. This works for web apps, mobile apps, and websites. And they work with industry-leading companies like Gusto, Freshworks, HashiCorp and LaunchDarkly. Over 15 million end-users have interacted with CommandBar. To try out CommandBar, you can sign up at commandbar.com/LENNY and you can unlock an extra 1,000 AI responses per month for any plan. That's commandbar.com/LENNY. And the idea is that if you, 40% or more of people, say they'd be very disappointed if they can no longer use the product, you essentially have product market fit."
-      }
-    ]
-  },
-  {
     "slug": "roger-martin",
     "guest": "Roger Martin",
     "title": "5 essential questions to craft a winning strategy | Roger Martin (author, advisor, speaker)",
@@ -12487,6 +12366,127 @@ export const allEpisodes: Episode[] = [
         "speaker": "Paige Costello",
         "timestamp": "00:06:26",
         "text": "I would talk a little bit about how we set strategy and our planning process, and how that's changed in this time as well as how we actually ship product has changed in this time. On the planning front, we have really changed what altitudes we're planning at, the time horizon we're planning at. Some of the inputs have gotten a lot more precise and opinionated. So, for example, we have always had pillar plans and team plans, but maybe we didn't have an intermediary layer of an area perspective. Well, what's an area perspective? Well, as your organization grows, we've had to reorganize to create more agency and accountability close to teams that are focused on specific target customers and problems. So if you think about the way Asana is organized, we've got our R&D, the pillar structure, the areas within them, and then the working teams."
+      }
+    ]
+  },
+  {
+    "slug": "nikhyl-singhal",
+    "guest": "Nikhyl Singhal",
+    "title": "Building a long and meaningful career | Nikhyl Singhal (Meta, Google)",
+    "publishDate": "2023-06-11T00:00:00.000Z",
+    "duration": "1:25:51",
+    "durationSeconds": 5151,
+    "viewCount": 73708,
+    "youtubeUrl": "https://www.youtube.com/watch?v=U_WQuUIYnJg",
+    "videoId": "U_WQuUIYnJg",
+    "description": "Nikhyl Singhal is VP of Product at Meta, overseeing teams building messaging, groups, stories, and the main Facebook feed. Before that, he served as the Chief Product Officer at Credit Karma...\n",
+    "keywords": [
+      "growth",
+      "retention",
+      "acquisition",
+      "activation",
+      "onboarding",
+      "metrics",
+      "a/b testing",
+      "experimentation",
+      "conversion",
+      "subscription",
+      "revenue",
+      "hiring",
+      "leadership",
+      "management",
+      "strategy"
+    ],
+    "dialogueCount": 169,
+    "keyQuotesCount": 57,
+    "contrarianCount": 90,
+    "sampleQuotes": [
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:04:45",
+        "quote": "So I have a very simple question to start. How many product managers have you been a mentor to if you had to put a number on it?",
+        "length": 128
+      },
+      {
+        "speaker": "Nikhyl Singhal",
+        "timestamp": "00:06:09",
+        "quote": "Yeah. We'll keep it anonymous because I want people to feel they can always call me in and not feel like that. I don't tend to share the names of most people.",
+        "length": 158
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:06:17",
+        "quote": "Okay. I know the one person that self-identified was Annie Pearl from Calendly, who is a big advocate of the stuff that you do. So we don't want-",
+        "length": 145
+      },
+      {
+        "speaker": "Nikhyl Singhal",
+        "timestamp": "00:06:23",
+        "quote": "Yeah. Annie is someone I learned from and helped talk with, and she's also part of a community that I also build on the side where we pulled a bunch of CPOs together and they've been building community. I'm a big fan of community and learning, and she's part of that as well.",
+        "length": 275
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:06:39",
+        "quote": "Awesome. I definitely want to talk about that, but maybe just set a little context for our conversation. I feel like you're in the very high percentiles of people that have seen a variety of careers in product management, both good careers, bad careers, junior people, senior people. So I want to focus most of our time on talking about just the PM career path and what you've learned about what is important to have a successful, thriving, happy PM career. Does that sound good?",
+        "length": 479
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:07:08",
+        "quote": "Okay. So I'm thinking we break up the chat into early career, mid-career, and late career. So within the early career section, you've talked about how people often make a mistake in their early career, specifically being very short-term focused in deciding where they're going to go. And that's a very dangerous way of thinking about it. So I'd love to hear just your take on exactly what does that mean, and why is that actually a bad idea?",
+        "length": 441
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:09:07",
+        "quote": "What are some other examples of that short-term thinking? You talked about \"my manager sucks, things are moving really slowly.\" What other examples where people maybe like, \"Oh, okay, I see, this is actually short term. Let me think longer term\"?",
+        "length": 246
+      },
+      {
+        "speaker": "Nikhyl Singhal",
+        "timestamp": "00:10:09",
+        "quote": "But in reality, if you're thinking career, you're thinking about the sort of long term arc and, as I said, maybe the job after next, and then you need to look at the promotion in service because how many people have you and I talked to who said, \"Well then, as soon as I get promoted, I'm going to leave\"? So then I'm like, \"Well, okay, then what's the promotion in service of?\" And you get into that conversation, which tends to be, again, very long-term focused.",
+        "length": 464
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:12:54",
+        "quote": "I love that advice, and I say this often actually on this podcast, the power of a diversity of experiences for so many reasons. Maybe just to close this loop, would you agree there is a lot of value in having one of these FAANG ish companies on your resume? Like a lot of opportunity gets unlocked if you work at one of these companies that people are like, \"Oh wow, okay, this person's interesting.\" Or not? Or do people maybe overthink that?",
+        "length": 443
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:14:26",
+        "quote": "To point out, FAANG is no longer accurate because Facebook is now Meta. So MAGMA is the term that you prefer.",
+        "length": 109
+      }
+    ],
+    "sampleContrarian": [
+      {
+        "speaker": "Nikhyl Singhal",
+        "timestamp": "00:00:00",
+        "text": "When I was a kid and I was growing up in the Midwest, entertainment was like going to the dog tracks. The way that they motivated the dogs was they had these fake rabbits. These tails would go around faster than the dogs, which would then motivate the dogs to go around in circles. And what was interesting is the moment that the dogs, if they accidentally touched the rabbit, they would never run again because there was like, \"Well, what's next? I've achieved what I was looking for.\" So I think this happens a ton, it's like your listeners are spending time focused on like, \"Well, one day I will be X. I will be that vice president. I will have more money. I will have built something. I will have started a company.\" But they don't think about what happens next. What's the second thing? What's your career next look like? How do you ensure that you are always going to have something important and motivating to do with your career? Otherwise, you'll keep working because you know nothing else to do, but you'll be sadder or you'll find ways to create war when peace is needed."
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:02:28",
+        "text": "This episode is brought to you by Superhuman. How much time do you spend in email each day? How about your team? You may not realize this, but your email tools are wasting your time. Superhuman is blazingly fast email for high-performing teams. Built to work with Gmail and Outlook, teams who use Superhuman spend half the time in their inboxes, respond to twice the number of emails, and save over four hours a week. That's over a month of saved time per year. With Superhuman, you can split your inbox into streams for VIPs, team members, and emails from your favorite products to reduce context switching and make sure you never miss an important email. You can start reminders if you don't hear back so that you can follow up and never drop the ball on an email thread. You can also work faster than ever before with powerful AI features like writing, editing, summarizing, and even translating. Join the ranks of the most productive teams and unleash the power of Superhuman. Try one month free at superhuman.com/lenny. That's superhuman.com/lenny."
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:03:31",
+        "text": "This episode is brought to you by Microsoft Clarity, a free, easy-to-use tool that captures how real people are actually using your site. You can watch live session replays to discover where users are breezing through your flow and where they struggle. You can view instant heat maps to see what parts of your page users are engaging with and what content they're ignoring. You can also pinpoint what's bothering your users with really cool frustration metrics like rage clicks, and dead clicks, and much more."
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:03:56",
+        "text": "If you listen to this podcast, you know how often we talk about the importance of knowing your users and by seeing how users truly experience your product, you can identify product opportunities, conversion wins, and find big gaps between how you imagine people using your product and how they actually use it. Microsoft Clarity makes it all possible with a simple yet incredibly powerful set of features. You'll be blown away by how easy Clarity is to use and it's completely free forever. You'll never run into traffic limits or be forced upgrade to a paid version. It also works across both apps and websites. Stop guessing, get clarity, check out Clarity at clarity.microsoft.com."
+      },
+      {
+        "speaker": "Nikhyl Singhal",
+        "timestamp": "00:04:53",
+        "text": "Good question. I guess I haven't thought about it from that perspective. I would say hundreds is probably the way to sort of answer the question, and a little bit has to do with whether how we define being a mentor. I know that was supposed to be a simple question and I'm going to give you a complicated answer, but I think that I started out just helping people 10, 15 years ago, trying to help them through their careers. I find the whole area really interesting. And then what happened was just I started to scale because people were always like, \"Hey, can you find time?\""
       }
     ]
   },
@@ -20475,6 +20475,127 @@ export const allEpisodes: Episode[] = [
     ]
   },
   {
+    "slug": "sean-ellis",
+    "guest": "Sean Ellis",
+    "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+    "publishDate": "2024-09-05T00:00:00.000Z",
+    "duration": "1:44:26",
+    "durationSeconds": 6266,
+    "viewCount": 38230,
+    "youtubeUrl": "https://www.youtube.com/watch?v=VjJ6xcv7e8s",
+    "videoId": "VjJ6xcv7e8s",
+    "description": "Sean Ellis is one of the earliest and most influential thinkers and operators in growth. He coined the term “growth hacking,” invented the ICE prioritization framework, was one of the earliest...\n",
+    "keywords": [
+      "product-market fit",
+      "pmf",
+      "growth",
+      "retention",
+      "acquisition",
+      "activation",
+      "onboarding",
+      "churn",
+      "metrics",
+      "roadmap",
+      "prioritization",
+      "mvp",
+      "experimentation",
+      "data-driven",
+      "analytics"
+    ],
+    "dialogueCount": 262,
+    "keyQuotesCount": 104,
+    "contrarianCount": 91,
+    "sampleQuotes": [
+      {
+        "speaker": "Lenny Rachitsky",
+        "timestamp": "00:00:00",
+        "quote": "The Sean Ellis test, such a seemingly simple idea that has had such a profound impact on the startup world.",
+        "length": 107
+      },
+      {
+        "speaker": "Sean Ellis",
+        "timestamp": "00:00:07",
+        "quote": "The question is, how would you feel if you could no longer use this product? Once you got a high enough percentage of users saying they'd be very disappointed, most of those products did pretty well. If you felt too low, those products tended to suffer.",
+        "length": 253
+      },
+      {
+        "speaker": "Lenny Rachitsky",
+        "timestamp": "00:00:19",
+        "quote": "Say someone is listening and they're like, \"Okay. Man, I'm getting like 10%. I don't know what to do.\" What do you find often works?",
+        "length": 132
+      },
+      {
+        "speaker": "Sean Ellis",
+        "timestamp": "00:00:25",
+        "quote": "Just ignore the people who say they'd be somewhat disappointed. They're telling you it's a nice to have. If you start paying attention to what your somewhat disappointed users are telling you and then you start tweaking onboarding and product based on their feedback, maybe you're going to dilute it for your must have users.",
+        "length": 325
+      },
+      {
+        "speaker": "Lenny Rachitsky",
+        "timestamp": "00:00:41",
+        "quote": "Moving retention often is really hard, but I guess it sounds like there's often something you can do.",
+        "length": 101
+      },
+      {
+        "speaker": "Sean Ellis",
+        "timestamp": "00:00:45",
+        "quote": "It's usually much more function of onboarding to the right user experience than it is about the kind of the tactical things that people try to do to improve retention.",
+        "length": 167
+      },
+      {
+        "speaker": "Lenny Rachitsky",
+        "timestamp": "00:00:53",
+        "quote": "What are like three or four things that you think people should definitely try to help improve activation?",
+        "length": 106
+      },
+      {
+        "speaker": "Lenny Rachitsky",
+        "timestamp": "00:02:29",
+        "quote": "There's so much that I want to talk about. There's so many directions we can go, but to keep it focused, I want to spend time on two areas. I want to talk about how to know if you have product market fit and what to do once you have product market fit in terms of figuring out how to grow. I know these things are very linked. I know you spent a lot of time on these things. How does this feel?",
+        "length": 394
+      },
+      {
+        "speaker": "And so it's really the combination of those two things. It's set the right expectations and then speed to value. And so the next cohort of people that we surveyed were at 40% saying they'd be very disappointed without the product. So that literally took two weeks to make those changes. Six months later, it was 60% on the score. And then I think they hit the billion dollar valuation four or five years later on ultimately being one of the early unicorns.",
+        "timestamp": "00:12:11",
+        "quote": "And interestingly, as all of those things were built into mobile phones now, they've completely changed the business, but they continue to do really well, but they've continued to iterate the business. I think that having that kind of finger on the pulse early in the business was important to build the muscle in the business to be really responsive as the market changed.",
+        "length": 373
+      },
+      {
+        "speaker": "Sean Ellis",
+        "timestamp": "00:13:02",
+        "quote": "Yeah. And I was coming at it from a marketing perspective initially. Over time, I position myself more in a growth role with product and marketing as areas I could influence. But as a marketer, I probably didn't have a lot of influence on a engineering founded company to say, \"Let's cut out stuff.\" So it made more sense to say, \"Let's just sequence the onboarding so that we're highlighting this and onboarding to this.\" That was a little easier to sell.",
+        "length": 456
+      }
+    ],
+    "sampleContrarian": [
+      {
+        "speaker": "Lenny Rachitsky",
+        "timestamp": "00:00:41",
+        "text": "Moving retention often is really hard, but I guess it sounds like there's often something you can do."
+      },
+      {
+        "speaker": "Lenny Rachitsky",
+        "timestamp": "00:02:29",
+        "text": "There's so much that I want to talk about. There's so many directions we can go, but to keep it focused, I want to spend time on two areas. I want to talk about how to know if you have product market fit and what to do once you have product market fit in terms of figuring out how to grow. I know these things are very linked. I know you spent a lot of time on these things. How does this feel?"
+      },
+      {
+        "speaker": "Lenny Rachitsky",
+        "timestamp": "00:02:51",
+        "text": "Okay. Okay, amazing. Let's talk about, first of all, the Sean Ellis test, slash something people call sometimes the product fit test. Such a seemingly simple idea that has had such a profound impact on the startup world. I've never actually seen you talk about the history of this thing, how you came up with these questions, how you came up 40%, the whole journey of this thing. So let's talk about this. But first of all, can you just tell people what is the Sean Ellis test for folks that aren't exactly familiar with this?"
+      },
+      {
+        "speaker": "Sean Ellis",
+        "timestamp": "00:03:19",
+        "text": "It's a simple question that helps you figure out, does anyone consider your product a must-have, or ideally, who and how many people consider it, but ultimately it's about trying to figure out is your product a must-have, which could be equated to having product market fit. And so the question is, how would you feel if you could no longer use this product? And I give them the choice, very disappointed, somewhat disappointed, or even not disappointed or not applicable, I've already stopped using the product. And what I'm trying to find are those people who say, \"I would be very disappointed if I could no longer use this product,\" then that's a really powerful vein to dig into when you discover that you actually have some people who would give a crap if your product disappears."
+      },
+      {
+        "speaker": "Let me tell you about CommandBar. If you're like me and most users I've built product for, you probably find those little in-product pop-ups really annoying. \"Want to take a tour? Check out this new feature.\" And these pop-ups are becoming less and less effective since most users don't read what they say. They just want to close them as soon as possible. But every product builder knows that users need help to learn the ins and outs of your product. We use so many products every day and we can't possibly know the ins and outs of everyone.",
+        "timestamp": "00:05:34",
+        "text": "CommandBar is an AI-powered toolkit for product, growth, marketing and customer teams to help users get the most out of your product without annoying them. They use AI to get closer to user intent, so they have search and chat products that users describe what they're trying to do in their own words and then see personalized results like customer walkthroughs or actions. And they do pop-ups too, but their nudges are based on in-product like confusion or intent classification, which makes them much less annoying and much more impactful. This works for web apps, mobile apps, and websites. And they work with industry-leading companies like Gusto, Freshworks, HashiCorp and LaunchDarkly. Over 15 million end-users have interacted with CommandBar. To try out CommandBar, you can sign up at commandbar.com/LENNY and you can unlock an extra 1,000 AI responses per month for any plan. That's commandbar.com/LENNY. And the idea is that if you, 40% or more of people, say they'd be very disappointed if they can no longer use the product, you essentially have product market fit."
+      }
+    ]
+  },
+  {
     "slug": "kevin-yien",
     "guest": "Kevin Yien",
     "title": "Unorthodox PM tips: Automating user insights, unselling candidates, decision logs, more | Kevin Yien",
@@ -27745,127 +27866,6 @@ export const allEpisodes: Episode[] = [
     ]
   },
   {
-    "slug": "nikhyl-singhal",
-    "guest": "Nikhyl Singhal",
-    "title": "Building a long and meaningful career | Nikhyl Singhal (Meta, Google)",
-    "publishDate": "2023-06-11T00:00:00.000Z",
-    "duration": "1:25:51",
-    "durationSeconds": 5151,
-    "viewCount": 73708,
-    "youtubeUrl": "https://www.youtube.com/watch?v=U_WQuUIYnJg",
-    "videoId": "U_WQuUIYnJg",
-    "description": "Nikhyl Singhal is VP of Product at Meta, overseeing teams building messaging, groups, stories, and the main Facebook feed. Before that, he served as the Chief Product Officer at Credit Karma...\n",
-    "keywords": [
-      "growth",
-      "retention",
-      "acquisition",
-      "activation",
-      "onboarding",
-      "metrics",
-      "a/b testing",
-      "experimentation",
-      "conversion",
-      "subscription",
-      "revenue",
-      "hiring",
-      "leadership",
-      "management",
-      "strategy"
-    ],
-    "dialogueCount": 169,
-    "keyQuotesCount": 57,
-    "contrarianCount": 90,
-    "sampleQuotes": [
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:04:45",
-        "quote": "So I have a very simple question to start. How many product managers have you been a mentor to if you had to put a number on it?",
-        "length": 128
-      },
-      {
-        "speaker": "Nikhyl Singhal",
-        "timestamp": "00:06:09",
-        "quote": "Yeah. We'll keep it anonymous because I want people to feel they can always call me in and not feel like that. I don't tend to share the names of most people.",
-        "length": 158
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:06:17",
-        "quote": "Okay. I know the one person that self-identified was Annie Pearl from Calendly, who is a big advocate of the stuff that you do. So we don't want-",
-        "length": 145
-      },
-      {
-        "speaker": "Nikhyl Singhal",
-        "timestamp": "00:06:23",
-        "quote": "Yeah. Annie is someone I learned from and helped talk with, and she's also part of a community that I also build on the side where we pulled a bunch of CPOs together and they've been building community. I'm a big fan of community and learning, and she's part of that as well.",
-        "length": 275
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:06:39",
-        "quote": "Awesome. I definitely want to talk about that, but maybe just set a little context for our conversation. I feel like you're in the very high percentiles of people that have seen a variety of careers in product management, both good careers, bad careers, junior people, senior people. So I want to focus most of our time on talking about just the PM career path and what you've learned about what is important to have a successful, thriving, happy PM career. Does that sound good?",
-        "length": 479
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:07:08",
-        "quote": "Okay. So I'm thinking we break up the chat into early career, mid-career, and late career. So within the early career section, you've talked about how people often make a mistake in their early career, specifically being very short-term focused in deciding where they're going to go. And that's a very dangerous way of thinking about it. So I'd love to hear just your take on exactly what does that mean, and why is that actually a bad idea?",
-        "length": 441
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:09:07",
-        "quote": "What are some other examples of that short-term thinking? You talked about \"my manager sucks, things are moving really slowly.\" What other examples where people maybe like, \"Oh, okay, I see, this is actually short term. Let me think longer term\"?",
-        "length": 246
-      },
-      {
-        "speaker": "Nikhyl Singhal",
-        "timestamp": "00:10:09",
-        "quote": "But in reality, if you're thinking career, you're thinking about the sort of long term arc and, as I said, maybe the job after next, and then you need to look at the promotion in service because how many people have you and I talked to who said, \"Well then, as soon as I get promoted, I'm going to leave\"? So then I'm like, \"Well, okay, then what's the promotion in service of?\" And you get into that conversation, which tends to be, again, very long-term focused.",
-        "length": 464
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:12:54",
-        "quote": "I love that advice, and I say this often actually on this podcast, the power of a diversity of experiences for so many reasons. Maybe just to close this loop, would you agree there is a lot of value in having one of these FAANG ish companies on your resume? Like a lot of opportunity gets unlocked if you work at one of these companies that people are like, \"Oh wow, okay, this person's interesting.\" Or not? Or do people maybe overthink that?",
-        "length": 443
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:14:26",
-        "quote": "To point out, FAANG is no longer accurate because Facebook is now Meta. So MAGMA is the term that you prefer.",
-        "length": 109
-      }
-    ],
-    "sampleContrarian": [
-      {
-        "speaker": "Nikhyl Singhal",
-        "timestamp": "00:00:00",
-        "text": "When I was a kid and I was growing up in the Midwest, entertainment was like going to the dog tracks. The way that they motivated the dogs was they had these fake rabbits. These tails would go around faster than the dogs, which would then motivate the dogs to go around in circles. And what was interesting is the moment that the dogs, if they accidentally touched the rabbit, they would never run again because there was like, \"Well, what's next? I've achieved what I was looking for.\" So I think this happens a ton, it's like your listeners are spending time focused on like, \"Well, one day I will be X. I will be that vice president. I will have more money. I will have built something. I will have started a company.\" But they don't think about what happens next. What's the second thing? What's your career next look like? How do you ensure that you are always going to have something important and motivating to do with your career? Otherwise, you'll keep working because you know nothing else to do, but you'll be sadder or you'll find ways to create war when peace is needed."
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:02:28",
-        "text": "This episode is brought to you by Superhuman. How much time do you spend in email each day? How about your team? You may not realize this, but your email tools are wasting your time. Superhuman is blazingly fast email for high-performing teams. Built to work with Gmail and Outlook, teams who use Superhuman spend half the time in their inboxes, respond to twice the number of emails, and save over four hours a week. That's over a month of saved time per year. With Superhuman, you can split your inbox into streams for VIPs, team members, and emails from your favorite products to reduce context switching and make sure you never miss an important email. You can start reminders if you don't hear back so that you can follow up and never drop the ball on an email thread. You can also work faster than ever before with powerful AI features like writing, editing, summarizing, and even translating. Join the ranks of the most productive teams and unleash the power of Superhuman. Try one month free at superhuman.com/lenny. That's superhuman.com/lenny."
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:03:31",
-        "text": "This episode is brought to you by Microsoft Clarity, a free, easy-to-use tool that captures how real people are actually using your site. You can watch live session replays to discover where users are breezing through your flow and where they struggle. You can view instant heat maps to see what parts of your page users are engaging with and what content they're ignoring. You can also pinpoint what's bothering your users with really cool frustration metrics like rage clicks, and dead clicks, and much more."
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:03:56",
-        "text": "If you listen to this podcast, you know how often we talk about the importance of knowing your users and by seeing how users truly experience your product, you can identify product opportunities, conversion wins, and find big gaps between how you imagine people using your product and how they actually use it. Microsoft Clarity makes it all possible with a simple yet incredibly powerful set of features. You'll be blown away by how easy Clarity is to use and it's completely free forever. You'll never run into traffic limits or be forced upgrade to a paid version. It also works across both apps and websites. Stop guessing, get clarity, check out Clarity at clarity.microsoft.com."
-      },
-      {
-        "speaker": "Nikhyl Singhal",
-        "timestamp": "00:04:53",
-        "text": "Good question. I guess I haven't thought about it from that perspective. I would say hundreds is probably the way to sort of answer the question, and a little bit has to do with whether how we define being a mentor. I know that was supposed to be a simple question and I'm going to give you a complicated answer, but I think that I started out just helping people 10, 15 years ago, trying to help them through their careers. I find the whole area really interesting. And then what happened was just I started to scale because people were always like, \"Hey, can you find time?\""
-      }
-    ]
-  },
-  {
     "slug": "jeremy-henrickson",
     "guest": "Jeremy Henrickson",
     "title": "Moving fast and navigating uncertainty | Jeremy Henrickson (Rippling, Coinbase)",
@@ -30327,6 +30327,35 @@ export const allEpisodes: Episode[] = [
       "hiring",
       "culture",
       "leadership"
+    ],
+    "dialogueCount": 0,
+    "keyQuotesCount": 0,
+    "contrarianCount": 0,
+    "sampleQuotes": [],
+    "sampleContrarian": []
+  },
+  {
+    "slug": "elena-verna",
+    "guest": "Elena Verna 1.0",
+    "title": "Why product-led growth is the future | Elena Verna (Amplitude, Miro, Dropbox, SurveyMonkey)",
+    "publishDate": "2023-01-22T00:00:00.000Z",
+    "duration": "1:00:00",
+    "durationSeconds": 3600,
+    "viewCount": 50000,
+    "youtubeUrl": "https://www.youtube.com/watch?v=UTmFuSZfJ9U",
+    "videoId": "UTmFuSZfJ9U",
+    "description": "Elena Verna discusses product-led growth strategies, the future of PLG, and insights from her experience at companies like Amplitude, Miro, Dropbox, and SurveyMonkey.",
+    "keywords": [
+      "product-led growth",
+      "growth",
+      "plg",
+      "acquisition",
+      "activation",
+      "retention",
+      "metrics",
+      "strategy",
+      "onboarding",
+      "conversion"
     ],
     "dialogueCount": 0,
     "keyQuotesCount": 0,
