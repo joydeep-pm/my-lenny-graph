@@ -30,7 +30,7 @@ keywords:
 ---
 ---
 
-# Why most product managers are unprepared for the demands of a real startup | Casey Winters
+# How to sell your ideas and rise within your company | Casey Winters, Eventbrite
 
 ## Transcript
 
