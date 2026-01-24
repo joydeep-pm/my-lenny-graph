@@ -314,12 +314,8 @@ export default function EpisodePage() {
       {/* Main Content */}
       <div className="relative z-10 min-h-screen px-4 pt-20 pb-8 md:pt-24 md:pb-12">
         <div className="max-w-6xl mx-auto">
-
-          <div className="grid lg:grid-cols-3 gap-8">
-            {/* Main Content - 2 columns */}
-            <div className="lg:col-span-2 lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto lg:pr-4">
-              {/* Header */}
-              <div className="mb-8 pb-8 border-b-2 border-ash-darker">
+          {/* Header - Always visible on mobile and desktop */}
+          <div className="lg:hidden mb-8 pb-8 border-b-2 border-ash-darker">
                 <h1 className="text-3xl md:text-5xl font-bold text-amber mb-4 leading-tight">
                   {episode.guest}
                 </h1>
@@ -373,9 +369,105 @@ export default function EpisodePage() {
                 )}
               </div>
 
-              {/* YouTube Embed Section - Sticky */}
+          {/* YouTube Embed Section - Always visible, sticky on mobile */}
+          {episode.videoId && (
+            <div className="lg:hidden mb-0 sticky top-16 md:top-20 z-20 bg-void">
+              <div className="relative w-full aspect-video bg-void-light border-2 border-crimson">
+                <div
+                  id="youtube-player"
+                  className="absolute inset-0 w-full h-full"
+                />
+              </div>
+            </div>
+          )}
+
+          {/* Mobile Tabs - Sticky below video */}
+          <div className="lg:hidden mb-6 border-b-2 border-ash-darker sticky top-[calc(4rem+100vw*9/16)] md:top-[calc(5rem+100vw*9/16)] z-30 bg-void pb-2">
+            <div className="flex gap-4">
+              <button
+                onClick={() => setActiveTab('transcript')}
+                className={`pb-3 px-2 font-bold text-sm tracking-wider transition-colors ${
+                  activeTab === 'transcript'
+                    ? 'text-amber border-b-2 border-amber -mb-[2px]'
+                    : 'text-ash-dark hover:text-amber'
+                }`}
+              >
+                TRANSCRIPT
+              </button>
+              <button
+                onClick={() => setActiveTab('insights')}
+                className={`pb-3 px-2 font-bold text-sm tracking-wider transition-colors ${
+                  activeTab === 'insights'
+                    ? 'text-amber border-b-2 border-amber -mb-[2px]'
+                    : 'text-ash-dark hover:text-amber'
+                }`}
+              >
+                INSIGHTS & MORE
+              </button>
+            </div>
+          </div>
+
+          <div className="grid lg:grid-cols-3 gap-8">
+            {/* Main Content - 2 columns */}
+            <div className={`lg:col-span-2 lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto lg:pr-4 ${activeTab === 'transcript' ? 'block' : 'hidden'} lg:block`}>
+              {/* Desktop Header */}
+              <div className="hidden lg:block mb-8 pb-8 border-b-2 border-ash-darker">
+                <h1 className="text-3xl md:text-5xl font-bold text-amber mb-4 leading-tight">
+                  {episode.guest}
+                </h1>
+                <h2 className="text-xl md:text-2xl text-ash-dark mb-6 leading-relaxed">
+                  {episode.title}
+                </h2>
+
+                {/* Metadata */}
+                <div className="flex flex-wrap gap-4 mb-6 text-sm text-ash-dark">
+                  {episode.publishDate && (
+                    <div className="flex items-center gap-2">
+                      <Calendar className="w-4 h-4" />
+                      <span>
+                        {new Date(episode.publishDate).toLocaleDateString('en-US', {
+                          year: 'numeric',
+                          month: 'long',
+                          day: 'numeric'
+                        })}
+                      </span>
+                    </div>
+                  )}
+                  {episode.duration && (
+                    <div className="flex items-center gap-2">
+                      <Clock className="w-4 h-4" />
+                      <span>{episode.duration}</span>
+                    </div>
+                  )}
+                  {episode.viewCount && (
+                    <div className="flex items-center gap-2">
+                      <Eye className="w-4 h-4" />
+                      <span>{episode.viewCount.toLocaleString()} views</span>
+                    </div>
+                  )}
+                </div>
+
+                {/* Keywords */}
+                {episode.keywords && episode.keywords.length > 0 && (
+                  <div className="mt-6">
+                    <p className="text-xs text-amber tracking-wider mb-2">TOPICS</p>
+                    <div className="flex flex-wrap gap-2">
+                      {episode.keywords.map((keyword) => (
+                        <span
+                          key={keyword}
+                          className="px-3 py-1 text-xs border border-ash-darker text-ash-dark bg-void-light"
+                        >
+                          {keyword}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* Desktop YouTube Embed - Sticky */}
               {episode.videoId && (
-                <div className="mb-0 sticky top-16 md:top-20 z-20 bg-void">
+                <div className="hidden lg:block mb-0 sticky top-16 md:top-20 z-20 bg-void">
                   <div className="relative w-full aspect-video bg-void-light border-2 border-crimson">
                     <div
                       id="youtube-player"
@@ -385,34 +477,8 @@ export default function EpisodePage() {
                 </div>
               )}
 
-              {/* Mobile Tabs - Sticky below video */}
-              <div className="lg:hidden mb-6 border-b-2 border-ash-darker sticky top-[calc(4rem+100vw*9/16)] md:top-[calc(5rem+100vw*9/16)] z-21 bg-void pb-2">
-                <div className="flex gap-4">
-                  <button
-                    onClick={() => setActiveTab('transcript')}
-                    className={`pb-3 px-2 font-bold text-sm tracking-wider transition-colors ${
-                      activeTab === 'transcript'
-                        ? 'text-amber border-b-2 border-amber -mb-[2px]'
-                        : 'text-ash-dark hover:text-amber'
-                    }`}
-                  >
-                    TRANSCRIPT
-                  </button>
-                  <button
-                    onClick={() => setActiveTab('insights')}
-                    className={`pb-3 px-2 font-bold text-sm tracking-wider transition-colors ${
-                      activeTab === 'insights'
-                        ? 'text-amber border-b-2 border-amber -mb-[2px]'
-                        : 'text-ash-dark hover:text-amber'
-                    }`}
-                  >
-                    INSIGHTS & MORE
-                  </button>
-                </div>
-              </div>
-
-              {/* Transcript Content - Mobile Tab / Desktop Always Visible */}
-              <div className={`${activeTab === 'transcript' ? 'block' : 'hidden'} lg:block`}>
+              {/* Transcript Content */}
+              <div>
                 {/* Search Transcript */}
                 <div className="mb-6 relative z-10">
                 <div className="relative">
@@ -524,7 +590,7 @@ export default function EpisodePage() {
               </div>
             </div>
 
-            {/* Sidebar - 1 column (Mobile: shown in Insights tab, Desktop: always visible) */}
+            {/* Sidebar - 1 column */}
             <div className={`lg:col-span-1 lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto lg:pl-4 lg:border-l lg:border-ash-darker/30 ${
               activeTab === 'insights' ? 'block' : 'hidden'
             } lg:block`}>
