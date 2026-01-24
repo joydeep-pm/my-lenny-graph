@@ -45,15 +45,20 @@ async function generateOGImage(episode) {
   const width = 1200;
   const height = 630;
 
-  // Wrap guest name if too long
-  const guestLines = wrapText(episode.guest || 'Guest', 40);
-  // Use episode title or first sentence of description
-  const titleText = episode.title || (episode.description ? episode.description.split('.')[0] + '.' : `Lenny's Podcast`);
+  // Adjust guest name wrapping based on whether it's a multi-guest episode
+  const isMultiGuest = episode.guest && (episode.guest.includes('+') || episode.guest.includes('&'));
+  const guestLines = wrapText(episode.guest || 'Guest', isMultiGuest ? 50 : 40);
+
+  // Extract first meaningful sentence from description
+  const titleText = episode.description
+    ? episode.description.split(/[.!?]/)[0].trim() + '.'
+    : episode.title || `Lenny's Podcast`;
   const titleLines = wrapText(titleText, 50);
 
-  // Calculate vertical positioning
+  // Calculate vertical positioning with adjusted sizing for multi-guest episodes
+  const guestFontSize = isMultiGuest ? 55 : 70;
   const guestY = 180;
-  const guestLineHeight = 80;
+  const guestLineHeight = isMultiGuest ? 65 : 80;
   const titleStartY = guestY + (guestLines.length * guestLineHeight) + 60;
   const titleLineHeight = 50;
 
@@ -92,7 +97,7 @@ async function generateOGImage(episode) {
       <!-- Guest name (wrapped) -->
       ${guestLines.map((line, i) => `
         <text x="600" y="${guestY + (i * guestLineHeight)}"
-              font-family="monospace" font-size="70" font-weight="bold"
+              font-family="monospace" font-size="${guestFontSize}" font-weight="bold"
               fill="#ffb347" text-anchor="middle">
           ${escapeXml(line.toUpperCase())}
         </text>
@@ -110,7 +115,7 @@ async function generateOGImage(episode) {
       <!-- Bottom branding -->
       <text x="600" y="${height - 80}" font-family="monospace" font-size="28"
             fill="#ffb347" text-anchor="middle" opacity="0.6">
-        PM PHILOSOPHY QUIZ
+        LENNY.PRODUCTBUILDER.NET
       </text>
 
       <!-- Decorative stars -->

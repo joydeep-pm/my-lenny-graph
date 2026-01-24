@@ -59,10 +59,10 @@ async function generateHomeOGImage() {
       </text>
 
       <!-- Bottom brand -->
-      <rect x="${width - 420}" y="${height - 90}" width="340" height="40" fill="#ffb347" opacity="0.1"/>
-      <text x="${width - 250}" y="${height - 60}" font-family="monospace" font-size="20"
+      <rect x="${width - 520}" y="${height - 90}" width="440" height="40" fill="#ffb347" opacity="0.1"/>
+      <text x="${width - 300}" y="${height - 60}" font-family="monospace" font-size="20"
             fill="#ffb347" text-anchor="middle" font-weight="bold">
-        PM PHILOSOPHY QUIZ
+        LENNY.PRODUCTBUILDER.NET
       </text>
     </svg>
   `;
