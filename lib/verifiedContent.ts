@@ -11,7 +11,7 @@ export const ZONE_EPISODE_COUNTS = {
   "data": 19,
   "intuition": 20,
   "alignment": 22,
-  "chaos": 20,
+  "chaos": 21,
   "focus": 24
 } as const;
 
