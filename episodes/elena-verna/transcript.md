@@ -7,7 +7,7 @@ publish_date: 2023-01-22
 description: Elena Verna discusses product-led growth strategies, the future of PLG, and insights from her experience at companies like Amplitude, Miro, Dropbox, and SurveyMonkey.
 duration_seconds: 3600.0
 duration: '1:00:00'
-view_count: 50000
+view_count: 50460
 channel: Lenny's Podcast
 keywords:
 - product-led growth

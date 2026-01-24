@@ -7,7 +7,7 @@ publish_date: 2023-04-14
 description: Casey Winters shares advice on making tradeoffs as a product leader, justifying non-sexy product investments, growth trends and tactics, when to focus on growth, and so much more.
 duration_seconds: 4664.0
 duration: '1:17:44'
-view_count: 12000
+view_count: 12183
 channel: Lenny's Podcast
 keywords:
 - growth

@@ -83,7 +83,7 @@ export default function ExplorePage() {
 
   const allKeywords = useMemo(() => getAllKeywords(), []);
 
-  // Precompute enrichment data once (avoids 303 lookups per render)
+  // Precompute enrichment data once (avoids 302 lookups per render)
   const enrichedSlugs = useMemo(() => {
     const slugs = getVerifiedEpisodeSlugs();
     return new Set(slugs);
@@ -149,7 +149,7 @@ export default function ExplorePage() {
               <span>DATA EXPLORER</span>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold text-amber mb-4">
-              303 EPISODES
+              302 EPISODES
             </h1>
             <p className="text-ash text-lg max-w-2xl leading-relaxed">
               Search, filter, and explore every conversation from Lenny's Podcast.
