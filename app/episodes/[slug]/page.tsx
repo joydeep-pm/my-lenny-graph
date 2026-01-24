@@ -382,11 +382,11 @@ export default function EpisodePage() {
           )}
 
           {/* Mobile Tabs - Sticky below video */}
-          <div className="lg:hidden mb-6 border-b-2 border-ash-darker sticky top-[calc(4rem+100vw*9/16)] md:top-[calc(5rem+100vw*9/16)] z-30 bg-void pb-2">
-            <div className="flex gap-4">
+          <div className="lg:hidden mb-8 border-b-2 border-ash-darker sticky top-[calc(4rem+100vw*9/16)] md:top-[calc(5rem+100vw*9/16)] z-30 bg-void pt-4 pb-1">
+            <div className="flex gap-6">
               <button
                 onClick={() => setActiveTab('transcript')}
-                className={`pb-3 px-2 font-bold text-sm tracking-wider transition-colors ${
+                className={`pb-4 px-3 font-bold text-sm tracking-wider transition-colors ${
                   activeTab === 'transcript'
                     ? 'text-amber border-b-2 border-amber -mb-[2px]'
                     : 'text-ash-dark hover:text-amber'
@@ -396,7 +396,7 @@ export default function EpisodePage() {
               </button>
               <button
                 onClick={() => setActiveTab('insights')}
-                className={`pb-3 px-2 font-bold text-sm tracking-wider transition-colors ${
+                className={`pb-4 px-3 font-bold text-sm tracking-wider transition-colors ${
                   activeTab === 'insights'
                     ? 'text-amber border-b-2 border-amber -mb-[2px]'
                     : 'text-ash-dark hover:text-amber'

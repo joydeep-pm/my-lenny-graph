@@ -47,7 +47,7 @@ async function generateOGImage(episode) {
 
   // Adjust guest name wrapping based on whether it's a multi-guest episode
   const isMultiGuest = episode.guest && (episode.guest.includes('+') || episode.guest.includes('&'));
-  const guestLines = wrapText(episode.guest || 'Guest', isMultiGuest ? 50 : 40);
+  const guestLines = wrapText(episode.guest || 'Guest', isMultiGuest ? 35 : 40);
 
   // Extract first meaningful sentence from description
   const titleText = episode.description
@@ -56,9 +56,9 @@ async function generateOGImage(episode) {
   const titleLines = wrapText(titleText, 50);
 
   // Calculate vertical positioning with adjusted sizing for multi-guest episodes
-  const guestFontSize = isMultiGuest ? 55 : 70;
+  const guestFontSize = isMultiGuest ? 48 : 70;
   const guestY = 180;
-  const guestLineHeight = isMultiGuest ? 65 : 80;
+  const guestLineHeight = isMultiGuest ? 58 : 80;
   const titleStartY = guestY + (guestLines.length * guestLineHeight) + 60;
   const titleLineHeight = 50;
 
