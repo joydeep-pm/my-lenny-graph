@@ -571,7 +571,34 @@
         "intuition": 0.15,
         "alignment": 0.1,
         "discovery": 0.1
-      }
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "amjad-masad-002",
+          "why": "Predicts billion-dollar companies with zero employees - provocative vision that challenges traditional company structures",
+          "related_zones": [
+            "chaos",
+            "intuition",
+            "velocity"
+          ]
+        },
+        {
+          "quoteId": "amjad-masad-010",
+          "why": "Advocates 'slaughtering your roadmap' when new capabilities drop - anti-planning, embracing radical adaptability",
+          "related_zones": [
+            "chaos",
+            "velocity"
+          ]
+        },
+        {
+          "quoteId": "amjad-masad-011",
+          "why": "Says structured organizations are incompatible with fluid cross-functional work - 'uncomfortable for a lot of people'",
+          "related_zones": [
+            "chaos",
+            "alignment"
+          ]
+        }
+      ]
     },
     {
       "episode_slug": "annie-duke",
@@ -3309,7 +3336,33 @@
         "discovery": 0.2,
         "focus": 0.15,
         "velocity": 0.1
-      }
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "dylan-field-005",
+          "why": "Challenges additive thinking: 'One plus one sometimes equals one and a half' - more features can make products worse",
+          "related_zones": [
+            "perfection",
+            "focus"
+          ]
+        },
+        {
+          "quoteId": "dylan-field-008",
+          "why": "Argues you CAN ship without quality for software - iterate later. Contrarian to perfection-first approach",
+          "related_zones": [
+            "velocity",
+            "perfection"
+          ]
+        },
+        {
+          "quoteId": "dylan-field-010",
+          "why": "Reframes all advice as self-advice: 'When people give you advice, they're giving themselves advice in your shoes'",
+          "related_zones": [
+            "intuition",
+            "discovery"
+          ]
+        }
+      ]
     },
     {
       "episode_slug": "elena-verna-30",
@@ -3578,7 +3631,33 @@
         "discovery": 0.1,
         "focus": 0.1,
         "chaos": 0.05
-      }
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "elena-verna-30-004",
+          "why": "Claims rebrands/redesigns NEVER produce good results - directly challenges every new CMO's first instinct",
+          "related_zones": [
+            "data",
+            "perfection"
+          ]
+        },
+        {
+          "quoteId": "elena-verna-30-009",
+          "why": "Calls over-experimentation a 'paralyzing disease' - contrarian in an era obsessed with A/B testing",
+          "related_zones": [
+            "velocity",
+            "intuition"
+          ]
+        },
+        {
+          "quoteId": "elena-verna-30-011",
+          "why": "Argues people rely too LITTLE on intuition in the data age - pushes back on pure data-driven culture",
+          "related_zones": [
+            "intuition",
+            "data"
+          ]
+        }
+      ]
     },
     {
       "episode_slug": "gokul-rajaram",
@@ -5448,7 +5527,33 @@
         "intuition": 0.05,
         "chaos": 0.05,
         "velocity": 0
-      }
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "marty-cagan-001",
+          "why": "Calls agile coaches, product owners, and product ops 'ridiculous roles' - provocative critique of common PM org structures",
+          "related_zones": [
+            "focus",
+            "perfection"
+          ]
+        },
+        {
+          "quoteId": "marty-cagan-006",
+          "why": "Cringes at PMs who say 'my job is to say why' - challenges the popular PM-as-facilitator narrative",
+          "related_zones": [
+            "focus",
+            "perfection"
+          ]
+        },
+        {
+          "quoteId": "marty-cagan-009",
+          "why": "Claims 90% of PM content online is from feature teams and propagates the wrong model - contrarian on PM advice",
+          "related_zones": [
+            "discovery",
+            "chaos"
+          ]
+        }
+      ]
     },
     {
       "slug": "mike-krieger",
@@ -6339,7 +6444,33 @@
         "alignment": 0.05,
         "chaos": 0,
         "focus": 0.15
-      }
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "rahul-vohra-q001",
+          "why": "Claims there's 'no such thing as a truly viral product' - even Facebook never sustained viral factor above 1.0",
+          "related_zones": [
+            "velocity",
+            "perfection"
+          ]
+        },
+        {
+          "quoteId": "rahul-vohra-q004",
+          "why": "Argues you CAN'T just ship half-baked for mission-critical products like email - counter to 'move fast' dogma",
+          "related_zones": [
+            "perfection",
+            "focus"
+          ]
+        },
+        {
+          "quoteId": "rahul-vohra-q009",
+          "why": "Distinguishes game design from gamification: 'gamification doesn't work, game design works' - nuanced contrarian take",
+          "related_zones": [
+            "perfection",
+            "velocity"
+          ]
+        }
+      ]
     },
     {
       "episode_slug": "shreyas-doshi",
@@ -13441,5 +13572,5 @@
       "verified": true
     }
   ],
-  "lastUpdated": "2026-01-24T23:38:23.507Z"
+  "lastUpdated": "2026-01-25T14:33:29.446Z"
 }
