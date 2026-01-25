@@ -13132,123 +13132,32 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "tomer-cohen",
     "guest": "Tomer Cohen 1.0",
-    "title": "Why AI is disrupting traditional product management | Tomer Cohen (LinkedIn CPO)",
-    "publishDate": "2025-12-04T00:00:00.000Z",
-    "duration": "1:07:32",
-    "durationSeconds": 4052,
-    "viewCount": 23051,
-    "youtubeUrl": "https://www.youtube.com/watch?v=R-zCfLQD_84",
-    "videoId": "R-zCfLQD_84",
-    "description": "Tomer Cohen is the longtime chief product officer at LinkedIn, where he’s pioneering the Full Stack Builder program, a radical new approach to product development that fully embraces what...\n",
+    "title": "How LinkedIn became interesting: The inside story | Tomer Cohen (CPO at LinkedIn)",
+    "publishDate": "2024-09-08T00:00:00.000Z",
+    "duration": "1:09:01",
+    "durationSeconds": 4141,
+    "viewCount": 14349,
+    "youtubeUrl": "https://www.youtube.com/watch?v=YrUq8JUkQls",
+    "videoId": "YrUq8JUkQls",
+    "description": "Tomer Cohen is the chief product officer at LinkedIn, responsible for setting the company's product strategy, leading product development, user experience design, business development, content creation, and customer operations. He also hosts the Building One podcast, where he interviews exceptional builders across various disciplines. In our conversation, we discuss how LinkedIn transformed its feed into an engaging content and social platform, Tomer's famous \"We might be wrong, but we are not confused\" mantra, the importance of conviction and passion in product leadership, and lessons from Tomer's rapid career progression at LinkedIn.",
     "keywords": [
-      "growth",
-      "onboarding",
-      "metrics",
-      "roadmap",
-      "culture",
+      "linkedin",
+      "product leadership",
+      "feed",
+      "content",
+      "social platform",
+      "ai",
       "leadership",
       "management",
       "strategy",
       "vision",
-      "mission",
-      "market",
-      "persona",
-      "design",
-      "ui",
-      "engineering"
+      "culture"
     ],
-    "dialogueCount": 179,
-    "keyQuotesCount": 65,
-    "contrarianCount": 50,
-    "sampleQuotes": [
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:00:00",
-        "quote": "I think it's so underappreciated, the turnaround that has happened within LinkedIn. I check it at least 10 times a day. What was the strategy behind it?",
-        "length": 152
-      },
-      {
-        "speaker": "Tomer Cohen",
-        "timestamp": "00:00:06",
-        "quote": "I start backwards. It's like what is the potential here? If you start from the premise that LinkedIn ultimately is a platform for economic opportunity that sits on top of a very strong social graph. Almost every aspect of economic transaction is possible.",
-        "length": 255
-      },
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:00:20",
-        "quote": "Is there anything tactically that would just like, wow, that really made a big dent in people wanting to come here and post, share interesting content?",
-        "length": 151
-      },
-      {
-        "speaker": "Tomer Cohen",
-        "timestamp": "00:00:25",
-        "quote": "To really set the new purpose for it, which was this is not a springboard for other products. This is not a traffic jumpstart, it's not an upsell feed. It's really about people that matter, talking about things that I care about professionally. The first thing we did was really making AI first.",
-        "length": 295
-      },
-      {
-        "speaker": "Tomer Cohen",
-        "timestamp": "00:00:43",
-        "quote": "So it wasn't like, \"Oh, we have this cool technology, what can we do with it?\" It was like, \"Let go of what you've built. Go back to the objectives you were trying to solve and now with this technology, how can you do that objective better?\"",
-        "length": 241
-      },
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:00:52",
-        "quote": "There's so much I want to dig into here. Is there anything else that you think would be interesting or useful for folks?",
-        "length": 120
-      },
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:02:28",
-        "quote": "Absolutely, my pleasure. So as I was preparing for this podcast, I reached out to a bunch of people that have worked with you and asked them what I should ask you on this podcast, and interestingly, every single one of them said this one thing that I need to ask you, which is about this phrase that apparently you use all the time. So first of all, can you guess what this phrase might be?",
-        "length": 390
-      },
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:03:04",
-        "quote": "Those are the ultimate things where you don't need to say them as much anymore. Okay, so the phrase again is, \"We might be wrong but we're not confused.\"",
-        "length": 153
-      },
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:03:11",
-        "quote": "Let's talk about this. So what does this phrase mean and why do you find it so powerful and important to say often?",
-        "length": 115
-      },
-      {
-        "speaker": "Yeah, by the way, it's a simple phrase, but it has in my opinion, so much depth into that and ultimately something I really believe in. It's rooted in clarity and principles that ultimately lead to leadership. And the first time I got the inspiration from it was from a startup founder I met many, many years ago. Their company was on the brink of failure. They had their last attempt and they decided on a path forward and after they decided on a path forward, he was still seeing people hedging in different directions and it led into this confusion in the system where we decided people are still hedging, they're still trying out things they thought could work, and he realized that unless they basically all pull through in the same direction, there is no chance they'll be able to be successful.",
-        "timestamp": "00:04:04",
-        "quote": "Now, pulling through in the same direction doesn't mean you're going to be successful, but this gives you a chance of success and that confusion, the system only luck and save you. So that was when he shared that, that was very impactful for me. I think it's a good one for life as well. And for me it comes down to two main parts. One is clarity of thought and clarity of execution, and they're both equally important.",
-        "length": 419
-      }
-    ],
-    "sampleContrarian": [
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:00:39",
-        "text": "How do you actually on the ground help people shift their perspective and think AI first?"
-      },
-      {
-        "speaker": "Tomer Cohen",
-        "timestamp": "00:02:50",
-        "text": "But probably I might be wrong but not confused."
-      },
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:03:04",
-        "text": "Those are the ultimate things where you don't need to say them as much anymore. Okay, so the phrase again is, \"We might be wrong but we're not confused.\""
-      },
-      {
-        "speaker": "Yeah, by the way, it's a simple phrase, but it has in my opinion, so much depth into that and ultimately something I really believe in. It's rooted in clarity and principles that ultimately lead to leadership. And the first time I got the inspiration from it was from a startup founder I met many, many years ago. Their company was on the brink of failure. They had their last attempt and they decided on a path forward and after they decided on a path forward, he was still seeing people hedging in different directions and it led into this confusion in the system where we decided people are still hedging, they're still trying out things they thought could work, and he realized that unless they basically all pull through in the same direction, there is no chance they'll be able to be successful.",
-        "timestamp": "00:04:04",
-        "text": "Now, pulling through in the same direction doesn't mean you're going to be successful, but this gives you a chance of success and that confusion, the system only luck and save you. So that was when he shared that, that was very impactful for me. I think it's a good one for life as well. And for me it comes down to two main parts. One is clarity of thought and clarity of execution, and they're both equally important."
-      },
-      {
-        "speaker": "They're just masking it with a layer of misunderstanding and a good mentor of mine said, \"Hey, just push back. Are you disagreeing or misunderstanding? If you're misunderstanding, let's spend the night. Let's get to a point where you can articulate my point of view in your words and I can do the same, but if we're disagreeing, let's stop. Why are we spending? Why wasting time just arguing it through?\" So those became really powerful. That's on the clarity of thought, clarity of execution is even more important because many organizations actually reach a decision, they don't act on it, which it's one of those shocking things. They decide this is a top priority, but it doesn't make its way into the organization. And I'll give you an example. Somebody will say, \"Hey, my top priority for my business is this initiative.\" And then I'll say, \"But most of your engineers are working on this migration.\" And they'll say, \"Yeah, we have to finish that.\" I'm like, \"So why don't you say the migration is my number one priority?\" It's like, \"Yeah.\"",
-        "timestamp": "00:10:09",
-        "text": "It's like, but that's exactly what you're doing. You have to make sure that what you're sharing as a priority is actually manifested in your resourcing. Then I'm like, \"Hey, this is your top talent. Why is your top talent working on some moonshots that are not in your number one priority?\" And they're like, \"Yeah.\" This is where you start finding that really it doesn't really translate into execution as well and you can solve so much by just making that sure that focus is there."
-      }
-    ]
+    "dialogueCount": 0,
+    "keyQuotesCount": 0,
+    "contrarianCount": 0,
+    "sampleQuotes": [],
+    "sampleContrarian": []
   },
   {
     "slug": "tomer-cohen-20",
@@ -32801,123 +32710,31 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "wes-kao-20",
     "guest": "Wes Kao 2.0",
-    "title": "Persuasive communication and managing up | Wes Kao (Maven, altMBA, Section4)",
-    "publishDate": "2022-08-28T00:00:00.000Z",
-    "duration": "53:08",
-    "durationSeconds": 3188,
-    "viewCount": 23777,
-    "youtubeUrl": "https://www.youtube.com/watch?v=4jtGsyz4jLs",
-    "videoId": "4jtGsyz4jLs",
-    "description": "Wes Kao has worked with Seth Godin (where she co-founded the altMBA and served as executive director), David Perell on his Write of Passage course, Professor Scott Galloway on Section4, and...",
+    "title": "Become a better communicator: Specific frameworks to improve your clarity, influence, and impact | Wes Kao (coach, entrepreneur, advisor)",
+    "publishDate": "2025-04-06T00:00:00.000Z",
+    "duration": "1:33:38",
+    "durationSeconds": 5618,
+    "viewCount": 64873,
+    "youtubeUrl": "https://www.youtube.com/watch?v=BIvVGhy_VxU",
+    "videoId": "BIvVGhy_VxU",
+    "description": "Wes Kao is an entrepreneur, coach, and advisor. She co-founded the live learning platform Maven, backed by First Round and a16z. Before Maven, Wes co-created the altMBA with best-selling author Seth Godin. Today, Wes teaches a popular course on executive communication and influence. Known for her surgical writing style and no-BS frameworks, Wes returns to the pod to deliver a tactical master class on becoming a sharper, more persuasive communicator.",
     "keywords": [
-      "growth",
-      "retention",
-      "acquisition",
-      "okrs",
-      "conversion",
-      "revenue",
+      "communication",
+      "executive communication",
+      "influence",
+      "frameworks",
+      "writing",
+      "concise",
       "leadership",
       "management",
       "strategy",
-      "vision",
-      "mission",
-      "market",
-      "persona",
-      "design",
-      "ui"
+      "clarity"
     ],
-    "dialogueCount": 239,
-    "keyQuotesCount": 94,
-    "contrarianCount": 65,
-    "sampleQuotes": [
-      {
-        "speaker": "Wes Kao",
-        "timestamp": "00:00:00",
-        "quote": "I often see operators who explain things poorly and then are shocked and horrified when people are confused or there's skepticism, there's apathy. I'm a big proponent of asking myself, if I'm not getting the reaction that I'm looking for, how might I be contributing? How could I explain this more clearly? How can I be more compelling? How can I anticipate any questions that they might have?",
-        "length": 393
-      },
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:00:22",
-        "quote": "You are one of the best teachers of communication I've ever come across. I made a list of people's favorite tactics and frameworks and approaches that you teach in writing. Any tactics you can share for someone to be a little more concise?",
-        "length": 239
-      },
-      {
-        "speaker": "Wes Kao",
-        "timestamp": "00:00:35",
-        "quote": "I think the blast radius of a poorly written memo is way bigger than most people think. If you are just shooting off a message in a Slack channel with 15 other people, and it's confusing, you didn't include information you should have included, there's going to be a bunch of back and forth. Whereas if you had just taken another look at it, those 15 people would be off to the races.",
-        "length": 384
-      },
-      {
-        "speaker": "Wes Kao",
-        "timestamp": "00:00:54",
-        "quote": "MOO stands for Most Obvious Objection. A lot of times we're surprised by the questions that we get especially in meetings, we feel blindsided. When really, if you thought for even two minutes about what are obvious objections that I'm likely to get, you often immediately come up with what some of those things are. Are you going to be able to anticipate every single objection? No. But can you anticipate the obvious ones? Absolutely.",
-        "length": 435
-      },
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:05:34",
-        "quote": "Okay. So something that I often do with guests on the podcast, not even often, always, I ping people that the guests have worked with and ask them, \"What should I ask Wes? What should I know about Wes?\" Let me read a few quotes about you in regards to your communication skills from folks that have worked with you-",
-        "length": 315
-      },
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:05:51",
-        "quote": "And these are three different people. Okay, so first, \"Wes single handedly raised the quality of the entire company's writing by like two X across the board. I always say the best writing course I ever took was working with Wes for a year.\"",
-        "length": 240
-      },
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:06:55",
-        "quote": "Okay, so that was just to highlight of how good you are at this stuff. And what we're going to be doing with our chat is going through a bunch of your tactics that you teach and that have helped people become better communicators, executive communicators, better at influence. Before we get into the specific tactics, is there anything that you think is important for people to understand just broadly around the skill of becoming a better communicator?",
-        "length": 453
-      },
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:08:11",
-        "quote": "So what I'm hearing is if you're having a hard time people buying into what you're trying to convince them to do or you're finding people are doing not what you asked them to do, it's likely an issue with your ability to communicate, it's probably not their fault.",
-        "length": 264
-      },
-      {
-        "speaker": "Wes Kao",
-        "timestamp": "00:08:28",
-        "quote": "Yeah, I would say so. You can't solve everything with improving your communication, but you can increase the likelihood of getting what you want.",
-        "length": 145
-      },
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:08:39",
-        "quote": "Cool. Okay. Anything else along these lines of just things that are important to understand just broadly around communication, executive communication?",
-        "length": 151
-      }
-    ],
-    "sampleContrarian": [
-      {
-        "speaker": "Wes Kao",
-        "timestamp": "00:00:00",
-        "text": "I often see operators who explain things poorly and then are shocked and horrified when people are confused or there's skepticism, there's apathy. I'm a big proponent of asking myself, if I'm not getting the reaction that I'm looking for, how might I be contributing? How could I explain this more clearly? How can I be more compelling? How can I anticipate any questions that they might have?"
-      },
-      {
-        "speaker": "Wes Kao",
-        "timestamp": "00:00:54",
-        "text": "MOO stands for Most Obvious Objection. A lot of times we're surprised by the questions that we get especially in meetings, we feel blindsided. When really, if you thought for even two minutes about what are obvious objections that I'm likely to get, you often immediately come up with what some of those things are. Are you going to be able to anticipate every single objection? No. But can you anticipate the obvious ones? Absolutely."
-      },
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:04:40",
-        "text": "Very rare honor. No pressure, but I think this is going to be one of the highest leverage episodes I've done and let me tell you why I think that's the case in the newsletter and on the podcast, I often talk about just how important and how high leverage the skill of communication is to product leaders, to leaders, just to people in general. There's this quote that Boz, the CTO of Meta, he's been on the podcast, he wrote this famous blog post, \"Communication is the job.\" And I think that's true for product people, but it's true for basically any sort of leadership role. Anyone trying to get ahead. And you are one of the best communicators I've ever met. You are one of the best teachers of communication I've ever come across. You have one of the most popular courses on Maven, on executive communication, so I'm really excited to have you here and to help people become better communicators, better at influence and all these things. So thank you again for being here."
-      },
-      {
-        "speaker": "Wes Kao",
-        "timestamp": "00:07:17",
-        "text": "I often see operators who explain things poorly and then are shocked and horrified when people are confused or there's skepticism, there's apathy, there's a lot of avoidable questions, and I'm a big proponent of asking myself, \"If I'm not getting the reaction that I'm looking for, how might I be contributing to that?\" So, you know, instead of blaming other people for not understanding me, I think about how could I explain this more clearly? How can I be more compelling? How can I anticipate any questions that they might have? So I'm a big proponent of agency. And realizing that we can only control our own behavior. And so the best place to start, if you're not getting the reaction you're looking for, is reflecting on how can I get better at the skill of communicating? And it absolutely is a skill."
-      },
-      {
-        "speaker": "Wes Kao",
-        "timestamp": "00:08:28",
-        "text": "Yeah, I would say so. You can't solve everything with improving your communication, but you can increase the likelihood of getting what you want."
-      }
-    ]
+    "dialogueCount": 0,
+    "keyQuotesCount": 0,
+    "contrarianCount": 0,
+    "sampleQuotes": [],
+    "sampleContrarian": []
   },
   {
     "slug": "shreyas-doshi",
