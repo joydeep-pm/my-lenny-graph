@@ -1,11 +1,13 @@
 'use client';
 
 import { useState } from 'react';
+import { usePathname } from 'next/navigation';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { ArrowRight, Quote, ChevronDown, ChevronUp } from 'lucide-react';
 import { EpisodeAlignment } from '@/lib/recommendations';
 import { ZoneId } from '@/lib/types';
+import { trackRecommendationClicked } from '@/lib/analytics';
 
 // Zone display names and colors
 const ZONE_CONFIG: Record<ZoneId, { name: string; color: string }> = {
@@ -27,8 +29,14 @@ interface Props {
 
 export default function EpisodeRecommendationCard({ episode, index, variant = 'primary' }: Props) {
   const [isExpanded, setIsExpanded] = useState(false);
+  const pathname = usePathname();
   const isPrimary = variant === 'primary';
   const isContrarian = variant === 'contrarian';
+
+  const handleCardClick = () => {
+    const source = pathname?.includes('explore') ? 'explore' : 'results';
+    trackRecommendationClicked(episode.slug, variant, source);
+  };
 
   // Get the most relevant quote to display
   const displayQuote = episode.matchingQuotes?.[0];
@@ -60,6 +68,7 @@ export default function EpisodeRecommendationCard({ episode, index, variant = 'p
     >
       <Link
         href={`/episodes/${episode.slug}`}
+        onClick={handleCardClick}
         className={`block p-6 border transition-all ${
           isContrarian
             ? 'border-rose-900/40 bg-rose-950/10 hover:border-rose-700/60 hover:bg-rose-950/20'

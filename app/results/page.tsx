@@ -11,6 +11,7 @@ import PhilosophyInsightCard from '@/components/PhilosophyInsightCard';
 import EpisodeRecommendationCard from '@/components/EpisodeRecommendationCard';
 import QuizAnswersOverview from '@/components/QuizAnswersOverview';
 import TopNav from '@/components/TopNav';
+import { trackQuizCompleted, trackResultsShared } from '@/lib/analytics';
 
 function ResultsContent() {
   const searchParams = useSearchParams();
@@ -51,6 +52,18 @@ function ResultsContent() {
     }
   }, [answers, isClient]);
 
+  // Track quiz completion when results are first viewed
+  const [hasTrackedCompletion, setHasTrackedCompletion] = useState(false);
+  useEffect(() => {
+    if (recommendations && !hasTrackedCompletion) {
+      trackQuizCompleted(
+        recommendations.userProfile.primaryZone,
+        recommendations.userProfile.secondaryZone
+      );
+      setHasTrackedCompletion(true);
+    }
+  }, [recommendations, hasTrackedCompletion]);
+
   const handleDownload = async () => {
     const cardElement = document.getElementById('philosophy-card');
     if (!cardElement) return;
@@ -82,9 +95,12 @@ function ResultsContent() {
       navigator.share({
         title: 'My Product Philosophy',
         text: shareText,
+      }).then(() => {
+        trackResultsShared('twitter'); // Native share - assume social
       }).catch(err => console.log('Error sharing:', err));
     } else {
       navigator.clipboard.writeText(shareText);
+      trackResultsShared('copy_link');
       alert('Shareable text copied to clipboard!');
     }
   };
