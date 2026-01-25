@@ -1324,3 +1324,42 @@ The algorithm handles legacy data format inconsistencies:
 - Continue curation to 30+ episodes
 - Prioritize episodes that fill zone gaps
 - Add more contrarian_candidates to strengthen recommendations
+
+---
+
+### Session 10 Continued: UX & Data Quality Improvements
+
+#### Zone Badges ✅
+Added color-coded zone badges to EpisodeRecommendationCard:
+- Shows top 3 zones with >10% influence
+- Color scheme:
+  - Speed (amber), Craft (purple), Discovery (blue)
+  - Data (green), Intuition (pink), Alignment (cyan)
+  - Adaptability (orange), Focus (yellow)
+- Helps users understand episode focus at a glance
+
+#### Data Format Standardization ✅
+- Converted all 24 episodes from `episode_slug` to `slug`
+- Removed all fallback logic (`(ep as any).slug || (ep as any).episode_slug`)
+- Cleaner, type-safe code throughout
+
+#### Guest Metadata Structure ✅
+Added types for diversity scoring:
+```typescript
+type GuestType = 'founder' | 'operator' | 'investor' | 'advisor' | 'academic'
+type CompanyStage = 'pre-seed' | 'seed' | 'series-a' | 'growth' | 'public' | 'mixed'
+
+interface GuestMetadata {
+  guest_type: GuestType;
+  company_stage: CompanyStage;
+  primary_topics: string[];
+}
+```
+
+Added to 4 sample episodes:
+- **brian-chesky**: founder, public, [leadership, founder-mode, product-marketing, org-design]
+- **ben-horowitz**: investor, mixed, [decision-making, leadership, psychology, investing]
+- **marty-cagan**: advisor, mixed, [product-management, empowerment, discovery, product-leadership]
+- **casey-winters**: operator, growth, [growth, stakeholder-management, communication, career]
+
+**Future:** Add guest_metadata to remaining 20 episodes for diversity-aware recommendations
