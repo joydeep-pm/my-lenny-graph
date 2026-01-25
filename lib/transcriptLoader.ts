@@ -62,10 +62,12 @@ function parseTranscriptSections(content: string): TranscriptSection[] {
   const lines = content.split('\n');
 
   // Match speaker patterns like "Lenny Rachitsky (00:00:00):" or "Brian Chesky (00:05:04):"
-  const speakerRegex = /^(.+?)\s\((\d{2}:\d{2}:\d{2})\):/gm;
+  // Also supports MM:SS format like "Casey Winters (01:19):"
+  const speakerRegex = /^(.+?)\s\((?:(\d{2}):)?(\d{2}):(\d{2})\):/gm;
 
   // Also match continuation timestamps like "(00:01:27):" without speaker name
-  const continuationRegex = /^\((\d{2}:\d{2}:\d{2})\):/gm;
+  // Also supports MM:SS format like "(01:19):"
+  const continuationRegex = /^\((?:(\d{2}):)?(\d{2}):(\d{2})\):/gm;
 
   let match: RegExpExecArray | null;
   const matches: Array<{ speaker: string | null; timestamp: string; index: number; lineNumber: number; isContinuation: boolean }> = [];
@@ -74,9 +76,16 @@ function parseTranscriptSections(content: string): TranscriptSection[] {
   while ((match = speakerRegex.exec(content)) !== null) {
     const currentMatch = match; // Store to satisfy TypeScript null check
     const lineNumber = content.substring(0, currentMatch.index).split('\n').length;
+
+    // Normalize timestamp to HH:MM:SS format (add "00:" if hours are missing)
+    const hours = currentMatch[2] || '00';
+    const minutes = currentMatch[3];
+    const seconds = currentMatch[4];
+    const timestamp = `${hours}:${minutes}:${seconds}`;
+
     matches.push({
       speaker: currentMatch[1].trim(),
-      timestamp: currentMatch[2],
+      timestamp,
       index: currentMatch.index,
       lineNumber,
       isContinuation: false
@@ -91,9 +100,15 @@ function parseTranscriptSections(content: string): TranscriptSection[] {
     // Only add if this isn't already captured by speakerRegex
     const alreadyMatched = matches.some(m => m.index === currentMatch.index);
     if (!alreadyMatched) {
+      // Normalize timestamp to HH:MM:SS format (add "00:" if hours are missing)
+      const hours = currentMatch[1] || '00';
+      const minutes = currentMatch[2];
+      const seconds = currentMatch[3];
+      const timestamp = `${hours}:${minutes}:${seconds}`;
+
       matches.push({
         speaker: null, // Will inherit from previous section
-        timestamp: currentMatch[1],
+        timestamp,
         index: currentMatch.index,
         lineNumber,
         isContinuation: true
@@ -117,13 +132,14 @@ function parseTranscriptSections(content: string): TranscriptSection[] {
       currentSpeaker = current.speaker;
     }
 
-    const startIndex = current.index + content.substring(current.index).indexOf(':') + 1;
+    // Find the position after the "):" that ends the timestamp
+    const colonAfterParen = content.substring(current.index).indexOf('):');
+    const startIndex = colonAfterParen !== -1
+      ? current.index + colonAfterParen + 2 // +2 to skip "):"
+      : current.index + content.substring(current.index).indexOf(':') + 1;
     const endIndex = next ? next.index : content.length;
 
     let text = content.substring(startIndex, endIndex).trim();
-
-    // Remove duplicate timestamp at the beginning of text (e.g., "00:00):")
-    text = text.replace(/^\d{2}:\d{2}\):\s*/, '');
 
     if (text) {
       const lineEnd = next ? next.lineNumber - 1 : lines.length;

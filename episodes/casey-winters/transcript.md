@@ -1,41 +1,36 @@
 ---
-guest: Casey Winters
-title: Why most product managers are unprepared for the demands of a real startup
-  | Casey Winters
-youtube_url: https://www.youtube.com/watch?v=WlRfyEpAKxw
-video_id: WlRfyEpAKxw
-publish_date: 2023-04-14
-description: 'Casey Winters explains why so many product managers are falling short.
-
-  🎙️Find the full episode here: https://youtu.be/QMFvz8utx-Q
-
-
-  —
-
-  '
-duration_seconds: 99.0
-duration: '1:39'
-view_count: 2212
+guest: Casey Winters 1.0
+title: How to sell your ideas and rise within your company | Casey Winters, Eventbrite
+youtube_url: https://www.youtube.com/watch?v=6XMUDEYf2OE
+video_id: 6XMUDEYf2OE
+publish_date: 2022-07-21
+description: The people who rise fastest in product know how to sell their ideas to
+  customers, and also to their coworkers. Casey Winters, the Chief Product Officer
+  at Eventbrite (previously at Grubhub,...
+duration_seconds: 3309.0
+duration: '55:09'
+view_count: 12582
 channel: Lenny's Podcast
 keywords:
+- product-market fit
 - growth
+- retention
 - acquisition
+- activation
+- onboarding
+- churn
 - metrics
 - okrs
-- roadmap
 - user research
+- iteration
+- a/b testing
+- experimentation
 - analytics
 - conversion
-- pricing
-- hiring
-- leadership
-- management
-- strategy
-- market
-- segmentation
+---
 ---
 
-# Why most product managers are unprepared for the demands of a real startup | Casey Winters
+# How to sell your ideas and rise within your company | Casey Winters, Eventbrite
 
 ## Transcript
 

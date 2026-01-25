@@ -6,7 +6,7 @@ This document explains how to effectively collaborate with Claude on the PM Phil
 
 ## 🎯 Project Overview
 
-**PM Philosophy Map** is an interactive experience where product managers discover their philosophy through a dark sci-fi quiz built from 303 episodes of Lenny's Podcast. Every insight, quote, and recommendation is grounded in actual transcript data.
+**PM Philosophy Map** is an interactive experience where product managers discover their philosophy through a dark sci-fi quiz built from 299 episodes of Lenny's Podcast. Every insight, quote, and recommendation is grounded in actual transcript data.
 
 **Live Site:** https://lenny.productbuilder.net
 **Repository:** https://github.com/renedeanda/lenny
@@ -40,9 +40,9 @@ This document explains how to effectively collaborate with Claude on the PM Phil
 │       ├── brian-chesky.json     # Example curated episode
 │       └── verified-content.json # Master registry
 ├── episodes/                     # Raw transcript markdown files
-│   └── [slug]/transcript.md      # Episode transcripts (303 total)
+│   └── [slug]/transcript.md      # Episode transcripts (302 total)
 ├── lib/                          # Core business logic
-│   ├── allEpisodes.ts            # Episode metadata (303 episodes)
+│   ├── allEpisodes.ts            # Episode metadata (299 episodes)
 │   ├── zones.ts                  # 8 philosophy zones
 │   ├── questions.ts              # Quiz questions
 │   ├── scoring.ts                # Quiz → philosophy calculation
@@ -75,7 +75,7 @@ Extract verified quotes from Lenny's Podcast transcripts.
 
 **When to use:**
 - User asks to "curate an episode"
-- Scaling episode coverage (currently 8/303)
+- Scaling episode coverage (currently 8/302)
 - Building quote database
 
 **What it does:**
@@ -124,7 +124,7 @@ Validate dynamic sitemap generation.
 - When changing domain
 
 **What it checks:**
-- 306 total URLs (3 static + 303 episodes)
+- 306 total URLs (3 static + 299 episodes)
 - Correct domain (lenny.productbuilder.net)
 - No localhost references
 - Valid XML structure
@@ -253,7 +253,7 @@ git push
 ### Core Data Files
 
 **`lib/allEpisodes.ts`**
-- 303 episode metadata
+- 302 episode metadata
 - Generated from transcript frontmatter
 - Used across entire app
 
@@ -301,7 +301,7 @@ git push
 ## 🚧 Current Priorities
 
 ### 1. Scale Episode Curation (HIGH)
-- **Current:** 8/303 episodes (2.6%)
+- **Current:** 8/299 episodes (2.6%)
 - **Target:** 100+ episodes (33%)
 - **Focus:** Curate 10-15 episodes per session
 
@@ -416,7 +416,7 @@ git push                   # Push to remote
 ## 🎉 Success Metrics
 
 **Episode Coverage:**
-- Current: 8/303 (2.6%)
+- Current: 8/302 (2.6%)
 - Target: 100+ (33%)
 
 **Verified Quotes:**

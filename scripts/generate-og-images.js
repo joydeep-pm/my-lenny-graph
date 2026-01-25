@@ -2,14 +2,14 @@ const sharp = require('sharp');
 const fs = require('fs');
 const path = require('path');
 
-// Import episode data
-const episodesPath = path.join(__dirname, '../lib/episodesData.ts');
+// Import episode data from allEpisodes (303 episodes)
+const episodesPath = path.join(__dirname, '../lib/allEpisodes.ts');
 const episodesContent = fs.readFileSync(episodesPath, 'utf-8');
 
 // Parse episodes array from TypeScript file
 const episodesMatch = episodesContent.match(/export const allEpisodes: Episode\[\] = (\[[\s\S]*?\n\]);/);
 if (!episodesMatch) {
-  console.error('Could not parse episodes from episodesData.ts');
+  console.error('Could not parse episodes from allEpisodes.ts');
   process.exit(1);
 }
 
@@ -56,15 +56,20 @@ async function generateOGImage(episode) {
   const width = 1200;
   const height = 630;
   
-  // Wrap guest name if too long
-  const guestLines = wrapText(episode.guest, 40);
-  // Use first sentence of summary as title
-  const firstSentence = episode.summary.split('.')[0] + '.';
-  const titleLines = wrapText(firstSentence, 50);
-  
-  // Calculate vertical positioning
+  // Adjust guest name wrapping based on whether it's a multi-guest episode
+  const isMultiGuest = episode.guest && (episode.guest.includes('+') || episode.guest.includes('&'));
+  const guestLines = wrapText(episode.guest, isMultiGuest ? 50 : 40);
+
+  // Extract first meaningful sentence from description
+  const titleText = episode.description
+    ? episode.description.split(/[.!?]/)[0].trim() + '.'
+    : episode.title || `Listen to ${episode.guest}`;
+  const titleLines = wrapText(titleText, 50);
+
+  // Calculate vertical positioning with adjusted sizing for multi-guest episodes
+  const guestFontSize = isMultiGuest ? 55 : 70;
   const guestY = 180;
-  const guestLineHeight = 80;
+  const guestLineHeight = isMultiGuest ? 65 : 80;
   const titleStartY = guestY + (guestLines.length * guestLineHeight) + 60;
   const titleLineHeight = 50;
   
@@ -102,10 +107,10 @@ async function generateOGImage(episode) {
       
       <!-- Guest name (wrapped) -->
       ${guestLines.map((line, i) => `
-        <text x="600" y="${guestY + (i * guestLineHeight)}" 
-              font-family="monospace" font-size="70" font-weight="bold"
+        <text x="600" y="${guestY + (i * guestLineHeight)}"
+              font-family="monospace" font-size="${guestFontSize}" font-weight="bold"
               fill="#ffb347" text-anchor="middle">
-          ${line.toUpperCase()}
+          ${escapeXml(line.toUpperCase())}
         </text>
       `).join('')}
       
@@ -119,9 +124,9 @@ async function generateOGImage(episode) {
       `).join('')}
       
       <!-- Bottom branding -->
-      <text x="600" y="${height - 80}" font-family="monospace" font-size="28" 
+      <text x="600" y="${height - 80}" font-family="monospace" font-size="28"
             fill="#ffb347" text-anchor="middle" opacity="0.6">
-        PM PHILOSOPHY MAP
+        LENNY.PRODUCTBUILDER.NET
       </text>
       
       <!-- Decorative stars -->

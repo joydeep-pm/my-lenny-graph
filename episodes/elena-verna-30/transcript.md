@@ -1,15 +1,18 @@
 ---
 guest: Elena Verna 3.0
-title: The ultimate guide to product-led sales | Elena Verna
-youtube_url: https://www.youtube.com/watch?v=bxghtN-OlJQ
-video_id: bxghtN-OlJQ
-publish_date: 2023-04-23
-description: Elena Verna is a leading growth expert with over 15 years of experience
-  in tech. She was SVP of Growth at SurveyMonkey and interim CMO at Miro, where she
-  built high-performing teams that drove...
-duration_seconds: 4570.0
-duration: '1:16:10'
-view_count: 32953
+title: 10 growth tactics that never work | Elena Verna (Amplitude, Miro, Dropbox,
+  SurveyMonkey)
+youtube_url: https://www.youtube.com/watch?v=IHwS2By9UKM
+video_id: IHwS2By9UKM
+publish_date: 2025-01-19
+description: 'Elena Verna is one of Silicon Valley’s most sought-after growth advisors
+  and operators. She previously led growth at companies like Amplitude, Miro, Dropbox,
+  and SurveyMonkey and is currently...
+
+  '
+duration_seconds: 5710.0
+duration: '1:35:10'
+view_count: 94594
 channel: Lenny's Podcast
 keywords:
 - product-market fit
@@ -29,7 +32,7 @@ keywords:
 - funnel
 ---
 
-# The ultimate guide to product-led sales | Elena Verna
+# 10 growth tactics that never work | Elena Verna (Amplitude, Miro, Dropbox, SurveyMonkey)
 
 ## Transcript
 

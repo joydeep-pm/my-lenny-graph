@@ -12,8 +12,8 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 
   const title = `${episode.guest} - Lenny's Podcast | PM Philosophy`;
   const description = episode.description || `Listen to ${episode.guest} on Lenny's Podcast`;
-  const ogImageUrl = `/og/${episode.slug}.png`;
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://lenny.productbuilder.net';
+  const ogImageUrl = `${baseUrl}/og/${episode.slug}.png`;
 
   return {
     title,
