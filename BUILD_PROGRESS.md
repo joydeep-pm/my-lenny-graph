@@ -1284,28 +1284,139 @@ Transcripts need to be obtained/added for:
 
 ---
 
-## 📊 Updated Coverage Status (Post-Session 10)
+## ✅ Session 11: Teaser Episode Removal & Curated Episode Fixes (Jan 25, 2026)
 
-**Episode Directories:** 298
-**Entries in allEpisodes.ts:** 298 ✅
-**Transcripts Available:** 289 (9 missing)
-**Episodes Curated:** 24/298 (8.1%)
+### 🗑️ Teaser Episode Removed
 
-**Data Quality:**
-- ✅ Multi-time guest metadata corrected for 14 guests
-- ✅ Duplicate transcripts identified and marked as missing
-- ✅ shreyas-doshi-live duplicate removed
-- ✅ shreyas-doshi-20 dialogueCount fixed (0 → 100)
-- ✅ Chip Conley metadata corrected
-- ⚠️ 9 transcripts need to be sourced
+**teaser_2021 episode completely removed from codebase** ✅
+- Deleted from `lib/allEpisodes.ts`
+- Deleted from `lib/insightsData.ts`
+- Deleted from `lib/episodesData.ts`
+- Deleted from `scripts/extraction-progress.json`
+- Deleted from `index/episodes.md`
+- Deleted from `index/entrepreneurship.md`
+- Deleted from `index/community-building.md`
+- Deleted `episodes/teaser_2021/` directory
+- Deleted `public/og/teaser_2021.png`
 
-**Next Priority:**
-1. Source missing 1.0 transcripts
-2. Continue recommendation engine enhancements
+### 🔢 Episode Count Updated (298 → 297)
+
+Updated all references to 298 to 297:
+- `lib/zones.ts` - TOTAL_EPISODES constant
+- `lib/allEpisodes.ts` - comment header
+- `lib/insightsData.ts` - comment header and insightsStats.totalEpisodes
+- `scripts/build-verified.ts` - TOTAL_EPISODES constant
+- `scripts/curation-stats.ts` - TOTAL_EPISODES constant
+- `scripts/parse-all-episodes.js` - comments and console output
+- `scripts/generate-og-images.js` - comment
+- `scripts/generate-home-og-image.js` - SVG text
+- `scripts/generate-explore-og-image.js` - SVG text
+- `app/page.tsx` - landing page display
+- `app/explore/page.tsx` - header display
+- `app/explore/layout.tsx` - SEO metadata (title, description, OpenGraph, Twitter)
+- `app/results/page.tsx` - recommendations message
+
+**OG Images regenerated** with correct episode count.
+
+### 🔧 Critical Curated Episode Fixes
+
+**4 curated episodes were attached to wrong slugs!** ✅ FIXED
+
+The following curated content was from 2.0 episodes but incorrectly stored with 1.0 slugs:
+
+| Original File | Content From | Fixed To |
+|---------------|--------------|----------|
+| april-dunford.json | Sales Pitch (2.0) | april-dunford-20.json |
+| dylan-field.json | AI Moat (2.0) | dylan-field-20.json |
+| julie-zhuo.json | Managing AI (2.0) | julie-zhuo-20.json |
+| marty-cagan.json | PM Theater (2.0) | marty-cagan-20.json |
+
+**What was fixed:**
+1. Renamed all 4 JSON files to correct `-20` suffix
+2. Updated `episode_slug` field inside each file
+3. Updated `guest` field to include "2.0" designation
+4. Rebuilt verified-content.json registry
+
+**Correct curated episode now exists:** shreyas-doshi.json (properly points to 1.0 "The art of product management")
+
+### 📋 DialogueCount: 0 Episodes Documented
+
+**30 episodes have dialogueCount: 0** (missing or unparseable transcripts)
+
+This includes:
+- 9 multi-time guest 1.0 episodes with missing transcripts (already documented in Session 10)
+- ~21 additional episodes with transcript issues or metadata mismatches
+
+Some episodes also have title/guest metadata mismatches (e.g., brandon-chu showing Sander Schulhoff's title, ryan-hoover showing Ryan Singer's title). These need investigation.
+
+### 📁 Files Changed This Session
+
+**Deleted:**
+- `episodes/teaser_2021/` directory
+- `public/og/teaser_2021.png`
+
+**Modified (teaser_2021 removal):**
+- `lib/allEpisodes.ts`
+- `lib/insightsData.ts`
+- `lib/episodesData.ts`
+- `scripts/extraction-progress.json`
+- `index/episodes.md`
+- `index/entrepreneurship.md`
+- `index/community-building.md`
+
+**Modified (episode count 298→297):**
+- `lib/zones.ts`
+- `lib/allEpisodes.ts`
+- `lib/insightsData.ts`
+- `scripts/build-verified.ts`
+- `scripts/curation-stats.ts`
+- `scripts/parse-all-episodes.js`
+- `scripts/generate-og-images.js`
+- `scripts/generate-home-og-image.js`
+- `scripts/generate-explore-og-image.js`
+- `app/page.tsx`
+- `app/explore/page.tsx`
+- `app/explore/layout.tsx`
+- `app/results/page.tsx`
+
+**Renamed (curated episode fixes):**
+- `april-dunford.json` → `april-dunford-20.json`
+- `dylan-field.json` → `dylan-field-20.json`
+- `julie-zhuo.json` → `julie-zhuo-20.json`
+- `marty-cagan.json` → `marty-cagan-20.json`
+
+**Regenerated:**
+- `public/og-image.png`
+- `public/explore-og-image.png`
+- `data/verified/verified-content.json`
+- `lib/verifiedContent.ts`
 
 ---
 
-## ✅ Session 11: Podcast Recommendations Engine (Jan 26, 2026)
+## 📊 Updated Coverage Status (Post-Session 11)
+
+**Episode Directories:** 297
+**Entries in allEpisodes.ts:** 297 ✅
+**Transcripts Available:** 267 (~30 with dialogueCount: 0)
+**Episodes Curated:** 24/297 (8.1%)
+
+**Data Quality:**
+- ✅ teaser_2021 episode removed
+- ✅ Episode count updated to 297 everywhere
+- ✅ OG images regenerated with correct count
+- ✅ 4 curated episodes fixed (were attached to wrong slugs)
+- ✅ Verified content registry rebuilt
+- ⚠️ 30 episodes have dialogueCount: 0 (missing/broken transcripts)
+- ⚠️ Some episodes have guest/title metadata mismatches
+
+**Next Priority:**
+1. Investigate and fix guest/title metadata mismatches
+2. Source missing transcripts for high-priority episodes
+3. Continue recommendation engine enhancements
+
+---
+
+## ✅ Session 12: Podcast Recommendations Engine (Jan 26, 2026)
 
 ### 🎯 Recommendations Engine Implementation Complete
 
@@ -1451,12 +1562,12 @@ Enhanced `calculateSimilarityPenalty()` in `lib/recommendations.ts`:
 
 ---
 
-## 📊 Updated Coverage Status (Post-Session 11)
+## 📊 Updated Coverage Status (Post-Session 12)
 
-**Episode Directories:** 298
-**Entries in allEpisodes.ts:** 298 ✅
-**Transcripts Available:** 289 (9 missing)
-**Episodes Curated:** 24/298 (8.1%)
+**Episode Directories:** 297
+**Entries in allEpisodes.ts:** 297 ✅
+**Transcripts Available:** 267 (~30 with dialogueCount: 0)
+**Episodes Curated:** 24/297 (8.1%)
 
 **Data Quality:**
 - ✅ Recommendations engine fully functional with diversity scoring
@@ -1464,14 +1575,16 @@ Enhanced `calculateSimilarityPenalty()` in `lib/recommendations.ts`:
 - ✅ Multi-time guest metadata corrected for 14 guests
 - ✅ shreyas-doshi-live duplicate removed
 - ✅ Chip Conley metadata corrected
-- ⚠️ 9 transcripts need to be sourced
+- ✅ teaser_2021 episode removed
+- ✅ 4 curated episodes fixed (were attached to wrong slugs)
+- ⚠️ ~30 episodes have dialogueCount: 0 (missing/broken transcripts)
 
 ---
 
 ## 🎯 NEXT PRIORITIES
 
 ### Scale Episode Curation
-- Current: 24/298 episodes (8.1%)
+- Current: 24/297 episodes (8.1%)
 - Target: 50+ episodes (17%)
 - Priority: Fill zone gaps
 

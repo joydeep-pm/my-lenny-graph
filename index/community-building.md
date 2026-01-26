@@ -7,5 +7,4 @@ Episodes discussing **community building**:
 - [Janna Bastow](../episodes/janna-bastow/transcript.md)
 - [Nikhyl Singhal](../episodes/nikhyl-singhal/transcript.md)
 - [Sriram and Aarthi](../episodes/sriram-and-aarthi/transcript.md)
-- [Teaser_2021](../episodes/teaser_2021/transcript.md)
 - [Yamashata](../episodes/yamashata/transcript.md)

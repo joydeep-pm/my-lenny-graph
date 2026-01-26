@@ -1,6 +1,6 @@
 // Auto-generated episode insights
 // Generated: 2026-01-20T05:57:17.783Z
-// Total episodes analyzed: 298
+// Total episodes analyzed: 297
 
 export interface EpisodeInsights {
   slug: string;
@@ -27467,24 +27467,6 @@ export const episodeInsights: EpisodeInsights[] = [
     ]
   },
   {
-    "slug": "teaser_2021",
-    "guest": "Teaser_2021",
-    "contrarianViews": [],
-    "quotableMoments": [],
-    "decisions": [],
-    "philosophyAlignment": {
-      "velocity": 0,
-      "perfection": 0,
-      "discovery": 1,
-      "data": 0,
-      "intuition": 1,
-      "alignment": 0,
-      "chaos": 0,
-      "focus": 0
-    },
-    "frameworks": []
-  },
-  {
     "slug": "teresa-torres",
     "guest": "Teresa Torres",
     "contrarianViews": [],
@@ -29711,7 +29693,7 @@ export function getInsightsBySlug(slug: string): EpisodeInsights | undefined {
 }
 
 export const insightsStats = {
-  totalEpisodes: 298,
+  totalEpisodes: 297,
   totalContrarianViews: 284,
   totalQuotableMoments: 2730,
   totalDecisions: 218,

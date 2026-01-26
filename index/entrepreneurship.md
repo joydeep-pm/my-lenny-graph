@@ -12,7 +12,6 @@ Episodes discussing **entrepreneurship**:
 - [Kunal Shah](../episodes/kunal-shah/transcript.md)
 - [Marc Benioff](../episodes/marc-benioff/transcript.md)
 - [Ryan Hoover](../episodes/ryan-hoover/transcript.md)
-- [Teaser_2021](../episodes/teaser_2021/transcript.md)
 - [Tobi Lutke](../episodes/tobi-lutke/transcript.md)
 - [Uri Levine](../episodes/uri-levine/transcript.md)
 - [April Dunford](../episodes/april-dunford/transcript.md)
