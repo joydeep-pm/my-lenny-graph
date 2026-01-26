@@ -1,178 +1,316 @@
 {
   "slug": "casey-winters-20",
-  "guest": "Casey Winters 2.0",
-  "episode_title": "Thinking beyond frameworks | Casey Winters (Pinterest, Eventbrite, Airbnb, Reddit)",
-  "verification_date": "2026-01-24",
-  "verified_by": "claude-sonnet-4.5",
   "quotes": [
     {
-      "id": "casey-winters-20-001",
+      "id": "casey-winters-20-q001",
+      "speaker": "Casey Winters",
       "text": "When interest rates are zero, every startup operates like it's a public company with billions of dollars. Now that I'm interviewing PMs again, they all sort of look the same. They seem pretty ill-prepared for a real startup. You ask them to solve a problem and they'd say things like, 'I can't even begin to come up with solutions until I see all the data and talk to customers.' When's the last time you used your brain versus followed a process someone else designed?",
+      "timestamp": "00:15:22",
       "source": {
-        "line_start": 135,
-        "line_end": 141,
-        "timestamp": "00:15:22",
-        "speaker": "Casey Winters"
+        "slug": "casey-winters-20",
+        "path": "episodes/casey-winters-20/transcript.md",
+        "lineStart": 135,
+        "lineEnd": 141
       },
-      "context": "Describing the 'zero interest rate phenomenon PM' - product managers who've only worked in high-resource environments and can't make decisions under uncertainty.",
-      "themes": ["zirp-pms", "interviewing", "decision-making", "resourcefulness", "frameworks"],
-      "zones": ["chaos", "intuition"],
-      "verified": true
+      "themes": [
+        "zirp-pms",
+        "interviewing",
+        "decision-making",
+        "resourcefulness",
+        "frameworks"
+      ],
+      "zones": [
+        "chaos",
+        "intuition"
+      ]
     },
     {
-      "id": "casey-winters-20-002",
+      "id": "casey-winters-20-q002",
+      "speaker": "Casey Winters",
       "text": "It's certainly okay to learn a bunch of frameworks. There's a reason I've invested a ton of time in Reforge. But you have to understand that the job is not to follow the process. The job is not to learn every framework possible. The job is to figure out how to add value to customers that translates into value to the business. Just reorient your North Star.",
+      "timestamp": "00:17:17",
       "source": {
-        "line_start": 159,
-        "line_end": 159,
-        "timestamp": "00:17:17",
-        "speaker": "Casey Winters"
+        "slug": "casey-winters-20",
+        "path": "episodes/casey-winters-20/transcript.md",
+        "lineStart": 159,
+        "lineEnd": 159
       },
-      "context": "On frameworks as tools in a toolkit versus a coloring book to stay inside the lines of, emphasizing independent thinking over process adherence.",
-      "themes": ["frameworks", "product-thinking", "value-creation", "independent-thinking"],
-      "zones": ["intuition", "focus"],
-      "verified": true
+      "themes": [
+        "frameworks",
+        "product-thinking",
+        "value-creation",
+        "independent-thinking"
+      ],
+      "zones": [
+        "intuition",
+        "focus"
+      ]
     },
     {
-      "id": "casey-winters-20-003",
+      "id": "casey-winters-20-q003",
+      "speaker": "Casey Winters",
       "text": "At Eventbrite there was this team that didn't ship anything in a quarter. I went to the designer and was like, 'Dude, you didn't ship anything. How could you have gone the entire quarter, not shipped any of your designs and felt that that was okay? There's just no way you can get better as a designer. There's no way you can have an impact on the company. There's no way you can have an impact on our users.'",
+      "timestamp": "00:17:53",
       "source": {
-        "line_start": 161,
-        "line_end": 162,
-        "timestamp": "00:17:53",
-        "speaker": "Casey Winters"
+        "slug": "casey-winters-20",
+        "path": "episodes/casey-winters-20/transcript.md",
+        "lineStart": 161,
+        "lineEnd": 162
       },
-      "context": "On the importance of shipping to learn versus over-preparing, challenging a team that spent an entire quarter without releasing anything.",
-      "themes": ["shipping", "velocity", "learning", "impact"],
-      "zones": ["velocity", "discovery"],
-      "verified": true
+      "themes": [
+        "shipping",
+        "velocity",
+        "learning",
+        "impact"
+      ],
+      "zones": [
+        "velocity",
+        "discovery"
+      ]
     },
     {
-      "id": "casey-winters-20-004",
+      "id": "casey-winters-20-q004",
+      "speaker": "Casey Winters",
       "text": "User research is a scarce resource. We have to reserve it for the areas that have extreme uncertainty and high leverage for getting to certain. If you're redesigning the login page for Eventbrite, you don't need to use that resource to learn what to do. Just go see what FANG and the top unicorns did. They probably did a good job, and our customers use those products so they're going to be familiar with us copying any approach.",
+      "timestamp": "00:11:30",
       "source": {
-        "line_start": 119,
-        "line_end": 120,
-        "timestamp": "00:11:30",
-        "speaker": "Casey Winters"
+        "slug": "casey-winters-20",
+        "path": "episodes/casey-winters-20/transcript.md",
+        "lineStart": 119,
+        "lineEnd": 120
       },
-      "context": "On when to use research versus when to just ship or copy proven patterns, pushing back on over-reliance on research for low-uncertainty problems.",
-      "themes": ["user-research", "leverage", "prioritization", "best-practices"],
-      "zones": ["data", "velocity", "focus"],
-      "verified": true
+      "themes": [
+        "user-research",
+        "leverage",
+        "prioritization",
+        "best-practices"
+      ],
+      "zones": [
+        "data",
+        "velocity",
+        "focus"
+      ]
     },
     {
-      "id": "casey-winters-20-005",
+      "id": "casey-winters-20-q005",
+      "speaker": "Casey Winters",
       "text": "Interviewing is handing out Oscars based on who's prepared the best tell me about a time response, versus actually assessing who can do the job we're hiring for. Most PMs are better PM interviewers than PMs now. I'm a bit contrarian here. I don't ask about your work history. I don't care about your perfectly practiced answers. I'm going to give you real scenarios from the role. If you can't come up with a few reasonable ideas and test them quickly without analyst support or research, I'm just not interested.",
+      "timestamp": "00:22:14",
       "source": {
-        "line_start": 222,
-        "line_end": 228,
-        "timestamp": "00:22:14",
-        "speaker": "Casey Winters"
+        "slug": "casey-winters-20",
+        "path": "episodes/casey-winters-20/transcript.md",
+        "lineStart": 222,
+        "lineEnd": 228
       },
-      "context": "On his contrarian interviewing approach that tests actual job skills rather than rehearsed behavioral answers.",
-      "themes": ["interviewing", "hiring", "assessment", "job-skills"],
-      "zones": ["intuition", "velocity"],
-      "verified": true
+      "themes": [
+        "interviewing",
+        "hiring",
+        "assessment",
+        "job-skills"
+      ],
+      "zones": [
+        "intuition",
+        "velocity"
+      ]
     },
     {
-      "id": "casey-winters-20-006",
+      "id": "casey-winters-20-q006",
+      "speaker": "Casey Winters",
       "text": "If you thought the PM job was just filling in the latest Reforge or Shreyas framework, and then getting that automatic FANG promotion every year and a half, then yeah, you're going to get replaced by AI. The real PM job is the least likely to get replaced over time because you need real subject matter expertise. You need to be trading off a lot of different types of things and making good decisions for the company and for your customers.",
+      "timestamp": "00:24:41",
       "source": {
-        "line_start": 248,
-        "line_end": 249,
-        "timestamp": "00:24:41",
-        "speaker": "Casey Winters"
+        "slug": "casey-winters-20",
+        "path": "episodes/casey-winters-20/transcript.md",
+        "lineStart": 248,
+        "lineEnd": 249
       },
-      "context": "On AI's impact on product management, distinguishing framework-followers from true strategic thinkers who won't be replaced.",
-      "themes": ["ai", "product-management", "frameworks", "expertise"],
-      "zones": ["intuition", "discovery"],
-      "verified": true
+      "themes": [
+        "ai",
+        "product-management",
+        "frameworks",
+        "expertise"
+      ],
+      "zones": [
+        "intuition",
+        "discovery"
+      ]
     },
     {
-      "id": "casey-winters-20-007",
+      "id": "casey-winters-20-q007",
+      "speaker": "Casey Winters",
       "text": "AI is a tool that's trained on sounding smart rather than always necessarily being smart. Someone showed me Notion AI. It said I started my career at Google and worked on Google Trends. None of which happened. It was just complete nonsense. Half of it was completely made up. It sounded plausible, but it wasn't actually true. That would scare me as a PM.",
+      "timestamp": "00:25:10",
       "source": {
-        "line_start": 251,
-        "line_end": 258,
-        "timestamp": "00:25:10",
-        "speaker": "Casey Winters"
+        "slug": "casey-winters-20",
+        "path": "episodes/casey-winters-20/transcript.md",
+        "lineStart": 251,
+        "lineEnd": 258
       },
-      "context": "Warning about AI hallucinations and the danger of tools that sound confident but provide incorrect information.",
-      "themes": ["ai", "caution", "accuracy", "critical-thinking"],
-      "zones": ["data", "perfection"],
-      "verified": true
+      "themes": [
+        "ai",
+        "caution",
+        "accuracy",
+        "critical-thinking"
+      ],
+      "zones": [
+        "data",
+        "perfection"
+      ]
     },
     {
-      "id": "casey-winters-20-008",
+      "id": "casey-winters-20-q008",
+      "speaker": "Casey Winters",
       "text": "If founders are lucky/good enough to find product-market fit, they've usually built up all this intuition that's really hard to explain and may even be subconscious. I've seen some founders be like, 'Cool. I need to let these experts own these areas and get out of their way.' That's actually the opposite of what you want. None of these people know the business as well as you. You actually need to direct them until they show you they've really got it and are making better decisions than you would.",
+      "timestamp": "00:28:26",
       "source": {
-        "line_start": 287,
-        "line_end": 288,
-        "timestamp": "00:28:26",
-        "speaker": "Casey Winters"
+        "slug": "casey-winters-20",
+        "path": "episodes/casey-winters-20/transcript.md",
+        "lineStart": 287,
+        "lineEnd": 288
       },
-      "context": "On the founder intuition vs team expertise framework, arguing founders delegate too early before team members truly understand the business.",
-      "themes": ["founder-intuition", "delegation", "leadership", "product-market-fit"],
-      "zones": ["intuition", "alignment"],
-      "verified": true
+      "themes": [
+        "founder-intuition",
+        "delegation",
+        "leadership",
+        "product-market-fit"
+      ],
+      "zones": [
+        "intuition",
+        "alignment"
+      ]
     },
     {
-      "id": "casey-winters-20-009",
+      "id": "casey-winters-20-q009",
+      "speaker": "Casey Winters",
       "text": "When you start scaling the company, it's the first time that founders run into what got you here won't get you there. What got you to product-market fit was iterating on product and doing things that don't scale. Guess what? You found a product that works. Don't do that anymore. Make it scale. Don't come up with new products. You found the one that works.",
+      "timestamp": "00:32:08",
       "source": {
-        "line_start": 306,
-        "line_end": 309,
-        "timestamp": "00:32:08",
-        "speaker": "Casey Winters"
+        "slug": "casey-winters-20",
+        "path": "episodes/casey-winters-20/transcript.md",
+        "lineStart": 306,
+        "lineEnd": 309
       },
-      "context": "On the critical mindset shift from finding PMF (iterate constantly) to scaling PMF (stop changing the core product, focus on distribution).",
-      "themes": ["scaling", "product-market-fit", "mindset-shift", "focus"],
-      "zones": ["focus", "velocity"],
-      "verified": true
+      "themes": [
+        "scaling",
+        "product-market-fit",
+        "mindset-shift",
+        "focus"
+      ],
+      "zones": [
+        "focus",
+        "velocity"
+      ]
     },
     {
-      "id": "casey-winters-20-010",
+      "id": "casey-winters-20-q010",
+      "speaker": "Casey Winters",
       "text": "At the Grubhub competitor we acquired, they were largely in the same phase as us but still operated like they were founding the company. Everything was going through the founder. Intuitively, I was like, 'Oh, this is why we're acquiring you, and not the other way around.' Everything was not moving as quickly because everything had to go through the same person to get done. They just bottlenecked themselves.",
+      "timestamp": "00:32:39",
       "source": {
-        "line_start": 311,
-        "line_end": 321,
-        "timestamp": "00:32:39",
-        "speaker": "Casey Winters"
+        "slug": "casey-winters-20",
+        "path": "episodes/casey-winters-20/transcript.md",
+        "lineStart": 311,
+        "lineEnd": 321
       },
-      "context": "On how founders who don't delegate at scale create bottlenecks that lead to being acquired rather than winning.",
-      "themes": ["delegation", "bottlenecks", "scaling", "founder-mode"],
-      "zones": ["alignment", "velocity"],
-      "verified": true
+      "themes": [
+        "delegation",
+        "bottlenecks",
+        "scaling",
+        "founder-mode"
+      ],
+      "zones": [
+        "alignment",
+        "velocity"
+      ]
     },
     {
-      "id": "casey-winters-20-011",
+      "id": "casey-winters-20-q011",
+      "speaker": "Casey Winters",
       "text": "It's their company. They can run it any way they want. If you state your point, you've built up the expertise, you're confident and you are refuted, you have to find ways to be contrarian and prove you're right. Different founders have different forms of feedback they listen to. You try to figure out what actually influences the CEO and build that case, whether it's through an experiment, the right customer intro, the right external advisor. If they rebuke that as well, then you got to disagree and commit, or find a new company to join.",
+      "timestamp": "00:35:08",
       "source": {
-        "line_start": 339,
-        "line_end": 345,
-        "timestamp": "00:35:08",
-        "speaker": "Casey Winters"
+        "slug": "casey-winters-20",
+        "path": "episodes/casey-winters-20/transcript.md",
+        "lineStart": 339,
+        "lineEnd": 345
       },
-      "context": "On how to influence founders who won't listen to direct feedback, by understanding what forms of feedback they do respond to.",
-      "themes": ["influence", "founder-dynamics", "disagree-and-commit", "political-savvy"],
-      "zones": ["alignment", "intuition"],
-      "verified": true
+      "themes": [
+        "influence",
+        "founder-dynamics",
+        "disagree-and-commit",
+        "political-savvy"
+      ],
+      "zones": [
+        "alignment",
+        "intuition"
+      ]
     },
     {
-      "id": "casey-winters-20-012",
+      "id": "casey-winters-20-q012",
+      "speaker": "Casey Winters",
       "text": "During existential threats, it's like when Nassim Taleb says, 'The only rational reaction is overreaction.' Unless you have a real viable reason to assume otherwise, you got to assume the disruptor is right and base your strategy on them playing an optimal game. Whereas, I think Grubhub assumed the disruptor was wrong and that it would all play out eventually in their favor, and it clearly didn't.",
+      "timestamp": "00:50:43",
       "source": {
-        "line_start": 443,
-        "line_end": 444,
-        "timestamp": "00:50:43",
-        "speaker": "Casey Winters"
+        "slug": "casey-winters-20",
+        "path": "episodes/casey-winters-20/transcript.md",
+        "lineStart": 443,
+        "lineEnd": 444
       },
-      "context": "On lessons from Grubhub vs DoorDash, arguing you must assume disruptors are right and overreact to existential threats rather than waiting to see if they fail.",
-      "themes": ["disruption", "competitive-strategy", "existential-threats", "overreaction"],
-      "zones": ["chaos", "intuition"],
-      "verified": true
+      "themes": [
+        "disruption",
+        "competitive-strategy",
+        "existential-threats",
+        "overreaction"
+      ],
+      "zones": [
+        "chaos",
+        "intuition"
+      ]
     }
+  ],
+  "themes": [
+    "zirp-pms",
+    "interviewing",
+    "decision-making",
+    "resourcefulness",
+    "frameworks",
+    "product-thinking",
+    "value-creation",
+    "independent-thinking",
+    "shipping",
+    "velocity",
+    "learning",
+    "impact",
+    "user-research",
+    "leverage",
+    "prioritization",
+    "best-practices",
+    "hiring",
+    "assessment",
+    "job-skills",
+    "ai",
+    "product-management",
+    "expertise",
+    "caution",
+    "accuracy",
+    "critical-thinking",
+    "founder-intuition",
+    "delegation",
+    "leadership",
+    "product-market-fit",
+    "scaling",
+    "mindset-shift",
+    "focus",
+    "bottlenecks",
+    "founder-mode",
+    "influence",
+    "founder-dynamics",
+    "disagree-and-commit",
+    "political-savvy",
+    "disruption",
+    "competitive-strategy",
+    "existential-threats",
+    "overreaction"
   ],
   "takeaways": [
     "ZIRP phenomenon PMs are ill-prepared for resource-constrained environments - they've learned to follow frameworks and processes but can't use their brain to make decisions under uncertainty without data teams and research support.",
@@ -182,11 +320,11 @@
     "When facing existential threats from disruptors, the only rational reaction is overreaction. Assume they're right and base your strategy on them playing an optimal game, rather than hoping their model fails."
   ],
   "zone_influence": {
-    "velocity": 0.20,
+    "velocity": 0.2,
     "perfection": 0.05,
-    "discovery": 0.10,
-    "data": 0.10,
-    "intuition": 0.30,
+    "discovery": 0.1,
+    "data": 0.1,
+    "intuition": 0.3,
     "alignment": 0.15,
     "chaos": 0.15,
     "focus": 0.15
@@ -195,27 +333,43 @@
     {
       "quoteId": "casey-winters-20-001",
       "why": "Calls out an entire generation of PMs as unprepared - provocative critique of framework-driven product management",
-      "related_zones": ["chaos", "intuition"]
+      "related_zones": [
+        "chaos",
+        "intuition"
+      ]
     },
     {
       "quoteId": "casey-winters-20-005",
       "why": "Rejects standard behavioral interviewing in favor of testing actual job skills - contrarian hiring approach",
-      "related_zones": ["intuition"]
+      "related_zones": [
+        "intuition"
+      ]
     },
     {
       "quoteId": "casey-winters-20-008",
       "why": "Argues founders delegate too early, opposite of common advice to 'hire experts and get out of their way'",
-      "related_zones": ["intuition", "alignment"]
+      "related_zones": [
+        "intuition",
+        "alignment"
+      ]
     },
     {
       "quoteId": "casey-winters-20-012",
       "why": "Advocates overreaction to threats rather than measured response - citing Taleb's provocative maxim",
-      "related_zones": ["chaos"]
+      "related_zones": [
+        "chaos"
+      ]
     }
   ],
   "guest_metadata": {
     "guest_type": "operator",
     "company_stage": "growth",
-    "primary_topics": ["frameworks", "hiring", "ai", "founder-delegation", "disruption"]
+    "primary_topics": [
+      "frameworks",
+      "hiring",
+      "ai",
+      "founder-delegation",
+      "disruption"
+    ]
   }
 }

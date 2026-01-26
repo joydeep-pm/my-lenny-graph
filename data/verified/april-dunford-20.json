@@ -1,178 +1,298 @@
 {
   "slug": "april-dunford-20",
-  "guest": "April Dunford 2.0",
-  "episode_title": "A step-by-step guide to crafting a sales pitch that wins | April Dunford (author of Sales Pitch)",
-  "verification_date": "2026-01-22",
-  "verified_by": "claude-agent",
   "quotes": [
     {
-      "id": "april-dunford-001",
+      "id": "april-dunford-q001",
+      "speaker": "April Dunford",
       "text": "40 to 60% of B2B purchase processes end in no decision. The majority of those couldn't figure out how to make a choice confidently. So what they did was they just went to their boss and said, 'You know what? Now's not a good time. Let's not do it now. Let's do it next year.'",
+      "timestamp": "00:23:00",
       "source": {
-        "line_start": 198,
-        "line_end": 202,
-        "timestamp": "00:23:00",
-        "speaker": "April Dunford"
+        "slug": "april-dunford-20",
+        "path": "episodes/april-dunford-20/transcript.md",
+        "lineStart": 198,
+        "lineEnd": 202
       },
-      "context": "Explaining why B2B buyers delay decisions - not because status quo is better, but because they're overwhelmed and afraid of making the wrong choice",
-      "themes": ["sales", "buyer-psychology", "indecision", "b2b"],
-      "zones": ["discovery", "data"],
-      "verified": true
+      "themes": [
+        "sales",
+        "buyer-psychology",
+        "indecision",
+        "b2b"
+      ],
+      "zones": [
+        "discovery",
+        "data"
+      ]
     },
     {
-      "id": "april-dunford-002",
+      "id": "april-dunford-q002",
+      "speaker": "April Dunford",
       "text": "What B2B software buyers want in a sales interaction is perspectives on the market and help weighing their options. And we don't do that. We're just like, 'Here's our stuff. You figure it out, it's up to you.'",
+      "timestamp": "00:22:03",
       "source": {
-        "line_start": 193,
-        "line_end": 193,
-        "timestamp": "00:22:03",
-        "speaker": "April Dunford"
+        "slug": "april-dunford-20",
+        "path": "episodes/april-dunford-20/transcript.md",
+        "lineStart": 193,
+        "lineEnd": 193
       },
-      "context": "Contrasting what buyers actually need versus what sales teams typically provide",
-      "themes": ["sales", "buyer-psychology", "positioning", "teaching"],
-      "zones": ["discovery", "alignment"],
-      "verified": true
+      "themes": [
+        "sales",
+        "buyer-psychology",
+        "positioning",
+        "teaching"
+      ],
+      "zones": [
+        "discovery",
+        "alignment"
+      ]
     },
     {
-      "id": "april-dunford-003",
+      "id": "april-dunford-q003",
+      "speaker": "April Dunford",
       "text": "The way we combat buyer indecision is not just talking about ourselves, it's actually about trying to be helpful to that person in this very stressful situation that is trying to figure out how do I make a really good decision.",
+      "timestamp": "00:24:27",
       "source": {
-        "line_start": 208,
-        "line_end": 208,
-        "timestamp": "00:24:27",
-        "speaker": "April Dunford"
+        "slug": "april-dunford-20",
+        "path": "episodes/april-dunford-20/transcript.md",
+        "lineStart": 208,
+        "lineEnd": 208
       },
-      "context": "Describing the shift from product-centric to buyer-centric sales approach",
-      "themes": ["sales", "empathy", "buyer-psychology", "teaching"],
-      "zones": ["discovery", "alignment"],
-      "verified": true
+      "themes": [
+        "sales",
+        "empathy",
+        "buyer-psychology",
+        "teaching"
+      ],
+      "zones": [
+        "discovery",
+        "alignment"
+      ]
     },
     {
-      "id": "april-dunford-004",
+      "id": "april-dunford-q004",
+      "speaker": "April Dunford",
       "text": "If a customer is indecisive, throwing FOMO into the mix makes it worse. They're less likely to close the deal if you throw that in. They're already stressed out and you're just putting more stress on them by pressuring them.",
+      "timestamp": "00:26:49",
       "source": {
-        "line_start": 230,
-        "line_end": 232,
-        "timestamp": "00:26:49",
-        "speaker": "April Dunford"
+        "slug": "april-dunford-20",
+        "path": "episodes/april-dunford-20/transcript.md",
+        "lineStart": 230,
+        "lineEnd": 232
       },
-      "context": "Citing research from The JOLT Effect that studied 2.5 million sales calls",
-      "themes": ["sales", "buyer-psychology", "research", "fomo"],
-      "zones": ["data", "discovery"],
-      "verified": true
+      "themes": [
+        "sales",
+        "buyer-psychology",
+        "research",
+        "fomo"
+      ],
+      "zones": [
+        "data",
+        "discovery"
+      ]
     },
     {
-      "id": "april-dunford-005",
+      "id": "april-dunford-q005",
+      "speaker": "April Dunford",
       "text": "There is this secondary job that the champion of the deal has, and that's how do I make a decision without getting fired? And so we got to help them accomplish that job, otherwise we don't get what we want, which is the money.",
+      "timestamp": "00:29:28",
       "source": {
-        "line_start": 259,
-        "line_end": 259,
-        "timestamp": "00:29:28",
-        "speaker": "April Dunford"
+        "slug": "april-dunford-20",
+        "path": "episodes/april-dunford-20/transcript.md",
+        "lineStart": 259,
+        "lineEnd": 259
       },
-      "context": "Discussing Jobs To Be Done framework applied to B2B software buying",
-      "themes": ["jobs-to-be-done", "buyer-psychology", "risk", "b2b"],
-      "zones": ["discovery", "alignment"],
-      "verified": true
+      "themes": [
+        "jobs-to-be-done",
+        "buyer-psychology",
+        "risk",
+        "b2b"
+      ],
+      "zones": [
+        "discovery",
+        "alignment"
+      ]
     },
     {
-      "id": "april-dunford-006",
+      "id": "april-dunford-q006",
+      "speaker": "April Dunford",
       "text": "Once we realize that the champion is the key, then we can get really tight on our positioning in our sales pitch. What we're really trying to do is just cook the champion, and then once the deal's going we got to arm the champion for how to handle all these objections of all these other groups.",
+      "timestamp": "00:32:46",
       "source": {
-        "line_start": 281,
-        "line_end": 283,
-        "timestamp": "00:32:46",
-        "speaker": "April Dunford"
+        "slug": "april-dunford-20",
+        "path": "episodes/april-dunford-20/transcript.md",
+        "lineStart": 281,
+        "lineEnd": 283
       },
-      "context": "Explaining B2B buying complexity with 5-7 stakeholders involved",
-      "themes": ["b2b", "stakeholder-management", "sales", "positioning"],
-      "zones": ["alignment", "focus"],
-      "verified": true
+      "themes": [
+        "b2b",
+        "stakeholder-management",
+        "sales",
+        "positioning"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
     },
     {
-      "id": "april-dunford-007",
+      "id": "april-dunford-q007",
+      "speaker": "April Dunford",
       "text": "Differentiated value is the answer to the question why pick us over the other alternatives? It's value that the other guys can't deliver because they don't have the capabilities that underpin it.",
+      "timestamp": "00:40:06",
       "source": {
-        "line_start": 328,
-        "line_end": 331,
-        "timestamp": "00:40:06",
-        "speaker": "April Dunford"
+        "slug": "april-dunford-20",
+        "path": "episodes/april-dunford-20/transcript.md",
+        "lineStart": 328,
+        "lineEnd": 331
       },
-      "context": "Defining the core concept that drives effective positioning and sales pitches",
-      "themes": ["positioning", "differentiation", "value", "competitive-advantage"],
-      "zones": ["focus", "perfection"],
-      "verified": true
+      "themes": [
+        "positioning",
+        "differentiation",
+        "value",
+        "competitive-advantage"
+      ],
+      "zones": [
+        "focus",
+        "perfection"
+      ]
     },
     {
-      "id": "april-dunford-008",
+      "id": "april-dunford-q008",
+      "speaker": "April Dunford",
       "text": "The posture we should have is calm confidence. We really understand why people should pick us. We should be able to come in and say, 'Look, if you don't care about those results, you shouldn't pick us. You should pick someone else.'",
+      "timestamp": "00:45:03",
       "source": {
-        "line_start": 358,
-        "line_end": 361,
-        "timestamp": "00:45:03",
-        "speaker": "April Dunford"
+        "slug": "april-dunford-20",
+        "path": "episodes/april-dunford-20/transcript.md",
+        "lineStart": 358,
+        "lineEnd": 361
       },
-      "context": "Describing the ideal sales posture when discussing competitors",
-      "themes": ["sales", "confidence", "positioning", "qualification"],
-      "zones": ["focus", "perfection"],
-      "verified": true
+      "themes": [
+        "sales",
+        "confidence",
+        "positioning",
+        "qualification"
+      ],
+      "zones": [
+        "focus",
+        "perfection"
+      ]
     },
     {
-      "id": "april-dunford-009",
+      "id": "april-dunford-q009",
+      "speaker": "April Dunford",
       "text": "Obviously creating a category is not the only way to create a legendary business because the vast majority of legendary businesses did not create the categories that they're in. Google did not create search, Facebook did not create social network.",
+      "timestamp": "00:49:53",
       "source": {
-        "line_start": 381,
-        "line_end": 382,
-        "timestamp": "00:49:53",
-        "speaker": "April Dunford"
+        "slug": "april-dunford-20",
+        "path": "episodes/april-dunford-20/transcript.md",
+        "lineStart": 381,
+        "lineEnd": 382
       },
-      "context": "Pushing back on the 'category creation or bust' narrative",
-      "themes": ["category-creation", "positioning", "contrarian", "strategy"],
-      "zones": ["focus", "data"],
-      "verified": true
+      "themes": [
+        "category-creation",
+        "positioning",
+        "contrarian",
+        "strategy"
+      ],
+      "zones": [
+        "focus",
+        "data"
+      ]
     },
     {
-      "id": "april-dunford-010",
+      "id": "april-dunford-q010",
+      "speaker": "April Dunford",
       "text": "Most category creators actually get overtaken by fast followers. What happened to MySpace? What happened to Ask Jeeves? Most category creators wins their market. Like what happened to MySpace? It didn't work out so good for them.",
+      "timestamp": "00:51:38",
       "source": {
-        "line_start": 388,
-        "line_end": 388,
-        "timestamp": "00:51:38",
-        "speaker": "April Dunford"
+        "slug": "april-dunford-20",
+        "path": "episodes/april-dunford-20/transcript.md",
+        "lineStart": 388,
+        "lineEnd": 388
       },
-      "context": "Challenging the myth that category creators always dominate their markets",
-      "themes": ["category-creation", "contrarian", "market-dynamics", "competition"],
-      "zones": ["data", "chaos"],
-      "verified": true
+      "themes": [
+        "category-creation",
+        "contrarian",
+        "market-dynamics",
+        "competition"
+      ],
+      "zones": [
+        "data",
+        "chaos"
+      ]
     },
     {
-      "id": "april-dunford-011",
+      "id": "april-dunford-q011",
+      "speaker": "April Dunford",
       "text": "In the work I do with clients, generally what we're working on is a shift in the positioning. For the most part what was happening in the sales pitch is there was no positioning going on at all. The sales pitch was essentially a product exposition, just feature, feature, feature, feature, feature.",
+      "timestamp": "00:05:53",
       "source": {
-        "line_start": 106,
-        "line_end": 109,
-        "timestamp": "00:05:53",
-        "speaker": "April Dunford"
+        "slug": "april-dunford-20",
+        "path": "episodes/april-dunford-20/transcript.md",
+        "lineStart": 106,
+        "lineEnd": 109
       },
-      "context": "Diagnosing the core problem with most B2B sales pitches",
-      "themes": ["sales", "positioning", "product-marketing", "features-vs-value"],
-      "zones": ["discovery", "perfection"],
-      "verified": true
+      "themes": [
+        "sales",
+        "positioning",
+        "product-marketing",
+        "features-vs-value"
+      ],
+      "zones": [
+        "discovery",
+        "perfection"
+      ]
     },
     {
-      "id": "april-dunford-012",
+      "id": "april-dunford-q012",
+      "speaker": "April Dunford",
       "text": "I worked at a company where I was the VP marketing, and we, within two quarters, had doubled the revenue just by tightening up the pitch. Just tighten it up. Most of the time, the pitches are so bad that if we could improve it even a little bit, it actually has this big impact.",
+      "timestamp": "01:09:00",
       "source": {
-        "line_start": 517,
-        "line_end": 535,
-        "timestamp": "01:09:00",
-        "speaker": "April Dunford"
+        "slug": "april-dunford-20",
+        "path": "episodes/april-dunford-20/transcript.md",
+        "lineStart": 517,
+        "lineEnd": 535
       },
-      "context": "Sharing the concrete business impact of improving sales positioning and pitch structure",
-      "themes": ["sales", "revenue", "positioning", "impact"],
-      "zones": ["data", "focus"],
-      "verified": true
+      "themes": [
+        "sales",
+        "revenue",
+        "positioning",
+        "impact"
+      ],
+      "zones": [
+        "data",
+        "focus"
+      ]
     }
+  ],
+  "themes": [
+    "sales",
+    "buyer-psychology",
+    "indecision",
+    "b2b",
+    "positioning",
+    "teaching",
+    "empathy",
+    "research",
+    "fomo",
+    "jobs-to-be-done",
+    "risk",
+    "stakeholder-management",
+    "differentiation",
+    "value",
+    "competitive-advantage",
+    "confidence",
+    "qualification",
+    "category-creation",
+    "contrarian",
+    "strategy",
+    "market-dynamics",
+    "competition",
+    "product-marketing",
+    "features-vs-value",
+    "revenue",
+    "impact"
   ],
   "takeaways": [
     "B2B buyers fear making wrong choices more than missing out - 40-60% of purchase processes end in 'no decision' not because status quo is better, but because buyers can't figure out how to choose confidently",
@@ -184,8 +304,8 @@
   "zone_influence": {
     "velocity": 0.05,
     "perfection": 0.15,
-    "discovery": 0.30,
-    "data": 0.20,
+    "discovery": 0.3,
+    "data": 0.2,
     "intuition": 0.05,
     "alignment": 0.15,
     "chaos": 0.05,
@@ -195,22 +315,37 @@
     {
       "quoteId": "april-dunford-004",
       "why": "Challenges conventional sales wisdom that FOMO and urgency always help close deals - research shows it backfires with indecisive buyers",
-      "related_zones": ["data", "discovery"]
+      "related_zones": [
+        "data",
+        "discovery"
+      ]
     },
     {
       "quoteId": "april-dunford-009",
       "why": "Directly contradicts the popular 'category creation or bust' narrative championed by other thought leaders",
-      "related_zones": ["focus", "data"]
+      "related_zones": [
+        "focus",
+        "data"
+      ]
     },
     {
       "quoteId": "april-dunford-010",
       "why": "Punctures the myth that category creators always win by citing MySpace and Ask Jeeves as examples of pioneers who lost",
-      "related_zones": ["data", "chaos"]
+      "related_zones": [
+        "data",
+        "chaos"
+      ]
     }
   ],
   "guest_metadata": {
     "guest_type": "advisor",
     "company_stage": "mixed",
-    "primary_topics": ["positioning", "marketing", "go-to-market", "b2b", "category-creation"]
+    "primary_topics": [
+      "positioning",
+      "marketing",
+      "go-to-market",
+      "b2b",
+      "category-creation"
+    ]
   }
 }

@@ -1,154 +1,305 @@
 {
   "slug": "elena-verna-30",
-  "guest": "Elena Verna 3.0",
-  "episode_title": "10 growth tactics that never work | Elena Verna (Amplitude, Miro, Dropbox, SurveyMonkey)",
-  "verification_date": "2026-01-20",
-  "verified_by": "warp-agent",
   "quotes": [
     {
-      "id": "elena-verna-30-001",
+      "id": "elena-verna-30-q001",
+      "speaker": "Elena Verna",
       "text": "You have to fail to learn. You can't just constantly succeed. Success is an output of a lot of failures, but the question is, how much time do you have to fail? And a lot of times we don't realize how many failure cycles we're going to have to go through before we get a success, and that company, or even market, has no time for that.",
+      "timestamp": "00:40:12",
       "source": {
-        "line_start": 337,
-        "line_end": 337,
-        "timestamp": "00:40:12",
-        "speaker": "Elena Verna"
+        "slug": "elena-verna-30",
+        "path": "episodes/elena-verna-30/transcript.md",
+        "lineStart": 337,
+        "lineEnd": 337
       },
-      "themes": ["experimentation", "growth", "failure", "learning", "velocity"],
-      "zones": ["velocity", "chaos"]
+      "themes": [
+        "experimentation",
+        "growth",
+        "failure",
+        "learning",
+        "velocity"
+      ],
+      "zones": [
+        "velocity",
+        "chaos"
+      ]
     },
     {
-      "id": "elena-verna-30-002",
+      "id": "elena-verna-30-q002",
+      "speaker": "Elena Verna",
       "text": "Growth cannot function without data. If you have 10 users or 10 customers, that's not data, that's a G-sheet with your customers and you don't need a growth team for that. Until you have data that you can actually do an analysis and you can create hypotheses on and you can start applying experimentation, don't even think about growth team.",
+      "timestamp": "00:10:35",
       "source": {
-        "line_start": 112,
-        "line_end": 112,
-        "timestamp": "00:10:35",
-        "speaker": "Elena Verna"
+        "slug": "elena-verna-30",
+        "path": "episodes/elena-verna-30/transcript.md",
+        "lineStart": 112,
+        "lineEnd": 112
       },
-      "themes": ["data", "growth", "metrics", "experimentation", "product-market-fit"],
-      "zones": ["data", "velocity"]
+      "themes": [
+        "data",
+        "growth",
+        "metrics",
+        "experimentation",
+        "product-market-fit"
+      ],
+      "zones": [
+        "data",
+        "velocity"
+      ]
     },
     {
-      "id": "elena-verna-30-003",
+      "id": "elena-verna-30-q003",
+      "speaker": "Elena Verna",
       "text": "Growth can amplify great product market fit and growth can help you grow faster once you are already growing. But if you are slowing down and you have issues with either your go-to-market strategy or your core product strategy with your core product market fit, growth is going to be absolutely helpless to do anything.",
+      "timestamp": "00:16:59",
       "source": {
-        "line_start": 178,
-        "line_end": 178,
-        "timestamp": "00:16:59",
-        "speaker": "Elena Verna"
+        "slug": "elena-verna-30",
+        "path": "episodes/elena-verna-30/transcript.md",
+        "lineStart": 178,
+        "lineEnd": 178
       },
-      "themes": ["product-market-fit", "growth", "strategy", "retention"],
-      "zones": ["discovery", "focus"]
+      "themes": [
+        "product-market-fit",
+        "growth",
+        "strategy",
+        "retention"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ]
     },
     {
-      "id": "elena-verna-30-004",
+      "id": "elena-verna-30-q004",
+      "speaker": "Elena Verna",
       "text": "Never ever once have I seen a rebrand or redesign, especially of UK marketing site produce good performance results. New CMO comes in designing their website or designing the brand as if it was reflection of their personal taste, and oftentimes it's promised with our acquisition is going to go up and it never materializes into anything meaningful.",
+      "timestamp": "00:20:22",
       "source": {
-        "line_start": 193,
-        "line_end": 193,
-        "timestamp": "00:20:22",
-        "speaker": "Elena Verna"
+        "slug": "elena-verna-30",
+        "path": "episodes/elena-verna-30/transcript.md",
+        "lineStart": 193,
+        "lineEnd": 193
       },
-      "themes": ["marketing", "design", "optimization", "acquisition"],
-      "zones": ["data", "perfection"]
+      "themes": [
+        "marketing",
+        "design",
+        "optimization",
+        "acquisition"
+      ],
+      "zones": [
+        "data",
+        "perfection"
+      ]
     },
     {
-      "id": "elena-verna-30-005",
+      "id": "elena-verna-30-q005",
+      "speaker": "Elena Verna",
       "text": "Benchmarks are usually done on all of the competition, on all of the softwares out there. And the way people define numbers is so different from company to company. Even if you look as something as simple as signups. So taking also any benchmark that is derived from competition and saying, 'This is where we should be,' is also so dangerous because it might not even be applicable depending on how you define the metric.",
+      "timestamp": "00:29:21",
       "source": {
-        "line_start": 253,
-        "line_end": 256,
-        "timestamp": "00:29:21",
-        "speaker": "Elena Verna"
+        "slug": "elena-verna-30",
+        "path": "episodes/elena-verna-30/transcript.md",
+        "lineStart": 253,
+        "lineEnd": 256
       },
-      "themes": ["metrics", "data", "benchmarking", "competition"],
-      "zones": ["data", "discovery"]
+      "themes": [
+        "metrics",
+        "data",
+        "benchmarking",
+        "competition"
+      ],
+      "zones": [
+        "data",
+        "discovery"
+      ]
     },
     {
-      "id": "elena-verna-30-006",
+      "id": "elena-verna-30-q006",
+      "speaker": "Elena Verna",
       "text": "There are patterns and there are frameworks, but there's no shortcuts.",
+      "timestamp": "00:30:20",
       "source": {
-        "line_start": 262,
-        "line_end": 262,
-        "timestamp": "00:30:20",
-        "speaker": "Elena Verna"
+        "slug": "elena-verna-30",
+        "path": "episodes/elena-verna-30/transcript.md",
+        "lineStart": 262,
+        "lineEnd": 262
       },
-      "themes": ["frameworks", "patterns", "growth", "decision-making"],
-      "zones": ["focus", "data"]
+      "themes": [
+        "frameworks",
+        "patterns",
+        "growth",
+        "decision-making"
+      ],
+      "zones": [
+        "focus",
+        "data"
+      ]
     },
     {
-      "id": "elena-verna-30-007",
+      "id": "elena-verna-30-q007",
+      "speaker": "Elena Verna",
       "text": "Your problem is not unique. I am 99% sure of that. Your problem has been felt by somebody somewhere in probably many, many places and you trying to re-engineer solution is time lost to market and has a huge opportunity cost. Do not start from scratch. It's the worst thing that you can do because you can waste so many cycles on trying to do something that probably has already been solved.",
+      "timestamp": "00:34:49",
       "source": {
-        "line_start": 301,
-        "line_end": 304,
-        "timestamp": "00:34:49",
-        "speaker": "Elena Verna"
+        "slug": "elena-verna-30",
+        "path": "episodes/elena-verna-30/transcript.md",
+        "lineStart": 301,
+        "lineEnd": 304
       },
-      "themes": ["problem-solving", "patterns", "velocity", "learning"],
-      "zones": ["velocity", "discovery"]
+      "themes": [
+        "problem-solving",
+        "patterns",
+        "velocity",
+        "learning"
+      ],
+      "zones": [
+        "velocity",
+        "discovery"
+      ]
     },
     {
-      "id": "elena-verna-30-008",
+      "id": "elena-verna-30-q008",
+      "speaker": "Elena Verna",
       "text": "Focusing on these earned channels that you own becomes the outmost priority. And if you don't have them on your growth roadmap, you are going to be in some really big trouble over the next year to two years because your cost of acquisition is only going to go up. Your competition and those channel is only going to go up.",
+      "timestamp": "00:47:05",
       "source": {
-        "line_start": 394,
-        "line_end": 394,
-        "timestamp": "00:47:05",
-        "speaker": "Elena Verna"
+        "slug": "elena-verna-30",
+        "path": "episodes/elena-verna-30/transcript.md",
+        "lineStart": 394,
+        "lineEnd": 394
       },
-      "themes": ["acquisition", "channels", "virality", "product-led-growth"],
-      "zones": ["velocity", "focus"]
+      "themes": [
+        "acquisition",
+        "channels",
+        "virality",
+        "product-led-growth"
+      ],
+      "zones": [
+        "velocity",
+        "focus"
+      ]
     },
     {
-      "id": "elena-verna-30-009",
+      "id": "elena-verna-30-q009",
+      "speaker": "Elena Verna",
       "text": "If every single one of your initiatives that you're doing on growth is an experiment, that's a problem. It's almost like a disease, like a paralyzing disease, that slows down progress, that slows down velocity, that slows down learnings, that creates very terrible consequences to the output that growth teams produce.",
+      "timestamp": "01:06:47",
       "source": {
-        "line_start": 508,
-        "line_end": 511,
-        "timestamp": "01:06:47",
-        "speaker": "Elena Verna"
+        "slug": "elena-verna-30",
+        "path": "episodes/elena-verna-30/transcript.md",
+        "lineStart": 508,
+        "lineEnd": 511
       },
-      "themes": ["experimentation", "velocity", "decision-making", "paralysis"],
-      "zones": ["velocity", "intuition"]
+      "themes": [
+        "experimentation",
+        "velocity",
+        "decision-making",
+        "paralysis"
+      ],
+      "zones": [
+        "velocity",
+        "intuition"
+      ]
     },
     {
-      "id": "elena-verna-30-010",
+      "id": "elena-verna-30-q010",
+      "speaker": "Elena Verna",
       "text": "Data is good, but data is only good if you have enough of it. So if you have low volume real estate, that is going to take you eight months to reach some sort of answer. Do you really want to test it for eight months? My rule of thumb, if we cannot collect the sample size in the month, we shouldn't test it, period.",
+      "timestamp": "01:07:52",
       "source": {
-        "line_start": 517,
-        "line_end": 517,
-        "timestamp": "01:07:52",
-        "speaker": "Elena Verna"
+        "slug": "elena-verna-30",
+        "path": "episodes/elena-verna-30/transcript.md",
+        "lineStart": 517,
+        "lineEnd": 517
       },
-      "themes": ["data", "experimentation", "metrics", "velocity", "decision-making"],
-      "zones": ["data", "velocity", "intuition"]
+      "themes": [
+        "data",
+        "experimentation",
+        "metrics",
+        "velocity",
+        "decision-making"
+      ],
+      "zones": [
+        "data",
+        "velocity",
+        "intuition"
+      ]
     },
     {
-      "id": "elena-verna-30-011",
+      "id": "elena-verna-30-q011",
+      "speaker": "Elena Verna",
       "text": "People stop in this age of data, almost rely enough on their element intuition. Experimentation cannot be the way that people make decisions in the company. There's still so much about knowing your user, understanding the market for your brain to connect all of those dots and to know what needs to be an experience that your customers are going to want.",
+      "timestamp": "01:10:08",
       "source": {
-        "line_start": 529,
-        "line_end": 520,
-        "timestamp": "01:10:08",
-        "speaker": "Elena Verna"
+        "slug": "elena-verna-30",
+        "path": "episodes/elena-verna-30/transcript.md",
+        "lineStart": 529,
+        "lineEnd": 520
       },
-      "themes": ["intuition", "decision-making", "data", "user-research"],
-      "zones": ["intuition", "discovery", "data"]
+      "themes": [
+        "intuition",
+        "decision-making",
+        "data",
+        "user-research"
+      ],
+      "zones": [
+        "intuition",
+        "discovery",
+        "data"
+      ]
     },
     {
-      "id": "elena-verna-30-012",
+      "id": "elena-verna-30-q012",
+      "speaker": "Elena Verna",
       "text": "Growth teams are often too obsessed about removing friction. If you ever have a line item on your roadmap that says simplified onboarding, please cross it out. It's not going to work because simplifying onboarding is an action. What is the problem that you're solving? You always have a problem of people are confused in it, but people don't know where to go or they get lost in it or they're not educated enough. That is the problem.",
+      "timestamp": "01:13:09",
       "source": {
-        "line_start": 549,
-        "line_end": 553,
-        "timestamp": "01:13:09",
-        "speaker": "Elena Verna"
+        "slug": "elena-verna-30",
+        "path": "episodes/elena-verna-30/transcript.md",
+        "lineStart": 549,
+        "lineEnd": 553
       },
-      "themes": ["friction", "onboarding", "problem-solving", "optimization"],
-      "zones": ["discovery", "focus"]
+      "themes": [
+        "friction",
+        "onboarding",
+        "problem-solving",
+        "optimization"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ]
     }
+  ],
+  "themes": [
+    "experimentation",
+    "growth",
+    "failure",
+    "learning",
+    "velocity",
+    "data",
+    "metrics",
+    "product-market-fit",
+    "strategy",
+    "retention",
+    "marketing",
+    "design",
+    "optimization",
+    "acquisition",
+    "benchmarking",
+    "competition",
+    "frameworks",
+    "patterns",
+    "decision-making",
+    "problem-solving",
+    "channels",
+    "virality",
+    "product-led-growth",
+    "paralysis",
+    "intuition",
+    "user-research",
+    "friction",
+    "onboarding"
   ],
   "takeaways": [
     "Growth requires real data (not 10 users) and proven PMF before you can experiment and optimize effectively",
@@ -161,30 +312,45 @@
     "data": 0.35,
     "velocity": 0.25,
     "intuition": 0.15,
-    "discovery": 0.10,
-    "focus": 0.10,
+    "discovery": 0.1,
+    "focus": 0.1,
     "chaos": 0.05
   },
   "contrarian_candidates": [
     {
       "quoteId": "elena-verna-30-004",
       "why": "Claims rebrands/redesigns NEVER produce good results - directly challenges every new CMO's first instinct",
-      "related_zones": ["data", "perfection"]
+      "related_zones": [
+        "data",
+        "perfection"
+      ]
     },
     {
       "quoteId": "elena-verna-30-009",
       "why": "Calls over-experimentation a 'paralyzing disease' - contrarian in an era obsessed with A/B testing",
-      "related_zones": ["velocity", "intuition"]
+      "related_zones": [
+        "velocity",
+        "intuition"
+      ]
     },
     {
       "quoteId": "elena-verna-30-011",
       "why": "Argues people rely too LITTLE on intuition in the data age - pushes back on pure data-driven culture",
-      "related_zones": ["intuition", "data"]
+      "related_zones": [
+        "intuition",
+        "data"
+      ]
     }
   ],
   "guest_metadata": {
     "guest_type": "operator",
     "company_stage": "growth",
-    "primary_topics": ["growth", "plg", "experimentation", "metrics", "rebranding"]
+    "primary_topics": [
+      "growth",
+      "plg",
+      "experimentation",
+      "metrics",
+      "rebranding"
+    ]
   }
 }

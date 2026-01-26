@@ -1,142 +1,290 @@
 {
   "slug": "amjad-masad",
-  "guest": "Amjad Masad",
-  "episode_title": "Behind the product: Replit | Amjad Masad (co-founder and CEO)",
-  "verification_date": "2026-01-20",
-  "verified_by": "warp-agent",
   "quotes": [
     {
-      "id": "amjad-masad-001",
+      "id": "amjad-masad-q001",
+      "speaker": "Amjad Masad",
       "text": "Typically, you're bottlenecked where your ideas are not fitting in because they need to be made and they need to be made quickly. Now, you open up that bottleneck. So now actually making things is a lot easier. Actually, you become limited by how fast you can generate ideas.",
+      "timestamp": "00:00:27",
       "source": {
-        "line_start": 43,
-        "line_end": 43,
-        "timestamp": "00:00:27",
-        "speaker": "Amjad Masad"
+        "slug": "amjad-masad",
+        "path": "episodes/amjad-masad/transcript.md",
+        "lineStart": 43,
+        "lineEnd": 43
       },
-      "themes": ["velocity", "ideas", "bottlenecks", "execution", "creativity"],
-      "zones": ["velocity", "chaos"]
+      "themes": [
+        "velocity",
+        "ideas",
+        "bottlenecks",
+        "execution",
+        "creativity"
+      ],
+      "zones": [
+        "velocity",
+        "chaos"
+      ]
     },
     {
-      "id": "amjad-masad-002",
+      "id": "amjad-masad-q002",
+      "speaker": "Amjad Masad",
       "text": "I could imagine whatever five years from now, someone running a billion-dollar company with zero employees where it's like the support is handled by AI, the development is handled by AI, and you're just building and creating this thing.",
+      "timestamp": "00:00:47",
       "source": {
-        "line_start": 49,
-        "line_end": 49,
-        "timestamp": "00:00:47",
-        "speaker": "Amjad Masad"
+        "slug": "amjad-masad",
+        "path": "episodes/amjad-masad/transcript.md",
+        "lineStart": 49,
+        "lineEnd": 49
       },
-      "themes": ["future", "ai", "automation", "vision", "startups"],
-      "zones": ["chaos", "intuition", "velocity"]
+      "themes": [
+        "future",
+        "ai",
+        "automation",
+        "vision",
+        "startups"
+      ],
+      "zones": [
+        "chaos",
+        "intuition",
+        "velocity"
+      ]
     },
     {
-      "id": "amjad-masad-003",
+      "id": "amjad-masad-q003",
+      "speaker": "Amjad Masad",
       "text": "The vision for Replit has always been is like, okay, making software is fun, is great, more people should do it, but so for more people to do it, it needs to be easier to do, it needs to be in one place, and it needs to be learnable.",
+      "timestamp": "00:03:42",
       "source": {
-        "line_start": 67,
-        "line_end": 67,
-        "timestamp": "00:03:42",
-        "speaker": "Amjad Masad"
+        "slug": "amjad-masad",
+        "path": "episodes/amjad-masad/transcript.md",
+        "lineStart": 67,
+        "lineEnd": 67
       },
-      "themes": ["vision", "democratization", "simplicity", "accessibility"],
-      "zones": ["discovery", "focus"]
+      "themes": [
+        "vision",
+        "democratization",
+        "simplicity",
+        "accessibility"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ]
     },
     {
-      "id": "amjad-masad-004",
+      "id": "amjad-masad-q004",
+      "speaker": "Amjad Masad",
       "text": "I often go with minimalist prompts. That's also how I code as well. I have a vague idea for what I want to build and iterate from there. Other people, product managers like to write PRDs and more descriptive things, and you can do either of those things.",
+      "timestamp": "00:13:47",
       "source": {
-        "line_start": 124,
-        "line_end": 124,
-        "timestamp": "00:13:47",
-        "speaker": "Amjad Masad"
+        "slug": "amjad-masad",
+        "path": "episodes/amjad-masad/transcript.md",
+        "lineStart": 124,
+        "lineEnd": 124
       },
-      "themes": ["iteration", "building", "process", "flexibility"],
-      "zones": ["chaos", "velocity"]
+      "themes": [
+        "iteration",
+        "building",
+        "process",
+        "flexibility"
+      ],
+      "zones": [
+        "chaos",
+        "velocity"
+      ]
     },
     {
-      "id": "amjad-masad-005",
+      "id": "amjad-masad-q005",
+      "speaker": "Amjad Masad",
       "text": "If you think about it's like we're building as you were building, so we're building out the agent so that it can continue getting better as our users are also building their applications.",
+      "timestamp": "00:17:56",
       "source": {
-        "line_start": 142,
-        "line_end": 142,
-        "timestamp": "00:17:56",
-        "speaker": "Amjad Masad"
+        "slug": "amjad-masad",
+        "path": "episodes/amjad-masad/transcript.md",
+        "lineStart": 142,
+        "lineEnd": 142
       },
-      "themes": ["iteration", "building", "meta", "velocity"],
-      "zones": ["velocity", "chaos"]
+      "themes": [
+        "iteration",
+        "building",
+        "meta",
+        "velocity"
+      ],
+      "zones": [
+        "velocity",
+        "chaos"
+      ]
     },
     {
-      "id": "amjad-masad-006",
+      "id": "amjad-masad-q006",
+      "speaker": "Amjad Masad",
       "text": "When the cost of things go down, the total consumption of it goes up. And so I think that's going to be the case of software. As the costs go down, people will just make a lot more software to improve their lives and to improve their work and start more startups and all of that.",
+      "timestamp": "00:24:26",
       "source": {
-        "line_start": 229,
-        "line_end": 229,
-        "timestamp": "00:24:26",
-        "speaker": "Amjad Masad"
+        "slug": "amjad-masad",
+        "path": "episodes/amjad-masad/transcript.md",
+        "lineStart": 229,
+        "lineEnd": 229
       },
-      "themes": ["economics", "velocity", "startups", "future"],
-      "zones": ["velocity", "chaos"]
+      "themes": [
+        "economics",
+        "velocity",
+        "startups",
+        "future"
+      ],
+      "zones": [
+        "velocity",
+        "chaos"
+      ]
     },
     {
-      "id": "amjad-masad-007",
+      "id": "amjad-masad-q007",
+      "speaker": "Amjad Masad",
       "text": "These silos between designers, product managers, and engineers. Everyone feels that pain of, we have low bandwidth communication, which is language and then text on Slack and Zoom calls. The common language that everyone shares is code. What if the language becomes actually working prototypes and working applications?",
+      "timestamp": "00:41:08",
       "source": {
-        "line_start": 358,
-        "line_end": 361,
-        "timestamp": "00:41:08",
-        "speaker": "Amjad Masad"
+        "slug": "amjad-masad",
+        "path": "episodes/amjad-masad/transcript.md",
+        "lineStart": 358,
+        "lineEnd": 361
       },
-      "themes": ["collaboration", "communication", "silos", "prototypes"],
-      "zones": ["alignment", "velocity"]
+      "themes": [
+        "collaboration",
+        "communication",
+        "silos",
+        "prototypes"
+      ],
+      "zones": [
+        "alignment",
+        "velocity"
+      ]
     },
     {
-      "id": "amjad-masad-008",
+      "id": "amjad-masad-q008",
+      "speaker": "Amjad Masad",
       "text": "Being generative, being able to generate new ideas quickly, because you can think about it as a factory line. Typically you're bottlenecked by the middle part where your ideas are kind of like they're a lot of them and they're not fitting in, because they need to be made and they need to be made quickly. Now you open up that bottleneck. Actually, you become limited by how fast you can generate ideas.",
+      "timestamp": "00:44:25",
       "source": {
-        "line_start": 367,
-        "line_end": 367,
-        "timestamp": "00:44:25",
-        "speaker": "Amjad Masad"
+        "slug": "amjad-masad",
+        "path": "episodes/amjad-masad/transcript.md",
+        "lineStart": 367,
+        "lineEnd": 367
       },
-      "themes": ["creativity", "ideas", "bottlenecks", "velocity", "generative"],
-      "zones": ["chaos", "velocity", "intuition"]
+      "themes": [
+        "creativity",
+        "ideas",
+        "bottlenecks",
+        "velocity",
+        "generative"
+      ],
+      "zones": [
+        "chaos",
+        "velocity",
+        "intuition"
+      ]
     },
     {
-      "id": "amjad-masad-009",
+      "id": "amjad-masad-q009",
+      "speaker": "Amjad Masad",
       "text": "The return on investment for learn to code is doubling every six months. Every six months, that's netting you more and more power because you're going to be able to create a lot more. It's going to be easier to create. You're going to be able to create a lot more complete things.",
+      "timestamp": "00:47:09",
       "source": {
-        "line_start": 373,
-        "line_end": 373,
-        "timestamp": "00:47:09",
-        "speaker": "Amjad Masad"
+        "slug": "amjad-masad",
+        "path": "episodes/amjad-masad/transcript.md",
+        "lineStart": 373,
+        "lineEnd": 373
       },
-      "themes": ["learning", "velocity", "roi", "future", "skills"],
-      "zones": ["velocity", "discovery"]
+      "themes": [
+        "learning",
+        "velocity",
+        "roi",
+        "future",
+        "skills"
+      ],
+      "zones": [
+        "velocity",
+        "discovery"
+      ]
     },
     {
-      "id": "amjad-masad-010",
+      "id": "amjad-masad-q010",
+      "speaker": "Amjad Masad",
       "text": "The way we work is going to change rapidly, and it's important to be resilient to that change. You want to be able to react to it really quickly. When the Anthropic drop the computer use set of capability, we slaughtered our roadmap. We immediately jumped on it and started building things. Being agile, not being stuck with roadmaps, being able to just say, oh, we're just going to switch priorities right away, is going to be super important.",
+      "timestamp": "00:56:43",
       "source": {
-        "line_start": 424,
-        "line_end": 424,
-        "timestamp": "00:56:43",
-        "speaker": "Amjad Masad"
+        "slug": "amjad-masad",
+        "path": "episodes/amjad-masad/transcript.md",
+        "lineStart": 424,
+        "lineEnd": 424
       },
-      "themes": ["agility", "change", "roadmaps", "velocity", "adaptation"],
-      "zones": ["chaos", "velocity"]
+      "themes": [
+        "agility",
+        "change",
+        "roadmaps",
+        "velocity",
+        "adaptation"
+      ],
+      "zones": [
+        "chaos",
+        "velocity"
+      ]
     },
     {
-      "id": "amjad-masad-011",
+      "id": "amjad-masad-q011",
+      "speaker": "Amjad Masad",
       "text": "You got to be fluid because when designers can code and engineers can design, it really becomes, you can't have a lot of structure around that. So you want to build a culture and you want to build an environment or milieu that is really, really flexible, which is uncomfortable for a lot of people.",
+      "timestamp": "00:57:59",
       "source": {
-        "line_start": 427,
-        "line_end": 427,
-        "timestamp": "00:57:59",
-        "speaker": "Amjad Masad"
+        "slug": "amjad-masad",
+        "path": "episodes/amjad-masad/transcript.md",
+        "lineStart": 427,
+        "lineEnd": 427
       },
-      "themes": ["culture", "flexibility", "silos", "cross-functional"],
-      "zones": ["chaos", "alignment"]
+      "themes": [
+        "culture",
+        "flexibility",
+        "silos",
+        "cross-functional"
+      ],
+      "zones": [
+        "chaos",
+        "alignment"
+      ]
     }
+  ],
+  "themes": [
+    "velocity",
+    "ideas",
+    "bottlenecks",
+    "execution",
+    "creativity",
+    "future",
+    "ai",
+    "automation",
+    "vision",
+    "startups",
+    "democratization",
+    "simplicity",
+    "accessibility",
+    "iteration",
+    "building",
+    "process",
+    "flexibility",
+    "meta",
+    "economics",
+    "collaboration",
+    "communication",
+    "silos",
+    "prototypes",
+    "generative",
+    "learning",
+    "roi",
+    "skills",
+    "agility",
+    "change",
+    "roadmaps",
+    "adaptation",
+    "culture",
+    "cross-functional"
   ],
   "takeaways": [
     "The bottleneck is shifting from execution to idea generation - when tools make building easy, creativity becomes the constraint",
@@ -147,31 +295,47 @@
   ],
   "zone_influence": {
     "chaos": 0.35,
-    "velocity": 0.30,
+    "velocity": 0.3,
     "intuition": 0.15,
-    "alignment": 0.10,
-    "discovery": 0.10
+    "alignment": 0.1,
+    "discovery": 0.1
   },
   "contrarian_candidates": [
     {
       "quoteId": "amjad-masad-002",
       "why": "Predicts billion-dollar companies with zero employees - provocative vision that challenges traditional company structures",
-      "related_zones": ["chaos", "intuition", "velocity"]
+      "related_zones": [
+        "chaos",
+        "intuition",
+        "velocity"
+      ]
     },
     {
       "quoteId": "amjad-masad-010",
       "why": "Advocates 'slaughtering your roadmap' when new capabilities drop - anti-planning, embracing radical adaptability",
-      "related_zones": ["chaos", "velocity"]
+      "related_zones": [
+        "chaos",
+        "velocity"
+      ]
     },
     {
       "quoteId": "amjad-masad-011",
       "why": "Says structured organizations are incompatible with fluid cross-functional work - 'uncomfortable for a lot of people'",
-      "related_zones": ["chaos", "alignment"]
+      "related_zones": [
+        "chaos",
+        "alignment"
+      ]
     }
   ],
   "guest_metadata": {
     "guest_type": "founder",
     "company_stage": "growth",
-    "primary_topics": ["ai", "developer-tools", "velocity", "org-design", "chaos"]
+    "primary_topics": [
+      "ai",
+      "developer-tools",
+      "velocity",
+      "org-design",
+      "chaos"
+    ]
   }
 }
