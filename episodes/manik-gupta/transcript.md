@@ -2,14 +2,21 @@
 guest: Manik Gupta
 title: Manik Gupta (ex-CPO Uber, Google Maps) on how to build consumer apps, why it’s useful to be optimistic about technology, creating inflections in your PM career, the changing CPO role, and more
 youtube_url: https://www.lennysnewsletter.com/p/manik-gupta-ex-cpo-uber-google-maps
-video_id: [NO YOUTUBE VIDEO AVAILABLE]
+video_id:
 publish_date: 2022-07-14
 description: 'Manik Gupta has led two of the most successful consumer products in history—Google Maps, where he was Director of product for the Maps team, and Uber, where he was CPO. After leaving Uber, he spent some time working on a product to help people avoid getting COVID called CVKey, and most recently he took on a role at Microsoft as Corporate Vice President leading many of their consumer efforts.'
-duration_seconds: n/a
+duration_seconds: 3895
 duration: '1:04:55'
 view_count: n/a
 channel: Lenny's Podcast
 keywords:
+- Google Maps
+- Uber
+- CPO
+- product management
+- consumer apps
+- Microsoft
+- career growth
 
 ---
 

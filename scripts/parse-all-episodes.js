@@ -154,6 +154,12 @@ function processAllEpisodes() {
       const quotes = extractKeyQuotes(parsed.dialogue);
       const contrarian = detectContrarianPatterns(parsed.dialogue);
 
+      // Handle view_count - convert "n/a" to null
+      const rawViewCount = parsed.metadata.view_count;
+      const viewCount = (rawViewCount && rawViewCount !== 'n/a' && typeof rawViewCount === 'number')
+        ? rawViewCount
+        : null;
+
       const episode = {
         slug,
         guest: parsed.metadata.guest || 'Unknown',
@@ -161,7 +167,7 @@ function processAllEpisodes() {
         publishDate: parsed.metadata.publish_date || null,
         duration: parsed.metadata.duration || null,
         durationSeconds: parsed.metadata.duration_seconds || null,
-        viewCount: parsed.metadata.view_count || null,
+        viewCount: viewCount,
         youtubeUrl: parsed.metadata.youtube_url || null,
         videoId: parsed.metadata.video_id || null,
         description: parsed.metadata.description || '',

@@ -1,9 +1,9 @@
 ---
 guest: Ray Cao
-title: Product management theater | Marty Cagan (Silicon Valley Product Group)
-youtube_url: https://www.youtube.com/watch?v=9N4ZgNaWvI0
-video_id: 9N4ZgNaWvI0
-publish_date: 2024-03-10
+title: 'Inside TikTok: Culture, strategy, monetization, and more | Ray Cao (Global Head of Monetization Product Strategy and Operations)'
+youtube_url: https://www.lennysnewsletter.com/p/inside-tiktok-culture-strategy-monetization
+video_id:
+publish_date: 2024-03-07
 description: 'Marty Cagan is a luminary in the world of product. He’s the author of
   two of the most foundational books for product teams and product leaders (Inspired and Empowered),
   he’s the founder...
