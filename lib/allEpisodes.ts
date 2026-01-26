@@ -19225,7 +19225,7 @@ export const allEpisodes: Episode[] = [
     ]
   },
   {
-    "slug": "melissa-perri",
+    "slug": "melissa-perri-20",
     "guest": "Melissa Perri",
     "title": "Everything you’ve ever wanted to know about SAFe and the product owner role | Melissa Perri",
     "publishDate": "2024-11-10T00:00:00.000Z",
@@ -26945,16 +26945,16 @@ export const allEpisodes: Episode[] = [
     ]
   },
   {
-    "slug": "melissa",
-    "guest": "Melissa",
-    "title": "Building high-performing teams | Melissa Tan (Webflow, Dropbox, Canva)",
-    "publishDate": "2023-06-18T00:00:00.000Z",
-    "duration": "1:14:42",
-    "durationSeconds": 4482,
-    "viewCount": 12103,
-    "youtubeUrl": "https://www.youtube.com/watch?v=DoEfXj1b_ko",
-    "videoId": "DoEfXj1b_ko",
-    "description": "Melissa Tan is an advisor, investor, and growth expert. She’s worked with fast-growing startups like Dropbox, Canva, Grammarly, and Miro, and for the past 2.5 years has been the Head of Growth...\n",
+    "slug": "melissa-perri",
+    "guest": "Melissa Perri",
+    "title": "How to create a winning product strategy | Melissa Perri",
+    "publishDate": "2022-07-28T00:00:00.000Z",  
+    "duration": "0:53:41",
+    "durationSeconds": 3221,
+    "viewCount": 50096,
+    "youtubeUrl": "https://www.youtube.com/watch?v=FCxkT8ULrVg",
+    "videoId": "FCxkT8ULrVg",
+    "description": "Every company wants to develop a winning strategy—but what are signs your strategy isn’t working, and how do you change course? Melissa Perri has worked trained PMs and product leaders at nearly all the Fortune 100 companies, and in this conversation shares how to reset a struggling strategy, align your team, and build winning strategy.",
     "keywords": [
       "growth",
       "retention",
