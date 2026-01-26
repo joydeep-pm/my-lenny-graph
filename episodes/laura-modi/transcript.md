@@ -5,8 +5,8 @@ youtube_url: https://www.lennysnewsletter.com/p/from-growth-to-slowth-the-making
 video_id:
 publish_date: 2023-04-13
 description: 'Laura Modi is the CEO and co-founder of Bobbie, the first woman-owned, organic infant formula in the U.S. Previously, Laura spent over five years at Airbnb, where she served as Director of Hospitality.'
-duration_seconds: 3180
-duration: '53:00'
+duration_seconds: 3641
+duration: '1:00:41'
 view_count: n/a
 channel: Lenny's Podcast
 keywords:

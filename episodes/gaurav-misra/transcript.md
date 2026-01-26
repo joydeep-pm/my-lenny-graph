@@ -5,8 +5,8 @@ youtube_url: https://www.youtube.com/watch?v=PDobJV8wh1g
 video_id: PDobJV8wh1g
 publish_date: 2025-03-15
 description: 'Gaurav Misra is the co-founder and CEO of Captions, an AI-powered video creation company and one of the most successful consumer AI products in the world today. Previously he was a product leader at Snap, where he created the design engineering function.'
-duration_seconds: 4800
-duration: '1:20:00'
+duration_seconds: 5125
+duration: '1:25:25'
 view_count: n/a
 channel: Lenny's Podcast
 keywords:

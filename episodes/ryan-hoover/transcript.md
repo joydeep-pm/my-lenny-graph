@@ -5,8 +5,8 @@ youtube_url: https://www.youtube.com/watch?v=HzDLWKI6mnI
 video_id: HzDLWKI6mnI
 publish_date: 2022-08-07
 description: 'Ryan Hoover is the founder of Product Hunt, former product manager, and full-time investor with his fund, the Weekend Fund. In this episode, we discuss what he''s learned about launching products, growing products, and raising capital from his experience running Product Hunt and through his investing.'
-duration_seconds: 2880
-duration: '48:00'
+duration_seconds: 4146
+duration: '1:09:06'
 view_count: n/a
 channel: Lenny's Podcast
 keywords:

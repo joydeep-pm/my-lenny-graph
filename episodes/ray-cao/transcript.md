@@ -9,8 +9,8 @@ description: 'Marty Cagan is a luminary in the world of product. He’s the aut
   he’s the founder...
 
   '
-duration_seconds: 5115.0
-duration: '1:25:15'
+duration_seconds: 4310
+duration: '1:11:50'
 view_count: 226150
 channel: Lenny's Podcast
 keywords:
