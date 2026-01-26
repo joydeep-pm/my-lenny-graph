@@ -4350,25 +4350,6 @@ export const allEpisodes: Episode[] = [
     ]
   },
   {
-    "guest": "Teaser_2021",
-    "slug": "teaser_2021",
-    "summary": "Greg Isenberg and Sahil Bloom introduce their podcast 'The Room Where it Happens,' focusing on opening up traditionally closed entrepreneurial conversations and building community around startup insights. They emphasize the importance of networking, the unglamorous 'messy middle' of entrepreneurship, and creating a more interactive podcast format where listeners can participate in discussions and build relationships.",
-    "keywords": [
-      "entrepreneurship",
-      "startups",
-      "community building",
-      "networking",
-      "Silicon Valley",
-      "podcast",
-      "business insights",
-      "collaboration",
-      "messy middle",
-      "Late Checkout",
-      "Discord",
-      "authentic conversations"
-    ]
-  },
-  {
     "guest": "Teresa Torres",
     "slug": "teresa-torres",
     "summary": "Teresa Torres discusses continuous product discovery methods, focusing on the opportunity solution tree framework for structuring product strategy and implementing weekly customer interviews to build better products through sustained customer feedback loops.",

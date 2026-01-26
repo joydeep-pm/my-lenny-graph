@@ -124,7 +124,7 @@ Validate dynamic sitemap generation.
 - When changing domain
 
 **What it checks:**
-- 306 total URLs (3 static + 299 episodes)
+- 302 total URLs (3 static + 299 episodes)
 - Correct domain (lenny.productbuilder.net)
 - No localhost references
 - Valid XML structure

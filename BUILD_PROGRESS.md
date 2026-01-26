@@ -1164,13 +1164,261 @@ Added comprehensive AI insights section to `.claude/skills/curate-episode/SKILL.
 - All zone references point to real quotes
 - **Transcripts working**: 303/303 episodes (100%!) thanks to MM:SS parser fix
 
-**Next Priority:** Continue curation to 30+ episodes, add guest metadata for diversity scoring
+**Next Priority:** Implement 4 priority recommendations enhancements, continue curation to 30+ episodes
 
 ---
 
-## ✅ Session 10: Podcast Recommendations Engine Implementation (Jan 25, 2026)
+## ✅ Session 10: Multi-Time Guest Data Quality Fixes (Jan 25, 2026)
 
-### 🎯 Major Implementation Complete
+### 🚨 Critical Data Quality Issues Identified & Fixed
+
+**Multi-Time Guest Metadata Completely Misaligned!** ✅ FIXED
+- **Problem**: Video IDs, publish dates, and transcripts were scrambled for multi-time guests
+- **Root Cause**: 1.0 and 2.0 episodes had swapped or duplicated content
+- **Impact**: Wrong videos playing, wrong transcripts shown, broken episode pages
+
+**Guests Fixed:**
+1. **Nicole Forsgren**: 1.0 = dP8NmcEkxJI (Jul 2023), 2.0 = SWcDfPVTizQ (Oct 2025)
+2. **Uri Levine**: 1.0 = Cj4ORGGEJcA (Jun 2024), 2.0 = lQdogVBHMdA (Feb 2025)
+3. **Marty Cagan**: 1.0 = h-KVGHoQ_98 (Aug 2022), 2.0 = 9N4ZgNaWvI0 (Mar 2024)
+4. **Shreyas Doshi**: 1.0 unchanged, 2.0 = atS060bNpE0 (Oct 2024)
+5. **Jake Knapp & John Zeratsky**: 1.0 unchanged, 2.0 = UbjAOCzpNWc (Jul 2025)
+6. **Bob Moesta**: 1.0 = JTBD Aug 2023, 2.0 = Job Moves Feb 2025
+7. **April Dunford**: 1.0 = Positioning Jan 2023, 2.0 = Sales Pitch Oct 2023
+8. **Julie Zhuo**: 1.0 = Summit Dec 2024, 2.0 = Managing AI Sep 2025
+9. **Dylan Field**: 1.0 = Config Jun 2024, 2.0 = AI moat Oct 2025
+10. **Madhavan Ramanujam**: 1.0 = Art of pricing Dec 2022, 2.0 = AI pricing Jul 2025
+11. **Wes Kao**: 1.0 and 2.0 correctly aligned
+12. **Tomer Cohen**: 1.0 transcript restored with correct metadata
+13. **Benjamin Mann**: Frontmatter fixed to match correct Anthropic co-founder episode
+14. **Ethan Evans**: Removed incorrect "1.0" label (single appearance guest)
+
+### 🗑️ Duplicate Content Cleanup
+
+**Transcripts Marked as Missing (were duplicates of 2.0):**
+- `april-dunford/transcript.md` - Now placeholder (1.0 had duplicate of 2.0 content)
+- `julie-zhuo/transcript.md` - Now placeholder (Summit 2024 had duplicate of Managing AI)
+- `madhavan-ramanujam/transcript.md` - Now placeholder (1.0 had duplicate of 2.0)
+- `nicole-forsgren/transcript.md` - Now placeholder (1.0 content was never available)
+- `marty-cagan/transcript.md` - Now placeholder (1.0 content was never available)
+- `uri-levine/transcript.md` - Now placeholder (restored incorrectly, then fixed)
+- `wes-kao/transcript.md` - Now placeholder (1.0 content never added)
+- `elena-verna/transcript.md` - Now placeholder (short/incomplete)
+- `benjamin-mann/transcript.md` - Now placeholder (correct metadata, no transcript)
+
+**Directories Removed:**
+- `episodes/ethan-evans-20/` - Was incorrectly created duplicate
+- `episodes/shreyas-doshi-live/` - Renamed to `shreyas-doshi-20`
+
+### ✅ Episode Page UX Improvements
+
+**Related Episodes Component Restored** ✅
+- Re-added to insights tab on episode pages
+- Shows related episodes based on shared themes/zones
+
+**Desktop Layout Improvements** ✅
+- YouTube player sizing fixed
+- Layout responsive improvements
+- OG images generation working (sharp dependency added)
+
+### 📋 Files Changed This Session
+
+**Transcript Fixes:**
+- 15+ transcript files corrected for content/metadata alignment
+- 9 transcripts converted to placeholders (missing content)
+- `episodes/ethan-evans-20/` deleted
+- `episodes/shreyas-doshi-live/` renamed to `shreyas-doshi-20/`
+
+**Code Fixes:**
+- `lib/allEpisodes.ts` - Corrected metadata for all multi-time guests
+- `app/episodes/[slug]/page.tsx` - Related episodes restored
+- Episode count references updated (299 → 298 in some places)
+
+**Infrastructure:**
+- `package.json` - Added sharp as dev dependency for OG images
+
+---
+
+## ✅ Additional Fixes (Session 10 continued)
+
+### shreyas-doshi-live Duplicate Removed ✅
+- Removed stale `shreyas-doshi-live` entry from allEpisodes.ts
+- Updated `shreyas-doshi-20` dialogueCount from 0 to 100 (fixes card showing 0 segments)
+- Updated all index files and insightsData.ts references
+- Episode count now correct: 298 entries, 298 directories
+
+### Chip Conley Metadata Fixed ✅
+- **Problem**: Episode had Maggie Crowley's metadata (wrong title, video ID, description)
+- **Fix**: Updated to correct metadata:
+  - Title: "Brian Chesky's secret mentor who scaled Airbnb (after dying 9 times & building a hotel empire)"
+  - Video ID: R5_ypwiRIyo
+  - Publish date: Aug 3, 2025
+  - Duration: 1:19:36
+  - Views: 15,880
+- Note: Transcript content was always correct, only metadata was wrong
+
+---
+
+## 🚧 Known Issues to Fix Later
+
+### Data Quality Issues
+
+**1. Missing Transcripts (9 episodes)** ⚠️
+Transcripts need to be obtained/added for:
+| Episode | Guest | Content |
+|---------|-------|---------|
+| april-dunford | April Dunford 1.0 | Positioning (Jan 2023) |
+| marty-cagan | Marty Cagan 1.0 | Nature of Product (Aug 2022) |
+| nicole-forsgren | Nicole Forsgren 1.0 | DevOps (Jul 2023) |
+| julie-zhuo | Julie Zhuo 1.0 | Summit Dec 2024 |
+| madhavan-ramanujam | Madhavan Ramanujam 1.0 | Art of Pricing (Dec 2022) |
+| wes-kao | Wes Kao 1.0 | Original episode |
+| elena-verna | Elena Verna 1.0 | Original episode |
+| benjamin-mann | Benjamin Mann | Anthropic co-founder |
+| uri-levine | Uri Levine 1.0 | Jun 2024 episode |
+
+### Fixes Required (TODO)
+
+1. **Obtain missing transcripts** - Source 1.0 episode transcripts from Dropbox archive or YouTube captions
+2. **Verify curated episodes** - Ensure no curated episodes reference missing transcripts
+
+---
+
+## ✅ Session 11: Teaser Episode Removal & Curated Episode Fixes (Jan 25, 2026)
+
+### 🗑️ Teaser Episode Removed
+
+**teaser_2021 episode completely removed from codebase** ✅
+- Deleted from `lib/allEpisodes.ts`
+- Deleted from `lib/insightsData.ts`
+- Deleted from `lib/episodesData.ts`
+- Deleted from `scripts/extraction-progress.json`
+- Deleted from `index/episodes.md`
+- Deleted from `index/entrepreneurship.md`
+- Deleted from `index/community-building.md`
+- Deleted `episodes/teaser_2021/` directory
+- Deleted `public/og/teaser_2021.png`
+
+### 🔢 Episode Count Updated (298 → 297)
+
+Updated all references to 298 to 297:
+- `lib/zones.ts` - TOTAL_EPISODES constant
+- `lib/allEpisodes.ts` - comment header
+- `lib/insightsData.ts` - comment header and insightsStats.totalEpisodes
+- `scripts/build-verified.ts` - TOTAL_EPISODES constant
+- `scripts/curation-stats.ts` - TOTAL_EPISODES constant
+- `scripts/parse-all-episodes.js` - comments and console output
+- `scripts/generate-og-images.js` - comment
+- `scripts/generate-home-og-image.js` - SVG text
+- `scripts/generate-explore-og-image.js` - SVG text
+- `app/page.tsx` - landing page display
+- `app/explore/page.tsx` - header display
+- `app/explore/layout.tsx` - SEO metadata (title, description, OpenGraph, Twitter)
+- `app/results/page.tsx` - recommendations message
+
+**OG Images regenerated** with correct episode count.
+
+### 🔧 Critical Curated Episode Fixes
+
+**4 curated episodes were attached to wrong slugs!** ✅ FIXED
+
+The following curated content was from 2.0 episodes but incorrectly stored with 1.0 slugs:
+
+| Original File | Content From | Fixed To |
+|---------------|--------------|----------|
+| april-dunford.json | Sales Pitch (2.0) | april-dunford-20.json |
+| dylan-field.json | AI Moat (2.0) | dylan-field-20.json |
+| julie-zhuo.json | Managing AI (2.0) | julie-zhuo-20.json |
+| marty-cagan.json | PM Theater (2.0) | marty-cagan-20.json |
+
+**What was fixed:**
+1. Renamed all 4 JSON files to correct `-20` suffix
+2. Updated `episode_slug` field inside each file
+3. Updated `guest` field to include "2.0" designation
+4. Rebuilt verified-content.json registry
+
+**Correct curated episode now exists:** shreyas-doshi.json (properly points to 1.0 "The art of product management")
+
+### 📋 DialogueCount: 0 Episodes Documented
+
+**30 episodes have dialogueCount: 0** (missing or unparseable transcripts)
+
+This includes:
+- 9 multi-time guest 1.0 episodes with missing transcripts (already documented in Session 10)
+- ~21 additional episodes with transcript issues or metadata mismatches
+
+Some episodes also have title/guest metadata mismatches (e.g., brandon-chu showing Sander Schulhoff's title, ryan-hoover showing Ryan Singer's title). These need investigation.
+
+### 📁 Files Changed This Session
+
+**Deleted:**
+- `episodes/teaser_2021/` directory
+- `public/og/teaser_2021.png`
+
+**Modified (teaser_2021 removal):**
+- `lib/allEpisodes.ts`
+- `lib/insightsData.ts`
+- `lib/episodesData.ts`
+- `scripts/extraction-progress.json`
+- `index/episodes.md`
+- `index/entrepreneurship.md`
+- `index/community-building.md`
+
+**Modified (episode count 298→297):**
+- `lib/zones.ts`
+- `lib/allEpisodes.ts`
+- `lib/insightsData.ts`
+- `scripts/build-verified.ts`
+- `scripts/curation-stats.ts`
+- `scripts/parse-all-episodes.js`
+- `scripts/generate-og-images.js`
+- `scripts/generate-home-og-image.js`
+- `scripts/generate-explore-og-image.js`
+- `app/page.tsx`
+- `app/explore/page.tsx`
+- `app/explore/layout.tsx`
+- `app/results/page.tsx`
+
+**Renamed (curated episode fixes):**
+- `april-dunford.json` → `april-dunford-20.json`
+- `dylan-field.json` → `dylan-field-20.json`
+- `julie-zhuo.json` → `julie-zhuo-20.json`
+- `marty-cagan.json` → `marty-cagan-20.json`
+
+**Regenerated:**
+- `public/og-image.png`
+- `public/explore-og-image.png`
+- `data/verified/verified-content.json`
+- `lib/verifiedContent.ts`
+
+---
+
+## 📊 Updated Coverage Status (Post-Session 11)
+
+**Episode Directories:** 297
+**Entries in allEpisodes.ts:** 297 ✅
+**Transcripts Available:** 267 (~30 with dialogueCount: 0)
+**Episodes Curated:** 24/297 (8.1%)
+
+**Data Quality:**
+- ✅ teaser_2021 episode removed
+- ✅ Episode count updated to 297 everywhere
+- ✅ OG images regenerated with correct count
+- ✅ 4 curated episodes fixed (were attached to wrong slugs)
+- ✅ Verified content registry rebuilt
+- ⚠️ 30 episodes have dialogueCount: 0 (missing/broken transcripts)
+- ⚠️ Some episodes have guest/title metadata mismatches
+
+**Next Priority:**
+1. Investigate and fix guest/title metadata mismatches
+2. Source missing transcripts for high-priority episodes
+3. Continue recommendation engine enhancements
+
+---
+
+## ✅ Session 12: Podcast Recommendations Engine (Jan 26, 2026)
+
+### 🎯 Recommendations Engine Implementation Complete
 
 All 4 priority enhancements from Session 9's review have been implemented and hardened:
 
@@ -1231,14 +1479,9 @@ Made the engine bulletproof with comprehensive fixes:
 
 ### 📦 Data Curation Updates
 
-**Added contrarian_candidates to 5 remaining episodes:**
+**Added contrarian_candidates to all 24 episodes** ✅
 - rahul-vohra (3 candidates: virality myth, no half-baked, game design vs gamification)
-- amjad-masad (already had them)
-- dylan-field (already had them)
-- elena-verna-30 (already had them)
-- marty-cagan (already had them)
-
-**All 24 episodes now have contrarian_candidates** ✅
+- All others already had them from previous curation
 
 ### 🎨 Enhanced EpisodeRecommendationCard UI
 
@@ -1248,88 +1491,7 @@ Made the engine bulletproof with comprehensive fixes:
 - Better quote truncation (200 char limit with "...")
 - Quote border color matches card variant
 
-### 📁 Files Changed
-
-**Core Algorithm:**
-- `lib/recommendations.ts` - Complete rewrite with all 4 enhancements + hardening
-- `lib/types.ts` - Added ContrarianCandidate interface
-
-**UI:**
-- `components/EpisodeRecommendationCard.tsx` - Enhanced contrarian styling
-- `app/results/page.tsx` - Fixed SSR localStorage issue
-
-**Data:**
-- `data/verified/rahul-vohra.json` - Added contrarian_candidates
-- `data/verified/verified-content.json` - Rebuilt registry
-
-### 📊 Algorithm Details
-
-**Alignment Score Calculation:**
-```
-baseScore = Σ (userZoneStrength × episodeZoneStrength) for all 8 zones
-depthBonus = +0.30 if primary zone >25%, +0.15 if >15%
-           + +0.10 if secondary zone >15%
-           + +0.05 if 3+ zones matched
-normalizedScore = min(100, rawScore × 120)
-```
-
-**Contrarian Score Calculation:**
-```
-quoteScore = +3 (primary zone) + 2 (secondary) + 1 (blind spot)
-blindSpotBonus = +3 if episode >20% in blind spot, +1 if >10%
-totalScore = quoteScore + blindSpotBonus
-→ Sort all candidates, take top 3
-```
-
-**Diversity Penalty:**
-```
-For each existing recommendation:
-  similarity = count of zones where both >20%
-maxSimilarity = highest similarity to any existing rec
-penalty = min(0.30, maxSimilarity × 0.1)
-adjustedScore = alignmentScore × (1 - penalty)
-```
-
-### ✅ Data Compatibility
-
-The algorithm handles legacy data format inconsistencies:
-- Both `slug` and `episode_slug` field names
-- Both `zone_influence` (snake_case) and `zoneInfluence` (camelCase)
-- Both `line_start`/`line_end` and `lineStart`/`lineEnd` in quote sources
-- Missing `context` field in older episodes (not currently used)
-
-### 🚀 What's Working Now
-
-1. **Quiz → Recommendations** flow is fully functional
-2. **5 primary episodes** matched by zone alignment + quote relevance
-3. **3 contrarian episodes** selected by challenge score + blind spot strength
-4. **Match reasons** reference actual quote snippets
-5. **Contrarian reasons** show curator's "why" explanation
-6. **SSR-safe** with proper client-side hydration
-7. **Edge cases** handled gracefully (empty answers, missing data, etc.)
-
-### 🎯 Remaining Opportunities (Future Sessions)
-
-**Nice-to-have UX:**
-- Show alignment score percentage on cards (e.g., "85% match")
-- Add zone badges showing which zones matched
-- Episode count indicator on cards
-
-**Data Quality:**
-- Standardize all episodes to `episode_slug` format
-- Add `context` field to older episodes
-- Add guest_type metadata for enhanced diversity (founder/operator/investor)
-
-**Scale:**
-- Continue curation to 30+ episodes
-- Prioritize episodes that fill zone gaps
-- Add more contrarian_candidates to strengthen recommendations
-
----
-
-### Session 10 Continued: UX & Data Quality Improvements
-
-#### Zone Badges ✅
+### Zone Badges ✅
 Added color-coded zone badges to EpisodeRecommendationCard:
 - Shows top 3 zones with >10% influence
 - Color scheme:
@@ -1338,49 +1500,26 @@ Added color-coded zone badges to EpisodeRecommendationCard:
   - Adaptability (orange), Focus (yellow)
 - Helps users understand episode focus at a glance
 
-#### Data Format Standardization ✅
+### Data Format Standardization ✅
 - Converted all 24 episodes from `episode_slug` to `slug`
 - Removed all fallback logic (`(ep as any).slug || (ep as any).episode_slug`)
 - Cleaner, type-safe code throughout
 
-#### Guest Metadata Structure ✅
-Added types for diversity scoring:
+### Guest Metadata Structure ✅
+Added types and data for diversity scoring:
 ```typescript
 type GuestType = 'founder' | 'operator' | 'investor' | 'advisor' | 'academic'
 type CompanyStage = 'pre-seed' | 'seed' | 'series-a' | 'growth' | 'public' | 'mixed'
-
-interface GuestMetadata {
-  guest_type: GuestType;
-  company_stage: CompanyStage;
-  primary_topics: string[];
-}
 ```
 
-Added to 4 sample episodes:
-- **brian-chesky**: founder, public, [leadership, founder-mode, product-marketing, org-design]
-- **ben-horowitz**: investor, mixed, [decision-making, leadership, psychology, investing]
-- **marty-cagan**: advisor, mixed, [product-management, empowerment, discovery, product-leadership]
-- **casey-winters**: operator, growth, [growth, stakeholder-management, communication, career]
-
----
-
-### Session 10 Part 3: Guest Metadata Complete & Diversity-Aware Recommendations (Jan 25, 2026)
-
-#### Guest Metadata - All Episodes ✅
-Added `guest_metadata` to all 24 verified episodes:
+**All 24 verified episodes now have `guest_metadata`:**
 - **Founders (10):** brian-chesky, tobi-lutke, dylan-field, rahul-vohra, stewart-butterfield, jason-fried, guillermo-rauch, nikita-bier, mike-krieger, amjad-masad
 - **Operators (8):** shreyas-doshi, julie-zhuo, boz, casey-winters-20, elena-verna-30, gokul-rajaram, kunal-shah, aishwarya-naresh-reganti-kiriti-badam
 - **Investors (1):** dalton-caldwell
 - **Advisors (5):** marty-cagan, ben-horowitz, april-dunford, annie-duke, paul-graham
 
-Company stages represented:
-- **Public (4):** Airbnb, Shopify, Instagram, Slack
-- **Growth (8):** Figma, Superhuman, Stripe, Vercel, etc.
-- **Mixed (7):** Multi-company experience
-- **Pre-seed/Seed (4):** Early-stage focused guests
-
-#### Diversity-Aware Recommendations ✅
-Enhanced `calculateSimilarityPenalty()` in `lib/recommendations.ts` to consider:
+### Diversity-Aware Recommendations ✅
+Enhanced `calculateSimilarityPenalty()` in `lib/recommendations.ts`:
 
 1. **Zone overlap** (existing) - Episodes strong in same zones
 2. **Guest type diversity** (new) - Avoid 3+ founders in a row
@@ -1392,31 +1531,66 @@ Enhanced `calculateSimilarityPenalty()` in `lib/recommendations.ts` to consider:
 
 **Result:** Recommendations now naturally mix perspectives - a founder at a public company, an operator at a growth startup, and an advisor with multi-company experience.
 
-#### Curate-Episode Skill Updated ✅
-Added Step 6 to `.claude/skills/curate-episode/SKILL.md`:
-- Guidance on capturing guest_type (founder/operator/investor/advisor/academic)
-- Guidance on company_stage (pre-seed through public)
-- Guidance on primary_topics (3-5 key themes)
-- Ensures future curations include diversity metadata
+### 🛠️ Additional Fixes This Session
 
-#### Files Modified
-- `lib/recommendations.ts` - Enhanced diversity scoring
-- `lib/types.ts` - Added GuestType, CompanyStage imports
-- All 24 `data/verified/*.json` files - Added guest_metadata
-- `.claude/skills/curate-episode/SKILL.md` - Added Step 6
+**Explore Page - Removed Dialogue Count** ✅
+- Removed `dialogueCount` display from episode cards on /explore page
+- This data was unreliable/inconsistent across episodes
+- Cleaner card UI without misleading metrics
+
+**Episode Curation Fixes** ✅
+- Removed `teaser_2021` episode (promotional content, not real episode)
+- Fixed curated episode slug mismatches
+
+### 📁 Files Changed
+
+**Core Algorithm:**
+- `lib/recommendations.ts` - Complete rewrite with all 4 enhancements + hardening + diversity
+- `lib/types.ts` - Added ContrarianCandidate, GuestType, CompanyStage interfaces
+
+**UI:**
+- `components/EpisodeRecommendationCard.tsx` - Enhanced contrarian styling, zone badges
+- `app/results/page.tsx` - Fixed SSR localStorage issue
+- `app/explore/page.tsx` - Removed dialogueCount from cards
+
+**Data:**
+- All 24 `data/verified/*.json` files - Added guest_metadata, standardized to `slug`
+- `data/verified/verified-content.json` - Rebuilt registry
+
+**Documentation:**
+- `.claude/skills/curate-episode/SKILL.md` - Added Step 6 for guest metadata
+
+---
+
+## 📊 Updated Coverage Status (Post-Session 12)
+
+**Episode Directories:** 297
+**Entries in allEpisodes.ts:** 297 ✅
+**Transcripts Available:** 267 (~30 with dialogueCount: 0)
+**Episodes Curated:** 24/297 (8.1%)
+
+**Data Quality:**
+- ✅ Recommendations engine fully functional with diversity scoring
+- ✅ Guest metadata added to all 24 curated episodes
+- ✅ Multi-time guest metadata corrected for 14 guests
+- ✅ shreyas-doshi-live duplicate removed
+- ✅ Chip Conley metadata corrected
+- ✅ teaser_2021 episode removed
+- ✅ 4 curated episodes fixed (were attached to wrong slugs)
+- ⚠️ ~30 episodes have dialogueCount: 0 (missing/broken transcripts)
 
 ---
 
 ## 🎯 NEXT PRIORITIES
 
 ### Scale Episode Curation
-- Current: 24/299 episodes (8%)
+- Current: 24/297 episodes (8.1%)
 - Target: 50+ episodes (17%)
-- Priority: Fill zone gaps (chaos/focus need more coverage)
+- Priority: Fill zone gaps
 
 ### Content Improvements
-- Add `context` field to older episodes that lack it
-- Add more contrarian_candidates for richer contrarian recommendations
+- Source missing 1.0 transcripts for 9 episodes
+- Add more contrarian_candidates for richer recommendations
 
 ### Future Enhancements
 - Consider topic-based diversity (avoid 3 episodes about "growth" in a row)

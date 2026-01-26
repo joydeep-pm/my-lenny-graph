@@ -263,6 +263,20 @@ export default function EpisodePage() {
       .slice(0, 3);
   }, [episode, slug]);
 
+  // Find related episodes by keyword overlap
+  const relatedEpisodes = useMemo(() => {
+    if (!episode) return [];
+
+    return allEpisodes
+      .filter(ep => {
+        if (ep.slug === episode.slug) return false;
+        // Find episodes with overlapping keywords
+        const overlap = ep.keywords.filter(kw => episode.keywords.includes(kw));
+        return overlap.length >= 2;
+      })
+      .slice(0, 3);
+  }, [episode]);
+
   const timestampToSeconds = (timestamp: string): number => {
     const parts = timestamp.split(':').map(Number);
     if (parts.length === 3) {
@@ -630,6 +644,34 @@ export default function EpisodePage() {
                   </div>
                 </div>
               )}
+
+              {/* Related Episodes */}
+              {relatedEpisodes.length > 0 && (
+                <div className="border-2 border-ash-darker bg-void-light p-5">
+                  <h3 className="text-lg font-bold text-amber mb-4">RELATED EPISODES</h3>
+                  <div className="space-y-4">
+                    {relatedEpisodes.map((related) => (
+                      <Link
+                        key={related.slug}
+                        href={`/episodes/${related.slug}`}
+                        className="block group"
+                      >
+                        <div className="text-sm font-bold text-ash group-hover:text-amber transition-colors mb-1">
+                          {related.guest}
+                        </div>
+                        <div className="text-xs text-ash-dark line-clamp-2">
+                          {related.title}
+                        </div>
+                        <div className="flex gap-2 mt-2 flex-wrap">
+                          {related.keywords.filter(kw => episode.keywords.includes(kw)).slice(0, 3).map(kw => (
+                            <span key={kw} className="text-xs text-amber">{kw}</span>
+                          ))}
+                        </div>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
           )}
         </div>
@@ -914,6 +956,34 @@ export default function EpisodePage() {
                           >
                             <div className="text-sm font-bold text-amber mb-1">{ep.guest}</div>
                             <div className="text-xs text-ash-dark line-clamp-2">{ep.title}</div>
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Related Episodes */}
+                  {relatedEpisodes.length > 0 && (
+                    <div className="border-2 border-ash-darker bg-void-light p-6">
+                      <h3 className="text-lg font-bold text-amber mb-4">RELATED EPISODES</h3>
+                      <div className="space-y-4">
+                        {relatedEpisodes.map((related) => (
+                          <Link
+                            key={related.slug}
+                            href={`/episodes/${related.slug}`}
+                            className="block group"
+                          >
+                            <div className="text-sm font-bold text-ash group-hover:text-amber transition-colors mb-1">
+                              {related.guest}
+                            </div>
+                            <div className="text-xs text-ash-dark line-clamp-2">
+                              {related.title}
+                            </div>
+                            <div className="flex gap-2 mt-2 flex-wrap">
+                              {related.keywords.filter(kw => episode.keywords.includes(kw)).slice(0, 3).map(kw => (
+                                <span key={kw} className="text-xs text-amber">{kw}</span>
+                              ))}
+                            </div>
                           </Link>
                         ))}
                       </div>

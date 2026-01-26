@@ -150,7 +150,7 @@ export default function ExplorePage() {
               <span>DATA EXPLORER</span>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold text-amber mb-4">
-              299 EPISODES
+              297 EPISODES
             </h1>
             <p className="text-ash text-lg max-w-2xl leading-relaxed">
               Search, filter, and explore every conversation from Lenny's Podcast.
@@ -609,17 +609,14 @@ const EpisodeCard = memo(function EpisodeCard({
         )}
       </div>
 
-      {/* Stats */}
-      <div className="flex items-center gap-4 text-xs text-ash-dark mb-4 pt-4 border-t border-ash-darker">
-        <div className="font-mono">
-          <span className="text-amber">{episode.dialogueCount}</span> transcript segments
-        </div>
-        {hasEnrichment && (
+      {/* Curated indicator */}
+      {hasEnrichment && (
+        <div className="flex items-center gap-4 text-xs text-ash-dark mb-4 pt-4 border-t border-ash-darker">
           <div className="font-mono flex items-center gap-1">
             <span className="text-amber">✓</span> curated quotes
           </div>
-        )}
-      </div>
+        </div>
+      )}
 
       {/* Action Buttons */}
       <div className="flex items-center gap-3">

@@ -1,32 +1,25 @@
 ---
 guest: Wes Kao 2.0
-title: Persuasive communication and managing up | Wes Kao (Maven, altMBA, Section4)
-youtube_url: https://www.youtube.com/watch?v=4jtGsyz4jLs
-video_id: 4jtGsyz4jLs
-publish_date: 2022-08-28
-description: Wes Kao has worked with Seth Godin (where she co-founded the altMBA and
-  served as executive director), David Perell on his Write of Passage course, Professor
-  Scott Galloway on Section4, and...
-duration_seconds: 3188.0
-duration: '53:08'
-view_count: 23777
+title: Become a better communicator: Specific frameworks to improve your clarity, influence, and impact | Wes Kao (coach, entrepreneur, advisor)
+youtube_url: https://www.youtube.com/watch?v=BIvVGhy_VxU
+video_id: BIvVGhy_VxU
+publish_date: 2025-04-06
+description: Wes Kao is an entrepreneur, coach, and advisor. She co-founded the live learning platform Maven, backed by First Round and a16z. Before Maven, Wes co-created the altMBA with best-selling author Seth Godin. Today, Wes teaches a popular course on executive communication and influence. Known for her surgical writing style and no-BS frameworks, Wes returns to the pod to deliver a tactical master class on becoming a sharper, more persuasive communicator—at work, in meetings, and across your career.
+duration_seconds: 5618.0
+duration: '1:33:38'
+view_count: 64873
 channel: Lenny's Podcast
 keywords:
-- growth
-- retention
-- acquisition
-- okrs
-- conversion
-- revenue
+- communication
+- executive communication
+- influence
+- frameworks
+- writing
+- concise
 - leadership
 - management
 - strategy
-- vision
-- mission
-- market
-- persona
-- design
-- ui
+- clarity
 ---
 
 # Persuasive communication and managing up | Wes Kao (Maven, altMBA, Section4)

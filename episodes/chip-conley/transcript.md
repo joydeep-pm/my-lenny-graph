@@ -1,38 +1,28 @@
 ---
 guest: Chip Conley
-title: Mastering product strategy and growing as a PM | Maggie Crowley (Toast, Drift,
-  TripAdvisor)
-youtube_url: https://www.youtube.com/watch?v=4LjddcccYIo
-video_id: 4LjddcccYIo
-publish_date: 2023-11-05
-description: 'Maggie Crowley is VP of product at Toast and previously vice president
-  and head of product at Charlie Health, senior director of product management at
-  Drift, and a PM at TripAdvisor. She’s...
-
-  '
-duration_seconds: 4954.0
-duration: '1:22:34'
-view_count: 43061
+title: Brian Chesky's secret mentor who scaled Airbnb (after dying 9 times & building a hotel empire)
+youtube_url: https://www.youtube.com/watch?v=R5_ypwiRIyo
+video_id: R5_ypwiRIyo
+publish_date: 2025-08-03
+description: Chip Conley is the founder of Joie de Vivre hotels, the second-largest boutique hotel brand in the world. At age 52, he joined Airbnb as Head of Global Hospitality and Strategy, reporting to CEO Brian Chesky, who was 21 years younger. He earned the title of Airbnb's "Modern Elder" by guiding young founders on leadership and culture while learning Silicon Valley's tech mindset himself. Today, Chip leads the Modern Elder Academy, the world's first midlife wisdom school.
+duration_seconds: 4776.0
+duration: '1:19:36'
+view_count: 15880
 channel: Lenny's Podcast
 keywords:
-- growth
-- okrs
-- roadmap
-- iteration
-- conversion
-- hiring
-- culture
 - leadership
+- mentorship
+- culture
+- scaling
+- hospitality
+- career
 - management
 - strategy
-- vision
-- mission
-- differentiation
-- market
-- persona
+- wisdom
+- experience
 ---
 
-# Mastering product strategy and growing as a PM | Maggie Crowley (Toast, Drift, TripAdvisor)
+# Brian Chesky's secret mentor who scaled Airbnb (after dying 9 times & building a hotel empire)
 
 ## Transcript
 

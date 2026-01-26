@@ -1,5 +1,5 @@
 ---
-guest: Uri Levine 1.0
+guest: Uri Levine
 title: A founder’s guide to crisis management | Uri Levine (Waze co-founder, serial
   entrepreneur)
 youtube_url: https://www.youtube.com/watch?v=lQdogVBHMdA

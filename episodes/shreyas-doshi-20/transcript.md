@@ -1,17 +1,13 @@
 ---
-guest: Shreyas Doshi Live
-title: The art of product management | Shreyas Doshi (Stripe, Twitter, Google, Yahoo)
-youtube_url: https://www.youtube.com/watch?v=YP_QghPLG-8
-video_id: YP_QghPLG-8
-publish_date: 2022-08-25
-description: 'Shreyas Doshi is a treasure trove of wisdom and tactical insights on
-  product, strategy, psychology, leadership, and life. Over the course of his career,
-  he’s PM’d at Google, Twitter, Yahoo,...
-
-  '
-duration_seconds: 5482.0
-duration: '1:31:22'
-view_count: 260513
+guest: Shreyas Doshi 2.0
+title: Four questions to ask yourself about your career | Shreyas Doshi (Stripe, Twitter, Google)
+youtube_url: https://www.youtube.com/watch?v=atS060bNpE0
+video_id: atS060bNpE0
+publish_date: 2024-10-31
+description: Shreyas Doshi is a treasure trove of wisdom and tactical insights on product, strategy, psychology, leadership, and life. Over the course of his career, he's PM'd at Google, Twitter, Yahoo, and Stripe.
+duration_seconds: 2734.0
+duration: '45:34'
+view_count: 45109
 channel: Lenny's Podcast
 keywords:
 - growth
@@ -25,10 +21,7 @@ keywords:
 - mission
 - differentiation
 - market
-- design
-- ui
-- engineering
-- b2b
+- career
 ---
 
 # The art of product management | Shreyas Doshi (Stripe, Twitter, Google, Yahoo)

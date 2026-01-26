@@ -1,6 +1,6 @@
 // Auto-generated episode insights
 // Generated: 2026-01-20T05:57:17.783Z
-// Total episodes analyzed: 299
+// Total episodes analyzed: 297
 
 export interface EpisodeInsights {
   slug: string;
@@ -26881,24 +26881,6 @@ export const episodeInsights: EpisodeInsights[] = [
     ]
   },
   {
-    "slug": "shreyas-doshi-live",
-    "guest": "Shreyas Doshi Live",
-    "contrarianViews": [],
-    "quotableMoments": [],
-    "decisions": [],
-    "philosophyAlignment": {
-      "velocity": 5,
-      "perfection": 1,
-      "discovery": 2,
-      "data": 1,
-      "intuition": 2,
-      "alignment": 1,
-      "chaos": 1,
-      "focus": 1
-    },
-    "frameworks": []
-  },
-  {
     "slug": "shweta-shriva",
     "guest": "Shweta Shriva",
     "contrarianViews": [],
@@ -27483,24 +27465,6 @@ export const episodeInsights: EpisodeInsights[] = [
         "timestamp": "01:42:23"
       }
     ]
-  },
-  {
-    "slug": "teaser_2021",
-    "guest": "Teaser_2021",
-    "contrarianViews": [],
-    "quotableMoments": [],
-    "decisions": [],
-    "philosophyAlignment": {
-      "velocity": 0,
-      "perfection": 0,
-      "discovery": 1,
-      "data": 0,
-      "intuition": 1,
-      "alignment": 0,
-      "chaos": 0,
-      "focus": 0
-    },
-    "frameworks": []
   },
   {
     "slug": "teresa-torres",
@@ -29729,7 +29693,7 @@ export function getInsightsBySlug(slug: string): EpisodeInsights | undefined {
 }
 
 export const insightsStats = {
-  totalEpisodes: 299,
+  totalEpisodes: 297,
   totalContrarianViews: 284,
   totalQuotableMoments: 2730,
   totalDecisions: 218,
