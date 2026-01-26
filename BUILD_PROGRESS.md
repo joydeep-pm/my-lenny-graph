@@ -1282,9 +1282,9 @@ Transcripts need to be obtained/added for:
 - Deleted `episodes/teaser_2021/` directory
 - Deleted `public/og/teaser_2021.png`
 
-### 🔢 Episode Count Updated (298 → 296)
+### 🔢 Episode Count Updated (298 → 295)
 
-Updated all references to 298 to 296:
+Updated all references to 298 to 295:
 - `lib/zones.ts` - TOTAL_EPISODES constant
 - `lib/allEpisodes.ts` - comment header
 - `lib/insightsData.ts` - comment header and insightsStats.totalEpisodes
@@ -1347,7 +1347,7 @@ Some episodes also have title/guest metadata mismatches (e.g., brandon-chu showi
 - `index/entrepreneurship.md`
 - `index/community-building.md`
 
-**Modified (episode count 298→296):**
+**Modified (episode count 298→295):**
 - `lib/zones.ts`
 - `lib/allEpisodes.ts`
 - `lib/insightsData.ts`
@@ -1378,14 +1378,14 @@ Some episodes also have title/guest metadata mismatches (e.g., brandon-chu showi
 
 ## 📊 Updated Coverage Status (Post-Session 11)
 
-**Episode Directories:** 296
-**Entries in allEpisodes.ts:** 296 ✅
+**Episode Directories:** 295
+**Entries in allEpisodes.ts:** 295 ✅
 **Transcripts Available:** 267 (~30 with dialogueCount: 0)
-**Episodes Curated:** 24/296 (8.1%)
+**Episodes Curated:** 24/295 (8.1%)
 
 **Data Quality:**
 - ✅ teaser_2021 episode removed
-- ✅ Episode count updated to 296 everywhere
+- ✅ Episode count updated to 295 everywhere
 - ✅ OG images regenerated with correct count
 - ✅ 4 curated episodes fixed (were attached to wrong slugs)
 - ✅ Verified content registry rebuilt
@@ -1547,10 +1547,10 @@ Enhanced `calculateSimilarityPenalty()` in `lib/recommendations.ts`:
 
 ## 📊 Updated Coverage Status (Post-Session 12)
 
-**Episode Directories:** 296
-**Entries in allEpisodes.ts:** 296 ✅
+**Episode Directories:** 295
+**Entries in allEpisodes.ts:** 295 ✅
 **Transcripts Available:** 267 (~30 with dialogueCount: 0)
-**Episodes Curated:** 24/296 (8.1%)
+**Episodes Curated:** 24/295 (8.1%)
 
 **Data Quality:**
 - ✅ Recommendations engine fully functional with diversity scoring
@@ -1682,7 +1682,7 @@ Once correct metadata is obtained, the fix requires updating:
 - **Recommendation impact:** View counts may be wrong, affecting popularity-based sorting
 - **Trust impact:** Users clicking to watch video see completely different guest
 
-**Episodes Affected:** 18 out of 296 (6.1% of catalog)
+**Episodes Affected:** 18 out of 295 (6.1% of catalog)
 
 **Priority Episodes to Fix First:**
 1. `brandon-chu` - Brandon Chu is well-known PM writer
@@ -1720,7 +1720,7 @@ This phase documents the investigation. Next session can execute the fixes once:
 - Then batch update frontmatter and regenerate data files
 
 ### Scale Episode Curation
-- Current: 24/296 episodes (8.1%)
+- Current: 24/295 episodes (8.1%)
 - Target: 50+ episodes (17%)
 - Priority: Fill zone gaps
 
