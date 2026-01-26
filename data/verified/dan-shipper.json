@@ -1,0 +1,241 @@
+{
+  "slug": "dan-shipper",
+  "guest": "Dan Shipper",
+  "episode_title": "The AI-native startup: 5 products, 7-figure revenue, 100% AI-written code",
+  "verification_date": "2026-01-26",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "dan-shipper-q001",
+      "speaker": "Dan Shipper",
+      "text": "There are a lot of expensive services that rich people and big companies are paid for right now, so in-house counsel or call center or whatever. And what cheap intelligence does is it makes those kinds of things affordable for small companies and individuals. So it stimulates demand.",
+      "timestamp": "00:05:27",
+      "source": {
+        "slug": "dan-shipper",
+        "path": "episodes/dan-shipper/transcript.md",
+        "lineStart": 91,
+        "lineEnd": 91
+      },
+      "themes": ["ai-economics", "democratization", "accessibility"],
+      "zones": ["discovery", "chaos"],
+      "context": "Discussing his contrarian view that AI may reshore American jobs by making expensive services affordable to everyone",
+      "verified": true
+    },
+    {
+      "id": "dan-shipper-q002",
+      "speaker": "Dan Shipper",
+      "text": "It writes a little to-do list for itself. It can have a little notebook, it can go and read each little thing and then write into its notebook, go down its to-do list and give you a summarized answer over multiple turns. So it's not just stuffing everything into context, which is what you'd be doing with ChatGPT chat. It's actually processing every single file that you give it.",
+      "timestamp": "00:08:38",
+      "source": {
+        "slug": "dan-shipper",
+        "path": "episodes/dan-shipper/transcript.md",
+        "lineStart": 109,
+        "lineEnd": 109
+      },
+      "themes": ["ai-tools", "claude-code", "automation"],
+      "zones": ["velocity", "data"],
+      "context": "Explaining how Claude Code works for non-programmers processing large amounts of text",
+      "verified": true
+    },
+    {
+      "id": "dan-shipper-q003",
+      "speaker": "Dan Shipper",
+      "text": "It's meant for you to say, 'I want you to get something done,' and it goes and does it. And I think we're just getting to a point where for pretty much all the usual applications, AI is going to be good enough that we can get rid of the interfaces more or less where you're digging into all the things that it's actually doing.",
+      "timestamp": "00:13:34",
+      "source": {
+        "slug": "dan-shipper",
+        "path": "episodes/dan-shipper/transcript.md",
+        "lineStart": 169,
+        "lineEnd": 169
+      },
+      "themes": ["ai-agents", "delegation", "future-of-work"],
+      "zones": ["velocity", "chaos"],
+      "context": "Describing the paradigm shift from coding by hand to delegation with AI agents like Claude Code",
+      "verified": true
+    },
+    {
+      "id": "dan-shipper-q004",
+      "speaker": "Dan Shipper",
+      "text": "A good definition of AGI is when does it become economically profitable for people to run agents indefinitely? So it just never turns off. It's a Claude Code that's always running, it's always doing something, you just never turn it off, and you don't need to because you know that it's worthwhile to keep it on.",
+      "timestamp": "00:17:41",
+      "source": {
+        "slug": "dan-shipper",
+        "path": "episodes/dan-shipper/transcript.md",
+        "lineStart": 205,
+        "lineEnd": 208
+      },
+      "themes": ["agi", "ai-agents", "economics"],
+      "zones": ["discovery", "velocity"],
+      "context": "Proposing a new definition for AGI based on how long you can leave an AI agent running autonomously and profitably",
+      "verified": true
+    },
+    {
+      "id": "dan-shipper-q005",
+      "speaker": "Dan Shipper",
+      "text": "In the history of technology, it has always been the case that you give up certain skills in order to get other ones. For example, Plato is famously very skeptical of writing because he thought it would harm your memory. And it did. We don't remember things quite as well as they did back in the day. But I think writing is a worthwhile trade for having a slightly worse memory.",
+      "timestamp": "00:20:37",
+      "source": {
+        "slug": "dan-shipper",
+        "path": "episodes/dan-shipper/transcript.md",
+        "lineStart": 238,
+        "lineEnd": 241
+      },
+      "themes": ["technology-tradeoffs", "history", "skills"],
+      "zones": ["intuition", "discovery"],
+      "context": "Countering the narrative that AI turns your brain off by putting it in historical context of technology trade-offs",
+      "verified": true
+    },
+    {
+      "id": "dan-shipper-q006",
+      "speaker": "Dan Shipper",
+      "text": "We have a head of AI operations. I sit with her once a week. And every time I'm doing something repetitively, we put it in a to-do list. And she's just constantly building prompts, and building workflows that I and everyone else on the team are just automating as much as possible.",
+      "timestamp": "00:30:16",
+      "source": {
+        "slug": "dan-shipper",
+        "path": "episodes/dan-shipper/transcript.md",
+        "lineStart": 373,
+        "lineEnd": 373
+      },
+      "themes": ["ai-operations", "org-design", "automation"],
+      "zones": ["velocity", "alignment"],
+      "context": "Introducing the role of AI operations lead as a key hire for AI-first companies",
+      "verified": true
+    },
+    {
+      "id": "dan-shipper-q007",
+      "speaker": "Dan Shipper",
+      "text": "They invented the idea of compounding engineering. So basically, for every unit of work, you should make the next unit of work easier to do. Finding those little speed-ups, where every time you're building something, you're making it easier to do that same thing next time, gets you a lot more leverage in your engineering team.",
+      "timestamp": "00:42:16",
+      "source": {
+        "slug": "dan-shipper",
+        "path": "episodes/dan-shipper/transcript.md",
+        "lineStart": 535,
+        "lineEnd": 545
+      },
+      "themes": ["engineering", "leverage", "productivity"],
+      "zones": ["velocity", "perfection"],
+      "context": "Describing how Every's engineering team builds reusable prompts and automations to compound productivity",
+      "verified": true
+    },
+    {
+      "id": "dan-shipper-q008",
+      "speaker": "Dan Shipper",
+      "text": "He made a year's worth of progress in two months because every time I sat down with him and told him, 'Okay, here's how you tell a story, here's how you think about a headline,' he recorded all of it, put it into a prompt, and he never made the same mistake twice.",
+      "timestamp": "00:49:49",
+      "source": {
+        "slug": "dan-shipper",
+        "path": "episodes/dan-shipper/transcript.md",
+        "lineStart": 655,
+        "lineEnd": 655
+      },
+      "themes": ["learning", "ai-augmentation", "career-growth"],
+      "zones": ["velocity", "discovery"],
+      "context": "Explaining how entry-level employees with ChatGPT can accelerate their skill development dramatically",
+      "verified": true
+    },
+    {
+      "id": "dan-shipper-q009",
+      "speaker": "Dan Shipper",
+      "text": "Organizations like ours, people who are playing at the edge, we're doing things that in three years everybody else is going to be doing. It may be kind of niche for now, but it will be a big deal in three years when everyone else has the same needs that we do.",
+      "timestamp": "01:01:45",
+      "source": {
+        "slug": "dan-shipper",
+        "path": "episodes/dan-shipper/transcript.md",
+        "lineStart": 736,
+        "lineEnd": 736
+      },
+      "themes": ["early-adoption", "future-of-work", "innovation"],
+      "zones": ["discovery", "chaos"],
+      "context": "On why AI-first organizations are building the playbook that mainstream companies will follow",
+      "verified": true
+    },
+    {
+      "id": "dan-shipper-q010",
+      "speaker": "Dan Shipper",
+      "text": "GPT wrappers are amazing and they've been much maligned for absolutely no reason and people don't understand how absolutely valuable they are.",
+      "timestamp": "01:01:50",
+      "source": {
+        "slug": "dan-shipper",
+        "path": "episodes/dan-shipper/transcript.md",
+        "lineStart": 742,
+        "lineEnd": 743
+      },
+      "themes": ["product-strategy", "ai-products", "contrarian"],
+      "zones": ["chaos", "discovery"],
+      "context": "Defending GPT wrappers as a valid and valuable product strategy against common startup criticism",
+      "verified": true
+    },
+    {
+      "id": "dan-shipper-q011",
+      "speaker": "Dan Shipper",
+      "text": "The number one predictor is, 'Does the CEO use ChatGPT?' If the CEO is in it all the time, being like, 'This is the coolest thing,' everybody else is going to start doing it. If the CEO is like, 'I don't know, this is for someone else,' no one else is going to be able to lead that charge.",
+      "timestamp": "01:12:00",
+      "source": {
+        "slug": "dan-shipper",
+        "path": "episodes/dan-shipper/transcript.md",
+        "lineStart": 808,
+        "lineEnd": 808
+      },
+      "themes": ["leadership", "ai-adoption", "culture"],
+      "zones": ["alignment", "velocity"],
+      "context": "Sharing the single biggest predictor of whether a company will successfully adopt AI based on consulting experience",
+      "verified": true
+    },
+    {
+      "id": "dan-shipper-q012",
+      "speaker": "Dan Shipper",
+      "text": "That's exactly what every first-time manager says. You always have this problem: 'If I delegate it, it's not done in the way that I want it to be done. If I do it myself, I get no leverage.' And so that's how a manager has to learn how to be a manager is 'When do I lean in and maybe micromanage a little bit, and when can I delegate?'",
+      "timestamp": "01:19:22",
+      "source": {
+        "slug": "dan-shipper",
+        "path": "episodes/dan-shipper/transcript.md",
+        "lineStart": 862,
+        "lineEnd": 866
+      },
+      "themes": ["management", "delegation", "allocation-economy"],
+      "zones": ["alignment", "intuition"],
+      "context": "Drawing parallels between managing AI agents and the classic challenges of first-time human managers",
+      "verified": true
+    }
+  ],
+  "themes": ["ai-first-operations", "allocation-economy", "ai-agents", "future-of-work", "leverage", "generalists", "ai-adoption", "compounding-engineering"],
+  "takeaways": [
+    "AI will democratize expensive services - what was once only affordable for rich people and big companies (lawyers, chiefs of staff, call centers) becomes accessible to everyone through cheap intelligence.",
+    "The allocation economy is replacing the knowledge economy - management skills like evaluating talent, having vision, knowing when to delegate vs dive in are becoming the most valuable skills as everyone becomes a manager of AI.",
+    "Companies should hire an AI operations lead - someone dedicated to identifying repetitive tasks across the organization and building prompts and workflows to automate them.",
+    "Compounding engineering is the key to AI-era productivity - every unit of work should make the next unit of work easier, building a library of reusable prompts and automations.",
+    "The number one predictor of successful AI adoption is whether the CEO uses ChatGPT daily - if leadership isn't actively using these tools, nobody else will lead the charge."
+  ],
+  "zone_influence": {
+    "velocity": 0.25,
+    "perfection": 0.05,
+    "discovery": 0.20,
+    "data": 0.05,
+    "intuition": 0.10,
+    "alignment": 0.20,
+    "chaos": 0.15,
+    "focus": 0.00
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "dan-shipper-q010",
+      "why": "Defends GPT wrappers as amazing and valuable against widespread VC and tech criticism - a genuinely contrarian take in the startup world",
+      "related_zones": ["chaos", "discovery"]
+    },
+    {
+      "quoteId": "dan-shipper-q001",
+      "why": "AI may reshore American jobs rather than eliminate them - counters the dominant narrative of AI job displacement with optimism about democratized services",
+      "related_zones": ["discovery", "chaos"]
+    },
+    {
+      "quoteId": "dan-shipper-q005",
+      "why": "Challenges the 'AI makes you dumber' narrative by putting it in historical context - we gave up memory for writing, and that trade-off was worth it",
+      "related_zones": ["intuition", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["ai-operations", "allocation-economy", "ai-tools", "future-of-work", "startup-building"]
+  }
+}

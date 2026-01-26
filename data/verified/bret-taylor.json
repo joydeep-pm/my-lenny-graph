@@ -1,0 +1,246 @@
+{
+  "slug": "bret-taylor",
+  "guest": "Bret Taylor",
+  "episode_title": "He saved OpenAI, invented the \"Like\" button, and built Google Maps: Bret Taylor (Sierra)",
+  "verification_date": "2026-01-26",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "bret-taylor-q001",
+      "speaker": "Bret Taylor",
+      "text": "I probably would self-describe as an engineer, but more broadly I think of myself as a builder and I like to build products and I think companies are one of the most effective ways to build products.",
+      "timestamp": "00:14:17",
+      "source": {
+        "slug": "bret-taylor",
+        "path": "episodes/bret-taylor/transcript.md",
+        "lineStart": 128,
+        "lineEnd": 128
+      },
+      "themes": ["identity", "building", "entrepreneurship"],
+      "zones": ["velocity", "focus"],
+      "context": "Explaining his flexible view of identity and why he sees himself as a builder first, regardless of specific role",
+      "verified": true
+    },
+    {
+      "id": "bret-taylor-q002",
+      "speaker": "Bret Taylor",
+      "text": "One of the dangers for founders and product managers, but I think particularly for founders is incorrect storytelling. People don't like my product because of X. And if you tell that to yourself and you tell it to your team, all of a sudden, it goes from being an intuition to being a fact.",
+      "timestamp": "00:20:20",
+      "source": {
+        "slug": "bret-taylor",
+        "path": "episodes/bret-taylor/transcript.md",
+        "lineStart": 164,
+        "lineEnd": 164
+      },
+      "themes": ["storytelling", "intellectual-honesty", "founder-pitfalls"],
+      "zones": ["data", "discovery"],
+      "context": "Warning founders about the danger of false narratives that get mistaken for facts when repeated",
+      "verified": true
+    },
+    {
+      "id": "bret-taylor-q003",
+      "speaker": "Bret Taylor",
+      "text": "I've observed with first time founders in particular is you're often a single issue voter based on your skillset. So if you're a great engineer, the answer to almost every problem in your business is engineering. If you're a product designer, the answer almost to the proverbial redesign.",
+      "timestamp": "00:22:14",
+      "source": {
+        "slug": "bret-taylor",
+        "path": "episodes/bret-taylor/transcript.md",
+        "lineStart": 169,
+        "lineEnd": 169
+      },
+      "themes": ["self-awareness", "founder-bias", "skillset-blindness"],
+      "zones": ["discovery", "focus"],
+      "context": "Explaining how founders subconsciously default to solutions that match their existing strengths",
+      "verified": true
+    },
+    {
+      "id": "bret-taylor-q004",
+      "speaker": "Bret Taylor",
+      "text": "If you think the thing that you've been doing your whole career is the way to fix your problem, it's at least 30% likely that you've chosen that because of comfort and familiarity not truth.",
+      "timestamp": "00:23:03",
+      "source": {
+        "slug": "bret-taylor",
+        "path": "episodes/bret-taylor/transcript.md",
+        "lineStart": 170,
+        "lineEnd": 171
+      },
+      "themes": ["self-awareness", "bias", "decision-making"],
+      "zones": ["data", "chaos"],
+      "context": "Quantifying the comfort bias that makes founders default to familiar solutions rather than correct ones",
+      "verified": true
+    },
+    {
+      "id": "bret-taylor-q005",
+      "speaker": "Bret Taylor",
+      "text": "When you ask for advice, don't just ask what to do but why. Be an obnoxious two-year-old kid, why? Why? Why? Why? And really try to understand the framework that someone is using to give you advice.",
+      "timestamp": "00:29:26",
+      "source": {
+        "slug": "bret-taylor",
+        "path": "episodes/bret-taylor/transcript.md",
+        "lineStart": 208,
+        "lineEnd": 209
+      },
+      "themes": ["advice", "frameworks", "first-principles"],
+      "zones": ["discovery", "intuition"],
+      "context": "Teaching how to extract maximum value from advisors by understanding the reasoning behind their recommendations",
+      "verified": true
+    },
+    {
+      "id": "bret-taylor-q006",
+      "speaker": "Bret Taylor",
+      "text": "The interesting thing about advice is people are often extrapolating from relatively few experiences. So they will say, never do this or always do that. And it's because they had one experience where something backfired or something could have gone better if they had done it.",
+      "timestamp": "00:30:00",
+      "source": {
+        "slug": "bret-taylor",
+        "path": "episodes/bret-taylor/transcript.md",
+        "lineStart": 210,
+        "lineEnd": 210
+      },
+      "themes": ["advice", "extrapolation", "sample-size"],
+      "zones": ["data", "intuition"],
+      "context": "Explaining why advice should never be treated as a rule - it's usually based on limited anecdotal experience",
+      "verified": true
+    },
+    {
+      "id": "bret-taylor-q007",
+      "speaker": "Bret Taylor",
+      "text": "Your job as the operator of that code-generating machine is to make a product or to solve a problem and you really need to have great systems thinking and you're going to be managing this machine that's doing a lot of the tedious work of making the button or connecting to the network.",
+      "timestamp": "00:33:08",
+      "source": {
+        "slug": "bret-taylor",
+        "path": "episodes/bret-taylor/transcript.md",
+        "lineStart": 221,
+        "lineEnd": 222
+      },
+      "themes": ["ai-coding", "systems-thinking", "future-of-work"],
+      "zones": ["velocity", "discovery"],
+      "context": "Describing the future of software engineering as operating code-generating machines rather than typing code",
+      "verified": true
+    },
+    {
+      "id": "bret-taylor-q008",
+      "speaker": "Bret Taylor",
+      "text": "I think that's where agents will go. I think it's going to be more about product than it is about technology over time. Just going back to my metaphor, in 1998 when Mark and Parker started Salesforce, just getting that database running in the cloud was like a technical achievement.",
+      "timestamp": "00:57:30",
+      "source": {
+        "slug": "bret-taylor",
+        "path": "episodes/bret-taylor/transcript.md",
+        "lineStart": 350,
+        "lineEnd": 351
+      },
+      "themes": ["agents", "product-vs-technology", "market-evolution"],
+      "zones": ["velocity", "focus"],
+      "context": "Predicting that AI agents will evolve like SaaS - from technical differentiation to product differentiation",
+      "verified": true
+    },
+    {
+      "id": "bret-taylor-q009",
+      "speaker": "Bret Taylor",
+      "text": "I think agents will truly start to bend the curve again like we did in the very early days of computing because software is going from helping an individual be slightly more productive to actually accomplishing a job autonomously.",
+      "timestamp": "01:02:15",
+      "source": {
+        "slug": "bret-taylor",
+        "path": "episodes/bret-taylor/transcript.md",
+        "lineStart": 377,
+        "lineEnd": 378
+      },
+      "themes": ["agents", "productivity", "autonomous-software"],
+      "zones": ["velocity", "chaos"],
+      "context": "Explaining why AI agents represent a step-change in productivity - from assistance to autonomous job completion",
+      "verified": true
+    },
+    {
+      "id": "bret-taylor-q010",
+      "speaker": "Bret Taylor",
+      "text": "The whole market is going to go towards agents. I think the whole market is going to go towards outcomes-based pricing, not because it's the only way, but the market is going to pull everyone there because it's just so obviously the correct way to build and sell software.",
+      "timestamp": "01:04:08",
+      "source": {
+        "slug": "bret-taylor",
+        "path": "episodes/bret-taylor/transcript.md",
+        "lineStart": 386,
+        "lineEnd": 387
+      },
+      "themes": ["agents", "outcomes-based-pricing", "market-evolution"],
+      "zones": ["velocity", "alignment"],
+      "context": "Predicting the inevitable shift toward agents and outcomes-based pricing as the new software paradigm",
+      "verified": true
+    },
+    {
+      "id": "bret-taylor-q011",
+      "speaker": "Bret Taylor",
+      "text": "I think people who are trying to get productivity gains in departments like software engineering need to stop waiting for the models to magically work if they want to see the gains now. And you really have to create root cause analysis and systems to produce the right system so the models can do it today.",
+      "timestamp": "01:12:05",
+      "source": {
+        "slug": "bret-taylor",
+        "path": "episodes/bret-taylor/transcript.md",
+        "lineStart": 417,
+        "lineEnd": 420
+      },
+      "themes": ["ai-productivity", "root-cause-analysis", "context-engineering"],
+      "zones": ["data", "perfection"],
+      "context": "Advising that AI productivity requires active root cause analysis, not waiting for models to improve",
+      "verified": true
+    }
+  ],
+  "themes": [
+    "identity",
+    "building",
+    "entrepreneurship",
+    "intellectual-honesty",
+    "founder-pitfalls",
+    "self-awareness",
+    "advice",
+    "first-principles",
+    "systems-thinking",
+    "ai-coding",
+    "agents",
+    "outcomes-based-pricing",
+    "productivity",
+    "market-evolution"
+  ],
+  "takeaways": [
+    "Have a flexible identity - think of yourself as a builder, not just an engineer or PM, and be willing to transform into what the company needs at each stage rather than conforming the job to what you like to do.",
+    "Beware incorrect storytelling - founders often create false narratives about why customers don't buy that become accepted as facts, when the real reason may require a much harder solution to fix.",
+    "Question your comfort bias - if your proposed solution happens to match your strongest skill, there's at least a 30% chance you've chosen it for comfort and familiarity rather than truth.",
+    "Extract frameworks from advice, not rules - advisors are usually extrapolating from limited experiences, so ask 'why' repeatedly to understand their framework and apply it with nuance to your situation.",
+    "Don't wait for AI models to magically work - if you want productivity gains now, create root cause analysis systems to identify what context the models need and build systems to provide it."
+  ],
+  "zone_influence": {
+    "velocity": 0.25,
+    "perfection": 0.10,
+    "discovery": 0.20,
+    "data": 0.15,
+    "intuition": 0.10,
+    "alignment": 0.10,
+    "chaos": 0.05,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "bret-taylor-q004",
+      "why": "Challenges the assumption that experience-based intuition is reliable - argues 30% of familiar solutions are chosen for comfort, not correctness",
+      "related_zones": ["data", "chaos"]
+    },
+    {
+      "quoteId": "bret-taylor-q006",
+      "why": "Undermines the authority of advice from successful people - most advice is based on single anecdotes extrapolated into rules",
+      "related_zones": ["data", "intuition"]
+    },
+    {
+      "quoteId": "bret-taylor-q011",
+      "why": "Rejects the passive 'wait for better AI' approach - argues companies must actively build context engineering systems to get productivity gains now",
+      "related_zones": ["data", "perfection"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": [
+      "ai-agents",
+      "software-evolution",
+      "founder-psychology",
+      "outcomes-based-pricing",
+      "systems-thinking"
+    ]
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "slug": "kevin-weil",
+  "guest": "Kevin Weil",
+  "episode_title": "OpenAI's CPO on how AI changes must-have skills, moats, coding, startup playbooks, more | Kevin Weil",
+  "verification_date": "2026-01-26",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "kevin-weil-q001",
+      "speaker": "Kevin Weil",
+      "text": "Everywhere I've ever worked before this, you kind of know what technology you're building on. But that's not true at all with AI. It's like every two months computers can do something they've never been able to do before and you need to completely think differently about what you're doing.",
+      "timestamp": "00:16:19",
+      "source": {
+        "slug": "kevin-weil",
+        "path": "episodes/kevin-weil/transcript.md",
+        "lineStart": 166,
+        "lineEnd": 166
+      },
+      "themes": ["ai-development", "technology-change", "adaptability"],
+      "zones": ["chaos", "discovery"],
+      "context": "Kevin contrasts AI product development with traditional tech - the foundational technology itself is constantly changing.",
+      "verified": true
+    },
+    {
+      "id": "kevin-weil-q002",
+      "speaker": "Kevin Weil",
+      "text": "No matter how big your company gets, no matter how incredible the people are, there are way more smart people outside your walls than there are inside your walls. And that's why we are so focused on building a great API.",
+      "timestamp": "00:25:10",
+      "source": {
+        "slug": "kevin-weil",
+        "path": "episodes/kevin-weil/transcript.md",
+        "lineStart": 220,
+        "lineEnd": 220
+      },
+      "themes": ["platform-strategy", "ecosystem", "humility"],
+      "zones": ["discovery", "alignment"],
+      "context": "Kevin quotes Ev Williams to explain why OpenAI prioritizes its API - they can never build for every use case themselves.",
+      "verified": true
+    },
+    {
+      "id": "kevin-weil-q003",
+      "speaker": "Kevin Weil",
+      "text": "There's an Eisenhower quote: 'Plans are useless. Planning is helpful.' I totally subscribe to that, especially in this world. It's really valuable to have a moment where you stop and go, 'What did we do? What worked? What went well? What didn't go well? What did we learn and now what do we think we're going to do next?'",
+      "timestamp": "00:27:44",
+      "source": {
+        "slug": "kevin-weil",
+        "path": "episodes/kevin-weil/transcript.md",
+        "lineStart": 229,
+        "lineEnd": 232
+      },
+      "themes": ["planning", "agility", "learning"],
+      "zones": ["velocity", "chaos"],
+      "context": "Kevin explains OpenAI's lightweight approach to roadmapping - the planning moment is valuable even when plans get thrown out.",
+      "verified": true
+    },
+    {
+      "id": "kevin-weil-q004",
+      "speaker": "Kevin Weil",
+      "text": "If you're building, and we say this to developers too, if you're building and the product that you're building is right on the edge of the capabilities of the models, keep going, because you're doing something right. Give it another couple months and the models are going to be great, and suddenly the product that you have that just barely worked is really going to sing.",
+      "timestamp": "00:31:52",
+      "source": {
+        "slug": "kevin-weil",
+        "path": "episodes/kevin-weil/transcript.md",
+        "lineStart": 262,
+        "lineEnd": 265
+      },
+      "themes": ["model-maximalism", "product-strategy", "ai-development"],
+      "zones": ["velocity", "intuition", "discovery"],
+      "context": "Kevin introduces 'model maximalism' - building for capabilities that are almost there because models improve so fast.",
+      "verified": true
+    },
+    {
+      "id": "kevin-weil-q005",
+      "speaker": "Kevin Weil",
+      "text": "If you asked me something that I needed to think for 20 seconds to answer, what would I do? I wouldn't just go mute and not say anything and shut down for 20 seconds and then come back. So we shouldn't do that. We shouldn't just have a slider sitting there. But I also wouldn't just start babbling every single thought that I had.",
+      "timestamp": "00:38:09",
+      "source": {
+        "slug": "kevin-weil",
+        "path": "episodes/kevin-weil/transcript.md",
+        "lineStart": 298,
+        "lineEnd": 301
+      },
+      "themes": ["ux-design", "ai-interfaces", "human-analogy"],
+      "zones": ["intuition", "perfection"],
+      "context": "Kevin reveals a key insight: when designing AI experiences, think about how humans would behave in the same situation.",
+      "verified": true
+    },
+    {
+      "id": "kevin-weil-q006",
+      "speaker": "Kevin Weil",
+      "text": "I actually think chat is an amazing interface because it's so versatile. It is the way we talk. If I had some more rigid interface that I was allowed to use when we spoke, I would be able to speak to you about far fewer things and it would actually get in the way of us having maximum communication bandwidth.",
+      "timestamp": "00:41:30",
+      "source": {
+        "slug": "kevin-weil",
+        "path": "episodes/kevin-weil/transcript.md",
+        "lineStart": 318,
+        "lineEnd": 322
+      },
+      "themes": ["chat-interface", "ai-interfaces", "versatility"],
+      "zones": ["intuition", "discovery"],
+      "context": "Kevin pushes back on chat critics - the unstructured nature of chat is a feature, not a bug, for AI interactions.",
+      "verified": true
+    },
+    {
+      "id": "kevin-weil-q007",
+      "speaker": "Kevin Weil",
+      "text": "My personal belief is that you want to be pretty PM light as an organization just in general. Too many PMs causes problems. We'll fill the world with decks and ideas versus execution. You want a PM that is working with maybe slightly too many engineers because it means they're not going to get in and micromanage.",
+      "timestamp": "00:48:11",
+      "source": {
+        "slug": "kevin-weil",
+        "path": "episodes/kevin-weil/transcript.md",
+        "lineStart": 379,
+        "lineEnd": 382
+      },
+      "themes": ["team-structure", "product-management", "execution"],
+      "zones": ["velocity", "focus"],
+      "context": "Kevin advocates for lean PM organizations that empower engineers rather than creating bureaucracy.",
+      "verified": true
+    },
+    {
+      "id": "kevin-weil-q008",
+      "speaker": "Kevin Weil",
+      "text": "High agency is something that we really look for, people that are not going to come in and wait for everyone else to allow them to do something, they're just going to see a problem and go do it. It's just a core part of how we work. People that are happy with ambiguity, because there is a massive amount of ambiguity here.",
+      "timestamp": "00:49:54",
+      "source": {
+        "slug": "kevin-weil",
+        "path": "episodes/kevin-weil/transcript.md",
+        "lineStart": 388,
+        "lineEnd": 388
+      },
+      "themes": ["hiring", "high-agency", "ambiguity"],
+      "zones": ["chaos", "velocity"],
+      "context": "Kevin describes the traits that make successful PMs at OpenAI - high agency and comfort with ambiguity are essential.",
+      "verified": true
+    },
+    {
+      "id": "kevin-weil-q009",
+      "speaker": "Kevin Weil",
+      "text": "There's no question that fine-tuned models are the future. Models are going to be everywhere just like transistors are everywhere. AI is going to be just a part of the fabric of everything we do, but there are going to be a lot of fine-tuned models because why would you not want to more specifically customize a model against a particular use case?",
+      "timestamp": "00:58:37",
+      "source": {
+        "slug": "kevin-weil",
+        "path": "episodes/kevin-weil/transcript.md",
+        "lineStart": 436,
+        "lineEnd": 439
+      },
+      "themes": ["fine-tuning", "ai-strategy", "future-of-ai"],
+      "zones": ["data", "perfection"],
+      "context": "Kevin predicts fine-tuned models will become standard practice - customization for specific use cases is too valuable to ignore.",
+      "verified": true
+    },
+    {
+      "id": "kevin-weil-q010",
+      "speaker": "Kevin Weil",
+      "text": "One of the most important things AI could do would be personalized tutoring. It kind of blows my mind that there isn't a 2 billion kid AI personalized tutoring thing because the models are good enough to do it now. Every study shows that when you combine education with personalized tutoring, you get multiple standard deviation improvements in learning speed.",
+      "timestamp": "01:07:31",
+      "source": {
+        "slug": "kevin-weil",
+        "path": "episodes/kevin-weil/transcript.md",
+        "lineStart": 487,
+        "lineEnd": 490
+      },
+      "themes": ["education", "ai-opportunity", "social-impact"],
+      "zones": ["discovery", "alignment"],
+      "context": "Kevin identifies personalized AI tutoring as a massive unrealized opportunity that could transform global education.",
+      "verified": true
+    },
+    {
+      "id": "kevin-weil-q011",
+      "speaker": "Kevin Weil",
+      "text": "The AI models that you're using today is the worst AI model you will ever use for the rest of your life. And when you actually get that in your head, it's kind of wild. Models are getting smarter, they're getting faster, they're getting cheaper, and they're getting safer too. They hallucinate less every iteration.",
+      "timestamp": "01:16:27",
+      "source": {
+        "slug": "kevin-weil",
+        "path": "episodes/kevin-weil/transcript.md",
+        "lineStart": 550,
+        "lineEnd": 553
+      },
+      "themes": ["ai-progress", "exponential-growth", "future"],
+      "zones": ["velocity", "discovery"],
+      "context": "Kevin's signature framing for AI progress - we should build for future capabilities, not today's limitations.",
+      "verified": true
+    },
+    {
+      "id": "kevin-weil-q012",
+      "speaker": "Kevin Weil",
+      "text": "Sometimes it's not any one thing, it's just good work consistently over a long period of time. People too often look for the silver bullet when a lot of life and a lot of excellence is actually showing up day in and day out, doing good work, getting a little bit better every single day. Over the course of a year, two years, five years, it adds up like crazy.",
+      "timestamp": "01:25:33",
+      "source": {
+        "slug": "kevin-weil",
+        "path": "episodes/kevin-weil/transcript.md",
+        "lineStart": 688,
+        "lineEnd": 691
+      },
+      "themes": ["consistency", "excellence", "long-term"],
+      "zones": ["focus", "perfection"],
+      "context": "Kevin shares his life philosophy, quoting Mark Zuckerberg - sustained effort compounds more than any single breakthrough.",
+      "verified": true
+    }
+  ],
+  "themes": ["ai-development", "product-management", "model-maximalism", "high-agency", "platform-strategy", "fine-tuning", "agility", "consistency"],
+  "takeaways": [
+    "Build for future AI capabilities, not current limitations - 'model maximalism' means shipping products at the edge of what models can do, knowing they'll improve rapidly.",
+    "When designing AI experiences, think about how humans would behave in the same situation - this mental model surprisingly works for everything from UI to problem-solving approaches.",
+    "Fine-tuned models are the future - companies should use ensembles of specialized models for different tasks rather than generic queries to base models.",
+    "Stay PM-light and hire for high agency and ambiguity tolerance - OpenAI has about 25 PMs because empowered engineers with product sense beat bureaucratic processes.",
+    "Good work consistently over a long period of time beats searching for silver bullets - excellence comes from showing up daily and compounding small improvements."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.15,
+    "discovery": 0.20,
+    "data": 0.10,
+    "intuition": 0.15,
+    "alignment": 0.10,
+    "chaos": 0.10,
+    "focus": 0.00
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "kevin-weil-q006",
+      "why": "Defends chat interface against critics who say it's primitive - argues unstructured communication is actually perfect for AI interactions",
+      "related_zones": ["intuition", "discovery"]
+    },
+    {
+      "quoteId": "kevin-weil-q007",
+      "why": "Claims too many PMs causes problems and creates 'decks instead of execution' - contrarian in a world that often demands more PM headcount",
+      "related_zones": ["velocity", "focus"]
+    },
+    {
+      "quoteId": "kevin-weil-q004",
+      "why": "Advises building at the edge of model capabilities even when barely working - counter to conventional wisdom of building on stable foundations",
+      "related_zones": ["velocity", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "executive",
+    "company_stage": "growth",
+    "primary_topics": ["ai-product-development", "openai", "product-management", "future-of-ai", "team-building"]
+  }
+}

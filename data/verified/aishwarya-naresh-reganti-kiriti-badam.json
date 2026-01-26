@@ -6,173 +6,338 @@
   "verified_by": "claude-agent",
   "quotes": [
     {
-      "id": "aishwarya-kiriti-001",
+      "id": "aishwarya-kiriti-q001",
+      "speaker": "Kiriti Badam",
       "text": "When you start small, it forces you to think about what is the problem that I'm going to solve. In all this advancements of the AI, one easy, slippery slope is to keep thinking about complexities of the solution and forget the problem that you're trying to solve.",
+      "timestamp": "00:20:08",
       "source": {
-        "line_start": 200,
-        "line_end": 200,
-        "timestamp": "00:20:08",
-        "speaker": "Kiriti Badam"
+        "slug": "aishwarya-naresh-reganti-kiriti-badam",
+        "path": "episodes/aishwarya-naresh-reganti-kiriti-badam/transcript.md",
+        "lineStart": 200,
+        "lineEnd": 200
       },
+      "themes": [
+        "ai-product-strategy",
+        "problem-first",
+        "focus",
+        "simplicity"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ],
       "context": "Explaining why starting with minimal AI autonomy helps teams focus on the actual problem rather than getting lost in technical complexity",
-      "themes": ["ai-product-strategy", "problem-first", "focus", "simplicity"],
-      "zones": ["discovery", "focus"],
       "verified": true
     },
     {
-      "id": "aishwarya-kiriti-002",
+      "id": "aishwarya-kiriti-q002",
+      "speaker": "Aishwarya Naresh Reganti",
       "text": "74% or 75% of the enterprises that they had spoken to, their biggest problem was reliability. That's also why they weren't comfortable deploying products to their end users or building customer facing products because they just weren't sure or they just weren't comfortable doing that and exposing their users to a bunch of these risks.",
+      "timestamp": "00:21:45",
       "source": {
-        "line_start": 208,
-        "line_end": 209,
-        "timestamp": "00:21:45",
-        "speaker": "Aishwarya Naresh Reganti"
+        "slug": "aishwarya-naresh-reganti-kiriti-badam",
+        "path": "episodes/aishwarya-naresh-reganti-kiriti-badam/transcript.md",
+        "lineStart": 208,
+        "lineEnd": 209
       },
+      "themes": [
+        "ai-risk",
+        "reliability",
+        "trust",
+        "deployment"
+      ],
+      "zones": [
+        "perfection",
+        "data"
+      ],
       "context": "Citing UC Berkeley/Databricks research on why enterprises struggle to deploy AI products",
-      "themes": ["ai-risk", "reliability", "trust", "deployment"],
-      "zones": ["perfection", "data"],
       "verified": true
     },
     {
-      "id": "aishwarya-kiriti-003",
+      "id": "aishwarya-kiriti-q003",
+      "speaker": "Aishwarya Naresh Reganti",
       "text": "I used to work with the CEO of now Rackspace. He would have this block every day in the morning, which would say catching up with AI 4:00 to 6:00 AM. Leaders have to get back to being hands-on. You must be comfortable with the fact that your intuitions might not be right. And you probably are the dumbest person in the room and you want to learn from everyone.",
+      "timestamp": "00:25:43",
       "source": {
-        "line_start": 230,
-        "line_end": 233,
-        "timestamp": "00:25:43",
-        "speaker": "Aishwarya Naresh Reganti"
+        "slug": "aishwarya-naresh-reganti-kiriti-badam",
+        "path": "episodes/aishwarya-naresh-reganti-kiriti-badam/transcript.md",
+        "lineStart": 230,
+        "lineEnd": 233
       },
+      "themes": [
+        "ai-adoption",
+        "leadership",
+        "learning",
+        "humility"
+      ],
+      "zones": [
+        "chaos",
+        "discovery"
+      ],
       "context": "Describing how successful AI transformation requires leaders to rebuild intuitions and be vulnerable about learning",
-      "themes": ["ai-adoption", "leadership", "learning", "humility"],
-      "zones": ["chaos", "discovery"],
       "verified": true
     },
     {
-      "id": "aishwarya-kiriti-004",
+      "id": "aishwarya-kiriti-q004",
+      "speaker": "Aishwarya Naresh Reganti",
       "text": "If someone comes up to me and says, 'We have this one click agent, it's going to be deployed in your system and in two or three days, it'll start showing you significant gains,' I would almost be skeptical because it's just not possible. I probably will go as far to say that if someone's selling you one click-agents, it's pure marketing. To replace any critical workflow or to build something that can give you significant ROI, it easily takes four to six months of work, even if you have the best data layer and infrastructure layer.",
+      "timestamp": "00:30:31",
       "source": {
-        "line_start": 244,
-        "line_end": 248,
-        "timestamp": "00:30:31",
-        "speaker": "Aishwarya Naresh Reganti"
+        "slug": "aishwarya-naresh-reganti-kiriti-badam",
+        "path": "episodes/aishwarya-naresh-reganti-kiriti-badam/transcript.md",
+        "lineStart": 244,
+        "lineEnd": 248
       },
+      "themes": [
+        "ai-product-strategy",
+        "contrarian",
+        "marketing-hype",
+        "reality-check"
+      ],
+      "zones": [
+        "discovery",
+        "perfection",
+        "data"
+      ],
       "context": "Warning about unrealistic AI agent marketing and setting realistic expectations for enterprise AI deployment timelines",
-      "themes": ["ai-product-strategy", "contrarian", "marketing-hype", "reality-check"],
-      "zones": ["discovery", "perfection", "data"],
       "verified": true
     },
     {
-      "id": "aishwarya-kiriti-005",
+      "id": "aishwarya-kiriti-q005",
+      "speaker": "Kiriti Badam",
       "text": "There's this false dichotomy of this either evals is going to solve everything or online monitoring or production monitoring is going to solve everything. I find no reason to trust one of the extremes. Evals are basically your trusted product thinking that is going into this set of data sets. Production monitoring is you're deploying your application and then you're having some sort of key metrics that actually communicate back to you on how customers are using your product.",
+      "timestamp": "00:33:47",
       "source": {
-        "line_start": 271,
-        "line_end": 272,
-        "timestamp": "00:33:47",
-        "speaker": "Kiriti Badam"
+        "slug": "aishwarya-naresh-reganti-kiriti-badam",
+        "path": "episodes/aishwarya-naresh-reganti-kiriti-badam/transcript.md",
+        "lineStart": 271,
+        "lineEnd": 272
       },
+      "themes": [
+        "ai-workflows",
+        "evals",
+        "monitoring",
+        "data"
+      ],
+      "zones": [
+        "data",
+        "discovery"
+      ],
       "context": "Addressing the evals vs production monitoring debate by explaining they serve complementary purposes",
-      "themes": ["ai-workflows", "evals", "monitoring", "data"],
-      "zones": ["data", "discovery"],
       "verified": true
     },
     {
-      "id": "aishwarya-kiriti-006",
+      "id": "aishwarya-kiriti-q006",
+      "speaker": "Aishwarya Naresh Reganti",
       "text": "Martin Fowler at some point had this term called semantic diffusion back in the 2000s, which kind of means that someone comes up with a term, everybody starts butchering it with their own definitions and then you kind of lose the actual definition of it. That is what is happening to evals or agents or any word in AI as of today, everybody kind of sees a different side to it.",
+      "timestamp": "00:39:02",
       "source": {
-        "line_start": 298,
-        "line_end": 299,
-        "timestamp": "00:39:02",
-        "speaker": "Aishwarya Naresh Reganti"
+        "slug": "aishwarya-naresh-reganti-kiriti-badam",
+        "path": "episodes/aishwarya-naresh-reganti-kiriti-badam/transcript.md",
+        "lineStart": 298,
+        "lineEnd": 299
       },
+      "themes": [
+        "ai-workflows",
+        "communication",
+        "terminology",
+        "alignment"
+      ],
+      "zones": [
+        "alignment",
+        "chaos"
+      ],
       "context": "Explaining why AI terminology like 'evals' and 'agents' has become confusing as different groups use the same terms for different concepts",
-      "themes": ["ai-workflows", "communication", "terminology", "alignment"],
-      "zones": ["alignment", "chaos"],
       "verified": true
     },
     {
-      "id": "aishwarya-kiriti-007",
+      "id": "aishwarya-kiriti-q007",
+      "speaker": "Kiriti Badam",
       "text": "Codex, we have this balanced approach of you need to have evals and you need to definitely listen to your customers. It's extremely hard to build an evaluation dataset for all kinds of interactions that your customers are going to use your product for. With that said, you also need to understand that if I'm going to make a change, it's at least not going to damage something that is really core to the product.",
+      "timestamp": "00:41:44",
       "source": {
-        "line_start": 319,
-        "line_end": 320,
-        "timestamp": "00:41:44",
-        "speaker": "Kiriti Badam"
+        "slug": "aishwarya-naresh-reganti-kiriti-badam",
+        "path": "episodes/aishwarya-naresh-reganti-kiriti-badam/transcript.md",
+        "lineStart": 319,
+        "lineEnd": 320
       },
+      "themes": [
+        "ai-product-strategy",
+        "customer-feedback",
+        "evals",
+        "balance"
+      ],
+      "zones": [
+        "data",
+        "discovery",
+        "velocity"
+      ],
       "context": "Explaining OpenAI Codex team's pragmatic approach combining evals for core functionality with heavy customer feedback monitoring",
-      "themes": ["ai-product-strategy", "customer-feedback", "evals", "balance"],
-      "zones": ["data", "discovery", "velocity"],
       "verified": true
     },
     {
-      "id": "aishwarya-kiriti-008",
+      "id": "aishwarya-kiriti-q008",
+      "speaker": "Aishwarya Naresh Reganti",
       "text": "We built these end-to-end agents and we had to shut down the product because we were doing so many hot fixes and there was no way we could count all the emerging problems that were coming up. Recently, I think Air Canada had this thing where one of their agents predicted or hallucinated a policy for a refund, which was not part of their original playbook, and they had to go by it because legal stuff.",
+      "timestamp": "00:46:18",
       "source": {
-        "line_start": 347,
-        "line_end": 349,
-        "timestamp": "00:46:18",
-        "speaker": "Aishwarya Naresh Reganti"
+        "slug": "aishwarya-naresh-reganti-kiriti-badam",
+        "path": "episodes/aishwarya-naresh-reganti-kiriti-badam/transcript.md",
+        "lineStart": 347,
+        "lineEnd": 349
       },
+      "themes": [
+        "ai-risk",
+        "failure",
+        "trust",
+        "legal"
+      ],
+      "zones": [
+        "perfection",
+        "chaos"
+      ],
       "context": "Sharing the origin story of the CCCD framework - real failures that led to developing the continuous calibration approach",
-      "themes": ["ai-risk", "failure", "trust", "legal"],
-      "zones": ["perfection", "chaos"],
       "verified": true
     },
     {
-      "id": "aishwarya-kiriti-009",
+      "id": "aishwarya-kiriti-q009",
+      "speaker": "Kiriti Badam",
       "text": "Misunderstood is the concept of multi-agents. People have this notion of, 'I have this incredibly complex problem. Now I'm going to break it down into, hey, you are this agent. Take care of this. You're this agent. Take care of this.' It's never the case that there are incredibly successful multi-agent systems that are built. Letting the agents communicate in terms of peer-to-peer kind of protocol is incredibly hard to control.",
+      "timestamp": "01:01:34",
       "source": {
-        "line_start": 406,
-        "line_end": 419,
-        "timestamp": "01:01:34",
-        "speaker": "Kiriti Badam"
+        "slug": "aishwarya-naresh-reganti-kiriti-badam",
+        "path": "episodes/aishwarya-naresh-reganti-kiriti-badam/transcript.md",
+        "lineStart": 406,
+        "lineEnd": 419
       },
+      "themes": [
+        "ai-product-strategy",
+        "multi-agents",
+        "contrarian",
+        "architecture"
+      ],
+      "zones": [
+        "chaos",
+        "perfection"
+      ],
       "context": "Explaining why multi-agent systems where agents communicate peer-to-peer are misunderstood and harder than hierarchical supervisor patterns",
-      "themes": ["ai-product-strategy", "multi-agents", "contrarian", "architecture"],
-      "zones": ["chaos", "perfection"],
       "verified": true
     },
     {
-      "id": "aishwarya-kiriti-010",
+      "id": "aishwarya-kiriti-q010",
+      "speaker": "Aishwarya Naresh Reganti",
       "text": "Building is really cheap today. Design is more expensive, really thinking about your product, what you're going to build. Is it going to really solve a pain point? That is way more valuable today. And it will only become more true in the near future. So really obsessing about your problem and design is underrated and just rote building is overrated.",
+      "timestamp": "01:04:22",
       "source": {
-        "line_start": 436,
-        "line_end": 437,
-        "timestamp": "01:04:22",
-        "speaker": "Aishwarya Naresh Reganti"
+        "slug": "aishwarya-naresh-reganti-kiriti-badam",
+        "path": "episodes/aishwarya-naresh-reganti-kiriti-badam/transcript.md",
+        "lineStart": 436,
+        "lineEnd": 437
       },
+      "themes": [
+        "ai-adoption",
+        "design",
+        "problem-first",
+        "contrarian"
+      ],
+      "zones": [
+        "intuition",
+        "discovery",
+        "focus"
+      ],
       "context": "Arguing that in the AI era, implementation is becoming commoditized while thoughtful product design and problem definition are increasingly valuable",
-      "themes": ["ai-adoption", "design", "problem-first", "contrarian"],
-      "zones": ["intuition", "discovery", "focus"],
       "verified": true
     },
     {
-      "id": "aishwarya-kiriti-011",
+      "id": "aishwarya-kiriti-q011",
+      "speaker": "Aishwarya Naresh Reganti",
       "text": "Implementation is going to be ridiculously cheap in the next few years. So really nail down your design, your judgment, your taste. And now we have AI that could help you ramp pretty quickly. After a few years, I think everybody's job becomes about your taste, your judgment and kind of what is uniquely you.",
+      "timestamp": "01:08:52",
       "source": {
-        "line_start": 461,
-        "line_end": 462,
-        "timestamp": "01:08:52",
-        "speaker": "Aishwarya Naresh Reganti"
+        "slug": "aishwarya-naresh-reganti-kiriti-badam",
+        "path": "episodes/aishwarya-naresh-reganti-kiriti-badam/transcript.md",
+        "lineStart": 461,
+        "lineEnd": 462
       },
+      "themes": [
+        "ai-vs-human",
+        "judgment",
+        "taste",
+        "career",
+        "differentiation"
+      ],
+      "zones": [
+        "intuition",
+        "perfection"
+      ],
       "context": "Discussing how AI shifts career value from execution mechanics to taste, judgment, and unique human perspective",
-      "themes": ["ai-vs-human", "judgment", "taste", "career", "differentiation"],
-      "zones": ["intuition", "perfection"],
       "verified": true
     },
     {
-      "id": "aishwarya-kiriti-012",
+      "id": "aishwarya-kiriti-q012",
+      "speaker": "Kiriti Badam",
       "text": "Persistence is extremely valuable. Successful companies right now building in any new area, they are going through the pain of learning this, implementing this and understanding what works and what doesn't work. Pain is the new moat. That kind of knowledge that you built across the organization or across your own lived experiences, I feel that pain is what translates into the moat of the company.",
+      "timestamp": "01:12:07",
       "source": {
-        "line_start": 476,
-        "line_end": 482,
-        "timestamp": "01:12:07",
-        "speaker": "Kiriti Badam"
+        "slug": "aishwarya-naresh-reganti-kiriti-badam",
+        "path": "episodes/aishwarya-naresh-reganti-kiriti-badam/transcript.md",
+        "lineStart": 476,
+        "lineEnd": 482
       },
+      "themes": [
+        "ai-adoption",
+        "persistence",
+        "learning",
+        "moat",
+        "competitive-advantage"
+      ],
+      "zones": [
+        "chaos",
+        "discovery",
+        "velocity"
+      ],
       "context": "Introducing the concept that going through the painful learning process of building AI products creates competitive advantage",
-      "themes": ["ai-adoption", "persistence", "learning", "moat", "competitive-advantage"],
-      "zones": ["chaos", "discovery", "velocity"],
       "verified": true
     }
+  ],
+  "themes": [
+    "ai-product-strategy",
+    "problem-first",
+    "focus",
+    "simplicity",
+    "ai-risk",
+    "reliability",
+    "trust",
+    "deployment",
+    "ai-adoption",
+    "leadership",
+    "learning",
+    "humility",
+    "contrarian",
+    "marketing-hype",
+    "reality-check",
+    "ai-workflows",
+    "evals",
+    "monitoring",
+    "data",
+    "communication",
+    "terminology",
+    "alignment",
+    "customer-feedback",
+    "balance",
+    "failure",
+    "legal",
+    "multi-agents",
+    "architecture",
+    "design",
+    "ai-vs-human",
+    "judgment",
+    "taste",
+    "career",
+    "differentiation",
+    "persistence",
+    "moat",
+    "competitive-advantage"
   ],
   "takeaways": [
     "AI products are fundamentally different from traditional software due to non-determinism (unpredictable inputs and outputs) and the agency-control trade-off - every increase in AI autonomy requires earned trust through calibration",
@@ -182,35 +347,51 @@
     "Implementation is becoming commoditized - taste, judgment, and obsessive problem understanding are the new differentiators. 'Pain is the new moat': companies that persist through the messy learning process of calibrating AI products build competitive advantage"
   ],
   "zone_influence": {
-    "velocity": 0.10,
-    "perfection": 0.20,
-    "discovery": 0.30,
-    "data": 0.20,
-    "intuition": 0.10,
+    "velocity": 0.1,
+    "perfection": 0.2,
+    "discovery": 0.3,
+    "data": 0.2,
+    "intuition": 0.1,
     "alignment": 0.05,
     "chaos": 0.05,
-    "focus": 0.00
+    "focus": 0
   },
   "contrarian_candidates": [
     {
       "quoteId": "aishwarya-kiriti-004",
       "why": "Direct attack on 'one-click agent' marketing hype - claims it's pure marketing and real AI products take 4-6 months minimum",
-      "related_zones": ["discovery", "perfection"]
+      "related_zones": [
+        "discovery",
+        "perfection"
+      ]
     },
     {
       "quoteId": "aishwarya-kiriti-009",
       "why": "Challenges multi-agent hype by calling peer-to-peer agent communication 'misunderstood' and incredibly hard to control",
-      "related_zones": ["chaos", "perfection"]
+      "related_zones": [
+        "chaos",
+        "perfection"
+      ]
     },
     {
       "quoteId": "aishwarya-kiriti-010",
       "why": "Contrarian stance that building is overrated and design is underrated in AI era - opposite of 'ship fast' mentality",
-      "related_zones": ["intuition", "discovery", "focus"]
+      "related_zones": [
+        "intuition",
+        "discovery",
+        "focus"
+      ]
     }
   ],
   "guest_metadata": {
     "guest_type": "operator",
     "company_stage": "growth",
-    "primary_topics": ["ai-products", "reliability", "deployment", "openai", "google"]
+    "primary_topics": [
+      "ai-products",
+      "reliability",
+      "deployment",
+      "openai",
+      "google"
+    ]
   }
 }

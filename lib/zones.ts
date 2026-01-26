@@ -47,7 +47,7 @@ export const zones: Record<ZoneId, Zone> = {
     color: '#06ffa5',
     coordinates: { x: 150, y: 650 },
     icon: '🔬',
-    quoteId: 'dylan-field-009', // Reached out to top designers for feedback
+    quoteId: 'dylan-field-q009', // Reached out to top designers for feedback
     associatedGuests: ['Marty Cagan (SVPG)', 'Teresa Torres', 'April Dunford', 'Dylan Field (Figma)']
   },
   data: {
@@ -58,7 +58,7 @@ export const zones: Record<ZoneId, Zone> = {
     color: '#00d4ff',
     coordinates: { x: 650, y: 650 },
     icon: '📊',
-    quoteId: 'elena-verna-30-002', // "Growth cannot function without data"
+    quoteId: 'elena-verna-30-q002', // "Growth cannot function without data"
     associatedGuests: ['Casey Winters (Pinterest)', 'Elena Verna', 'Brian Balfour (Reforge)']
   },
   intuition: {
@@ -69,7 +69,7 @@ export const zones: Record<ZoneId, Zone> = {
     color: '#ff006e',
     coordinates: { x: 400, y: 100 },
     icon: '🎯',
-    quoteId: 'dylan-field-002', // "Intuition is like a hypothesis generator"
+    quoteId: 'dylan-field-q002', // "Intuition is like a hypothesis generator"
     associatedGuests: ['Amjad Masad (Replit)', 'Paul Graham', 'Jason Fried (37signals)', 'Dylan Field (Figma)']
   },
   alignment: {
@@ -91,7 +91,7 @@ export const zones: Record<ZoneId, Zone> = {
     color: '#dc143c',
     coordinates: { x: 700, y: 400 },
     icon: '🌪️',
-    quoteId: 'amjad-masad-010', // "We slaughtered our roadmap...being able to switch priorities right away"
+    quoteId: 'amjad-masad-q010', // "We slaughtered our roadmap...being able to switch priorities right away"
     associatedGuests: ['Amjad Masad (Replit)', 'Guillermo Rauch (Vercel)', 'Anton Osika (Lovable)']
   },
   focus: {

@@ -1,0 +1,199 @@
+{
+  "slug": "melanie-perkins",
+  "quotes": [
+    {
+      "id": "melanie-perkins-q001",
+      "speaker": "Melanie Perkins",
+      "text": "And I think most planning is often done by looking at the bricks and trying to stack them, and then you can create only so much. And so I guess the column B thinking is thinking about what is that magical wonderful future that you then want to invest years and decades of your life actually building?",
+      "timestamp": "00:05:35",
+      "source": {
+        "slug": "melanie-perkins",
+        "path": "episodes/melanie-perkins/transcript.md",
+        "lineStart": 84,
+        "lineEnd": 84
+      },
+      "themes": ["vision", "strategy", "founder-mindset"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "melanie-perkins-q002",
+      "speaker": "Melanie Perkins",
+      "text": "You kind of want to have a ladder that goes all the way up to the moon, which is your crazy, wild vision. And then you want to have rungs that just work its way up step by step. And so you want to get that really clear picture of the future that you would like and then just take little step, after little step, after little step.",
+      "timestamp": "00:09:43",
+      "source": {
+        "slug": "melanie-perkins",
+        "path": "episodes/melanie-perkins/transcript.md",
+        "lineStart": 108,
+        "lineEnd": 108
+      },
+      "themes": ["vision", "execution", "incremental-progress"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "melanie-perkins-q003",
+      "speaker": "Melanie Perkins",
+      "text": "So we have this concept of chaos to clarity and every idea starts in the chaos side, and then you have to work all the way to the other side, which is clarity. And so chaos can be an idea, it can be a problem, it can be a philosophy or a belief.",
+      "timestamp": "00:12:04",
+      "source": {
+        "slug": "melanie-perkins",
+        "path": "episodes/melanie-perkins/transcript.md",
+        "lineStart": 123,
+        "lineEnd": 123
+      },
+      "themes": ["product-development", "ideation", "process"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "melanie-perkins-q004",
+      "speaker": "Melanie Perkins",
+      "text": "That very first step at the very far end of chaos, it's very embarrassing because you're like, 'I have this idea that is so big and so wild and how the hell would I do that? I have no idea.' And so it's quite an embarrassing step, actually, because you don't have mastery at that point. You don't have all the answers.",
+      "timestamp": "00:13:48",
+      "source": {
+        "slug": "melanie-perkins",
+        "path": "episodes/melanie-perkins/transcript.md",
+        "lineStart": 129,
+        "lineEnd": 129
+      },
+      "themes": ["founder-journey", "humility", "starting-out"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "melanie-perkins-q005",
+      "speaker": "Melanie Perkins",
+      "text": "I think the thing that I love about a crazy big goal is that you feel completely inadequate before it. With a crazy big goal, then you want to work really hard to will it into existence. And so if you start with a reasonable goal or a realistic goal, then you kind of get to it and you're like, 'Oh cool, whatever.'",
+      "timestamp": "00:15:08",
+      "source": {
+        "slug": "melanie-perkins",
+        "path": "episodes/melanie-perkins/transcript.md",
+        "lineStart": 135,
+        "lineEnd": 138
+      },
+      "themes": ["ambition", "motivation", "goals"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "melanie-perkins-q006",
+      "speaker": "Melanie Perkins",
+      "text": "We were doing a front-end rewrite and we thought it would take about six months. It was really important because it was critical for cross-platform. And it just felt like we're in a dark, dark tunnel that we could hardly see the end of the tunnel. A product company not shipping product is not really a recipe for fun.",
+      "timestamp": "00:24:14",
+      "source": {
+        "slug": "melanie-perkins",
+        "path": "episodes/melanie-perkins/transcript.md",
+        "lineStart": 189,
+        "lineEnd": 192
+      },
+      "themes": ["perseverance", "product-development", "challenges"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "melanie-perkins-q007",
+      "speaker": "Melanie Perkins",
+      "text": "It was really clear in my mind that it was the future and I thought the investors were wrong, frankly. But investors also gave really helpful feedback and feedback often in the form of rejection. So they would say, 'Oh, your market's not big enough.' And I would say, 'It's going to be huge.' And I'd add a new page in my pitch deck.",
+      "timestamp": "00:27:06",
+      "source": {
+        "slug": "melanie-perkins",
+        "path": "episodes/melanie-perkins/transcript.md",
+        "lineStart": 216,
+        "lineEnd": 216
+      },
+      "themes": ["fundraising", "perseverance", "iteration"],
+      "zones": ["intuition", "velocity"]
+    },
+    {
+      "id": "melanie-perkins-q008",
+      "speaker": "Melanie Perkins",
+      "text": "It's kind of building a house that you want every brick in the house to match. And if you go and try and take some bricks from someone else's house and stick it in your house, it's probably going to not look very matched. And so trying to find things that are authentic to us and are authentic to everything that's come before it.",
+      "timestamp": "00:31:11",
+      "source": {
+        "slug": "melanie-perkins",
+        "path": "episodes/melanie-perkins/transcript.md",
+        "lineStart": 240,
+        "lineEnd": 240
+      },
+      "themes": ["culture", "authenticity", "leadership"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "melanie-perkins-q009",
+      "speaker": "Melanie Perkins",
+      "text": "Often people have a mission that's kind of on the wall somewhere and then what they're actually doing and the way they actually make money and the way people actually spend their time is in a very, very different direction from that original mission. And I think the magic is when you can bring those two things together.",
+      "timestamp": "00:34:48",
+      "source": {
+        "slug": "melanie-perkins",
+        "path": "episodes/melanie-perkins/transcript.md",
+        "lineStart": 264,
+        "lineEnd": 264
+      },
+      "themes": ["mission", "alignment", "strategy"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "melanie-perkins-q010",
+      "speaker": "Melanie Perkins",
+      "text": "I don't have emails on my phone and so when I shut my laptop, I actually tune out and then if there's a real issue, I'll get an emergency call or page. Sometimes you can miss the forest from the trees when you're just working harder and harder, but maybe you're actually working on the wrong thing.",
+      "timestamp": "00:37:15",
+      "source": {
+        "slug": "melanie-perkins",
+        "path": "episodes/melanie-perkins/transcript.md",
+        "lineStart": 276,
+        "lineEnd": 276
+      },
+      "themes": ["work-life-balance", "perspective", "leadership"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "melanie-perkins-q011",
+      "speaker": "Melanie Perkins",
+      "text": "And if you take that problem centered approach that helps people to achieve something they actually want to do in the real life, you're probably going to be at a reasonably good spot. I think it's better to solve a small number of people's problem really well than trying to solve a large number of people's problem not very well at all.",
+      "timestamp": "00:52:04",
+      "source": {
+        "slug": "melanie-perkins",
+        "path": "episodes/melanie-perkins/transcript.md",
+        "lineStart": 399,
+        "lineEnd": 399
+      },
+      "themes": ["product-market-fit", "focus", "customer-centricity"],
+      "zones": ["focus", "discovery", "data"]
+    }
+  ],
+  "themes": ["vision", "perseverance", "product-led-growth", "democratizing-design", "founder-journey", "fundraising", "chaos-to-clarity", "crazy-big-goals", "mission-alignment"],
+  "takeaways": [
+    "Column B thinking means imagining the magical future you want to will into existence, not just stacking the bricks around you - most planning starts from constraints, but transformative companies start from vision.",
+    "Every idea starts in chaos and must journey to clarity through incremental steps - the first step is embarrassing because you lack mastery, but that discomfort is necessary for breakthrough ideas.",
+    "Crazy big goals work because feeling inadequate before them drives you to work harder - reasonable goals lead to 'oh cool, whatever' when achieved, while ambitious ones sustain motivation through obstacles.",
+    "Rejection is feedback in disguise - Melanie turned 100+ investor rejections into pitch deck improvements, treating each 'no' as an opportunity to strengthen her story and address objections.",
+    "Authenticity beats borrowed playbooks - taking bricks from other companies' houses creates mismatched cultures; the systems that work are ones evolved authentically from your own foundations."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.10,
+    "discovery": 0.20,
+    "data": 0.05,
+    "intuition": 0.15,
+    "alignment": 0.15,
+    "chaos": 0.10,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "melanie-perkins-q007",
+      "why": "Thought investors were wrong and persisted through 100+ rejections - challenges the notion that founders should pivot based on investor feedback",
+      "related_zones": ["intuition", "velocity"]
+    },
+    {
+      "quoteId": "melanie-perkins-q008",
+      "why": "Rejected borrowed playbooks from bigger companies - counters the common advice to adopt proven practices from successful companies",
+      "related_zones": ["alignment", "perfection"]
+    },
+    {
+      "quoteId": "melanie-perkins-q005",
+      "why": "Argues for feeling inadequate before goals - challenges conventional wisdom about setting achievable, motivating targets",
+      "related_zones": ["discovery", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "late-stage",
+    "primary_topics": ["vision", "perseverance", "product-development", "mission-driven-company", "founder-journey"]
+  }
+}

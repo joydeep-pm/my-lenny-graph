@@ -6,173 +6,323 @@
   "verified_by": "claude-agent",
   "quotes": [
     {
-      "id": "jason-fried-001",
+      "id": "jason-fried-q001",
+      "speaker": "Jason Fried",
       "text": "We run a very different kind of business. We are focused on efficiency, we're not focused on growth. We think that constraints, simplicity, small teams actually are where it's at, and keep us honest, and allow us to do great work for our customer base.",
+      "timestamp": "00:10:31",
       "source": {
-        "line_start": 100,
-        "line_end": 109,
-        "timestamp": "00:10:31",
-        "speaker": "Jason Fried"
+        "slug": "jason-fried",
+        "path": "episodes/jason-fried/transcript.md",
+        "lineStart": 100,
+        "lineEnd": 109
       },
+      "themes": [
+        "efficiency",
+        "constraints",
+        "focus",
+        "simplicity"
+      ],
+      "zones": [
+        "focus",
+        "perfection"
+      ],
       "context": "Explaining why 37signals has 75 employees while competitors have 1500-3000, yet similar customers and profitability",
-      "themes": ["efficiency", "constraints", "focus", "simplicity"],
-      "zones": ["focus", "perfection"],
       "verified": true
     },
     {
-      "id": "jason-fried-002",
+      "id": "jason-fried-q002",
+      "speaker": "Jason Fried",
       "text": "We build products with two people at a time. Every feature we work on is two people, one programmer, one designer, and they have a maximum of six weeks to deliver. So we don't get stuck in these big huge projects, with meetings with 18 people, and slow decision-making, and indecision, and complexity.",
+      "timestamp": "00:11:58",
       "source": {
-        "line_start": 105,
-        "line_end": 106,
-        "timestamp": "00:11:58",
-        "speaker": "Jason Fried"
+        "slug": "jason-fried",
+        "path": "episodes/jason-fried/transcript.md",
+        "lineStart": 105,
+        "lineEnd": 106
       },
+      "themes": [
+        "team-structure",
+        "constraints",
+        "simplicity",
+        "decision-making"
+      ],
+      "zones": [
+        "focus",
+        "velocity"
+      ],
       "context": "Describing how 37signals builds features - small teams with tight time constraints",
-      "themes": ["team-structure", "constraints", "simplicity", "decision-making"],
-      "zones": ["focus", "velocity"],
       "verified": true
     },
     {
-      "id": "jason-fried-003",
+      "id": "jason-fried-q003",
+      "speaker": "Jason Fried",
       "text": "For me, it's really about, would I want to do this again? If the answer is, 'Yeah, that was enjoyable. I enjoyed that. That was worthwhile. I'm glad I did that. I'd like to do that again,' then it was successful.",
+      "timestamp": "00:14:53",
       "source": {
-        "line_start": 139,
-        "line_end": 140,
-        "timestamp": "00:14:53",
-        "speaker": "Jason Fried"
+        "slug": "jason-fried",
+        "path": "episodes/jason-fried/transcript.md",
+        "lineStart": 139,
+        "lineEnd": 140
       },
+      "themes": [
+        "success-definition",
+        "fulfillment",
+        "contrarian",
+        "values"
+      ],
+      "zones": [
+        "intuition",
+        "alignment"
+      ],
       "context": "Defining success differently - not by metrics or revenue, but by enjoyment and wanting to repeat the experience",
-      "themes": ["success-definition", "fulfillment", "contrarian", "values"],
-      "zones": ["intuition", "alignment"],
       "verified": true
     },
     {
-      "id": "jason-fried-004",
+      "id": "jason-fried-q004",
+      "speaker": "Jason Fried",
       "text": "We don't have financial goals. We don't have OKRs or KPIs. I don't have revenue targets. I don't have growth targets. It's just, at the end, 'Did we make more than we spend? We did. Then the things we did this year were worth it.'",
+      "timestamp": "00:16:28",
       "source": {
-        "line_start": 145,
-        "line_end": 146,
-        "timestamp": "00:16:28",
-        "speaker": "Jason Fried"
+        "slug": "jason-fried",
+        "path": "episodes/jason-fried/transcript.md",
+        "lineStart": 145,
+        "lineEnd": 146
       },
+      "themes": [
+        "metrics",
+        "contrarian",
+        "simplicity",
+        "focus"
+      ],
+      "zones": [
+        "intuition",
+        "focus"
+      ],
       "context": "Explaining his anti-metrics philosophy - no OKRs, KPIs, or growth targets, just profitability",
-      "themes": ["metrics", "contrarian", "simplicity", "focus"],
-      "zones": ["intuition", "focus"],
       "verified": true
     },
     {
-      "id": "jason-fried-005",
+      "id": "jason-fried-q005",
+      "speaker": "Jason Fried",
       "text": "I'm so sick of the startups. Starting a business is actually way easier than staying in business. Literally tomorrow, I can start a new business. But, are you going to be there in two years? Staying is harder than starting. So I'm here to celebrate stay ups.",
+      "timestamp": "00:20:15",
       "source": {
-        "line_start": 177,
-        "line_end": 179,
-        "timestamp": "00:20:15",
-        "speaker": "Jason Fried"
+        "slug": "jason-fried",
+        "path": "episodes/jason-fried/transcript.md",
+        "lineStart": 177,
+        "lineEnd": 179
       },
+      "themes": [
+        "longevity",
+        "contrarian",
+        "sustainability",
+        "endurance"
+      ],
+      "zones": [
+        "focus",
+        "alignment"
+      ],
       "context": "Coining the term 'stay up' vs 'startup' - emphasizing that longevity is harder and more valuable than starting",
-      "themes": ["longevity", "contrarian", "sustainability", "endurance"],
-      "zones": ["focus", "alignment"],
       "verified": true
     },
     {
-      "id": "jason-fried-006",
+      "id": "jason-fried-q006",
+      "speaker": "Jason Fried",
       "text": "You don't need to outdo the competition, it's expensive and defensive. Underdo your competition. We need more simplicity and clarity.",
+      "timestamp": "00:14:12",
       "source": {
-        "line_start": 136,
-        "line_end": 137,
-        "timestamp": "00:14:12",
-        "speaker": "Jason Fried"
+        "slug": "jason-fried",
+        "path": "episodes/jason-fried/transcript.md",
+        "lineStart": 136,
+        "lineEnd": 137
       },
+      "themes": [
+        "competition",
+        "simplicity",
+        "contrarian",
+        "focus"
+      ],
+      "zones": [
+        "focus",
+        "perfection"
+      ],
       "context": "Contrarian advice about competition - don't try to do more, do less but better",
-      "themes": ["competition", "simplicity", "contrarian", "focus"],
-      "zones": ["focus", "perfection"],
       "verified": true
     },
     {
-      "id": "jason-fried-007",
+      "id": "jason-fried-q007",
+      "speaker": "Jason Fried",
       "text": "Independence is the root of all the things we're able to do. We want to be entrepreneurs and to me, that means working for yourself. The moment you go out and take money or have these big obligations, you end up working for someone else.",
+      "timestamp": "01:05:13",
       "source": {
-        "line_start": 469,
-        "line_end": 472,
-        "timestamp": "01:05:13",
-        "speaker": "Jason Fried"
+        "slug": "jason-fried",
+        "path": "episodes/jason-fried/transcript.md",
+        "lineStart": 469,
+        "lineEnd": 472
       },
+      "themes": [
+        "independence",
+        "bootstrapping",
+        "freedom",
+        "values"
+      ],
+      "zones": [
+        "focus",
+        "alignment"
+      ],
       "context": "Explaining why independence (no investors) is the foundational principle that enables everything else at 37signals",
-      "themes": ["independence", "bootstrapping", "freedom", "values"],
-      "zones": ["focus", "alignment"],
       "verified": true
     },
     {
-      "id": "jason-fried-008",
+      "id": "jason-fried-q008",
+      "speaker": "Jason Fried",
       "text": "We don't have a multi-year plan. I don't even have a one-year plan. I don't even have a six-month plan or a quarter. We think about everything we're going to do every six weeks. We're very much an in-the-now company, making it up as we go.",
+      "timestamp": "01:02:57",
       "source": {
-        "line_start": 454,
-        "line_end": 458,
-        "timestamp": "01:02:57",
-        "speaker": "Jason Fried"
+        "slug": "jason-fried",
+        "path": "episodes/jason-fried/transcript.md",
+        "lineStart": 454,
+        "lineEnd": 458
       },
+      "themes": [
+        "planning",
+        "contrarian",
+        "flexibility",
+        "agility"
+      ],
+      "zones": [
+        "chaos",
+        "intuition"
+      ],
       "context": "Explaining his anti-planning philosophy - no long-term plans, only 6-week cycles",
-      "themes": ["planning", "contrarian", "flexibility", "agility"],
-      "zones": ["chaos", "intuition"],
       "verified": true
     },
     {
-      "id": "jason-fried-009",
+      "id": "jason-fried-q009",
+      "speaker": "Jason Fried",
       "text": "I think the further out you plan, the less you know about the decisions you're making. People end up doing things they don't want to do because they said they were going to do them. Obligations in the future, I think, are quite dangerous.",
+      "timestamp": "01:04:37",
       "source": {
-        "line_start": 462,
-        "line_end": 464,
-        "timestamp": "01:04:37",
-        "speaker": "Jason Fried"
+        "slug": "jason-fried",
+        "path": "episodes/jason-fried/transcript.md",
+        "lineStart": 462,
+        "lineEnd": 464
       },
+      "themes": [
+        "planning",
+        "flexibility",
+        "contrarian",
+        "decision-making"
+      ],
+      "zones": [
+        "chaos",
+        "intuition"
+      ],
       "context": "Explaining why long-term planning is harmful - it creates obligations that lead to unhappiness",
-      "themes": ["planning", "flexibility", "contrarian", "decision-making"],
-      "zones": ["chaos", "intuition"],
       "verified": true
     },
     {
-      "id": "jason-fried-010",
+      "id": "jason-fried-q010",
+      "speaker": "Jason Fried",
       "text": "I almost would be embarrassed by what someone would come in and look at, and go, 'Oh my God, you guys are missing so many opportunities here.' I'd be like, 'Yeah, I know. I know we are, but I'm totally fine with it.'",
+      "timestamp": "00:26:28",
       "source": {
-        "line_start": 241,
-        "line_end": 242,
-        "timestamp": "00:26:28",
-        "speaker": "Jason Fried"
+        "slug": "jason-fried",
+        "path": "episodes/jason-fried/transcript.md",
+        "lineStart": 241,
+        "lineEnd": 242
       },
+      "themes": [
+        "focus",
+        "opportunity-cost",
+        "restraint",
+        "contrarian"
+      ],
+      "zones": [
+        "focus",
+        "perfection"
+      ],
       "context": "Acknowledging they intentionally miss many growth opportunities (multiple pricing tiers, enterprise versions, etc.) and being okay with it",
-      "themes": ["focus", "opportunity-cost", "restraint", "contrarian"],
-      "zones": ["focus", "perfection"],
       "verified": true
     },
     {
-      "id": "jason-fried-011",
+      "id": "jason-fried-q011",
+      "speaker": "Jason Fried",
       "text": "We don't say, 'If this gets 20,000 users, then it's a success.' I don't know. We don't care. It doesn't even matter. We're making it anyway, and we're going to see what's going to happen. The market will tell us what happens. I'll just wait to find out.",
+      "timestamp": "01:06:12",
       "source": {
-        "line_start": 475,
-        "line_end": 479,
-        "timestamp": "01:06:12",
-        "speaker": "Jason Fried"
+        "slug": "jason-fried",
+        "path": "episodes/jason-fried/transcript.md",
+        "lineStart": 475,
+        "lineEnd": 479
       },
+      "themes": [
+        "metrics",
+        "expectations",
+        "contrarian",
+        "discovery"
+      ],
+      "zones": [
+        "intuition",
+        "discovery"
+      ],
       "context": "Explaining their approach to launches - no success metrics, just make it and see what happens",
-      "themes": ["metrics", "expectations", "contrarian", "discovery"],
-      "zones": ["intuition", "discovery"],
       "verified": true
     },
     {
-      "id": "jason-fried-012",
+      "id": "jason-fried-q012",
+      "speaker": "Jason Fried",
       "text": "That's pride, though. We want to be proud of the work that we did. If I'm not for me first, it's hard to be for someone else. We want to make things that we're proud of, that are unique, that bring something new to the world that doesn't exist.",
+      "timestamp": "01:06:53",
       "source": {
-        "line_start": 484,
-        "line_end": 487,
-        "timestamp": "01:06:53",
-        "speaker": "Jason Fried"
+        "slug": "jason-fried",
+        "path": "episodes/jason-fried/transcript.md",
+        "lineStart": 484,
+        "lineEnd": 487
       },
+      "themes": [
+        "craft",
+        "pride",
+        "values",
+        "product-philosophy"
+      ],
+      "zones": [
+        "perfection",
+        "intuition"
+      ],
       "context": "Explaining their product philosophy - pride in craft first, market success second",
-      "themes": ["craft", "pride", "values", "product-philosophy"],
-      "zones": ["perfection", "intuition"],
       "verified": true
     }
+  ],
+  "themes": [
+    "efficiency",
+    "constraints",
+    "focus",
+    "simplicity",
+    "team-structure",
+    "decision-making",
+    "success-definition",
+    "fulfillment",
+    "contrarian",
+    "values",
+    "metrics",
+    "longevity",
+    "sustainability",
+    "endurance",
+    "competition",
+    "independence",
+    "bootstrapping",
+    "freedom",
+    "planning",
+    "flexibility",
+    "agility",
+    "opportunity-cost",
+    "restraint",
+    "expectations",
+    "discovery",
+    "craft",
+    "pride",
+    "product-philosophy"
   ],
   "takeaways": [
     "Focus on efficiency over growth - 37signals has 75 employees while competitors have 1500-3000, yet similar revenue and higher profitability",
@@ -183,39 +333,57 @@
   ],
   "zone_influence": {
     "velocity": 0.05,
-    "perfection": 0.20,
+    "perfection": 0.2,
     "discovery": 0.05,
-    "data": 0.0,
+    "data": 0,
     "intuition": 0.25,
     "alignment": 0.15,
-    "chaos": 0.10,
-    "focus": 0.20
+    "chaos": 0.1,
+    "focus": 0.2
   },
   "contrarian_candidates": [
     {
       "quoteId": "jason-fried-004",
       "why": "Extreme contrarian take: no OKRs, KPIs, revenue targets, or growth goals - opposite of Silicon Valley gospel",
-      "related_zones": ["intuition", "focus"]
+      "related_zones": [
+        "intuition",
+        "focus"
+      ]
     },
     {
       "quoteId": "jason-fried-005",
       "why": "Provocative reframing: 'stay ups' not 'startups' - challenges the celebration of starting businesses",
-      "related_zones": ["focus", "alignment"]
+      "related_zones": [
+        "focus",
+        "alignment"
+      ]
     },
     {
       "quoteId": "jason-fried-006",
       "why": "Counterintuitive advice: underdo your competition, not outdo them",
-      "related_zones": ["focus", "perfection"]
+      "related_zones": [
+        "focus",
+        "perfection"
+      ]
     },
     {
       "quoteId": "jason-fried-010",
       "why": "Provocative admission: we intentionally miss opportunities and we're proud of it",
-      "related_zones": ["focus", "perfection"]
+      "related_zones": [
+        "focus",
+        "perfection"
+      ]
     }
   ],
   "guest_metadata": {
     "guest_type": "founder",
     "company_stage": "growth",
-    "primary_topics": ["simplicity", "calm", "bootstrapping", "craft", "remote-work"]
+    "primary_topics": [
+      "simplicity",
+      "calm",
+      "bootstrapping",
+      "craft",
+      "remote-work"
+    ]
   }
 }

@@ -1,0 +1,241 @@
+{
+  "slug": "adam-fishman",
+  "guest": "Adam Fishman",
+  "episode_title": "How to build a high-performing growth team | Adam Fishman (Patreon, Lyft, Imperfect Foods)",
+  "verification_date": "2026-01-26",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "adam-fishman-q001",
+      "speaker": "Adam Fishman",
+      "text": "The founders of that company were looking for what I would call a silver bullet strategy to their growth challenges. And what they really needed was to create a strategy to add on new growth loops and a system for how to execute against that strategy.",
+      "timestamp": "00:13:34",
+      "source": {
+        "slug": "adam-fishman",
+        "path": "episodes/adam-fishman/transcript.md",
+        "lineStart": 164,
+        "lineEnd": 164
+      },
+      "themes": ["growth-strategy", "hiring", "expectations", "systems"],
+      "zones": ["velocity", "focus"],
+      "context": "Adam reflects on a mismatch at Wyzant where founders expected quick fixes rather than systematic growth building.",
+      "verified": true
+    },
+    {
+      "id": "adam-fishman-q002",
+      "speaker": "Adam Fishman",
+      "text": "The goal of the competency model is not to find a unicorn human being that is an 11 out of 10 on every one of these things, because frankly, that person doesn't exist. The goal is to create a well-rounded team so that you're hiring and balancing skills across your team and that you don't have any gaps in your portfolio.",
+      "timestamp": "00:15:19",
+      "source": {
+        "slug": "adam-fishman",
+        "path": "episodes/adam-fishman/transcript.md",
+        "lineStart": 178,
+        "lineEnd": 178
+      },
+      "themes": ["hiring", "team-building", "growth-leadership", "balance"],
+      "zones": ["alignment", "perfection"],
+      "context": "Adam explains that growth teams should be evaluated holistically rather than searching for impossible unicorn candidates.",
+      "verified": true
+    },
+    {
+      "id": "adam-fishman-q003",
+      "speaker": "Adam Fishman",
+      "text": "One of the things that people don't easily understand is that most people come to your product with an emotional frame and a lot of people want to appeal to their logical brain right away. And the reality is, don't do that. You have to understand the mindset that people are in.",
+      "timestamp": "00:19:47",
+      "source": {
+        "slug": "adam-fishman",
+        "path": "episodes/adam-fishman/transcript.md",
+        "lineStart": 214,
+        "lineEnd": 214
+      },
+      "themes": ["user-psychology", "customer-knowledge", "emotions", "product-design"],
+      "zones": ["intuition", "discovery"],
+      "context": "Adam shares his background in consumer psychology and why understanding emotional motivations matters more than logical appeals.",
+      "verified": true
+    },
+    {
+      "id": "adam-fishman-q004",
+      "speaker": "Adam Fishman",
+      "text": "Seeking the solution in a customer interview is never going to work, right? You seek to understand and then you take that away and you can think through what the model should look like and how things should change as a result.",
+      "timestamp": "00:21:04",
+      "source": {
+        "slug": "adam-fishman",
+        "path": "episodes/adam-fishman/transcript.md",
+        "lineStart": 225,
+        "lineEnd": 225
+      },
+      "themes": ["user-research", "customer-knowledge", "product-development", "insights"],
+      "zones": ["discovery", "data"],
+      "context": "Adam agrees with the Collison brothers' view that user research builds your mental model of customers, not direct solutions.",
+      "verified": true
+    },
+    {
+      "id": "adam-fishman-q005",
+      "speaker": "Adam Fishman",
+      "text": "Influence is one of the biggest and hardest skills to develop. It's no different in a growth practitioner and in some cases it can even be harder because sometimes people come in with a preconceived notion of what growth is and isn't and you have to change their mind.",
+      "timestamp": "00:23:29",
+      "source": {
+        "slug": "adam-fishman",
+        "path": "episodes/adam-fishman/transcript.md",
+        "lineStart": 247,
+        "lineEnd": 247
+      },
+      "themes": ["influence", "leadership", "growth-leadership", "communication"],
+      "zones": ["alignment", "velocity"],
+      "context": "Adam describes influence as the pinnacle competency that requires constant relearning with each new company or role.",
+      "verified": true
+    },
+    {
+      "id": "adam-fishman-q006",
+      "speaker": "Adam Fishman",
+      "text": "If you're going to hire a junior person, the key is, how do you help them learn? If you don't know what you're doing as the founder or the leader, you're not going to be able to help them yourself. So you've got to be willing to invest in advisors, outside education, mentorship, coaching.",
+      "timestamp": "00:27:15",
+      "source": {
+        "slug": "adam-fishman",
+        "path": "episodes/adam-fishman/transcript.md",
+        "lineStart": 283,
+        "lineEnd": 283
+      },
+      "themes": ["hiring", "mentorship", "growth-leadership", "team-development"],
+      "zones": ["alignment", "discovery"],
+      "context": "Adam warns that hiring junior growth talent without support systems leads to enthusiastic people running through walls when doors exist nearby.",
+      "verified": true
+    },
+    {
+      "id": "adam-fishman-q007",
+      "speaker": "Adam Fishman",
+      "text": "I tend to skew more towards internal hire to be perfectly honest, because I believe in creating opportunity inside a company. I think it's not done often enough. And I also believe that helping people transition into new roles is a way to get more people into the practice.",
+      "timestamp": "00:32:44",
+      "source": {
+        "slug": "adam-fishman",
+        "path": "episodes/adam-fishman/transcript.md",
+        "lineStart": 343,
+        "lineEnd": 343
+      },
+      "themes": ["hiring", "internal-mobility", "team-building", "growth-leadership"],
+      "zones": ["alignment", "focus"],
+      "context": "Adam recommends internal hires for growth roles because they already have customer knowledge and faster time to results.",
+      "verified": true
+    },
+    {
+      "id": "adam-fishman-q008",
+      "speaker": "Adam Fishman",
+      "text": "Onboarding is the only part of your product experience that a hundred percent of people are ever going to touch. Good luck getting a hundred percent feature adoption of anything else in your product. It's also the first opportunity that you have as a company to deliver on the promise that you made out in the marketplace.",
+      "timestamp": "00:36:13",
+      "source": {
+        "slug": "adam-fishman",
+        "path": "episodes/adam-fishman/transcript.md",
+        "lineStart": 364,
+        "lineEnd": 364
+      },
+      "themes": ["onboarding", "activation", "product-experience", "growth-levers"],
+      "zones": ["velocity", "data"],
+      "context": "Adam explains why onboarding is such an underappreciated growth lever with universal impact on the user experience.",
+      "verified": true
+    },
+    {
+      "id": "adam-fishman-q009",
+      "speaker": "Adam Fishman",
+      "text": "I like to think of your brand is the promise that you're making and your product experience is your delivery of that promise. And those two things have to be in lockstep with each other or you're going to have mismatched expectations and some really disappointed customers.",
+      "timestamp": "00:36:53",
+      "source": {
+        "slug": "adam-fishman",
+        "path": "episodes/adam-fishman/transcript.md",
+        "lineStart": 367,
+        "lineEnd": 367
+      },
+      "themes": ["brand", "product-experience", "customer-expectations", "alignment"],
+      "zones": ["perfection", "alignment"],
+      "context": "Adam frames the brand-product relationship as a promise-delivery system that must stay synchronized.",
+      "verified": true
+    },
+    {
+      "id": "adam-fishman-q010",
+      "speaker": "Adam Fishman",
+      "text": "I have seen companies shift their curve outward by 10, 15, 20 percentage points from making those changes, especially when you consider that churn is most likely to happen in the very earliest usage of the product. If you can get people past that hump, it's a really invaluable part of the product to work on.",
+      "timestamp": "00:38:15",
+      "source": {
+        "slug": "adam-fishman",
+        "path": "episodes/adam-fishman/transcript.md",
+        "lineStart": 376,
+        "lineEnd": 376
+      },
+      "themes": ["retention", "onboarding", "metrics", "churn"],
+      "zones": ["data", "velocity"],
+      "context": "Adam quantifies the retention impact of onboarding improvements and early habit formation.",
+      "verified": true
+    },
+    {
+      "id": "adam-fishman-q011",
+      "speaker": "Adam Fishman",
+      "text": "I actually think if you're doing it right, sometimes conversion should actually decrease a little bit. So you might actually have fewer people getting all the way through successfully, but I think that's okay because a lot of those people were probably not the right people for your product.",
+      "timestamp": "00:45:32",
+      "source": {
+        "slug": "adam-fishman",
+        "path": "episodes/adam-fishman/transcript.md",
+        "lineStart": 424,
+        "lineEnd": 424
+      },
+      "themes": ["conversion", "retention", "onboarding", "qualification"],
+      "zones": ["data", "intuition"],
+      "context": "Adam shares the counterintuitive insight that good onboarding may reduce conversion but improve retention by filtering wrong-fit users.",
+      "verified": true
+    },
+    {
+      "id": "adam-fishman-q012",
+      "speaker": "Adam Fishman",
+      "text": "When you're interviewing at a company, you are actually investing an even more scarce resource. You're investing your time. There is no way to get more time. We're all on a finite clock. You can always get more money.",
+      "timestamp": "01:00:09",
+      "source": {
+        "slug": "adam-fishman",
+        "path": "episodes/adam-fishman/transcript.md",
+        "lineStart": 511,
+        "lineEnd": 511
+      },
+      "themes": ["career", "company-selection", "time-management", "decisions"],
+      "zones": ["focus", "discovery"],
+      "context": "Adam reframes job decisions as investment choices where time is the scarcest and most valuable resource.",
+      "verified": true
+    }
+  ],
+  "themes": ["growth-leadership", "hiring", "onboarding", "retention", "team-building", "user-psychology", "career-decisions", "internal-mobility"],
+  "takeaways": [
+    "Build balanced growth teams: Don't search for unicorn candidates - hire to fill competency gaps across execution, customer knowledge, strategy, and communication.",
+    "Onboarding is your highest-leverage growth investment: It's the only feature 100% of users touch and the first chance to deliver on your brand promise.",
+    "Favor internal hires for growth roles: They already have customer knowledge, faster time to results, and you know what you're getting.",
+    "Use proxy metrics to measure onboarding impact: Don't wait 90 days for retention data - find early signals that predict long-term success.",
+    "Treat job decisions as time investments: Apply the same rigor to evaluating companies as investors do - people, mission, and financials."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.15,
+    "intuition": 0.10,
+    "alignment": 0.25,
+    "chaos": 0.00,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "adam-fishman-q011",
+      "why": "Argues that good onboarding should sometimes decrease conversion - counterintuitive when most teams optimize for maximum throughput",
+      "related_zones": ["data", "intuition"]
+    },
+    {
+      "quoteId": "adam-fishman-q007",
+      "why": "Strongly recommends internal hires over external experienced hires - contradicts typical 'hire experts' advice for specialized growth roles",
+      "related_zones": ["alignment", "focus"]
+    },
+    {
+      "quoteId": "adam-fishman-q002",
+      "why": "Challenges the unicorn hiring mentality - argues perfect candidates don't exist and teams should hire for balance instead",
+      "related_zones": ["alignment", "perfection"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "executive",
+    "company_stage": "growth",
+    "primary_topics": ["growth-leadership", "hiring", "onboarding", "retention", "career-development"]
+  }
+}

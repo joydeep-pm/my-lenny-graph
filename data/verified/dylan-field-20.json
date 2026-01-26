@@ -6,137 +6,297 @@
   "verified_by": "warp-agent",
   "quotes": [
     {
-      "id": "dylan-field-001",
+      "id": "dylan-field-q001",
+      "speaker": "Dylan Field",
       "text": "Design is art applied to problem solving. I think that design is often... There is some component of creativity to it and unique expression that you're trying to provide and create and put out into the world. But you are also trying to do it and match it to a user need, a problem that needs to be solved. And I think that it's not pure art, but if you lose the art and you're just solving the problem, it's totally utilitarian and it lacks soul.",
+      "timestamp": "07:09",
       "source": {
-        "line_start": 100,
-        "line_end": 100,
-        "timestamp": "07:09",
-        "speaker": "Dylan Field"
+        "slug": "dylan-field-20",
+        "path": "episodes/dylan-field-20/transcript.md",
+        "lineStart": 100,
+        "lineEnd": 100
       },
-      "themes": ["design", "craft", "problem-solving", "vision", "quality"],
-      "zones": ["perfection", "intuition"]
+      "themes": [
+        "design",
+        "craft",
+        "problem-solving",
+        "vision",
+        "quality"
+      ],
+      "zones": [
+        "perfection",
+        "intuition"
+      ],
+      "verified": true
     },
     {
-      "id": "dylan-field-002",
+      "id": "dylan-field-q002",
+      "speaker": "Dylan Field",
       "text": "Intuition is like a hypothesis generator and you're constantly generating these hypotheses and others are generating hypotheses as well. And you then take these hypotheses and you put them forward and you debate them and you try to find data to support them or negate them. And then you winnow it down into what is our working hypothesis? And from that you move forward.",
+      "timestamp": "11:19",
       "source": {
-        "line_start": 199,
-        "line_end": 199,
-        "timestamp": "11:19",
-        "speaker": "Dylan Field"
+        "slug": "dylan-field-20",
+        "path": "episodes/dylan-field-20/transcript.md",
+        "lineStart": 199,
+        "lineEnd": 199
       },
-      "themes": ["intuition", "decision-making", "hypotheses", "data", "product-management"],
-      "zones": ["intuition", "discovery", "data"]
+      "themes": [
+        "intuition",
+        "decision-making",
+        "hypotheses",
+        "data",
+        "product-management"
+      ],
+      "zones": [
+        "intuition",
+        "discovery",
+        "data"
+      ],
+      "verified": true
     },
     {
-      "id": "dylan-field-003",
+      "id": "dylan-field-q003",
+      "speaker": "Dylan Field",
       "text": "I think the more concrete an artifact is or the more you can debate something, the better. I ask for examples a lot, I try to ask follow up questions about things and make sure I fully understand it. And I think where I get stuck sometimes is if I ask follow up questions and we don't have answers yet, and then my response might be, 'Let's go find the answer to these questions and then let's go back to this conversation.'",
+      "timestamp": "15:05",
       "source": {
-        "line_start": 220,
-        "line_end": 220,
-        "timestamp": "15:05",
-        "speaker": "Dylan Field"
+        "slug": "dylan-field-20",
+        "path": "episodes/dylan-field-20/transcript.md",
+        "lineStart": 220,
+        "lineEnd": 220
       },
-      "themes": ["decision-making", "leadership", "first-principles", "learning"],
-      "zones": ["discovery", "focus"]
+      "themes": [
+        "decision-making",
+        "leadership",
+        "first-principles",
+        "learning"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ],
+      "verified": true
     },
     {
-      "id": "dylan-field-004",
+      "id": "dylan-field-q004",
+      "speaker": "Dylan Field",
       "text": "Good product people are able to create great frameworks that bring everyone along with them. And so everyone's able to have a shared head space around what it is they're trying to get to. The best PMs create those frameworks that bring everyone else along and those frameworks also have a point of view and a strategy associated with them. So you're able to take the strategy, take the point of view, wrap it all up in a framework, and then make it so that everyone knows what the destination is and how to get there.",
+      "timestamp": "20:16",
       "source": {
-        "line_start": 247,
-        "line_end": 259,
-        "timestamp": "20:16",
-        "speaker": "Dylan Field"
+        "slug": "dylan-field-20",
+        "path": "episodes/dylan-field-20/transcript.md",
+        "lineStart": 247,
+        "lineEnd": 259
       },
-      "themes": ["product-management", "frameworks", "strategy", "alignment", "leadership"],
-      "zones": ["alignment", "focus"]
+      "themes": [
+        "product-management",
+        "frameworks",
+        "strategy",
+        "alignment",
+        "leadership"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ],
+      "verified": true
     },
     {
-      "id": "dylan-field-005",
+      "id": "dylan-field-q005",
+      "speaker": "Dylan Field",
       "text": "One plus one does not equal three, it sometimes equals one and a half. And the more that you add and the more that you continue to put in something, the more complex it gets and the worse it gets. And I think this is definitely true for tools. We can make it more powerful, but to do that in a way that's not making it more complex at the same time is extremely hard.",
+      "timestamp": "23:06",
       "source": {
-        "line_start": 265,
-        "line_end": 267,
-        "timestamp": "23:06",
-        "speaker": "Dylan Field"
+        "slug": "dylan-field-20",
+        "path": "episodes/dylan-field-20/transcript.md",
+        "lineStart": 265,
+        "lineEnd": 267
       },
-      "themes": ["simplicity", "complexity", "design", "product-management"],
-      "zones": ["perfection", "focus"]
+      "themes": [
+        "simplicity",
+        "complexity",
+        "design",
+        "product-management"
+      ],
+      "zones": [
+        "perfection",
+        "focus"
+      ],
+      "verified": true
     },
     {
-      "id": "dylan-field-006",
+      "id": "dylan-field-q006",
+      "speaker": "Dylan Field",
       "text": "Keep the simple things simple. Make the complex things possible. I think that's a really important principle to hold as you're designing tools. And I'd say that it's really easy to make the simple things complex, unfortunately.",
+      "timestamp": "25:46",
       "source": {
-        "line_start": 289,
-        "line_end": 289,
-        "timestamp": "25:46",
-        "speaker": "Dylan Field"
+        "slug": "dylan-field-20",
+        "path": "episodes/dylan-field-20/transcript.md",
+        "lineStart": 289,
+        "lineEnd": 289
       },
-      "themes": ["simplicity", "design", "principles", "craft"],
-      "zones": ["perfection", "focus"]
+      "themes": [
+        "simplicity",
+        "design",
+        "principles",
+        "craft"
+      ],
+      "zones": [
+        "perfection",
+        "focus"
+      ],
+      "verified": true
     },
     {
-      "id": "dylan-field-007",
+      "id": "dylan-field-q007",
+      "speaker": "Dylan Field",
       "text": "Get it out as fast as you possibly can. Everything they tell you about making sure that you get a product out really quickly is totally true. The faster you get it out, the more feedback you get. That is a positive thing. And now I index on that when we try to build.",
+      "timestamp": "27:49",
       "source": {
-        "line_start": 312,
-        "line_end": 313,
-        "timestamp": "27:49",
-        "speaker": "Dylan Field"
+        "slug": "dylan-field-20",
+        "path": "episodes/dylan-field-20/transcript.md",
+        "lineStart": 312,
+        "lineEnd": 313
       },
-      "themes": ["velocity", "shipping", "iteration", "feedback"],
-      "zones": ["velocity", "discovery"]
+      "themes": [
+        "velocity",
+        "shipping",
+        "iteration",
+        "feedback"
+      ],
+      "zones": [
+        "velocity",
+        "discovery"
+      ],
+      "verified": true
     },
     {
-      "id": "dylan-field-008",
+      "id": "dylan-field-q008",
+      "speaker": "Dylan Field",
       "text": "For a new launch, you got quality, features, deadline, choose two. And I think that the beautiful thing about software is you can keep iterating on it. So it's not like a physical product where you have to always have quality in there, otherwise it's never going to have quality. You can ship it with features and deadline and then improve it iteratively over time.",
+      "timestamp": "29:32",
       "source": {
-        "line_start": 328,
-        "line_end": 328,
-        "timestamp": "29:32",
-        "speaker": "Dylan Field"
+        "slug": "dylan-field-20",
+        "path": "episodes/dylan-field-20/transcript.md",
+        "lineStart": 328,
+        "lineEnd": 328
       },
-      "themes": ["tradeoffs", "shipping", "quality", "iteration", "strategy"],
-      "zones": ["velocity", "perfection", "focus"]
+      "themes": [
+        "tradeoffs",
+        "shipping",
+        "quality",
+        "iteration",
+        "strategy"
+      ],
+      "zones": [
+        "velocity",
+        "perfection",
+        "focus"
+      ],
+      "verified": true
     },
     {
-      "id": "dylan-field-009",
+      "id": "dylan-field-q009",
+      "speaker": "Dylan Field",
       "text": "I constructed this list of, 'Here are the most central designers in the graph', but also then I looked at their work. And the ones that I was really inspired by as a total fanboy, and someone who wanted to learn as much as I could about design, was inspired by these folks, the ones I was inspired by I reached out to and said, 'Hey, can I buy you a coffee?' And I think it started honestly more as me fanboy and me getting feedback.",
+      "timestamp": "31:01",
       "source": {
-        "line_start": 337,
-        "line_end": 340,
-        "timestamp": "31:01",
-        "speaker": "Dylan Field"
+        "slug": "dylan-field-20",
+        "path": "episodes/dylan-field-20/transcript.md",
+        "lineStart": 337,
+        "lineEnd": 340
       },
-      "themes": ["user-research", "learning", "community", "feedback", "growth"],
-      "zones": ["discovery", "velocity"]
+      "themes": [
+        "user-research",
+        "learning",
+        "community",
+        "feedback",
+        "growth"
+      ],
+      "zones": [
+        "discovery",
+        "velocity"
+      ],
+      "verified": true
     },
     {
-      "id": "dylan-field-010",
+      "id": "dylan-field-q010",
+      "speaker": "Dylan Field",
       "text": "When people give you advice, they're not giving you advice, they're giving themselves advice in your shoes. I think that's an interesting one. So if I gave you advice here, I'm giving myself advice in your shoes.",
+      "timestamp": "45:22",
       "source": {
-        "line_start": 496,
-        "line_end": 496,
-        "timestamp": "45:22",
-        "speaker": "Dylan Field"
+        "slug": "dylan-field-20",
+        "path": "episodes/dylan-field-20/transcript.md",
+        "lineStart": 496,
+        "lineEnd": 496
       },
-      "themes": ["advice", "mentorship", "learning", "perspective"],
-      "zones": ["intuition", "discovery"]
+      "themes": [
+        "advice",
+        "mentorship",
+        "learning",
+        "perspective"
+      ],
+      "zones": [
+        "intuition",
+        "discovery"
+      ],
+      "verified": true
     },
     {
-      "id": "dylan-field-011",
+      "id": "dylan-field-q011",
+      "speaker": "Dylan Field",
       "text": "Mentors can come from anywhere. It can come from the community. Mentorship can come from the people you hire. It can come from folks that you actively seek out as investors or explicit mentorship and mentors. There have been plenty of people where they ask me a question at some point and I give them an answer and they think it's insightful for whatever reason. And then years later where we're talking again and I ask them a question and they're like, 'Well, years ago you told me...' And they repeat back what I told them like, 'That's a really good point.'",
+      "timestamp": "39:51",
       "source": {
-        "line_start": 433,
-        "line_end": 433,
-        "timestamp": "39:51",
-        "speaker": "Dylan Field"
+        "slug": "dylan-field-20",
+        "path": "episodes/dylan-field-20/transcript.md",
+        "lineStart": 433,
+        "lineEnd": 433
       },
-      "themes": ["mentorship", "learning", "growth", "leadership"],
-      "zones": ["discovery", "alignment"]
+      "themes": [
+        "mentorship",
+        "learning",
+        "growth",
+        "leadership"
+      ],
+      "zones": [
+        "discovery",
+        "alignment"
+      ],
+      "verified": true
     }
+  ],
+  "themes": [
+    "design",
+    "craft",
+    "problem-solving",
+    "vision",
+    "quality",
+    "intuition",
+    "decision-making",
+    "hypotheses",
+    "data",
+    "product-management",
+    "leadership",
+    "first-principles",
+    "learning",
+    "frameworks",
+    "strategy",
+    "alignment",
+    "simplicity",
+    "complexity",
+    "principles",
+    "velocity",
+    "shipping",
+    "iteration",
+    "feedback",
+    "tradeoffs",
+    "user-research",
+    "community",
+    "growth",
+    "advice",
+    "mentorship",
+    "perspective"
   ],
   "takeaways": [
     "Intuition is a hypothesis generator - constantly generate hypotheses, debate them with data, winnow down to working hypotheses",
@@ -146,32 +306,47 @@
     "Ship as fast as possible to get feedback - speed of iteration matters more than perfection at launch"
   ],
   "zone_influence": {
-    "intuition": 0.30,
+    "intuition": 0.3,
     "perfection": 0.25,
-    "discovery": 0.20,
+    "discovery": 0.2,
     "focus": 0.15,
-    "velocity": 0.10
+    "velocity": 0.1
   },
   "contrarian_candidates": [
     {
       "quoteId": "dylan-field-005",
       "why": "Challenges additive thinking: 'One plus one sometimes equals one and a half' - more features can make products worse",
-      "related_zones": ["perfection", "focus"]
+      "related_zones": [
+        "perfection",
+        "focus"
+      ]
     },
     {
       "quoteId": "dylan-field-008",
       "why": "Argues you CAN ship without quality for software - iterate later. Contrarian to perfection-first approach",
-      "related_zones": ["velocity", "perfection"]
+      "related_zones": [
+        "velocity",
+        "perfection"
+      ]
     },
     {
       "quoteId": "dylan-field-010",
       "why": "Reframes all advice as self-advice: 'When people give you advice, they're giving themselves advice in your shoes'",
-      "related_zones": ["intuition", "discovery"]
+      "related_zones": [
+        "intuition",
+        "discovery"
+      ]
     }
   ],
   "guest_metadata": {
     "guest_type": "founder",
     "company_stage": "growth",
-    "primary_topics": ["design", "intuition", "simplicity", "craft", "collaboration"]
+    "primary_topics": [
+      "design",
+      "intuition",
+      "simplicity",
+      "craft",
+      "collaboration"
+    ]
   }
 }

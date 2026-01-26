@@ -1,0 +1,194 @@
+{
+  "slug": "paul-adams",
+  "quotes": [
+    {
+      "id": "paul-adams-q001",
+      "speaker": "Paul Adams",
+      "text": "At Facebook, you can design the product. But at Intercom, you can design the company. And, that was extremely appealing to me, a great pitch. He's like, 'Just design the company with us that you want to work in.'",
+      "timestamp": "00:13:41",
+      "source": {
+        "slug": "paul-adams",
+        "path": "episodes/paul-adams/transcript.md",
+        "lineStart": 120,
+        "lineEnd": 120
+      },
+      "themes": ["leadership", "culture", "company-building"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "paul-adams-q002",
+      "speaker": "Paul Adams",
+      "text": "We have a principle called Ship to Learn. Ship fast, ship early, ship often. So, in that idea is the idea of failure. It's not going to go right. And, it's going to go wrong more often than not. But if you ship early, and fast, and learn fast, you can change fast, and you can improve fast.",
+      "timestamp": "00:14:09",
+      "source": {
+        "slug": "paul-adams",
+        "path": "episodes/paul-adams/transcript.md",
+        "lineStart": 126,
+        "lineEnd": 126
+      },
+      "themes": ["velocity", "iteration", "product-development"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "paul-adams-q003",
+      "speaker": "Paul Adams",
+      "text": "This is a meteor coming towards you. This is bigger than mobile as a technology shift, as big as the internet. Maybe it's bigger than the internet itself as a technology shift, the way it'll shape society. So I'm all in.",
+      "timestamp": "00:16:23",
+      "source": {
+        "slug": "paul-adams",
+        "path": "episodes/paul-adams/transcript.md",
+        "lineStart": 138,
+        "lineEnd": 138
+      },
+      "themes": ["AI", "technology-shifts", "strategy"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "paul-adams-q004",
+      "speaker": "Paul Adams",
+      "text": "I'd start with the thing your product does. What's the core premise behind it? Why do people use it? What problem does it solve for them? And then, ask the question, 'Can AI do that?' And for a lot the answer's going to be, 'Yes, it can.' For some, it might be, 'It can partially do it.'",
+      "timestamp": "00:21:25",
+      "source": {
+        "slug": "paul-adams",
+        "path": "episodes/paul-adams/transcript.md",
+        "lineStart": 189,
+        "lineEnd": 189
+      },
+      "themes": ["AI", "product-strategy", "first-principles"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "paul-adams-q005",
+      "speaker": "Paul Adams",
+      "text": "We literally ripped up our strategy almost entirely, and started again, from first principles and said, 'Okay, why do people use Intercom?' We totally changed how we think, how we work, and we just went heads down and built. It was a little bit of a bet the farm mindset.",
+      "timestamp": "00:24:35",
+      "source": {
+        "slug": "paul-adams",
+        "path": "episodes/paul-adams/transcript.md",
+        "lineStart": 201,
+        "lineEnd": 204
+      },
+      "themes": ["strategy", "AI", "bold-decisions"],
+      "zones": ["chaos", "focus", "velocity"]
+    },
+    {
+      "id": "paul-adams-q006",
+      "speaker": "Paul Adams",
+      "text": "Don't bolt it on. Don't be like, 'Oh, we'll have a bunch of AI people...' And we do have some specialists. But generally speaking, we're trying to have everyone learn about it. I'm a big believer in generalists.",
+      "timestamp": "00:37:08",
+      "source": {
+        "slug": "paul-adams",
+        "path": "episodes/paul-adams/transcript.md",
+        "lineStart": 288,
+        "lineEnd": 294
+      },
+      "themes": ["AI", "org-design", "generalists"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "paul-adams-q007",
+      "speaker": "Paul Adams",
+      "text": "Number one thing I would say is keep it simple. Fight so hard to resist the temptation to add extra ways in which you price. People can't understand their bill.",
+      "timestamp": "00:53:31",
+      "source": {
+        "slug": "paul-adams",
+        "path": "episodes/paul-adams/transcript.md",
+        "lineStart": 399,
+        "lineEnd": 399
+      },
+      "themes": ["pricing", "simplicity", "strategy"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "paul-adams-q008",
+      "speaker": "Paul Adams",
+      "text": "People who adopt a product, or buy a product, or switch to a product, there's two driving forces. One is the attraction of the new solution, and that's basically differentiation. But, on the other side, there's an entry requirement or table stakes. To play the game, you got to have a certain amount of things.",
+      "timestamp": "00:55:03",
+      "source": {
+        "slug": "paul-adams",
+        "path": "episodes/paul-adams/transcript.md",
+        "lineStart": 411,
+        "lineEnd": 414
+      },
+      "themes": ["product-strategy", "frameworks", "differentiation"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "paul-adams-q009",
+      "speaker": "Paul Adams",
+      "text": "Swinging the pendulum means, you take a step back from everyday work life, and you make the observation that something's in an undesirable state. And then, so you go and fix it, but the temptation is that you over-correct. And we've done this so many times in so many domains.",
+      "timestamp": "00:59:28",
+      "source": {
+        "slug": "paul-adams",
+        "path": "episodes/paul-adams/transcript.md",
+        "lineStart": 435,
+        "lineEnd": 436
+      },
+      "themes": ["leadership", "frameworks", "balance"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "paul-adams-q010",
+      "speaker": "Paul Adams",
+      "text": "The market is the people, the problems they have, and how important the problems are to them. To have a good market, you need a lot of people with the same problem, and they need to care a lot about it. The product is the solution to that. The market's the who, the product's the what.",
+      "timestamp": "01:05:33",
+      "source": {
+        "slug": "paul-adams",
+        "path": "episodes/paul-adams/transcript.md",
+        "lineStart": 474,
+        "lineEnd": 474
+      },
+      "themes": ["product-market-fit", "strategy", "frameworks"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "paul-adams-q011",
+      "speaker": "Paul Adams",
+      "text": "For us with Jobs to be Done, it was a really good way of centering on the customer problem, focusing on not getting distracted, basing it in good solid research informed insight. There's so many people who spend so much energy debating the nuances. Who cares? Your customers don't care.",
+      "timestamp": "01:09:50",
+      "source": {
+        "slug": "paul-adams",
+        "path": "episodes/paul-adams/transcript.md",
+        "lineStart": 509,
+        "lineEnd": 510
+      },
+      "themes": ["jobs-to-be-done", "customer-focus", "pragmatism"],
+      "zones": ["discovery", "focus"]
+    }
+  ],
+  "themes": ["product-leadership", "AI-strategy", "org-design", "jobs-to-be-done", "frameworks", "iteration", "simplicity", "company-building"],
+  "takeaways": [
+    "AI is a meteor-level disruption - start by asking if AI can do what your product does, then decide if you need replacement or augmentation. Go back to first principles and be willing to rip up your strategy.",
+    "Ship fast, ship early, ship often - embrace failure as part of the process. If you ship early and learn fast, you can change fast. The culture of iteration beats the pursuit of perfection.",
+    "Don't bolt AI on as a side team - integrate it across the organization. Hire generalists who can adapt rather than specialists who struggle with ambiguity in fluid startup cultures.",
+    "Balance differentiation with table stakes - startups need more differentiation to attract customers, but without table stakes features, people cannot adopt. Know which phase your company is in.",
+    "Product market story fit matters as much as product market fit - great products in great markets still fail if the story is wrong or missing. Learn to explain your product as well as you build it."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.10,
+    "discovery": 0.25,
+    "data": 0.05,
+    "intuition": 0.10,
+    "alignment": 0.15,
+    "chaos": 0.10,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "paul-adams-q005",
+      "why": "Advocates ripping up strategy entirely and betting the farm on AI - contrasts with incremental approaches most companies take",
+      "related_zones": ["chaos", "velocity"]
+    },
+    {
+      "quoteId": "paul-adams-q011",
+      "why": "Dismisses intellectual debates about frameworks as useless - 'Who cares? Your customers don't care' - anti-academic, pragmatic stance",
+      "related_zones": ["focus", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "executive",
+    "company_stage": "growth",
+    "primary_topics": ["AI-strategy", "product-leadership", "org-design", "jobs-to-be-done"]
+  }
+}

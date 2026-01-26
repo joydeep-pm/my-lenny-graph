@@ -1,0 +1,260 @@
+{
+  "slug": "rachel-lockett",
+  "guest": "Rachel Lockett",
+  "episode_title": "A guide to difficult conversations, building high-trust teams, and designing a life you love",
+  "verification_date": "2026-01-26",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "rachel-lockett-q001",
+      "speaker": "Rachel Lockett",
+      "text": "Great leaders know that when you try to advise and have the answer all the time, you're not actually equipping your team to go solve the hard problems. You're training your team to come to you with all of the hard problems. Coaching is a different way. It's an alternative path that unlocks brilliance in your team and is way more motivating for the people around you.",
+      "timestamp": "00:10:12",
+      "source": {
+        "slug": "rachel-lockett",
+        "path": "episodes/rachel-lockett/transcript.md",
+        "lineStart": 170,
+        "lineEnd": 171
+      },
+      "themes": ["coaching", "leadership", "delegation", "empowerment"],
+      "zones": ["alignment", "focus"],
+      "context": "Explaining why leaders should shift from always having answers to coaching their teams",
+      "verified": true
+    },
+    {
+      "id": "rachel-lockett-q002",
+      "speaker": "Rachel Lockett",
+      "text": "Most people aren't listening. They're just waiting for their turn to talk. This is rampant in tech. Great leaders flip that script and tune in. They're the kinds of leaders who walk into a room, and they can see the elephants. They can name them. They can ask the hard questions to get people collaborating.",
+      "timestamp": "00:13:31",
+      "source": {
+        "slug": "rachel-lockett",
+        "path": "episodes/rachel-lockett/transcript.md",
+        "lineStart": 216,
+        "lineEnd": 222
+      },
+      "themes": ["active-listening", "leadership", "emotional-intelligence", "communication"],
+      "zones": ["alignment", "intuition"],
+      "context": "Introducing the first skill of coaching - active listening - with a Fight Club reference",
+      "verified": true
+    },
+    {
+      "id": "rachel-lockett-q003",
+      "speaker": "Rachel Lockett",
+      "text": "Level three listening is global listening. That's what I'm hearing beneath the words. I'm hearing what you're communicating, not just what you're saying. I see your body language. I notice your tone of voice. I know the context around what you're talking about, and I can reflect back more insight about what's happening than you're aware of. Dropping into level three listening is what great leaders do when they're influencing, selling, pitching a vision, and definitely when they're coaching.",
+      "timestamp": "00:14:46",
+      "source": {
+        "slug": "rachel-lockett",
+        "path": "episodes/rachel-lockett/transcript.md",
+        "lineStart": 224,
+        "lineEnd": 225
+      },
+      "themes": ["active-listening", "emotional-intelligence", "coaching", "communication"],
+      "zones": ["intuition", "alignment"],
+      "context": "Describing the deepest level of listening that enables true understanding and connection",
+      "verified": true
+    },
+    {
+      "id": "rachel-lockett-q004",
+      "speaker": "Rachel Lockett",
+      "text": "I use a GROW model. The G is goal - what does success look like? The R is about your current reality - where are you stuck? The O is about your options - what paths could you take? The W is the way forward - what are you going to do next? The people on your team will appreciate the space and time to unlock an option they didn't think of before and walk away with a concrete next step.",
+      "timestamp": "00:19:17",
+      "source": {
+        "slug": "rachel-lockett",
+        "path": "episodes/rachel-lockett/transcript.md",
+        "lineStart": 281,
+        "lineEnd": 282
+      },
+      "themes": ["coaching", "frameworks", "powerful-questions", "leadership"],
+      "zones": ["alignment", "focus"],
+      "context": "Introducing the GROW model framework for coaching conversations",
+      "verified": true
+    },
+    {
+      "id": "rachel-lockett-q005",
+      "speaker": "Rachel Lockett",
+      "text": "When people are in their gifts and their strengths firmly, most of the time, they have more energy. We all have more energy when we're operating from the things we naturally are good at and the things we innately love doing. I try to help my leaders see that they can design their lives so they're spending 80% of their time in their gifts.",
+      "timestamp": "00:43:44",
+      "source": {
+        "slug": "rachel-lockett",
+        "path": "episodes/rachel-lockett/transcript.md",
+        "lineStart": 639,
+        "lineEnd": 643
+      },
+      "themes": ["burnout", "energy-management", "strengths", "career-design"],
+      "zones": ["focus", "discovery"],
+      "context": "Explaining the connection between operating in your strengths and avoiding burnout",
+      "verified": true
+    },
+    {
+      "id": "rachel-lockett-q006",
+      "speaker": "Rachel Lockett",
+      "text": "It's no one else's job to help you live in your gifts. What I notice in big companies is people are often annoyed or frustrated with their management for not making their job more interesting. No, your manager's job is to help you perform in the job you were hired to do. It's your job to navigate your career.",
+      "timestamp": "00:57:19",
+      "source": {
+        "slug": "rachel-lockett",
+        "path": "episodes/rachel-lockett/transcript.md",
+        "lineStart": 755,
+        "lineEnd": 756
+      },
+      "themes": ["career-ownership", "self-advocacy", "agency", "professional-growth"],
+      "zones": ["focus", "discovery"],
+      "context": "Challenging the expectation that managers should design fulfilling work for their reports",
+      "verified": true
+    },
+    {
+      "id": "rachel-lockett-q007",
+      "speaker": "Rachel Lockett",
+      "text": "65% of startups fail because of co-founder conflict. Co-founders are in a moment where they're trying to build the future for their business, but also trying to build their own livelihood. So there's so much at stake to get along with your co-founder. The core of a healthy relationship is self-awareness: what do I bring into this dynamic, and how am I being experienced by the other person?",
+      "timestamp": "01:01:50",
+      "source": {
+        "slug": "rachel-lockett",
+        "path": "episodes/rachel-lockett/transcript.md",
+        "lineStart": 788,
+        "lineEnd": 789
+      },
+      "themes": ["co-founders", "self-awareness", "relationships", "startup-failure"],
+      "zones": ["alignment", "intuition"],
+      "context": "Explaining why co-founder relationships fail and what makes them healthy",
+      "verified": true
+    },
+    {
+      "id": "rachel-lockett-q008",
+      "speaker": "Rachel Lockett",
+      "text": "People, when they want to have a conflict, they come in armored and ready to prove their point. There's a misguided view that the goal is to convince the other person that what they're doing is wrong. Actually, the goal of any conflict is to create mutual understanding. Not to prove your point, but to help the other person empathize and see clearly what's happening.",
+      "timestamp": "01:12:50",
+      "source": {
+        "slug": "rachel-lockett",
+        "path": "episodes/rachel-lockett/transcript.md",
+        "lineStart": 848,
+        "lineEnd": 849
+      },
+      "themes": ["conflict-resolution", "communication", "empathy", "difficult-conversations"],
+      "zones": ["alignment", "intuition"],
+      "context": "Reframing the purpose of conflict from winning arguments to creating understanding",
+      "verified": true
+    },
+    {
+      "id": "rachel-lockett-q009",
+      "speaker": "Rachel Lockett",
+      "text": "We operate in tech. We're supposed to give all of ourselves, all of our time, all of our energy to this endeavor, and it's purely logical. That's not at all true. It's completely emotional. Professionals have feelings. If we ignore our feelings, they will bubble up, and we will be unconsciously acting from them.",
+      "timestamp": "01:17:37",
+      "source": {
+        "slug": "rachel-lockett",
+        "path": "episodes/rachel-lockett/transcript.md",
+        "lineStart": 881,
+        "lineEnd": 882
+      },
+      "themes": ["emotional-intelligence", "tech-culture", "feelings", "self-awareness"],
+      "zones": ["intuition", "chaos"],
+      "context": "Challenging the myth that tech work is purely logical and emotions don't belong",
+      "verified": true
+    },
+    {
+      "id": "rachel-lockett-q010",
+      "speaker": "Rachel Lockett",
+      "text": "Difficult conversations makes you want to run away. The marketing on conflict is poor, so I want to reframe that. When we feel internally ambivalent, there's something really beautiful and important to pay attention to. When we are in conflict, something important is at stake. We care deeply about what we're building, about the person that's letting us down. So instead of avoiding it, lean into this moment.",
+      "timestamp": "01:21:11",
+      "source": {
+        "slug": "rachel-lockett",
+        "path": "episodes/rachel-lockett/transcript.md",
+        "lineStart": 919,
+        "lineEnd": 924
+      },
+      "themes": ["difficult-conversations", "conflict", "growth-mindset", "courage"],
+      "zones": ["discovery", "chaos"],
+      "context": "Reframing difficult conversations as growth opportunities rather than things to avoid",
+      "verified": true
+    },
+    {
+      "id": "rachel-lockett-q011",
+      "speaker": "Rachel Lockett",
+      "text": "I ask them, 'Would you enthusiastically rehire this person for the same role?' Which is the question we always asked at Stripe. When the answer is no, no matter how many difficult conversations you have, this is not going to work. So then you have to take action. It's very clarifying because it's binary. You have an immediate reaction that is honest.",
+      "timestamp": "01:27:27",
+      "source": {
+        "slug": "rachel-lockett",
+        "path": "episodes/rachel-lockett/transcript.md",
+        "lineStart": 983,
+        "lineEnd": 990
+      },
+      "themes": ["talent-management", "hiring", "performance", "stripe"],
+      "zones": ["focus", "alignment"],
+      "context": "Sharing Stripe's clarifying question for making talent decisions",
+      "verified": true
+    },
+    {
+      "id": "rachel-lockett-q012",
+      "speaker": "Rachel Lockett",
+      "text": "Building a product and a business is about product market fit and the wave you're on. Timing is important. But everything besides that is so human. It's about talent, and it's about the environment that you put that talent in. You need to create the conditions such that your talent can thrive.",
+      "timestamp": "01:29:50",
+      "source": {
+        "slug": "rachel-lockett",
+        "path": "episodes/rachel-lockett/transcript.md",
+        "lineStart": 1001,
+        "lineEnd": 1002
+      },
+      "themes": ["talent", "company-building", "environment", "leadership"],
+      "zones": ["alignment", "perfection"],
+      "context": "Emphasizing that beyond product-market fit and timing, business success is fundamentally about people",
+      "verified": true
+    }
+  ],
+  "themes": [
+    "coaching",
+    "active-listening",
+    "emotional-intelligence",
+    "difficult-conversations",
+    "co-founders",
+    "burnout",
+    "career-ownership",
+    "conflict-resolution",
+    "talent-management",
+    "GROW-model",
+    "leadership"
+  ],
+  "takeaways": [
+    "Shift from advising to coaching: When leaders try to have all the answers, they train their team to bring them every problem. Great leaders ask powerful questions using the GROW model (Goal, Reality, Options, Way forward) to help people solve their own problems.",
+    "Master level-three listening: Most people are just waiting for their turn to talk. Great leaders practice global listening - hearing beneath the words, noticing body language and tone, and reflecting back insights the speaker isn't even aware of.",
+    "Design your life around your gifts: When people operate in their strengths 80% of the time, they have more energy and avoid burnout. Track what gives you energy vs. depletes you for two weeks, then actively design your role around your gifts.",
+    "The goal of conflict is mutual understanding, not winning: Don't come to difficult conversations armored and ready to prove your point. Use Nonviolent Communication (Observations, Feelings, Needs, Request) to create empathy and connection.",
+    "Use the 'enthusiastic rehire' test for talent decisions: Ask yourself 'Would I enthusiastically rehire this person for the same role?' It's binary and honest. When the answer is no, difficult conversations won't fix it - you need to take action."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.05,
+    "discovery": 0.12,
+    "data": 0.03,
+    "intuition": 0.20,
+    "alignment": 0.35,
+    "chaos": 0.08,
+    "focus": 0.12
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "rachel-lockett-q006",
+      "why": "Challenges the common expectation that managers should make work interesting - argues it's entirely your own responsibility to navigate your career and find fulfilling work",
+      "related_zones": ["focus", "discovery"]
+    },
+    {
+      "quoteId": "rachel-lockett-q009",
+      "why": "Pushes back against tech's myth of pure rationality - argues that work is completely emotional and ignoring feelings leads to unconscious dysfunction",
+      "related_zones": ["intuition", "chaos"]
+    },
+    {
+      "quoteId": "rachel-lockett-q008",
+      "why": "Reframes the purpose of conflict from winning to understanding - most people approach disagreement as a battle to be won rather than a connection to be made",
+      "related_zones": ["alignment", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "coach",
+    "company_stage": "advisory",
+    "primary_topics": [
+      "executive-coaching",
+      "emotional-intelligence",
+      "difficult-conversations",
+      "co-founder-relationships",
+      "burnout-prevention",
+      "leadership-development"
+    ]
+  }
+}

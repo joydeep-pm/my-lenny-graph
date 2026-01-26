@@ -1,0 +1,253 @@
+{
+  "slug": "brandon-chu",
+  "guest": "Brandon Chu",
+  "episode_title": "Brandon Chu on building product at Shopify, how writing changed the trajectory of his career, the habits that make you a great PM, pros and cons of being a platform PM, how Shopify got through Covid",
+  "verification_date": "2026-01-26",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "brandon-chu-q001",
+      "speaker": "Brandon Chu",
+      "text": "To have the highest trajectory and what certainly was a tailwind for my career was you guys have to lean into those founder skills. Things like being a great storyteller, how to get the most out of people around you, foster creative and motivated teams and know how to make really, really hard high conviction decisions that actually can't be solved.",
+      "timestamp": "08:05",
+      "source": {
+        "slug": "brandon-chu",
+        "path": "episodes/brandon-chu/transcript.md",
+        "lineStart": 88,
+        "lineEnd": 92
+      },
+      "themes": ["career-growth", "leadership", "founder-mindset"],
+      "zones": ["intuition", "alignment"],
+      "context": "Brandon explains what separates high-trajectory PMs from the rest - it's not hard skills but founder-like abilities",
+      "verified": true
+    },
+    {
+      "id": "brandon-chu-q002",
+      "speaker": "Brandon Chu",
+      "text": "We don't actually put the product org on a pedestal as the only people that can have an opinion about the product or should be listened to when we think about what should be built. There's sort of an understanding at Shopify that everyone at the company from engineers to support, to sales, everyone's responsible for product thinking.",
+      "timestamp": "09:59",
+      "source": {
+        "slug": "brandon-chu",
+        "path": "episodes/brandon-chu/transcript.md",
+        "lineStart": 100,
+        "lineEnd": 101
+      },
+      "themes": ["product-culture", "collaboration", "shopify"],
+      "zones": ["alignment", "discovery"],
+      "context": "Describing Shopify's approach where product thinking is distributed across the entire company, not just PMs",
+      "verified": true
+    },
+    {
+      "id": "brandon-chu-q003",
+      "speaker": "Brandon Chu",
+      "text": "Your job is to help teams ship the right thing at the right time in the right way. It really comes down to two main concepts. There's help teams. So it's like servant leadership. You're not necessarily the CEO of the product. You're not dictator. Everyone's responsible for product thinking and you're there to help the team get to ultimately the right thing.",
+      "timestamp": "11:15",
+      "source": {
+        "slug": "brandon-chu",
+        "path": "episodes/brandon-chu/transcript.md",
+        "lineStart": 106,
+        "lineEnd": 107
+      },
+      "themes": ["product-management", "servant-leadership", "shopify"],
+      "zones": ["alignment", "velocity"],
+      "context": "Shopify's one-liner job description for PMs that emphasizes servant leadership over product dictatorship",
+      "verified": true
+    },
+    {
+      "id": "brandon-chu-q004",
+      "speaker": "Brandon Chu",
+      "text": "It's important that we set broad direction, so everyone can put their energy towards the right place. But we also want a place where we're hiring smart people so that they can figure out what to do. And we also know that in software and in tech and in this world, things change so rapidly. So don't even kid yourself that we're going to plan out everything we're going to have to do for the next year.",
+      "timestamp": "14:15",
+      "source": {
+        "slug": "brandon-chu",
+        "path": "episodes/brandon-chu/transcript.md",
+        "lineStart": 118,
+        "lineEnd": 122
+      },
+      "themes": ["planning", "autonomy", "strategy"],
+      "zones": ["chaos", "velocity"],
+      "context": "Explaining Shopify's balance between setting direction and giving teams autonomy to figure things out",
+      "verified": true
+    },
+    {
+      "id": "brandon-chu-q005",
+      "speaker": "Brandon Chu",
+      "text": "What's really amazing and also difficult about Shopify is we're pretty good at never falling into sunk-cost fallacy. We'll throw it all away anytime if the world changes. There are cases where you're building three, six months into something and it's just not important anymore or the world changed.",
+      "timestamp": "15:29",
+      "source": {
+        "slug": "brandon-chu",
+        "path": "episodes/brandon-chu/transcript.md",
+        "lineStart": 124,
+        "lineEnd": 128
+      },
+      "themes": ["decision-making", "adaptability", "prioritization"],
+      "zones": ["chaos", "focus"],
+      "context": "Shopify's willingness to abandon work when priorities change, avoiding sunk-cost fallacy",
+      "verified": true
+    },
+    {
+      "id": "brandon-chu-q006",
+      "speaker": "Brandon Chu",
+      "text": "During COVID, this cultural resilience we had to change was so vital because all of a sudden, these grandiose ideas and visions we had for 2020 didn't matter and what mattered was like, 'Oh, shit. Retail businesses are going from a hundred percent to zero.' It's like 0% revenue overnight.",
+      "timestamp": "16:20",
+      "source": {
+        "slug": "brandon-chu",
+        "path": "episodes/brandon-chu/transcript.md",
+        "lineStart": 133,
+        "lineEnd": 134
+      },
+      "themes": ["crisis-management", "adaptability", "customer-focus"],
+      "zones": ["velocity", "chaos"],
+      "context": "How Shopify's culture of adaptability prepared them to pivot rapidly during the COVID crisis",
+      "verified": true
+    },
+    {
+      "id": "brandon-chu-q007",
+      "speaker": "Brandon Chu",
+      "text": "I figured out everything in those posts at the exact moment I wrote them. It was the writing process itself that actually allowed me to solidify those mental models and those frameworks in my mind. I wasn't ahead of the game in any way. I just really wanted to disambiguate the chaos in my mind about what my job was.",
+      "timestamp": "27:21",
+      "source": {
+        "slug": "brandon-chu",
+        "path": "episodes/brandon-chu/transcript.md",
+        "lineStart": 199,
+        "lineEnd": 203
+      },
+      "themes": ["writing", "mental-models", "learning"],
+      "zones": ["discovery", "perfection"],
+      "context": "Revealing that his famous PM posts weren't written from expertise but were the process of figuring things out",
+      "verified": true
+    },
+    {
+      "id": "brandon-chu-q008",
+      "speaker": "Brandon Chu",
+      "text": "When you write it down, you just kind of release it from your mind. It's not floating around there because I'm scared to lose it or something like that. And you kind of just now you cleared your mind and you can actually think. You build on top of that knowledge into something else.",
+      "timestamp": "29:33",
+      "source": {
+        "slug": "brandon-chu",
+        "path": "episodes/brandon-chu/transcript.md",
+        "lineStart": 213,
+        "lineEnd": 215
+      },
+      "themes": ["writing", "clarity", "productivity"],
+      "zones": ["focus", "discovery"],
+      "context": "Writing as a cognitive release mechanism that frees up mental space for new thinking",
+      "verified": true
+    },
+    {
+      "id": "brandon-chu-q009",
+      "speaker": "Brandon Chu",
+      "text": "Even if it's not to be publicly shared, ultimately, especially in an increasingly digital world and increasingly remote world, you've got to be able to articulate yourself. You owe your team, your peers, your stakeholders that level of clarity. Even if you write it and throw away, you've created a clarity in your mind.",
+      "timestamp": "31:10",
+      "source": {
+        "slug": "brandon-chu",
+        "path": "episodes/brandon-chu/transcript.md",
+        "lineStart": 250,
+        "lineEnd": 251
+      },
+      "themes": ["writing", "communication", "remote-work"],
+      "zones": ["alignment", "perfection"],
+      "context": "Making the case that every PM should write, even privately, to develop clarity of thought",
+      "verified": true
+    },
+    {
+      "id": "brandon-chu-q010",
+      "speaker": "Brandon Chu",
+      "text": "Even if it never got picked up, the ROI is already huge because it just helps you refine how you talk about the work and the decisions. But that aside, writing accelerated my career probably a decade.",
+      "timestamp": "35:28",
+      "source": {
+        "slug": "brandon-chu",
+        "path": "episodes/brandon-chu/transcript.md",
+        "lineStart": 280,
+        "lineEnd": 281
+      },
+      "themes": ["writing", "career-growth", "personal-brand"],
+      "zones": ["velocity", "discovery"],
+      "context": "The massive career impact of his public writing, claiming it accelerated his trajectory by a decade",
+      "verified": true
+    },
+    {
+      "id": "brandon-chu-q011",
+      "speaker": "Brandon Chu",
+      "text": "Given the fact that we only have limited time and that the most important decisions are so much more important than the other 98, 99 of them, you should spend all your time on those very few important decisions. For all other decisions, just go with whatever your gut is or delegate it because you're only human.",
+      "timestamp": "37:22",
+      "source": {
+        "slug": "brandon-chu",
+        "path": "episodes/brandon-chu/transcript.md",
+        "lineStart": 292,
+        "lineEnd": 296
+      },
+      "themes": ["decision-making", "prioritization", "delegation"],
+      "zones": ["focus", "intuition"],
+      "context": "His famous decision-making framework: spend all time on critical decisions, use gut for everything else",
+      "verified": true
+    },
+    {
+      "id": "brandon-chu-q012",
+      "speaker": "Brandon Chu",
+      "text": "Do a legitimate side hustle, found a company on the side and learn everything else. It humbles you a bit. It reminds you of how hard it is to build software and how many people it takes to do that well. And especially if you're not technical, really lean into it and build something simple for yourself, demystify the technology.",
+      "timestamp": "47:13",
+      "source": {
+        "slug": "brandon-chu",
+        "path": "episodes/brandon-chu/transcript.md",
+        "lineStart": 357,
+        "lineEnd": 362
+      },
+      "themes": ["career-advice", "founder-mindset", "technical-skills"],
+      "zones": ["discovery", "velocity"],
+      "context": "His number one advice for PMs leveling up: start a side project to understand the full picture",
+      "verified": true
+    }
+  ],
+  "themes": [
+    "writing",
+    "decision-making",
+    "product-culture",
+    "career-growth",
+    "platform-pm",
+    "leadership",
+    "shopify",
+    "founder-mindset",
+    "remote-work",
+    "servant-leadership"
+  ],
+  "takeaways": [
+    "Writing crystallizes your thinking - Brandon figured out his famous PM frameworks through the writing process itself, not before it",
+    "The most important PM skill is identifying which decisions matter - spend all your time on the critical few and use gut instinct for the rest",
+    "Servant leadership over product dictatorship - Shopify's PM philosophy is to help teams ship the right thing, not dictate what to build",
+    "Never fall into sunk-cost fallacy - be willing to throw away months of work if the world changes and it's no longer important",
+    "Start a side hustle to level up as a PM - founding something humbles you and teaches you how hard it is to build products end-to-end"
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.08,
+    "discovery": 0.18,
+    "data": 0.05,
+    "intuition": 0.14,
+    "alignment": 0.18,
+    "chaos": 0.12,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "id": "brandon-chu-q005",
+      "reason": "Challenges the common belief that you should see projects through - argues for abandoning work when priorities shift"
+    },
+    {
+      "id": "brandon-chu-q011",
+      "reason": "Counterintuitive advice to use gut instinct for 98% of decisions rather than analyzing everything thoroughly"
+    },
+    {
+      "id": "brandon-chu-q007",
+      "reason": "Reveals that expertise often comes from the act of writing, not before it - contradicts the expert-then-teach model"
+    }
+  ],
+  "guest_metadata": {
+    "name": "Brandon Chu",
+    "title": "VP of Product at Shopify",
+    "company": "Shopify",
+    "expertise": ["platform-pm", "writing", "product-culture", "decision-making", "leadership"],
+    "known_for": "The Black Box of Product Management blog series on Medium",
+    "twitter": "@BrandonMChu",
+    "episode_year": 2022
+  }
+}
