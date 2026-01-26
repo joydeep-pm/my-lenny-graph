@@ -1604,7 +1604,7 @@ Enhanced `calculateSimilarityPenalty()` in `lib/recommendations.ts`:
 | # | Slug | Guest Field (✅) | Wrong Title (❌) | Correct Guest in Title | Notes |
 |---|------|------------------|------------------|------------------------|-------|
 | 4 | `gibson-biddle` | Gibson Biddle | "35 years of product design wisdom... \| **Bob Baxley**" | Bob Baxley | Transcript mentions "Gibson Biddle" at line 40 |
-| 5 | `manik-gupta` | Manik Gupta | "Becoming more strategic, navigating difficult colleagues... \| **Anneka Gupta**" | Anneka Gupta | Transcript mentions "Manik Gupta has led two of the most successful consumer products" at line 40 |
+| 5 | `manik-gupta` | Manik Gupta | [NO YOUTUBE VIDEO AVAILABLE]
 | 6 | `nikita-bier` | Nikita Bier | "Driving alignment within teams, work-life balance... \| **Nikita Miller**" | Nikita Miller | Transcript shows "Nikita Bier (00:00:00)" - content is Nikita Bier |
 | 7 | `matt-mullenweg` | Matt Mullenweg | "The one question that saves product careers \| **Matt LeMay**" | Matt LeMay | Transcript mentions "open source" - sounds like Matt Mullenweg content |
 | 8 | `jackie-bavaro` | Jackie Bavaro | "Bending the universe in your favor \| **Claire Vo**" | Claire Vo | Need to verify transcript content |
@@ -1616,7 +1616,6 @@ Enhanced `calculateSimilarityPenalty()` in `lib/recommendations.ts`:
 | 15 | `fei-fei` | Fei Fei | "The Godmother of AI on jobs, robots... \| **Dr. Fei-Fei Li**" | Dr. Fei-Fei Li | May be same person, different name format |
 | 16 | `archie-abrams` | Archie Abrams | "How to speak more confidently... \| **Matt Abrahams**" | Matt Abrahams | Need to verify transcript content |
 | 17 | `yamashata` | Yamashata | "An inside look at how Figma builds product \| **Yuhki Yamashita**" | Yuhki Yamashita | May be misspelling of same person |
-| 18 | `melissa` | Melissa | "Building high-performing teams \| **Melissa Tan**" | Melissa Tan | May be incomplete name, same person |
 
 ---
 
