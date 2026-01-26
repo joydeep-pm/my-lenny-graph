@@ -1282,9 +1282,9 @@ Transcripts need to be obtained/added for:
 - Deleted `episodes/teaser_2021/` directory
 - Deleted `public/og/teaser_2021.png`
 
-### 🔢 Episode Count Updated (298 → 297)
+### 🔢 Episode Count Updated (298 → 296)
 
-Updated all references to 298 to 297:
+Updated all references to 298 to 296:
 - `lib/zones.ts` - TOTAL_EPISODES constant
 - `lib/allEpisodes.ts` - comment header
 - `lib/insightsData.ts` - comment header and insightsStats.totalEpisodes
@@ -1347,7 +1347,7 @@ Some episodes also have title/guest metadata mismatches (e.g., brandon-chu showi
 - `index/entrepreneurship.md`
 - `index/community-building.md`
 
-**Modified (episode count 298→297):**
+**Modified (episode count 298→296):**
 - `lib/zones.ts`
 - `lib/allEpisodes.ts`
 - `lib/insightsData.ts`
@@ -1378,14 +1378,14 @@ Some episodes also have title/guest metadata mismatches (e.g., brandon-chu showi
 
 ## 📊 Updated Coverage Status (Post-Session 11)
 
-**Episode Directories:** 297
-**Entries in allEpisodes.ts:** 297 ✅
+**Episode Directories:** 296
+**Entries in allEpisodes.ts:** 296 ✅
 **Transcripts Available:** 267 (~30 with dialogueCount: 0)
-**Episodes Curated:** 24/297 (8.1%)
+**Episodes Curated:** 24/296 (8.1%)
 
 **Data Quality:**
 - ✅ teaser_2021 episode removed
-- ✅ Episode count updated to 297 everywhere
+- ✅ Episode count updated to 296 everywhere
 - ✅ OG images regenerated with correct count
 - ✅ 4 curated episodes fixed (were attached to wrong slugs)
 - ✅ Verified content registry rebuilt
@@ -1547,10 +1547,10 @@ Enhanced `calculateSimilarityPenalty()` in `lib/recommendations.ts`:
 
 ## 📊 Updated Coverage Status (Post-Session 12)
 
-**Episode Directories:** 297
-**Entries in allEpisodes.ts:** 297 ✅
+**Episode Directories:** 296
+**Entries in allEpisodes.ts:** 296 ✅
 **Transcripts Available:** 267 (~30 with dialogueCount: 0)
-**Episodes Curated:** 24/297 (8.1%)
+**Episodes Curated:** 24/296 (8.1%)
 
 **Data Quality:**
 - ✅ Recommendations engine fully functional with diversity scoring
@@ -1605,17 +1605,16 @@ Enhanced `calculateSimilarityPenalty()` in `lib/recommendations.ts`:
 |---|------|------------------|------------------|------------------------|-------|
 | 4 | `gibson-biddle` | Gibson Biddle | "35 years of product design wisdom... \| **Bob Baxley**" | Bob Baxley | Transcript mentions "Gibson Biddle" at line 40 |
 | 5 | `manik-gupta` | Manik Gupta | [NO YOUTUBE VIDEO AVAILABLE]
-| 6 | `nikita-bier` | Nikita Bier | "Driving alignment within teams, work-life balance... \| **Nikita Miller**" | Nikita Miller | Transcript shows "Nikita Bier (00:00:00)" - content is Nikita Bier |
-| 7 | `matt-mullenweg` | Matt Mullenweg | "The one question that saves product careers \| **Matt LeMay**" | Matt LeMay | Transcript mentions "open source" - sounds like Matt Mullenweg content |
-| 8 | `jackie-bavaro` | Jackie Bavaro | "Bending the universe in your favor \| **Claire Vo**" | Claire Vo | Need to verify transcript content |
-| 10 | `alexander-embiricos` | Alexander Embiricos | "How to drive word of mouth \| **Nilan Peiris** (CPO of Wise)" | Nilan Peiris | Need to verify transcript content |
-| 11 | `gaurav-misra` | Gaurav Misra | "Mastering onboarding \| **Lauryn Isford** (Head of Growth at Airtable)" | Lauryn Isford | Need to verify transcript content |
-| 12 | `ray-cao` | Ray Cao | "Product management theater \| **Marty Cagan**" | Marty Cagan | Need to verify transcript content |
-| 13 | `laura-modi` | Laura Modi | "Career frameworks, A/B testing, onboarding tips... \| **Laura Schaffer** (Amplitude)" | Laura Schaffer | Need to verify transcript content |
-| 14 | `julian-shapiro` | Julian Shapiro | "From managing people to managing AI... \| **Julie Zhuo**" | Julie Zhuo | Need to verify transcript content |
+| 6 | `nikita-bier` | Nikita Bier | "Driving alignment within teams, work-life balance... \| **Nikita Miller**" | Nikita Miller | Transcript shows "Nikita Bier (00:00:00)" - content is Nikita Bier | https://youtube.com/watch?v=bhnfZhJWCWY (ACTUAL LINK)
+| 7 | `matt-mullenweg` | Matt Mullenweg | "The one question that saves product careers \| **Matt LeMay**" | Matt LeMay | Transcript mentions "open source" - sounds like Matt Mullenweg content | https://youtube.com/watch?v=Fves5chVZRA (ACTUAL LINK)
+| 8 | `jackie-bavaro` | Jackie Bavaro | [NO YOUTUBE VIDEO AVAILABLE]
+| 10 | `alexander-embiricos` | Alexander Embiricos | "How to drive word of mouth \| **Nilan Peiris** (CPO of Wise)" | Nilan Peiris | Need to verify transcript content |  https://www.youtube.com/watch?v=z1ISq9Ty4Cg (ACTUAL LINK)
+| 11 | `gaurav-misra` | Gaurav Misra | "Mastering onboarding \| **Lauryn Isford** (Head of Growth at Airtable)" | Lauryn Isford | Need to verify transcript content | https://www.youtube.com/watch?v=PDobJV8wh1g (ACTUAL LINK)
+| 12 | `ray-cao` | Ray Cao | [NO YOUTUBE VIDEO AVAILABLE]
+| 13 | `laura-modi` | Laura Modi | [NO YOUTUBE VIDEO AVAILABLE]
+| 14 | `julian-shapiro` | Julian Shapiro | [NO YOUTUBE VIDEO AVAILABLE]
 | 15 | `fei-fei` | Fei Fei | "The Godmother of AI on jobs, robots... \| **Dr. Fei-Fei Li**" | Dr. Fei-Fei Li | May be same person, different name format |
-| 16 | `archie-abrams` | Archie Abrams | "How to speak more confidently... \| **Matt Abrahams**" | Matt Abrahams | Need to verify transcript content |
-| 17 | `yamashata` | Yamashata | "An inside look at how Figma builds product \| **Yuhki Yamashita**" | Yuhki Yamashita | May be misspelling of same person |
+| 16 | `archie-abrams` | Archie Abrams | "How to speak more confidently... \| **Matt Abrahams**" | Matt Abrahams | Need to verify transcript content | https://www.youtube.com/watch?v=Vlph3dn4jnU (ACTUAL LINK)
 
 ---
 
@@ -1695,7 +1694,7 @@ Once correct metadata is obtained, the fix requires updating:
 - **Recommendation impact:** View counts may be wrong, affecting popularity-based sorting
 - **Trust impact:** Users clicking to watch video see completely different guest
 
-**Episodes Affected:** 18 out of 297 (6.1% of catalog)
+**Episodes Affected:** 18 out of 296 (6.1% of catalog)
 
 **Priority Episodes to Fix First:**
 1. `brandon-chu` - Brandon Chu is well-known PM writer
@@ -1733,7 +1732,7 @@ This phase documents the investigation. Next session can execute the fixes once:
 - Then batch update frontmatter and regenerate data files
 
 ### Scale Episode Curation
-- Current: 24/297 episodes (8.1%)
+- Current: 24/296 episodes (8.1%)
 - Target: 50+ episodes (17%)
 - Priority: Fill zone gaps
 
