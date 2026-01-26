@@ -1,0 +1,248 @@
+{
+  "slug": "archie-abrams",
+  "guest": "Archie Abrams",
+  "episode_title": "Breaking the rules of growth: Why Shopify bans KPIs, optimizes for churn, prioritizes intuition, and builds toward a 100-year vision",
+  "episode_url": "https://www.lennyspodcast.com/breaking-the-rules-of-growth-why-shopify-bans-kpis-optimizes-for-churn-prioritizes-intuition-and-builds-toward-a-100-year-vision-archie-abrams-vp-product-head-of-growth-at-shopify/",
+  "youtube_url": "https://www.youtube.com/watch?v=Vlph3dn4jnU",
+  "verification_date": "2026-01-26",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "archie-abrams-q001",
+      "speaker": "Archie Abrams",
+      "text": "Most businesses do ultimately fail. And so the way we look at it is can we lower the barriers to getting started and get as many people in the door trying their hand at entrepreneurship? If we do that, many of those folks will maybe on their first attempt not be as successful, but we're going to have a set of merchants who go on to become extremely big businesses.",
+      "timestamp": "00:07:06",
+      "source": {
+        "slug": "archie-abrams",
+        "path": "episodes/archie-abrams/transcript.md",
+        "lineStart": 77,
+        "lineEnd": 79
+      },
+      "themes": ["entrepreneurship", "growth strategy", "power law"],
+      "zones": ["chaos", "velocity"],
+      "context": "Explaining why Shopify optimizes for lowering barriers rather than retention, embracing the power law of startup success",
+      "verified": true
+    },
+    {
+      "id": "archie-abrams-q002",
+      "speaker": "Archie Abrams",
+      "text": "This way is thinking about a cohort of users we acquire in a given time period, say a quarter. And then over the next year, two years, three years, four years, five years, how much GMV have those merchants produced in total? Not about per merchant basis, but in total, did that cohort generate GMV?",
+      "timestamp": "00:10:18",
+      "source": {
+        "slug": "archie-abrams",
+        "path": "episodes/archie-abrams/transcript.md",
+        "lineStart": 104,
+        "lineEnd": 106
+      },
+      "themes": ["metrics", "cohort analysis", "long-term thinking"],
+      "zones": ["data", "focus"],
+      "context": "Describing how Shopify measures success through long-term cohort GMV rather than individual retention metrics",
+      "verified": true
+    },
+    {
+      "id": "archie-abrams-q003",
+      "speaker": "Archie Abrams",
+      "text": "And I would encourage everyone, if you can, look at some of the experiments that you thought were your biggest winners. Look at the downstream metrics for a year, two years on that experiment. And I'll bet you'd be surprised how many times the metric is different than what you thought it would be after a year.",
+      "timestamp": "00:14:17",
+      "source": {
+        "slug": "archie-abrams",
+        "path": "episodes/archie-abrams/transcript.md",
+        "lineStart": 137,
+        "lineEnd": 139
+      },
+      "themes": ["experimentation", "long-term holdouts", "measurement"],
+      "zones": ["data", "discovery"],
+      "context": "Encouraging teams to measure long-term effects of experiments, revealing that results often differ significantly over time",
+      "verified": true
+    },
+    {
+      "id": "archie-abrams-q004",
+      "speaker": "Archie Abrams",
+      "text": "I think it actually trains, a lot of us in growth are looking at these short-term metrics. A lot of the time it's actually more pull-forward effect than you fully realize or an incremental user that's just really not worth that much.",
+      "timestamp": "00:15:21",
+      "source": {
+        "slug": "archie-abrams",
+        "path": "episodes/archie-abrams/transcript.md",
+        "lineStart": 146,
+        "lineEnd": 148
+      },
+      "themes": ["metrics", "growth experiments", "pull-forward effect"],
+      "zones": ["data", "discovery"],
+      "context": "Explaining why short-term experiment wins often don't translate to long-term impact - they're frequently just pull-forward effects",
+      "verified": true
+    },
+    {
+      "id": "archie-abrams-q005",
+      "speaker": "Archie Abrams",
+      "text": "If I give you a little monetary boost and reduce that monetary friction, I can actually causally change your ability to become successful, because I've given you a little bit more time to try that idea a little bit longer. I've given you that opportunity to move your business over to Shopify.",
+      "timestamp": "00:17:03",
+      "source": {
+        "slug": "archie-abrams",
+        "path": "episodes/archie-abrams/transcript.md",
+        "lineStart": 161,
+        "lineEnd": 163
+      },
+      "themes": ["monetary friction", "trials", "entrepreneurship"],
+      "zones": ["velocity", "discovery"],
+      "context": "Explaining how reducing monetary friction can causally enable entrepreneurial success by giving people more time to succeed",
+      "verified": true
+    },
+    {
+      "id": "archie-abrams-q006",
+      "speaker": "Archie Abrams",
+      "text": "How often do we find no long-term effect after seeing early impact? It's in the 30 to 40% range. Unfortunately, I think that's brutal. Probably more common than we like to believe. A lot of experiments showing short-term lift have no incremental long-term lift on GMV.",
+      "timestamp": "00:17:50",
+      "source": {
+        "slug": "archie-abrams",
+        "path": "episodes/archie-abrams/transcript.md",
+        "lineStart": 171,
+        "lineEnd": 180
+      },
+      "themes": ["experimentation", "metrics", "long-term effects"],
+      "zones": ["data", "discovery"],
+      "context": "Revealing the uncomfortable truth that 30-40% of experiments showing short-term lift have no incremental long-term impact",
+      "verified": true
+    },
+    {
+      "id": "archie-abrams-q007",
+      "speaker": "Archie Abrams",
+      "text": "My recommendation to folks is don't think, 'Oh my goodness, I have to wait all this time.' Because if you didn't move the short-term impact, you're not going to have the long-term lift. So still ship if it's short-term lift. Just be reasonable that if you can measure it longer term, you'll get better about identifying what things are that are really impactful.",
+      "timestamp": "00:19:17",
+      "source": {
+        "slug": "archie-abrams",
+        "path": "episodes/archie-abrams/transcript.md",
+        "lineStart": 194,
+        "lineEnd": 199
+      },
+      "themes": ["experimentation", "shipping", "pragmatism"],
+      "zones": ["velocity", "data"],
+      "context": "Providing practical advice: still ship experiments with short-term lift, but calibrate expectations about long-term impact",
+      "verified": true
+    },
+    {
+      "id": "archie-abrams-q008",
+      "speaker": "Archie Abrams",
+      "text": "The simplest way to increase my signup to activated thing is just make it harder to sign up. Nuts and bolts, that will always happen is when you have teams on that local conversion rates, you get all these weird team incentives, because they're optimizing to basically implicitly make it harder to do the step before them.",
+      "timestamp": "00:25:27",
+      "source": {
+        "slug": "archie-abrams",
+        "path": "episodes/archie-abrams/transcript.md",
+        "lineStart": 284,
+        "lineEnd": 286
+      },
+      "themes": ["metrics", "incentives", "funnel optimization"],
+      "zones": ["alignment", "data"],
+      "context": "Warning about the perverse incentive where teams optimize conversion rates by constricting the funnel step before them",
+      "verified": true
+    },
+    {
+      "id": "archie-abrams-q009",
+      "speaker": "Archie Abrams",
+      "text": "Instead of I'm trying to convert a bunch of people, a conversion rate, I just want more people to get activated. And then once you start thinking that way, you realize actually the best way to get more people to get to a step sometimes, and often they just get more people in the door in the first place.",
+      "timestamp": "00:28:23",
+      "source": {
+        "slug": "archie-abrams",
+        "path": "episodes/archie-abrams/transcript.md",
+        "lineStart": 311,
+        "lineEnd": 316
+      },
+      "themes": ["metrics", "absolute numbers", "funnel thinking"],
+      "zones": ["velocity", "data"],
+      "context": "Advocating for teams to focus on absolute numbers rather than conversion rates to avoid perverse incentives",
+      "verified": true
+    },
+    {
+      "id": "archie-abrams-q010",
+      "speaker": "Archie Abrams",
+      "text": "In our culture of aim heavy, if the intuition is right that this probably is helping merchants, why do we start with that the original control is better if it's neutral? Let's start with, what would we have shipped if we were a blank slate? And if it's neutral, actually neither is better, so let's just pick the one we feel better about and ship that.",
+      "timestamp": "00:41:45",
+      "source": {
+        "slug": "archie-abrams",
+        "path": "episodes/archie-abrams/transcript.md",
+        "lineStart": 451,
+        "lineEnd": 454
+      },
+      "themes": ["intuition", "experimentation", "decision-making"],
+      "zones": ["intuition", "velocity"],
+      "context": "Explaining Shopify's philosophy of shipping neutral experiments when intuition suggests they help merchants",
+      "verified": true
+    },
+    {
+      "id": "archie-abrams-q011",
+      "speaker": "Archie Abrams",
+      "text": "One of the things I've learned is that how, the technical architecture determines strategy in a technology company even more than the what and who we're building for. If you build the right technical how and set yourself up to have a platform that can be adaptable, flexible, that is incredibly valuable over the long term.",
+      "timestamp": "00:44:56",
+      "source": {
+        "slug": "archie-abrams",
+        "path": "episodes/archie-abrams/transcript.md",
+        "lineStart": 472,
+        "lineEnd": 475
+      },
+      "themes": ["technical architecture", "strategy", "long-term thinking"],
+      "zones": ["perfection", "focus"],
+      "context": "Sharing Tobi's insight that technical architecture determines strategy more than product decisions in technology companies",
+      "verified": true
+    },
+    {
+      "id": "archie-abrams-q012",
+      "speaker": "Archie Abrams",
+      "text": "It's subjective, but it's objective in the sense that it's kind of a small number of people who really hold what that bar is and needs to be. I think if it's just subjective, let's just ship what we want without a couple people really holding that quality and that taste bar, that's where things go really sideways.",
+      "timestamp": "00:51:00",
+      "source": {
+        "slug": "archie-abrams",
+        "path": "episodes/archie-abrams/transcript.md",
+        "lineStart": 519,
+        "lineEnd": 523
+      },
+      "themes": ["taste", "quality bar", "leadership"],
+      "zones": ["perfection", "alignment"],
+      "context": "Explaining how Shopify maintains quality without KPIs - through a small number of leaders who hold the taste bar",
+      "verified": true
+    }
+  ],
+  "themes": [
+    "long-term thinking",
+    "experimentation",
+    "metrics philosophy",
+    "entrepreneurship",
+    "taste and intuition",
+    "technical architecture",
+    "growth strategy"
+  ],
+  "takeaways": [
+    "Shopify optimizes for lowering barriers to entrepreneurship rather than retention, because their payments-based business model means a few big winners make the whole cohort successful (power law economics)",
+    "30-40% of experiments showing short-term lift have no incremental long-term impact - long-term holdouts reveal that many wins are just pull-forward effects",
+    "Teams should focus on absolute numbers (total people activated) rather than conversion rates to avoid the perverse incentive of constricting the funnel step before them",
+    "Ship neutral experiments when intuition suggests they help users - don't default to assuming the control is better just because data shows no difference",
+    "In technology companies, technical architecture determines strategy even more than the 'what' and 'who' - building adaptable foundations enables long-term optionality"
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.10,
+    "discovery": 0.15,
+    "data": 0.25,
+    "intuition": 0.10,
+    "alignment": 0.10,
+    "chaos": 0.05,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    "archie-abrams-q006",
+    "archie-abrams-q010",
+    "archie-abrams-q008"
+  ],
+  "guest_metadata": {
+    "name": "Archie Abrams",
+    "title": "VP of Product, Head of Growth",
+    "company": "Shopify",
+    "background": "Former VP at Udemy; leads 600+ person growth org spanning product, design, engineering, data, ops, and growth marketing",
+    "expertise": [
+      "Growth strategy",
+      "Experimentation",
+      "Metrics design",
+      "Team organization"
+    ],
+    "twitter": null,
+    "linkedin": "https://www.linkedin.com/in/archieabrams/"
+  }
+}

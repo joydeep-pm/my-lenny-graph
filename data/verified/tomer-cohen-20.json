@@ -1,0 +1,225 @@
+{
+  "slug": "tomer-cohen-20",
+  "guest": "Tomer Cohen",
+  "episode_title": "Why AI is disrupting traditional product management | Tomer Cohen (LinkedIn CPO)",
+  "verification_date": "2026-01-26",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "tomer-cohen-20-q001",
+      "speaker": "Tomer Cohen",
+      "text": "When we look at the skills required to do your job, by 2030, which is literally four years from now, sounds a long time, but four years from now, it will change by 70%. So whether or not you're looking to change your job, your job is changing. The only question is, do you keep it?",
+      "timestamp": "00:05:34",
+      "source": {
+        "slug": "tomer-cohen-20",
+        "path": "episodes/tomer-cohen-20/transcript.md",
+        "lineStart": 83,
+        "lineEnd": 84
+      },
+      "themes": ["ai-transformation", "skills", "future-of-work"],
+      "zones": ["chaos", "velocity"],
+      "context": "Tomer shares LinkedIn's unique data insight about how dramatically skills requirements are shifting, setting the context for why the Full Stack Builder model is necessary.",
+      "verified": true
+    },
+    {
+      "id": "tomer-cohen-20-q002",
+      "speaker": "Tomer Cohen",
+      "text": "In order to stay competitive, you actually have to go back to some first principles, go back to the drawing board and reimagine what it means to be building. And what I love about this is when you think about the role of a builder, which the builder is at the heart of company, the goal is actually quite simple. The builder takes an idea, she brings it to life.",
+      "timestamp": "00:06:25",
+      "source": {
+        "slug": "tomer-cohen-20",
+        "path": "episodes/tomer-cohen-20/transcript.md",
+        "lineStart": 86,
+        "lineEnd": 87
+      },
+      "themes": ["first-principles", "building", "product-development"],
+      "zones": ["focus", "velocity"],
+      "context": "Tomer advocates for returning to fundamentals rather than adding more complexity, emphasizing that the builder's core job is simply to bring ideas to life.",
+      "verified": true
+    },
+    {
+      "id": "tomer-cohen-20-q003",
+      "speaker": "Tomer Cohen",
+      "text": "And now we have this real opportunity to collapse the stack backup, go back to craftsmanship, rethink the product development lifecycle, which is where the full stack builder model comes to life.",
+      "timestamp": "00:09:26",
+      "source": {
+        "slug": "tomer-cohen-20",
+        "path": "episodes/tomer-cohen-20/transcript.md",
+        "lineStart": 97,
+        "lineEnd": 98
+      },
+      "themes": ["full-stack-builder", "craftsmanship", "organizational-design"],
+      "zones": ["velocity", "focus"],
+      "context": "After explaining how product development became bloated with process and microspecialization, Tomer introduces the Full Stack Builder model as a return to craftsmanship.",
+      "verified": true
+    },
+    {
+      "id": "tomer-cohen-20-q004",
+      "speaker": "Tomer Cohen",
+      "text": "The key trait that I'm emphasizing for builders is where I want them to spend their time is where I think great builders should shine in. So the idea of vision. Coming up with a compelling sense about the future. Empathy, super critical. Communication is critical. Creativity. And then ultimately what I think is the most important trait for a builder is judgment. Everything else, I'm working really hard to automate.",
+      "timestamp": "00:12:54",
+      "source": {
+        "slug": "tomer-cohen-20",
+        "path": "episodes/tomer-cohen-20/transcript.md",
+        "lineStart": 123,
+        "lineEnd": 128
+      },
+      "themes": ["judgment", "creativity", "ai-automation", "builder-traits"],
+      "zones": ["intuition", "focus"],
+      "context": "Tomer identifies the five core human traits that AI cannot replace: vision, empathy, communication, creativity, and most importantly, judgment.",
+      "verified": true
+    },
+    {
+      "id": "tomer-cohen-20-q005",
+      "speaker": "Tomer Cohen",
+      "text": "An analogy I have in mind is kind of Navy SEALs. You come to training, they're all kind of learning, they're cross-trained, across multiple areas. What they specialize in is the mission and they operate in small pods and they're very nimble and you can assemble them very quickly. And I think that's going to be the organization that will win in the future.",
+      "timestamp": "00:14:13",
+      "source": {
+        "slug": "tomer-cohen-20",
+        "path": "episodes/tomer-cohen-20/transcript.md",
+        "lineStart": 130,
+        "lineEnd": 131
+      },
+      "themes": ["team-structure", "agility", "pods", "organizational-design"],
+      "zones": ["chaos", "velocity", "alignment"],
+      "context": "Tomer uses the Navy SEALs as a model for future product organizations: cross-trained individuals who specialize in missions, not functions.",
+      "verified": true
+    },
+    {
+      "id": "tomer-cohen-20-q006",
+      "speaker": "Tomer Cohen",
+      "text": "If you're at a company at a scale of ours and many others in the market, you're like, this is almost like a new production function and mindset that you have to do. And there's really three components that we're working on. One is platform. The second one is the tools and the agents. And lastly is the culture.",
+      "timestamp": "00:16:35",
+      "source": {
+        "slug": "tomer-cohen-20",
+        "path": "episodes/tomer-cohen-20/transcript.md",
+        "lineStart": 161,
+        "lineEnd": 162
+      },
+      "themes": ["transformation", "platform", "culture", "ai-tools"],
+      "zones": ["alignment", "velocity"],
+      "context": "Tomer outlines the three-pillar framework for implementing the Full Stack Builder model at scale companies: platform, tools/agents, and culture.",
+      "verified": true
+    },
+    {
+      "id": "tomer-cohen-20-q007",
+      "speaker": "Tomer Cohen",
+      "text": "You can't just bring a third party tool and have it work on the LinkedIn stack. In fact, that's one of our biggest learnings. It never works. Never works. You have to bring it in and customize a lot of it, working almost in alpha mode with those companies to make it work internally.",
+      "timestamp": "00:17:17",
+      "source": {
+        "slug": "tomer-cohen-20",
+        "path": "episodes/tomer-cohen-20/transcript.md",
+        "lineStart": 164,
+        "lineEnd": 164
+      },
+      "themes": ["ai-tools", "customization", "enterprise", "integration"],
+      "zones": ["perfection", "focus"],
+      "context": "A key learning from LinkedIn's AI transformation: off-the-shelf AI tools never work at enterprise scale without significant customization.",
+      "verified": true
+    },
+    {
+      "id": "tomer-cohen-20-q008",
+      "speaker": "Tomer Cohen",
+      "text": "It's not great to just give it access to your drive and say, 'Reason all over this knowledge base.' It actually does a very poor job understanding importance of the past and putting weights on stuff. You actually want to think about specifically what the context when do you want to give it to and what's the knowledge base that you want to have it focused on.",
+      "timestamp": "00:27:59",
+      "source": {
+        "slug": "tomer-cohen-20",
+        "path": "episodes/tomer-cohen-20/transcript.md",
+        "lineStart": 260,
+        "lineEnd": 261
+      },
+      "themes": ["ai-training", "data-curation", "knowledge-management"],
+      "zones": ["data", "perfection"],
+      "context": "Tomer explains why simply giving AI access to all company data fails - you need curated golden examples and focused knowledge bases for quality outputs.",
+      "verified": true
+    },
+    {
+      "id": "tomer-cohen-20-q009",
+      "speaker": "Tomer Cohen",
+      "text": "Top talent has this tendency of continuously trying to get better at their craft and this innate need to be at the cutting edge of how you build, and I think we're seeing this here as well. This is why I had this phrase I say with the team that if we build all those tools, will they use it? And I know right now the answer is no. It's not enough to give them the tools to use it.",
+      "timestamp": "00:38:24",
+      "source": {
+        "slug": "tomer-cohen-20",
+        "path": "episodes/tomer-cohen-20/transcript.md",
+        "lineStart": 325,
+        "lineEnd": 326
+      },
+      "themes": ["talent", "adoption", "change-management", "top-performers"],
+      "zones": ["alignment", "discovery"],
+      "context": "Tomer observes that top performers are the biggest adopters of AI tools, but providing tools alone is insufficient - you need incentives, motivation, and examples.",
+      "verified": true
+    },
+    {
+      "id": "tomer-cohen-20-q010",
+      "speaker": "Tomer Cohen",
+      "text": "Change management here is going to be a critical part. I think I see a lot of companies roll out their agents and just expecting companies to adopt. It doesn't work this way. Some will adopt. That tends to be your cutting edge 5% of talent that just wants new tools and they have a bias for change. But the vast majority needs to work for change management.",
+      "timestamp": "00:39:11",
+      "source": {
+        "slug": "tomer-cohen-20",
+        "path": "episodes/tomer-cohen-20/transcript.md",
+        "lineStart": 327,
+        "lineEnd": 329
+      },
+      "themes": ["change-management", "adoption", "organizational-change"],
+      "zones": ["alignment", "focus"],
+      "context": "A warning against the 'build it and they will come' mentality with AI tools - only 5% will naturally adopt, the rest need deliberate change management.",
+      "verified": true
+    },
+    {
+      "id": "tomer-cohen-20-q011",
+      "speaker": "Tomer Cohen",
+      "text": "If you're looking for a formal reorg or declaration to start building differently, you're waiting too long. Look, my biggest thing is here's a permission for me to just not wait and just go. So whether or not you have the right tools or not, go build the tool, use a tool from the outside, bring it in, show those examples.",
+      "timestamp": "00:45:31",
+      "source": {
+        "slug": "tomer-cohen-20",
+        "path": "episodes/tomer-cohen-20/transcript.md",
+        "lineStart": 355,
+        "lineEnd": 359
+      },
+      "themes": ["urgency", "agency", "initiative", "transformation"],
+      "zones": ["velocity", "chaos"],
+      "context": "Tomer's direct advice to individuals: don't wait for organizational permission to start building with AI - demonstrate the full stack builder mindset now.",
+      "verified": true
+    }
+  ],
+  "themes": ["ai-transformation", "full-stack-builder", "organizational-design", "change-management", "judgment", "craftsmanship", "platform-tools-culture", "future-of-work"],
+  "takeaways": [
+    "By 2030, 70% of the skills required for your current job will change - your job is transforming whether you change jobs or not, and the only question is whether you keep it.",
+    "The Full Stack Builder model collapses organizational complexity back to craftsmanship: small, cross-functional pods that can take ideas from inception to launch, like Navy SEALs specializing in missions rather than functions.",
+    "AI cannot replace five core human traits: vision, empathy, communication, creativity, and most importantly judgment - everything else should be automated.",
+    "Three pillars are required for AI transformation at scale: platform (re-architecting for AI), tools (customized agents, not off-the-shelf), and culture (the hardest but most important).",
+    "Building tools alone is not enough - only 5% of talent naturally adopts new tools; the rest need deliberate change management, incentives, and visible success stories to shift their mindset."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.10,
+    "discovery": 0.05,
+    "data": 0.05,
+    "intuition": 0.10,
+    "alignment": 0.20,
+    "chaos": 0.15,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "tomer-cohen-20-q007",
+      "why": "Challenges the common assumption that AI tools work out-of-the-box - at enterprise scale, off-the-shelf solutions never work without deep customization",
+      "related_zones": ["perfection", "focus"]
+    },
+    {
+      "quoteId": "tomer-cohen-20-q010",
+      "why": "Pushes back against 'build it and they will come' mentality - most AI tool rollouts fail because companies expect automatic adoption",
+      "related_zones": ["alignment", "focus"]
+    },
+    {
+      "quoteId": "tomer-cohen-20-q011",
+      "why": "Argues against waiting for organizational permission or formal programs - if you're waiting for a reorg to start building differently, you're already behind",
+      "related_zones": ["velocity", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "executive",
+    "company_stage": "public",
+    "primary_topics": ["ai-transformation", "organizational-design", "full-stack-builder", "change-management", "product-development"]
+  }
+}

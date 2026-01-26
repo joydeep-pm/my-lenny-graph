@@ -1,0 +1,241 @@
+{
+  "slug": "alisa-cohn",
+  "guest": "Alisa Cohn",
+  "episode_title": "Scripts for navigating difficult conversations | Alisa Cohn (executive coach)",
+  "verification_date": "2026-01-26",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "alisa-cohn-q001",
+      "speaker": "Alisa Cohn",
+      "text": "No one wants to make anybody upset, but through that upset on the other side of that, can often be a whole new possibility and a whole new revelation, and actually a lot of joy and freedom. I think that we forget about all the other possibilities that come out of difficult conversations and we just land on these really uncomfortable parts.",
+      "timestamp": "00:07:51",
+      "source": {
+        "slug": "alisa-cohn",
+        "path": "episodes/alisa-cohn/transcript.md",
+        "lineStart": 111,
+        "lineEnd": 112
+      },
+      "themes": ["difficult-conversations", "feedback", "growth"],
+      "zones": ["alignment", "discovery"],
+      "context": "Alisa reframes difficult conversations as opportunities for breakthrough rather than just discomfort",
+      "verified": true
+    },
+    {
+      "id": "alisa-cohn-q002",
+      "speaker": "Alisa Cohn",
+      "text": "She cried. Of course she did. She cried. That's what he knew she was going to do. And so she was upset and she went home early and the whole thing. The next day she came in and she said, 'Thank you so much for telling me that. I wish someone had told me that 15 years ago. I think I could have had a different career.'",
+      "timestamp": "00:11:40",
+      "source": {
+        "slug": "alisa-cohn",
+        "path": "episodes/alisa-cohn/transcript.md",
+        "lineStart": 137,
+        "lineEnd": 139
+      },
+      "themes": ["feedback", "difficult-conversations", "growth"],
+      "zones": ["alignment", "chaos"],
+      "context": "Alisa shares a story about a manager who finally gave difficult feedback despite knowing the employee would cry",
+      "verified": true
+    },
+    {
+      "id": "alisa-cohn-q003",
+      "speaker": "Alisa Cohn",
+      "text": "What I'm trying to convey in my tone is also, 'You know what? It's Tuesday. We got to have this conversation. I'm sure it's going to end well. I'm not mad.' The more even keeled and even matter of fact you can be about something that's kind of just run-of-the-mill feedback, the better.",
+      "timestamp": "00:14:36",
+      "source": {
+        "slug": "alisa-cohn",
+        "path": "episodes/alisa-cohn/transcript.md",
+        "lineStart": 159,
+        "lineEnd": 159
+      },
+      "themes": ["feedback", "management", "communication"],
+      "zones": ["alignment", "focus"],
+      "context": "Alisa emphasizes the importance of neutral, matter-of-fact tone in delivering performance feedback",
+      "verified": true
+    },
+    {
+      "id": "alisa-cohn-q004",
+      "speaker": "Alisa Cohn",
+      "text": "Observable facts. The idea that this is not a judgment. This is not... Sort of as less judgy as possible is also very helpful. It makes it neutral. It's observable facts and it's also sort of based on expectations, right? So the writing is, we expect it to be at a certain level and it's not that way.",
+      "timestamp": "00:19:05",
+      "source": {
+        "slug": "alisa-cohn",
+        "path": "episodes/alisa-cohn/transcript.md",
+        "lineStart": 195,
+        "lineEnd": 198
+      },
+      "themes": ["feedback", "management", "communication"],
+      "zones": ["data", "alignment"],
+      "context": "Alisa explains how grounding feedback in observable facts rather than judgments makes it easier to deliver and receive",
+      "verified": true
+    },
+    {
+      "id": "alisa-cohn-q005",
+      "speaker": "Alisa Cohn",
+      "text": "Hope for the future is so important and I think sometimes we're such in a rush to kind of deliver the bad news that we forget there's a human being over there who needs hope for the future. And hopefully. If they're a good employee, hopefully they have hope for the future.",
+      "timestamp": "00:27:21",
+      "source": {
+        "slug": "alisa-cohn",
+        "path": "episodes/alisa-cohn/transcript.md",
+        "lineStart": 261,
+        "lineEnd": 262
+      },
+      "themes": ["feedback", "management", "leadership"],
+      "zones": ["alignment", "discovery"],
+      "context": "Alisa emphasizes the importance of providing hope when delivering difficult news about promotions",
+      "verified": true
+    },
+    {
+      "id": "alisa-cohn-q006",
+      "speaker": "Alisa Cohn",
+      "text": "When you, as a leader signal a lot, I care about you, I care about your feelings, I care that you're disappointed, I care about your career, you are always going to be able to help people stay resilient in the face of setbacks and ultimately, do extra work, do the right work for you and be engaged in your company because you've spent the time and energy making sure they know that even when things are not going their way, they have an ally in you.",
+      "timestamp": "00:28:24",
+      "source": {
+        "slug": "alisa-cohn",
+        "path": "episodes/alisa-cohn/transcript.md",
+        "lineStart": 281,
+        "lineEnd": 283
+      },
+      "themes": ["leadership", "caring", "trust"],
+      "zones": ["alignment", "intuition"],
+      "context": "Alisa explains how signaling care builds resilience and engagement even during difficult conversations",
+      "verified": true
+    },
+    {
+      "id": "alisa-cohn-q007",
+      "speaker": "Alisa Cohn",
+      "text": "Before you fire someone, I think it's helpful to have the conversation before the firing conversation. Regularly with my clients, I'll say, 'Okay, have you been crystal clear about what you need from this person?' And what they always do is the hand motion like well, sort of, but well, maybe. Which means no, which means no. You've not been crystal clear.",
+      "timestamp": "00:31:43",
+      "source": {
+        "slug": "alisa-cohn",
+        "path": "episodes/alisa-cohn/transcript.md",
+        "lineStart": 308,
+        "lineEnd": 310
+      },
+      "themes": ["management", "firing", "difficult-conversations"],
+      "zones": ["alignment", "focus"],
+      "context": "Alisa explains the importance of crystal clear expectations before considering termination",
+      "verified": true
+    },
+    {
+      "id": "alisa-cohn-q008",
+      "speaker": "Alisa Cohn",
+      "text": "The positive feedback should have the same standard, which is, 'I saw the way you ran that launch, it was fantastic. All these different benefits came from it. You're so organized, keep doing that.' If you do that often enough, you become in the habit of getting better at positive feedback, which is extremely motivating to people at work.",
+      "timestamp": "00:36:40",
+      "source": {
+        "slug": "alisa-cohn",
+        "path": "episodes/alisa-cohn/transcript.md",
+        "lineStart": 368,
+        "lineEnd": 370
+      },
+      "themes": ["feedback", "management", "motivation"],
+      "zones": ["alignment", "velocity"],
+      "context": "Alisa argues that positive feedback needs to be as specific and thoughtful as constructive feedback",
+      "verified": true
+    },
+    {
+      "id": "alisa-cohn-q009",
+      "speaker": "Alisa Cohn",
+      "text": "I think it's very misguided for leaders to have this notion that their most important role is to keep people happy, is to create this high engagement workforce. What that comes from is winning culture, which means we're set up for success. We've got the structure for success, we have the culture for success, everyone understands their role, they know the impact of their role.",
+      "timestamp": "00:40:23",
+      "source": {
+        "slug": "alisa-cohn",
+        "path": "episodes/alisa-cohn/transcript.md",
+        "lineStart": 396,
+        "lineEnd": 399
+      },
+      "themes": ["leadership", "culture", "results"],
+      "zones": ["focus", "alignment"],
+      "context": "Alisa challenges the common belief that leaders should focus on making employees happy versus driving results",
+      "verified": true
+    },
+    {
+      "id": "alisa-cohn-q010",
+      "speaker": "Alisa Cohn",
+      "text": "My three questions to end the meeting are, what did we decide here? Who needs to do what by when? And who else needs to know? And if you can capture those, articulate those as deliverables, I promise you, you're going to have better meetings.",
+      "timestamp": "00:50:01",
+      "source": {
+        "slug": "alisa-cohn",
+        "path": "episodes/alisa-cohn/transcript.md",
+        "lineStart": 459,
+        "lineEnd": 460
+      },
+      "themes": ["meetings", "productivity", "communication"],
+      "zones": ["velocity", "alignment"],
+      "context": "Alisa shares her framework for ending meetings with clear decisions and accountability",
+      "verified": true
+    },
+    {
+      "id": "alisa-cohn-q011",
+      "speaker": "Alisa Cohn",
+      "text": "According to Noam Wasserstein, 65% of startups fail because of conflict with founders or the founding team. So it's really essential to get this right, and I agree that people step into this relationship with a lot less care than they should. And bad things can happen because you haven't done the work of getting to know each other before you decide to co-found.",
+      "timestamp": "00:56:41",
+      "source": {
+        "slug": "alisa-cohn",
+        "path": "episodes/alisa-cohn/transcript.md",
+        "lineStart": 503,
+        "lineEnd": 505
+      },
+      "themes": ["founders", "co-founders", "relationships"],
+      "zones": ["alignment", "chaos"],
+      "context": "Alisa introduces the founder prenup concept by citing founder conflict as the leading cause of startup failure",
+      "verified": true
+    },
+    {
+      "id": "alisa-cohn-q012",
+      "speaker": "Alisa Cohn",
+      "text": "If you can see your path all the way through to the end, you are following someone else's path. Your path only becomes clear moment by moment as each foot hits the ground.",
+      "timestamp": "01:19:41",
+      "source": {
+        "slug": "alisa-cohn",
+        "path": "episodes/alisa-cohn/transcript.md",
+        "lineStart": 738,
+        "lineEnd": 738
+      },
+      "themes": ["career", "growth", "self-discovery"],
+      "zones": ["discovery", "chaos"],
+      "context": "Alisa shares a Joseph Campbell quote that animates her life philosophy on career paths",
+      "verified": true
+    }
+  ],
+  "themes": ["difficult-conversations", "feedback", "management", "leadership", "communication", "founders", "meetings", "culture"],
+  "takeaways": [
+    "Difficult conversations often lead to breakthrough results - through discomfort comes new possibilities, joy, and freedom, and withholding feedback robs people of opportunities to improve.",
+    "Ground feedback in observable facts, not judgments - describing specific behaviors and outcomes against clear expectations makes feedback neutral, easier to deliver, and easier to receive.",
+    "Your job as a leader is not to make employees happy, but to create a winning culture - happiness comes from clarity on roles, impact, structure for success, and celebrating wins together.",
+    "Always provide hope for the future when delivering difficult news - remember there's a human being who needs to know they have an ally in you even when things aren't going their way.",
+    "End every meeting with three questions: What did we decide? Who does what by when? Who else needs to know? - This simple ritual prevents re-deciding issues and ensures accountability."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.10,
+    "intuition": 0.10,
+    "alignment": 0.35,
+    "chaos": 0.10,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "alisa-cohn-q009",
+      "why": "Challenges the popular belief that leaders should prioritize employee happiness - argues that focusing on winning culture and results is more important than engagement scores",
+      "related_zones": ["focus", "alignment"]
+    },
+    {
+      "quoteId": "alisa-cohn-q002",
+      "why": "Embraces the discomfort of making someone cry during feedback - counterintuitive message that the tears are worth it when the person later thanks you",
+      "related_zones": ["alignment", "chaos"]
+    },
+    {
+      "quoteId": "alisa-cohn-q012",
+      "why": "Rejects the need for a clear career plan - suggests uncertainty about your path is actually a sign you're on YOUR path, not someone else's template",
+      "related_zones": ["discovery", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "coach",
+    "company_stage": "multiple",
+    "primary_topics": ["executive-coaching", "difficult-conversations", "feedback", "leadership", "founder-relationships"]
+  }
+}

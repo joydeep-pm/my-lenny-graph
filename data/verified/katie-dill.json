@@ -1,0 +1,225 @@
+{
+  "slug": "katie-dill",
+  "guest": "Katie Dill",
+  "episode_title": "Building beautiful products with Stripe's Head of Design | Katie Dill (Stripe, Airbnb, Lyft)",
+  "verification_date": "2026-01-26",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "katie-dill-q001",
+      "speaker": "Katie Dill",
+      "text": "You can inflict change on people, but if you want to do it with them trust is the key element there. And then a couple months later, we had the best engagement scores in the company.",
+      "timestamp": "00:08:57",
+      "source": {
+        "slug": "katie-dill",
+        "path": "episodes/katie-dill/transcript.md",
+        "lineStart": 115,
+        "lineEnd": 115
+      },
+      "themes": ["leadership", "trust", "change-management"],
+      "zones": ["alignment", "discovery"],
+      "context": "Katie reflects on a pivotal moment at Airbnb when her team confronted her about not earning their trust, leading to a major shift in her leadership approach.",
+      "verified": true
+    },
+    {
+      "id": "katie-dill-q002",
+      "speaker": "Katie Dill",
+      "text": "But the companies that know that quality is non-negotiable, it is a long-term necessary aspect of what they build, don't play that numbers game. Or what they do is they recognize that it is absolutely functionality, but the quality of those features that is actually going to get to great usability, desirability in their product.",
+      "timestamp": "00:13:21",
+      "source": {
+        "slug": "katie-dill",
+        "path": "episodes/katie-dill/transcript.md",
+        "lineStart": 148,
+        "lineEnd": 148
+      },
+      "themes": ["quality", "strategy", "product"],
+      "zones": ["perfection", "focus"],
+      "context": "Katie explains how companies committed to quality don't fall into the trap of always prioritizing measurable metrics over excellence.",
+      "verified": true
+    },
+    {
+      "id": "katie-dill-q003",
+      "speaker": "Katie Dill",
+      "text": "I know there's this saying of it's growth versus quality, but quality is growth. And if you think about how you can make your product easier to use and more understandable, that will of course drive people to use it, and use more of it, and have a better experience with it that they'll want to talk about with others.",
+      "timestamp": "00:15:28",
+      "source": {
+        "slug": "katie-dill",
+        "path": "episodes/katie-dill/transcript.md",
+        "lineStart": 160,
+        "lineEnd": 160
+      },
+      "themes": ["quality", "growth", "product"],
+      "zones": ["perfection", "velocity", "discovery"],
+      "context": "Katie challenges the false dichotomy between quality and growth, arguing they are deeply interconnected.",
+      "verified": true
+    },
+    {
+      "id": "katie-dill-q004",
+      "speaker": "Katie Dill",
+      "text": "A pet peeve of mine is this way of talking about things as there's business goals and there's design goals. Because I think maybe the first conversation one should have is that, 'What are we trying to build towards?' And I would think that folks that want to create really impactful products, they want to create quality products.",
+      "timestamp": "00:19:13",
+      "source": {
+        "slug": "katie-dill",
+        "path": "episodes/katie-dill/transcript.md",
+        "lineStart": 184,
+        "lineEnd": 184
+      },
+      "themes": ["design", "business", "alignment"],
+      "zones": ["alignment", "perfection"],
+      "context": "Katie pushes back on the artificial separation between business and design goals in product development.",
+      "verified": true
+    },
+    {
+      "id": "katie-dill-q005",
+      "speaker": "Katie Dill",
+      "text": "Things that are more beautiful, increase trust. You see that we've put painstaking detail into this and we care about the details of how something works, and that gives you assurance that we care about other details that you can't see too.",
+      "timestamp": "00:24:00",
+      "source": {
+        "slug": "katie-dill",
+        "path": "episodes/katie-dill/transcript.md",
+        "lineStart": 214,
+        "lineEnd": 214
+      },
+      "themes": ["beauty", "trust", "details", "design"],
+      "zones": ["perfection", "discovery"],
+      "context": "Katie explains why beauty matters for a B2B financial infrastructure company like Stripe.",
+      "verified": true
+    },
+    {
+      "id": "katie-dill-q006",
+      "speaker": "Katie Dill",
+      "text": "The gravitational pull is to mediocrity. It is very easy to fall into a path of a baseline, where what is required to go to that next level where something feels truly great is certainly a lot of effort, and it's a concerted effort.",
+      "timestamp": "00:26:45",
+      "source": {
+        "slug": "katie-dill",
+        "path": "episodes/katie-dill/transcript.md",
+        "lineStart": 247,
+        "lineEnd": 247
+      },
+      "themes": ["quality", "excellence", "effort"],
+      "zones": ["perfection", "focus"],
+      "context": "Katie describes the natural tendency toward mediocrity and why achieving excellence requires deliberate, sustained effort.",
+      "verified": true
+    },
+    {
+      "id": "katie-dill-q007",
+      "speaker": "Katie Dill",
+      "text": "Quality is definitely a group effort. You're sunk if you think that you can just hire some incredibly talented person and they'll do it, that'll be fine. The rest of us will do what we're doing and they'll do it, or that it's just one organization that's going to look out for quality.",
+      "timestamp": "00:29:28",
+      "source": {
+        "slug": "katie-dill",
+        "path": "episodes/katie-dill/transcript.md",
+        "lineStart": 268,
+        "lineEnd": 268
+      },
+      "themes": ["quality", "teamwork", "culture"],
+      "zones": ["alignment", "perfection"],
+      "context": "Katie emphasizes that quality cannot be delegated to a single person or team - it must be an organizational priority.",
+      "verified": true
+    },
+    {
+      "id": "katie-dill-q008",
+      "speaker": "Katie Dill",
+      "text": "That pairs with the next piece, which is about courage, the ability to actually say, 'No, this isn't good enough.' To have the resolve to just be like, 'Almost, but no.' Which is one of the hardest decisions I think leaders can make.",
+      "timestamp": "00:31:53",
+      "source": {
+        "slug": "katie-dill",
+        "path": "episodes/katie-dill/transcript.md",
+        "lineStart": 280,
+        "lineEnd": 280
+      },
+      "themes": ["leadership", "courage", "quality", "editing"],
+      "zones": ["perfection", "focus"],
+      "context": "Katie discusses the importance of editorial courage in maintaining quality standards.",
+      "verified": true
+    },
+    {
+      "id": "katie-dill-q009",
+      "speaker": "Katie Dill",
+      "text": "Performance equals potential minus interference. And I really like this, it's pretty simple, but it's a good reminder that, as a leader, one of the things that you are of course driving towards is trying to get better performance so that your team feels more purpose and motivation.",
+      "timestamp": "00:55:10",
+      "source": {
+        "slug": "katie-dill",
+        "path": "episodes/katie-dill/transcript.md",
+        "lineStart": 403,
+        "lineEnd": 403
+      },
+      "themes": ["leadership", "performance", "team-management"],
+      "zones": ["alignment", "velocity"],
+      "context": "Katie shares a formula she learned at Airbnb that guides her approach to leading and scaling teams.",
+      "verified": true
+    },
+    {
+      "id": "katie-dill-q010",
+      "speaker": "Katie Dill",
+      "text": "A fear of bold ideas. What happens is that... a fear of shaking things up too much or big ideas with lots of things changing at once are really hard to measure. And so actually if we just make an incremental approach, it's very measured and we know what the outcome is going to be, it feels safer.",
+      "timestamp": "01:07:50",
+      "source": {
+        "slug": "katie-dill",
+        "path": "episodes/katie-dill/transcript.md",
+        "lineStart": 493,
+        "lineEnd": 493
+      },
+      "themes": ["vision", "risk", "incrementalism"],
+      "zones": ["chaos", "intuition"],
+      "context": "Katie warns against the tendency to avoid bold ideas in favor of safe, incremental approaches that feel more measurable.",
+      "verified": true
+    },
+    {
+      "id": "katie-dill-q011",
+      "speaker": "Katie Dill",
+      "text": "It's easier to teach tools and process than it is taste and character, so I would certainly pay a lot of attention to that. Their hit rate for great judgment and great taste, and how they've honed that, even if they're not very experienced, just to see do they have that natural inclination for great things.",
+      "timestamp": "01:11:23",
+      "source": {
+        "slug": "katie-dill",
+        "path": "episodes/katie-dill/transcript.md",
+        "lineStart": 511,
+        "lineEnd": 511
+      },
+      "themes": ["hiring", "taste", "character", "design"],
+      "zones": ["intuition", "perfection"],
+      "context": "Katie shares her key advice for hiring designers: prioritize taste and character over teachable skills.",
+      "verified": true
+    }
+  ],
+  "themes": ["design-leadership", "quality", "beauty", "trust", "team-building", "craft", "user-journeys", "organizational-design"],
+  "takeaways": [
+    "Quality is growth, not its opposite - beautiful, usable products directly drive business metrics. Stripe saw 10.5% revenue increase from checkout quality improvements.",
+    "The gravitational pull is to mediocrity - achieving excellence requires deliberate, sustained effort and the courage to say 'this isn't good enough.'",
+    "Quality is a group effort - you cannot delegate excellence to one talented person or team. It must be an organizational priority with shared care across all functions.",
+    "Performance equals potential minus interference - leaders should focus on both hiring great talent AND removing the obstacles that prevent them from doing their best work.",
+    "Walk the store regularly - Stripe's leaders review their 15 most critical user journeys quarterly, friction-logging the experience to maintain quality standards over time."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.35,
+    "discovery": 0.10,
+    "data": 0.05,
+    "intuition": 0.10,
+    "alignment": 0.20,
+    "chaos": 0.05,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "katie-dill-q003",
+      "why": "Directly challenges the common belief that quality and growth are trade-offs - argues they are the same thing",
+      "related_zones": ["perfection", "velocity"]
+    },
+    {
+      "quoteId": "katie-dill-q006",
+      "why": "Calls out the 'gravitational pull to mediocrity' - challenges the comfort of baseline standards",
+      "related_zones": ["perfection", "focus"]
+    },
+    {
+      "quoteId": "katie-dill-q010",
+      "why": "Warns against incrementalism - challenges the safety of measurable, small changes over bold vision",
+      "related_zones": ["chaos", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "design-leader",
+    "company_stage": "growth",
+    "primary_topics": ["design-leadership", "quality", "beauty", "team-building", "organizational-design"]
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "slug": "christina-wodtke",
+  "guest": "Christina Wodtke",
+  "episode_title": "The ultimate guide to OKRs | Christina Wodtke (Stanford)",
+  "verification_date": "2026-01-26",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "christina-wodtke-q001",
+      "speaker": "Christina Wodtke",
+      "text": "I say OKRs are more of a vitamin, they're not a medicine. So, if you take OKRs and you're like, 'Oh, this will fix everything that's wrong with you.' No, that's not going to happen. It's just going to reveal everything that's wrong with your company. But if you've done the hard work of getting your company to be strong, it's amazing how well it works.",
+      "timestamp": "00:05:29",
+      "source": {
+        "slug": "christina-wodtke",
+        "path": "episodes/christina-wodtke/transcript.md",
+        "lineStart": 81,
+        "lineEnd": 82
+      },
+      "themes": ["OKRs", "organizational health", "company culture"],
+      "zones": ["focus", "alignment"],
+      "context": "Christina explains that OKRs amplify existing company strengths rather than fixing fundamental problems",
+      "verified": true
+    },
+    {
+      "id": "christina-wodtke-q002",
+      "speaker": "Christina Wodtke",
+      "text": "The thing that I don't see a lot of people talking about that I think is really amazing, is because an OKR focuses you for one quarter and at the end of the quarter you grade your OKRs. How well did we do? What got in our way? It creates this learning cycle.",
+      "timestamp": "00:08:40",
+      "source": {
+        "slug": "christina-wodtke",
+        "path": "episodes/christina-wodtke/transcript.md",
+        "lineStart": 99,
+        "lineEnd": 103
+      },
+      "themes": ["learning", "OKRs", "continuous improvement"],
+      "zones": ["discovery", "focus"],
+      "context": "Christina highlights the underappreciated learning benefits of the OKR quarterly cycle",
+      "verified": true
+    },
+    {
+      "id": "christina-wodtke-q003",
+      "speaker": "Christina Wodtke",
+      "text": "My motto is, 'Make new mistakes.' So, by having this focus on really important things, not to spread yourself too thin, like the famous peanut butter memo from Yahoo... companies have a tendency to try to do everything all at this exact moment. And so, everybody's working with 1% on this, 1% on that.",
+      "timestamp": "00:09:36",
+      "source": {
+        "slug": "christina-wodtke",
+        "path": "episodes/christina-wodtke/transcript.md",
+        "lineStart": 108,
+        "lineEnd": 109
+      },
+      "themes": ["focus", "prioritization", "resource allocation"],
+      "zones": ["focus", "chaos"],
+      "context": "Christina warns against the peanut butter approach of spreading resources too thin across too many initiatives",
+      "verified": true
+    },
+    {
+      "id": "christina-wodtke-q004",
+      "speaker": "Christina Wodtke",
+      "text": "What am I doing this week to get closer to our goals? If you could answer that question, you could give up all the OKR stuff, but if you just asked the question, 'What are we doing this week to get closer to our strategic goals, our longer term goals?' That is the very heart of it.",
+      "timestamp": "00:11:44",
+      "source": {
+        "slug": "christina-wodtke",
+        "path": "episodes/christina-wodtke/transcript.md",
+        "lineStart": 123,
+        "lineEnd": 124
+      },
+      "themes": ["execution", "weekly cadence", "goal alignment"],
+      "zones": ["velocity", "focus"],
+      "context": "Christina describes the atomic unit of OKRs as simply connecting weekly work to strategic goals",
+      "verified": true
+    },
+    {
+      "id": "christina-wodtke-q005",
+      "speaker": "Christina Wodtke",
+      "text": "Everybody sucks at estimating when you first start, and a lot of people think it's like black magic or something you're born with. But no, it's a learned skill. You practice estimating, you get good at estimating, you get better and better and better. And being good at estimating is incredibly valuable as a business skill.",
+      "timestamp": "00:19:35",
+      "source": {
+        "slug": "christina-wodtke",
+        "path": "episodes/christina-wodtke/transcript.md",
+        "lineStart": 179,
+        "lineEnd": 181
+      },
+      "themes": ["estimation", "skill development", "learning"],
+      "zones": ["data", "discovery"],
+      "context": "Christina demystifies estimation as a learnable skill that improves with deliberate practice",
+      "verified": true
+    },
+    {
+      "id": "christina-wodtke-q006",
+      "speaker": "Christina Wodtke",
+      "text": "Simple things give you a lot more room to fiddle. And I feel like every time I see people make really complicated methodologies, they get way too caught up in the rules and they don't think about, what are we actually trying to do? So, simple is better.",
+      "timestamp": "00:22:51",
+      "source": {
+        "slug": "christina-wodtke",
+        "path": "episodes/christina-wodtke/transcript.md",
+        "lineStart": 212,
+        "lineEnd": 214
+      },
+      "themes": ["simplicity", "methodology", "pragmatism"],
+      "zones": ["focus", "chaos"],
+      "context": "Christina advocates for keeping OKR frameworks simple to maintain focus on actual outcomes",
+      "verified": true
+    },
+    {
+      "id": "christina-wodtke-q007",
+      "speaker": "Christina Wodtke",
+      "text": "Your objectives should make you, when your alarm goes off and you wake up, you go, 'Oh yeah, I'm changing the world today, or I'm doing something really cool.' It shouldn't be like, snooze. So, I think an objective should be motivating but not ridiculous.",
+      "timestamp": "00:25:09",
+      "source": {
+        "slug": "christina-wodtke",
+        "path": "episodes/christina-wodtke/transcript.md",
+        "lineStart": 237,
+        "lineEnd": 240
+      },
+      "themes": ["motivation", "objectives", "inspiration"],
+      "zones": ["alignment", "focus"],
+      "context": "Christina explains that good objectives should inspire action while remaining achievable",
+      "verified": true
+    },
+    {
+      "id": "christina-wodtke-q008",
+      "speaker": "Christina Wodtke",
+      "text": "OKRs are a great diagnostic tool because they tell you something's broken. So, if your OKRs are going sideways, something's broken deeper. There's also the problem with psychological safety. You need your teams to be able to say, 'This isn't working. We're doing something else.'",
+      "timestamp": "00:33:27",
+      "source": {
+        "slug": "christina-wodtke",
+        "path": "episodes/christina-wodtke/transcript.md",
+        "lineStart": 294,
+        "lineEnd": 295
+      },
+      "themes": ["diagnostics", "psychological safety", "team dynamics"],
+      "zones": ["alignment", "discovery"],
+      "context": "Christina describes how failing OKRs often reveal deeper organizational problems",
+      "verified": true
+    },
+    {
+      "id": "christina-wodtke-q009",
+      "speaker": "Christina Wodtke",
+      "text": "There's an old joke that I think about a lot, which is, if during the day you meet one asshole, he's probably an asshole. But if all day long you meet nobody but assholes, you might be the asshole. And I think that's very true. If your entire company's confused, you might be the asshole.",
+      "timestamp": "00:34:13",
+      "source": {
+        "slug": "christina-wodtke",
+        "path": "episodes/christina-wodtke/transcript.md",
+        "lineStart": 297,
+        "lineEnd": 298
+      },
+      "themes": ["leadership", "self-awareness", "communication"],
+      "zones": ["alignment", "chaos"],
+      "context": "Christina uses humor to highlight that widespread confusion often stems from leadership communication failures",
+      "verified": true
+    },
+    {
+      "id": "christina-wodtke-q010",
+      "speaker": "Christina Wodtke",
+      "text": "People do not value celebrations enough. I've had CEOs who said, 'Well, it was the middle of the quarter, so we didn't start OKRs, but we did start Friday celebrations. And oh my God, things are already changing. Things are already getting better.'",
+      "timestamp": "00:46:52",
+      "source": {
+        "slug": "christina-wodtke",
+        "path": "episodes/christina-wodtke/transcript.md",
+        "lineStart": 407,
+        "lineEnd": 409
+      },
+      "themes": ["celebration", "team morale", "culture"],
+      "zones": ["alignment", "velocity"],
+      "context": "Christina emphasizes that Friday celebrations can transform team dynamics even before full OKR implementation",
+      "verified": true
+    },
+    {
+      "id": "christina-wodtke-q011",
+      "speaker": "Christina Wodtke",
+      "text": "Product sense is intuition, intuition is compressed experience, compressed experience comes from having lots of experience. And if you're young and you don't have a lot of experience, the smartest thing you could do is learn. You've got to learn what models work and why they work.",
+      "timestamp": "01:02:34",
+      "source": {
+        "slug": "christina-wodtke",
+        "path": "episodes/christina-wodtke/transcript.md",
+        "lineStart": 545,
+        "lineEnd": 547
+      },
+      "themes": ["product sense", "intuition", "learning"],
+      "zones": ["discovery", "intuition"],
+      "context": "Christina demystifies product sense as accumulated experience rather than innate talent",
+      "verified": true
+    },
+    {
+      "id": "christina-wodtke-q012",
+      "speaker": "Christina Wodtke",
+      "text": "Are you willing to work on your interpersonal dynamics? Because if you can't fire someone, if you can't tell somebody their behavior is interfering with the ability to get things done, don't be a product manager. If you can't solve the fight between two of your coworkers, don't be a product manager.",
+      "timestamp": "01:04:34",
+      "source": {
+        "slug": "christina-wodtke",
+        "path": "episodes/christina-wodtke/transcript.md",
+        "lineStart": 555,
+        "lineEnd": 558
+      },
+      "themes": ["interpersonal skills", "product management", "leadership"],
+      "zones": ["alignment", "chaos"],
+      "context": "Christina emphasizes that product management requires strong interpersonal skills and conflict resolution abilities",
+      "verified": true
+    }
+  ],
+  "themes": [
+    "OKRs",
+    "focus",
+    "goal setting",
+    "team alignment",
+    "learning cycles",
+    "simplicity",
+    "celebration",
+    "product management",
+    "leadership",
+    "psychological safety"
+  ],
+  "takeaways": [
+    "OKRs are a vitamin that amplifies healthy companies, not a medicine that fixes broken ones - they reveal problems rather than solve them",
+    "The atomic unit of OKRs is answering 'What am I doing this week to get closer to our goals?' - everything else is scaffolding around this core question",
+    "Simplicity beats complexity - complicated methodologies cause teams to focus on rules instead of outcomes",
+    "Friday celebrations create immediate cultural improvement even before implementing full OKR processes",
+    "Product sense is not innate talent but compressed experience - young PMs should focus on learning business models rather than trusting intuition they haven't earned"
+  ],
+  "zone_influence": {
+    "focus": 0.35,
+    "alignment": 0.25,
+    "discovery": 0.15,
+    "velocity": 0.10,
+    "chaos": 0.08,
+    "data": 0.04,
+    "intuition": 0.03,
+    "perfection": 0.00
+  },
+  "contrarian_candidates": [
+    {
+      "id": "christina-wodtke-q011",
+      "claim": "Product sense is overrated for new PMs - it's compressed experience you haven't earned yet, so focus on learning business fundamentals instead",
+      "challenges": "Challenges the common advice to develop product intuition early in your PM career"
+    },
+    {
+      "id": "christina-wodtke-q001",
+      "claim": "OKRs won't fix your company - they'll just reveal everything that's already broken",
+      "challenges": "Pushes back against treating OKRs as a solution rather than a diagnostic tool"
+    },
+    {
+      "id": "christina-wodtke-q010",
+      "claim": "Start with Friday celebrations before OKRs - the cultural shift often matters more than the framework",
+      "challenges": "Suggests that ritual and celebration may be more impactful than the actual goal-setting methodology"
+    }
+  ],
+  "guest_metadata": {
+    "name": "Christina Wodtke",
+    "title": "Author & Stanford Lecturer",
+    "company": "Stanford University",
+    "expertise": ["OKRs", "Product Management", "Goal Setting", "Team Dynamics"],
+    "books": ["Radical Focus", "The Team That Managed Itself", "Pencil Me In"],
+    "previous_companies": ["LinkedIn", "MySpace", "Zynga", "Yahoo"],
+    "social": {
+      "website": "eleganthack.com",
+      "consulting": "cwodtke.com"
+    }
+  }
+}

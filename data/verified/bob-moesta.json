@@ -1,0 +1,241 @@
+{
+  "slug": "bob-moesta",
+  "guest": "Bob Moesta",
+  "episode_title": "The ultimate guide to JTBD | Bob Moesta (co-creator of the framework)",
+  "verification_date": "2026-01-26",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "bob-moesta-q001",
+      "speaker": "Bob Moesta",
+      "text": "Jobs helps you see the true competitive set from what we call the demand side of the world as opposed to the competitive set from the supply side of the world, which is the technology or the underlying business model by how which we're making it. And so it allows you to actually see what customers really want as opposed to trying to figure out, how do we sell things to people?",
+      "timestamp": "00:06:49",
+      "source": {
+        "slug": "bob-moesta",
+        "path": "episodes/bob-moesta/transcript.md",
+        "lineStart": 91,
+        "lineEnd": 91
+      },
+      "themes": ["jobs-to-be-done", "customer-research", "competition"],
+      "zones": ["discovery", "data"],
+      "context": "Explaining how JTBD reveals Snickers competes with protein shakes and coffee, not just other candy bars",
+      "verified": true
+    },
+    {
+      "id": "bob-moesta-q002",
+      "speaker": "Bob Moesta",
+      "text": "And so all of this starts with a struggling moment, not with a product. And so that's what we mean when we're customer-centric is that we're studying the struggling moments they have and people like Intercom and Basecamp, they look at struggling moments and that becomes their roadmap.",
+      "timestamp": "00:09:06",
+      "source": {
+        "slug": "bob-moesta",
+        "path": "episodes/bob-moesta/transcript.md",
+        "lineStart": 100,
+        "lineEnd": 103
+      },
+      "themes": ["struggling-moments", "customer-centricity", "roadmap"],
+      "zones": ["discovery", "velocity"],
+      "context": "Describing how SNHU grew to 200,000+ students by focusing on struggling moments rather than building features",
+      "verified": true
+    },
+    {
+      "id": "bob-moesta-q003",
+      "speaker": "Bob Moesta",
+      "text": "Most people think they create a product and that creates demand. But the real thing that if you start to study causality is that a struggling moment causes demand.",
+      "timestamp": "00:07:44",
+      "source": {
+        "slug": "bob-moesta",
+        "path": "episodes/bob-moesta/transcript.md",
+        "lineStart": 97,
+        "lineEnd": 97
+      },
+      "themes": ["demand", "causation", "product-development"],
+      "zones": ["discovery", "data"],
+      "context": "Challenging the 'build it and they will come' myth with the insight that demand precedes products",
+      "verified": true
+    },
+    {
+      "id": "bob-moesta-q004",
+      "speaker": "Bob Moesta",
+      "text": "It's not just the pain. See, what we're taught in business school was pain and gain, but the reality is it's the context. It's the fact that I didn't eat lunch before, the fact that I still have a lot of work to do. It's not that I'm in pain, but it's the context that makes me value this in the moment that much more than something else.",
+      "timestamp": "00:10:07",
+      "source": {
+        "slug": "bob-moesta",
+        "path": "episodes/bob-moesta/transcript.md",
+        "lineStart": 109,
+        "lineEnd": 109
+      },
+      "themes": ["context", "value", "customer-understanding"],
+      "zones": ["intuition", "discovery"],
+      "context": "Distinguishing JTBD from traditional pain/gain frameworks taught in business schools",
+      "verified": true
+    },
+    {
+      "id": "bob-moesta-q005",
+      "speaker": "Bob Moesta",
+      "text": "Every time I show somebody something new, it actually creates anxiety. More features create actually anxiety, can it do all those things? And what you start to realize is if I reduce friction, I actually don't have to do anything with a product, I just have to make it easier.",
+      "timestamp": "00:12:34",
+      "source": {
+        "slug": "bob-moesta",
+        "path": "episodes/bob-moesta/transcript.md",
+        "lineStart": 127,
+        "lineEnd": 130
+      },
+      "themes": ["friction", "anxiety", "simplicity"],
+      "zones": ["focus", "velocity"],
+      "context": "Explaining the forces of progress model where reducing friction can be more effective than adding features",
+      "verified": true
+    },
+    {
+      "id": "bob-moesta-q006",
+      "speaker": "Bob Moesta",
+      "text": "So what this is it's really about focusing on the customer. It's about understanding the causation behind it and then using design thinking to actually start to realize, how do we actually enable people to make progress? We don't need to sell them, we need to enable them to buy.",
+      "timestamp": "00:14:07",
+      "source": {
+        "slug": "bob-moesta",
+        "path": "episodes/bob-moesta/transcript.md",
+        "lineStart": 136,
+        "lineEnd": 136
+      },
+      "themes": ["sales", "customer-focus", "progress"],
+      "zones": ["alignment", "velocity"],
+      "context": "The core philosophy shift from selling to enabling customers to make progress",
+      "verified": true
+    },
+    {
+      "id": "bob-moesta-q007",
+      "speaker": "Bob Moesta",
+      "text": "Although for example, everybody I would survey before buying a house, I had 93% say they wanted an Energy Star compliant house. It cost 30 grand to make an Energy Star compliant at the time. And the reality is nobody bought it, they all bought the finished basement. And so there's the difference between what they say they want and what they want.",
+      "timestamp": "00:17:25",
+      "source": {
+        "slug": "bob-moesta",
+        "path": "episodes/bob-moesta/transcript.md",
+        "lineStart": 163,
+        "lineEnd": 163
+      },
+      "themes": ["customer-research", "trade-offs", "surveys"],
+      "zones": ["data", "intuition"],
+      "context": "Illustrating why traditional surveys fail - people's stated preferences don't match actual buying behavior",
+      "verified": true
+    },
+    {
+      "id": "bob-moesta-q008",
+      "speaker": "Bob Moesta",
+      "text": "The other tip I have is to not have a discussion guide. It drives people crazy because everybody wants to ask the same set of questions, but the problem happens is when you ask the same set of questions, you actually don't follow the ones that actually have the most meaningful information in it.",
+      "timestamp": "00:30:18",
+      "source": {
+        "slug": "bob-moesta",
+        "path": "episodes/bob-moesta/transcript.md",
+        "lineStart": 268,
+        "lineEnd": 268
+      },
+      "themes": ["interviewing", "customer-research", "methodology"],
+      "zones": ["intuition", "discovery"],
+      "context": "Unconventional advice against structured interview guides in favor of following meaningful threads",
+      "verified": true
+    },
+    {
+      "id": "bob-moesta-q009",
+      "speaker": "Bob Moesta",
+      "text": "So the phrase I have 'Bitchin' ain't switchin'.' Just because people bitch about something doesn't mean they're going to do anything about it. This is where at Basecamp, we learned the fact that everybody said, 'Oh, if you had Gantt charts, I'm going to leave you if you don't put Gantt charts in,' and as much as they all say they want it, they're not leaving because of it.",
+      "timestamp": "00:36:43",
+      "source": {
+        "slug": "bob-moesta",
+        "path": "episodes/bob-moesta/transcript.md",
+        "lineStart": 304,
+        "lineEnd": 304
+      },
+      "themes": ["customer-feedback", "feature-requests", "churn"],
+      "zones": ["focus", "data"],
+      "context": "Warning against building features based on complaints alone - action matters more than words",
+      "verified": true
+    },
+    {
+      "id": "bob-moesta-q010",
+      "speaker": "Bob Moesta",
+      "text": "Most A students don't start until they know the answer, most D students start because they don't know the answer. And so you start to realize we're wired very differently to do that. And so I always say that the A students have a disadvantage against the D students in entrepreneurship because we just go start and we learn.",
+      "timestamp": "00:45:16",
+      "source": {
+        "slug": "bob-moesta",
+        "path": "episodes/bob-moesta/transcript.md",
+        "lineStart": 382,
+        "lineEnd": 382
+      },
+      "themes": ["entrepreneurship", "learning", "action"],
+      "zones": ["chaos", "velocity"],
+      "context": "Bob sharing how his dyslexia became a gift - acting without perfect knowledge is an entrepreneurial advantage",
+      "verified": true
+    },
+    {
+      "id": "bob-moesta-q011",
+      "speaker": "Bob Moesta",
+      "text": "Most people are studying the momentum of where people are and what's the momentum of their direction, but the reality is what we're trying to do is study what causes people to change their direction. And that's where innovation happens. Innovation happens when people change.",
+      "timestamp": "00:55:37",
+      "source": {
+        "slug": "bob-moesta",
+        "path": "episodes/bob-moesta/transcript.md",
+        "lineStart": 463,
+        "lineEnd": 463
+      },
+      "themes": ["innovation", "behavior-change", "methodology"],
+      "zones": ["discovery", "chaos"],
+      "context": "The fundamental insight that innovation comes from studying behavioral change, not status quo momentum",
+      "verified": true
+    },
+    {
+      "id": "bob-moesta-q012",
+      "speaker": "Bob Moesta",
+      "text": "And so it turns out that the dining table was the emotional bank account for their entire life. And so if you weren't going to take it or your sister wasn't going to take it, the reality is they weren't going to give it to Goodwill. People would literally stay where they are until they knew where the dining table's going to go.",
+      "timestamp": "01:03:50",
+      "source": {
+        "slug": "bob-moesta",
+        "path": "episodes/bob-moesta/transcript.md",
+        "lineStart": 553,
+        "lineEnd": 553
+      },
+      "themes": ["emotional-jobs", "housing", "behavioral-insights"],
+      "zones": ["intuition", "discovery"],
+      "context": "The famous dining table story showing how irrational emotional factors block purchase decisions",
+      "verified": true
+    }
+  ],
+  "themes": ["jobs-to-be-done", "customer-research", "demand-side-thinking", "struggling-moments", "behavioral-change", "interviewing", "trade-offs", "innovation"],
+  "takeaways": [
+    "Struggling moments cause demand, not products - study the context that makes people ready to change, not just pain points or features.",
+    "Jobs to Be Done reveals true competition from the demand side - Snickers competes with protein shakes and coffee, not Milky Way, because the job is 'meal replacement when hungry.'",
+    "Reduce friction instead of adding features - anxiety from new features and habit of the present are forces that prevent switching, often more powerful than your product's pull.",
+    "Don't trust what customers say they'll do, study what they actually did - 93% said they wanted Energy Star homes, but everyone bought the finished basement instead.",
+    "'Bitchin' ain't switchin'' - customer complaints and feature requests don't predict behavior; only interview people who have already made a change to understand causation."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.30,
+    "data": 0.20,
+    "intuition": 0.20,
+    "alignment": 0.05,
+    "chaos": 0.05,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "bob-moesta-q008",
+      "why": "Advises against structured discussion guides for customer interviews - contradicts conventional UX research methodology",
+      "related_zones": ["intuition", "discovery"]
+    },
+    {
+      "quoteId": "bob-moesta-q009",
+      "why": "'Bitchin' ain't switchin'' challenges the customer-centric idea that you should build what customers ask for",
+      "related_zones": ["focus", "data"]
+    },
+    {
+      "quoteId": "bob-moesta-q010",
+      "why": "A students have disadvantage vs D students in entrepreneurship - contrarian view on education and action",
+      "related_zones": ["chaos", "velocity"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "thought-leader",
+    "company_stage": "consulting",
+    "primary_topics": ["jobs-to-be-done", "customer-research", "product-strategy", "innovation-methodology"]
+  }
+}

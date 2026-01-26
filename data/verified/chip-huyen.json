@@ -1,0 +1,225 @@
+{
+  "slug": "chip-huyen",
+  "guest": "Chip Huyen",
+  "episode_title": "AI Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
+  "verification_date": "2026-01-26",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "chip-huyen-q001",
+      "speaker": "Chip Huyen",
+      "text": "If you adopted a new technology, how hard it could be to switch that out to another? And sometimes they will like, 'Oh, I think it could be a lot of work switching it out.' And I'm just like, 'Hmm, let's say here's a new technology. It hasn't been tested by a lot of people, and if you would adopt it, you would be stuck with it forever. Do you actually want to adopt it?' Maybe you want to think twice about over commit to new technologies that hasn't been better tested.",
+      "timestamp": "00:06:10",
+      "source": {
+        "slug": "chip-huyen",
+        "path": "episodes/chip-huyen/transcript.md",
+        "lineStart": 76,
+        "lineEnd": 76
+      },
+      "themes": ["engineering", "technology", "decision-making"],
+      "zones": ["data", "focus"],
+      "context": "Chip advises against rushing to adopt new technologies without considering switching costs and maturity",
+      "verified": true
+    },
+    {
+      "id": "chip-huyen-q002",
+      "speaker": "Chip Huyen",
+      "text": "Everyone have very similar pre-training data, is that post-training is where they make a big difference nowadays. Because pre-training, I think... So pre-training have been used to increase the general capacity of capabilities of a model. And it needs a lot of data and model size to increase the model capabilities. And at some point, we are actually have kind of maxed out on the internet data.",
+      "timestamp": "00:15:21",
+      "source": {
+        "slug": "chip-huyen",
+        "path": "episodes/chip-huyen/transcript.md",
+        "lineStart": 127,
+        "lineEnd": 127
+      },
+      "themes": ["ai-engineering", "models", "differentiation"],
+      "zones": ["data", "discovery"],
+      "context": "Chip explains why frontier AI labs now focus on post-training for competitive differentiation",
+      "verified": true
+    },
+    {
+      "id": "chip-huyen-q003",
+      "speaker": "Chip Huyen",
+      "text": "If you ask me, okay, give this song a score, I'm not a musician and don't know how hard it is. It's like yeah, I don't know what, out of 10 I going to remove six. And if you ask me again a month from now and I completely forgotten, okay, maybe now seven, only four, I don't know. But then if you ask me, okay, here are two songs and which one would you prefer to play for the birthday party? I was like, 'Okay, I can prefer this song.' So comparisons a lot easier.",
+      "timestamp": "00:16:53",
+      "source": {
+        "slug": "chip-huyen",
+        "path": "episodes/chip-huyen/transcript.md",
+        "lineStart": 136,
+        "lineEnd": 136
+      },
+      "themes": ["ai-engineering", "evaluation", "human-feedback"],
+      "zones": ["data", "intuition"],
+      "context": "Chip explains why RLHF uses pairwise comparisons rather than absolute scores - humans are better at relative judgments",
+      "verified": true
+    },
+    {
+      "id": "chip-huyen-q004",
+      "speaker": "Chip Huyen",
+      "text": "You don't have to be absolutely perfect, I think, to win. You just need to be good enough and being consistent about it. Okay, this is not a philosophy I follow, but I have worked with enough companies to see that play out.",
+      "timestamp": "00:24:39",
+      "source": {
+        "slug": "chip-huyen",
+        "path": "episodes/chip-huyen/transcript.md",
+        "lineStart": 187,
+        "lineEnd": 187
+      },
+      "themes": ["strategy", "pragmatism", "product"],
+      "zones": ["velocity", "perfection"],
+      "context": "Chip shares a pragmatic observation about winning in AI products - consistency often beats perfection",
+      "verified": true
+    },
+    {
+      "id": "chip-huyen-q005",
+      "speaker": "Chip Huyen",
+      "text": "I do think eval is very, very important if you have, if you operate at scale and where failures can have catastrophic consequences. Then you do need to be very tyrannical about what you put in front of the users, understand different failure modes, what could go wrong.",
+      "timestamp": "00:26:38",
+      "source": {
+        "slug": "chip-huyen",
+        "path": "episodes/chip-huyen/transcript.md",
+        "lineStart": 196,
+        "lineEnd": 199
+      },
+      "themes": ["evaluation", "quality", "risk"],
+      "zones": ["data", "perfection"],
+      "context": "Chip explains when rigorous evals become essential - at scale with high-stakes failures",
+      "verified": true
+    },
+    {
+      "id": "chip-huyen-q006",
+      "speaker": "Chip Huyen",
+      "text": "In a lot of the companies that I have seen, that's the biggest performance, in their RAG solutions coming from better data preparations, not agonizing over what vector databases to use because vector database, of course is very important to care about things like latency or if you have very specific access patterns like read-heavy or write-heavy, of course, it's like it matters. But in term of pure quality answers, I think the data preparation is just key.",
+      "timestamp": "00:34:51",
+      "source": {
+        "slug": "chip-huyen",
+        "path": "episodes/chip-huyen/transcript.md",
+        "lineStart": 238,
+        "lineEnd": 238
+      },
+      "themes": ["ai-engineering", "rag", "data"],
+      "zones": ["data", "perfection"],
+      "context": "Chip emphasizes that RAG quality comes from data preparation, not infrastructure choices",
+      "verified": true
+    },
+    {
+      "id": "chip-huyen-q007",
+      "speaker": "Chip Huyen",
+      "text": "I do have this theory of a lot of applications companies pursue because they can't measure the concrete outcome. And I feel like booking or a sales chatbot, it's very clear. There was a conversion rate right now with that chatbot with human operators and what could be conversion rate with a chatbot and certain, somehow I think it's very clear outcomes and companies are easier to buy into these solutions.",
+      "timestamp": "00:41:20",
+      "source": {
+        "slug": "chip-huyen",
+        "path": "episodes/chip-huyen/transcript.md",
+        "lineStart": 262,
+        "lineEnd": 262
+      },
+      "themes": ["ai-strategy", "metrics", "product"],
+      "zones": ["data", "velocity"],
+      "context": "Chip observes that AI applications with clear, measurable outcomes get adopted faster",
+      "verified": true
+    },
+    {
+      "id": "chip-huyen-q008",
+      "speaker": "Chip Huyen",
+      "text": "It's really hard to measure productivity. So I do ask people to ask their managers, 'Would you rather give everyone on the team very expensive coding agent subscriptions or you get an extra head count?' Almost everyone, the managers will say head count. But if you ask VP level or someone who manage a lot of teams, they would say, 'Want AI assistant.' Because as managers, you are still growing, so for you having one HR head count is big. Whereas for executives, maybe you have more business metrics that you care about.",
+      "timestamp": "00:44:28",
+      "source": {
+        "slug": "chip-huyen",
+        "path": "episodes/chip-huyen/transcript.md",
+        "lineStart": 274,
+        "lineEnd": 277
+      },
+      "themes": ["productivity", "ai-tools", "management"],
+      "zones": ["data", "alignment"],
+      "context": "Chip reveals how different levels of management perceive AI tools versus headcount differently",
+      "verified": true
+    },
+    {
+      "id": "chip-huyen-q009",
+      "speaker": "Chip Huyen",
+      "text": "The group that get the biggest performance boost, in his opinion, he was very close to his team. The biggest performance boost was the senior engineer, the highest performing. So the highest performing engineer get the biggest boost out of it. And then the second group is the average performing. So his opinion is like, okay, the highest performing engineers is also normal practice. They also know how to solve problems. So they have some solved problem better.",
+      "timestamp": "00:46:41",
+      "source": {
+        "slug": "chip-huyen",
+        "path": "episodes/chip-huyen/transcript.md",
+        "lineStart": 280,
+        "lineEnd": 283
+      },
+      "themes": ["productivity", "ai-tools", "engineering"],
+      "zones": ["velocity", "data"],
+      "context": "Chip shares a company's randomized trial showing high-performing engineers gained most from AI coding tools",
+      "verified": true
+    },
+    {
+      "id": "chip-huyen-q010",
+      "speaker": "Chip Huyen",
+      "text": "Preparing for the future once they only need a very small group of very, very strong engineers to create processes and reviewing code to get into production but get AI or junior engineers to produce code. But then the question becomes just like, how does one become a very strong senior engineer.",
+      "timestamp": "00:50:54",
+      "source": {
+        "slug": "chip-huyen",
+        "path": "episodes/chip-huyen/transcript.md",
+        "lineStart": 358,
+        "lineEnd": 358
+      },
+      "themes": ["ai-impact", "engineering", "org-design"],
+      "zones": ["alignment", "discovery"],
+      "context": "Chip raises the paradox of AI-era engineering: senior engineers review AI-generated code, but how do juniors become seniors?",
+      "verified": true
+    },
+    {
+      "id": "chip-huyen-q011",
+      "speaker": "Chip Huyen",
+      "text": "Coding is just a means to an end. CS is about system thinking, using coding to solve actual problem and problem solving will never go away because what AI can automate more stuff. The problem is just get bigger. But as a process of understanding what caused the issue and how to design step-by-step solution to it, will always be there.",
+      "timestamp": "00:52:27",
+      "source": {
+        "slug": "chip-huyen",
+        "path": "episodes/chip-huyen/transcript.md",
+        "lineStart": 370,
+        "lineEnd": 373
+      },
+      "themes": ["engineering", "system-thinking", "ai-impact"],
+      "zones": ["discovery", "focus"],
+      "context": "Chip quotes Stanford professor Mehran Sahami on why CS education remains valuable - it's about problem-solving, not syntax",
+      "verified": true
+    }
+  ],
+  "themes": ["ai-engineering", "productivity", "evaluation", "system-thinking", "data-preparation", "org-design", "ai-tools", "pragmatism"],
+  "takeaways": [
+    "Post-training is where AI labs now differentiate - pre-training data has largely maxed out, so the competitive advantage comes from how models are fine-tuned and aligned after initial training.",
+    "Data preparation matters more than infrastructure choices for RAG - companies see the biggest quality gains from how they chunk, annotate, and structure their data, not from which vector database they use.",
+    "Measuring AI productivity is genuinely hard - managers prefer headcount while executives prefer AI tools, revealing that incentives and metrics differ by organizational level.",
+    "High-performing engineers benefit most from AI coding tools - a randomized trial showed top performers gained the biggest productivity boost, likely because they already have strong problem-solving foundations.",
+    "System thinking will outlast coding skills - as AI automates more discrete tasks, the ability to understand how components interact and debug holistically becomes the irreplaceable human skill."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.15,
+    "discovery": 0.20,
+    "data": 0.30,
+    "intuition": 0.05,
+    "alignment": 0.10,
+    "chaos": 0.00,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "chip-huyen-q004",
+      "why": "Challenges perfectionism - 'good enough and consistent' beats perfect, which contradicts quality-obsessed product cultures",
+      "related_zones": ["velocity", "perfection"]
+    },
+    {
+      "quoteId": "chip-huyen-q008",
+      "why": "Reveals hidden incentive misalignment - managers want headcount for empire-building while executives want efficiency, exposing organizational politics",
+      "related_zones": ["data", "alignment"]
+    },
+    {
+      "quoteId": "chip-huyen-q010",
+      "why": "Raises uncomfortable question about AI-era engineering - if seniors review and juniors produce with AI, how do juniors ever become seniors?",
+      "related_zones": ["alignment", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "expert",
+    "company_stage": "multiple",
+    "primary_topics": ["ai-engineering", "machine-learning", "productivity", "org-design"]
+  }
+}

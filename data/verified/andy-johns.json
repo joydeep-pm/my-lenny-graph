@@ -1,0 +1,225 @@
+{
+  "slug": "andy-johns",
+  "guest": "Andy Johns",
+  "episode_title": "When enough is enough | Andy Johns (ex-FB, Twitter, Quora)",
+  "verification_date": "2026-01-26",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "andy-johns-q001",
+      "speaker": "Andy Johns",
+      "text": "I was so focused on my work that I had slowly become the frog that was boiling in the pot, the typical analogy of you don't realize how bad things are getting because it's happening to you slowly until it happens quickly.",
+      "timestamp": "00:09:38",
+      "source": {
+        "slug": "andy-johns",
+        "path": "episodes/andy-johns/transcript.md",
+        "lineStart": 99,
+        "lineEnd": 99
+      },
+      "themes": ["burnout", "self-awareness", "work-life-balance"],
+      "zones": ["chaos", "intuition"],
+      "context": "Andy describes how burnout crept up on him gradually during his tech career, using the classic frog in boiling water metaphor to explain why high achievers often don't notice deteriorating mental health.",
+      "verified": true
+    },
+    {
+      "id": "andy-johns-q002",
+      "speaker": "Andy Johns",
+      "text": "I learned very early on that if I wanted to feel good, I needed to achieve, and that if I wanted to love myself and be considered lovable by others, I needed to achieve.",
+      "timestamp": "00:11:44",
+      "source": {
+        "slug": "andy-johns",
+        "path": "episodes/andy-johns/transcript.md",
+        "lineStart": 110,
+        "lineEnd": 112
+      },
+      "themes": ["achievement-addiction", "self-worth", "childhood"],
+      "zones": ["velocity", "chaos"],
+      "context": "Andy traces his drive for achievement back to losing his mother at age 10, explaining how achievement became his coping mechanism and source of self-worth.",
+      "verified": true
+    },
+    {
+      "id": "andy-johns-q003",
+      "speaker": "Andy Johns",
+      "text": "I'd say that it's a fair estimate to say that at least 50% to 60% of tech employees who have been in the saddle, so to speak, for a minimum of five to seven years, they're experiencing some form of psychological and emotional distress.",
+      "timestamp": "00:13:48",
+      "source": {
+        "slug": "andy-johns",
+        "path": "episodes/andy-johns/transcript.md",
+        "lineStart": 122,
+        "lineEnd": 124
+      },
+      "themes": ["mental-health", "tech-industry", "burnout"],
+      "zones": ["chaos", "data"],
+      "context": "Based on surveys and research, Andy shares the prevalence of psychological distress among tech workers, noting it may be more significant than people realize.",
+      "verified": true
+    },
+    {
+      "id": "andy-johns-q004",
+      "speaker": "Andy Johns",
+      "text": "These adaptations, if you're unaware of them and if you're unaware of the subconscious drivers that are responsible for them, they run the risk that they go too far, and that these adaptations, which were initially beneficial to you and to your life, they reverse course in a sense, and they become detrimental to your present state and your future development.",
+      "timestamp": "00:19:14",
+      "source": {
+        "slug": "andy-johns",
+        "path": "episodes/andy-johns/transcript.md",
+        "lineStart": 146,
+        "lineEnd": 148
+      },
+      "themes": ["self-awareness", "adaptation", "personal-growth"],
+      "zones": ["intuition", "chaos", "discovery"],
+      "context": "Andy explains how survival mechanisms that served us well earlier in life can become harmful if we remain unaware of their subconscious influence.",
+      "verified": true
+    },
+    {
+      "id": "andy-johns-q005",
+      "speaker": "Andy Johns",
+      "text": "These large transitions in life rarely take place in the absence of suffering. So step number one is suffer. Usually, the deeper somebody suffers, the more significant the transition that may follow.",
+      "timestamp": "00:24:52",
+      "source": {
+        "slug": "andy-johns",
+        "path": "episodes/andy-johns/transcript.md",
+        "lineStart": 176,
+        "lineEnd": 178
+      },
+      "themes": ["transformation", "suffering", "change"],
+      "zones": ["chaos", "discovery"],
+      "context": "Andy outlines his four-step framework for deep personal transformation, beginning with the necessary role of suffering in catalyzing meaningful change.",
+      "verified": true
+    },
+    {
+      "id": "andy-johns-q006",
+      "speaker": "Andy Johns",
+      "text": "I now understand what some philosophers described as death before dying. In this process of change that I've been going through, it's been the death of the old me, the death of Andy whose identity was entirely attached to succeeding, and that old Andy doesn't want to let go.",
+      "timestamp": "00:32:46",
+      "source": {
+        "slug": "andy-johns",
+        "path": "episodes/andy-johns/transcript.md",
+        "lineStart": 204,
+        "lineEnd": 207
+      },
+      "themes": ["identity", "transformation", "ego"],
+      "zones": ["chaos", "discovery", "intuition"],
+      "context": "Andy describes the psychological experience of letting go of a decades-old identity built around achievement and success.",
+      "verified": true
+    },
+    {
+      "id": "andy-johns-q007",
+      "speaker": "Andy Johns",
+      "text": "There is necessary suffering in life or the mandatory suffering, and then there's the unnecessary suffering, which is the suffering that is almost entirely, and I think the argument could be made that it's entirely made up in our minds.",
+      "timestamp": "00:34:29",
+      "source": {
+        "slug": "andy-johns",
+        "path": "episodes/andy-johns/transcript.md",
+        "lineStart": 213,
+        "lineEnd": 217
+      },
+      "themes": ["suffering", "mindset", "mental-health"],
+      "zones": ["intuition", "chaos"],
+      "context": "Drawing from Eastern philosophy, Andy distinguishes between unavoidable life hardships and the self-created suffering that comes from our mental interpretations.",
+      "verified": true
+    },
+    {
+      "id": "andy-johns-q008",
+      "speaker": "Andy Johns",
+      "text": "Once that dog can make it into the arms of an owner that it feels safe with and loved by, that's when you see the dog transform and change, and that's when you can teach it a lot because it's open and receptive to it.",
+      "timestamp": "00:40:21",
+      "source": {
+        "slug": "andy-johns",
+        "path": "episodes/andy-johns/transcript.md",
+        "lineStart": 243,
+        "lineEnd": 244
+      },
+      "themes": ["safety", "healing", "therapy"],
+      "zones": ["alignment", "intuition"],
+      "context": "Using the analogy of adopting a traumatized dog from a shelter, Andy explains why feeling safe is the prerequisite for genuine healing and transformation.",
+      "verified": true
+    },
+    {
+      "id": "andy-johns-q009",
+      "speaker": "Andy Johns",
+      "text": "If your sleep always sucks, if your relationships are constantly strained or frequently strained, if your physical health is failing, there's so many ways that that can be measured so there's really no excuse for that to say, 'Oh, I just didn't know.'",
+      "timestamp": "00:48:49",
+      "source": {
+        "slug": "andy-johns",
+        "path": "episodes/andy-johns/transcript.md",
+        "lineStart": 290,
+        "lineEnd": 292
+      },
+      "themes": ["self-awareness", "health", "warning-signs"],
+      "zones": ["intuition", "data"],
+      "context": "Andy identifies the physical and relational warning signs that indicate deeper psychological distress, emphasizing that the body keeps score of our mental health.",
+      "verified": true
+    },
+    {
+      "id": "andy-johns-q010",
+      "speaker": "Andy Johns",
+      "text": "So we lose who we were before the world told us who to be. It's actually a Carl Jung quote, 'The world will ask you who you are, and if you don't know, it'll tell you.'",
+      "timestamp": "01:10:42",
+      "source": {
+        "slug": "andy-johns",
+        "path": "episodes/andy-johns/transcript.md",
+        "lineStart": 389,
+        "lineEnd": 391
+      },
+      "themes": ["identity", "authenticity", "society"],
+      "zones": ["discovery", "alignment"],
+      "context": "Andy explores how social conditioning causes people to lose touch with their authentic selves, citing Carl Jung on the tension between individuality and conformity.",
+      "verified": true
+    },
+    {
+      "id": "andy-johns-q011",
+      "speaker": "Andy Johns",
+      "text": "The vast majority of people who die on Mount Everest actually die on the way down, not on the way up. You don't save anything for the return home, I think is the point.",
+      "timestamp": "01:20:13",
+      "source": {
+        "slug": "andy-johns",
+        "path": "episodes/andy-johns/transcript.md",
+        "lineStart": 429,
+        "lineEnd": 432
+      },
+      "themes": ["sustainability", "burnout", "achievement"],
+      "zones": ["chaos", "focus"],
+      "context": "Andy uses the Everest metaphor to challenge the relentless pursuit of career peaks, suggesting that treating life as a mountain to climb leaves nothing for the descent.",
+      "verified": true
+    }
+  ],
+  "themes": ["burnout", "mental-health", "personal-transformation", "self-awareness", "achievement-addiction", "identity", "healing", "authenticity"],
+  "takeaways": [
+    "Burnout often creeps up gradually like a frog in boiling water - by the time you notice the severity, significant damage may already be done to your mental and physical health.",
+    "Achievement addiction commonly stems from early life experiences where accomplishment became tied to self-worth and feeling loved, creating unsustainable patterns that eventually break down.",
+    "Deep personal transformation follows four steps: suffering, seeking truth about why you suffer, developing self-compassion when you realize it's not your fault, and extending that compassion to others.",
+    "The body keeps score of psychological distress through disrupted sleep, strained relationships, and physical health problems - these are warning signs demanding attention, not inconveniences to push through.",
+    "Rather than climbing mountains seeking fulfillment at the peak, consider floating downstream - surrendering control and letting life's current guide you may lead to unexpected places you were meant for."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.00,
+    "discovery": 0.20,
+    "data": 0.05,
+    "intuition": 0.30,
+    "alignment": 0.15,
+    "chaos": 0.25,
+    "focus": 0.00
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "andy-johns-q005",
+      "why": "Argues suffering is the necessary first step for transformation - challenges self-help narratives of optimization without pain",
+      "related_zones": ["chaos", "discovery"]
+    },
+    {
+      "quoteId": "andy-johns-q011",
+      "why": "Challenges the mountain-climbing metaphor for life and career success - most climbers die on descent, suggesting peak-chasing leaves nothing for what follows",
+      "related_zones": ["chaos", "focus"]
+    },
+    {
+      "quoteId": "andy-johns-q002",
+      "why": "Exposes achievement as an addiction formed in childhood rather than a healthy drive - challenges the glorification of high performance culture",
+      "related_zones": ["velocity", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "multiple",
+    "primary_topics": ["mental-health", "burnout", "personal-transformation", "career-change", "self-awareness"]
+  }
+}

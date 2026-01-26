@@ -1,0 +1,225 @@
+{
+  "slug": "fareed-mosavat",
+  "guest": "Fareed Mosavat",
+  "episode_title": "How to build trust and grow as a product leader | Fareed Mosavat (Reforge, Slack, Instacart, Pixar)",
+  "verification_date": "2026-01-26",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "fareed-mosavat-q001",
+      "speaker": "Fareed Mosavat",
+      "text": "What I learned there is that actually, you're trying to deliver an end experience, and product, and story to your viewers, to your audience. It doesn't actually matter what's real. It matters what you see on the screen. It matters the emotion that it creates, the story that it creates, how it reinforces all of the other pieces.",
+      "timestamp": "00:07:28",
+      "source": {
+        "slug": "fareed-mosavat",
+        "path": "episodes/fareed-mosavat/transcript.md",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "themes": ["product-craft", "user-experience", "storytelling"],
+      "zones": ["perfection", "intuition"],
+      "context": "Discussing what he learned at Pixar about focusing on end results rather than technical accuracy",
+      "verified": true
+    },
+    {
+      "id": "fareed-mosavat-q002",
+      "speaker": "Fareed Mosavat",
+      "text": "You can't do homework, you can't do exercises, you can't do fake stuff. You have to work on real products at real companies with real customers, with real data to get better at product management. So any kind of training, mentorship, reading, et cetera that you do is just a layer on top of that. The real acceleration happens from doing it and getting more reps.",
+      "timestamp": "00:17:25",
+      "source": {
+        "slug": "fareed-mosavat",
+        "path": "episodes/fareed-mosavat/transcript.md",
+        "lineStart": 211,
+        "lineEnd": 211
+      },
+      "themes": ["career-growth", "learning", "execution"],
+      "zones": ["velocity", "discovery"],
+      "context": "Explaining why PM skills can only be developed through real-world experience, not simulations",
+      "verified": true
+    },
+    {
+      "id": "fareed-mosavat-q003",
+      "speaker": "Fareed Mosavat",
+      "text": "What are the problems you give a junior or brand new PM? Known problem, known solution. 'Please work with engineering and design to deliver that thing on time, and then tell us what happened.' So it's like a very tightly constrained problem. As you level up, then some of these things become more unknowns.",
+      "timestamp": "00:19:06",
+      "source": {
+        "slug": "fareed-mosavat",
+        "path": "episodes/fareed-mosavat/transcript.md",
+        "lineStart": 226,
+        "lineEnd": 226
+      },
+      "themes": ["career-growth", "leveling", "scope"],
+      "zones": ["velocity", "discovery"],
+      "context": "Describing how PM responsibilities evolve from known-known problems to unknown-unknown problems",
+      "verified": true
+    },
+    {
+      "id": "fareed-mosavat-q004",
+      "speaker": "Fareed Mosavat",
+      "text": "For products that had a high bar to activation, sometimes more set up and higher friction, good friction could actually help those customers be successful. There are other kinds of products that are high-intent where they know what they need to do to have simple actions where lowering friction might be the right thing.",
+      "timestamp": "00:20:59",
+      "source": {
+        "slug": "fareed-mosavat",
+        "path": "episodes/fareed-mosavat/transcript.md",
+        "lineStart": 238,
+        "lineEnd": 238
+      },
+      "themes": ["activation", "friction", "onboarding", "growth"],
+      "zones": ["data", "discovery"],
+      "context": "Sharing a counterintuitive insight from Instacart about when higher friction in onboarding can improve outcomes",
+      "verified": true
+    },
+    {
+      "id": "fareed-mosavat-q005",
+      "speaker": "Fareed Mosavat",
+      "text": "You can't just do the work. You have to actually communicate the work. You have to talk about what you're doing, what you've generalized, what you've learned so that you can hit the next step, which is scale your opportunities.",
+      "timestamp": "00:21:42",
+      "source": {
+        "slug": "fareed-mosavat",
+        "path": "episodes/fareed-mosavat/transcript.md",
+        "lineStart": 241,
+        "lineEnd": 241
+      },
+      "themes": ["communication", "career-growth", "visibility"],
+      "zones": ["alignment", "velocity"],
+      "context": "Explaining the importance of communication in the PM learning loop for career advancement",
+      "verified": true
+    },
+    {
+      "id": "fareed-mosavat-q006",
+      "speaker": "Fareed Mosavat",
+      "text": "You got to be doing this stuff, but often, somebody needs to see it. The scale opportunity piece of the step often requires someone from outside to notice that you're doing something really well and trust you with a bigger opportunity. I think of this as sponsorship, not mentorship.",
+      "timestamp": "00:24:33",
+      "source": {
+        "slug": "fareed-mosavat",
+        "path": "episodes/fareed-mosavat/transcript.md",
+        "lineStart": 277,
+        "lineEnd": 277
+      },
+      "themes": ["sponsorship", "career-growth", "trust"],
+      "zones": ["alignment", "discovery"],
+      "context": "Distinguishing between mentorship (day-to-day guidance) and sponsorship (trusting you with bigger opportunities)",
+      "verified": true
+    },
+    {
+      "id": "fareed-mosavat-q007",
+      "speaker": "Fareed Mosavat",
+      "text": "I call this going two stack levels up, two stack levels down in terms of your curiosity and what you understand, and also, knowing what's to the left and what's to the right. You should understand your boss's priorities and your boss's boss's priorities. Eventually, that means you have to know what the board is thinking.",
+      "timestamp": "00:28:22",
+      "source": {
+        "slug": "fareed-mosavat",
+        "path": "episodes/fareed-mosavat/transcript.md",
+        "lineStart": 313,
+        "lineEnd": 316
+      },
+      "themes": ["curiosity", "strategic-thinking", "organizational-awareness"],
+      "zones": ["alignment", "discovery"],
+      "context": "Framework for how PMs should understand context both above and below their role",
+      "verified": true
+    },
+    {
+      "id": "fareed-mosavat-q008",
+      "speaker": "Fareed Mosavat",
+      "text": "I always think of it as trying to build a mental model of how the company works, and what's important to it, and what's the equation, so to speak, or what are all the boxes, and then figure out like, 'How is my work creating leverage in that?' I find that when you are thinking at that level, people tend to trust you.",
+      "timestamp": "00:31:00",
+      "source": {
+        "slug": "fareed-mosavat",
+        "path": "episodes/fareed-mosavat/transcript.md",
+        "lineStart": 331,
+        "lineEnd": 331
+      },
+      "themes": ["strategic-thinking", "trust", "leverage"],
+      "zones": ["alignment", "data"],
+      "context": "Explaining how building a mental model of company mechanics creates trust from leadership",
+      "verified": true
+    },
+    {
+      "id": "fareed-mosavat-q009",
+      "speaker": "Fareed Mosavat",
+      "text": "You have to shift from doer to editor is the way I think about it. You have to shift from, 'My job is to do the work,' to, 'My job is to make the work better. My job is to plus the work, to review the work, to help other people solve problems.'",
+      "timestamp": "00:37:24",
+      "source": {
+        "slug": "fareed-mosavat",
+        "path": "episodes/fareed-mosavat/transcript.md",
+        "lineStart": 382,
+        "lineEnd": 382
+      },
+      "themes": ["leadership", "management", "delegation"],
+      "zones": ["alignment", "focus"],
+      "context": "Key mindset shift required when transitioning from IC to manager role",
+      "verified": true
+    },
+    {
+      "id": "fareed-mosavat-q010",
+      "speaker": "Fareed Mosavat",
+      "text": "I actually think of it as start thinking in terms of being lazy, 'What's the least amount of work I could do to make this thing as good as possible?' versus, 'How do I do as much work as possible to make sure it's great?' So it's like looking in terms of ROI.",
+      "timestamp": "00:38:24",
+      "source": {
+        "slug": "fareed-mosavat",
+        "path": "episodes/fareed-mosavat/transcript.md",
+        "lineStart": 387,
+        "lineEnd": 387
+      },
+      "themes": ["leadership", "leverage", "efficiency"],
+      "zones": ["focus", "velocity"],
+      "context": "Counterintuitive advice for new managers to maximize impact through minimal intervention",
+      "verified": true
+    },
+    {
+      "id": "fareed-mosavat-q011",
+      "speaker": "Fareed Mosavat",
+      "text": "As a leader, you now own the business outcome, the impact, the delivery, not some sub-problem or known answer. You have to define the solutions. You have to talk about how many people you need to do them, and you need to figure out what do you need from the rest of the organization to do that.",
+      "timestamp": "00:46:49",
+      "source": {
+        "slug": "fareed-mosavat",
+        "path": "episodes/fareed-mosavat/transcript.md",
+        "lineStart": 454,
+        "lineEnd": 454
+      },
+      "themes": ["leadership", "ownership", "resources"],
+      "zones": ["alignment", "focus"],
+      "context": "Describing the fundamental shift in responsibility when becoming a product leader",
+      "verified": true
+    }
+  ],
+  "themes": ["career-growth", "leadership", "management", "sponsorship", "execution", "learning-loops", "activation", "strategic-thinking"],
+  "takeaways": [
+    "PM skills can only be developed through real execution - you cannot simulate your way to product management expertise. Training and reading are layers on top of actually shipping products with real customers.",
+    "Career advancement requires sponsorship, not just mentorship. Someone with authority must trust you with bigger opportunities, which means your excellent work must be visible to decision-makers.",
+    "The 'two stack levels up, two stack levels down' framework helps PMs build organizational awareness - understand your boss's boss's priorities and the technical details below you to build trust.",
+    "Transitioning from IC to manager requires shifting from 'doer' to 'editor' - your job becomes making others' work better rather than doing all the important work yourself.",
+    "Leaders own business outcomes, not tasks. This means defining solutions, requesting appropriate resources, and marshaling cross-functional support rather than accepting constraints passively."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.10,
+    "discovery": 0.15,
+    "data": 0.10,
+    "intuition": 0.05,
+    "alignment": 0.30,
+    "chaos": 0.00,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "fareed-mosavat-q004",
+      "why": "Challenges the common 'reduce friction' advice - sometimes higher friction in onboarding leads to better activation outcomes",
+      "related_zones": ["data", "discovery"]
+    },
+    {
+      "quoteId": "fareed-mosavat-q010",
+      "why": "Advises managers to 'think in terms of being lazy' - counterintuitive to hustle culture expectations of leadership",
+      "related_zones": ["focus", "velocity"]
+    },
+    {
+      "quoteId": "fareed-mosavat-q006",
+      "why": "Prioritizes sponsorship over mentorship - challenges the typical career advice to find a mentor",
+      "related_zones": ["alignment", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["career-development", "pm-leadership", "growth", "activation", "management-transition"]
+  }
+}

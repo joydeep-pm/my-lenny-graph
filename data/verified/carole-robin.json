@@ -1,0 +1,225 @@
+{
+  "slug": "carole-robin",
+  "guest": "Carole Robin",
+  "episode_title": "How to build deeper, more robust relationships | Carole Robin (Stanford professor, \"Touchy Feely\")",
+  "verification_date": "2026-01-26",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "carole-robin-q001",
+      "speaker": "Carole Robin",
+      "text": "People do business with people not ideas, not products, not machines, not tactics, strategies, not even money, they do business with people. So you better get the people part right if you really want to succeed. And that interpersonal competence is a determinant of both personal and professional success.",
+      "timestamp": "00:08:23",
+      "source": {
+        "slug": "carole-robin",
+        "path": "episodes/carole-robin/transcript.md",
+        "lineStart": 112,
+        "lineEnd": 113
+      },
+      "themes": ["leadership", "interpersonal-skills", "relationships", "success"],
+      "zones": ["alignment", "intuition"],
+      "context": "Explaining why interpersonal dynamics is taught at Stanford Business School as part of the leadership curriculum",
+      "verified": true
+    },
+    {
+      "id": "carole-robin-q002",
+      "speaker": "Carole Robin",
+      "text": "If you want to build a sustainable long-term legacy, then you probably want to think about showing up in a way that other people come to see you as a referent figure, somebody in their life that they say, 'When I grow up, I want to be more like that.' And that is a form of power.",
+      "timestamp": "00:12:18",
+      "source": {
+        "slug": "carole-robin",
+        "path": "episodes/carole-robin/transcript.md",
+        "lineStart": 142,
+        "lineEnd": 142
+      },
+      "themes": ["leadership", "influence", "legacy", "role-modeling"],
+      "zones": ["alignment", "discovery"],
+      "context": "Discussing referent power and why people should follow leaders",
+      "verified": true
+    },
+    {
+      "id": "carole-robin-q003",
+      "speaker": "Carole Robin",
+      "text": "Step a little bit outside your comfort zone. If you step a little bit outside your comfort zone, you're very unlikely to freak yourself or the other person out. But you'll know, you'll feel it a little bit, you'll be like, okay, I feel just a little uncomfortable saying this, but I think I'm going to try.",
+      "timestamp": "00:23:53",
+      "source": {
+        "slug": "carole-robin",
+        "path": "episodes/carole-robin/transcript.md",
+        "lineStart": 207,
+        "lineEnd": 209
+      },
+      "themes": ["vulnerability", "growth", "disclosure", "comfort-zone"],
+      "zones": ["discovery", "chaos"],
+      "context": "Explaining the 15% rule for progressive disclosure and relationship building",
+      "verified": true
+    },
+    {
+      "id": "carole-robin-q004",
+      "speaker": "Carole Robin",
+      "text": "I can get up and say, probably no secret to most of you, that's the third month in a row we've lost share. And man, I wish I could stand up here and tell you I know exactly what's happening and I know exactly what we should do about it, but I don't, and I have never needed you all more. Now, who would you rather follow?",
+      "timestamp": "00:25:39",
+      "source": {
+        "slug": "carole-robin",
+        "path": "episodes/carole-robin/transcript.md",
+        "lineStart": 217,
+        "lineEnd": 220
+      },
+      "themes": ["vulnerability", "leadership", "authenticity", "trust"],
+      "zones": ["alignment", "chaos", "intuition"],
+      "context": "Contrasting appropriate vulnerability with inappropriate oversharing in leadership communication",
+      "verified": true
+    },
+    {
+      "id": "carole-robin-q005",
+      "speaker": "Carole Robin",
+      "text": "'Are you human after all?' And then I burst out crying and I tore up our agenda and I said, 'You don't think I'm human?' We spent the next two days talking about who we were, why we were there, what we wanted, what was important to us, how we could help each other. To this day, I believe that was the day I became a leader.",
+      "timestamp": "00:29:09",
+      "source": {
+        "slug": "carole-robin",
+        "path": "episodes/carole-robin/transcript.md",
+        "lineStart": 229,
+        "lineEnd": 232
+      },
+      "themes": ["vulnerability", "leadership", "authenticity", "transformation"],
+      "zones": ["discovery", "alignment", "intuition"],
+      "context": "Sharing a pivotal moment from her career when an employee's feedback transformed her leadership approach",
+      "verified": true
+    },
+    {
+      "id": "carole-robin-q006",
+      "speaker": "Carole Robin",
+      "text": "Anger is often a secondary emotion and often under anger is either fear or hurt. Anger is a distancing emotion, whereas hurt, fear, sadness, loneliness, happiness, joy are all connecting emotions. So those are kinds of things people learn when they come through our programs.",
+      "timestamp": "00:35:47",
+      "source": {
+        "slug": "carole-robin",
+        "path": "episodes/carole-robin/transcript.md",
+        "lineStart": 250,
+        "lineEnd": 251
+      },
+      "themes": ["emotions", "self-awareness", "anger", "connection"],
+      "zones": ["discovery", "intuition"],
+      "context": "Explaining why leaders who lead with anger push people away instead of connecting with them",
+      "verified": true
+    },
+    {
+      "id": "carole-robin-q007",
+      "speaker": "Carole Robin",
+      "text": "We've all been socialized not to be vulnerable, especially in business and naming any of those other things makes us feel vulnerable. So somehow being angry doesn't make us feel vulnerable. That's the okay emotion, as long as you express it in an appropriate way, but it's a distancing emotion.",
+      "timestamp": "00:36:06",
+      "source": {
+        "slug": "carole-robin",
+        "path": "episodes/carole-robin/transcript.md",
+        "lineStart": 256,
+        "lineEnd": 256
+      },
+      "themes": ["vulnerability", "emotions", "workplace-culture", "anger"],
+      "zones": ["alignment", "discovery"],
+      "context": "Explaining why professionals default to anger instead of more vulnerable but connecting emotions",
+      "verified": true
+    },
+    {
+      "id": "carole-robin-q008",
+      "speaker": "Carole Robin",
+      "text": "In any exchange between two people, there are three realities. There is my intent, how I see the world, my background, my history. There is what I do or say or don't do, verbal or nonverbal. And whatever happens on your end is reality number three, the impact of what I've said or done, how you see things, your background.",
+      "timestamp": "00:45:09",
+      "source": {
+        "slug": "carole-robin",
+        "path": "episodes/carole-robin/transcript.md",
+        "lineStart": 301,
+        "lineEnd": 304
+      },
+      "themes": ["communication", "feedback", "perspective", "relationships"],
+      "zones": ["discovery", "alignment"],
+      "context": "Introducing the three realities framework as the foundation for giving effective feedback",
+      "verified": true
+    },
+    {
+      "id": "carole-robin-q009",
+      "speaker": "Carole Robin",
+      "text": "The formula is when you do insert behavior, I feel - pull out the vocabulary of feelings - and I'm telling you this because, or I'm hoping the outcome of you knowing this is. And so then what happened is he said, 'Well, if you want my undivided attention, then you've got to give me some time to unwind when I get home.'",
+      "timestamp": "00:49:11",
+      "source": {
+        "slug": "carole-robin",
+        "path": "episodes/carole-robin/transcript.md",
+        "lineStart": 313,
+        "lineEnd": 316
+      },
+      "themes": ["feedback", "communication", "conflict-resolution", "relationships"],
+      "zones": ["alignment", "focus"],
+      "context": "Demonstrating the feedback formula and how it leads to problem-solving conversations",
+      "verified": true
+    },
+    {
+      "id": "carole-robin-q010",
+      "speaker": "Carole Robin",
+      "text": "You have to suspend judgment. You cannot be curious if you've already decided you know what's going on for someone else. You can always go back to being judgmental, but you got to suspend it long enough to see if there's something for you to learn.",
+      "timestamp": "00:59:06",
+      "source": {
+        "slug": "carole-robin",
+        "path": "episodes/carole-robin/transcript.md",
+        "lineStart": 415,
+        "lineEnd": 416
+      },
+      "themes": ["curiosity", "inquiry", "listening", "judgment"],
+      "zones": ["discovery", "intuition"],
+      "context": "Explaining the art of inquiry and why suspending judgment is essential for understanding others",
+      "verified": true
+    },
+    {
+      "id": "carole-robin-q011",
+      "speaker": "Carole Robin",
+      "text": "Advice creates even bigger power differentials between people. Often when we give advice, it's a good thing to stop yourself and ask yourself, 'Who am I doing this for? Am I doing this for me so that I can puff myself up with everything I know or am I doing it for you because this is really going to help you and make you better?'",
+      "timestamp": "01:11:50",
+      "source": {
+        "slug": "carole-robin",
+        "path": "episodes/carole-robin/transcript.md",
+        "lineStart": 472,
+        "lineEnd": 476
+      },
+      "themes": ["leadership", "coaching", "advice", "power-dynamics"],
+      "zones": ["alignment", "discovery"],
+      "context": "Challenging the mental model that leaders should always have answers and give advice",
+      "verified": true
+    }
+  ],
+  "themes": ["vulnerability", "leadership", "feedback", "relationships", "emotions", "communication", "self-awareness", "interpersonal-dynamics"],
+  "takeaways": [
+    "Vulnerability is a leadership strength, not a weakness - appropriately sharing uncertainty and asking for help builds trust and rallies teams more effectively than projecting false confidence.",
+    "Anger is a secondary emotion that creates distance - underneath anger is usually fear or hurt, and naming those connecting emotions leads to better outcomes in both professional and personal relationships.",
+    "The 15% rule enables growth without overwhelm - step slightly outside your comfort zone with disclosure and feedback, enough to feel it but not so much you trigger defensive reactions.",
+    "Stay on your side of the net when giving feedback - stick to observable behaviors and your own feelings rather than attributing motives or labeling the other person.",
+    "Giving advice often serves the advisor more than the recipient - asking questions and being a thought partner develops people better than providing quick answers."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.05,
+    "discovery": 0.30,
+    "data": 0.05,
+    "intuition": 0.20,
+    "alignment": 0.30,
+    "chaos": 0.05,
+    "focus": 0.00
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "carole-robin-q004",
+      "why": "Challenges the assumption that leaders must always project confidence - argues that admitting uncertainty and asking for help is actually stronger leadership",
+      "related_zones": ["alignment", "chaos"]
+    },
+    {
+      "quoteId": "carole-robin-q011",
+      "why": "Provocatively suggests that giving advice often serves the ego of the advisor rather than helping the recipient - questions a fundamental leadership behavior",
+      "related_zones": ["alignment", "discovery"]
+    },
+    {
+      "quoteId": "carole-robin-q006",
+      "why": "Counter-intuitive insight that anger is the socially acceptable emotion in business, but it's actually the least effective for building connection and influence",
+      "related_zones": ["discovery", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "educator",
+    "company_stage": "all",
+    "primary_topics": ["interpersonal-dynamics", "leadership", "feedback", "relationships", "vulnerability", "emotional-intelligence"]
+  }
+}

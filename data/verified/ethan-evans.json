@@ -1,0 +1,247 @@
+{
+  "slug": "ethan-evans",
+  "guest": "Ethan Evans",
+  "episode_title": "Taking control of your career | Ethan Evans (Amazon)",
+  "verification_date": "2026-01-26",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "ethan-evans-q001",
+      "speaker": "Ethan Evans",
+      "text": "Speaking as a manager, and I've talked to hundreds of managers, very few people go and ask their manager, 'What can I do to help you? What do you need?' And so just asking sets you apart, and it begins to build a relationship that we're on the same team, that I'm here as a part of your organization to make you successful, not just myself.",
+      "timestamp": "00:06:31",
+      "source": {
+        "slug": "ethan-evans",
+        "path": "episodes/ethan-evans/transcript.md",
+        "lineStart": 95,
+        "lineEnd": 97
+      },
+      "themes": ["career growth", "leadership", "relationships"],
+      "zones": ["alignment", "velocity"],
+      "context": "Explaining step two of The Magic Loop framework for career advancement",
+      "verified": true
+    },
+    {
+      "id": "ethan-evans-q002",
+      "speaker": "Ethan Evans",
+      "text": "The reason this works is managers help those who help them. It's just human nature. We all do that. Generally, they're very open to meeting you halfway and saying, 'Sure, I need this. We can rearrange it. We can find a way to meet your goals over time.'",
+      "timestamp": "00:07:52",
+      "source": {
+        "slug": "ethan-evans",
+        "path": "episodes/ethan-evans/transcript.md",
+        "lineStart": 102,
+        "lineEnd": 105
+      },
+      "themes": ["career growth", "psychology", "reciprocity"],
+      "zones": ["alignment", "intuition"],
+      "context": "Describing why The Magic Loop works - the principle of reciprocity with managers",
+      "verified": true
+    },
+    {
+      "id": "ethan-evans-q003",
+      "speaker": "Ethan Evans",
+      "text": "The point of this loop is it's in your control. It is true that a good manager would do all those things I just mentioned, but not all managers are good and some of them need help. You can be upset that your manager isn't perfect, but move on from that and take control of your own situation.",
+      "timestamp": "00:11:12",
+      "source": {
+        "slug": "ethan-evans",
+        "path": "episodes/ethan-evans/transcript.md",
+        "lineStart": 132,
+        "lineEnd": 136
+      },
+      "themes": ["career growth", "ownership", "agency"],
+      "zones": ["focus", "velocity"],
+      "context": "Emphasizing personal agency in career development regardless of manager quality",
+      "verified": true
+    },
+    {
+      "id": "ethan-evans-q004",
+      "speaker": "Ethan Evans",
+      "text": "The difference between a senior manager and a director is how you lead and the work you're doing. You can get as far as senior manager by being really strong in your function and being really good at getting things done. As a director, and as a VP beyond that, it becomes much more about influence, coordination with others, and letting go of being in all the details yourself.",
+      "timestamp": "00:24:29",
+      "source": {
+        "slug": "ethan-evans",
+        "path": "episodes/ethan-evans/transcript.md",
+        "lineStart": 240,
+        "lineEnd": 244
+      },
+      "themes": ["leadership", "career progression", "delegation"],
+      "zones": ["alignment", "focus"],
+      "context": "Explaining why senior managers get stuck and what changes at director level",
+      "verified": true
+    },
+    {
+      "id": "ethan-evans-q005",
+      "speaker": "Ethan Evans",
+      "text": "I often reference the book by Marshall Goldsmith, What Got You Here Won't Get You There. Not only because it's a great book classically on this problem, but because the title tells the story. All the great traits that got you to this one level won't get you to the next level where you're more expected to be thinking in strategic terms, thinking longer term.",
+      "timestamp": "00:25:03",
+      "source": {
+        "slug": "ethan-evans",
+        "path": "episodes/ethan-evans/transcript.md",
+        "lineStart": 244,
+        "lineEnd": 247
+      },
+      "themes": ["career progression", "leadership", "strategy"],
+      "zones": ["discovery", "focus"],
+      "context": "Describing the behavioral change required to move from senior manager to director",
+      "verified": true
+    },
+    {
+      "id": "ethan-evans-q006",
+      "speaker": "Ethan Evans",
+      "text": "You don't need that much time. Two hours is great, but you only need two hours once a month. People think invention takes all this time. The thing is once you have one good idea, it often takes years to express that. You don't need very many good ideas to be seen as tremendously inventive.",
+      "timestamp": "00:33:34",
+      "source": {
+        "slug": "ethan-evans",
+        "path": "episodes/ethan-evans/transcript.md",
+        "lineStart": 311,
+        "lineEnd": 318
+      },
+      "themes": ["innovation", "invention", "time management"],
+      "zones": ["discovery", "velocity"],
+      "context": "Demystifying invention - it requires dedicated time but not as much as people think",
+      "verified": true
+    },
+    {
+      "id": "ethan-evans-q007",
+      "speaker": "Ethan Evans",
+      "text": "The biggest thing I see particularly at higher levels is people talk about what they have done but not why it mattered. They don't talk about the impact. A leader is not hiring someone to just do work. They're hiring someone because they have a problem or a need. If you can show them the things you've done that have made a difference, that makes you more of a leader.",
+      "timestamp": "00:37:10",
+      "source": {
+        "slug": "ethan-evans",
+        "path": "episodes/ethan-evans/transcript.md",
+        "lineStart": 335,
+        "lineEnd": 342
+      },
+      "themes": ["interviewing", "hiring", "impact"],
+      "zones": ["focus", "data"],
+      "context": "Advice on standing out in interviews - emphasize business impact not just activities",
+      "verified": true
+    },
+    {
+      "id": "ethan-evans-q008",
+      "speaker": "Ethan Evans",
+      "text": "So the first thing I did was I owned it. I said, 'Yes, it's not working. It's my fault. I will deal with it.' I took ownership. And the second thing I did was start updating him very proactively. Even though Jeff had sort of lost trust in me, given that he agreed with the plan, he was willing to give me 60 minutes. I was buying life one hour at a time.",
+      "timestamp": "00:44:15",
+      "source": {
+        "slug": "ethan-evans",
+        "path": "episodes/ethan-evans/transcript.md",
+        "lineStart": 405,
+        "lineEnd": 412
+      },
+      "themes": ["failure", "ownership", "crisis management"],
+      "zones": ["alignment", "focus"],
+      "context": "How he handled failing Jeff Bezos during the Amazon App Store launch disaster",
+      "verified": true
+    },
+    {
+      "id": "ethan-evans-q009",
+      "speaker": "Ethan Evans",
+      "text": "It's really easy to flame. He had been flaming me, writing angry emails. Angry emails are easy. Sitting three feet from someone and being angry with them face-to-face is hard. And when faced with, I can either start ranting at this person who reports to me, or I can say something nice, he chose to say something nice, and that rebuilt our relationship.",
+      "timestamp": "00:49:05",
+      "source": {
+        "slug": "ethan-evans",
+        "path": "episodes/ethan-evans/transcript.md",
+        "lineStart": 438,
+        "lineEnd": 442
+      },
+      "themes": ["leadership", "communication", "relationships"],
+      "zones": ["alignment", "intuition"],
+      "context": "Reflecting on his in-person meeting with Jeff Bezos after the App Store failure",
+      "verified": true
+    },
+    {
+      "id": "ethan-evans-q010",
+      "speaker": "Ethan Evans",
+      "text": "Two years later, I was promoted to vice president. So even though I had failed the CEO on this very public launch where he was very definitely mad at me, I re-earned the trust, I showed I had learned the lessons of how to launch more reliably without outages, and I was promoted. If I can get away with publicly failing one of the richest and most famous inventors on earth, you can dig out of any hole.",
+      "timestamp": "00:49:42",
+      "source": {
+        "slug": "ethan-evans",
+        "path": "episodes/ethan-evans/transcript.md",
+        "lineStart": 443,
+        "lineEnd": 448
+      },
+      "themes": ["failure", "resilience", "career growth"],
+      "zones": ["velocity", "focus"],
+      "context": "The outcome of his App Store failure - proving recovery from major mistakes is possible",
+      "verified": true
+    },
+    {
+      "id": "ethan-evans-q011",
+      "speaker": "Ethan Evans",
+      "text": "Bias for action says speed matters in business and many decisions are reversible. And so it's important to go faster. I think people don't understand that in a competitive environment, being right is good, but being quick is necessary. Because if there are 10 startups working on an idea, some will gamble, make bad gambles, and go out of business. But some will gamble and make an early bet and be right.",
+      "timestamp": "01:03:41",
+      "source": {
+        "slug": "ethan-evans",
+        "path": "episodes/ethan-evans/transcript.md",
+        "lineStart": 555,
+        "lineEnd": 561
+      },
+      "themes": ["decision making", "speed", "competition"],
+      "zones": ["velocity", "chaos"],
+      "context": "Explaining Amazon's bias for action principle and why speed matters",
+      "verified": true
+    },
+    {
+      "id": "ethan-evans-q012",
+      "speaker": "Ethan Evans",
+      "text": "With working from home, we've only been doing that for a few years since the pandemic began. Which one is likely to have more opportunity for improvement? There's so many things we haven't explored with remote work. The people who say, 'Back to the office, it's because we know it works,' well we know what it is, but I have so much more faith in the opportunity to improve the remote experience.",
+      "timestamp": "01:09:51",
+      "source": {
+        "slug": "ethan-evans",
+        "path": "episodes/ethan-evans/transcript.md",
+        "lineStart": 612,
+        "lineEnd": 618
+      },
+      "themes": ["remote work", "innovation", "contrarian"],
+      "zones": ["discovery", "chaos"],
+      "context": "Contrarian view on return-to-office - remote work has far more room for innovation",
+      "verified": true
+    }
+  ],
+  "themes": [
+    "career growth",
+    "leadership",
+    "ownership",
+    "failure recovery",
+    "innovation",
+    "interviewing",
+    "decision making",
+    "management"
+  ],
+  "takeaways": [
+    "The Magic Loop framework: do your job well, ask how you can help your manager, do what they ask, then ask for opportunities that help both of you, and repeat",
+    "The transition from senior manager to director requires shifting from execution excellence to influence, coordination, and strategic thinking",
+    "Systematic invention doesn't require much time - just 2 hours once a month of dedicated thinking, because one good idea takes years to fully express",
+    "When facing major failures, own it completely, communicate proactively with regular updates, and meet critics face-to-face when possible",
+    "In competitive environments, speed is necessary while being right is merely good - you must balance bias for action with calculated risk"
+  ],
+  "zone_influence": {
+    "velocity": 0.22,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.08,
+    "intuition": 0.10,
+    "alignment": 0.25,
+    "chaos": 0.08,
+    "focus": 0.07
+  },
+  "contrarian_candidates": [
+    {
+      "id": "ethan-evans-q012",
+      "claim": "Remote work has far more potential for innovation than office work because we've only been optimizing offices for 300 years while remote work is still in its infancy",
+      "challenge": "Most executives argue that in-person collaboration drives innovation and culture, but Ethan argues the opposite - the novelty of remote work means there's vastly more room for improvement and optimization"
+    },
+    {
+      "id": "ethan-evans-q011",
+      "claim": "In competitive environments, being quick is necessary while being right is merely good",
+      "challenge": "Conventional wisdom says careful planning prevents costly mistakes, but Ethan argues speed is essential because competitors who gamble and win will beat you regardless of how right your slower approach is"
+    }
+  ],
+  "guest_metadata": {
+    "title": "Former VP at Amazon",
+    "company": "Amazon",
+    "expertise": ["career development", "leadership coaching", "executive growth", "Amazon leadership principles"],
+    "years_experience": 15,
+    "known_for": ["Prime Video", "Amazon Appstore", "Prime Gaming", "Twitch Commerce", "70+ patents", "The Magic Loop framework"]
+  }
+}

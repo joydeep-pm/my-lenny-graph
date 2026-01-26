@@ -1,0 +1,241 @@
+{
+  "slug": "eoghan-mccabe",
+  "guest": "Eoghan McCabe",
+  "episode_title": "How Intercom rose from the ashes by betting everything on AI | Eoghan McCabe (founder and CEO)",
+  "verification_date": "2026-01-26",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "eoghan-mccabe-q001",
+      "speaker": "Eoghan McCabe",
+      "text": "We became what a lot of late stage software companies are today, which is a bit bloated. We lost some energy. Our strategy was diluted and unfocused. We're trying to do all the things for all the people.",
+      "timestamp": "00:07:23",
+      "source": {
+        "slug": "eoghan-mccabe",
+        "path": "episodes/eoghan-mccabe/transcript.md",
+        "lineStart": 101,
+        "lineEnd": 101
+      },
+      "themes": ["strategy", "focus", "late-stage-companies"],
+      "zones": ["focus", "chaos"],
+      "context": "Reflecting on Intercom's state before his return as CEO, describing how the company lost focus after his departure",
+      "verified": true
+    },
+    {
+      "id": "eoghan-mccabe-q002",
+      "speaker": "Eoghan McCabe",
+      "text": "I'm now of the belief that providing a customer with a highly engaged, instantly available expert, consistent, fast, charismatic, funny, friendly, personal agent available for literally every single customer every minute of the day around the clock is so much more personal than making them wait 2, 3, 4 days for a crappy canned response.",
+      "timestamp": "00:13:43",
+      "source": {
+        "slug": "eoghan-mccabe",
+        "path": "episodes/eoghan-mccabe/transcript.md",
+        "lineStart": 128,
+        "lineEnd": 128
+      },
+      "themes": ["AI", "customer-service", "personalization"],
+      "zones": ["intuition", "velocity"],
+      "context": "Explaining how he reconciled Intercom's original 'make internet business personal' mission with their pivot to AI agents",
+      "verified": true
+    },
+    {
+      "id": "eoghan-mccabe-q003",
+      "speaker": "Eoghan McCabe",
+      "text": "You betray your intuition in little bits and pieces over the years when the bright spark of your original idea turns into this big, unstoppable, scary corporate beast and a little bit of you dies every single time you go and betray yourself in that way.",
+      "timestamp": "00:21:12",
+      "source": {
+        "slug": "eoghan-mccabe",
+        "path": "episodes/eoghan-mccabe/transcript.md",
+        "lineStart": 167,
+        "lineEnd": 167
+      },
+      "themes": ["founder-journey", "intuition", "corporate-culture"],
+      "zones": ["intuition", "chaos"],
+      "context": "Describing how founders compromise their vision over time to placate employees, follow advice, and bring investors along",
+      "verified": true
+    },
+    {
+      "id": "eoghan-mccabe-q004",
+      "speaker": "Eoghan McCabe",
+      "text": "I always believe that that pricing should come from value and not from costs. The cost is our problem. We just had this sense and intuition early on that this thing will get cheaper and it got a lot cheaper.",
+      "timestamp": "00:24:49",
+      "source": {
+        "slug": "eoghan-mccabe",
+        "path": "episodes/eoghan-mccabe/transcript.md",
+        "lineStart": 185,
+        "lineEnd": 185
+      },
+      "themes": ["pricing", "strategy", "value-based-pricing"],
+      "zones": ["data", "intuition"],
+      "context": "Explaining Fin's 99-cent-per-resolution pricing model and how they bet on AI costs decreasing",
+      "verified": true
+    },
+    {
+      "id": "eoghan-mccabe-q005",
+      "speaker": "Eoghan McCabe",
+      "text": "It was the type of decision that where I had to practice the professional CEO approach, which is, 'Hey folks, what do you all think? Let's take everyone's input.' Everyone had color beside all of the different options that we may take. Let's make a group decision. I said, 'Sorry, this is what we're doing.' So, I was very dictatorial in that respect.",
+      "timestamp": "00:28:16",
+      "source": {
+        "slug": "eoghan-mccabe",
+        "path": "episodes/eoghan-mccabe/transcript.md",
+        "lineStart": 206,
+        "lineEnd": 207
+      },
+      "themes": ["leadership", "decision-making", "founder-mode"],
+      "zones": ["focus", "alignment"],
+      "context": "Describing how he made the decision to focus entirely on customer service instead of maintaining multiple product lines",
+      "verified": true
+    },
+    {
+      "id": "eoghan-mccabe-q006",
+      "speaker": "Eoghan McCabe",
+      "text": "I rewrote the values designed to be a sharp knife to cut out the parts of the company that I just knew wouldn't be effective. So, I said that people must be resilient, that we had very high standards, that we'd work incredibly hard, that shareholder value was the most important thing that we'd optimize for.",
+      "timestamp": "00:29:10",
+      "source": {
+        "slug": "eoghan-mccabe",
+        "path": "episodes/eoghan-mccabe/transcript.md",
+        "lineStart": 209,
+        "lineEnd": 209
+      },
+      "themes": ["culture", "values", "transformation"],
+      "zones": ["focus", "perfection"],
+      "context": "Explaining how he deliberately designed new company values to filter out employees who wouldn't thrive in the transformed organization",
+      "verified": true
+    },
+    {
+      "id": "eoghan-mccabe-q007",
+      "speaker": "Eoghan McCabe",
+      "text": "It's my strong belief that great employees and great companies want and are constructed out of a very clear and strong hierarchy where it is the responsibility of the CEO to make brave and hard decisions unilaterally, yes, using their experts as inputs and be responsible for the outcome.",
+      "timestamp": "00:31:30",
+      "source": {
+        "slug": "eoghan-mccabe",
+        "path": "episodes/eoghan-mccabe/transcript.md",
+        "lineStart": 221,
+        "lineEnd": 221
+      },
+      "themes": ["leadership", "hierarchy", "founder-mode"],
+      "zones": ["alignment", "focus"],
+      "context": "Defending his top-down approach after being asked about the soft coup attempt and pushback from employees",
+      "verified": true
+    },
+    {
+      "id": "eoghan-mccabe-q008",
+      "speaker": "Eoghan McCabe",
+      "text": "There's such a thing as product market fit. There's a thing as founder market fit, there's a thing as founder, product market fit. That's how you're doing it right, but there's also such a thing as employee, founder, product market fit. You have to have the right employees for the type of business you're creating.",
+      "timestamp": "00:33:46",
+      "source": {
+        "slug": "eoghan-mccabe",
+        "path": "episodes/eoghan-mccabe/transcript.md",
+        "lineStart": 230,
+        "lineEnd": 230
+      },
+      "themes": ["hiring", "culture-fit", "product-market-fit"],
+      "zones": ["alignment", "discovery"],
+      "context": "Reflecting on the 40% employee turnover during the transformation and why different companies need different types of employees",
+      "verified": true
+    },
+    {
+      "id": "eoghan-mccabe-q009",
+      "speaker": "Eoghan McCabe",
+      "text": "When a founder runs away from their business, it is the ultimate betrayal of their heart and the dream that they have. Now, it's okay to wrap things up and quit, but when you kind of run away, like I kind of had to because I was sick and burned out and kind of disenchanted, I don't know, it didn't feel good.",
+      "timestamp": "00:36:12",
+      "source": {
+        "slug": "eoghan-mccabe",
+        "path": "episodes/eoghan-mccabe/transcript.md",
+        "lineStart": 245,
+        "lineEnd": 245
+      },
+      "themes": ["founder-journey", "burnout", "resilience"],
+      "zones": ["intuition", "chaos"],
+      "context": "Being vulnerable about his departure from Intercom due to illness and burnout, and why returning was deeply meaningful",
+      "verified": true
+    },
+    {
+      "id": "eoghan-mccabe-q010",
+      "speaker": "Eoghan McCabe",
+      "text": "You don't have a choice. The story of the technology industry or digital technology is really short and it's punctuated by a small number of things, microprocessors, personal computers, the internet, maybe mobile. Now there's AI. I think AI is bigger than all these things. And if you're not in it, you're about to get kicked out of all of it.",
+      "timestamp": "00:50:52",
+      "source": {
+        "slug": "eoghan-mccabe",
+        "path": "episodes/eoghan-mccabe/transcript.md",
+        "lineStart": 305,
+        "lineEnd": 305
+      },
+      "themes": ["AI", "disruption", "strategy"],
+      "zones": ["chaos", "velocity"],
+      "context": "Giving his strongest advice to founders considering AI transformation - that there is no alternative",
+      "verified": true
+    },
+    {
+      "id": "eoghan-mccabe-q011",
+      "speaker": "Eoghan McCabe",
+      "text": "I don't actually generally promote working that hard. I actually think a life well-lived includes taking slow walks in nature where you're not thinking about ARR growth or hiring your chief revenue officer. I'm simply saying that if you want to compete and enjoy success in this age, which means you need to be doing AI, that is the price.",
+      "timestamp": "00:56:26",
+      "source": {
+        "slug": "eoghan-mccabe",
+        "path": "episodes/eoghan-mccabe/transcript.md",
+        "lineStart": 329,
+        "lineEnd": 329
+      },
+      "themes": ["work-life-balance", "competition", "AI"],
+      "zones": ["velocity", "intuition"],
+      "context": "Nuancing his advice about working as hard as young AI companies - acknowledging it's not ideal for a good life but necessary to compete",
+      "verified": true
+    },
+    {
+      "id": "eoghan-mccabe-q012",
+      "speaker": "Eoghan McCabe",
+      "text": "The interesting thing about 12 years of weekly therapy and spiritual work is that it takes your edges off, but they're all edges that are super counterproductive. All the edges that made you an asshole, got you triggered, miscommunicated or fought back when you were insecure, they take all the edges away then help you see yourself and love yourself so much more for who you are.",
+      "timestamp": "01:00:42",
+      "source": {
+        "slug": "eoghan-mccabe",
+        "path": "episodes/eoghan-mccabe/transcript.md",
+        "lineStart": 341,
+        "lineEnd": 341
+      },
+      "themes": ["personal-growth", "therapy", "leadership"],
+      "zones": ["intuition", "discovery"],
+      "context": "Sharing how 12 years of therapy with a CEO coach transformed his leadership by removing counterproductive defenses while preserving his edge",
+      "verified": true
+    }
+  ],
+  "themes": ["AI-transformation", "founder-mode", "company-culture", "pricing-strategy", "leadership", "personal-growth", "disruption", "decision-making"],
+  "takeaways": [
+    "AI transformation requires total commitment - Intercom went from near-zero net new ARR to the top 15th percentile of public software companies by betting everything on Fin, their AI agent, and reaching $100M ARR in under 3 quarters.",
+    "Founder mode means making unilateral decisions and owning the outcomes - Eoghan rewrote company values as a 'sharp knife' to cut ineffective parts, resulting in 40% turnover but 98% leadership approval after 16 months.",
+    "Employee-founder-product-market fit is real - just as products need market fit, companies need employees suited to their stage and culture. Stable employees for stable companies, founder-types for transformative ones.",
+    "Pricing should reflect value delivered, not costs incurred - Fin charges 99 cents per resolution (vs $20-30 industry average for human support) because AI costs are the company's problem, not the customer's.",
+    "Personal growth and therapy aren't weaknesses for leaders - 12 years of weekly therapy removed counterproductive defenses while preserving the founder's edge, enabling more authentic and effective leadership."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.10,
+    "discovery": 0.05,
+    "data": 0.05,
+    "intuition": 0.20,
+    "alignment": 0.15,
+    "chaos": 0.15,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "eoghan-mccabe-q002",
+      "why": "Argues AI agents are MORE personal than human support - counterintuitive given Intercom's original 'make business personal' mission and common anti-AI sentiment",
+      "related_zones": ["intuition", "velocity"]
+    },
+    {
+      "quoteId": "eoghan-mccabe-q007",
+      "why": "Advocates for strong hierarchy and unilateral CEO decisions - contrarian to prevailing 'flat organization' and 'consensus-driven' management philosophies",
+      "related_zones": ["alignment", "focus"]
+    },
+    {
+      "quoteId": "eoghan-mccabe-q006",
+      "why": "Designed company values explicitly to filter out employees - challenges the common belief that values should be inclusive and emerge organically from the team",
+      "related_zones": ["focus", "perfection"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "late-stage",
+    "primary_topics": ["AI-transformation", "founder-mode", "company-turnaround", "pricing-strategy", "leadership", "personal-development"]
+  }
+}

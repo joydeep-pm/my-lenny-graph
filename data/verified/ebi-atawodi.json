@@ -1,0 +1,241 @@
+{
+  "slug": "ebi-atawodi",
+  "guest": "Ebi Atawodi",
+  "episode_title": "Crafting a compelling product vision | Ebi Atawodi (YouTube, Netflix, Uber)",
+  "verification_date": "2026-01-26",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "ebi-atawodi-q001",
+      "speaker": "Ebi Atawodi",
+      "text": "One of the most powerful skills of a product manager is storytelling. Because you look at generation after generation after generation, what people pass on as stories, they're not numbers, they're not stats, it's stories. And actually when you blend stories with numbers, the gap is so wide in stories alone.",
+      "timestamp": "00:15:07",
+      "source": {
+        "slug": "ebi-atawodi",
+        "path": "episodes/ebi-atawodi/transcript.md",
+        "lineStart": 117,
+        "lineEnd": 117
+      },
+      "themes": ["storytelling", "communication", "influence", "leadership"],
+      "zones": ["alignment", "intuition"],
+      "context": "Discussing how PMs can best communicate vision to their teams and stakeholders",
+      "verified": true
+    },
+    {
+      "id": "ebi-atawodi-q002",
+      "speaker": "Ebi Atawodi",
+      "text": "Once upon a time, where were we? It's like what is the thing that we're trying to solve? Then one day, we launch the thing, and because of that, what did you change in the world? What's the dent in the universe that you made? It's very simplistic, but in its simplicity is the magic.",
+      "timestamp": "00:15:59",
+      "source": {
+        "slug": "ebi-atawodi",
+        "path": "episodes/ebi-atawodi/transcript.md",
+        "lineStart": 119,
+        "lineEnd": 136
+      },
+      "themes": ["product-vision", "frameworks", "storytelling", "simplicity"],
+      "zones": ["alignment", "focus"],
+      "context": "Explaining her 'once upon a time' framework for crafting compelling product visions",
+      "verified": true
+    },
+    {
+      "id": "ebi-atawodi-q003",
+      "speaker": "Ebi Atawodi",
+      "text": "In writing the headline, you have to focus. Headline is not a PRD, right? It's a headline. So when I've done this, what is the impact of this going to be? What's the feeling you're leaving people with? And it forces you to get to that clarity of, okay, we solved this problem. This is actually going to be the painkiller that we're solving.",
+      "timestamp": "00:23:37",
+      "source": {
+        "slug": "ebi-atawodi",
+        "path": "episodes/ebi-atawodi/transcript.md",
+        "lineStart": 167,
+        "lineEnd": 168
+      },
+      "themes": ["clarity", "vision", "communication", "headlines"],
+      "zones": ["focus", "alignment"],
+      "context": "On using the Amazon-style 'write the press headline' approach to clarify product vision",
+      "verified": true
+    },
+    {
+      "id": "ebi-atawodi-q004",
+      "speaker": "Ebi Atawodi",
+      "text": "Do not use, I don't have a designer, to be the excuse for why you don't bring it to life. Start drawing it with your hands. Still tell the story because the story, you should be able to tell this. Tell the story without slides. That mocking it up is just so you can actually bring that narrative and tell that story.",
+      "timestamp": "00:27:02",
+      "source": {
+        "slug": "ebi-atawodi",
+        "path": "episodes/ebi-atawodi/transcript.md",
+        "lineStart": 192,
+        "lineEnd": 192
+      },
+      "themes": ["ownership", "resourcefulness", "vision", "prototyping"],
+      "zones": ["velocity", "chaos"],
+      "context": "Encouraging PMs to visualize their vision even without design resources",
+      "verified": true
+    },
+    {
+      "id": "ebi-atawodi-q005",
+      "speaker": "Ebi Atawodi",
+      "text": "I almost make every PM on my team do what I call top 10 things you should know. It's a living document. They literally put 10 problems you should know. And you revise it. Every quarter you update it. They could be qualitative, they could be quantitative, they could be tech debt. They should be tech debt.",
+      "timestamp": "00:32:44",
+      "source": {
+        "slug": "ebi-atawodi",
+        "path": "episodes/ebi-atawodi/transcript.md",
+        "lineStart": 227,
+        "lineEnd": 228
+      },
+      "themes": ["problem-discovery", "documentation", "prioritization", "tech-debt"],
+      "zones": ["data", "focus"],
+      "context": "Describing her signature framework for keeping teams focused on the most important problems",
+      "verified": true
+    },
+    {
+      "id": "ebi-atawodi-q006",
+      "speaker": "Ebi Atawodi",
+      "text": "In terms of evangelizing, I think about three concentric circles. The core is your team. I'm basically saying, get on this boat, we're sailing to this island, and I describe this beautiful island. They have to be bought in and have conviction to sail on that boat together. Then stakeholders. Then leadership. Go as big as possible.",
+      "timestamp": "00:43:50",
+      "source": {
+        "slug": "ebi-atawodi",
+        "path": "episodes/ebi-atawodi/transcript.md",
+        "lineStart": 314,
+        "lineEnd": 336
+      },
+      "themes": ["evangelizing", "alignment", "stakeholder-management", "leadership"],
+      "zones": ["alignment", "velocity"],
+      "context": "Explaining her systematic approach to socializing and gaining buy-in for a product vision",
+      "verified": true
+    },
+    {
+      "id": "ebi-atawodi-q007",
+      "speaker": "Ebi Atawodi",
+      "text": "I think if you have to repeat the vision every year, you have not created a good vision. You haven't done the work. What we kept doing was we would bring more fidelity to actually parts of the vision. We had a low fidelity mock, then higher, and higher. Then at one point we did a sizzle reel. But we're not creating multiple visions.",
+      "timestamp": "00:49:45",
+      "source": {
+        "slug": "ebi-atawodi",
+        "path": "episodes/ebi-atawodi/transcript.md",
+        "lineStart": 351,
+        "lineEnd": 354
+      },
+      "themes": ["vision", "persistence", "iteration", "long-term-thinking"],
+      "zones": ["focus", "perfection"],
+      "context": "On the importance of creating an enduring vision rather than constantly reinventing it",
+      "verified": true
+    },
+    {
+      "id": "ebi-atawodi-q008",
+      "speaker": "Ebi Atawodi",
+      "text": "Product management is clarity and conviction. You bring clarity and you have conviction. All the stuff we just talked about, what they're doing is bringing clarity. And that clarity especially for the problem. Because as PMs, we're constantly influencing by bringing clarity.",
+      "timestamp": "00:57:00",
+      "source": {
+        "slug": "ebi-atawodi",
+        "path": "episodes/ebi-atawodi/transcript.md",
+        "lineStart": 404,
+        "lineEnd": 405
+      },
+      "themes": ["product-management", "clarity", "conviction", "influence"],
+      "zones": ["alignment", "focus"],
+      "context": "Distilling the essence of product management craft into two core elements",
+      "verified": true
+    },
+    {
+      "id": "ebi-atawodi-q009",
+      "speaker": "Ebi Atawodi",
+      "text": "The big rocks are not a laundry list of 20 things because if I asked you to make me a cocktail, you would put ice in first. Then you would pour the drink. You would not put the drink and then put the ice or it will splash and it's messy and that's how an endless roadmap looks to me.",
+      "timestamp": "00:59:20",
+      "source": {
+        "slug": "ebi-atawodi",
+        "path": "episodes/ebi-atawodi/transcript.md",
+        "lineStart": 411,
+        "lineEnd": 411
+      },
+      "themes": ["prioritization", "roadmaps", "focus", "sequencing"],
+      "zones": ["focus", "velocity"],
+      "context": "Using a cocktail metaphor to explain why roadmaps need clear sequencing of priorities",
+      "verified": true
+    },
+    {
+      "id": "ebi-atawodi-q010",
+      "speaker": "Ebi Atawodi",
+      "text": "If you don't intentionally evolve the culture, it will evolve without you. Culture is always going to evolve. That's just the way humans are. The culture are the norms and beliefs. And beliefs and norms change. What are the good behaviors that you reward and the bad behaviors that you condone?",
+      "timestamp": "01:10:53",
+      "source": {
+        "slug": "ebi-atawodi",
+        "path": "episodes/ebi-atawodi/transcript.md",
+        "lineStart": 468,
+        "lineEnd": 469
+      },
+      "themes": ["culture", "leadership", "intentionality", "organizational-design"],
+      "zones": ["chaos", "alignment"],
+      "context": "Drawing on her Uber experience to explain why culture requires deliberate attention",
+      "verified": true
+    },
+    {
+      "id": "ebi-atawodi-q011",
+      "speaker": "Ebi Atawodi",
+      "text": "I do not believe in being liked. I believe in being loved. And that's a very different thing. Love is the choice to extend yourself for the spiritual growth of oneself or another. When you're extending yourself, you're not nice. It's sometimes having hard conversations knowing they're in their best interest.",
+      "timestamp": "01:21:51",
+      "source": {
+        "slug": "ebi-atawodi",
+        "path": "episodes/ebi-atawodi/transcript.md",
+        "lineStart": 537,
+        "lineEnd": 543
+      },
+      "themes": ["leadership", "feedback", "relationships", "vulnerability"],
+      "zones": ["intuition", "alignment"],
+      "context": "Sharing her philosophy on authentic leadership and caring for team members",
+      "verified": true
+    },
+    {
+      "id": "ebi-atawodi-q012",
+      "speaker": "Ebi Atawodi",
+      "text": "Already start doing product management before you're a product manager. Open up your favorite apps. What are the top 10 problems you see? In your head, design what the world could look like if you fix them. What you do by doing that is this constant training of your product sense. When the opportunity comes, it's opportunity meets preparation.",
+      "timestamp": "01:30:04",
+      "source": {
+        "slug": "ebi-atawodi",
+        "path": "episodes/ebi-atawodi/transcript.md",
+        "lineStart": 594,
+        "lineEnd": 597
+      },
+      "themes": ["career-advice", "product-sense", "preparation", "aspiring-pms"],
+      "zones": ["discovery", "intuition"],
+      "context": "Advice for people wanting to break into product management",
+      "verified": true
+    }
+  ],
+  "themes": ["product-vision", "storytelling", "clarity-conviction", "evangelizing", "culture", "leadership", "prioritization", "frameworks"],
+  "takeaways": [
+    "Product management is fundamentally about clarity and conviction - bring clarity to problems and have conviction about the solutions. Use frameworks like 'top 10 things you should know' to maintain problem clarity.",
+    "Use the 'once upon a time' storytelling framework to craft compelling visions: describe the problem world, the intervention, and how the world changed. Simple narrative structures are more memorable than complex decks.",
+    "Evangelize your vision in three concentric circles - first your core team, then stakeholders, then leadership. Go as big as possible and let people pull you back rather than limiting yourself.",
+    "A good vision should not need to be repeated every year - instead, progressively add fidelity through higher quality mocks, videos, and examples while keeping the north star constant.",
+    "Don't let lack of resources be an excuse - sketch your vision by hand, use post-it notes, mock up app store screenshots. The story matters more than polish, and designers will often improve rough ideas they connect with."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.10,
+    "data": 0.10,
+    "intuition": 0.15,
+    "alignment": 0.30,
+    "chaos": 0.10,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "ebi-atawodi-q007",
+      "why": "Challenges the common practice of annual vision refreshes - argues that constantly changing your vision means you never had a real one",
+      "related_zones": ["focus", "perfection"]
+    },
+    {
+      "quoteId": "ebi-atawodi-q011",
+      "why": "Provocative distinction between being liked and being loved - argues that true care for teammates means hard conversations, not niceness",
+      "related_zones": ["intuition", "alignment"]
+    },
+    {
+      "quoteId": "ebi-atawodi-q010",
+      "why": "Warns that culture evolves whether you want it to or not - challenges leaders who think culture can be set once and preserved",
+      "related_zones": ["chaos", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["product-vision", "storytelling", "culture", "leadership", "frameworks"]
+  }
+}

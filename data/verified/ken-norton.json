@@ -1,0 +1,241 @@
+{
+  "slug": "ken-norton",
+  "guest": "Ken Norton",
+  "episode_title": "How to unlock your product leadership skills | Ken Norton, Ex-Google",
+  "verification_date": "2026-01-26",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "ken-norton-q001",
+      "speaker": "Ken Norton",
+      "text": "You start to realize advice is not as powerful as you might think it is. It's a little bit like cotton candy. Doesn't have a lot of nutrition. You get a nice sugar high. You feel great, both sides feel happy, but then a couple weeks later, a couple months later, nothing's really changed.",
+      "timestamp": "00:08:41",
+      "source": {
+        "slug": "ken-norton",
+        "path": "episodes/ken-norton/transcript.md",
+        "lineStart": 123,
+        "lineEnd": 123
+      },
+      "themes": ["advice", "coaching", "growth", "mentorship"],
+      "zones": ["discovery", "intuition"],
+      "context": "Explaining why advice from experienced leaders often fails to create lasting change - it doesn't confront the real problem",
+      "verified": true
+    },
+    {
+      "id": "ken-norton-q002",
+      "speaker": "Ken Norton",
+      "text": "There is this sense that what is interesting about driving is the world hasn't gotten any more complex. Driving's always been driving. But now your place in the world has shifted such that the internal meaning-making and self-complexity that is required requires a complete reboot of the internal operating system in order to allow you to thrive there.",
+      "timestamp": "00:14:19",
+      "source": {
+        "slug": "ken-norton",
+        "path": "episodes/ken-norton/transcript.md",
+        "lineStart": 177,
+        "lineEnd": 178
+      },
+      "themes": ["leadership-development", "mindset", "growth", "complexity"],
+      "zones": ["discovery", "focus"],
+      "context": "Using a driving analogy to explain how advancing to leadership requires internal transformation, not just new skills",
+      "verified": true
+    },
+    {
+      "id": "ken-norton-q003",
+      "speaker": "Ken Norton",
+      "text": "The most frightening part about it is you look around and everyone is looking at you like you're the designer of the game, and you thought you were playing. That's often what it feels like when you move into a leadership role, to come back to this sense of what got me here is not going to get me there.",
+      "timestamp": "00:17:52",
+      "source": {
+        "slug": "ken-norton",
+        "path": "episodes/ken-norton/transcript.md",
+        "lineStart": 206,
+        "lineEnd": 207
+      },
+      "themes": ["leadership-transition", "career-growth", "mindset-shift"],
+      "zones": ["alignment", "focus"],
+      "context": "Describing the jarring realization when PMs discover others expect them to set the rules, not just follow them",
+      "verified": true
+    },
+    {
+      "id": "ken-norton-q004",
+      "speaker": "Ken Norton",
+      "text": "Are you responding to the world from a place of fear, where you see problems and threats, you want to be right, you want to be liked, you're defensive as an inward approach, or are you responding to the world from a place of openness, possibility, curiosity, passion, growth, purpose?",
+      "timestamp": "00:19:35",
+      "source": {
+        "slug": "ken-norton",
+        "path": "episodes/ken-norton/transcript.md",
+        "lineStart": 219,
+        "lineEnd": 219
+      },
+      "themes": ["creative-vs-reactive", "leadership-mindset", "fear", "growth"],
+      "zones": ["intuition", "focus"],
+      "context": "Defining the fundamental distinction between creative and reactive leadership mindsets",
+      "verified": true
+    },
+    {
+      "id": "ken-norton-q005",
+      "speaker": "Ken Norton",
+      "text": "According to their research, some 75% of leaders are primarily operating reactively. So most leaders are operating from a place of fear, reacting, seeing problems, and threats. That's because that other question of how do you do it is such a hard one to answer.",
+      "timestamp": "00:21:17",
+      "source": {
+        "slug": "ken-norton",
+        "path": "episodes/ken-norton/transcript.md",
+        "lineStart": 227,
+        "lineEnd": 228
+      },
+      "themes": ["leadership-research", "reactive-leadership", "fear"],
+      "zones": ["data", "focus"],
+      "context": "Citing research from Bob Anderson and Bill Adams showing most leaders operate from fear despite knowing creative leadership is more effective",
+      "verified": true
+    },
+    {
+      "id": "ken-norton-q006",
+      "speaker": "Ken Norton",
+      "text": "I had to meet other people's expectations, please them, want to be accepted by them, seek their approval. It was this what we call a complying approach. Here, this is why this is so vexing is it actually worked really well. It was pretty effective. Other people liked working with me. But there came a point where I gave away so much power that it was hurting me when it came to purpose and execution and decisiveness.",
+      "timestamp": "00:23:29",
+      "source": {
+        "slug": "ken-norton",
+        "path": "episodes/ken-norton/transcript.md",
+        "lineStart": 246,
+        "lineEnd": 249
+      },
+      "themes": ["people-pleasing", "leadership-traps", "self-awareness", "decisiveness"],
+      "zones": ["alignment", "focus"],
+      "context": "Ken's personal journey of realizing his people-pleasing approach that worked early in his career became a liability at senior levels",
+      "verified": true
+    },
+    {
+      "id": "ken-norton-q007",
+      "speaker": "Ken Norton",
+      "text": "For me, the key to that was letting go of needing to be liked and redefining it as an admiration that takes place over time. So rather than I want to leave this room with everyone liking me, I started to realize I want to be the type of leader where, a decade later, people say, 'I would work with that guy again in a heartbeat.'",
+      "timestamp": "00:26:56",
+      "source": {
+        "slug": "ken-norton",
+        "path": "episodes/ken-norton/transcript.md",
+        "lineStart": 270,
+        "lineEnd": 270
+      },
+      "themes": ["leadership-mindset", "respect", "long-term-thinking"],
+      "zones": ["alignment", "intuition"],
+      "context": "The mindset shift that unlocked Ken's leadership - trading immediate approval for lasting respect",
+      "verified": true
+    },
+    {
+      "id": "ken-norton-q008",
+      "speaker": "Ken Norton",
+      "text": "Where we're talking about is this is all me. Now that's empowering. There's empowerment to be able to say I want to change something and it doesn't involve a whole bunch of other people convincing and persuading them. This is all me. But it also, in some ways, makes it harder because it is all you.",
+      "timestamp": "00:33:40",
+      "source": {
+        "slug": "ken-norton",
+        "path": "episodes/ken-norton/transcript.md",
+        "lineStart": 318,
+        "lineEnd": 321
+      },
+      "themes": ["self-improvement", "inner-work", "empowerment", "ownership"],
+      "zones": ["focus", "discovery"],
+      "context": "The double-edged nature of inner work in leadership - you have full control but also full responsibility",
+      "verified": true
+    },
+    {
+      "id": "ken-norton-q009",
+      "speaker": "Ken Norton",
+      "text": "How much all of the challenges that senior executives are dealing with come down to people versus product. So it's like it's fun to think about designing products, optimizing, doing user discovery, and testing what, but you sit down with an executive and it's all about people. That's the hard part.",
+      "timestamp": "00:44:11",
+      "source": {
+        "slug": "ken-norton",
+        "path": "episodes/ken-norton/transcript.md",
+        "lineStart": 423,
+        "lineEnd": 425
+      },
+      "themes": ["people-leadership", "executive-challenges", "soft-skills"],
+      "zones": ["alignment", "discovery"],
+      "context": "Revealing the biggest blind spot for product leaders - underestimating how much senior roles are about people, not product",
+      "verified": true
+    },
+    {
+      "id": "ken-norton-q010",
+      "speaker": "Ken Norton",
+      "text": "You are a leader from day one in product management. You don't have any formal authority, but you're a leader. You're expected to lead. Guess what? The hardest part about being a leader is when you don't get to just rely on the formal authority. So you're getting to practice all the hard parts about leadership from day one.",
+      "timestamp": "00:45:18",
+      "source": {
+        "slug": "ken-norton",
+        "path": "episodes/ken-norton/transcript.md",
+        "lineStart": 432,
+        "lineEnd": 435
+      },
+      "themes": ["leadership-without-authority", "pm-skills", "influence"],
+      "zones": ["alignment", "velocity"],
+      "context": "Why PM is excellent leadership training - you practice the hardest part (leading without authority) from your first day",
+      "verified": true
+    },
+    {
+      "id": "ken-norton-q011",
+      "speaker": "Ken Norton",
+      "text": "The art is communication, collaboration, the more fuzzy, softer skills, people stuff. It's an elevation of that being just as important, if not more important, over time, as all this skills, techniques, tactics, managing a backlog, all that kind of stuff that you have to do.",
+      "timestamp": "00:46:54",
+      "source": {
+        "slug": "ken-norton",
+        "path": "episodes/ken-norton/transcript.md",
+        "lineStart": 447,
+        "lineEnd": 448
+      },
+      "themes": ["soft-skills", "art-vs-science", "communication", "collaboration"],
+      "zones": ["alignment", "intuition"],
+      "context": "Elevating the 'art' of product management (people skills) above the 'science' (frameworks and tactics)",
+      "verified": true
+    },
+    {
+      "id": "ken-norton-q012",
+      "speaker": "Ken Norton",
+      "text": "I like to think of it a little bit as you got inner board of directors, and there's some noisy, chatty voices that every so often sit in the chairperson's seat and start taking over. If you start to recognize, 'Wait, no, I'm the chairperson. I don't want to hear from you right now. We'll hear from you later,' it starts to create some power.",
+      "timestamp": "00:52:54",
+      "source": {
+        "slug": "ken-norton",
+        "path": "episodes/ken-norton/transcript.md",
+        "lineStart": 495,
+        "lineEnd": 495
+      },
+      "themes": ["imposter-syndrome", "inner-critic", "self-management", "mindset"],
+      "zones": ["intuition", "focus"],
+      "context": "A practical framework for managing imposter syndrome - you're the chairperson of your inner board of directors",
+      "verified": true
+    }
+  ],
+  "themes": ["creative-vs-reactive-leadership", "coaching", "leadership-development", "people-skills", "imposter-syndrome", "mindset-shifts", "soft-skills", "leading-without-authority"],
+  "takeaways": [
+    "Shift from reactive to creative leadership - 75% of leaders operate from fear, but those who lead from openness, curiosity, and purpose are more effective by every measure.",
+    "As you advance, what got you here won't get you there - the transition to leadership requires rebooting your internal operating system, not just learning new frameworks.",
+    "Trade immediate likability for long-term respect - instead of wanting everyone to like you now, focus on being the leader people would work with again a decade later.",
+    "The hardest challenges at senior levels are about people, not product - invest in communication, collaboration, and difficult conversations as seriously as technical skills.",
+    "You're a leader from day one in PM without formal authority - this is a gift because you practice the hardest part of leadership (influence without power) from the start."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.05,
+    "discovery": 0.20,
+    "data": 0.05,
+    "intuition": 0.25,
+    "alignment": 0.25,
+    "chaos": 0.05,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "ken-norton-q001",
+      "why": "Challenges the value of advice-giving and mentorship - 'cotton candy' with no nutrition despite making both parties feel good",
+      "related_zones": ["discovery", "intuition"]
+    },
+    {
+      "quoteId": "ken-norton-q006",
+      "why": "Reveals that people-pleasing actually works well early in your career - the problem is it stops working as you become senior",
+      "related_zones": ["alignment", "focus"]
+    },
+    {
+      "quoteId": "ken-norton-q011",
+      "why": "Elevates soft skills above technical PM skills - contradicts the focus on frameworks, metrics, and tactical excellence",
+      "related_zones": ["alignment", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "executive-coach",
+    "company_stage": "coaching",
+    "primary_topics": ["leadership-development", "executive-coaching", "creative-vs-reactive", "imposter-syndrome", "people-skills"]
+  }
+}

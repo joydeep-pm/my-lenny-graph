@@ -1,0 +1,241 @@
+{
+  "slug": "emily-kramer",
+  "guest": "Emily Kramer",
+  "episode_title": "How to build a powerful marketing machine | Emily Kramer (Asana, Carta, MKT1)",
+  "verification_date": "2026-01-26",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "emily-kramer-q001",
+      "speaker": "Emily Kramer",
+      "text": "Great marketers learn the audience and learn the product quickly. And sometimes that fresh set of eyes is helpful and you have other experts in house on the audience. But the business model really dictates what marketing does in a big way. By business model I mean, are you doing top down sales? Are you selling the enterprise? Are you doing bottom up product led growth or have a free version?",
+      "timestamp": "00:08:05",
+      "source": {
+        "slug": "emily-kramer",
+        "path": "episodes/emily-kramer/transcript.md",
+        "lineStart": 107,
+        "lineEnd": 110
+      },
+      "themes": ["hiring", "business-model", "go-to-market"],
+      "zones": ["discovery", "alignment"],
+      "context": "Explaining why business model experience matters more than industry experience when hiring marketers",
+      "verified": true
+    },
+    {
+      "id": "emily-kramer-q002",
+      "speaker": "Emily Kramer",
+      "text": "Forget all the sub-functions that you've heard about in marketing. Forget the product marketing content marketing partner, demand and growth, forget all of it and just think of marketing as you need fuel and you need an engine. Fuel is all the things that you're creating - the content, the words, the design. An engine is how you get it out to the right people.",
+      "timestamp": "00:09:10",
+      "source": {
+        "slug": "emily-kramer",
+        "path": "episodes/emily-kramer/transcript.md",
+        "lineStart": 114,
+        "lineEnd": 117
+      },
+      "themes": ["marketing-strategy", "frameworks", "content"],
+      "zones": ["focus", "velocity"],
+      "context": "Introducing the fuel and engine framework to simplify how founders think about marketing",
+      "verified": true
+    },
+    {
+      "id": "emily-kramer-q003",
+      "speaker": "Emily Kramer",
+      "text": "Who is your product for? Why is it better? What are the benefits? How does it compare to competitors? If you don't have an answer for those questions, you don't have top performing content and you don't know your positioning and all that stuff, you got a fuel problem. But if you wrote this really great piece of content and I saw it on your website, how are you distributing that? You got an engine problem.",
+      "timestamp": "00:14:58",
+      "source": {
+        "slug": "emily-kramer",
+        "path": "episodes/emily-kramer/transcript.md",
+        "lineStart": 168,
+        "lineEnd": 171
+      },
+      "themes": ["positioning", "distribution", "diagnostics"],
+      "zones": ["focus", "data"],
+      "context": "Providing a diagnostic framework to identify whether a startup has a fuel problem or engine problem",
+      "verified": true
+    },
+    {
+      "id": "emily-kramer-q004",
+      "speaker": "Emily Kramer",
+      "text": "You want the first marketer to be an expert in one of those three areas - product marketing, content marketing, growth marketing. And you want them to be proficient in another one. But you want them to be able to set strategy and know how to hire contractors across all of them. I call these pi-shaped marketers, not pie like dessert, but pi like 3.14 where the symbol has two vertical lines.",
+      "timestamp": "00:19:21",
+      "source": {
+        "slug": "emily-kramer",
+        "path": "episodes/emily-kramer/transcript.md",
+        "lineStart": 192,
+        "lineEnd": 196
+      },
+      "themes": ["hiring", "generalists", "marketing-roles"],
+      "zones": ["discovery", "alignment"],
+      "context": "Describing the ideal profile for a first marketing hire - someone with depth in two areas and breadth across all",
+      "verified": true
+    },
+    {
+      "id": "emily-kramer-q005",
+      "speaker": "Emily Kramer",
+      "text": "Do they know what high quality looks like? It doesn't always have to be that you've been at a startup that everyone thinks of as really great at marketing, but it is helpful. Some people just have a really high quality bar and really understand what great marketing looks like even if they haven't worked in those companies. But I like to say, has worked somewhere early enough that they could set strategy across all of marketing.",
+      "timestamp": "00:25:17",
+      "source": {
+        "slug": "emily-kramer",
+        "path": "episodes/emily-kramer/transcript.md",
+        "lineStart": 237,
+        "lineEnd": 241
+      },
+      "themes": ["hiring", "quality", "experience"],
+      "zones": ["perfection", "discovery"],
+      "context": "Explaining what to look for when evaluating marketing candidates - exposure to great and early-stage experience",
+      "verified": true
+    },
+    {
+      "id": "emily-kramer-q006",
+      "speaker": "Emily Kramer",
+      "text": "They don't understand how all the marketing works together and they don't understand how they built the foundation. It's much different marketing something that already everybody knows what it is or everybody knows the brand, than building something up from scratch. That's just a very different marketing motion, and you need to do a lot of things yourself, you need to be a doer.",
+      "timestamp": "00:26:16",
+      "source": {
+        "slug": "emily-kramer",
+        "path": "episodes/emily-kramer/transcript.md",
+        "lineStart": 249,
+        "lineEnd": 252
+      },
+      "themes": ["hiring", "startup-experience", "execution"],
+      "zones": ["velocity", "chaos"],
+      "context": "Warning against hiring marketers from only large public companies who haven't built marketing from scratch",
+      "verified": true
+    },
+    {
+      "id": "emily-kramer-q007",
+      "speaker": "Emily Kramer",
+      "text": "Marketing is really good at accelerating growth and doing that scale one to many. So if you're still in the very well spoke founder led sales, founder led marketing, like I'm doing discovery with each of these potential customers and have to modify my product for them, you don't need a marketer yet. Founders can do a fair amount of stuff and they can use some contractors.",
+      "timestamp": "00:27:05",
+      "source": {
+        "slug": "emily-kramer",
+        "path": "episodes/emily-kramer/transcript.md",
+        "lineStart": 258,
+        "lineEnd": 261
+      },
+      "themes": ["timing", "founder-led", "product-market-fit"],
+      "zones": ["velocity", "focus"],
+      "context": "Advising on when to hire a first marketer - only after you have enough product-market fit to scale",
+      "verified": true
+    },
+    {
+      "id": "emily-kramer-q008",
+      "speaker": "Emily Kramer",
+      "text": "Product led growth is a misnomer. I think people will do anything they can possibly do to not call marketing marketing. Product led growth really means not as much sales, which means product plus marketing. To me, product led growth means you are going to have a bigger marketing team early on because you're not going to have those sales. Sales is not communicating with customers, so marketing is.",
+      "timestamp": "00:37:08",
+      "source": {
+        "slug": "emily-kramer",
+        "path": "episodes/emily-kramer/transcript.md",
+        "lineStart": 318,
+        "lineEnd": 322
+      },
+      "themes": ["product-led-growth", "go-to-market", "marketing-role"],
+      "zones": ["discovery", "alignment"],
+      "context": "Challenging the common understanding of PLG - arguing it actually requires more marketing investment, not less",
+      "verified": true
+    },
+    {
+      "id": "emily-kramer-q009",
+      "speaker": "Emily Kramer",
+      "text": "We had a list of areas of responsibility which is just who owns what. It's not your job title, it's what are the things that you are the DRI for? It doesn't mean you're not going to collaborate with people on those things. This made it really easy to know who to go to. Often what happens with product is they're like, I'm doing a launch, I don't know who I'm supposed to go to, so I'm just going to skip it.",
+      "timestamp": "00:41:11",
+      "source": {
+        "slug": "emily-kramer",
+        "path": "episodes/emily-kramer/transcript.md",
+        "lineStart": 339,
+        "lineEnd": 343
+      },
+      "themes": ["collaboration", "ownership", "process"],
+      "zones": ["alignment", "focus"],
+      "context": "Describing Asana's AOR system that clarified ownership and made cross-functional collaboration easier",
+      "verified": true
+    },
+    {
+      "id": "emily-kramer-q010",
+      "speaker": "Emily Kramer",
+      "text": "Marketing comes back to you with the GACCS - goals, audience, creative, channels, stakeholders. And you can weigh in on the channels, the creative has maybe the highest level messaging. You get buy-in early on and then you can go much faster. Then you're not just sharing with product, here's a blog post that I wrote for the launch, and they're like, what? This is the wrong audience.",
+      "timestamp": "00:44:43",
+      "source": {
+        "slug": "emily-kramer",
+        "path": "episodes/emily-kramer/transcript.md",
+        "lineStart": 357,
+        "lineEnd": 360
+      },
+      "themes": ["frameworks", "collaboration", "planning"],
+      "zones": ["alignment", "velocity"],
+      "context": "Explaining the GACCS framework for marketing briefs that enables faster execution through early alignment",
+      "verified": true
+    },
+    {
+      "id": "emily-kramer-q011",
+      "speaker": "Emily Kramer",
+      "text": "A lot of what marketing is, is splatergy not strategy - meaning you just throw a bunch of stuff out there. If you're doing a bunch of work and it's a lot of busy work and you want to look busy, but it's not impact focused, that's a problem. The best marketing teams are impact focused. They can tell you what their big bets are - what are the things that can cause step change growth?",
+      "timestamp": "00:49:17",
+      "source": {
+        "slug": "emily-kramer",
+        "path": "episodes/emily-kramer/transcript.md",
+        "lineStart": 393,
+        "lineEnd": 397
+      },
+      "themes": ["strategy", "impact", "metrics"],
+      "zones": ["focus", "data"],
+      "context": "Distinguishing between busy work marketing (splatergy) and impact-focused marketing strategy",
+      "verified": true
+    },
+    {
+      "id": "emily-kramer-q012",
+      "speaker": "Emily Kramer",
+      "text": "If your goal is to write 10 blog posts this month - no, that's not a goal, that's maybe a tactic. The goal should be traffic and the conversion rate from that traffic or the signups that come from that. You shouldn't have activity goals, you should have impact goals. I can get a lot more people to sign up for a product, but they might be really shitty quality.",
+      "timestamp": "00:51:02",
+      "source": {
+        "slug": "emily-kramer",
+        "path": "episodes/emily-kramer/transcript.md",
+        "lineStart": 402,
+        "lineEnd": 406
+      },
+      "themes": ["metrics", "goals", "quality"],
+      "zones": ["data", "focus"],
+      "context": "Warning against activity-based goals in marketing and advocating for impact and conversion-focused metrics",
+      "verified": true
+    }
+  ],
+  "themes": ["marketing-strategy", "hiring", "go-to-market", "collaboration", "frameworks", "metrics", "product-led-growth"],
+  "takeaways": [
+    "Think of marketing as fuel (content, positioning, messaging) and engine (distribution, channels, ops) - diagnose which you need more of before hiring.",
+    "Hire pi-shaped marketers for early-stage companies: expert in one area, proficient in another, able to set strategy across all three (product, content, growth marketing).",
+    "Business model experience matters more than industry experience when hiring marketers - top-down sales vs PLG requires completely different skillsets.",
+    "Product-led growth is a misnomer - it actually means product plus marketing, not less marketing, because there's no sales team communicating with customers.",
+    "Avoid 'splatergy' - set impact goals (traffic, conversion, signups with quality thresholds) not activity goals (write 10 blog posts this month)."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.15,
+    "intuition": 0.00,
+    "alignment": 0.25,
+    "chaos": 0.05,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "emily-kramer-q008",
+      "why": "PLG is a misnomer - people avoid calling marketing marketing. PLG actually requires MORE marketing, not less.",
+      "related_zones": ["discovery", "alignment"]
+    },
+    {
+      "quoteId": "emily-kramer-q001",
+      "why": "Business model experience trumps industry experience - challenges the common belief that domain expertise is most important for marketing hires.",
+      "related_zones": ["discovery", "alignment"]
+    },
+    {
+      "quoteId": "emily-kramer-q006",
+      "why": "Don't hire marketers from big companies only - contradicts the prestige bias toward FAANG/public company experience.",
+      "related_zones": ["velocity", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator-investor",
+    "company_stage": "growth-to-public",
+    "primary_topics": ["marketing-strategy", "hiring", "go-to-market", "cross-functional-collaboration"]
+  }
+}
