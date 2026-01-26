@@ -591,27 +591,9 @@ export default function EpisodePage() {
                 <VerifiedQuotes
                   enrichment={verifiedEnrichment}
                   onJumpToTranscript={(lineStart, quoteTimestamp) => {
-                    if (!transcript) return;
-
-                    const sectionIndex = transcript.findIndex(section =>
-                      lineStart >= section.lineStart && lineStart <= section.lineEnd
-                    );
-
-                    if (sectionIndex !== -1) {
-                      setActiveTab('transcript');
-
-                      setTimeout(() => {
-                        const section = sectionRefs.current[sectionIndex];
-                        if (section) {
-                          section.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                          setSelectedSection(sectionIndex);
-                          setTimeout(() => setSelectedSection(null), 2000);
-                        }
-
-                        if (youtubePlayerRef.current && quoteTimestamp) {
-                          jumpToVideoTimestamp(quoteTimestamp);
-                        }
-                      }, 100);
+                    // Just jump to video timestamp - don't switch tabs or scroll
+                    if (quoteTimestamp) {
+                      jumpToVideoTimestamp(quoteTimestamp);
                     }
                   }}
                 />
@@ -905,27 +887,9 @@ export default function EpisodePage() {
                     <VerifiedQuotes
                       enrichment={verifiedEnrichment}
                       onJumpToTranscript={(lineStart, quoteTimestamp) => {
-                        if (!transcript) return;
-
-                        const sectionIndex = transcript.findIndex(section =>
-                          lineStart >= section.lineStart && lineStart <= section.lineEnd
-                        );
-
-                        if (sectionIndex !== -1) {
-                          setActiveTab('transcript');
-
-                          setTimeout(() => {
-                            const section = sectionRefs.current[sectionIndex];
-                            if (section) {
-                              section.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                              setSelectedSection(sectionIndex);
-                              setTimeout(() => setSelectedSection(null), 2000);
-                            }
-
-                            if (youtubePlayerRef.current && quoteTimestamp) {
-                              jumpToVideoTimestamp(quoteTimestamp);
-                            }
-                          }, 100);
+                        // Just jump to video timestamp - don't switch tabs or scroll
+                        if (quoteTimestamp) {
+                          jumpToVideoTimestamp(quoteTimestamp);
                         }
                       }}
                     />
