@@ -1,0 +1,213 @@
+{
+  "slug": "elizabeth-stone",
+  "quotes": [
+    {
+      "id": "elizabeth-stone-q001",
+      "speaker": "Elizabeth Stone",
+      "text": "I'm very dedicated to the work and to the teams I'm part of. It's been part of who I am for a long time that I give everything I've got to the job that I'm in. I do the best work I possibly can, less so for myself and my own ambition and more so because I think of myself as being part of a team and so I really need to deliver for that team.",
+      "timestamp": "00:10:46",
+      "source": {
+        "slug": "elizabeth-stone",
+        "path": "episodes/elizabeth-stone/transcript.md",
+        "lineStart": 102,
+        "lineEnd": 102
+      },
+      "themes": ["dedication", "teamwork", "career"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "elizabeth-stone-q002",
+      "speaker": "Elizabeth Stone",
+      "text": "The dedication piece really isn't about long working hours. It's more about how much I care about excellence. And that might not mean that I work really wild hours or I work weekends. I've actually tried to avoid setting that as an expectation, but more that I hold myself to a very high standard.",
+      "timestamp": "00:14:35",
+      "source": {
+        "slug": "elizabeth-stone",
+        "path": "episodes/elizabeth-stone/transcript.md",
+        "lineStart": 114,
+        "lineEnd": 114
+      },
+      "themes": ["excellence", "work-life-balance", "standards"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "elizabeth-stone-q003",
+      "speaker": "Elizabeth Stone",
+      "text": "My mother used to describe to me that the last 5% is the 5% that really mattered. And so it is that framing of the extra effort you put into something to make it world-class or to make it excellent. And so I do like to push myself that way and I hope it sets a good example for other people too.",
+      "timestamp": "00:19:28",
+      "source": {
+        "slug": "elizabeth-stone",
+        "path": "episodes/elizabeth-stone/transcript.md",
+        "lineStart": 141,
+        "lineEnd": 141
+      },
+      "themes": ["excellence", "quality", "leadership"],
+      "zones": ["perfection"]
+    },
+    {
+      "id": "elizabeth-stone-q004",
+      "speaker": "Elizabeth Stone",
+      "text": "It shows up for the people who report to me, is one part example setting. So if I don't do it, why would they do it? I treat that very seriously that we should all be held to the same standards. And as a second thing, I give feedback when it's not up to the standard.",
+      "timestamp": "00:20:53",
+      "source": {
+        "slug": "elizabeth-stone",
+        "path": "episodes/elizabeth-stone/transcript.md",
+        "lineStart": 147,
+        "lineEnd": 150
+      },
+      "themes": ["leadership", "feedback", "standards"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "elizabeth-stone-q005",
+      "speaker": "Elizabeth Stone",
+      "text": "I feel very strongly about setting an example of 'Let's work on this together,' and then through that, help people uplevel themselves so the next time around they know the expectations and they've had help getting there in the past. That's probably happened a thousand times in my career where I jump in with both feet because something needs to be better.",
+      "timestamp": "00:22:32",
+      "source": {
+        "slug": "elizabeth-stone",
+        "path": "episodes/elizabeth-stone/transcript.md",
+        "lineStart": 156,
+        "lineEnd": 156
+      },
+      "themes": ["mentorship", "development", "leadership"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "elizabeth-stone-q006",
+      "speaker": "Elizabeth Stone",
+      "text": "I would much rather have someone spend the time thinking about what's the conversation we really want to have? Not, 'Could I spend another 20 hours to make it look like everything's perfect in this document?' Instead we really got to the outcome we wanted because we were thoughtful about it and put energy and iteration into making sure we got to that outcome.",
+      "timestamp": "00:26:08",
+      "source": {
+        "slug": "elizabeth-stone",
+        "path": "episodes/elizabeth-stone/transcript.md",
+        "lineStart": 177,
+        "lineEnd": 177
+      },
+      "themes": ["outcomes", "efficiency", "prioritization"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "elizabeth-stone-q007",
+      "speaker": "Elizabeth Stone",
+      "text": "We can't really have any of the other aspects of the culture, including candor, learning, seeking excellence and improvement, freedom and responsibility if you don't start with high talent density.",
+      "timestamp": "00:29:37",
+      "source": {
+        "slug": "elizabeth-stone",
+        "path": "episodes/elizabeth-stone/transcript.md",
+        "lineStart": 195,
+        "lineEnd": 195
+      },
+      "themes": ["culture", "talent-density", "netflix"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "elizabeth-stone-q008",
+      "speaker": "Elizabeth Stone",
+      "text": "If this person on my team came to me and said, 'I'm leaving today, I have a different opportunity,' would I do everything I could to keep them at Netflix? If not, then I should be having that tough conversation about, 'Should you really be here? Are you in the right role?' if I might be a little bit relieved if you said you were leaving.",
+      "timestamp": "00:31:10",
+      "source": {
+        "slug": "elizabeth-stone",
+        "path": "episodes/elizabeth-stone/transcript.md",
+        "lineStart": 201,
+        "lineEnd": 201
+      },
+      "themes": ["performance", "keeper-test", "management"],
+      "zones": ["perfection", "alignment"]
+    },
+    {
+      "id": "elizabeth-stone-q009",
+      "speaker": "Elizabeth Stone",
+      "text": "At Netflix we try really hard to say we're looking for the new perspective or the person who's actually going to make us stronger as a team. So thinking about additive skills, additive perspectives, people who are going to push our thinking on something. That tends to help us with thinking about talent density because you're constantly introducing people to the team who uplevel.",
+      "timestamp": "00:40:20",
+      "source": {
+        "slug": "elizabeth-stone",
+        "path": "episodes/elizabeth-stone/transcript.md",
+        "lineStart": 246,
+        "lineEnd": 246
+      },
+      "themes": ["hiring", "talent-density", "team-building"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "elizabeth-stone-q010",
+      "speaker": "Elizabeth Stone",
+      "text": "We give people the freedom and the space to explore and question things and experiment in a way with solutions. I think that would be very hard if not dangerous if we didn't have a high talent density. It's really not a top down do A, then B, then C.",
+      "timestamp": "00:44:15",
+      "source": {
+        "slug": "elizabeth-stone",
+        "path": "episodes/elizabeth-stone/transcript.md",
+        "lineStart": 273,
+        "lineEnd": 273
+      },
+      "themes": ["freedom-responsibility", "autonomy", "culture"],
+      "zones": ["chaos", "discovery", "alignment"]
+    },
+    {
+      "id": "elizabeth-stone-q011",
+      "speaker": "Elizabeth Stone",
+      "text": "Our job is not to tell the story that someone wants to hear with the data or to solve the problem that someone thinks is most important. It's for us to have our own perspective about things. I think that uplevels the whole organization because it means we're able to be truth tellers or to be curious in a way that might not fit if we had a different organizational structure.",
+      "timestamp": "00:56:03",
+      "source": {
+        "slug": "elizabeth-stone",
+        "path": "episodes/elizabeth-stone/transcript.md",
+        "lineStart": 335,
+        "lineEnd": 335
+      },
+      "themes": ["data-science", "objectivity", "org-structure"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "elizabeth-stone-q012",
+      "speaker": "Elizabeth Stone",
+      "text": "While those sound like physical strength, I've found especially endurance sports are much more mental and how you go through the highs and lows and sustain and then coming back from challenge. From the lows I've really learned how to recover and bounce back. Those feel like universally applicable skills.",
+      "timestamp": "01:11:32",
+      "source": {
+        "slug": "elizabeth-stone",
+        "path": "episodes/elizabeth-stone/transcript.md",
+        "lineStart": 450,
+        "lineEnd": 450
+      },
+      "themes": ["resilience", "growth-mindset", "personal-development"],
+      "zones": ["focus", "chaos"]
+    }
+  ],
+  "themes": ["culture", "talent-density", "excellence", "leadership", "feedback", "data-science", "hiring", "netflix", "freedom-responsibility"],
+  "takeaways": [
+    "Excellence is about outcomes and high standards, not long hours - dedication means holding yourself to a high bar and delivering for your team, not sacrificing vacations or working weekends.",
+    "High talent density is the prerequisite for all other culture elements at Netflix - you can't have candor, freedom, or responsibility without excellent people first.",
+    "The keeper test is a mental model for honest performance evaluation - regularly ask yourself if you'd fight to keep each team member who wanted to leave.",
+    "Hire for additive perspectives that uplevel the entire team, not just skill checkboxes - look for people who bring new viewpoints and push thinking in ways you haven't considered.",
+    "Data teams should be independent truth-tellers with organizational structure that enables objectivity - their job is providing their own perspective, not telling stakeholders what they want to hear."
+  ],
+  "zone_influence": {
+    "velocity": 0.04,
+    "perfection": 0.30,
+    "discovery": 0.12,
+    "data": 0.04,
+    "intuition": 0.00,
+    "alignment": 0.30,
+    "chaos": 0.08,
+    "focus": 0.12
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "elizabeth-stone-q008",
+      "why": "The keeper test challenges conventional notions of loyalty and job security - managers should regularly evaluate if they'd fight to keep someone, a framework many find uncomfortable",
+      "related_zones": ["perfection", "alignment"]
+    },
+    {
+      "quoteId": "elizabeth-stone-q011",
+      "why": "Data teams as independent truth-tellers challenges the norm of data serving stakeholder narratives - argues for structural independence over embedded partnership",
+      "related_zones": ["data", "discovery"]
+    },
+    {
+      "quoteId": "elizabeth-stone-q010",
+      "why": "Freedom and autonomy can be 'dangerous' without talent density - challenges the blanket advice to trust teams and get out of the way without qualification",
+      "related_zones": ["chaos", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "executive",
+    "company_stage": "public",
+    "primary_topics": ["culture", "talent-management", "data-science", "leadership", "netflix"]
+  }
+}

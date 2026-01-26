@@ -1,0 +1,216 @@
+{
+  "episode_slug": "asha-sharma",
+  "guest": "Asha Sharma",
+  "episode_title": "How 80,000 companies build with AI: Products as organisms and the death of org charts | Asha Sharma",
+  "verification_date": "2026-01-26",
+  "verified_by": "claude-opus-4",
+  "quotes": [
+    {
+      "id": "asha-sharma-001",
+      "text": "All of a sudden, these are these living organisms that just get better with the more interactions that happen and in many ways I think this is the new IP of every single company and it's a completely different way to build product and to even think about products that think and live and learn.",
+      "source": {
+        "line_start": 88,
+        "line_end": 89,
+        "timestamp": "05:26",
+        "speaker": "Asha Sharma"
+      },
+      "context": "Describing the shift from products as static artifacts to living organisms that learn from every interaction",
+      "themes": ["ai-product-strategy", "product-evolution", "data-loops", "competitive-advantage"],
+      "zones": ["velocity", "discovery", "data"],
+      "verified": true
+    },
+    {
+      "id": "asha-sharma-002",
+      "text": "Look, I think that software as a primitive is changing and the artifact inside of it is a model alongside the software components itself. And so in many ways I think that software products will all be model forward products, if you will.",
+      "source": {
+        "line_start": 102,
+        "line_end": 103,
+        "timestamp": "07:54",
+        "speaker": "Asha Sharma"
+      },
+      "context": "Explaining how all software products are becoming model-forward, with AI models as core primitives",
+      "themes": ["ai-product-strategy", "software-architecture", "product-evolution"],
+      "zones": ["velocity", "chaos"],
+      "verified": true
+    },
+    {
+      "id": "asha-sharma-003",
+      "text": "I think that where companies fail is that they're doing AI for AI's sake. They have a ton of projects that they're kicking off at the same time without a blueprint to understand how it actually worked and what their Stack looks like and they aren't treating it like a real investment, and so they don't have the measurement and the observability and the evals all set up.",
+      "source": {
+        "line_start": 126,
+        "line_end": 128,
+        "timestamp": "10:56",
+        "speaker": "Asha Sharma"
+      },
+      "context": "Identifying why companies fail at AI adoption - lack of measurement, observability, and strategic focus",
+      "themes": ["ai-strategy", "execution", "measurement", "focus"],
+      "zones": ["focus", "data"],
+      "verified": true
+    },
+    {
+      "id": "asha-sharma-004",
+      "text": "I think it's all about the loop, not the lane here. And so I think that whatever function you are, you have to be obsessed with trying to understand the efficiency or the cost of the product, the actual rewards or system design that you're going after, the actual UI, UX, how that actually manifests for agents or people.",
+      "source": {
+        "line_start": 144,
+        "line_end": 145,
+        "timestamp": "13:50",
+        "speaker": "Asha Sharma"
+      },
+      "context": "Describing how modern product work requires cross-functional thinking about the entire loop, not just your lane",
+      "themes": ["product-development", "full-stack-builder", "cross-functional", "ai-workflows"],
+      "zones": ["velocity", "focus"],
+      "verified": true
+    },
+    {
+      "id": "asha-sharma-005",
+      "text": "And if you think about getting really good at that loop, I think that is the product, that is the IP, that is the future of every organization and I think feedback becomes continuous and observability becomes the culture, and I think that functions start to blur in future workforces.",
+      "source": {
+        "line_start": 150,
+        "line_end": 151,
+        "timestamp": "14:21",
+        "speaker": "Asha Sharma"
+      },
+      "context": "Expanding on the loop concept - mastering the feedback loop IS the product and the future of organizations",
+      "themes": ["product-development", "observability", "organizational-change", "continuous-feedback"],
+      "zones": ["velocity", "data", "chaos"],
+      "verified": true
+    },
+    {
+      "id": "asha-sharma-006",
+      "text": "I think that product makers really need to rewire their mindset around this because I think we spend an inordinate amount of time thinking about the UI of something rather than how something composes, how an agent's going to be able to read something. How do you actually get infinite scale?",
+      "source": {
+        "line_start": 168,
+        "line_end": 169,
+        "timestamp": "17:14",
+        "speaker": "Asha Sharma"
+      },
+      "context": "Arguing that product makers need to shift focus from GUIs to composability and agent-readability",
+      "themes": ["product-development", "ai-product-strategy", "composability", "agent-design"],
+      "zones": ["focus", "velocity"],
+      "verified": true
+    },
+    {
+      "id": "asha-sharma-007",
+      "text": "I think that we're approaching this world in which the marginal cost of a good output is approaching zero. And I think when that happens, we're going to see exponential demand for productivity and outputs. And I think that the way that you scale to that is with agents.",
+      "source": {
+        "line_start": 205,
+        "line_end": 206,
+        "timestamp": "20:47",
+        "speaker": "Asha Sharma"
+      },
+      "context": "Predicting the agentic future where AI drives marginal costs to zero and exponential demand for outputs",
+      "themes": ["ai-future", "agents", "productivity", "economics"],
+      "zones": ["velocity", "chaos"],
+      "verified": true
+    },
+    {
+      "id": "asha-sharma-008",
+      "text": "And so I think that when all of that happens, the org chart starts to become the work chart. I think that tasks and throughput become more important than they have been before. I also think that you just don't need as many layers. I think the whole organizational construct might start to look different in a few years.",
+      "source": {
+        "line_start": 210,
+        "line_end": 211,
+        "timestamp": "21:50",
+        "speaker": "Asha Sharma"
+      },
+      "context": "Describing how agents will transform org structures from hierarchy to task-based work charts",
+      "themes": ["organizational-change", "agents", "future-of-work", "hierarchy"],
+      "zones": ["chaos", "alignment", "velocity"],
+      "verified": true
+    },
+    {
+      "id": "asha-sharma-009",
+      "text": "And so we think about it as what season are we in? And so a season which is very uncomfortable can be denoted by a set of secular changes that are happening in the industry or that are happening from customers. And so you can think about season one might've been the prototyping of AI and the early GPT work and then it was all around models and reasoning models and now it's the advent of agents.",
+      "source": {
+        "line_start": 286,
+        "line_end": 289,
+        "timestamp": "31:10",
+        "speaker": "Asha Sharma"
+      },
+      "context": "Explaining Microsoft's 'seasons' framework for planning in rapidly changing AI landscape",
+      "themes": ["planning", "strategy", "adaptability", "roadmap"],
+      "zones": ["chaos", "focus"],
+      "verified": true
+    },
+    {
+      "id": "asha-sharma-010",
+      "text": "I think the other thing is just we try to leave Slack in the system, not just for the unplanned, but for the slope. I think that we have to continuously be thinking about how we're going to disrupt the platform in our thinking and what we need to be investing in to make that possible.",
+      "source": {
+        "line_start": 294,
+        "line_end": 295,
+        "timestamp": "32:47",
+        "speaker": "Asha Sharma"
+      },
+      "context": "Advising teams to leave slack in planning not just for unplanned work but for anticipating disruption",
+      "themes": ["planning", "strategy", "adaptability", "self-disruption"],
+      "zones": ["chaos", "velocity"],
+      "verified": true
+    },
+    {
+      "id": "asha-sharma-011",
+      "text": "The number one learning that I had was look like WhatsApp didn't win because it had stickers or stories or dark mode. In fact, I don't even think it had all of those things when it won. It won on a few premises because one was the phone book... It was the reliability and how fast it was... it wasn't the hundreds of features, it was all in the infrastructure and the platform.",
+      "source": {
+        "line_start": 345,
+        "line_end": 349,
+        "timestamp": "37:15",
+        "speaker": "Asha Sharma"
+      },
+      "context": "Drawing on her messaging experience at Meta to explain that platforms win on fundamentals, not features",
+      "themes": ["product-strategy", "platform", "fundamentals", "reliability"],
+      "zones": ["focus", "perfection"],
+      "verified": true
+    },
+    {
+      "id": "asha-sharma-012",
+      "text": "I've learned that optimism is a renewable resource. This company for 50 years has had every reason not to succeed and it has... I think that his ability to generate energy and to use his optimism to renew everybody's dedication to the mission is unbelievable.",
+      "source": {
+        "line_start": 366,
+        "line_end": 367,
+        "timestamp": "39:52",
+        "speaker": "Asha Sharma"
+      },
+      "context": "Sharing her biggest leadership lesson from working with Satya Nadella at Microsoft",
+      "themes": ["leadership", "culture", "energy", "optimism"],
+      "zones": ["alignment", "velocity"],
+      "verified": true
+    }
+  ],
+  "takeaways": [
+    "Products are becoming living organisms that learn and improve from every interaction - this data loop is the new IP of every company, not the static features you ship.",
+    "Embrace the 'loop, not the lane' mindset - every function needs to understand efficiency, rewards design, and how their work manifests for both agents and humans.",
+    "Companies fail at AI when they do it for AI's sake without measurement, observability, and treating it as a real investment with proper evals.",
+    "Plan in 'seasons' denoted by secular industry changes (like the current 'age of agents') rather than rigid 6-month roadmaps, and leave slack for self-disruption.",
+    "The best platforms win on fundamentals like reliability, privacy, and performance - not features. Focus on the invisible infrastructure work that truly matters."
+  ],
+  "zone_influence": {
+    "velocity": 0.25,
+    "chaos": 0.20,
+    "focus": 0.15,
+    "data": 0.15,
+    "alignment": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.05,
+    "intuition": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "asha-sharma-003",
+      "why": "Calls out the common pattern of companies doing 'AI for AI's sake' without proper measurement - challenges the rush-to-AI mentality",
+      "related_zones": ["focus", "data"]
+    },
+    {
+      "quoteId": "asha-sharma-006",
+      "why": "Argues product makers spend too much time on UI when they should focus on composability and agent-readability - challenges traditional UX thinking",
+      "related_zones": ["focus", "velocity"]
+    },
+    {
+      "quoteId": "asha-sharma-008",
+      "why": "Predicts the death of traditional org charts in favor of task-based 'work charts' with fewer layers - challenges organizational orthodoxy",
+      "related_zones": ["chaos", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["ai-product-strategy", "agents", "organizational-change", "post-training", "platform-building"]
+  }
+}

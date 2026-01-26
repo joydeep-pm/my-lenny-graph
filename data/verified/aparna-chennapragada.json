@@ -1,0 +1,213 @@
+{
+  "slug": "aparna-chennapragada",
+  "quotes": [
+    {
+      "id": "aparna-chennapragada-q001",
+      "speaker": "Aparna Chennapragada",
+      "text": "Open mics are the real live experiments. You put something out there, you get very clear micro feedback from users, and then you get tough feedback sometimes. And I think as product builders, that's actually one of the great skills to have, which is you sometimes launch stuff that have a fantastic vision, but the first version is not quite there.",
+      "timestamp": "00:05:49",
+      "source": {
+        "slug": "aparna-chennapragada",
+        "path": "episodes/aparna-chennapragada/transcript.md",
+        "lineStart": 89,
+        "lineEnd": 89
+      },
+      "themes": ["iteration", "feedback", "resilience"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "aparna-chennapragada-q002",
+      "speaker": "Aparna Chennapragada",
+      "text": "What does a Frontier product look like? And more importantly, how does a Frontier way of working look like? What does a team with three people and tons of compute and AI tools look like?",
+      "timestamp": "00:12:20",
+      "source": {
+        "slug": "aparna-chennapragada",
+        "path": "episodes/aparna-chennapragada/transcript.md",
+        "lineStart": 134,
+        "lineEnd": 134
+      },
+      "themes": ["future-of-work", "AI-tools", "team-structure"],
+      "zones": ["discovery", "velocity", "chaos"]
+    },
+    {
+      "id": "aparna-chennapragada-q003",
+      "speaker": "Aparna Chennapragada",
+      "text": "When I think about agents, I think about three things. One is an increasing level of autonomy and kind of independence that you can delegate higher and higher order tasks. Second thing I think of it is complexity. It's not a one-shot, it's build me this prototype. And then the third thing I would say is asynchronous. It works when you are not working.",
+      "timestamp": "00:16:07",
+      "source": {
+        "slug": "aparna-chennapragada",
+        "path": "episodes/aparna-chennapragada/transcript.md",
+        "lineStart": 164,
+        "lineEnd": 164
+      },
+      "themes": ["agents", "AI", "delegation"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "aparna-chennapragada-q004",
+      "speaker": "Aparna Chennapragada",
+      "text": "NLX is the new UX. Traditionally we've thought very consciously about GUI because the graphical interfaces are not something natural. What we have with conversational interface and natural language is it's a much more elastic. That doesn't mean it's not designed. Conversations also have grammars, they have structures, they have UI elements, they're invisible.",
+      "timestamp": "00:18:10",
+      "source": {
+        "slug": "aparna-chennapragada",
+        "path": "episodes/aparna-chennapragada/transcript.md",
+        "lineStart": 176,
+        "lineEnd": 176
+      },
+      "themes": ["NLX", "UX", "design", "conversational-AI"],
+      "zones": ["discovery", "intuition", "perfection"]
+    },
+    {
+      "id": "aparna-chennapragada-q005",
+      "speaker": "Aparna Chennapragada",
+      "text": "In this day and age, if you're not prototyping and building to see what you want to build, I think you're doing it wrong. I call it the prompt sets are the new PRDs. I really insist on folks saying if you're building new projects, new features of course come with prototypes and prompt sets. Demos before memos.",
+      "timestamp": "00:22:59",
+      "source": {
+        "slug": "aparna-chennapragada",
+        "path": "episodes/aparna-chennapragada/transcript.md",
+        "lineStart": 206,
+        "lineEnd": 206
+      },
+      "themes": ["prototyping", "AI-tools", "product-development"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "aparna-chennapragada-q006",
+      "speaker": "Aparna Chennapragada",
+      "text": "The time to first demo is much shorter, but the time to a full deployment is going to take longer. There's going to be a massive increase in supply of ideas and prototypes which is great. It raises the floor, but it raises the ceiling as well. How do you break out in these times that you have to make sure that this is something that rises above the noise?",
+      "timestamp": "00:24:04",
+      "source": {
+        "slug": "aparna-chennapragada",
+        "path": "episodes/aparna-chennapragada/transcript.md",
+        "lineStart": 209,
+        "lineEnd": 209
+      },
+      "themes": ["product-development", "differentiation", "competition"],
+      "zones": ["velocity", "focus", "perfection"]
+    },
+    {
+      "id": "aparna-chennapragada-q007",
+      "speaker": "Aparna Chennapragada",
+      "text": "It becomes even more important to have that editorial and taste making in a Frontier, one or a few at the heart of it because otherwise you just have Frankenstein product. That definitely doesn't change.",
+      "timestamp": "00:25:14",
+      "source": {
+        "slug": "aparna-chennapragada",
+        "path": "episodes/aparna-chennapragada/transcript.md",
+        "lineStart": 212,
+        "lineEnd": 212
+      },
+      "themes": ["taste-making", "editorial", "product-quality"],
+      "zones": ["intuition", "perfection", "focus"]
+    },
+    {
+      "id": "aparna-chennapragada-q008",
+      "speaker": "Aparna Chennapragada",
+      "text": "If you are a TPS report, mostly process person, I think then you do have a question of what is the value add here. But what I do think is the taste making and the editing function becomes really, really important. In a world where the supply of ideas, supply of prototypes becomes an order of magnitude higher, you'd have to think about what is the editing function here.",
+      "timestamp": "00:28:41",
+      "source": {
+        "slug": "aparna-chennapragada",
+        "path": "episodes/aparna-chennapragada/transcript.md",
+        "lineStart": 233,
+        "lineEnd": 233
+      },
+      "themes": ["product-management", "taste-making", "AI-impact"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "aparna-chennapragada-q009",
+      "speaker": "Aparna Chennapragada",
+      "text": "The updating of the priors is really hard. The models couldn't do some things one year ago. My impression from trying it a few months ago, that prior needs to be updated. You have to do something almost counterintuitive to say ignore what you learned about what this can or cannot do. The baby just grew up to be a 15-year-old in a month.",
+      "timestamp": "00:31:56",
+      "source": {
+        "slug": "aparna-chennapragada",
+        "path": "episodes/aparna-chennapragada/transcript.md",
+        "lineStart": 251,
+        "lineEnd": 251
+      },
+      "themes": ["AI-adoption", "mental-models", "learning"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "aparna-chennapragada-q010",
+      "speaker": "Aparna Chennapragada",
+      "text": "There's a temptation to rush and say to go to scale before solve. So I've always said to my teams solve before scale. When you're trying to solve a problem, there are wide lurches. You got to be very comfortable with the fact that you're day one thinking about a plant detection tool and day 15 you're like, oh, actually, the tech is really good for translating foreign language.",
+      "timestamp": "00:38:19",
+      "source": {
+        "slug": "aparna-chennapragada",
+        "path": "episodes/aparna-chennapragada/transcript.md",
+        "lineStart": 317,
+        "lineEnd": 317
+      },
+      "themes": ["zero-to-one", "product-strategy", "iteration"],
+      "zones": ["discovery", "chaos", "focus"]
+    },
+    {
+      "id": "aparna-chennapragada-q011",
+      "speaker": "Aparna Chennapragada",
+      "text": "You do want to look for at least two out of these three factors: Is there a step function in the tech? What is the consumer behavior shift? And is there an inflection point in the business model? All three for a great product, but at least two out of three for a good product.",
+      "timestamp": "00:41:33",
+      "source": {
+        "slug": "aparna-chennapragada",
+        "path": "episodes/aparna-chennapragada/transcript.md",
+        "lineStart": 335,
+        "lineEnd": 341
+      },
+      "themes": ["zero-to-one", "product-timing", "strategy"],
+      "zones": ["discovery", "data", "intuition"]
+    },
+    {
+      "id": "aparna-chennapragada-q012",
+      "speaker": "Aparna Chennapragada",
+      "text": "It's harsh, but being early is the same as being wrong. The interface was great, the intelligence wasn't there. It made me realize I really love seeing around the corner and building the product rise to the occasion way more than the scaling and sustaining products.",
+      "timestamp": "00:52:00",
+      "source": {
+        "slug": "aparna-chennapragada",
+        "path": "episodes/aparna-chennapragada/transcript.md",
+        "lineStart": 392,
+        "lineEnd": 392
+      },
+      "themes": ["timing", "zero-to-one", "failure"],
+      "zones": ["discovery", "intuition", "chaos"]
+    }
+  ],
+  "themes": ["AI-product-development", "agents", "NLX", "prototyping", "taste-making", "zero-to-one", "future-of-work", "product-management"],
+  "takeaways": [
+    "Prompt sets are the new PRDs - in the AI era, if you're not prototyping and building to see what you want to build, you're doing it wrong. Demos before memos.",
+    "NLX is the new UX - natural language interfaces require conscious design just like GUIs. Conversations have grammars, structures, and invisible UI elements that must be intentionally crafted.",
+    "Agents are defined by three dimensions: autonomy (delegating higher-order tasks), complexity (multi-step work beyond one-shot requests), and asynchronous operation (working when you're not).",
+    "Solve before scale - when building zero-to-one products, be comfortable with wide lurches and chaos. Premature metrics are false precision that can lock you into a local maximum.",
+    "The editing and taste-making function of PMs becomes more important, not less, as AI increases the supply of ideas and prototypes by an order of magnitude."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.10,
+    "discovery": 0.30,
+    "data": 0.05,
+    "intuition": 0.20,
+    "alignment": 0.00,
+    "chaos": 0.10,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "aparna-chennapragada-q010",
+      "why": "Challenges the common startup wisdom to move fast and scale quickly - argues you must solve before you scale and be comfortable with chaotic pivots",
+      "related_zones": ["discovery", "chaos", "focus"]
+    },
+    {
+      "quoteId": "aparna-chennapragada-q012",
+      "why": "Being early is the same as being wrong - challenges the 'first mover advantage' narrative with the harsh reality that timing matters more than being first",
+      "related_zones": ["discovery", "intuition", "chaos"]
+    },
+    {
+      "quoteId": "aparna-chennapragada-q007",
+      "why": "In an age of AI democratization, argues taste-making becomes MORE important, not less - counters the 'everyone can build' narrative",
+      "related_zones": ["intuition", "perfection", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "executive",
+    "company_stage": "public",
+    "primary_topics": ["AI-product-strategy", "agents", "NLX-design", "zero-to-one", "future-of-pm"]
+  }
+}

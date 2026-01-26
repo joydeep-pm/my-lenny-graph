@@ -1,0 +1,216 @@
+{
+  "episode_slug": "elena-verna-20",
+  "guest": "Elena Verna",
+  "episode_title": "The ultimate guide to product-led sales | Elena Verna",
+  "verification_date": "2026-01-26",
+  "verified_by": "claude-opus-4",
+  "quotes": [
+    {
+      "id": "elena-verna-20-001",
+      "text": "Product-led growth is all about product's ability to self-serve activate, self-serve engage, and convert that usage to a monetization opportunity. You bring people, you get them to an aha moment into the habit loops, and then you're able to extract value back out of them.",
+      "source": {
+        "line_start": 117,
+        "line_end": 118,
+        "timestamp": "00:07:54",
+        "speaker": "Elena Verna"
+      },
+      "context": "Elena defining the core concept of product-led growth before explaining how product-led sales builds upon it",
+      "themes": ["product-led-growth", "self-serve", "monetization", "activation"],
+      "zones": ["velocity", "data"],
+      "verified": true
+    },
+    {
+      "id": "elena-verna-20-002",
+      "text": "Self-serve monetization has a cap of about $10,000. That's just how much we're able to process on the credit cards before they start getting flagged and declined by the banks and how much we as consumers and prosumers are even willing to put on our credit card.",
+      "source": {
+        "line_start": 120,
+        "line_end": 121,
+        "timestamp": "00:08:34",
+        "speaker": "Elena Verna"
+      },
+      "context": "Explaining the natural ceiling of self-serve monetization and why product-led sales becomes necessary",
+      "themes": ["self-serve", "monetization", "pricing", "enterprise-sales"],
+      "zones": ["data", "focus"],
+      "verified": true
+    },
+    {
+      "id": "elena-verna-20-003",
+      "text": "Products fundamentally do a really bad job at communicating enterprise-level value prop. They're very good at showing you as a user what you can do. They're terrible at showing what organization actually can benefit out of the solution.",
+      "source": {
+        "line_start": 144,
+        "line_end": 145,
+        "timestamp": "00:11:25",
+        "speaker": "Elena Verna"
+      },
+      "context": "Explaining why sales is needed to bridge the gap from individual use cases to enterprise-level solutions",
+      "themes": ["enterprise-sales", "value-proposition", "product-led-sales", "go-to-market"],
+      "zones": ["alignment", "discovery"],
+      "verified": true
+    },
+    {
+      "id": "elena-verna-20-004",
+      "text": "To understand how sales should be applied in the situation, you need to understand end user's motivation, ability, and permission. A lot of times the end users miss permission of solving enterprise-level problems. There's lots of stakeholders, there's a committee that has to make a decision.",
+      "source": {
+        "line_start": 165,
+        "line_end": 166,
+        "timestamp": "00:12:59",
+        "speaker": "Elena Verna"
+      },
+      "context": "Introducing her framework for understanding when and how sales should engage with product users",
+      "themes": ["sales-strategy", "decision-making", "enterprise-sales", "stakeholder-management"],
+      "zones": ["alignment", "discovery"],
+      "verified": true
+    },
+    {
+      "id": "elena-verna-20-005",
+      "text": "That organic demand very quickly dries up if you rely on hand-raisers of your champions. If you rely on having enterprise buyers in your user base that are asking to just sign on the dotted line, then you have a very limited ceiling for your growth.",
+      "source": {
+        "line_start": 190,
+        "line_end": 193,
+        "timestamp": "00:18:15",
+        "speaker": "Elena Verna"
+      },
+      "context": "Warning about the limitations of waiting for organic sales demand in product-led growth companies",
+      "themes": ["growth-ceiling", "enterprise-sales", "product-led-sales", "pipeline"],
+      "zones": ["velocity", "focus"],
+      "verified": true
+    },
+    {
+      "id": "elena-verna-20-006",
+      "text": "To have product-led sales means you're going upmarket, period. That means you're going for contract values that are probably over your sales floor, so the minimum that the sales is willing to engage and close, which is traditionally around $15,000.",
+      "source": {
+        "line_start": 201,
+        "line_end": 207,
+        "timestamp": "00:20:57",
+        "speaker": "Elena Verna"
+      },
+      "context": "Defining what it means strategically to adopt product-led sales and its implications for market positioning",
+      "themes": ["product-led-sales", "upmarket", "enterprise-sales", "contract-value"],
+      "zones": ["focus", "data"],
+      "verified": true
+    },
+    {
+      "id": "elena-verna-20-007",
+      "text": "In B2B, unfortunately, we've let go of the products having accountability over monetization model. We've gotten into the spiral of product just builds a product and it throws it over the fence to marketing and sales to sell.",
+      "source": {
+        "line_start": 225,
+        "line_end": 226,
+        "timestamp": "00:24:49",
+        "speaker": "Elena Verna"
+      },
+      "context": "Critiquing how B2B product teams have abdicated responsibility for monetization to sales and marketing",
+      "themes": ["product-accountability", "monetization", "b2b", "organizational-structure"],
+      "zones": ["alignment", "focus"],
+      "verified": true
+    },
+    {
+      "id": "elena-verna-20-008",
+      "text": "You cannot consider a new product sign-up an MQL in the traditional sense. They're just not there yet. They have a fraction of the enterprise problem that they're solving and they're not ready to buy.",
+      "source": {
+        "line_start": 295,
+        "line_end": 298,
+        "timestamp": "00:34:41",
+        "speaker": "Elena Verna"
+      },
+      "context": "Explaining why product-led sales requires a different mindset than traditional top-down sales qualification",
+      "themes": ["lead-qualification", "product-led-sales", "user-journey", "sales-timing"],
+      "zones": ["discovery", "data"],
+      "verified": true
+    },
+    {
+      "id": "elena-verna-20-009",
+      "text": "One of the biggest PQAs is number of users in the company using your product. By the way, the magic number is usually seven. The more time you have seven or more users in the company, there's enough value distributed across multiple people that there might be an enterprise conversation to be had.",
+      "source": {
+        "line_start": 373,
+        "line_end": 376,
+        "timestamp": "00:42:17",
+        "speaker": "Elena Verna"
+      },
+      "context": "Sharing a specific benchmark for identifying product-qualified accounts based on user adoption patterns",
+      "themes": ["pqa", "metrics", "enterprise-sales", "network-effects"],
+      "zones": ["data", "velocity"],
+      "verified": true
+    },
+    {
+      "id": "elena-verna-20-010",
+      "text": "Your terms of use pages, your privacy and policy. Nobody cares about it unless they're considering enterprise deal. If you see anybody from account land on your terms of use pages, reach out to that person. More likely than not, you have a buyer on the hook.",
+      "source": {
+        "line_start": 396,
+        "line_end": 398,
+        "timestamp": "00:46:19",
+        "speaker": "Elena Verna"
+      },
+      "context": "Revealing a counterintuitive behavioral signal that indicates enterprise buying intent",
+      "themes": ["behavioral-signals", "enterprise-sales", "pqa", "sales-timing"],
+      "zones": ["data", "intuition"],
+      "verified": true
+    },
+    {
+      "id": "elena-verna-20-011",
+      "text": "The worst thing that you can do is to say, 'I'm going to do product-led growth,' or, 'I'm going to do product-led sales and I'm going to do it in marketing.' Recipe for disaster. You'll be failure mode within six months because product has to take accountability over selling of the product itself.",
+      "source": {
+        "line_start": 499,
+        "line_end": 502,
+        "timestamp": "00:55:19",
+        "speaker": "Elena Verna"
+      },
+      "context": "Warning against a common organizational mistake when implementing product-led sales",
+      "themes": ["product-accountability", "organizational-structure", "product-led-sales", "failure-modes"],
+      "zones": ["alignment", "focus"],
+      "verified": true
+    },
+    {
+      "id": "elena-verna-20-012",
+      "text": "I think we all in tech, and I specifically point a finger at my B2B industry, just got a little bit complacent with revenue ownership from product side. I do think it's catastrophic for us in the long term if we don't fix it.",
+      "source": {
+        "line_start": 519,
+        "line_end": 520,
+        "timestamp": "00:59:21",
+        "speaker": "Elena Verna"
+      },
+      "context": "A strong call to action for product teams to reclaim ownership of monetization",
+      "themes": ["product-accountability", "revenue-ownership", "b2b", "industry-critique"],
+      "zones": ["focus", "chaos"],
+      "verified": true
+    }
+  ],
+  "takeaways": [
+    "Product-led sales bridges the gap between individual user activation and enterprise-level deals by attaching salespeople to usage signals rather than cold outreach - it's how PLG companies go upmarket beyond the $10K self-serve ceiling.",
+    "The magic number for PQA is seven users - when seven or more users from the same company are using your product, there's enough distributed value for an enterprise conversation.",
+    "Product teams must own monetization accountability in PLS - putting it in marketing is a 'recipe for disaster' that leads to failure within six months because product has to take ownership of selling itself.",
+    "New sign-ups are NOT MQLs - they're solving individual problems, not enterprise ones. Treating them like traditional sales leads creates the annoying 'sales guy showing up 10 minutes after signup' experience.",
+    "Watch for counterintuitive buying signals like terms of use page visits - nobody reads privacy policies unless they're evaluating an enterprise purchase, making these pages powerful PQA indicators."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.25,
+    "intuition": 0.10,
+    "alignment": 0.20,
+    "chaos": 0.05,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "elena-verna-20-007",
+      "why": "Directly challenges the dominant B2B model where product teams build features and 'throw them over the fence' to sales - argues this is fundamentally broken",
+      "related_zones": ["alignment", "focus"]
+    },
+    {
+      "quoteId": "elena-verna-20-010",
+      "why": "Counterintuitive insight that boring legal pages are actually powerful sales signals - most companies completely ignore this signal",
+      "related_zones": ["data", "intuition"]
+    },
+    {
+      "quoteId": "elena-verna-20-012",
+      "why": "Strong criticism of the entire B2B tech industry being 'complacent' on product revenue ownership - calls it 'catastrophic' for long-term health",
+      "related_zones": ["focus", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "mixed",
+    "primary_topics": ["product-led-sales", "product-led-growth", "b2b-growth", "monetization", "go-to-market"]
+  }
+}
