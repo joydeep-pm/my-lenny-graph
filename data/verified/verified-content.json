@@ -5980,6 +5980,325 @@
       }
     },
     {
+      "slug": "gibson-biddle",
+      "quotes": [
+        {
+          "id": "gibson-biddle-q001",
+          "speaker": "Gibson Biddle",
+          "text": "The job is to delight customers. Like Peter Thiel, his book, From Zero to One. The job of an entrepreneur at the beginning is just to find out something that's 10X better. Delight is trying to work in that magnitude.",
+          "timestamp": "00:09:05",
+          "source": {
+            "slug": "gibson-biddle",
+            "path": "episodes/gibson-biddle/transcript.md",
+            "lineStart": 126,
+            "lineEnd": 127
+          },
+          "themes": [
+            "product-strategy",
+            "customer-delight",
+            "DHM-framework"
+          ],
+          "zones": [
+            "perfection",
+            "discovery"
+          ]
+        },
+        {
+          "id": "gibson-biddle-q002",
+          "speaker": "Gibson Biddle",
+          "text": "I'll bet my paycheck that within a week, Blockbuster's going to put a happy family on their couch, too. And this is the problem of doing things that are easy to copy. So in the long term, if you can delight customers and create hard to copy advantage, things are just a lot better.",
+          "timestamp": "00:09:58",
+          "source": {
+            "slug": "gibson-biddle",
+            "path": "episodes/gibson-biddle/transcript.md",
+            "lineStart": 131,
+            "lineEnd": 133
+          },
+          "themes": [
+            "competitive-advantage",
+            "strategy",
+            "DHM-framework"
+          ],
+          "zones": [
+            "focus",
+            "perfection"
+          ]
+        },
+        {
+          "id": "gibson-biddle-q003",
+          "speaker": "Gibson Biddle",
+          "text": "I mainly was just trying to find these high level theories and hypotheses that I hoped would delight in hard to copy, margin enhancing ways. The reality was, we'd have 10 ideas and probably six of them would fail, but a lot of value in the three or the four that worked.",
+          "timestamp": "00:17:54",
+          "source": {
+            "slug": "gibson-biddle",
+            "path": "episodes/gibson-biddle/transcript.md",
+            "lineStart": 261,
+            "lineEnd": 262
+          },
+          "themes": [
+            "experimentation",
+            "hypothesis-testing",
+            "product-strategy"
+          ],
+          "zones": [
+            "data",
+            "discovery",
+            "chaos"
+          ]
+        },
+        {
+          "id": "gibson-biddle-q004",
+          "speaker": "Gibson Biddle",
+          "text": "You sort of want to get to this place where you don't really care, and your sort of true North is okay, how can we best serve our customer? And that's what I really love about that particular model.",
+          "timestamp": "00:20:36",
+          "source": {
+            "slug": "gibson-biddle",
+            "path": "episodes/gibson-biddle/transcript.md",
+            "lineStart": 282,
+            "lineEnd": 283
+          },
+          "themes": [
+            "customer-focus",
+            "competition",
+            "strategy"
+          ],
+          "zones": [
+            "focus",
+            "perfection"
+          ]
+        },
+        {
+          "id": "gibson-biddle-q005",
+          "speaker": "Gibson Biddle",
+          "text": "If you find an idea that only works for 2% of your customers, now you're creating complexity, one more thing to choose. As a rule, I never used rules as thumbs, but these two percenters, I would kill them. If I launched something and it was only 2% we'd, we called it scraping the barnacles, just get rid of it.",
+          "timestamp": "00:24:10",
+          "source": {
+            "slug": "gibson-biddle",
+            "path": "episodes/gibson-biddle/transcript.md",
+            "lineStart": 333,
+            "lineEnd": 337
+          },
+          "themes": [
+            "simplicity",
+            "prioritization",
+            "product-decisions"
+          ],
+          "zones": [
+            "focus",
+            "data"
+          ]
+        },
+        {
+          "id": "gibson-biddle-q006",
+          "speaker": "Gibson Biddle",
+          "text": "As product managers, we feel like every decision we make is high stakes. It's good occasionally to think about, hey, what's the magnitude? And then, is it reversible? Amazon calls those two-way door decisions. It's reversible. The one way door, those are the bigger deal.",
+          "timestamp": "00:28:39",
+          "source": {
+            "slug": "gibson-biddle",
+            "path": "episodes/gibson-biddle/transcript.md",
+            "lineStart": 399,
+            "lineEnd": 403
+          },
+          "themes": [
+            "decision-making",
+            "risk-assessment",
+            "reversibility"
+          ],
+          "zones": [
+            "data",
+            "velocity",
+            "chaos"
+          ]
+        },
+        {
+          "id": "gibson-biddle-q007",
+          "speaker": "Gibson Biddle",
+          "text": "I would just text my pals, and they would just give me the data. That's amazing insight, just by having peers in the business that you talk to, which this is the behavior that I want everybody out there engaged in. I call it building your personal board of directors.",
+          "timestamp": "00:40:51",
+          "source": {
+            "slug": "gibson-biddle",
+            "path": "episodes/gibson-biddle/transcript.md",
+            "lineStart": 518,
+            "lineEnd": 520
+          },
+          "themes": [
+            "mentorship",
+            "career-development",
+            "networking"
+          ],
+          "zones": [
+            "alignment",
+            "discovery"
+          ]
+        },
+        {
+          "id": "gibson-biddle-q008",
+          "speaker": "Gibson Biddle",
+          "text": "The first rule of thumb is, don't ask a person to be your mentor. That's really awkward. First, identify them. Say, this is a person I think that could be helpful to me. And then, find ways to be helpful. Everybody needs help. Everybody, everybody, everybody.",
+          "timestamp": "00:42:13",
+          "source": {
+            "slug": "gibson-biddle",
+            "path": "episodes/gibson-biddle/transcript.md",
+            "lineStart": 532,
+            "lineEnd": 535
+          },
+          "themes": [
+            "mentorship",
+            "relationships",
+            "career-advice"
+          ],
+          "zones": [
+            "alignment",
+            "intuition"
+          ]
+        },
+        {
+          "id": "gibson-biddle-q009",
+          "speaker": "Gibson Biddle",
+          "text": "I just need you to force rank these three factors for me: growth, engagement, and monetization. And I need the two of you to agree. Growth is basically year over year customer growth. Engagement is how I think about product quality. A more engaging product is a better product.",
+          "timestamp": "00:44:15",
+          "source": {
+            "slug": "gibson-biddle",
+            "path": "episodes/gibson-biddle/transcript.md",
+            "lineStart": 561,
+            "lineEnd": 564
+          },
+          "themes": [
+            "GEM-framework",
+            "prioritization",
+            "alignment"
+          ],
+          "zones": [
+            "alignment",
+            "data",
+            "focus"
+          ]
+        },
+        {
+          "id": "gibson-biddle-q010",
+          "speaker": "Gibson Biddle",
+          "text": "These are the kinds of fundamental misalignments that can wreck startups. I'm not saying that one or the other was right or wrong, but as leaders in the organization, we've got to get some of the basic stories straight, including how do we fundamentally prioritize growth versus engagement versus monetization?",
+          "timestamp": "00:45:56",
+          "source": {
+            "slug": "gibson-biddle",
+            "path": "episodes/gibson-biddle/transcript.md",
+            "lineStart": 569,
+            "lineEnd": 571
+          },
+          "themes": [
+            "leadership-alignment",
+            "prioritization",
+            "startup-challenges"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ]
+        },
+        {
+          "id": "gibson-biddle-q011",
+          "speaker": "Gibson Biddle",
+          "text": "When I would join a new company, I would give myself two weeks to develop the product strategy for that company, which is a little outrageous, but I would just do it fast. I would develop the SWAG, but then I'd go to one person. 'Hey, this is my best thinking, what do you think?' And of course, they had been there for four years. They were much smarter than I, and they would refine my thinking.",
+          "timestamp": "00:47:25",
+          "source": {
+            "slug": "gibson-biddle",
+            "path": "episodes/gibson-biddle/transcript.md",
+            "lineStart": 585,
+            "lineEnd": 588
+          },
+          "themes": [
+            "strategy",
+            "speed",
+            "collaboration"
+          ],
+          "zones": [
+            "velocity",
+            "alignment",
+            "intuition"
+          ]
+        },
+        {
+          "id": "gibson-biddle-q012",
+          "speaker": "Gibson Biddle",
+          "text": "Begin your day with intent. What are the three to five things I'm hoping to do today? Second, minimize meetings. That sucks the life out of everybody, including you. Spend a lot of time with your customers. Find a balance between doing and thinking. Most of us do, do, do. Occasionally stop and ask yourself, what should I really be doing right now?",
+          "timestamp": "00:52:49",
+          "source": {
+            "slug": "gibson-biddle",
+            "path": "episodes/gibson-biddle/transcript.md",
+            "lineStart": 639,
+            "lineEnd": 646
+          },
+          "themes": [
+            "productivity",
+            "customer-focus",
+            "self-management"
+          ],
+          "zones": [
+            "focus",
+            "perfection",
+            "discovery"
+          ]
+        }
+      ],
+      "themes": [
+        "DHM-framework",
+        "GEM-framework",
+        "product-strategy",
+        "experimentation",
+        "prioritization",
+        "career-development",
+        "mentorship",
+        "decision-making",
+        "customer-focus"
+      ],
+      "takeaways": [
+        "The DHM framework (Delight, Hard to copy, Margin) provides a lens for evaluating product strategy - aim for 10X better experiences that competitors cannot easily replicate while building sustainable business models.",
+        "Force rank Growth, Engagement, and Monetization (GEM) with your leadership team to prevent fundamental misalignments that can wreck startups - these prioritization conflicts are the number one source of startup dysfunction.",
+        "Embrace hypothesis-driven product development - expect 6 out of 10 ideas to fail, but the value comes from the 3-4 that succeed. Kill 'two percenters' ruthlessly to reduce complexity.",
+        "Build your personal board of directors by maintaining peer relationships and finding ways to be helpful to potential mentors first - never explicitly ask someone to be your mentor.",
+        "Start with a SWAG (Stupid Wild-Ass Guess) rather than perfecting in isolation - develop strategy fast, then iterate through one-on-one conversations with people who know more than you."
+      ],
+      "zone_influence": {
+        "velocity": 0.1,
+        "perfection": 0.15,
+        "discovery": 0.1,
+        "data": 0.2,
+        "intuition": 0.1,
+        "alignment": 0.2,
+        "chaos": 0.05,
+        "focus": 0.1
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "gibson-biddle-q005",
+          "why": "Kill features that only 2% use - attacks the instinct to keep everything, advocates ruthless simplicity through 'scraping the barnacles'",
+          "related_zones": [
+            "focus",
+            "data"
+          ]
+        },
+        {
+          "quoteId": "gibson-biddle-q011",
+          "why": "Two weeks to develop product strategy is outrageous but effective - attacks the tendency to over-analyze and delay with a SWAG-first approach",
+          "related_zones": [
+            "velocity",
+            "intuition"
+          ]
+        }
+      ],
+      "guest_metadata": {
+        "guest_type": "product-leader",
+        "company_stage": "public",
+        "primary_topics": [
+          "product-strategy",
+          "DHM-framework",
+          "GEM-framework",
+          "experimentation",
+          "career-development"
+        ]
+      }
+    },
+    {
       "slug": "gokul-rajaram",
       "guest": "Gokul Rajaram",
       "episode_title": "Gokul Rajaram on designing your product development process, when and how to hire your first PM, a playbook for hiring leaders, getting ahead in your career, how to get started angel investing, and more",
@@ -7941,6 +8260,308 @@
       }
     },
     {
+      "slug": "melanie-perkins",
+      "quotes": [
+        {
+          "id": "melanie-perkins-q001",
+          "speaker": "Melanie Perkins",
+          "text": "And I think most planning is often done by looking at the bricks and trying to stack them, and then you can create only so much. And so I guess the column B thinking is thinking about what is that magical wonderful future that you then want to invest years and decades of your life actually building?",
+          "timestamp": "00:05:35",
+          "source": {
+            "slug": "melanie-perkins",
+            "path": "episodes/melanie-perkins/transcript.md",
+            "lineStart": 84,
+            "lineEnd": 84
+          },
+          "themes": [
+            "vision",
+            "strategy",
+            "founder-mindset"
+          ],
+          "zones": [
+            "discovery",
+            "intuition"
+          ]
+        },
+        {
+          "id": "melanie-perkins-q002",
+          "speaker": "Melanie Perkins",
+          "text": "You kind of want to have a ladder that goes all the way up to the moon, which is your crazy, wild vision. And then you want to have rungs that just work its way up step by step. And so you want to get that really clear picture of the future that you would like and then just take little step, after little step, after little step.",
+          "timestamp": "00:09:43",
+          "source": {
+            "slug": "melanie-perkins",
+            "path": "episodes/melanie-perkins/transcript.md",
+            "lineStart": 108,
+            "lineEnd": 108
+          },
+          "themes": [
+            "vision",
+            "execution",
+            "incremental-progress"
+          ],
+          "zones": [
+            "focus",
+            "velocity"
+          ]
+        },
+        {
+          "id": "melanie-perkins-q003",
+          "speaker": "Melanie Perkins",
+          "text": "So we have this concept of chaos to clarity and every idea starts in the chaos side, and then you have to work all the way to the other side, which is clarity. And so chaos can be an idea, it can be a problem, it can be a philosophy or a belief.",
+          "timestamp": "00:12:04",
+          "source": {
+            "slug": "melanie-perkins",
+            "path": "episodes/melanie-perkins/transcript.md",
+            "lineStart": 123,
+            "lineEnd": 123
+          },
+          "themes": [
+            "product-development",
+            "ideation",
+            "process"
+          ],
+          "zones": [
+            "chaos",
+            "discovery"
+          ]
+        },
+        {
+          "id": "melanie-perkins-q004",
+          "speaker": "Melanie Perkins",
+          "text": "That very first step at the very far end of chaos, it's very embarrassing because you're like, 'I have this idea that is so big and so wild and how the hell would I do that? I have no idea.' And so it's quite an embarrassing step, actually, because you don't have mastery at that point. You don't have all the answers.",
+          "timestamp": "00:13:48",
+          "source": {
+            "slug": "melanie-perkins",
+            "path": "episodes/melanie-perkins/transcript.md",
+            "lineStart": 129,
+            "lineEnd": 129
+          },
+          "themes": [
+            "founder-journey",
+            "humility",
+            "starting-out"
+          ],
+          "zones": [
+            "chaos",
+            "intuition"
+          ]
+        },
+        {
+          "id": "melanie-perkins-q005",
+          "speaker": "Melanie Perkins",
+          "text": "I think the thing that I love about a crazy big goal is that you feel completely inadequate before it. With a crazy big goal, then you want to work really hard to will it into existence. And so if you start with a reasonable goal or a realistic goal, then you kind of get to it and you're like, 'Oh cool, whatever.'",
+          "timestamp": "00:15:08",
+          "source": {
+            "slug": "melanie-perkins",
+            "path": "episodes/melanie-perkins/transcript.md",
+            "lineStart": 135,
+            "lineEnd": 138
+          },
+          "themes": [
+            "ambition",
+            "motivation",
+            "goals"
+          ],
+          "zones": [
+            "discovery",
+            "focus"
+          ]
+        },
+        {
+          "id": "melanie-perkins-q006",
+          "speaker": "Melanie Perkins",
+          "text": "We were doing a front-end rewrite and we thought it would take about six months. It was really important because it was critical for cross-platform. And it just felt like we're in a dark, dark tunnel that we could hardly see the end of the tunnel. A product company not shipping product is not really a recipe for fun.",
+          "timestamp": "00:24:14",
+          "source": {
+            "slug": "melanie-perkins",
+            "path": "episodes/melanie-perkins/transcript.md",
+            "lineStart": 189,
+            "lineEnd": 192
+          },
+          "themes": [
+            "perseverance",
+            "product-development",
+            "challenges"
+          ],
+          "zones": [
+            "focus",
+            "perfection"
+          ]
+        },
+        {
+          "id": "melanie-perkins-q007",
+          "speaker": "Melanie Perkins",
+          "text": "It was really clear in my mind that it was the future and I thought the investors were wrong, frankly. But investors also gave really helpful feedback and feedback often in the form of rejection. So they would say, 'Oh, your market's not big enough.' And I would say, 'It's going to be huge.' And I'd add a new page in my pitch deck.",
+          "timestamp": "00:27:06",
+          "source": {
+            "slug": "melanie-perkins",
+            "path": "episodes/melanie-perkins/transcript.md",
+            "lineStart": 216,
+            "lineEnd": 216
+          },
+          "themes": [
+            "fundraising",
+            "perseverance",
+            "iteration"
+          ],
+          "zones": [
+            "intuition",
+            "velocity"
+          ]
+        },
+        {
+          "id": "melanie-perkins-q008",
+          "speaker": "Melanie Perkins",
+          "text": "It's kind of building a house that you want every brick in the house to match. And if you go and try and take some bricks from someone else's house and stick it in your house, it's probably going to not look very matched. And so trying to find things that are authentic to us and are authentic to everything that's come before it.",
+          "timestamp": "00:31:11",
+          "source": {
+            "slug": "melanie-perkins",
+            "path": "episodes/melanie-perkins/transcript.md",
+            "lineStart": 240,
+            "lineEnd": 240
+          },
+          "themes": [
+            "culture",
+            "authenticity",
+            "leadership"
+          ],
+          "zones": [
+            "alignment",
+            "perfection"
+          ]
+        },
+        {
+          "id": "melanie-perkins-q009",
+          "speaker": "Melanie Perkins",
+          "text": "Often people have a mission that's kind of on the wall somewhere and then what they're actually doing and the way they actually make money and the way people actually spend their time is in a very, very different direction from that original mission. And I think the magic is when you can bring those two things together.",
+          "timestamp": "00:34:48",
+          "source": {
+            "slug": "melanie-perkins",
+            "path": "episodes/melanie-perkins/transcript.md",
+            "lineStart": 264,
+            "lineEnd": 264
+          },
+          "themes": [
+            "mission",
+            "alignment",
+            "strategy"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ]
+        },
+        {
+          "id": "melanie-perkins-q010",
+          "speaker": "Melanie Perkins",
+          "text": "I don't have emails on my phone and so when I shut my laptop, I actually tune out and then if there's a real issue, I'll get an emergency call or page. Sometimes you can miss the forest from the trees when you're just working harder and harder, but maybe you're actually working on the wrong thing.",
+          "timestamp": "00:37:15",
+          "source": {
+            "slug": "melanie-perkins",
+            "path": "episodes/melanie-perkins/transcript.md",
+            "lineStart": 276,
+            "lineEnd": 276
+          },
+          "themes": [
+            "work-life-balance",
+            "perspective",
+            "leadership"
+          ],
+          "zones": [
+            "focus",
+            "intuition"
+          ]
+        },
+        {
+          "id": "melanie-perkins-q011",
+          "speaker": "Melanie Perkins",
+          "text": "And if you take that problem centered approach that helps people to achieve something they actually want to do in the real life, you're probably going to be at a reasonably good spot. I think it's better to solve a small number of people's problem really well than trying to solve a large number of people's problem not very well at all.",
+          "timestamp": "00:52:04",
+          "source": {
+            "slug": "melanie-perkins",
+            "path": "episodes/melanie-perkins/transcript.md",
+            "lineStart": 399,
+            "lineEnd": 399
+          },
+          "themes": [
+            "product-market-fit",
+            "focus",
+            "customer-centricity"
+          ],
+          "zones": [
+            "focus",
+            "discovery",
+            "data"
+          ]
+        }
+      ],
+      "themes": [
+        "vision",
+        "perseverance",
+        "product-led-growth",
+        "democratizing-design",
+        "founder-journey",
+        "fundraising",
+        "chaos-to-clarity",
+        "crazy-big-goals",
+        "mission-alignment"
+      ],
+      "takeaways": [
+        "Column B thinking means imagining the magical future you want to will into existence, not just stacking the bricks around you - most planning starts from constraints, but transformative companies start from vision.",
+        "Every idea starts in chaos and must journey to clarity through incremental steps - the first step is embarrassing because you lack mastery, but that discomfort is necessary for breakthrough ideas.",
+        "Crazy big goals work because feeling inadequate before them drives you to work harder - reasonable goals lead to 'oh cool, whatever' when achieved, while ambitious ones sustain motivation through obstacles.",
+        "Rejection is feedback in disguise - Melanie turned 100+ investor rejections into pitch deck improvements, treating each 'no' as an opportunity to strengthen her story and address objections.",
+        "Authenticity beats borrowed playbooks - taking bricks from other companies' houses creates mismatched cultures; the systems that work are ones evolved authentically from your own foundations."
+      ],
+      "zone_influence": {
+        "velocity": 0.1,
+        "perfection": 0.1,
+        "discovery": 0.2,
+        "data": 0.05,
+        "intuition": 0.15,
+        "alignment": 0.15,
+        "chaos": 0.1,
+        "focus": 0.15
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "melanie-perkins-q007",
+          "why": "Thought investors were wrong and persisted through 100+ rejections - challenges the notion that founders should pivot based on investor feedback",
+          "related_zones": [
+            "intuition",
+            "velocity"
+          ]
+        },
+        {
+          "quoteId": "melanie-perkins-q008",
+          "why": "Rejected borrowed playbooks from bigger companies - counters the common advice to adopt proven practices from successful companies",
+          "related_zones": [
+            "alignment",
+            "perfection"
+          ]
+        },
+        {
+          "quoteId": "melanie-perkins-q005",
+          "why": "Argues for feeling inadequate before goals - challenges conventional wisdom about setting achievable, motivating targets",
+          "related_zones": [
+            "discovery",
+            "focus"
+          ]
+        }
+      ],
+      "guest_metadata": {
+        "guest_type": "founder",
+        "company_stage": "late-stage",
+        "primary_topics": [
+          "vision",
+          "perseverance",
+          "product-development",
+          "mission-driven-company",
+          "founder-journey"
+        ]
+      }
+    },
+    {
       "slug": "mike-krieger",
       "quotes": [
         {
@@ -8257,6 +8878,658 @@
           "instagram",
           "anthropic",
           "engineering"
+        ]
+      }
+    },
+    {
+      "slug": "molly-graham",
+      "quotes": [
+        {
+          "id": "molly-graham-q001",
+          "speaker": "Molly Graham",
+          "text": "That is both the torment of scaling companies, which is that the ground is moving under your feet. And as soon as you're comfortable, someone will make sure that you are uncomfortable, but it's also the opportunity, which is that you can go from being someone that's good at building houses to someone that knows how to build entire worlds.",
+          "timestamp": "00:14:03",
+          "source": {
+            "slug": "molly-graham",
+            "path": "episodes/molly-graham/transcript.md",
+            "lineStart": 127,
+            "lineEnd": 130
+          },
+          "themes": [
+            "delegation",
+            "growth",
+            "career-growth",
+            "giving-away-legos"
+          ],
+          "zones": [
+            "chaos",
+            "discovery"
+          ]
+        },
+        {
+          "id": "molly-graham-q002",
+          "speaker": "Molly Graham",
+          "text": "At Facebook, I got to a place where I was literally giving away my job every three weeks. I was constantly rehiring myself essentially because you have to sort of grow as fast as your company is growing if you really want to take advantage of the opportunity that comes with companies that are growing and changing quickly.",
+          "timestamp": "00:16:27",
+          "source": {
+            "slug": "molly-graham",
+            "path": "episodes/molly-graham/transcript.md",
+            "lineStart": 148,
+            "lineEnd": 151
+          },
+          "themes": [
+            "delegation",
+            "scaling",
+            "growth",
+            "giving-away-legos"
+          ],
+          "zones": [
+            "velocity",
+            "chaos"
+          ]
+        },
+        {
+          "id": "molly-graham-q003",
+          "speaker": "Molly Graham",
+          "text": "I externalized all these emotions that come with change into this little tiny monster. I named my monster, Bob. Bob's job is basically to make me the worst version of myself. He's the one that wants to send the rage emails at 9:00PM and burn the house down. All these emotions are normal and they are not useful. They are not the compass that should be telling you what to do.",
+          "timestamp": "00:17:56",
+          "source": {
+            "slug": "molly-graham",
+            "path": "episodes/molly-graham/transcript.md",
+            "lineStart": 157,
+            "lineEnd": 161
+          },
+          "themes": [
+            "emotions",
+            "change-management",
+            "self-awareness",
+            "bob-the-monster"
+          ],
+          "zones": [
+            "intuition",
+            "chaos"
+          ]
+        },
+        {
+          "id": "molly-graham-q004",
+          "speaker": "Molly Graham",
+          "text": "The way a lot of people do careers is a set of stairs. Just walk up the stairs and you'll get promoted every two years. But the much more fun careers are like jumping off cliffs. You do fall for a period of time, about six to nine months, but then this thing happens where you climb out way beyond where the stairs could ever get you.",
+          "timestamp": "00:28:05",
+          "source": {
+            "slug": "molly-graham",
+            "path": "episodes/molly-graham/transcript.md",
+            "lineStart": 232,
+            "lineEnd": 235
+          },
+          "themes": [
+            "career-growth",
+            "risk-taking",
+            "j-curve",
+            "learning"
+          ],
+          "zones": [
+            "discovery",
+            "chaos"
+          ]
+        },
+        {
+          "id": "molly-graham-q005",
+          "speaker": "Molly Graham",
+          "text": "One of the greatest gifts in a career is knowing yourself. And that's a lifelong journey because who you are and what you want changes, but that knowledge and that gift, nothing accelerates your self-knowledge faster than trying to do something that you don't know how to do and that you're scared of.",
+          "timestamp": "00:32:27",
+          "source": {
+            "slug": "molly-graham",
+            "path": "episodes/molly-graham/transcript.md",
+            "lineStart": 265,
+            "lineEnd": 265
+          },
+          "themes": [
+            "self-knowledge",
+            "career-growth",
+            "fear",
+            "learning"
+          ],
+          "zones": [
+            "discovery",
+            "intuition"
+          ]
+        },
+        {
+          "id": "molly-graham-q006",
+          "speaker": "Molly Graham",
+          "text": "Being the person that takes their learning in their own hands, learning no matter what and learning to ask those dumb questions, it's a superpower. Actually, my superpower is being a professional moron. I'm the one that shows up in a room and is like, 'Do we have goals? What are we doing? Why are we having this meeting?' And most of the time it's actually what I was hired to do, which is bring clarity.",
+          "timestamp": "00:35:48",
+          "source": {
+            "slug": "molly-graham",
+            "path": "episodes/molly-graham/transcript.md",
+            "lineStart": 288,
+            "lineEnd": 296
+          },
+          "themes": [
+            "learning",
+            "curiosity",
+            "clarity",
+            "leadership"
+          ],
+          "zones": [
+            "discovery",
+            "alignment"
+          ]
+        },
+        {
+          "id": "molly-graham-q007",
+          "speaker": "Molly Graham",
+          "text": "The rule with the Waterline Model is you snorkel before you scuba. 80% of problems on teams actually happen because of structural issues or dynamics issues. Your only goal as a manager, if you do nothing else, is clear roles and clear expectations. That's it.",
+          "timestamp": "00:41:44",
+          "source": {
+            "slug": "molly-graham",
+            "path": "episodes/molly-graham/transcript.md",
+            "lineStart": 334,
+            "lineEnd": 337
+          },
+          "themes": [
+            "management",
+            "team-diagnostics",
+            "waterline-model",
+            "clarity"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ]
+        },
+        {
+          "id": "molly-graham-q008",
+          "speaker": "Molly Graham",
+          "text": "No company needs more than three company goals and the point of company goals is to help people know what the most important things are to success. Facebook basically had three goals for the entire time I was there. If you can govern that business with three goals, you can govern literally any business with three goals.",
+          "timestamp": "00:49:52",
+          "source": {
+            "slug": "molly-graham",
+            "path": "episodes/molly-graham/transcript.md",
+            "lineStart": 385,
+            "lineEnd": 389
+          },
+          "themes": [
+            "goals",
+            "prioritization",
+            "strategy",
+            "focus"
+          ],
+          "zones": [
+            "focus",
+            "alignment"
+          ]
+        },
+        {
+          "id": "molly-graham-q009",
+          "speaker": "Molly Graham",
+          "text": "Strategy should hurt. If your goal setting process is not painful, then you're not prioritizing heavily enough.",
+          "timestamp": "00:52:09",
+          "source": {
+            "slug": "molly-graham",
+            "path": "episodes/molly-graham/transcript.md",
+            "lineStart": 394,
+            "lineEnd": 394
+          },
+          "themes": [
+            "strategy",
+            "prioritization",
+            "goals",
+            "trade-offs"
+          ],
+          "zones": [
+            "focus",
+            "alignment"
+          ]
+        },
+        {
+          "id": "molly-graham-q010",
+          "speaker": "Molly Graham",
+          "text": "One goal has one owner. Two people owning a goal is no one owning a goal. One person owns the goal, who is it? It's not you as the CEO, it's someone that works for you. That means that person, come hell or high water, owns that number.",
+          "timestamp": "00:55:16",
+          "source": {
+            "slug": "molly-graham",
+            "path": "episodes/molly-graham/transcript.md",
+            "lineStart": 397,
+            "lineEnd": 419
+          },
+          "themes": [
+            "goals",
+            "accountability",
+            "ownership",
+            "leadership"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ]
+        },
+        {
+          "id": "molly-graham-q011",
+          "speaker": "Molly Graham",
+          "text": "80% of the culture of a company is literally defined by the personality of the founder. Facebook is Mark. Google is Larry and Sergei. Our job as operators or as leaders around founders is to help articulate the culture that they're creating and to help extend it.",
+          "timestamp": "01:12:29",
+          "source": {
+            "slug": "molly-graham",
+            "path": "episodes/molly-graham/transcript.md",
+            "lineStart": 571,
+            "lineEnd": 574
+          },
+          "themes": [
+            "culture",
+            "founder-mode",
+            "leadership",
+            "company-building"
+          ],
+          "zones": [
+            "alignment",
+            "perfection"
+          ]
+        },
+        {
+          "id": "molly-graham-q012",
+          "speaker": "Molly Graham",
+          "text": "More people does not actually make you faster. We think it does. It does not. It makes it harder. It makes it harder to get work done. It makes it slower. So you should be scared of adding people, not like, 'Oh, this is the answer to all my problems.'",
+          "timestamp": "01:20:16",
+          "source": {
+            "slug": "molly-graham",
+            "path": "episodes/molly-graham/transcript.md",
+            "lineStart": 639,
+            "lineEnd": 640
+          },
+          "themes": [
+            "scaling",
+            "team-size",
+            "velocity",
+            "hiring"
+          ],
+          "zones": [
+            "velocity",
+            "focus"
+          ]
+        }
+      ],
+      "themes": [
+        "giving-away-legos",
+        "j-curve",
+        "waterline-model",
+        "bob-the-monster",
+        "goals",
+        "founder-culture",
+        "scaling",
+        "career-growth",
+        "leadership"
+      ],
+      "takeaways": [
+        "Give away your Legos: The key to thriving in a scaling company is learning to give away what you've gotten good at and move on to the next challenge. You must grow as fast as your company is growing.",
+        "Take J-Curve career risks over stairs: The most transformative careers come from jumping off cliffs into roles you're unqualified for. You'll fall for 6-9 months, but climb out far beyond where stairs could take you.",
+        "Use the Waterline Model to diagnose team issues: Snorkel before you scuba. 80% of team problems are structural (unclear goals, roles, expectations) or dynamics issues, not people problems.",
+        "No company needs more than three goals: Strategy should hurt. One goal needs one owner. Two people owning a goal is no one owning it. If Facebook could run on three goals, any company can.",
+        "80% of culture is the founder's personality: Your job as an operator is not to shape culture but to articulate and extend the culture the founder is already creating through their actions."
+      ],
+      "zone_influence": {
+        "velocity": 0.1,
+        "perfection": 0.05,
+        "discovery": 0.2,
+        "data": 0,
+        "intuition": 0.1,
+        "alignment": 0.25,
+        "chaos": 0.15,
+        "focus": 0.15
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "molly-graham-q012",
+          "why": "Challenges the common assumption that adding more people makes teams faster - argues it actually slows you down",
+          "related_zones": [
+            "velocity",
+            "focus"
+          ]
+        },
+        {
+          "quoteId": "molly-graham-q004",
+          "why": "Argues against traditional career progression via steady promotions - champions deliberate career falls and risk-taking",
+          "related_zones": [
+            "discovery",
+            "chaos"
+          ]
+        }
+      ],
+      "guest_metadata": {
+        "guest_type": "operator",
+        "company_stage": "scaling",
+        "primary_topics": [
+          "scaling",
+          "career-growth",
+          "leadership",
+          "goals",
+          "culture"
+        ]
+      }
+    },
+    {
+      "slug": "naomi-gleit",
+      "quotes": [
+        {
+          "id": "naomi-gleit-q001",
+          "speaker": "Naomi Gleit",
+          "text": "The most dangerous kind of person to have in an organization is an agreeable taker. And the most precious person in an organization is the disagreeable giver. Those are the people who are really motivated to do what's best for the company, but they can be a little bit disagreeable in the sense that they may not say what you want to hear. They may push back on things, they may fight for things.",
+          "timestamp": "00:21:52",
+          "source": {
+            "slug": "naomi-gleit",
+            "path": "episodes/naomi-gleit/transcript.md",
+            "lineStart": 231,
+            "lineEnd": 232
+          },
+          "themes": [
+            "leadership",
+            "culture",
+            "feedback",
+            "small-group"
+          ],
+          "zones": [
+            "alignment",
+            "chaos"
+          ]
+        },
+        {
+          "id": "naomi-gleit-q002",
+          "speaker": "Naomi Gleit",
+          "text": "We had a notion of growth accounting, which looks at what's our net growth every day? And what we found was the churn and resurrection lines were actually much larger than the new user line, which implied to us that retention and driving those two lines was actually our biggest lever to drive net growth.",
+          "timestamp": "00:26:30",
+          "source": {
+            "slug": "naomi-gleit",
+            "path": "episodes/naomi-gleit/transcript.md",
+            "lineStart": 282,
+            "lineEnd": 283
+          },
+          "themes": [
+            "growth",
+            "retention",
+            "data-driven",
+            "metrics"
+          ],
+          "zones": [
+            "data",
+            "discovery"
+          ]
+        },
+        {
+          "id": "naomi-gleit-q003",
+          "speaker": "Naomi Gleit",
+          "text": "One of my Naomi-isms is really understand, identify, and execute. In 2009 in January, we basically stopped doing anything on our roadmap except data instrumentation. We just didn't have the data that we needed to make informed decisions to know really what were the biggest levers to drive growth.",
+          "timestamp": "00:29:43",
+          "source": {
+            "slug": "naomi-gleit",
+            "path": "episodes/naomi-gleit/transcript.md",
+            "lineStart": 294,
+            "lineEnd": 295
+          },
+          "themes": [
+            "data-driven",
+            "methodology",
+            "growth",
+            "prioritization"
+          ],
+          "zones": [
+            "data",
+            "focus"
+          ]
+        },
+        {
+          "id": "naomi-gleit-q004",
+          "speaker": "Naomi Gleit",
+          "text": "I think the majority of the value is in just having extreme clarity around the goal and that allowed everybody to work towards optimizing the same goal. It doesn't matter if it was seven friends in 10 days or 10 in 14. What mattered was that we picked one of them and we had the same goal.",
+          "timestamp": "00:34:19",
+          "source": {
+            "slug": "naomi-gleit",
+            "path": "episodes/naomi-gleit/transcript.md",
+            "lineStart": 324,
+            "lineEnd": 325
+          },
+          "themes": [
+            "activation",
+            "goals",
+            "alignment",
+            "extreme-clarity"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ]
+        },
+        {
+          "id": "naomi-gleit-q005",
+          "speaker": "Naomi Gleit",
+          "text": "All of the work that we did on growth around optimizing the flows were really about removing micro barriers. We found 20% of people aren't actually confirming their email. We allowed people to get notifications even as an unconfirmed account, and if they clicked on any of those notifications, that would count as an account confirmation. It's just removing a micro barrier.",
+          "timestamp": "00:40:40",
+          "source": {
+            "slug": "naomi-gleit",
+            "path": "episodes/naomi-gleit/transcript.md",
+            "lineStart": 357,
+            "lineEnd": 361
+          },
+          "themes": [
+            "growth",
+            "onboarding",
+            "friction",
+            "optimization"
+          ],
+          "zones": [
+            "velocity",
+            "discovery"
+          ]
+        },
+        {
+          "id": "naomi-gleit-q006",
+          "speaker": "Naomi Gleit",
+          "text": "A PM is a conductor. It's as though the team that you are a PM on is an orchestra. There are many different functions in your team that includes legal policy, comms, data analytics, engineering, design. And as a PM, your job is to make sure everyone's playing their part correctly, but at the same time, they're playing together, they're unified in the music that they're producing.",
+          "timestamp": "00:45:52",
+          "source": {
+            "slug": "naomi-gleit",
+            "path": "episodes/naomi-gleit/transcript.md",
+            "lineStart": 390,
+            "lineEnd": 391
+          },
+          "themes": [
+            "product-management",
+            "leadership",
+            "coordination",
+            "metaphor"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ]
+        },
+        {
+          "id": "naomi-gleit-q007",
+          "speaker": "Naomi Gleit",
+          "text": "Extreme clarity means everyone's on the same page. It definitely doesn't mean that they all agree with each other, but they just have the same understanding of the facts. So we can disagree, but we all believe in the facts, which is that there's A, B, C, our options are X, Y, Z and here are the trade-offs 1, 2, 3.",
+          "timestamp": "00:48:57",
+          "source": {
+            "slug": "naomi-gleit",
+            "path": "episodes/naomi-gleit/transcript.md",
+            "lineStart": 408,
+            "lineEnd": 409
+          },
+          "themes": [
+            "extreme-clarity",
+            "communication",
+            "decision-making",
+            "process"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ]
+        },
+        {
+          "id": "naomi-gleit-q008",
+          "speaker": "Naomi Gleit",
+          "text": "I never use bulleted lists because you can never refer to a bullet. I always use numbered lists because you can always reference number two in a meeting. Versus the third bullet, two up from the second, whatever, that is not extreme clarity. So it's very, very small tactical things to bigger things like canonical everything.",
+          "timestamp": "00:52:19",
+          "source": {
+            "slug": "naomi-gleit",
+            "path": "episodes/naomi-gleit/transcript.md",
+            "lineStart": 438,
+            "lineEnd": 439
+          },
+          "themes": [
+            "extreme-clarity",
+            "documentation",
+            "meetings",
+            "tactics"
+          ],
+          "zones": [
+            "perfection",
+            "alignment"
+          ]
+        },
+        {
+          "id": "naomi-gleit-q009",
+          "speaker": "Naomi Gleit",
+          "text": "I always want a canonical doc. Where can I learn what I need to learn about this project? I ask five different people, get five different answers, that is unacceptable. Everyone should know exactly where the canonical doc is. That's the one place I can go to get all the information I need about a project.",
+          "timestamp": "00:53:18",
+          "source": {
+            "slug": "naomi-gleit",
+            "path": "episodes/naomi-gleit/transcript.md",
+            "lineStart": 450,
+            "lineEnd": 451
+          },
+          "themes": [
+            "documentation",
+            "canonical-doc",
+            "process",
+            "clarity"
+          ],
+          "zones": [
+            "alignment",
+            "perfection"
+          ]
+        },
+        {
+          "id": "naomi-gleit-q010",
+          "speaker": "Naomi Gleit",
+          "text": "That's why I think it's very important to have a single-threaded owner. We used to call this a directly responsible individual or a throat to choke. We obviously don't say that anymore. Single-threaded owner, every work stream has a single-threaded owner. Everything canonical needs to recurse.",
+          "timestamp": "00:54:05",
+          "source": {
+            "slug": "naomi-gleit",
+            "path": "episodes/naomi-gleit/transcript.md",
+            "lineStart": 453,
+            "lineEnd": 454
+          },
+          "themes": [
+            "ownership",
+            "accountability",
+            "process",
+            "execution"
+          ],
+          "zones": [
+            "focus",
+            "alignment"
+          ]
+        },
+        {
+          "id": "naomi-gleit-q011",
+          "speaker": "Naomi Gleit",
+          "text": "I often go into a project, everyone's operating at a PhD level, I'm coming in at a kindergarten level. It doesn't mean I want to oversimplify, that's not what a simplifier does. They're identifying the most basic building blocks of a complex problem and then unfolding, or revealing or building on top of them additional complexity and details as you go along.",
+          "timestamp": "00:56:12",
+          "source": {
+            "slug": "naomi-gleit",
+            "path": "episodes/naomi-gleit/transcript.md",
+            "lineStart": 462,
+            "lineEnd": 463
+          },
+          "themes": [
+            "simplification",
+            "problem-solving",
+            "communication",
+            "school-pyramid"
+          ],
+          "zones": [
+            "alignment",
+            "discovery"
+          ]
+        },
+        {
+          "id": "naomi-gleit-q012",
+          "speaker": "Naomi Gleit",
+          "text": "I would say 80% of the time I think it's a people or process issue. I want to make sure a project is perfectly executing, because only then can we really reevaluate whether or not this strategy is right or wrong. We're in the worst of all worlds where we are imperfectly executing and the project might fail, but we don't know why.",
+          "timestamp": "00:58:07",
+          "source": {
+            "slug": "naomi-gleit",
+            "path": "episodes/naomi-gleit/transcript.md",
+            "lineStart": 471,
+            "lineEnd": 475
+          },
+          "themes": [
+            "execution",
+            "strategy",
+            "process",
+            "learning"
+          ],
+          "zones": [
+            "perfection",
+            "data"
+          ]
+        }
+      ],
+      "themes": [
+        "extreme-clarity",
+        "canonical-docs",
+        "growth",
+        "data-driven",
+        "product-management",
+        "execution",
+        "simplification",
+        "leadership"
+      ],
+      "takeaways": [
+        "The most valuable team members are 'disagreeable givers' - people motivated to do what's best for the company who push back and fight for things, rather than 'agreeable takers' who optimize for being liked.",
+        "The legendary '7 friends in 10 days' activation metric worked not because it was perfectly calibrated, but because it gave the entire growth team extreme clarity and a shared goal to rally around.",
+        "Before optimizing anything, invest in data instrumentation first. In 2009, Facebook's growth team paused their entire roadmap to instrument every step of every flow - that's what enabled them to identify real opportunities.",
+        "A PM's role is like a conductor - you don't play an instrument yourself, but you ensure every function plays their part correctly while staying unified. The conductor is never the star of the show.",
+        "When projects fail, 80% of the time it's a people or process issue, not a strategy issue. Perfect execution is essential because only then can you truly evaluate whether your strategy was right or wrong."
+      ],
+      "zone_influence": {
+        "velocity": 0.1,
+        "perfection": 0.15,
+        "discovery": 0.1,
+        "data": 0.2,
+        "intuition": 0.05,
+        "alignment": 0.3,
+        "chaos": 0.05,
+        "focus": 0.05
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "naomi-gleit-q004",
+          "why": "Challenges the obsession with finding the 'perfect' activation metric - the actual number matters less than having any clear shared goal",
+          "related_zones": [
+            "alignment",
+            "focus"
+          ]
+        },
+        {
+          "quoteId": "naomi-gleit-q012",
+          "why": "Provocatively claims 80% of project failures are people/process issues, not strategy - challenges the tendency to blame strategy",
+          "related_zones": [
+            "perfection",
+            "data"
+          ]
+        }
+      ],
+      "guest_metadata": {
+        "guest_type": "operator",
+        "company_stage": "growth",
+        "primary_topics": [
+          "growth",
+          "product-management",
+          "extreme-clarity",
+          "canonical-docs",
+          "activation",
+          "execution"
         ]
       }
     },
@@ -8588,6 +9861,298 @@
       }
     },
     {
+      "slug": "paul-adams",
+      "quotes": [
+        {
+          "id": "paul-adams-q001",
+          "speaker": "Paul Adams",
+          "text": "At Facebook, you can design the product. But at Intercom, you can design the company. And, that was extremely appealing to me, a great pitch. He's like, 'Just design the company with us that you want to work in.'",
+          "timestamp": "00:13:41",
+          "source": {
+            "slug": "paul-adams",
+            "path": "episodes/paul-adams/transcript.md",
+            "lineStart": 120,
+            "lineEnd": 120
+          },
+          "themes": [
+            "leadership",
+            "culture",
+            "company-building"
+          ],
+          "zones": [
+            "discovery",
+            "alignment"
+          ]
+        },
+        {
+          "id": "paul-adams-q002",
+          "speaker": "Paul Adams",
+          "text": "We have a principle called Ship to Learn. Ship fast, ship early, ship often. So, in that idea is the idea of failure. It's not going to go right. And, it's going to go wrong more often than not. But if you ship early, and fast, and learn fast, you can change fast, and you can improve fast.",
+          "timestamp": "00:14:09",
+          "source": {
+            "slug": "paul-adams",
+            "path": "episodes/paul-adams/transcript.md",
+            "lineStart": 126,
+            "lineEnd": 126
+          },
+          "themes": [
+            "velocity",
+            "iteration",
+            "product-development"
+          ],
+          "zones": [
+            "velocity",
+            "discovery"
+          ]
+        },
+        {
+          "id": "paul-adams-q003",
+          "speaker": "Paul Adams",
+          "text": "This is a meteor coming towards you. This is bigger than mobile as a technology shift, as big as the internet. Maybe it's bigger than the internet itself as a technology shift, the way it'll shape society. So I'm all in.",
+          "timestamp": "00:16:23",
+          "source": {
+            "slug": "paul-adams",
+            "path": "episodes/paul-adams/transcript.md",
+            "lineStart": 138,
+            "lineEnd": 138
+          },
+          "themes": [
+            "AI",
+            "technology-shifts",
+            "strategy"
+          ],
+          "zones": [
+            "chaos",
+            "velocity"
+          ]
+        },
+        {
+          "id": "paul-adams-q004",
+          "speaker": "Paul Adams",
+          "text": "I'd start with the thing your product does. What's the core premise behind it? Why do people use it? What problem does it solve for them? And then, ask the question, 'Can AI do that?' And for a lot the answer's going to be, 'Yes, it can.' For some, it might be, 'It can partially do it.'",
+          "timestamp": "00:21:25",
+          "source": {
+            "slug": "paul-adams",
+            "path": "episodes/paul-adams/transcript.md",
+            "lineStart": 189,
+            "lineEnd": 189
+          },
+          "themes": [
+            "AI",
+            "product-strategy",
+            "first-principles"
+          ],
+          "zones": [
+            "discovery",
+            "focus"
+          ]
+        },
+        {
+          "id": "paul-adams-q005",
+          "speaker": "Paul Adams",
+          "text": "We literally ripped up our strategy almost entirely, and started again, from first principles and said, 'Okay, why do people use Intercom?' We totally changed how we think, how we work, and we just went heads down and built. It was a little bit of a bet the farm mindset.",
+          "timestamp": "00:24:35",
+          "source": {
+            "slug": "paul-adams",
+            "path": "episodes/paul-adams/transcript.md",
+            "lineStart": 201,
+            "lineEnd": 204
+          },
+          "themes": [
+            "strategy",
+            "AI",
+            "bold-decisions"
+          ],
+          "zones": [
+            "chaos",
+            "focus",
+            "velocity"
+          ]
+        },
+        {
+          "id": "paul-adams-q006",
+          "speaker": "Paul Adams",
+          "text": "Don't bolt it on. Don't be like, 'Oh, we'll have a bunch of AI people...' And we do have some specialists. But generally speaking, we're trying to have everyone learn about it. I'm a big believer in generalists.",
+          "timestamp": "00:37:08",
+          "source": {
+            "slug": "paul-adams",
+            "path": "episodes/paul-adams/transcript.md",
+            "lineStart": 288,
+            "lineEnd": 294
+          },
+          "themes": [
+            "AI",
+            "org-design",
+            "generalists"
+          ],
+          "zones": [
+            "alignment",
+            "discovery"
+          ]
+        },
+        {
+          "id": "paul-adams-q007",
+          "speaker": "Paul Adams",
+          "text": "Number one thing I would say is keep it simple. Fight so hard to resist the temptation to add extra ways in which you price. People can't understand their bill.",
+          "timestamp": "00:53:31",
+          "source": {
+            "slug": "paul-adams",
+            "path": "episodes/paul-adams/transcript.md",
+            "lineStart": 399,
+            "lineEnd": 399
+          },
+          "themes": [
+            "pricing",
+            "simplicity",
+            "strategy"
+          ],
+          "zones": [
+            "focus",
+            "perfection"
+          ]
+        },
+        {
+          "id": "paul-adams-q008",
+          "speaker": "Paul Adams",
+          "text": "People who adopt a product, or buy a product, or switch to a product, there's two driving forces. One is the attraction of the new solution, and that's basically differentiation. But, on the other side, there's an entry requirement or table stakes. To play the game, you got to have a certain amount of things.",
+          "timestamp": "00:55:03",
+          "source": {
+            "slug": "paul-adams",
+            "path": "episodes/paul-adams/transcript.md",
+            "lineStart": 411,
+            "lineEnd": 414
+          },
+          "themes": [
+            "product-strategy",
+            "frameworks",
+            "differentiation"
+          ],
+          "zones": [
+            "focus",
+            "perfection"
+          ]
+        },
+        {
+          "id": "paul-adams-q009",
+          "speaker": "Paul Adams",
+          "text": "Swinging the pendulum means, you take a step back from everyday work life, and you make the observation that something's in an undesirable state. And then, so you go and fix it, but the temptation is that you over-correct. And we've done this so many times in so many domains.",
+          "timestamp": "00:59:28",
+          "source": {
+            "slug": "paul-adams",
+            "path": "episodes/paul-adams/transcript.md",
+            "lineStart": 435,
+            "lineEnd": 436
+          },
+          "themes": [
+            "leadership",
+            "frameworks",
+            "balance"
+          ],
+          "zones": [
+            "alignment",
+            "intuition"
+          ]
+        },
+        {
+          "id": "paul-adams-q010",
+          "speaker": "Paul Adams",
+          "text": "The market is the people, the problems they have, and how important the problems are to them. To have a good market, you need a lot of people with the same problem, and they need to care a lot about it. The product is the solution to that. The market's the who, the product's the what.",
+          "timestamp": "01:05:33",
+          "source": {
+            "slug": "paul-adams",
+            "path": "episodes/paul-adams/transcript.md",
+            "lineStart": 474,
+            "lineEnd": 474
+          },
+          "themes": [
+            "product-market-fit",
+            "strategy",
+            "frameworks"
+          ],
+          "zones": [
+            "discovery",
+            "data"
+          ]
+        },
+        {
+          "id": "paul-adams-q011",
+          "speaker": "Paul Adams",
+          "text": "For us with Jobs to be Done, it was a really good way of centering on the customer problem, focusing on not getting distracted, basing it in good solid research informed insight. There's so many people who spend so much energy debating the nuances. Who cares? Your customers don't care.",
+          "timestamp": "01:09:50",
+          "source": {
+            "slug": "paul-adams",
+            "path": "episodes/paul-adams/transcript.md",
+            "lineStart": 509,
+            "lineEnd": 510
+          },
+          "themes": [
+            "jobs-to-be-done",
+            "customer-focus",
+            "pragmatism"
+          ],
+          "zones": [
+            "discovery",
+            "focus"
+          ]
+        }
+      ],
+      "themes": [
+        "product-leadership",
+        "AI-strategy",
+        "org-design",
+        "jobs-to-be-done",
+        "frameworks",
+        "iteration",
+        "simplicity",
+        "company-building"
+      ],
+      "takeaways": [
+        "AI is a meteor-level disruption - start by asking if AI can do what your product does, then decide if you need replacement or augmentation. Go back to first principles and be willing to rip up your strategy.",
+        "Ship fast, ship early, ship often - embrace failure as part of the process. If you ship early and learn fast, you can change fast. The culture of iteration beats the pursuit of perfection.",
+        "Don't bolt AI on as a side team - integrate it across the organization. Hire generalists who can adapt rather than specialists who struggle with ambiguity in fluid startup cultures.",
+        "Balance differentiation with table stakes - startups need more differentiation to attract customers, but without table stakes features, people cannot adopt. Know which phase your company is in.",
+        "Product market story fit matters as much as product market fit - great products in great markets still fail if the story is wrong or missing. Learn to explain your product as well as you build it."
+      ],
+      "zone_influence": {
+        "velocity": 0.15,
+        "perfection": 0.1,
+        "discovery": 0.25,
+        "data": 0.05,
+        "intuition": 0.1,
+        "alignment": 0.15,
+        "chaos": 0.1,
+        "focus": 0.1
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "paul-adams-q005",
+          "why": "Advocates ripping up strategy entirely and betting the farm on AI - contrasts with incremental approaches most companies take",
+          "related_zones": [
+            "chaos",
+            "velocity"
+          ]
+        },
+        {
+          "quoteId": "paul-adams-q011",
+          "why": "Dismisses intellectual debates about frameworks as useless - 'Who cares? Your customers don't care' - anti-academic, pragmatic stance",
+          "related_zones": [
+            "focus",
+            "discovery"
+          ]
+        }
+      ],
+      "guest_metadata": {
+        "guest_type": "executive",
+        "company_stage": "growth",
+        "primary_topics": [
+          "AI-strategy",
+          "product-leadership",
+          "org-design",
+          "jobs-to-be-done"
+        ]
+      }
+    },
+    {
       "slug": "rahul-vohra",
       "quotes": [
         {
@@ -8887,6 +10452,598 @@
           "game-design",
           "email",
           "productivity"
+        ]
+      }
+    },
+    {
+      "slug": "scott-belsky",
+      "quotes": [
+        {
+          "id": "scott-belsky-q001",
+          "speaker": "Scott Belsky",
+          "text": "In the first 30 seconds of using a new product, you are lazy, vain, and selfish. You want to get it done super quickly. You want to look good to your colleagues or to your friends. You want to feel successful very quickly by engaging in this product. You don't want to have to watch a tour or read anything, really endure any learning curve whatsoever.",
+          "timestamp": "00:09:51",
+          "source": {
+            "slug": "scott-belsky",
+            "path": "episodes/scott-belsky/transcript.md",
+            "lineStart": 106,
+            "lineEnd": 109
+          },
+          "themes": [
+            "first-mile",
+            "user-psychology",
+            "onboarding"
+          ],
+          "zones": [
+            "velocity",
+            "intuition"
+          ]
+        },
+        {
+          "id": "scott-belsky-q002",
+          "speaker": "Scott Belsky",
+          "text": "It's fascinating to me that most teams spend the final mile of their time building the product, considering the first mile of the customer's experience using the product. If you can just get more customers through that top of funnel, you are a world-class product team.",
+          "timestamp": "00:10:06",
+          "source": {
+            "slug": "scott-belsky",
+            "path": "episodes/scott-belsky/transcript.md",
+            "lineStart": 111,
+            "lineEnd": 112
+          },
+          "themes": [
+            "first-mile",
+            "prioritization",
+            "product-teams"
+          ],
+          "zones": [
+            "focus",
+            "velocity"
+          ]
+        },
+        {
+          "id": "scott-belsky-q003",
+          "speaker": "Scott Belsky",
+          "text": "The most humbling moments for me as a product leader have always been shoulder to shoulder to customers. Watching them actually go about their day, not just use my product but go about their day because what you end up getting is context for a lot of data that you're missing.",
+          "timestamp": "00:13:41",
+          "source": {
+            "slug": "scott-belsky",
+            "path": "episodes/scott-belsky/transcript.md",
+            "lineStart": 144,
+            "lineEnd": 148
+          },
+          "themes": [
+            "customer-empathy",
+            "user-research",
+            "product-sense"
+          ],
+          "zones": [
+            "discovery",
+            "intuition"
+          ]
+        },
+        {
+          "id": "scott-belsky-q004",
+          "speaker": "Scott Belsky",
+          "text": "Product leaders expect people to talk about a product being great. And people don't talk about a product doing exactly what they expected it to do. They talk about a product doing what they didn't expect.",
+          "timestamp": "00:15:09",
+          "source": {
+            "slug": "scott-belsky",
+            "path": "episodes/scott-belsky/transcript.md",
+            "lineStart": 168,
+            "lineEnd": 170
+          },
+          "themes": [
+            "product-led-growth",
+            "word-of-mouth",
+            "delight"
+          ],
+          "zones": [
+            "discovery",
+            "chaos"
+          ]
+        },
+        {
+          "id": "scott-belsky-q005",
+          "speaker": "Scott Belsky",
+          "text": "Whenever I'm asked by teams, what features need to be part of their MVP, how do they decide which features they need to ship first, I always tell them to optimize for the problems they want to have. You want the problem of customers getting through your funnel, feeling successful, using your product and getting value.",
+          "timestamp": "00:21:29",
+          "source": {
+            "slug": "scott-belsky",
+            "path": "episodes/scott-belsky/transcript.md",
+            "lineStart": 222,
+            "lineEnd": 224
+          },
+          "themes": [
+            "mvp",
+            "prioritization",
+            "product-strategy"
+          ],
+          "zones": [
+            "focus",
+            "velocity"
+          ]
+        },
+        {
+          "id": "scott-belsky-q006",
+          "speaker": "Scott Belsky",
+          "text": "So actually if you make the whole product about one thing, everyone does that. That core crank operates at 10X the velocity and if that's the most important metric for the business, that's gold. And so, we basically went on a killing spree. And we just started killing things.",
+          "timestamp": "00:23:33",
+          "source": {
+            "slug": "scott-belsky",
+            "path": "episodes/scott-belsky/transcript.md",
+            "lineStart": 239,
+            "lineEnd": 242
+          },
+          "themes": [
+            "focus",
+            "simplification",
+            "behance"
+          ],
+          "zones": [
+            "focus",
+            "velocity"
+          ]
+        },
+        {
+          "id": "scott-belsky-q007",
+          "speaker": "Scott Belsky",
+          "text": "Some of the best product leaders that I've worked with, I do feel like they have this great reductionist or minimalistic tendency by default. They anchor themselves on the one thing they want people to do and do well. And they just are pretty ruthless about everything else.",
+          "timestamp": "00:25:08",
+          "source": {
+            "slug": "scott-belsky",
+            "path": "episodes/scott-belsky/transcript.md",
+            "lineStart": 252,
+            "lineEnd": 253
+          },
+          "themes": [
+            "product-leadership",
+            "focus",
+            "simplification"
+          ],
+          "zones": [
+            "focus",
+            "perfection"
+          ]
+        },
+        {
+          "id": "scott-belsky-q008",
+          "speaker": "Scott Belsky",
+          "text": "I always like to use the analogy of we're driving our teams across country as product leaders with the windows blacked out in the backseat and everyone's sitting in the backseat. If they don't receive the narrative, they will go stir-crazy. As product leaders, we have to merchandise progress. We have to be the steward of this narrative.",
+          "timestamp": "00:43:16",
+          "source": {
+            "slug": "scott-belsky",
+            "path": "episodes/scott-belsky/transcript.md",
+            "lineStart": 405,
+            "lineEnd": 409
+          },
+          "themes": [
+            "leadership",
+            "messy-middle",
+            "team-motivation"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ]
+        },
+        {
+          "id": "scott-belsky-q009",
+          "speaker": "Scott Belsky",
+          "text": "How much conviction do you have in the solution you're building? I know in the beginning before you knew all you know now, you had tons of conviction. That's what caused you to leave your job. Now, knowing all you know, do you have more or less conviction in the problem and the solution you're building?",
+          "timestamp": "00:44:46",
+          "source": {
+            "slug": "scott-belsky",
+            "path": "episodes/scott-belsky/transcript.md",
+            "lineStart": 414,
+            "lineEnd": 418
+          },
+          "themes": [
+            "conviction",
+            "founder-mindset",
+            "perseverance"
+          ],
+          "zones": [
+            "intuition",
+            "focus"
+          ]
+        },
+        {
+          "id": "scott-belsky-q010",
+          "speaker": "Scott Belsky",
+          "text": "I have an allergic reaction to founders that are real promoters who are constantly trying to sugarcoat the truth, who like to gloss over the hard parts. I've always admired leaders that are optimistic about the future but very pragmatic and somewhat pessimistic about the present.",
+          "timestamp": "00:47:47",
+          "source": {
+            "slug": "scott-belsky",
+            "path": "episodes/scott-belsky/transcript.md",
+            "lineStart": 441,
+            "lineEnd": 444
+          },
+          "themes": [
+            "founder-evaluation",
+            "honesty",
+            "leadership"
+          ],
+          "zones": [
+            "data",
+            "alignment"
+          ]
+        },
+        {
+          "id": "scott-belsky-q011",
+          "speaker": "Scott Belsky",
+          "text": "I've always found that resourcefulness brings you further than resources despite the fact that over the last seven to 10 years, we've basically thrown resources at every problem. If resources are carbs, resourcefulness is like muscle. It stays with you. It makes you stronger.",
+          "timestamp": "00:50:35",
+          "source": {
+            "slug": "scott-belsky",
+            "path": "episodes/scott-belsky/transcript.md",
+            "lineStart": 465,
+            "lineEnd": 472
+          },
+          "themes": [
+            "resourcefulness",
+            "startup-advice",
+            "constraints"
+          ],
+          "zones": [
+            "velocity",
+            "chaos"
+          ]
+        }
+      ],
+      "themes": [
+        "first-mile",
+        "product-sense",
+        "simplification",
+        "messy-middle",
+        "founder-mindset",
+        "leadership",
+        "resourcefulness",
+        "conviction"
+      ],
+      "takeaways": [
+        "Users are lazy, vain, and selfish in the first 30 seconds - design your onboarding to make them feel successful immediately without requiring any learning curve or tutorials.",
+        "Focus your product on one core thing and ruthlessly eliminate everything else - when Behance killed features like groups and the tip exchange, their core metric of project publishing increased 10X.",
+        "Build empathy by being shoulder to shoulder with customers in their full context, not just watching them use your product but understanding everything else competing for their attention.",
+        "The conviction test determines whether to quit: if knowing everything you now know gives you more conviction than when you started, stay the course. If less, it's time to pivot or move on.",
+        "Resourcefulness beats resources - constraints force creative problem-solving that builds lasting muscle, while throwing money at problems creates temporary solutions that don't strengthen your team."
+      ],
+      "zone_influence": {
+        "velocity": 0.15,
+        "perfection": 0.1,
+        "discovery": 0.1,
+        "data": 0.05,
+        "intuition": 0.15,
+        "alignment": 0.1,
+        "chaos": 0.1,
+        "focus": 0.25
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "scott-belsky-q001",
+          "why": "Calls users lazy, vain, and selfish - a brutally honest framing that challenges the typical user-centric language of treating users as thoughtful rational actors",
+          "related_zones": [
+            "velocity",
+            "intuition"
+          ]
+        },
+        {
+          "quoteId": "scott-belsky-q006",
+          "why": "Advocates going on a 'killing spree' to eliminate features - directly opposes the common instinct to add more features and please all users",
+          "related_zones": [
+            "focus",
+            "velocity"
+          ]
+        },
+        {
+          "quoteId": "scott-belsky-q010",
+          "why": "Leaders should be pessimistic about the present while optimistic about the future - challenges the toxic positivity common in startup culture",
+          "related_zones": [
+            "data",
+            "alignment"
+          ]
+        }
+      ],
+      "guest_metadata": {
+        "guest_type": "founder-executive",
+        "company_stage": "public",
+        "primary_topics": [
+          "first-mile-experience",
+          "product-sense",
+          "messy-middle",
+          "simplification",
+          "founder-psychology"
+        ]
+      }
+    },
+    {
+      "slug": "shishir-mehrotra",
+      "quotes": [
+        {
+          "id": "shishir-mehrotra-q001",
+          "speaker": "Shishir Mehrotra",
+          "text": "The Black Loop is someone comes in, they make a doc, they share with a group of people, some subset of the people turn around and make another doc, and the process repeats itself over and over again. The blue loop is someone comes in, makes a doc, and instead of sharing it with a team or with the collaborators, they publish it to the world.",
+          "timestamp": "00:09:08",
+          "source": {
+            "slug": "shishir-mehrotra",
+            "path": "episodes/shishir-mehrotra/transcript.md",
+            "lineStart": 126,
+            "lineEnd": 129
+          },
+          "themes": [
+            "growth-loops",
+            "product-strategy",
+            "virality"
+          ],
+          "zones": [
+            "velocity",
+            "discovery"
+          ]
+        },
+        {
+          "id": "shishir-mehrotra-q002",
+          "speaker": "Shishir Mehrotra",
+          "text": "Almost all products have some form of loop. That person turns around and maybe sharing is built right in your product or maybe it's not, or maybe there's a way that it happens through advocacy, but understanding that the way products actually grow and spread happen through some type of loop not funnel, is I think pretty fundamental.",
+          "timestamp": "00:15:13",
+          "source": {
+            "slug": "shishir-mehrotra",
+            "path": "episodes/shishir-mehrotra/transcript.md",
+            "lineStart": 152,
+            "lineEnd": 154
+          },
+          "themes": [
+            "growth-loops",
+            "product-strategy",
+            "mental-models"
+          ],
+          "zones": [
+            "discovery",
+            "data"
+          ]
+        },
+        {
+          "id": "shishir-mehrotra-q003",
+          "speaker": "Shishir Mehrotra",
+          "text": "He said great companies have a very small list of golden rituals. And there are three rules of golden rituals. Number one, they're named. Number two, every employee knows them by their first Friday and, number three, they're templated.",
+          "timestamp": "00:26:29",
+          "source": {
+            "slug": "shishir-mehrotra",
+            "path": "episodes/shishir-mehrotra/transcript.md",
+            "lineStart": 213,
+            "lineEnd": 213
+          },
+          "themes": [
+            "rituals",
+            "culture",
+            "team-operating-systems"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ]
+        },
+        {
+          "id": "shishir-mehrotra-q004",
+          "speaker": "Shishir Mehrotra",
+          "text": "When we're building companies, we actually build two products. We build one for our customers and we build another one for our employees. That's actually how we work part of it. That's the term he uses for that, is culture. That's the product we build for our employees.",
+          "timestamp": "00:30:29",
+          "source": {
+            "slug": "shishir-mehrotra",
+            "path": "episodes/shishir-mehrotra/transcript.md",
+            "lineStart": 225,
+            "lineEnd": 227
+          },
+          "themes": [
+            "culture",
+            "team-building",
+            "company-building"
+          ],
+          "zones": [
+            "alignment",
+            "perfection"
+          ]
+        },
+        {
+          "id": "shishir-mehrotra-q005",
+          "speaker": "Shishir Mehrotra",
+          "text": "You can direct the writer, so you can tell people what to do. You can motivate the elephant, so you can give this thing a kick in the butt and it's going to move. You don't know exactly where it's going to move, but it's going to move. And you can shape the path. Shape the path is I'm going to set this way up so that you can only do these things.",
+          "timestamp": "00:43:13",
+          "source": {
+            "slug": "shishir-mehrotra",
+            "path": "episodes/shishir-mehrotra/transcript.md",
+            "lineStart": 291,
+            "lineEnd": 294
+          },
+          "themes": [
+            "change-management",
+            "frameworks",
+            "leadership"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ]
+        },
+        {
+          "id": "shishir-mehrotra-q006",
+          "speaker": "Shishir Mehrotra",
+          "text": "The eigenquestion, the simplest definition of eigenquestion, it's the question that when answered also answers the most subsequent questions. Rank them by which ones would eliminate the most other questions off the list.",
+          "timestamp": "00:53:35",
+          "source": {
+            "slug": "shishir-mehrotra",
+            "path": "episodes/shishir-mehrotra/transcript.md",
+            "lineStart": 357,
+            "lineEnd": 360
+          },
+          "themes": [
+            "eigenquestions",
+            "decision-making",
+            "frameworks"
+          ],
+          "zones": [
+            "focus",
+            "data"
+          ]
+        },
+        {
+          "id": "shishir-mehrotra-q007",
+          "speaker": "Shishir Mehrotra",
+          "text": "We basically have this discussion and we all came to the conclusion this market is going to value consistency over comprehensiveness. And by the way, I think, I mean now almost 15 years later, I think we were right. If you go look at video market obviously it exploded. There's so many great video properties out there, none of them are comprehensive.",
+          "timestamp": "00:51:17",
+          "source": {
+            "slug": "shishir-mehrotra",
+            "path": "episodes/shishir-mehrotra/transcript.md",
+            "lineStart": 345,
+            "lineEnd": 348
+          },
+          "themes": [
+            "product-strategy",
+            "eigenquestions",
+            "YouTube"
+          ],
+          "zones": [
+            "focus",
+            "perfection"
+          ]
+        },
+        {
+          "id": "shishir-mehrotra-q008",
+          "speaker": "Shishir Mehrotra",
+          "text": "We value consistency over comprehensiveness. We would much rather be on fewer phones with a more consistent experience than be on all of them with an inconsistent experience.",
+          "timestamp": "00:52:17",
+          "source": {
+            "slug": "shishir-mehrotra",
+            "path": "episodes/shishir-mehrotra/transcript.md",
+            "lineStart": 354,
+            "lineEnd": 355
+          },
+          "themes": [
+            "product-strategy",
+            "eigenquestions",
+            "quality"
+          ],
+          "zones": [
+            "perfection",
+            "focus"
+          ]
+        },
+        {
+          "id": "shishir-mehrotra-q009",
+          "speaker": "Shishir Mehrotra",
+          "text": "If you're a junior product manager, what happens? You get handed a problem. You get handed a solution. You get handed the how. And all you have to do is execute. At some point you become a little more senior. We hand you a problem and you come back with the solutions. And at some point you're senior enough that you tell us the problems.",
+          "timestamp": "01:10:28",
+          "source": {
+            "slug": "shishir-mehrotra",
+            "path": "episodes/shishir-mehrotra/transcript.md",
+            "lineStart": 471,
+            "lineEnd": 475
+          },
+          "themes": [
+            "PSHE-framework",
+            "career-growth",
+            "product-management"
+          ],
+          "zones": [
+            "discovery",
+            "focus"
+          ]
+        },
+        {
+          "id": "shishir-mehrotra-q010",
+          "speaker": "Shishir Mehrotra",
+          "text": "Everything about leading up to this moment from high school and college has been about scope. And at this point you're all of a sudden told, 'We're not judging you on scope anymore. We're judging you on this PSHE thing that's very confusing.'",
+          "timestamp": "01:12:14",
+          "source": {
+            "slug": "shishir-mehrotra",
+            "path": "episodes/shishir-mehrotra/transcript.md",
+            "lineStart": 479,
+            "lineEnd": 481
+          },
+          "themes": [
+            "career-growth",
+            "PSHE-framework",
+            "talent-evaluation"
+          ],
+          "zones": [
+            "discovery",
+            "focus"
+          ]
+        },
+        {
+          "id": "shishir-mehrotra-q011",
+          "speaker": "Shishir Mehrotra",
+          "text": "I generally value the reference check over interview signals. If I had to stack rank in interviews, what is the best signal, the reference check is the top of the list. Those people, they worked with this person sometimes for years, their knowledge, what you're going to get out of 30 minutes of artificial scenarios, it's just never going to compare with what a good reference check will give you.",
+          "timestamp": "01:20:19",
+          "source": {
+            "slug": "shishir-mehrotra",
+            "path": "episodes/shishir-mehrotra/transcript.md",
+            "lineStart": 519,
+            "lineEnd": 520
+          },
+          "themes": [
+            "hiring",
+            "reference-checks",
+            "talent-evaluation"
+          ],
+          "zones": [
+            "data",
+            "intuition"
+          ]
+        }
+      ],
+      "themes": [
+        "eigenquestions",
+        "rituals",
+        "growth-loops",
+        "PSHE-framework",
+        "product-strategy",
+        "talent-evaluation",
+        "decision-making",
+        "culture"
+      ],
+      "takeaways": [
+        "Products grow through loops, not funnels - understanding whether your growth comes from viral sharing (Black Loop) or publishing to the world (Blue Loop) fundamentally changes how you structure teams and pricing.",
+        "Great companies have golden rituals that are named, known by every employee by their first Friday, and templated - these rituals are a mirror of culture and define how work actually gets done.",
+        "Eigenquestions are the questions that when answered, eliminate the most subsequent questions - finding them is a learnable skill that separates exceptional strategic thinkers from average ones.",
+        "The PSHE framework (Problem, Solution, How, Execution) reveals that career growth isn't about scope in the middle phase - it's about whether you identify problems, create solutions, or execute playbooks handed to you.",
+        "Reference checks are the most valuable hiring signal, far exceeding interview performance - people who worked with candidates for years provide insights that 30 minutes of artificial scenarios never can."
+      ],
+      "zone_influence": {
+        "velocity": 0.05,
+        "perfection": 0.15,
+        "discovery": 0.15,
+        "data": 0.15,
+        "intuition": 0.05,
+        "alignment": 0.2,
+        "chaos": 0,
+        "focus": 0.25
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "shishir-mehrotra-q008",
+          "why": "Choosing consistency over comprehensiveness - intentionally being on fewer platforms with better experience, against conventional wisdom of maximum distribution",
+          "related_zones": [
+            "perfection",
+            "focus"
+          ]
+        },
+        {
+          "quoteId": "shishir-mehrotra-q011",
+          "why": "Reference checks beat interviews - challenges the common belief that interviews are the primary hiring signal",
+          "related_zones": [
+            "data",
+            "intuition"
+          ]
+        }
+      ],
+      "guest_metadata": {
+        "guest_type": "founder",
+        "company_stage": "growth",
+        "primary_topics": [
+          "eigenquestions",
+          "rituals",
+          "growth-loops",
+          "product-strategy",
+          "hiring"
         ]
       }
     },
@@ -9545,6 +11702,307 @@
       }
     },
     {
+      "slug": "teresa-torres",
+      "quotes": [
+        {
+          "id": "teresa-torres-q001",
+          "speaker": "Teresa Torres",
+          "text": "A lot of teams, they learn how to do their jobs building products by being told, 'Build these features.' That's a really structured, okay, I just turn out some work problem. And so, we're asking teams to fundamentally do a really different type of job and I think teams needed some scaffolding for how do you make that shift.",
+          "timestamp": "00:06:41",
+          "source": {
+            "slug": "teresa-torres",
+            "path": "episodes/teresa-torres/transcript.md",
+            "lineStart": 114,
+            "lineEnd": 114
+          },
+          "themes": [
+            "product-management",
+            "outcomes",
+            "transformation"
+          ],
+          "zones": [
+            "discovery",
+            "alignment"
+          ]
+        },
+        {
+          "id": "teresa-torres-q002",
+          "speaker": "Teresa Torres",
+          "text": "We tend to just really struggle with this distinction between the problem space and the solution space. I think that the heart of good product is really getting comfortable in the problem space or the opportunity space, really taking the time to frame a problem well, and to really get into what's needed before we jump to solutions.",
+          "timestamp": "00:07:26",
+          "source": {
+            "slug": "teresa-torres",
+            "path": "episodes/teresa-torres/transcript.md",
+            "lineStart": 120,
+            "lineEnd": 120
+          },
+          "themes": [
+            "problem-framing",
+            "opportunity-space",
+            "product-discovery"
+          ],
+          "zones": [
+            "discovery",
+            "focus"
+          ]
+        },
+        {
+          "id": "teresa-torres-q003",
+          "speaker": "Teresa Torres",
+          "text": "So the first thing that makes this hard is you have to interview well. I think interviewing is a grossly underestimated skill. Grossly underestimated skill. So that's the first thing is that if you're not collecting rich stories in your interviews, it's going to be really hard to identify opportunities.",
+          "timestamp": "00:15:54",
+          "source": {
+            "slug": "teresa-torres",
+            "path": "episodes/teresa-torres/transcript.md",
+            "lineStart": 186,
+            "lineEnd": 186
+          },
+          "themes": [
+            "interviewing",
+            "user-research",
+            "skills"
+          ],
+          "zones": [
+            "discovery",
+            "perfection"
+          ]
+        },
+        {
+          "id": "teresa-torres-q004",
+          "speaker": "Teresa Torres",
+          "text": "I tell my teams when I teach it in class, I say, 'Look, we're going to focus on structuring an opportunity space, and I'm probably going to make you think harder than you've ever had to think in your job,' because we don't think that much at work. We go from meeting to meeting, we stay surface level a lot.",
+          "timestamp": "00:17:32",
+          "source": {
+            "slug": "teresa-torres",
+            "path": "episodes/teresa-torres/transcript.md",
+            "lineStart": 201,
+            "lineEnd": 201
+          },
+          "themes": [
+            "critical-thinking",
+            "opportunity-space",
+            "deep-work"
+          ],
+          "zones": [
+            "discovery",
+            "focus",
+            "perfection"
+          ]
+        },
+        {
+          "id": "teresa-torres-q005",
+          "speaker": "Teresa Torres",
+          "text": "I hear from people all the time say, 'I'm not allowed to talk to customers.' I go, 'Okay, well, your company doesn't own you when you're not at work. I bet you know people like your customers. Why don't you just start there?'",
+          "timestamp": "00:19:14",
+          "source": {
+            "slug": "teresa-torres",
+            "path": "episodes/teresa-torres/transcript.md",
+            "lineStart": 225,
+            "lineEnd": 225
+          },
+          "themes": [
+            "customer-research",
+            "empowerment",
+            "resourcefulness"
+          ],
+          "zones": [
+            "discovery",
+            "chaos"
+          ]
+        },
+        {
+          "id": "teresa-torres-q006",
+          "speaker": "Teresa Torres",
+          "text": "People make this mistake of we shouldn't put something in our backlog that hasn't been properly discovered. It's not true. Everything in our backlog is a bet, everything. Whether we do discovery or not, everything is a bet. Discovery is helping us make a better bet.",
+          "timestamp": "00:24:33",
+          "source": {
+            "slug": "teresa-torres",
+            "path": "episodes/teresa-torres/transcript.md",
+            "lineStart": 279,
+            "lineEnd": 279
+          },
+          "themes": [
+            "discovery",
+            "decision-making",
+            "risk"
+          ],
+          "zones": [
+            "discovery",
+            "intuition"
+          ]
+        },
+        {
+          "id": "teresa-torres-q007",
+          "speaker": "Teresa Torres",
+          "text": "I think the reason why people make this mistake is they think about it as phases. First I discover and then I deliver. No, you're always delivering and you're always discovering. The more you build this discovery habit, the better those bets are going to get with time.",
+          "timestamp": "00:25:29",
+          "source": {
+            "slug": "teresa-torres",
+            "path": "episodes/teresa-torres/transcript.md",
+            "lineStart": 285,
+            "lineEnd": 285
+          },
+          "themes": [
+            "continuous-discovery",
+            "delivery",
+            "habits"
+          ],
+          "zones": [
+            "discovery",
+            "velocity"
+          ]
+        },
+        {
+          "id": "teresa-torres-q008",
+          "speaker": "Teresa Torres",
+          "text": "The outcome is that we don't really collaborate. When we don't collaborate, I don't think we build very good products. So if we just go back to real life and when you're hanging out with friends and you're trying to accomplish something, you don't first stop and say, 'What's my role? What's your role?' That's just not how humans interact. We all collaborate intuitively. Business has taught us otherwise.",
+          "timestamp": "00:32:13",
+          "source": {
+            "slug": "teresa-torres",
+            "path": "episodes/teresa-torres/transcript.md",
+            "lineStart": 351,
+            "lineEnd": 351
+          },
+          "themes": [
+            "collaboration",
+            "product-trios",
+            "culture"
+          ],
+          "zones": [
+            "alignment",
+            "discovery"
+          ]
+        },
+        {
+          "id": "teresa-torres-q009",
+          "speaker": "Teresa Torres",
+          "text": "Kindergartners just start doing. They don't worry about their rules. They don't worry about who's in charge. They just brute force trial and error. What do MBA students do? There's posturing, like who has power and who's the decision-maker and who's right? They spend the whole time negotiating this political social space instead of just doing.",
+          "timestamp": "00:33:10",
+          "source": {
+            "slug": "teresa-torres",
+            "path": "episodes/teresa-torres/transcript.md",
+            "lineStart": 360,
+            "lineEnd": 360
+          },
+          "themes": [
+            "experimentation",
+            "action",
+            "bureaucracy"
+          ],
+          "zones": [
+            "chaos",
+            "velocity"
+          ]
+        },
+        {
+          "id": "teresa-torres-q010",
+          "speaker": "Teresa Torres",
+          "text": "Product people are in the business of changing behavior, understanding and changing behavior. I think that's a really big mistake that teams make is, both in their prototype tests and in their interviews, they focus on what people would do, on what people think. It's all really unreliable. It's a garbage in, garbage out situation. The real measure is tell me about your behavior. What did you actually do?",
+          "timestamp": "00:39:57",
+          "source": {
+            "slug": "teresa-torres",
+            "path": "episodes/teresa-torres/transcript.md",
+            "lineStart": 450,
+            "lineEnd": 450
+          },
+          "themes": [
+            "user-research",
+            "behavior",
+            "interviewing"
+          ],
+          "zones": [
+            "discovery",
+            "data"
+          ]
+        },
+        {
+          "id": "teresa-torres-q011",
+          "speaker": "Teresa Torres",
+          "text": "I don't know why product teams suddenly are held to a standard that nobody else is held to. When somebody says, 'Why is it reliable to make a decision based on one interview?' I flip the question around. Tell me about the decisions you made last week. How many customers did you talk to? Every human in business is making decisions with zero data. So I'm going to go with one is better than zero.",
+          "timestamp": "00:42:02",
+          "source": {
+            "slug": "teresa-torres",
+            "path": "episodes/teresa-torres/transcript.md",
+            "lineStart": 471,
+            "lineEnd": 474
+          },
+          "themes": [
+            "data",
+            "decision-making",
+            "user-research"
+          ],
+          "zones": [
+            "data",
+            "intuition",
+            "discovery"
+          ]
+        }
+      ],
+      "themes": [
+        "continuous-discovery",
+        "opportunity-solution-trees",
+        "customer-interviewing",
+        "product-discovery",
+        "assumption-testing",
+        "collaboration",
+        "product-trios"
+      ],
+      "takeaways": [
+        "The opportunity solution tree provides scaffolding for outcome-focused work - starting with an outcome, branching into customer opportunities (needs, pain points, desires), then solutions. The key is staying in the problem space before jumping to solutions.",
+        "Interviewing is a grossly underestimated skill. Collect rich stories by asking 'what happened next?' rather than direct questions. The best interviews feel like having a beer with a friend, not a 50-question interrogation.",
+        "Discovery and delivery aren't phases - you're always doing both. Everything in your backlog is a bet; discovery helps you make better bets. Don't stop shipping to do research, start discovering in parallel.",
+        "Product trios (PM, designer, engineer) should truly collaborate without rigid role boundaries. Well-functioning trios find options everyone agrees on rather than fighting over who decides. Kindergartners outperform MBAs because they just start doing instead of posturing.",
+        "Focus on actual behavior, not hypotheticals. 'What did you do?' is more reliable than 'What would you do?' Product people are in the business of understanding and changing behavior - garbage in, garbage out if you collect unreliable data."
+      ],
+      "zone_influence": {
+        "velocity": 0.05,
+        "perfection": 0.05,
+        "discovery": 0.45,
+        "data": 0.15,
+        "intuition": 0.1,
+        "alignment": 0.1,
+        "chaos": 0.05,
+        "focus": 0.05
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "teresa-torres-q005",
+          "why": "Challenges the 'I'm not allowed to talk to customers' excuse by suggesting you find customers in your personal network - subverts organizational gatekeeping",
+          "related_zones": [
+            "discovery",
+            "chaos"
+          ]
+        },
+        {
+          "quoteId": "teresa-torres-q011",
+          "why": "Flips the small-sample-size criticism by pointing out everyone else makes decisions with zero data - defends qualitative research against data purists",
+          "related_zones": [
+            "data",
+            "intuition"
+          ]
+        },
+        {
+          "quoteId": "teresa-torres-q009",
+          "why": "Uses kindergartners vs MBA students to challenge business culture's obsession with roles, hierarchy, and planning over action",
+          "related_zones": [
+            "chaos",
+            "velocity"
+          ]
+        }
+      ],
+      "guest_metadata": {
+        "guest_type": "coach",
+        "company_stage": "consulting",
+        "primary_topics": [
+          "continuous-discovery",
+          "opportunity-solution-trees",
+          "customer-interviewing",
+          "product-trios",
+          "assumption-testing"
+        ]
+      }
+    },
+    {
       "slug": "tobi-lutke",
       "guest": "Tobi Lütke",
       "episode_title": "Tobi Lütke's leadership playbook: First principles, infinite games, and maximizing human potential",
@@ -9869,6 +12327,297 @@
           "standards",
           "first-principles",
           "culture"
+        ]
+      }
+    },
+    {
+      "slug": "wes-kao",
+      "quotes": [
+        {
+          "id": "wes-kao-q001",
+          "speaker": "Wes Kao",
+          "text": "If I'm not getting the reaction that I'm looking for, how might I be contributing to that? Instead of blaming other people for not understanding me, I think about how could I explain this more clearly? How can I be more compelling? How can I anticipate any questions that they might have? I'm a big proponent of agency.",
+          "timestamp": "00:07:17",
+          "source": {
+            "slug": "wes-kao",
+            "path": "episodes/wes-kao-20/transcript.md",
+            "lineStart": 102,
+            "lineEnd": 102
+          },
+          "themes": [
+            "agency",
+            "communication",
+            "self-improvement"
+          ],
+          "zones": [
+            "focus",
+            "perfection"
+          ]
+        },
+        {
+          "id": "wes-kao-q002",
+          "speaker": "Wes Kao",
+          "text": "I see a lot of operators who save their best behavior for executives only. They want to shine when they're presenting to senior leadership, but with everyone else, they're kind of calling it. I just don't think that you're going to be able to get enough reps to actually get good at executive communication if you are only doing it with executives.",
+          "timestamp": "00:08:46",
+          "source": {
+            "slug": "wes-kao",
+            "path": "episodes/wes-kao-20/transcript.md",
+            "lineStart": 114,
+            "lineEnd": 114
+          },
+          "themes": [
+            "communication",
+            "practice",
+            "stakeholder-management"
+          ],
+          "zones": [
+            "perfection",
+            "alignment"
+          ]
+        },
+        {
+          "id": "wes-kao-q003",
+          "speaker": "Wes Kao",
+          "text": "A common mistake that I see is overestimating the amount of buy-in that you have from your audience. That looks like jumping straight into talking about the logistics, the details of the how to do something, when in reality your audience has not yet decided if they even want to do the thing.",
+          "timestamp": "00:11:07",
+          "source": {
+            "slug": "wes-kao",
+            "path": "episodes/wes-kao-20/transcript.md",
+            "lineStart": 132,
+            "lineEnd": 132
+          },
+          "themes": [
+            "persuasion",
+            "buy-in",
+            "communication"
+          ],
+          "zones": [
+            "alignment",
+            "intuition"
+          ]
+        },
+        {
+          "id": "wes-kao-q004",
+          "speaker": "Wes Kao",
+          "text": "Being concise is not about absolute word count, it's about economy of words. It's about the density of the insight that you're sharing. You can have a 300 word memo that's meandering and long-winded and a thousand word memo that is tight and concise.",
+          "timestamp": "00:18:31",
+          "source": {
+            "slug": "wes-kao",
+            "path": "episodes/wes-kao-20/transcript.md",
+            "lineStart": 183,
+            "lineEnd": 183
+          },
+          "themes": [
+            "writing",
+            "communication",
+            "clarity"
+          ],
+          "zones": [
+            "perfection",
+            "focus"
+          ]
+        },
+        {
+          "id": "wes-kao-q005",
+          "speaker": "Wes Kao",
+          "text": "We've all heard 'Don't bury the lead, cut to the chase, put the main point at the top.' All of these pithy aphorisms assume that you actually know what your core point is. You can't cut to the chase unless you know what the chase is. That's the bottleneck to being concise. It's actually not being clear of what you are thinking.",
+          "timestamp": "00:19:05",
+          "source": {
+            "slug": "wes-kao",
+            "path": "episodes/wes-kao-20/transcript.md",
+            "lineStart": 186,
+            "lineEnd": 186
+          },
+          "themes": [
+            "writing",
+            "clarity",
+            "thinking"
+          ],
+          "zones": [
+            "focus",
+            "discovery"
+          ]
+        },
+        {
+          "id": "wes-kao-q006",
+          "speaker": "Wes Kao",
+          "text": "The blast radius of a poorly written memo is way bigger than most people think. If you're just shooting off a message in a Slack channel with 15 other people and it's confusing, there's going to be a bunch of back and forth. Whereas if you had just taken another look at it, those 15 people would be off to the races.",
+          "timestamp": "00:25:37",
+          "source": {
+            "slug": "wes-kao",
+            "path": "episodes/wes-kao-20/transcript.md",
+            "lineStart": 240,
+            "lineEnd": 243
+          },
+          "themes": [
+            "writing",
+            "efficiency",
+            "leverage"
+          ],
+          "zones": [
+            "velocity",
+            "alignment"
+          ]
+        },
+        {
+          "id": "wes-kao-q007",
+          "speaker": "Wes Kao",
+          "text": "All these little things compound and make a big difference. I often hear people think this individual email or Slack message is not worth spending a couple more minutes on. The problem with that line of thinking is that no one instance is ever going to feel important enough, and when you zoom out, that's all your work then.",
+          "timestamp": "00:36:29",
+          "source": {
+            "slug": "wes-kao",
+            "path": "episodes/wes-kao-20/transcript.md",
+            "lineStart": 321,
+            "lineEnd": 321
+          },
+          "themes": [
+            "quality",
+            "compounding",
+            "habits"
+          ],
+          "zones": [
+            "perfection",
+            "velocity"
+          ]
+        },
+        {
+          "id": "wes-kao-q008",
+          "speaker": "Wes Kao",
+          "text": "MOO stands for Most Obvious Objection. A lot of times we're surprised by the questions that we get, especially in meetings where we feel blindsided. When really, if you thought for even two minutes about what are obvious objections that I'm likely to get, you often immediately come up with what some of those things are.",
+          "timestamp": "00:50:26",
+          "source": {
+            "slug": "wes-kao",
+            "path": "episodes/wes-kao-20/transcript.md",
+            "lineStart": 411,
+            "lineEnd": 411
+          },
+          "themes": [
+            "preparation",
+            "persuasion",
+            "frameworks"
+          ],
+          "zones": [
+            "intuition",
+            "focus"
+          ]
+        },
+        {
+          "id": "wes-kao-q009",
+          "speaker": "Wes Kao",
+          "text": "One of the most common myths about managing up that I definitely felt early on was that I would have to manage up if I were more junior, but eventually I would outgrow it. It was a rude awakening that no matter how senior I got, not only did I have to manage up, it actually became more important.",
+          "timestamp": "00:59:18",
+          "source": {
+            "slug": "wes-kao",
+            "path": "episodes/wes-kao-20/transcript.md",
+            "lineStart": 462,
+            "lineEnd": 462
+          },
+          "themes": [
+            "managing-up",
+            "career",
+            "leadership"
+          ],
+          "zones": [
+            "alignment",
+            "discovery"
+          ]
+        },
+        {
+          "id": "wes-kao-q010",
+          "speaker": "Wes Kao",
+          "text": "When you just ask your manager 'What should we do?' you're putting a lot of cognitive load on them to think about the problem, think about potential solutions, craft the solution, and then tell you what to do. Whereas if you said 'Here's what I think we should do, how does that sound?' you give them something to build off of.",
+          "timestamp": "01:00:54",
+          "source": {
+            "slug": "wes-kao",
+            "path": "episodes/wes-kao-20/transcript.md",
+            "lineStart": 471,
+            "lineEnd": 471
+          },
+          "themes": [
+            "managing-up",
+            "agency",
+            "leadership"
+          ],
+          "zones": [
+            "velocity",
+            "alignment"
+          ]
+        },
+        {
+          "id": "wes-kao-q011",
+          "speaker": "Wes Kao",
+          "text": "I have a framework called strategy, not self-expression. By the time we are giving feedback to someone, we have been frustrated for a while. The goal is behavior change. So trim everything that does not contribute to that goal and only keep the part that will make the person want to change.",
+          "timestamp": "01:05:05",
+          "source": {
+            "slug": "wes-kao",
+            "path": "episodes/wes-kao-20/transcript.md",
+            "lineStart": 489,
+            "lineEnd": 492
+          },
+          "themes": [
+            "feedback",
+            "communication",
+            "management"
+          ],
+          "zones": [
+            "focus",
+            "alignment"
+          ]
+        }
+      ],
+      "themes": [
+        "communication",
+        "executive-communication",
+        "managing-up",
+        "persuasion",
+        "writing",
+        "frameworks",
+        "career-development",
+        "agency"
+      ],
+      "takeaways": [
+        "Take ownership of communication outcomes - if you're not getting the reaction you want, examine how you might be contributing to that rather than blaming others for not understanding.",
+        "Always sell before logistics - people haven't decided if they want to do something yet, so establish buy-in before diving into the how and process details.",
+        "Being concise means economy of words, not brevity - a longer document can be tighter and more concise than a short one if every word earns its place.",
+        "Use the MOO (Most Obvious Objection) framework before any presentation or proposal - spend even two minutes anticipating the obvious objections to avoid being blindsided.",
+        "Managing up becomes more important as you get senior, not less - share your point of view and recommendations rather than asking your manager what to do."
+      ],
+      "zone_influence": {
+        "velocity": 0.1,
+        "perfection": 0.2,
+        "discovery": 0.1,
+        "data": 0.05,
+        "intuition": 0.1,
+        "alignment": 0.3,
+        "chaos": 0,
+        "focus": 0.15
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "wes-kao-q005",
+          "why": "Challenges common advice about being concise - argues the bottleneck is clarity of thinking, not word count reduction",
+          "related_zones": [
+            "focus",
+            "discovery"
+          ]
+        },
+        {
+          "quoteId": "wes-kao-q009",
+          "why": "Counters the myth that managing up is a junior skill you outgrow - argues it becomes MORE important with seniority",
+          "related_zones": [
+            "alignment",
+            "discovery"
+          ]
+        }
+      ],
+      "guest_metadata": {
+        "guest_type": "founder",
+        "company_stage": "growth",
+        "primary_topics": [
+          "communication",
+          "executive-communication",
+          "managing-up",
+          "cohort-based-courses"
         ]
       }
     }
@@ -14672,6 +17421,263 @@
       ]
     },
     {
+      "id": "gibson-biddle-q001",
+      "speaker": "Gibson Biddle",
+      "text": "The job is to delight customers. Like Peter Thiel, his book, From Zero to One. The job of an entrepreneur at the beginning is just to find out something that's 10X better. Delight is trying to work in that magnitude.",
+      "timestamp": "00:09:05",
+      "source": {
+        "slug": "gibson-biddle",
+        "path": "episodes/gibson-biddle/transcript.md",
+        "lineStart": 126,
+        "lineEnd": 127
+      },
+      "themes": [
+        "product-strategy",
+        "customer-delight",
+        "DHM-framework"
+      ],
+      "zones": [
+        "perfection",
+        "discovery"
+      ]
+    },
+    {
+      "id": "gibson-biddle-q002",
+      "speaker": "Gibson Biddle",
+      "text": "I'll bet my paycheck that within a week, Blockbuster's going to put a happy family on their couch, too. And this is the problem of doing things that are easy to copy. So in the long term, if you can delight customers and create hard to copy advantage, things are just a lot better.",
+      "timestamp": "00:09:58",
+      "source": {
+        "slug": "gibson-biddle",
+        "path": "episodes/gibson-biddle/transcript.md",
+        "lineStart": 131,
+        "lineEnd": 133
+      },
+      "themes": [
+        "competitive-advantage",
+        "strategy",
+        "DHM-framework"
+      ],
+      "zones": [
+        "focus",
+        "perfection"
+      ]
+    },
+    {
+      "id": "gibson-biddle-q003",
+      "speaker": "Gibson Biddle",
+      "text": "I mainly was just trying to find these high level theories and hypotheses that I hoped would delight in hard to copy, margin enhancing ways. The reality was, we'd have 10 ideas and probably six of them would fail, but a lot of value in the three or the four that worked.",
+      "timestamp": "00:17:54",
+      "source": {
+        "slug": "gibson-biddle",
+        "path": "episodes/gibson-biddle/transcript.md",
+        "lineStart": 261,
+        "lineEnd": 262
+      },
+      "themes": [
+        "experimentation",
+        "hypothesis-testing",
+        "product-strategy"
+      ],
+      "zones": [
+        "data",
+        "discovery",
+        "chaos"
+      ]
+    },
+    {
+      "id": "gibson-biddle-q004",
+      "speaker": "Gibson Biddle",
+      "text": "You sort of want to get to this place where you don't really care, and your sort of true North is okay, how can we best serve our customer? And that's what I really love about that particular model.",
+      "timestamp": "00:20:36",
+      "source": {
+        "slug": "gibson-biddle",
+        "path": "episodes/gibson-biddle/transcript.md",
+        "lineStart": 282,
+        "lineEnd": 283
+      },
+      "themes": [
+        "customer-focus",
+        "competition",
+        "strategy"
+      ],
+      "zones": [
+        "focus",
+        "perfection"
+      ]
+    },
+    {
+      "id": "gibson-biddle-q005",
+      "speaker": "Gibson Biddle",
+      "text": "If you find an idea that only works for 2% of your customers, now you're creating complexity, one more thing to choose. As a rule, I never used rules as thumbs, but these two percenters, I would kill them. If I launched something and it was only 2% we'd, we called it scraping the barnacles, just get rid of it.",
+      "timestamp": "00:24:10",
+      "source": {
+        "slug": "gibson-biddle",
+        "path": "episodes/gibson-biddle/transcript.md",
+        "lineStart": 333,
+        "lineEnd": 337
+      },
+      "themes": [
+        "simplicity",
+        "prioritization",
+        "product-decisions"
+      ],
+      "zones": [
+        "focus",
+        "data"
+      ]
+    },
+    {
+      "id": "gibson-biddle-q006",
+      "speaker": "Gibson Biddle",
+      "text": "As product managers, we feel like every decision we make is high stakes. It's good occasionally to think about, hey, what's the magnitude? And then, is it reversible? Amazon calls those two-way door decisions. It's reversible. The one way door, those are the bigger deal.",
+      "timestamp": "00:28:39",
+      "source": {
+        "slug": "gibson-biddle",
+        "path": "episodes/gibson-biddle/transcript.md",
+        "lineStart": 399,
+        "lineEnd": 403
+      },
+      "themes": [
+        "decision-making",
+        "risk-assessment",
+        "reversibility"
+      ],
+      "zones": [
+        "data",
+        "velocity",
+        "chaos"
+      ]
+    },
+    {
+      "id": "gibson-biddle-q007",
+      "speaker": "Gibson Biddle",
+      "text": "I would just text my pals, and they would just give me the data. That's amazing insight, just by having peers in the business that you talk to, which this is the behavior that I want everybody out there engaged in. I call it building your personal board of directors.",
+      "timestamp": "00:40:51",
+      "source": {
+        "slug": "gibson-biddle",
+        "path": "episodes/gibson-biddle/transcript.md",
+        "lineStart": 518,
+        "lineEnd": 520
+      },
+      "themes": [
+        "mentorship",
+        "career-development",
+        "networking"
+      ],
+      "zones": [
+        "alignment",
+        "discovery"
+      ]
+    },
+    {
+      "id": "gibson-biddle-q008",
+      "speaker": "Gibson Biddle",
+      "text": "The first rule of thumb is, don't ask a person to be your mentor. That's really awkward. First, identify them. Say, this is a person I think that could be helpful to me. And then, find ways to be helpful. Everybody needs help. Everybody, everybody, everybody.",
+      "timestamp": "00:42:13",
+      "source": {
+        "slug": "gibson-biddle",
+        "path": "episodes/gibson-biddle/transcript.md",
+        "lineStart": 532,
+        "lineEnd": 535
+      },
+      "themes": [
+        "mentorship",
+        "relationships",
+        "career-advice"
+      ],
+      "zones": [
+        "alignment",
+        "intuition"
+      ]
+    },
+    {
+      "id": "gibson-biddle-q009",
+      "speaker": "Gibson Biddle",
+      "text": "I just need you to force rank these three factors for me: growth, engagement, and monetization. And I need the two of you to agree. Growth is basically year over year customer growth. Engagement is how I think about product quality. A more engaging product is a better product.",
+      "timestamp": "00:44:15",
+      "source": {
+        "slug": "gibson-biddle",
+        "path": "episodes/gibson-biddle/transcript.md",
+        "lineStart": 561,
+        "lineEnd": 564
+      },
+      "themes": [
+        "GEM-framework",
+        "prioritization",
+        "alignment"
+      ],
+      "zones": [
+        "alignment",
+        "data",
+        "focus"
+      ]
+    },
+    {
+      "id": "gibson-biddle-q010",
+      "speaker": "Gibson Biddle",
+      "text": "These are the kinds of fundamental misalignments that can wreck startups. I'm not saying that one or the other was right or wrong, but as leaders in the organization, we've got to get some of the basic stories straight, including how do we fundamentally prioritize growth versus engagement versus monetization?",
+      "timestamp": "00:45:56",
+      "source": {
+        "slug": "gibson-biddle",
+        "path": "episodes/gibson-biddle/transcript.md",
+        "lineStart": 569,
+        "lineEnd": 571
+      },
+      "themes": [
+        "leadership-alignment",
+        "prioritization",
+        "startup-challenges"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "gibson-biddle-q011",
+      "speaker": "Gibson Biddle",
+      "text": "When I would join a new company, I would give myself two weeks to develop the product strategy for that company, which is a little outrageous, but I would just do it fast. I would develop the SWAG, but then I'd go to one person. 'Hey, this is my best thinking, what do you think?' And of course, they had been there for four years. They were much smarter than I, and they would refine my thinking.",
+      "timestamp": "00:47:25",
+      "source": {
+        "slug": "gibson-biddle",
+        "path": "episodes/gibson-biddle/transcript.md",
+        "lineStart": 585,
+        "lineEnd": 588
+      },
+      "themes": [
+        "strategy",
+        "speed",
+        "collaboration"
+      ],
+      "zones": [
+        "velocity",
+        "alignment",
+        "intuition"
+      ]
+    },
+    {
+      "id": "gibson-biddle-q012",
+      "speaker": "Gibson Biddle",
+      "text": "Begin your day with intent. What are the three to five things I'm hoping to do today? Second, minimize meetings. That sucks the life out of everybody, including you. Spend a lot of time with your customers. Find a balance between doing and thinking. Most of us do, do, do. Occasionally stop and ask yourself, what should I really be doing right now?",
+      "timestamp": "00:52:49",
+      "source": {
+        "slug": "gibson-biddle",
+        "path": "episodes/gibson-biddle/transcript.md",
+        "lineStart": 639,
+        "lineEnd": 646
+      },
+      "themes": [
+        "productivity",
+        "customer-focus",
+        "self-management"
+      ],
+      "zones": [
+        "focus",
+        "perfection",
+        "discovery"
+      ]
+    },
+    {
       "id": "gokul-rajaram-001",
       "text": "I basically became a part-time PM for them nights and weekends. Within three months this thing grew big enough and that became Google AdSense. It's very important to do a core job really well at any company, but it's equally important to have curiosity and be open to serendipity. Great careers are built by knowing a lot of people doing great work so they know and want you on their teams, and just waiting for serendipity and then seizing it and jumping.",
       "source": {
@@ -16238,6 +19244,238 @@
       ]
     },
     {
+      "id": "melanie-perkins-q001",
+      "speaker": "Melanie Perkins",
+      "text": "And I think most planning is often done by looking at the bricks and trying to stack them, and then you can create only so much. And so I guess the column B thinking is thinking about what is that magical wonderful future that you then want to invest years and decades of your life actually building?",
+      "timestamp": "00:05:35",
+      "source": {
+        "slug": "melanie-perkins",
+        "path": "episodes/melanie-perkins/transcript.md",
+        "lineStart": 84,
+        "lineEnd": 84
+      },
+      "themes": [
+        "vision",
+        "strategy",
+        "founder-mindset"
+      ],
+      "zones": [
+        "discovery",
+        "intuition"
+      ]
+    },
+    {
+      "id": "melanie-perkins-q002",
+      "speaker": "Melanie Perkins",
+      "text": "You kind of want to have a ladder that goes all the way up to the moon, which is your crazy, wild vision. And then you want to have rungs that just work its way up step by step. And so you want to get that really clear picture of the future that you would like and then just take little step, after little step, after little step.",
+      "timestamp": "00:09:43",
+      "source": {
+        "slug": "melanie-perkins",
+        "path": "episodes/melanie-perkins/transcript.md",
+        "lineStart": 108,
+        "lineEnd": 108
+      },
+      "themes": [
+        "vision",
+        "execution",
+        "incremental-progress"
+      ],
+      "zones": [
+        "focus",
+        "velocity"
+      ]
+    },
+    {
+      "id": "melanie-perkins-q003",
+      "speaker": "Melanie Perkins",
+      "text": "So we have this concept of chaos to clarity and every idea starts in the chaos side, and then you have to work all the way to the other side, which is clarity. And so chaos can be an idea, it can be a problem, it can be a philosophy or a belief.",
+      "timestamp": "00:12:04",
+      "source": {
+        "slug": "melanie-perkins",
+        "path": "episodes/melanie-perkins/transcript.md",
+        "lineStart": 123,
+        "lineEnd": 123
+      },
+      "themes": [
+        "product-development",
+        "ideation",
+        "process"
+      ],
+      "zones": [
+        "chaos",
+        "discovery"
+      ]
+    },
+    {
+      "id": "melanie-perkins-q004",
+      "speaker": "Melanie Perkins",
+      "text": "That very first step at the very far end of chaos, it's very embarrassing because you're like, 'I have this idea that is so big and so wild and how the hell would I do that? I have no idea.' And so it's quite an embarrassing step, actually, because you don't have mastery at that point. You don't have all the answers.",
+      "timestamp": "00:13:48",
+      "source": {
+        "slug": "melanie-perkins",
+        "path": "episodes/melanie-perkins/transcript.md",
+        "lineStart": 129,
+        "lineEnd": 129
+      },
+      "themes": [
+        "founder-journey",
+        "humility",
+        "starting-out"
+      ],
+      "zones": [
+        "chaos",
+        "intuition"
+      ]
+    },
+    {
+      "id": "melanie-perkins-q005",
+      "speaker": "Melanie Perkins",
+      "text": "I think the thing that I love about a crazy big goal is that you feel completely inadequate before it. With a crazy big goal, then you want to work really hard to will it into existence. And so if you start with a reasonable goal or a realistic goal, then you kind of get to it and you're like, 'Oh cool, whatever.'",
+      "timestamp": "00:15:08",
+      "source": {
+        "slug": "melanie-perkins",
+        "path": "episodes/melanie-perkins/transcript.md",
+        "lineStart": 135,
+        "lineEnd": 138
+      },
+      "themes": [
+        "ambition",
+        "motivation",
+        "goals"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ]
+    },
+    {
+      "id": "melanie-perkins-q006",
+      "speaker": "Melanie Perkins",
+      "text": "We were doing a front-end rewrite and we thought it would take about six months. It was really important because it was critical for cross-platform. And it just felt like we're in a dark, dark tunnel that we could hardly see the end of the tunnel. A product company not shipping product is not really a recipe for fun.",
+      "timestamp": "00:24:14",
+      "source": {
+        "slug": "melanie-perkins",
+        "path": "episodes/melanie-perkins/transcript.md",
+        "lineStart": 189,
+        "lineEnd": 192
+      },
+      "themes": [
+        "perseverance",
+        "product-development",
+        "challenges"
+      ],
+      "zones": [
+        "focus",
+        "perfection"
+      ]
+    },
+    {
+      "id": "melanie-perkins-q007",
+      "speaker": "Melanie Perkins",
+      "text": "It was really clear in my mind that it was the future and I thought the investors were wrong, frankly. But investors also gave really helpful feedback and feedback often in the form of rejection. So they would say, 'Oh, your market's not big enough.' And I would say, 'It's going to be huge.' And I'd add a new page in my pitch deck.",
+      "timestamp": "00:27:06",
+      "source": {
+        "slug": "melanie-perkins",
+        "path": "episodes/melanie-perkins/transcript.md",
+        "lineStart": 216,
+        "lineEnd": 216
+      },
+      "themes": [
+        "fundraising",
+        "perseverance",
+        "iteration"
+      ],
+      "zones": [
+        "intuition",
+        "velocity"
+      ]
+    },
+    {
+      "id": "melanie-perkins-q008",
+      "speaker": "Melanie Perkins",
+      "text": "It's kind of building a house that you want every brick in the house to match. And if you go and try and take some bricks from someone else's house and stick it in your house, it's probably going to not look very matched. And so trying to find things that are authentic to us and are authentic to everything that's come before it.",
+      "timestamp": "00:31:11",
+      "source": {
+        "slug": "melanie-perkins",
+        "path": "episodes/melanie-perkins/transcript.md",
+        "lineStart": 240,
+        "lineEnd": 240
+      },
+      "themes": [
+        "culture",
+        "authenticity",
+        "leadership"
+      ],
+      "zones": [
+        "alignment",
+        "perfection"
+      ]
+    },
+    {
+      "id": "melanie-perkins-q009",
+      "speaker": "Melanie Perkins",
+      "text": "Often people have a mission that's kind of on the wall somewhere and then what they're actually doing and the way they actually make money and the way people actually spend their time is in a very, very different direction from that original mission. And I think the magic is when you can bring those two things together.",
+      "timestamp": "00:34:48",
+      "source": {
+        "slug": "melanie-perkins",
+        "path": "episodes/melanie-perkins/transcript.md",
+        "lineStart": 264,
+        "lineEnd": 264
+      },
+      "themes": [
+        "mission",
+        "alignment",
+        "strategy"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "melanie-perkins-q010",
+      "speaker": "Melanie Perkins",
+      "text": "I don't have emails on my phone and so when I shut my laptop, I actually tune out and then if there's a real issue, I'll get an emergency call or page. Sometimes you can miss the forest from the trees when you're just working harder and harder, but maybe you're actually working on the wrong thing.",
+      "timestamp": "00:37:15",
+      "source": {
+        "slug": "melanie-perkins",
+        "path": "episodes/melanie-perkins/transcript.md",
+        "lineStart": 276,
+        "lineEnd": 276
+      },
+      "themes": [
+        "work-life-balance",
+        "perspective",
+        "leadership"
+      ],
+      "zones": [
+        "focus",
+        "intuition"
+      ]
+    },
+    {
+      "id": "melanie-perkins-q011",
+      "speaker": "Melanie Perkins",
+      "text": "And if you take that problem centered approach that helps people to achieve something they actually want to do in the real life, you're probably going to be at a reasonably good spot. I think it's better to solve a small number of people's problem really well than trying to solve a large number of people's problem not very well at all.",
+      "timestamp": "00:52:04",
+      "source": {
+        "slug": "melanie-perkins",
+        "path": "episodes/melanie-perkins/transcript.md",
+        "lineStart": 399,
+        "lineEnd": 399
+      },
+      "themes": [
+        "product-market-fit",
+        "focus",
+        "customer-centricity"
+      ],
+      "zones": [
+        "focus",
+        "discovery",
+        "data"
+      ]
+    },
+    {
       "id": "mike-krieger-q001",
       "speaker": "Mike Krieger",
       "text": "I had this notion coming in like, 'Yes, these models are great, but are they able to have an independent opinion?' And it's actually really flipped for me only in the last month. My go-to product strategy partner is Claude. Opus 4 really looked at it in a new way. That is a new angle that I hadn't been looking at before and I'm going to incorporate that immediately.",
@@ -16492,6 +19730,534 @@
         "chaos",
         "intuition",
         "velocity"
+      ]
+    },
+    {
+      "id": "molly-graham-q001",
+      "speaker": "Molly Graham",
+      "text": "That is both the torment of scaling companies, which is that the ground is moving under your feet. And as soon as you're comfortable, someone will make sure that you are uncomfortable, but it's also the opportunity, which is that you can go from being someone that's good at building houses to someone that knows how to build entire worlds.",
+      "timestamp": "00:14:03",
+      "source": {
+        "slug": "molly-graham",
+        "path": "episodes/molly-graham/transcript.md",
+        "lineStart": 127,
+        "lineEnd": 130
+      },
+      "themes": [
+        "delegation",
+        "growth",
+        "career-growth",
+        "giving-away-legos"
+      ],
+      "zones": [
+        "chaos",
+        "discovery"
+      ]
+    },
+    {
+      "id": "molly-graham-q002",
+      "speaker": "Molly Graham",
+      "text": "At Facebook, I got to a place where I was literally giving away my job every three weeks. I was constantly rehiring myself essentially because you have to sort of grow as fast as your company is growing if you really want to take advantage of the opportunity that comes with companies that are growing and changing quickly.",
+      "timestamp": "00:16:27",
+      "source": {
+        "slug": "molly-graham",
+        "path": "episodes/molly-graham/transcript.md",
+        "lineStart": 148,
+        "lineEnd": 151
+      },
+      "themes": [
+        "delegation",
+        "scaling",
+        "growth",
+        "giving-away-legos"
+      ],
+      "zones": [
+        "velocity",
+        "chaos"
+      ]
+    },
+    {
+      "id": "molly-graham-q003",
+      "speaker": "Molly Graham",
+      "text": "I externalized all these emotions that come with change into this little tiny monster. I named my monster, Bob. Bob's job is basically to make me the worst version of myself. He's the one that wants to send the rage emails at 9:00PM and burn the house down. All these emotions are normal and they are not useful. They are not the compass that should be telling you what to do.",
+      "timestamp": "00:17:56",
+      "source": {
+        "slug": "molly-graham",
+        "path": "episodes/molly-graham/transcript.md",
+        "lineStart": 157,
+        "lineEnd": 161
+      },
+      "themes": [
+        "emotions",
+        "change-management",
+        "self-awareness",
+        "bob-the-monster"
+      ],
+      "zones": [
+        "intuition",
+        "chaos"
+      ]
+    },
+    {
+      "id": "molly-graham-q004",
+      "speaker": "Molly Graham",
+      "text": "The way a lot of people do careers is a set of stairs. Just walk up the stairs and you'll get promoted every two years. But the much more fun careers are like jumping off cliffs. You do fall for a period of time, about six to nine months, but then this thing happens where you climb out way beyond where the stairs could ever get you.",
+      "timestamp": "00:28:05",
+      "source": {
+        "slug": "molly-graham",
+        "path": "episodes/molly-graham/transcript.md",
+        "lineStart": 232,
+        "lineEnd": 235
+      },
+      "themes": [
+        "career-growth",
+        "risk-taking",
+        "j-curve",
+        "learning"
+      ],
+      "zones": [
+        "discovery",
+        "chaos"
+      ]
+    },
+    {
+      "id": "molly-graham-q005",
+      "speaker": "Molly Graham",
+      "text": "One of the greatest gifts in a career is knowing yourself. And that's a lifelong journey because who you are and what you want changes, but that knowledge and that gift, nothing accelerates your self-knowledge faster than trying to do something that you don't know how to do and that you're scared of.",
+      "timestamp": "00:32:27",
+      "source": {
+        "slug": "molly-graham",
+        "path": "episodes/molly-graham/transcript.md",
+        "lineStart": 265,
+        "lineEnd": 265
+      },
+      "themes": [
+        "self-knowledge",
+        "career-growth",
+        "fear",
+        "learning"
+      ],
+      "zones": [
+        "discovery",
+        "intuition"
+      ]
+    },
+    {
+      "id": "molly-graham-q006",
+      "speaker": "Molly Graham",
+      "text": "Being the person that takes their learning in their own hands, learning no matter what and learning to ask those dumb questions, it's a superpower. Actually, my superpower is being a professional moron. I'm the one that shows up in a room and is like, 'Do we have goals? What are we doing? Why are we having this meeting?' And most of the time it's actually what I was hired to do, which is bring clarity.",
+      "timestamp": "00:35:48",
+      "source": {
+        "slug": "molly-graham",
+        "path": "episodes/molly-graham/transcript.md",
+        "lineStart": 288,
+        "lineEnd": 296
+      },
+      "themes": [
+        "learning",
+        "curiosity",
+        "clarity",
+        "leadership"
+      ],
+      "zones": [
+        "discovery",
+        "alignment"
+      ]
+    },
+    {
+      "id": "molly-graham-q007",
+      "speaker": "Molly Graham",
+      "text": "The rule with the Waterline Model is you snorkel before you scuba. 80% of problems on teams actually happen because of structural issues or dynamics issues. Your only goal as a manager, if you do nothing else, is clear roles and clear expectations. That's it.",
+      "timestamp": "00:41:44",
+      "source": {
+        "slug": "molly-graham",
+        "path": "episodes/molly-graham/transcript.md",
+        "lineStart": 334,
+        "lineEnd": 337
+      },
+      "themes": [
+        "management",
+        "team-diagnostics",
+        "waterline-model",
+        "clarity"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "molly-graham-q008",
+      "speaker": "Molly Graham",
+      "text": "No company needs more than three company goals and the point of company goals is to help people know what the most important things are to success. Facebook basically had three goals for the entire time I was there. If you can govern that business with three goals, you can govern literally any business with three goals.",
+      "timestamp": "00:49:52",
+      "source": {
+        "slug": "molly-graham",
+        "path": "episodes/molly-graham/transcript.md",
+        "lineStart": 385,
+        "lineEnd": 389
+      },
+      "themes": [
+        "goals",
+        "prioritization",
+        "strategy",
+        "focus"
+      ],
+      "zones": [
+        "focus",
+        "alignment"
+      ]
+    },
+    {
+      "id": "molly-graham-q009",
+      "speaker": "Molly Graham",
+      "text": "Strategy should hurt. If your goal setting process is not painful, then you're not prioritizing heavily enough.",
+      "timestamp": "00:52:09",
+      "source": {
+        "slug": "molly-graham",
+        "path": "episodes/molly-graham/transcript.md",
+        "lineStart": 394,
+        "lineEnd": 394
+      },
+      "themes": [
+        "strategy",
+        "prioritization",
+        "goals",
+        "trade-offs"
+      ],
+      "zones": [
+        "focus",
+        "alignment"
+      ]
+    },
+    {
+      "id": "molly-graham-q010",
+      "speaker": "Molly Graham",
+      "text": "One goal has one owner. Two people owning a goal is no one owning a goal. One person owns the goal, who is it? It's not you as the CEO, it's someone that works for you. That means that person, come hell or high water, owns that number.",
+      "timestamp": "00:55:16",
+      "source": {
+        "slug": "molly-graham",
+        "path": "episodes/molly-graham/transcript.md",
+        "lineStart": 397,
+        "lineEnd": 419
+      },
+      "themes": [
+        "goals",
+        "accountability",
+        "ownership",
+        "leadership"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "molly-graham-q011",
+      "speaker": "Molly Graham",
+      "text": "80% of the culture of a company is literally defined by the personality of the founder. Facebook is Mark. Google is Larry and Sergei. Our job as operators or as leaders around founders is to help articulate the culture that they're creating and to help extend it.",
+      "timestamp": "01:12:29",
+      "source": {
+        "slug": "molly-graham",
+        "path": "episodes/molly-graham/transcript.md",
+        "lineStart": 571,
+        "lineEnd": 574
+      },
+      "themes": [
+        "culture",
+        "founder-mode",
+        "leadership",
+        "company-building"
+      ],
+      "zones": [
+        "alignment",
+        "perfection"
+      ]
+    },
+    {
+      "id": "molly-graham-q012",
+      "speaker": "Molly Graham",
+      "text": "More people does not actually make you faster. We think it does. It does not. It makes it harder. It makes it harder to get work done. It makes it slower. So you should be scared of adding people, not like, 'Oh, this is the answer to all my problems.'",
+      "timestamp": "01:20:16",
+      "source": {
+        "slug": "molly-graham",
+        "path": "episodes/molly-graham/transcript.md",
+        "lineStart": 639,
+        "lineEnd": 640
+      },
+      "themes": [
+        "scaling",
+        "team-size",
+        "velocity",
+        "hiring"
+      ],
+      "zones": [
+        "velocity",
+        "focus"
+      ]
+    },
+    {
+      "id": "naomi-gleit-q001",
+      "speaker": "Naomi Gleit",
+      "text": "The most dangerous kind of person to have in an organization is an agreeable taker. And the most precious person in an organization is the disagreeable giver. Those are the people who are really motivated to do what's best for the company, but they can be a little bit disagreeable in the sense that they may not say what you want to hear. They may push back on things, they may fight for things.",
+      "timestamp": "00:21:52",
+      "source": {
+        "slug": "naomi-gleit",
+        "path": "episodes/naomi-gleit/transcript.md",
+        "lineStart": 231,
+        "lineEnd": 232
+      },
+      "themes": [
+        "leadership",
+        "culture",
+        "feedback",
+        "small-group"
+      ],
+      "zones": [
+        "alignment",
+        "chaos"
+      ]
+    },
+    {
+      "id": "naomi-gleit-q002",
+      "speaker": "Naomi Gleit",
+      "text": "We had a notion of growth accounting, which looks at what's our net growth every day? And what we found was the churn and resurrection lines were actually much larger than the new user line, which implied to us that retention and driving those two lines was actually our biggest lever to drive net growth.",
+      "timestamp": "00:26:30",
+      "source": {
+        "slug": "naomi-gleit",
+        "path": "episodes/naomi-gleit/transcript.md",
+        "lineStart": 282,
+        "lineEnd": 283
+      },
+      "themes": [
+        "growth",
+        "retention",
+        "data-driven",
+        "metrics"
+      ],
+      "zones": [
+        "data",
+        "discovery"
+      ]
+    },
+    {
+      "id": "naomi-gleit-q003",
+      "speaker": "Naomi Gleit",
+      "text": "One of my Naomi-isms is really understand, identify, and execute. In 2009 in January, we basically stopped doing anything on our roadmap except data instrumentation. We just didn't have the data that we needed to make informed decisions to know really what were the biggest levers to drive growth.",
+      "timestamp": "00:29:43",
+      "source": {
+        "slug": "naomi-gleit",
+        "path": "episodes/naomi-gleit/transcript.md",
+        "lineStart": 294,
+        "lineEnd": 295
+      },
+      "themes": [
+        "data-driven",
+        "methodology",
+        "growth",
+        "prioritization"
+      ],
+      "zones": [
+        "data",
+        "focus"
+      ]
+    },
+    {
+      "id": "naomi-gleit-q004",
+      "speaker": "Naomi Gleit",
+      "text": "I think the majority of the value is in just having extreme clarity around the goal and that allowed everybody to work towards optimizing the same goal. It doesn't matter if it was seven friends in 10 days or 10 in 14. What mattered was that we picked one of them and we had the same goal.",
+      "timestamp": "00:34:19",
+      "source": {
+        "slug": "naomi-gleit",
+        "path": "episodes/naomi-gleit/transcript.md",
+        "lineStart": 324,
+        "lineEnd": 325
+      },
+      "themes": [
+        "activation",
+        "goals",
+        "alignment",
+        "extreme-clarity"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "naomi-gleit-q005",
+      "speaker": "Naomi Gleit",
+      "text": "All of the work that we did on growth around optimizing the flows were really about removing micro barriers. We found 20% of people aren't actually confirming their email. We allowed people to get notifications even as an unconfirmed account, and if they clicked on any of those notifications, that would count as an account confirmation. It's just removing a micro barrier.",
+      "timestamp": "00:40:40",
+      "source": {
+        "slug": "naomi-gleit",
+        "path": "episodes/naomi-gleit/transcript.md",
+        "lineStart": 357,
+        "lineEnd": 361
+      },
+      "themes": [
+        "growth",
+        "onboarding",
+        "friction",
+        "optimization"
+      ],
+      "zones": [
+        "velocity",
+        "discovery"
+      ]
+    },
+    {
+      "id": "naomi-gleit-q006",
+      "speaker": "Naomi Gleit",
+      "text": "A PM is a conductor. It's as though the team that you are a PM on is an orchestra. There are many different functions in your team that includes legal policy, comms, data analytics, engineering, design. And as a PM, your job is to make sure everyone's playing their part correctly, but at the same time, they're playing together, they're unified in the music that they're producing.",
+      "timestamp": "00:45:52",
+      "source": {
+        "slug": "naomi-gleit",
+        "path": "episodes/naomi-gleit/transcript.md",
+        "lineStart": 390,
+        "lineEnd": 391
+      },
+      "themes": [
+        "product-management",
+        "leadership",
+        "coordination",
+        "metaphor"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "naomi-gleit-q007",
+      "speaker": "Naomi Gleit",
+      "text": "Extreme clarity means everyone's on the same page. It definitely doesn't mean that they all agree with each other, but they just have the same understanding of the facts. So we can disagree, but we all believe in the facts, which is that there's A, B, C, our options are X, Y, Z and here are the trade-offs 1, 2, 3.",
+      "timestamp": "00:48:57",
+      "source": {
+        "slug": "naomi-gleit",
+        "path": "episodes/naomi-gleit/transcript.md",
+        "lineStart": 408,
+        "lineEnd": 409
+      },
+      "themes": [
+        "extreme-clarity",
+        "communication",
+        "decision-making",
+        "process"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "naomi-gleit-q008",
+      "speaker": "Naomi Gleit",
+      "text": "I never use bulleted lists because you can never refer to a bullet. I always use numbered lists because you can always reference number two in a meeting. Versus the third bullet, two up from the second, whatever, that is not extreme clarity. So it's very, very small tactical things to bigger things like canonical everything.",
+      "timestamp": "00:52:19",
+      "source": {
+        "slug": "naomi-gleit",
+        "path": "episodes/naomi-gleit/transcript.md",
+        "lineStart": 438,
+        "lineEnd": 439
+      },
+      "themes": [
+        "extreme-clarity",
+        "documentation",
+        "meetings",
+        "tactics"
+      ],
+      "zones": [
+        "perfection",
+        "alignment"
+      ]
+    },
+    {
+      "id": "naomi-gleit-q009",
+      "speaker": "Naomi Gleit",
+      "text": "I always want a canonical doc. Where can I learn what I need to learn about this project? I ask five different people, get five different answers, that is unacceptable. Everyone should know exactly where the canonical doc is. That's the one place I can go to get all the information I need about a project.",
+      "timestamp": "00:53:18",
+      "source": {
+        "slug": "naomi-gleit",
+        "path": "episodes/naomi-gleit/transcript.md",
+        "lineStart": 450,
+        "lineEnd": 451
+      },
+      "themes": [
+        "documentation",
+        "canonical-doc",
+        "process",
+        "clarity"
+      ],
+      "zones": [
+        "alignment",
+        "perfection"
+      ]
+    },
+    {
+      "id": "naomi-gleit-q010",
+      "speaker": "Naomi Gleit",
+      "text": "That's why I think it's very important to have a single-threaded owner. We used to call this a directly responsible individual or a throat to choke. We obviously don't say that anymore. Single-threaded owner, every work stream has a single-threaded owner. Everything canonical needs to recurse.",
+      "timestamp": "00:54:05",
+      "source": {
+        "slug": "naomi-gleit",
+        "path": "episodes/naomi-gleit/transcript.md",
+        "lineStart": 453,
+        "lineEnd": 454
+      },
+      "themes": [
+        "ownership",
+        "accountability",
+        "process",
+        "execution"
+      ],
+      "zones": [
+        "focus",
+        "alignment"
+      ]
+    },
+    {
+      "id": "naomi-gleit-q011",
+      "speaker": "Naomi Gleit",
+      "text": "I often go into a project, everyone's operating at a PhD level, I'm coming in at a kindergarten level. It doesn't mean I want to oversimplify, that's not what a simplifier does. They're identifying the most basic building blocks of a complex problem and then unfolding, or revealing or building on top of them additional complexity and details as you go along.",
+      "timestamp": "00:56:12",
+      "source": {
+        "slug": "naomi-gleit",
+        "path": "episodes/naomi-gleit/transcript.md",
+        "lineStart": 462,
+        "lineEnd": 463
+      },
+      "themes": [
+        "simplification",
+        "problem-solving",
+        "communication",
+        "school-pyramid"
+      ],
+      "zones": [
+        "alignment",
+        "discovery"
+      ]
+    },
+    {
+      "id": "naomi-gleit-q012",
+      "speaker": "Naomi Gleit",
+      "text": "I would say 80% of the time I think it's a people or process issue. I want to make sure a project is perfectly executing, because only then can we really reevaluate whether or not this strategy is right or wrong. We're in the worst of all worlds where we are imperfectly executing and the project might fail, but we don't know why.",
+      "timestamp": "00:58:07",
+      "source": {
+        "slug": "naomi-gleit",
+        "path": "episodes/naomi-gleit/transcript.md",
+        "lineStart": 471,
+        "lineEnd": 475
+      },
+      "themes": [
+        "execution",
+        "strategy",
+        "process",
+        "learning"
+      ],
+      "zones": [
+        "perfection",
+        "data"
       ]
     },
     {
@@ -16759,6 +20525,238 @@
       "verified": true
     },
     {
+      "id": "paul-adams-q001",
+      "speaker": "Paul Adams",
+      "text": "At Facebook, you can design the product. But at Intercom, you can design the company. And, that was extremely appealing to me, a great pitch. He's like, 'Just design the company with us that you want to work in.'",
+      "timestamp": "00:13:41",
+      "source": {
+        "slug": "paul-adams",
+        "path": "episodes/paul-adams/transcript.md",
+        "lineStart": 120,
+        "lineEnd": 120
+      },
+      "themes": [
+        "leadership",
+        "culture",
+        "company-building"
+      ],
+      "zones": [
+        "discovery",
+        "alignment"
+      ]
+    },
+    {
+      "id": "paul-adams-q002",
+      "speaker": "Paul Adams",
+      "text": "We have a principle called Ship to Learn. Ship fast, ship early, ship often. So, in that idea is the idea of failure. It's not going to go right. And, it's going to go wrong more often than not. But if you ship early, and fast, and learn fast, you can change fast, and you can improve fast.",
+      "timestamp": "00:14:09",
+      "source": {
+        "slug": "paul-adams",
+        "path": "episodes/paul-adams/transcript.md",
+        "lineStart": 126,
+        "lineEnd": 126
+      },
+      "themes": [
+        "velocity",
+        "iteration",
+        "product-development"
+      ],
+      "zones": [
+        "velocity",
+        "discovery"
+      ]
+    },
+    {
+      "id": "paul-adams-q003",
+      "speaker": "Paul Adams",
+      "text": "This is a meteor coming towards you. This is bigger than mobile as a technology shift, as big as the internet. Maybe it's bigger than the internet itself as a technology shift, the way it'll shape society. So I'm all in.",
+      "timestamp": "00:16:23",
+      "source": {
+        "slug": "paul-adams",
+        "path": "episodes/paul-adams/transcript.md",
+        "lineStart": 138,
+        "lineEnd": 138
+      },
+      "themes": [
+        "AI",
+        "technology-shifts",
+        "strategy"
+      ],
+      "zones": [
+        "chaos",
+        "velocity"
+      ]
+    },
+    {
+      "id": "paul-adams-q004",
+      "speaker": "Paul Adams",
+      "text": "I'd start with the thing your product does. What's the core premise behind it? Why do people use it? What problem does it solve for them? And then, ask the question, 'Can AI do that?' And for a lot the answer's going to be, 'Yes, it can.' For some, it might be, 'It can partially do it.'",
+      "timestamp": "00:21:25",
+      "source": {
+        "slug": "paul-adams",
+        "path": "episodes/paul-adams/transcript.md",
+        "lineStart": 189,
+        "lineEnd": 189
+      },
+      "themes": [
+        "AI",
+        "product-strategy",
+        "first-principles"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ]
+    },
+    {
+      "id": "paul-adams-q005",
+      "speaker": "Paul Adams",
+      "text": "We literally ripped up our strategy almost entirely, and started again, from first principles and said, 'Okay, why do people use Intercom?' We totally changed how we think, how we work, and we just went heads down and built. It was a little bit of a bet the farm mindset.",
+      "timestamp": "00:24:35",
+      "source": {
+        "slug": "paul-adams",
+        "path": "episodes/paul-adams/transcript.md",
+        "lineStart": 201,
+        "lineEnd": 204
+      },
+      "themes": [
+        "strategy",
+        "AI",
+        "bold-decisions"
+      ],
+      "zones": [
+        "chaos",
+        "focus",
+        "velocity"
+      ]
+    },
+    {
+      "id": "paul-adams-q006",
+      "speaker": "Paul Adams",
+      "text": "Don't bolt it on. Don't be like, 'Oh, we'll have a bunch of AI people...' And we do have some specialists. But generally speaking, we're trying to have everyone learn about it. I'm a big believer in generalists.",
+      "timestamp": "00:37:08",
+      "source": {
+        "slug": "paul-adams",
+        "path": "episodes/paul-adams/transcript.md",
+        "lineStart": 288,
+        "lineEnd": 294
+      },
+      "themes": [
+        "AI",
+        "org-design",
+        "generalists"
+      ],
+      "zones": [
+        "alignment",
+        "discovery"
+      ]
+    },
+    {
+      "id": "paul-adams-q007",
+      "speaker": "Paul Adams",
+      "text": "Number one thing I would say is keep it simple. Fight so hard to resist the temptation to add extra ways in which you price. People can't understand their bill.",
+      "timestamp": "00:53:31",
+      "source": {
+        "slug": "paul-adams",
+        "path": "episodes/paul-adams/transcript.md",
+        "lineStart": 399,
+        "lineEnd": 399
+      },
+      "themes": [
+        "pricing",
+        "simplicity",
+        "strategy"
+      ],
+      "zones": [
+        "focus",
+        "perfection"
+      ]
+    },
+    {
+      "id": "paul-adams-q008",
+      "speaker": "Paul Adams",
+      "text": "People who adopt a product, or buy a product, or switch to a product, there's two driving forces. One is the attraction of the new solution, and that's basically differentiation. But, on the other side, there's an entry requirement or table stakes. To play the game, you got to have a certain amount of things.",
+      "timestamp": "00:55:03",
+      "source": {
+        "slug": "paul-adams",
+        "path": "episodes/paul-adams/transcript.md",
+        "lineStart": 411,
+        "lineEnd": 414
+      },
+      "themes": [
+        "product-strategy",
+        "frameworks",
+        "differentiation"
+      ],
+      "zones": [
+        "focus",
+        "perfection"
+      ]
+    },
+    {
+      "id": "paul-adams-q009",
+      "speaker": "Paul Adams",
+      "text": "Swinging the pendulum means, you take a step back from everyday work life, and you make the observation that something's in an undesirable state. And then, so you go and fix it, but the temptation is that you over-correct. And we've done this so many times in so many domains.",
+      "timestamp": "00:59:28",
+      "source": {
+        "slug": "paul-adams",
+        "path": "episodes/paul-adams/transcript.md",
+        "lineStart": 435,
+        "lineEnd": 436
+      },
+      "themes": [
+        "leadership",
+        "frameworks",
+        "balance"
+      ],
+      "zones": [
+        "alignment",
+        "intuition"
+      ]
+    },
+    {
+      "id": "paul-adams-q010",
+      "speaker": "Paul Adams",
+      "text": "The market is the people, the problems they have, and how important the problems are to them. To have a good market, you need a lot of people with the same problem, and they need to care a lot about it. The product is the solution to that. The market's the who, the product's the what.",
+      "timestamp": "01:05:33",
+      "source": {
+        "slug": "paul-adams",
+        "path": "episodes/paul-adams/transcript.md",
+        "lineStart": 474,
+        "lineEnd": 474
+      },
+      "themes": [
+        "product-market-fit",
+        "strategy",
+        "frameworks"
+      ],
+      "zones": [
+        "discovery",
+        "data"
+      ]
+    },
+    {
+      "id": "paul-adams-q011",
+      "speaker": "Paul Adams",
+      "text": "For us with Jobs to be Done, it was a really good way of centering on the customer problem, focusing on not getting distracted, basing it in good solid research informed insight. There's so many people who spend so much energy debating the nuances. Who cares? Your customers don't care.",
+      "timestamp": "01:09:50",
+      "source": {
+        "slug": "paul-adams",
+        "path": "episodes/paul-adams/transcript.md",
+        "lineStart": 509,
+        "lineEnd": 510
+      },
+      "themes": [
+        "jobs-to-be-done",
+        "customer-focus",
+        "pragmatism"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ]
+    },
+    {
       "id": "rahul-vohra-q001",
       "speaker": "Rahul Vohra",
       "text": "There is no such thing as a truly viral product. Even Facebook in its heyday had a viral factor of about 0.7. What I mean is, no app has sustained a viral factor of greater than one for any real period of time. The true secret behind virality is word of mouth. It is the virality you can't measure that isn't a mechanic that isn't in a feature. It is when one user spontaneously tells another user about your product.",
@@ -16988,6 +20986,468 @@
       "zones": [
         "focus",
         "alignment"
+      ]
+    },
+    {
+      "id": "scott-belsky-q001",
+      "speaker": "Scott Belsky",
+      "text": "In the first 30 seconds of using a new product, you are lazy, vain, and selfish. You want to get it done super quickly. You want to look good to your colleagues or to your friends. You want to feel successful very quickly by engaging in this product. You don't want to have to watch a tour or read anything, really endure any learning curve whatsoever.",
+      "timestamp": "00:09:51",
+      "source": {
+        "slug": "scott-belsky",
+        "path": "episodes/scott-belsky/transcript.md",
+        "lineStart": 106,
+        "lineEnd": 109
+      },
+      "themes": [
+        "first-mile",
+        "user-psychology",
+        "onboarding"
+      ],
+      "zones": [
+        "velocity",
+        "intuition"
+      ]
+    },
+    {
+      "id": "scott-belsky-q002",
+      "speaker": "Scott Belsky",
+      "text": "It's fascinating to me that most teams spend the final mile of their time building the product, considering the first mile of the customer's experience using the product. If you can just get more customers through that top of funnel, you are a world-class product team.",
+      "timestamp": "00:10:06",
+      "source": {
+        "slug": "scott-belsky",
+        "path": "episodes/scott-belsky/transcript.md",
+        "lineStart": 111,
+        "lineEnd": 112
+      },
+      "themes": [
+        "first-mile",
+        "prioritization",
+        "product-teams"
+      ],
+      "zones": [
+        "focus",
+        "velocity"
+      ]
+    },
+    {
+      "id": "scott-belsky-q003",
+      "speaker": "Scott Belsky",
+      "text": "The most humbling moments for me as a product leader have always been shoulder to shoulder to customers. Watching them actually go about their day, not just use my product but go about their day because what you end up getting is context for a lot of data that you're missing.",
+      "timestamp": "00:13:41",
+      "source": {
+        "slug": "scott-belsky",
+        "path": "episodes/scott-belsky/transcript.md",
+        "lineStart": 144,
+        "lineEnd": 148
+      },
+      "themes": [
+        "customer-empathy",
+        "user-research",
+        "product-sense"
+      ],
+      "zones": [
+        "discovery",
+        "intuition"
+      ]
+    },
+    {
+      "id": "scott-belsky-q004",
+      "speaker": "Scott Belsky",
+      "text": "Product leaders expect people to talk about a product being great. And people don't talk about a product doing exactly what they expected it to do. They talk about a product doing what they didn't expect.",
+      "timestamp": "00:15:09",
+      "source": {
+        "slug": "scott-belsky",
+        "path": "episodes/scott-belsky/transcript.md",
+        "lineStart": 168,
+        "lineEnd": 170
+      },
+      "themes": [
+        "product-led-growth",
+        "word-of-mouth",
+        "delight"
+      ],
+      "zones": [
+        "discovery",
+        "chaos"
+      ]
+    },
+    {
+      "id": "scott-belsky-q005",
+      "speaker": "Scott Belsky",
+      "text": "Whenever I'm asked by teams, what features need to be part of their MVP, how do they decide which features they need to ship first, I always tell them to optimize for the problems they want to have. You want the problem of customers getting through your funnel, feeling successful, using your product and getting value.",
+      "timestamp": "00:21:29",
+      "source": {
+        "slug": "scott-belsky",
+        "path": "episodes/scott-belsky/transcript.md",
+        "lineStart": 222,
+        "lineEnd": 224
+      },
+      "themes": [
+        "mvp",
+        "prioritization",
+        "product-strategy"
+      ],
+      "zones": [
+        "focus",
+        "velocity"
+      ]
+    },
+    {
+      "id": "scott-belsky-q006",
+      "speaker": "Scott Belsky",
+      "text": "So actually if you make the whole product about one thing, everyone does that. That core crank operates at 10X the velocity and if that's the most important metric for the business, that's gold. And so, we basically went on a killing spree. And we just started killing things.",
+      "timestamp": "00:23:33",
+      "source": {
+        "slug": "scott-belsky",
+        "path": "episodes/scott-belsky/transcript.md",
+        "lineStart": 239,
+        "lineEnd": 242
+      },
+      "themes": [
+        "focus",
+        "simplification",
+        "behance"
+      ],
+      "zones": [
+        "focus",
+        "velocity"
+      ]
+    },
+    {
+      "id": "scott-belsky-q007",
+      "speaker": "Scott Belsky",
+      "text": "Some of the best product leaders that I've worked with, I do feel like they have this great reductionist or minimalistic tendency by default. They anchor themselves on the one thing they want people to do and do well. And they just are pretty ruthless about everything else.",
+      "timestamp": "00:25:08",
+      "source": {
+        "slug": "scott-belsky",
+        "path": "episodes/scott-belsky/transcript.md",
+        "lineStart": 252,
+        "lineEnd": 253
+      },
+      "themes": [
+        "product-leadership",
+        "focus",
+        "simplification"
+      ],
+      "zones": [
+        "focus",
+        "perfection"
+      ]
+    },
+    {
+      "id": "scott-belsky-q008",
+      "speaker": "Scott Belsky",
+      "text": "I always like to use the analogy of we're driving our teams across country as product leaders with the windows blacked out in the backseat and everyone's sitting in the backseat. If they don't receive the narrative, they will go stir-crazy. As product leaders, we have to merchandise progress. We have to be the steward of this narrative.",
+      "timestamp": "00:43:16",
+      "source": {
+        "slug": "scott-belsky",
+        "path": "episodes/scott-belsky/transcript.md",
+        "lineStart": 405,
+        "lineEnd": 409
+      },
+      "themes": [
+        "leadership",
+        "messy-middle",
+        "team-motivation"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "scott-belsky-q009",
+      "speaker": "Scott Belsky",
+      "text": "How much conviction do you have in the solution you're building? I know in the beginning before you knew all you know now, you had tons of conviction. That's what caused you to leave your job. Now, knowing all you know, do you have more or less conviction in the problem and the solution you're building?",
+      "timestamp": "00:44:46",
+      "source": {
+        "slug": "scott-belsky",
+        "path": "episodes/scott-belsky/transcript.md",
+        "lineStart": 414,
+        "lineEnd": 418
+      },
+      "themes": [
+        "conviction",
+        "founder-mindset",
+        "perseverance"
+      ],
+      "zones": [
+        "intuition",
+        "focus"
+      ]
+    },
+    {
+      "id": "scott-belsky-q010",
+      "speaker": "Scott Belsky",
+      "text": "I have an allergic reaction to founders that are real promoters who are constantly trying to sugarcoat the truth, who like to gloss over the hard parts. I've always admired leaders that are optimistic about the future but very pragmatic and somewhat pessimistic about the present.",
+      "timestamp": "00:47:47",
+      "source": {
+        "slug": "scott-belsky",
+        "path": "episodes/scott-belsky/transcript.md",
+        "lineStart": 441,
+        "lineEnd": 444
+      },
+      "themes": [
+        "founder-evaluation",
+        "honesty",
+        "leadership"
+      ],
+      "zones": [
+        "data",
+        "alignment"
+      ]
+    },
+    {
+      "id": "scott-belsky-q011",
+      "speaker": "Scott Belsky",
+      "text": "I've always found that resourcefulness brings you further than resources despite the fact that over the last seven to 10 years, we've basically thrown resources at every problem. If resources are carbs, resourcefulness is like muscle. It stays with you. It makes you stronger.",
+      "timestamp": "00:50:35",
+      "source": {
+        "slug": "scott-belsky",
+        "path": "episodes/scott-belsky/transcript.md",
+        "lineStart": 465,
+        "lineEnd": 472
+      },
+      "themes": [
+        "resourcefulness",
+        "startup-advice",
+        "constraints"
+      ],
+      "zones": [
+        "velocity",
+        "chaos"
+      ]
+    },
+    {
+      "id": "shishir-mehrotra-q001",
+      "speaker": "Shishir Mehrotra",
+      "text": "The Black Loop is someone comes in, they make a doc, they share with a group of people, some subset of the people turn around and make another doc, and the process repeats itself over and over again. The blue loop is someone comes in, makes a doc, and instead of sharing it with a team or with the collaborators, they publish it to the world.",
+      "timestamp": "00:09:08",
+      "source": {
+        "slug": "shishir-mehrotra",
+        "path": "episodes/shishir-mehrotra/transcript.md",
+        "lineStart": 126,
+        "lineEnd": 129
+      },
+      "themes": [
+        "growth-loops",
+        "product-strategy",
+        "virality"
+      ],
+      "zones": [
+        "velocity",
+        "discovery"
+      ]
+    },
+    {
+      "id": "shishir-mehrotra-q002",
+      "speaker": "Shishir Mehrotra",
+      "text": "Almost all products have some form of loop. That person turns around and maybe sharing is built right in your product or maybe it's not, or maybe there's a way that it happens through advocacy, but understanding that the way products actually grow and spread happen through some type of loop not funnel, is I think pretty fundamental.",
+      "timestamp": "00:15:13",
+      "source": {
+        "slug": "shishir-mehrotra",
+        "path": "episodes/shishir-mehrotra/transcript.md",
+        "lineStart": 152,
+        "lineEnd": 154
+      },
+      "themes": [
+        "growth-loops",
+        "product-strategy",
+        "mental-models"
+      ],
+      "zones": [
+        "discovery",
+        "data"
+      ]
+    },
+    {
+      "id": "shishir-mehrotra-q003",
+      "speaker": "Shishir Mehrotra",
+      "text": "He said great companies have a very small list of golden rituals. And there are three rules of golden rituals. Number one, they're named. Number two, every employee knows them by their first Friday and, number three, they're templated.",
+      "timestamp": "00:26:29",
+      "source": {
+        "slug": "shishir-mehrotra",
+        "path": "episodes/shishir-mehrotra/transcript.md",
+        "lineStart": 213,
+        "lineEnd": 213
+      },
+      "themes": [
+        "rituals",
+        "culture",
+        "team-operating-systems"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "shishir-mehrotra-q004",
+      "speaker": "Shishir Mehrotra",
+      "text": "When we're building companies, we actually build two products. We build one for our customers and we build another one for our employees. That's actually how we work part of it. That's the term he uses for that, is culture. That's the product we build for our employees.",
+      "timestamp": "00:30:29",
+      "source": {
+        "slug": "shishir-mehrotra",
+        "path": "episodes/shishir-mehrotra/transcript.md",
+        "lineStart": 225,
+        "lineEnd": 227
+      },
+      "themes": [
+        "culture",
+        "team-building",
+        "company-building"
+      ],
+      "zones": [
+        "alignment",
+        "perfection"
+      ]
+    },
+    {
+      "id": "shishir-mehrotra-q005",
+      "speaker": "Shishir Mehrotra",
+      "text": "You can direct the writer, so you can tell people what to do. You can motivate the elephant, so you can give this thing a kick in the butt and it's going to move. You don't know exactly where it's going to move, but it's going to move. And you can shape the path. Shape the path is I'm going to set this way up so that you can only do these things.",
+      "timestamp": "00:43:13",
+      "source": {
+        "slug": "shishir-mehrotra",
+        "path": "episodes/shishir-mehrotra/transcript.md",
+        "lineStart": 291,
+        "lineEnd": 294
+      },
+      "themes": [
+        "change-management",
+        "frameworks",
+        "leadership"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "shishir-mehrotra-q006",
+      "speaker": "Shishir Mehrotra",
+      "text": "The eigenquestion, the simplest definition of eigenquestion, it's the question that when answered also answers the most subsequent questions. Rank them by which ones would eliminate the most other questions off the list.",
+      "timestamp": "00:53:35",
+      "source": {
+        "slug": "shishir-mehrotra",
+        "path": "episodes/shishir-mehrotra/transcript.md",
+        "lineStart": 357,
+        "lineEnd": 360
+      },
+      "themes": [
+        "eigenquestions",
+        "decision-making",
+        "frameworks"
+      ],
+      "zones": [
+        "focus",
+        "data"
+      ]
+    },
+    {
+      "id": "shishir-mehrotra-q007",
+      "speaker": "Shishir Mehrotra",
+      "text": "We basically have this discussion and we all came to the conclusion this market is going to value consistency over comprehensiveness. And by the way, I think, I mean now almost 15 years later, I think we were right. If you go look at video market obviously it exploded. There's so many great video properties out there, none of them are comprehensive.",
+      "timestamp": "00:51:17",
+      "source": {
+        "slug": "shishir-mehrotra",
+        "path": "episodes/shishir-mehrotra/transcript.md",
+        "lineStart": 345,
+        "lineEnd": 348
+      },
+      "themes": [
+        "product-strategy",
+        "eigenquestions",
+        "YouTube"
+      ],
+      "zones": [
+        "focus",
+        "perfection"
+      ]
+    },
+    {
+      "id": "shishir-mehrotra-q008",
+      "speaker": "Shishir Mehrotra",
+      "text": "We value consistency over comprehensiveness. We would much rather be on fewer phones with a more consistent experience than be on all of them with an inconsistent experience.",
+      "timestamp": "00:52:17",
+      "source": {
+        "slug": "shishir-mehrotra",
+        "path": "episodes/shishir-mehrotra/transcript.md",
+        "lineStart": 354,
+        "lineEnd": 355
+      },
+      "themes": [
+        "product-strategy",
+        "eigenquestions",
+        "quality"
+      ],
+      "zones": [
+        "perfection",
+        "focus"
+      ]
+    },
+    {
+      "id": "shishir-mehrotra-q009",
+      "speaker": "Shishir Mehrotra",
+      "text": "If you're a junior product manager, what happens? You get handed a problem. You get handed a solution. You get handed the how. And all you have to do is execute. At some point you become a little more senior. We hand you a problem and you come back with the solutions. And at some point you're senior enough that you tell us the problems.",
+      "timestamp": "01:10:28",
+      "source": {
+        "slug": "shishir-mehrotra",
+        "path": "episodes/shishir-mehrotra/transcript.md",
+        "lineStart": 471,
+        "lineEnd": 475
+      },
+      "themes": [
+        "PSHE-framework",
+        "career-growth",
+        "product-management"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ]
+    },
+    {
+      "id": "shishir-mehrotra-q010",
+      "speaker": "Shishir Mehrotra",
+      "text": "Everything about leading up to this moment from high school and college has been about scope. And at this point you're all of a sudden told, 'We're not judging you on scope anymore. We're judging you on this PSHE thing that's very confusing.'",
+      "timestamp": "01:12:14",
+      "source": {
+        "slug": "shishir-mehrotra",
+        "path": "episodes/shishir-mehrotra/transcript.md",
+        "lineStart": 479,
+        "lineEnd": 481
+      },
+      "themes": [
+        "career-growth",
+        "PSHE-framework",
+        "talent-evaluation"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ]
+    },
+    {
+      "id": "shishir-mehrotra-q011",
+      "speaker": "Shishir Mehrotra",
+      "text": "I generally value the reference check over interview signals. If I had to stack rank in interviews, what is the best signal, the reference check is the top of the list. Those people, they worked with this person sometimes for years, their knowledge, what you're going to get out of 30 minutes of artificial scenarios, it's just never going to compare with what a good reference check will give you.",
+      "timestamp": "01:20:19",
+      "source": {
+        "slug": "shishir-mehrotra",
+        "path": "episodes/shishir-mehrotra/transcript.md",
+        "lineStart": 519,
+        "lineEnd": 520
+      },
+      "themes": [
+        "hiring",
+        "reference-checks",
+        "talent-evaluation"
+      ],
+      "zones": [
+        "data",
+        "intuition"
       ]
     },
     {
@@ -17519,6 +21979,239 @@
       "verified": true
     },
     {
+      "id": "teresa-torres-q001",
+      "speaker": "Teresa Torres",
+      "text": "A lot of teams, they learn how to do their jobs building products by being told, 'Build these features.' That's a really structured, okay, I just turn out some work problem. And so, we're asking teams to fundamentally do a really different type of job and I think teams needed some scaffolding for how do you make that shift.",
+      "timestamp": "00:06:41",
+      "source": {
+        "slug": "teresa-torres",
+        "path": "episodes/teresa-torres/transcript.md",
+        "lineStart": 114,
+        "lineEnd": 114
+      },
+      "themes": [
+        "product-management",
+        "outcomes",
+        "transformation"
+      ],
+      "zones": [
+        "discovery",
+        "alignment"
+      ]
+    },
+    {
+      "id": "teresa-torres-q002",
+      "speaker": "Teresa Torres",
+      "text": "We tend to just really struggle with this distinction between the problem space and the solution space. I think that the heart of good product is really getting comfortable in the problem space or the opportunity space, really taking the time to frame a problem well, and to really get into what's needed before we jump to solutions.",
+      "timestamp": "00:07:26",
+      "source": {
+        "slug": "teresa-torres",
+        "path": "episodes/teresa-torres/transcript.md",
+        "lineStart": 120,
+        "lineEnd": 120
+      },
+      "themes": [
+        "problem-framing",
+        "opportunity-space",
+        "product-discovery"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ]
+    },
+    {
+      "id": "teresa-torres-q003",
+      "speaker": "Teresa Torres",
+      "text": "So the first thing that makes this hard is you have to interview well. I think interviewing is a grossly underestimated skill. Grossly underestimated skill. So that's the first thing is that if you're not collecting rich stories in your interviews, it's going to be really hard to identify opportunities.",
+      "timestamp": "00:15:54",
+      "source": {
+        "slug": "teresa-torres",
+        "path": "episodes/teresa-torres/transcript.md",
+        "lineStart": 186,
+        "lineEnd": 186
+      },
+      "themes": [
+        "interviewing",
+        "user-research",
+        "skills"
+      ],
+      "zones": [
+        "discovery",
+        "perfection"
+      ]
+    },
+    {
+      "id": "teresa-torres-q004",
+      "speaker": "Teresa Torres",
+      "text": "I tell my teams when I teach it in class, I say, 'Look, we're going to focus on structuring an opportunity space, and I'm probably going to make you think harder than you've ever had to think in your job,' because we don't think that much at work. We go from meeting to meeting, we stay surface level a lot.",
+      "timestamp": "00:17:32",
+      "source": {
+        "slug": "teresa-torres",
+        "path": "episodes/teresa-torres/transcript.md",
+        "lineStart": 201,
+        "lineEnd": 201
+      },
+      "themes": [
+        "critical-thinking",
+        "opportunity-space",
+        "deep-work"
+      ],
+      "zones": [
+        "discovery",
+        "focus",
+        "perfection"
+      ]
+    },
+    {
+      "id": "teresa-torres-q005",
+      "speaker": "Teresa Torres",
+      "text": "I hear from people all the time say, 'I'm not allowed to talk to customers.' I go, 'Okay, well, your company doesn't own you when you're not at work. I bet you know people like your customers. Why don't you just start there?'",
+      "timestamp": "00:19:14",
+      "source": {
+        "slug": "teresa-torres",
+        "path": "episodes/teresa-torres/transcript.md",
+        "lineStart": 225,
+        "lineEnd": 225
+      },
+      "themes": [
+        "customer-research",
+        "empowerment",
+        "resourcefulness"
+      ],
+      "zones": [
+        "discovery",
+        "chaos"
+      ]
+    },
+    {
+      "id": "teresa-torres-q006",
+      "speaker": "Teresa Torres",
+      "text": "People make this mistake of we shouldn't put something in our backlog that hasn't been properly discovered. It's not true. Everything in our backlog is a bet, everything. Whether we do discovery or not, everything is a bet. Discovery is helping us make a better bet.",
+      "timestamp": "00:24:33",
+      "source": {
+        "slug": "teresa-torres",
+        "path": "episodes/teresa-torres/transcript.md",
+        "lineStart": 279,
+        "lineEnd": 279
+      },
+      "themes": [
+        "discovery",
+        "decision-making",
+        "risk"
+      ],
+      "zones": [
+        "discovery",
+        "intuition"
+      ]
+    },
+    {
+      "id": "teresa-torres-q007",
+      "speaker": "Teresa Torres",
+      "text": "I think the reason why people make this mistake is they think about it as phases. First I discover and then I deliver. No, you're always delivering and you're always discovering. The more you build this discovery habit, the better those bets are going to get with time.",
+      "timestamp": "00:25:29",
+      "source": {
+        "slug": "teresa-torres",
+        "path": "episodes/teresa-torres/transcript.md",
+        "lineStart": 285,
+        "lineEnd": 285
+      },
+      "themes": [
+        "continuous-discovery",
+        "delivery",
+        "habits"
+      ],
+      "zones": [
+        "discovery",
+        "velocity"
+      ]
+    },
+    {
+      "id": "teresa-torres-q008",
+      "speaker": "Teresa Torres",
+      "text": "The outcome is that we don't really collaborate. When we don't collaborate, I don't think we build very good products. So if we just go back to real life and when you're hanging out with friends and you're trying to accomplish something, you don't first stop and say, 'What's my role? What's your role?' That's just not how humans interact. We all collaborate intuitively. Business has taught us otherwise.",
+      "timestamp": "00:32:13",
+      "source": {
+        "slug": "teresa-torres",
+        "path": "episodes/teresa-torres/transcript.md",
+        "lineStart": 351,
+        "lineEnd": 351
+      },
+      "themes": [
+        "collaboration",
+        "product-trios",
+        "culture"
+      ],
+      "zones": [
+        "alignment",
+        "discovery"
+      ]
+    },
+    {
+      "id": "teresa-torres-q009",
+      "speaker": "Teresa Torres",
+      "text": "Kindergartners just start doing. They don't worry about their rules. They don't worry about who's in charge. They just brute force trial and error. What do MBA students do? There's posturing, like who has power and who's the decision-maker and who's right? They spend the whole time negotiating this political social space instead of just doing.",
+      "timestamp": "00:33:10",
+      "source": {
+        "slug": "teresa-torres",
+        "path": "episodes/teresa-torres/transcript.md",
+        "lineStart": 360,
+        "lineEnd": 360
+      },
+      "themes": [
+        "experimentation",
+        "action",
+        "bureaucracy"
+      ],
+      "zones": [
+        "chaos",
+        "velocity"
+      ]
+    },
+    {
+      "id": "teresa-torres-q010",
+      "speaker": "Teresa Torres",
+      "text": "Product people are in the business of changing behavior, understanding and changing behavior. I think that's a really big mistake that teams make is, both in their prototype tests and in their interviews, they focus on what people would do, on what people think. It's all really unreliable. It's a garbage in, garbage out situation. The real measure is tell me about your behavior. What did you actually do?",
+      "timestamp": "00:39:57",
+      "source": {
+        "slug": "teresa-torres",
+        "path": "episodes/teresa-torres/transcript.md",
+        "lineStart": 450,
+        "lineEnd": 450
+      },
+      "themes": [
+        "user-research",
+        "behavior",
+        "interviewing"
+      ],
+      "zones": [
+        "discovery",
+        "data"
+      ]
+    },
+    {
+      "id": "teresa-torres-q011",
+      "speaker": "Teresa Torres",
+      "text": "I don't know why product teams suddenly are held to a standard that nobody else is held to. When somebody says, 'Why is it reliable to make a decision based on one interview?' I flip the question around. Tell me about the decisions you made last week. How many customers did you talk to? Every human in business is making decisions with zero data. So I'm going to go with one is better than zero.",
+      "timestamp": "00:42:02",
+      "source": {
+        "slug": "teresa-torres",
+        "path": "episodes/teresa-torres/transcript.md",
+        "lineStart": 471,
+        "lineEnd": 474
+      },
+      "themes": [
+        "data",
+        "decision-making",
+        "user-research"
+      ],
+      "zones": [
+        "data",
+        "intuition",
+        "discovery"
+      ]
+    },
+    {
       "id": "tobi-lutke-001",
       "text": "My energy source is dissatisfaction with status quo. I think today is the dystopia of the future. It behooves us to try to build the kinds of products that lead towards progress.",
       "source": {
@@ -17782,7 +22475,238 @@
         "discovery"
       ],
       "verified": true
+    },
+    {
+      "id": "wes-kao-q001",
+      "speaker": "Wes Kao",
+      "text": "If I'm not getting the reaction that I'm looking for, how might I be contributing to that? Instead of blaming other people for not understanding me, I think about how could I explain this more clearly? How can I be more compelling? How can I anticipate any questions that they might have? I'm a big proponent of agency.",
+      "timestamp": "00:07:17",
+      "source": {
+        "slug": "wes-kao",
+        "path": "episodes/wes-kao-20/transcript.md",
+        "lineStart": 102,
+        "lineEnd": 102
+      },
+      "themes": [
+        "agency",
+        "communication",
+        "self-improvement"
+      ],
+      "zones": [
+        "focus",
+        "perfection"
+      ]
+    },
+    {
+      "id": "wes-kao-q002",
+      "speaker": "Wes Kao",
+      "text": "I see a lot of operators who save their best behavior for executives only. They want to shine when they're presenting to senior leadership, but with everyone else, they're kind of calling it. I just don't think that you're going to be able to get enough reps to actually get good at executive communication if you are only doing it with executives.",
+      "timestamp": "00:08:46",
+      "source": {
+        "slug": "wes-kao",
+        "path": "episodes/wes-kao-20/transcript.md",
+        "lineStart": 114,
+        "lineEnd": 114
+      },
+      "themes": [
+        "communication",
+        "practice",
+        "stakeholder-management"
+      ],
+      "zones": [
+        "perfection",
+        "alignment"
+      ]
+    },
+    {
+      "id": "wes-kao-q003",
+      "speaker": "Wes Kao",
+      "text": "A common mistake that I see is overestimating the amount of buy-in that you have from your audience. That looks like jumping straight into talking about the logistics, the details of the how to do something, when in reality your audience has not yet decided if they even want to do the thing.",
+      "timestamp": "00:11:07",
+      "source": {
+        "slug": "wes-kao",
+        "path": "episodes/wes-kao-20/transcript.md",
+        "lineStart": 132,
+        "lineEnd": 132
+      },
+      "themes": [
+        "persuasion",
+        "buy-in",
+        "communication"
+      ],
+      "zones": [
+        "alignment",
+        "intuition"
+      ]
+    },
+    {
+      "id": "wes-kao-q004",
+      "speaker": "Wes Kao",
+      "text": "Being concise is not about absolute word count, it's about economy of words. It's about the density of the insight that you're sharing. You can have a 300 word memo that's meandering and long-winded and a thousand word memo that is tight and concise.",
+      "timestamp": "00:18:31",
+      "source": {
+        "slug": "wes-kao",
+        "path": "episodes/wes-kao-20/transcript.md",
+        "lineStart": 183,
+        "lineEnd": 183
+      },
+      "themes": [
+        "writing",
+        "communication",
+        "clarity"
+      ],
+      "zones": [
+        "perfection",
+        "focus"
+      ]
+    },
+    {
+      "id": "wes-kao-q005",
+      "speaker": "Wes Kao",
+      "text": "We've all heard 'Don't bury the lead, cut to the chase, put the main point at the top.' All of these pithy aphorisms assume that you actually know what your core point is. You can't cut to the chase unless you know what the chase is. That's the bottleneck to being concise. It's actually not being clear of what you are thinking.",
+      "timestamp": "00:19:05",
+      "source": {
+        "slug": "wes-kao",
+        "path": "episodes/wes-kao-20/transcript.md",
+        "lineStart": 186,
+        "lineEnd": 186
+      },
+      "themes": [
+        "writing",
+        "clarity",
+        "thinking"
+      ],
+      "zones": [
+        "focus",
+        "discovery"
+      ]
+    },
+    {
+      "id": "wes-kao-q006",
+      "speaker": "Wes Kao",
+      "text": "The blast radius of a poorly written memo is way bigger than most people think. If you're just shooting off a message in a Slack channel with 15 other people and it's confusing, there's going to be a bunch of back and forth. Whereas if you had just taken another look at it, those 15 people would be off to the races.",
+      "timestamp": "00:25:37",
+      "source": {
+        "slug": "wes-kao",
+        "path": "episodes/wes-kao-20/transcript.md",
+        "lineStart": 240,
+        "lineEnd": 243
+      },
+      "themes": [
+        "writing",
+        "efficiency",
+        "leverage"
+      ],
+      "zones": [
+        "velocity",
+        "alignment"
+      ]
+    },
+    {
+      "id": "wes-kao-q007",
+      "speaker": "Wes Kao",
+      "text": "All these little things compound and make a big difference. I often hear people think this individual email or Slack message is not worth spending a couple more minutes on. The problem with that line of thinking is that no one instance is ever going to feel important enough, and when you zoom out, that's all your work then.",
+      "timestamp": "00:36:29",
+      "source": {
+        "slug": "wes-kao",
+        "path": "episodes/wes-kao-20/transcript.md",
+        "lineStart": 321,
+        "lineEnd": 321
+      },
+      "themes": [
+        "quality",
+        "compounding",
+        "habits"
+      ],
+      "zones": [
+        "perfection",
+        "velocity"
+      ]
+    },
+    {
+      "id": "wes-kao-q008",
+      "speaker": "Wes Kao",
+      "text": "MOO stands for Most Obvious Objection. A lot of times we're surprised by the questions that we get, especially in meetings where we feel blindsided. When really, if you thought for even two minutes about what are obvious objections that I'm likely to get, you often immediately come up with what some of those things are.",
+      "timestamp": "00:50:26",
+      "source": {
+        "slug": "wes-kao",
+        "path": "episodes/wes-kao-20/transcript.md",
+        "lineStart": 411,
+        "lineEnd": 411
+      },
+      "themes": [
+        "preparation",
+        "persuasion",
+        "frameworks"
+      ],
+      "zones": [
+        "intuition",
+        "focus"
+      ]
+    },
+    {
+      "id": "wes-kao-q009",
+      "speaker": "Wes Kao",
+      "text": "One of the most common myths about managing up that I definitely felt early on was that I would have to manage up if I were more junior, but eventually I would outgrow it. It was a rude awakening that no matter how senior I got, not only did I have to manage up, it actually became more important.",
+      "timestamp": "00:59:18",
+      "source": {
+        "slug": "wes-kao",
+        "path": "episodes/wes-kao-20/transcript.md",
+        "lineStart": 462,
+        "lineEnd": 462
+      },
+      "themes": [
+        "managing-up",
+        "career",
+        "leadership"
+      ],
+      "zones": [
+        "alignment",
+        "discovery"
+      ]
+    },
+    {
+      "id": "wes-kao-q010",
+      "speaker": "Wes Kao",
+      "text": "When you just ask your manager 'What should we do?' you're putting a lot of cognitive load on them to think about the problem, think about potential solutions, craft the solution, and then tell you what to do. Whereas if you said 'Here's what I think we should do, how does that sound?' you give them something to build off of.",
+      "timestamp": "01:00:54",
+      "source": {
+        "slug": "wes-kao",
+        "path": "episodes/wes-kao-20/transcript.md",
+        "lineStart": 471,
+        "lineEnd": 471
+      },
+      "themes": [
+        "managing-up",
+        "agency",
+        "leadership"
+      ],
+      "zones": [
+        "velocity",
+        "alignment"
+      ]
+    },
+    {
+      "id": "wes-kao-q011",
+      "speaker": "Wes Kao",
+      "text": "I have a framework called strategy, not self-expression. By the time we are giving feedback to someone, we have been frustrated for a while. The goal is behavior change. So trim everything that does not contribute to that goal and only keep the part that will make the person want to change.",
+      "timestamp": "01:05:05",
+      "source": {
+        "slug": "wes-kao",
+        "path": "episodes/wes-kao-20/transcript.md",
+        "lineStart": 489,
+        "lineEnd": 492
+      },
+      "themes": [
+        "feedback",
+        "communication",
+        "management"
+      ],
+      "zones": [
+        "focus",
+        "alignment"
+      ]
     }
   ],
-  "lastUpdated": "2026-01-26T06:32:52.291Z"
+  "lastUpdated": "2026-01-26T07:07:56.359Z"
 }

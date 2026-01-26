@@ -1,0 +1,208 @@
+{
+  "slug": "gibson-biddle",
+  "quotes": [
+    {
+      "id": "gibson-biddle-q001",
+      "speaker": "Gibson Biddle",
+      "text": "The job is to delight customers. Like Peter Thiel, his book, From Zero to One. The job of an entrepreneur at the beginning is just to find out something that's 10X better. Delight is trying to work in that magnitude.",
+      "timestamp": "00:09:05",
+      "source": {
+        "slug": "gibson-biddle",
+        "path": "episodes/gibson-biddle/transcript.md",
+        "lineStart": 126,
+        "lineEnd": 127
+      },
+      "themes": ["product-strategy", "customer-delight", "DHM-framework"],
+      "zones": ["perfection", "discovery"]
+    },
+    {
+      "id": "gibson-biddle-q002",
+      "speaker": "Gibson Biddle",
+      "text": "I'll bet my paycheck that within a week, Blockbuster's going to put a happy family on their couch, too. And this is the problem of doing things that are easy to copy. So in the long term, if you can delight customers and create hard to copy advantage, things are just a lot better.",
+      "timestamp": "00:09:58",
+      "source": {
+        "slug": "gibson-biddle",
+        "path": "episodes/gibson-biddle/transcript.md",
+        "lineStart": 131,
+        "lineEnd": 133
+      },
+      "themes": ["competitive-advantage", "strategy", "DHM-framework"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "gibson-biddle-q003",
+      "speaker": "Gibson Biddle",
+      "text": "I mainly was just trying to find these high level theories and hypotheses that I hoped would delight in hard to copy, margin enhancing ways. The reality was, we'd have 10 ideas and probably six of them would fail, but a lot of value in the three or the four that worked.",
+      "timestamp": "00:17:54",
+      "source": {
+        "slug": "gibson-biddle",
+        "path": "episodes/gibson-biddle/transcript.md",
+        "lineStart": 261,
+        "lineEnd": 262
+      },
+      "themes": ["experimentation", "hypothesis-testing", "product-strategy"],
+      "zones": ["data", "discovery", "chaos"]
+    },
+    {
+      "id": "gibson-biddle-q004",
+      "speaker": "Gibson Biddle",
+      "text": "You sort of want to get to this place where you don't really care, and your sort of true North is okay, how can we best serve our customer? And that's what I really love about that particular model.",
+      "timestamp": "00:20:36",
+      "source": {
+        "slug": "gibson-biddle",
+        "path": "episodes/gibson-biddle/transcript.md",
+        "lineStart": 282,
+        "lineEnd": 283
+      },
+      "themes": ["customer-focus", "competition", "strategy"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "gibson-biddle-q005",
+      "speaker": "Gibson Biddle",
+      "text": "If you find an idea that only works for 2% of your customers, now you're creating complexity, one more thing to choose. As a rule, I never used rules as thumbs, but these two percenters, I would kill them. If I launched something and it was only 2% we'd, we called it scraping the barnacles, just get rid of it.",
+      "timestamp": "00:24:10",
+      "source": {
+        "slug": "gibson-biddle",
+        "path": "episodes/gibson-biddle/transcript.md",
+        "lineStart": 333,
+        "lineEnd": 337
+      },
+      "themes": ["simplicity", "prioritization", "product-decisions"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "gibson-biddle-q006",
+      "speaker": "Gibson Biddle",
+      "text": "As product managers, we feel like every decision we make is high stakes. It's good occasionally to think about, hey, what's the magnitude? And then, is it reversible? Amazon calls those two-way door decisions. It's reversible. The one way door, those are the bigger deal.",
+      "timestamp": "00:28:39",
+      "source": {
+        "slug": "gibson-biddle",
+        "path": "episodes/gibson-biddle/transcript.md",
+        "lineStart": 399,
+        "lineEnd": 403
+      },
+      "themes": ["decision-making", "risk-assessment", "reversibility"],
+      "zones": ["data", "velocity", "chaos"]
+    },
+    {
+      "id": "gibson-biddle-q007",
+      "speaker": "Gibson Biddle",
+      "text": "I would just text my pals, and they would just give me the data. That's amazing insight, just by having peers in the business that you talk to, which this is the behavior that I want everybody out there engaged in. I call it building your personal board of directors.",
+      "timestamp": "00:40:51",
+      "source": {
+        "slug": "gibson-biddle",
+        "path": "episodes/gibson-biddle/transcript.md",
+        "lineStart": 518,
+        "lineEnd": 520
+      },
+      "themes": ["mentorship", "career-development", "networking"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "gibson-biddle-q008",
+      "speaker": "Gibson Biddle",
+      "text": "The first rule of thumb is, don't ask a person to be your mentor. That's really awkward. First, identify them. Say, this is a person I think that could be helpful to me. And then, find ways to be helpful. Everybody needs help. Everybody, everybody, everybody.",
+      "timestamp": "00:42:13",
+      "source": {
+        "slug": "gibson-biddle",
+        "path": "episodes/gibson-biddle/transcript.md",
+        "lineStart": 532,
+        "lineEnd": 535
+      },
+      "themes": ["mentorship", "relationships", "career-advice"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "gibson-biddle-q009",
+      "speaker": "Gibson Biddle",
+      "text": "I just need you to force rank these three factors for me: growth, engagement, and monetization. And I need the two of you to agree. Growth is basically year over year customer growth. Engagement is how I think about product quality. A more engaging product is a better product.",
+      "timestamp": "00:44:15",
+      "source": {
+        "slug": "gibson-biddle",
+        "path": "episodes/gibson-biddle/transcript.md",
+        "lineStart": 561,
+        "lineEnd": 564
+      },
+      "themes": ["GEM-framework", "prioritization", "alignment"],
+      "zones": ["alignment", "data", "focus"]
+    },
+    {
+      "id": "gibson-biddle-q010",
+      "speaker": "Gibson Biddle",
+      "text": "These are the kinds of fundamental misalignments that can wreck startups. I'm not saying that one or the other was right or wrong, but as leaders in the organization, we've got to get some of the basic stories straight, including how do we fundamentally prioritize growth versus engagement versus monetization?",
+      "timestamp": "00:45:56",
+      "source": {
+        "slug": "gibson-biddle",
+        "path": "episodes/gibson-biddle/transcript.md",
+        "lineStart": 569,
+        "lineEnd": 571
+      },
+      "themes": ["leadership-alignment", "prioritization", "startup-challenges"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "gibson-biddle-q011",
+      "speaker": "Gibson Biddle",
+      "text": "When I would join a new company, I would give myself two weeks to develop the product strategy for that company, which is a little outrageous, but I would just do it fast. I would develop the SWAG, but then I'd go to one person. 'Hey, this is my best thinking, what do you think?' And of course, they had been there for four years. They were much smarter than I, and they would refine my thinking.",
+      "timestamp": "00:47:25",
+      "source": {
+        "slug": "gibson-biddle",
+        "path": "episodes/gibson-biddle/transcript.md",
+        "lineStart": 585,
+        "lineEnd": 588
+      },
+      "themes": ["strategy", "speed", "collaboration"],
+      "zones": ["velocity", "alignment", "intuition"]
+    },
+    {
+      "id": "gibson-biddle-q012",
+      "speaker": "Gibson Biddle",
+      "text": "Begin your day with intent. What are the three to five things I'm hoping to do today? Second, minimize meetings. That sucks the life out of everybody, including you. Spend a lot of time with your customers. Find a balance between doing and thinking. Most of us do, do, do. Occasionally stop and ask yourself, what should I really be doing right now?",
+      "timestamp": "00:52:49",
+      "source": {
+        "slug": "gibson-biddle",
+        "path": "episodes/gibson-biddle/transcript.md",
+        "lineStart": 639,
+        "lineEnd": 646
+      },
+      "themes": ["productivity", "customer-focus", "self-management"],
+      "zones": ["focus", "perfection", "discovery"]
+    }
+  ],
+  "themes": ["DHM-framework", "GEM-framework", "product-strategy", "experimentation", "prioritization", "career-development", "mentorship", "decision-making", "customer-focus"],
+  "takeaways": [
+    "The DHM framework (Delight, Hard to copy, Margin) provides a lens for evaluating product strategy - aim for 10X better experiences that competitors cannot easily replicate while building sustainable business models.",
+    "Force rank Growth, Engagement, and Monetization (GEM) with your leadership team to prevent fundamental misalignments that can wreck startups - these prioritization conflicts are the number one source of startup dysfunction.",
+    "Embrace hypothesis-driven product development - expect 6 out of 10 ideas to fail, but the value comes from the 3-4 that succeed. Kill 'two percenters' ruthlessly to reduce complexity.",
+    "Build your personal board of directors by maintaining peer relationships and finding ways to be helpful to potential mentors first - never explicitly ask someone to be your mentor.",
+    "Start with a SWAG (Stupid Wild-Ass Guess) rather than perfecting in isolation - develop strategy fast, then iterate through one-on-one conversations with people who know more than you."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.15,
+    "discovery": 0.10,
+    "data": 0.20,
+    "intuition": 0.10,
+    "alignment": 0.20,
+    "chaos": 0.05,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "gibson-biddle-q005",
+      "why": "Kill features that only 2% use - attacks the instinct to keep everything, advocates ruthless simplicity through 'scraping the barnacles'",
+      "related_zones": ["focus", "data"]
+    },
+    {
+      "quoteId": "gibson-biddle-q011",
+      "why": "Two weeks to develop product strategy is outrageous but effective - attacks the tendency to over-analyze and delay with a SWAG-first approach",
+      "related_zones": ["velocity", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "product-leader",
+    "company_stage": "public",
+    "primary_topics": ["product-strategy", "DHM-framework", "GEM-framework", "experimentation", "career-development"]
+  }
+}

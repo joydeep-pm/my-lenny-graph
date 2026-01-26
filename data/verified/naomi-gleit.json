@@ -1,0 +1,208 @@
+{
+  "slug": "naomi-gleit",
+  "quotes": [
+    {
+      "id": "naomi-gleit-q001",
+      "speaker": "Naomi Gleit",
+      "text": "The most dangerous kind of person to have in an organization is an agreeable taker. And the most precious person in an organization is the disagreeable giver. Those are the people who are really motivated to do what's best for the company, but they can be a little bit disagreeable in the sense that they may not say what you want to hear. They may push back on things, they may fight for things.",
+      "timestamp": "00:21:52",
+      "source": {
+        "slug": "naomi-gleit",
+        "path": "episodes/naomi-gleit/transcript.md",
+        "lineStart": 231,
+        "lineEnd": 232
+      },
+      "themes": ["leadership", "culture", "feedback", "small-group"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "naomi-gleit-q002",
+      "speaker": "Naomi Gleit",
+      "text": "We had a notion of growth accounting, which looks at what's our net growth every day? And what we found was the churn and resurrection lines were actually much larger than the new user line, which implied to us that retention and driving those two lines was actually our biggest lever to drive net growth.",
+      "timestamp": "00:26:30",
+      "source": {
+        "slug": "naomi-gleit",
+        "path": "episodes/naomi-gleit/transcript.md",
+        "lineStart": 282,
+        "lineEnd": 283
+      },
+      "themes": ["growth", "retention", "data-driven", "metrics"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "naomi-gleit-q003",
+      "speaker": "Naomi Gleit",
+      "text": "One of my Naomi-isms is really understand, identify, and execute. In 2009 in January, we basically stopped doing anything on our roadmap except data instrumentation. We just didn't have the data that we needed to make informed decisions to know really what were the biggest levers to drive growth.",
+      "timestamp": "00:29:43",
+      "source": {
+        "slug": "naomi-gleit",
+        "path": "episodes/naomi-gleit/transcript.md",
+        "lineStart": 294,
+        "lineEnd": 295
+      },
+      "themes": ["data-driven", "methodology", "growth", "prioritization"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "naomi-gleit-q004",
+      "speaker": "Naomi Gleit",
+      "text": "I think the majority of the value is in just having extreme clarity around the goal and that allowed everybody to work towards optimizing the same goal. It doesn't matter if it was seven friends in 10 days or 10 in 14. What mattered was that we picked one of them and we had the same goal.",
+      "timestamp": "00:34:19",
+      "source": {
+        "slug": "naomi-gleit",
+        "path": "episodes/naomi-gleit/transcript.md",
+        "lineStart": 324,
+        "lineEnd": 325
+      },
+      "themes": ["activation", "goals", "alignment", "extreme-clarity"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "naomi-gleit-q005",
+      "speaker": "Naomi Gleit",
+      "text": "All of the work that we did on growth around optimizing the flows were really about removing micro barriers. We found 20% of people aren't actually confirming their email. We allowed people to get notifications even as an unconfirmed account, and if they clicked on any of those notifications, that would count as an account confirmation. It's just removing a micro barrier.",
+      "timestamp": "00:40:40",
+      "source": {
+        "slug": "naomi-gleit",
+        "path": "episodes/naomi-gleit/transcript.md",
+        "lineStart": 357,
+        "lineEnd": 361
+      },
+      "themes": ["growth", "onboarding", "friction", "optimization"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "naomi-gleit-q006",
+      "speaker": "Naomi Gleit",
+      "text": "A PM is a conductor. It's as though the team that you are a PM on is an orchestra. There are many different functions in your team that includes legal policy, comms, data analytics, engineering, design. And as a PM, your job is to make sure everyone's playing their part correctly, but at the same time, they're playing together, they're unified in the music that they're producing.",
+      "timestamp": "00:45:52",
+      "source": {
+        "slug": "naomi-gleit",
+        "path": "episodes/naomi-gleit/transcript.md",
+        "lineStart": 390,
+        "lineEnd": 391
+      },
+      "themes": ["product-management", "leadership", "coordination", "metaphor"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "naomi-gleit-q007",
+      "speaker": "Naomi Gleit",
+      "text": "Extreme clarity means everyone's on the same page. It definitely doesn't mean that they all agree with each other, but they just have the same understanding of the facts. So we can disagree, but we all believe in the facts, which is that there's A, B, C, our options are X, Y, Z and here are the trade-offs 1, 2, 3.",
+      "timestamp": "00:48:57",
+      "source": {
+        "slug": "naomi-gleit",
+        "path": "episodes/naomi-gleit/transcript.md",
+        "lineStart": 408,
+        "lineEnd": 409
+      },
+      "themes": ["extreme-clarity", "communication", "decision-making", "process"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "naomi-gleit-q008",
+      "speaker": "Naomi Gleit",
+      "text": "I never use bulleted lists because you can never refer to a bullet. I always use numbered lists because you can always reference number two in a meeting. Versus the third bullet, two up from the second, whatever, that is not extreme clarity. So it's very, very small tactical things to bigger things like canonical everything.",
+      "timestamp": "00:52:19",
+      "source": {
+        "slug": "naomi-gleit",
+        "path": "episodes/naomi-gleit/transcript.md",
+        "lineStart": 438,
+        "lineEnd": 439
+      },
+      "themes": ["extreme-clarity", "documentation", "meetings", "tactics"],
+      "zones": ["perfection", "alignment"]
+    },
+    {
+      "id": "naomi-gleit-q009",
+      "speaker": "Naomi Gleit",
+      "text": "I always want a canonical doc. Where can I learn what I need to learn about this project? I ask five different people, get five different answers, that is unacceptable. Everyone should know exactly where the canonical doc is. That's the one place I can go to get all the information I need about a project.",
+      "timestamp": "00:53:18",
+      "source": {
+        "slug": "naomi-gleit",
+        "path": "episodes/naomi-gleit/transcript.md",
+        "lineStart": 450,
+        "lineEnd": 451
+      },
+      "themes": ["documentation", "canonical-doc", "process", "clarity"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "naomi-gleit-q010",
+      "speaker": "Naomi Gleit",
+      "text": "That's why I think it's very important to have a single-threaded owner. We used to call this a directly responsible individual or a throat to choke. We obviously don't say that anymore. Single-threaded owner, every work stream has a single-threaded owner. Everything canonical needs to recurse.",
+      "timestamp": "00:54:05",
+      "source": {
+        "slug": "naomi-gleit",
+        "path": "episodes/naomi-gleit/transcript.md",
+        "lineStart": 453,
+        "lineEnd": 454
+      },
+      "themes": ["ownership", "accountability", "process", "execution"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "naomi-gleit-q011",
+      "speaker": "Naomi Gleit",
+      "text": "I often go into a project, everyone's operating at a PhD level, I'm coming in at a kindergarten level. It doesn't mean I want to oversimplify, that's not what a simplifier does. They're identifying the most basic building blocks of a complex problem and then unfolding, or revealing or building on top of them additional complexity and details as you go along.",
+      "timestamp": "00:56:12",
+      "source": {
+        "slug": "naomi-gleit",
+        "path": "episodes/naomi-gleit/transcript.md",
+        "lineStart": 462,
+        "lineEnd": 463
+      },
+      "themes": ["simplification", "problem-solving", "communication", "school-pyramid"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "naomi-gleit-q012",
+      "speaker": "Naomi Gleit",
+      "text": "I would say 80% of the time I think it's a people or process issue. I want to make sure a project is perfectly executing, because only then can we really reevaluate whether or not this strategy is right or wrong. We're in the worst of all worlds where we are imperfectly executing and the project might fail, but we don't know why.",
+      "timestamp": "00:58:07",
+      "source": {
+        "slug": "naomi-gleit",
+        "path": "episodes/naomi-gleit/transcript.md",
+        "lineStart": 471,
+        "lineEnd": 475
+      },
+      "themes": ["execution", "strategy", "process", "learning"],
+      "zones": ["perfection", "data"]
+    }
+  ],
+  "themes": ["extreme-clarity", "canonical-docs", "growth", "data-driven", "product-management", "execution", "simplification", "leadership"],
+  "takeaways": [
+    "The most valuable team members are 'disagreeable givers' - people motivated to do what's best for the company who push back and fight for things, rather than 'agreeable takers' who optimize for being liked.",
+    "The legendary '7 friends in 10 days' activation metric worked not because it was perfectly calibrated, but because it gave the entire growth team extreme clarity and a shared goal to rally around.",
+    "Before optimizing anything, invest in data instrumentation first. In 2009, Facebook's growth team paused their entire roadmap to instrument every step of every flow - that's what enabled them to identify real opportunities.",
+    "A PM's role is like a conductor - you don't play an instrument yourself, but you ensure every function plays their part correctly while staying unified. The conductor is never the star of the show.",
+    "When projects fail, 80% of the time it's a people or process issue, not a strategy issue. Perfect execution is essential because only then can you truly evaluate whether your strategy was right or wrong."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.15,
+    "discovery": 0.10,
+    "data": 0.20,
+    "intuition": 0.05,
+    "alignment": 0.30,
+    "chaos": 0.05,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "naomi-gleit-q004",
+      "why": "Challenges the obsession with finding the 'perfect' activation metric - the actual number matters less than having any clear shared goal",
+      "related_zones": ["alignment", "focus"]
+    },
+    {
+      "quoteId": "naomi-gleit-q012",
+      "why": "Provocatively claims 80% of project failures are people/process issues, not strategy - challenges the tendency to blame strategy",
+      "related_zones": ["perfection", "data"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["growth", "product-management", "extreme-clarity", "canonical-docs", "activation", "execution"]
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "slug": "molly-graham",
+  "quotes": [
+    {
+      "id": "molly-graham-q001",
+      "speaker": "Molly Graham",
+      "text": "That is both the torment of scaling companies, which is that the ground is moving under your feet. And as soon as you're comfortable, someone will make sure that you are uncomfortable, but it's also the opportunity, which is that you can go from being someone that's good at building houses to someone that knows how to build entire worlds.",
+      "timestamp": "00:14:03",
+      "source": {
+        "slug": "molly-graham",
+        "path": "episodes/molly-graham/transcript.md",
+        "lineStart": 127,
+        "lineEnd": 130
+      },
+      "themes": ["delegation", "growth", "career-growth", "giving-away-legos"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "molly-graham-q002",
+      "speaker": "Molly Graham",
+      "text": "At Facebook, I got to a place where I was literally giving away my job every three weeks. I was constantly rehiring myself essentially because you have to sort of grow as fast as your company is growing if you really want to take advantage of the opportunity that comes with companies that are growing and changing quickly.",
+      "timestamp": "00:16:27",
+      "source": {
+        "slug": "molly-graham",
+        "path": "episodes/molly-graham/transcript.md",
+        "lineStart": 148,
+        "lineEnd": 151
+      },
+      "themes": ["delegation", "scaling", "growth", "giving-away-legos"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "molly-graham-q003",
+      "speaker": "Molly Graham",
+      "text": "I externalized all these emotions that come with change into this little tiny monster. I named my monster, Bob. Bob's job is basically to make me the worst version of myself. He's the one that wants to send the rage emails at 9:00PM and burn the house down. All these emotions are normal and they are not useful. They are not the compass that should be telling you what to do.",
+      "timestamp": "00:17:56",
+      "source": {
+        "slug": "molly-graham",
+        "path": "episodes/molly-graham/transcript.md",
+        "lineStart": 157,
+        "lineEnd": 161
+      },
+      "themes": ["emotions", "change-management", "self-awareness", "bob-the-monster"],
+      "zones": ["intuition", "chaos"]
+    },
+    {
+      "id": "molly-graham-q004",
+      "speaker": "Molly Graham",
+      "text": "The way a lot of people do careers is a set of stairs. Just walk up the stairs and you'll get promoted every two years. But the much more fun careers are like jumping off cliffs. You do fall for a period of time, about six to nine months, but then this thing happens where you climb out way beyond where the stairs could ever get you.",
+      "timestamp": "00:28:05",
+      "source": {
+        "slug": "molly-graham",
+        "path": "episodes/molly-graham/transcript.md",
+        "lineStart": 232,
+        "lineEnd": 235
+      },
+      "themes": ["career-growth", "risk-taking", "j-curve", "learning"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "molly-graham-q005",
+      "speaker": "Molly Graham",
+      "text": "One of the greatest gifts in a career is knowing yourself. And that's a lifelong journey because who you are and what you want changes, but that knowledge and that gift, nothing accelerates your self-knowledge faster than trying to do something that you don't know how to do and that you're scared of.",
+      "timestamp": "00:32:27",
+      "source": {
+        "slug": "molly-graham",
+        "path": "episodes/molly-graham/transcript.md",
+        "lineStart": 265,
+        "lineEnd": 265
+      },
+      "themes": ["self-knowledge", "career-growth", "fear", "learning"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "molly-graham-q006",
+      "speaker": "Molly Graham",
+      "text": "Being the person that takes their learning in their own hands, learning no matter what and learning to ask those dumb questions, it's a superpower. Actually, my superpower is being a professional moron. I'm the one that shows up in a room and is like, 'Do we have goals? What are we doing? Why are we having this meeting?' And most of the time it's actually what I was hired to do, which is bring clarity.",
+      "timestamp": "00:35:48",
+      "source": {
+        "slug": "molly-graham",
+        "path": "episodes/molly-graham/transcript.md",
+        "lineStart": 288,
+        "lineEnd": 296
+      },
+      "themes": ["learning", "curiosity", "clarity", "leadership"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "molly-graham-q007",
+      "speaker": "Molly Graham",
+      "text": "The rule with the Waterline Model is you snorkel before you scuba. 80% of problems on teams actually happen because of structural issues or dynamics issues. Your only goal as a manager, if you do nothing else, is clear roles and clear expectations. That's it.",
+      "timestamp": "00:41:44",
+      "source": {
+        "slug": "molly-graham",
+        "path": "episodes/molly-graham/transcript.md",
+        "lineStart": 334,
+        "lineEnd": 337
+      },
+      "themes": ["management", "team-diagnostics", "waterline-model", "clarity"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "molly-graham-q008",
+      "speaker": "Molly Graham",
+      "text": "No company needs more than three company goals and the point of company goals is to help people know what the most important things are to success. Facebook basically had three goals for the entire time I was there. If you can govern that business with three goals, you can govern literally any business with three goals.",
+      "timestamp": "00:49:52",
+      "source": {
+        "slug": "molly-graham",
+        "path": "episodes/molly-graham/transcript.md",
+        "lineStart": 385,
+        "lineEnd": 389
+      },
+      "themes": ["goals", "prioritization", "strategy", "focus"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "molly-graham-q009",
+      "speaker": "Molly Graham",
+      "text": "Strategy should hurt. If your goal setting process is not painful, then you're not prioritizing heavily enough.",
+      "timestamp": "00:52:09",
+      "source": {
+        "slug": "molly-graham",
+        "path": "episodes/molly-graham/transcript.md",
+        "lineStart": 394,
+        "lineEnd": 394
+      },
+      "themes": ["strategy", "prioritization", "goals", "trade-offs"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "molly-graham-q010",
+      "speaker": "Molly Graham",
+      "text": "One goal has one owner. Two people owning a goal is no one owning a goal. One person owns the goal, who is it? It's not you as the CEO, it's someone that works for you. That means that person, come hell or high water, owns that number.",
+      "timestamp": "00:55:16",
+      "source": {
+        "slug": "molly-graham",
+        "path": "episodes/molly-graham/transcript.md",
+        "lineStart": 397,
+        "lineEnd": 419
+      },
+      "themes": ["goals", "accountability", "ownership", "leadership"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "molly-graham-q011",
+      "speaker": "Molly Graham",
+      "text": "80% of the culture of a company is literally defined by the personality of the founder. Facebook is Mark. Google is Larry and Sergei. Our job as operators or as leaders around founders is to help articulate the culture that they're creating and to help extend it.",
+      "timestamp": "01:12:29",
+      "source": {
+        "slug": "molly-graham",
+        "path": "episodes/molly-graham/transcript.md",
+        "lineStart": 571,
+        "lineEnd": 574
+      },
+      "themes": ["culture", "founder-mode", "leadership", "company-building"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "molly-graham-q012",
+      "speaker": "Molly Graham",
+      "text": "More people does not actually make you faster. We think it does. It does not. It makes it harder. It makes it harder to get work done. It makes it slower. So you should be scared of adding people, not like, 'Oh, this is the answer to all my problems.'",
+      "timestamp": "01:20:16",
+      "source": {
+        "slug": "molly-graham",
+        "path": "episodes/molly-graham/transcript.md",
+        "lineStart": 639,
+        "lineEnd": 640
+      },
+      "themes": ["scaling", "team-size", "velocity", "hiring"],
+      "zones": ["velocity", "focus"]
+    }
+  ],
+  "themes": ["giving-away-legos", "j-curve", "waterline-model", "bob-the-monster", "goals", "founder-culture", "scaling", "career-growth", "leadership"],
+  "takeaways": [
+    "Give away your Legos: The key to thriving in a scaling company is learning to give away what you've gotten good at and move on to the next challenge. You must grow as fast as your company is growing.",
+    "Take J-Curve career risks over stairs: The most transformative careers come from jumping off cliffs into roles you're unqualified for. You'll fall for 6-9 months, but climb out far beyond where stairs could take you.",
+    "Use the Waterline Model to diagnose team issues: Snorkel before you scuba. 80% of team problems are structural (unclear goals, roles, expectations) or dynamics issues, not people problems.",
+    "No company needs more than three goals: Strategy should hurt. One goal needs one owner. Two people owning a goal is no one owning it. If Facebook could run on three goals, any company can.",
+    "80% of culture is the founder's personality: Your job as an operator is not to shape culture but to articulate and extend the culture the founder is already creating through their actions."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.20,
+    "data": 0.00,
+    "intuition": 0.10,
+    "alignment": 0.25,
+    "chaos": 0.15,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "molly-graham-q012",
+      "why": "Challenges the common assumption that adding more people makes teams faster - argues it actually slows you down",
+      "related_zones": ["velocity", "focus"]
+    },
+    {
+      "quoteId": "molly-graham-q004",
+      "why": "Argues against traditional career progression via steady promotions - champions deliberate career falls and risk-taking",
+      "related_zones": ["discovery", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "scaling",
+    "primary_topics": ["scaling", "career-growth", "leadership", "goals", "culture"]
+  }
+}

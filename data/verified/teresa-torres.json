@@ -1,0 +1,199 @@
+{
+  "slug": "teresa-torres",
+  "quotes": [
+    {
+      "id": "teresa-torres-q001",
+      "speaker": "Teresa Torres",
+      "text": "A lot of teams, they learn how to do their jobs building products by being told, 'Build these features.' That's a really structured, okay, I just turn out some work problem. And so, we're asking teams to fundamentally do a really different type of job and I think teams needed some scaffolding for how do you make that shift.",
+      "timestamp": "00:06:41",
+      "source": {
+        "slug": "teresa-torres",
+        "path": "episodes/teresa-torres/transcript.md",
+        "lineStart": 114,
+        "lineEnd": 114
+      },
+      "themes": ["product-management", "outcomes", "transformation"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "teresa-torres-q002",
+      "speaker": "Teresa Torres",
+      "text": "We tend to just really struggle with this distinction between the problem space and the solution space. I think that the heart of good product is really getting comfortable in the problem space or the opportunity space, really taking the time to frame a problem well, and to really get into what's needed before we jump to solutions.",
+      "timestamp": "00:07:26",
+      "source": {
+        "slug": "teresa-torres",
+        "path": "episodes/teresa-torres/transcript.md",
+        "lineStart": 120,
+        "lineEnd": 120
+      },
+      "themes": ["problem-framing", "opportunity-space", "product-discovery"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "teresa-torres-q003",
+      "speaker": "Teresa Torres",
+      "text": "So the first thing that makes this hard is you have to interview well. I think interviewing is a grossly underestimated skill. Grossly underestimated skill. So that's the first thing is that if you're not collecting rich stories in your interviews, it's going to be really hard to identify opportunities.",
+      "timestamp": "00:15:54",
+      "source": {
+        "slug": "teresa-torres",
+        "path": "episodes/teresa-torres/transcript.md",
+        "lineStart": 186,
+        "lineEnd": 186
+      },
+      "themes": ["interviewing", "user-research", "skills"],
+      "zones": ["discovery", "perfection"]
+    },
+    {
+      "id": "teresa-torres-q004",
+      "speaker": "Teresa Torres",
+      "text": "I tell my teams when I teach it in class, I say, 'Look, we're going to focus on structuring an opportunity space, and I'm probably going to make you think harder than you've ever had to think in your job,' because we don't think that much at work. We go from meeting to meeting, we stay surface level a lot.",
+      "timestamp": "00:17:32",
+      "source": {
+        "slug": "teresa-torres",
+        "path": "episodes/teresa-torres/transcript.md",
+        "lineStart": 201,
+        "lineEnd": 201
+      },
+      "themes": ["critical-thinking", "opportunity-space", "deep-work"],
+      "zones": ["discovery", "focus", "perfection"]
+    },
+    {
+      "id": "teresa-torres-q005",
+      "speaker": "Teresa Torres",
+      "text": "I hear from people all the time say, 'I'm not allowed to talk to customers.' I go, 'Okay, well, your company doesn't own you when you're not at work. I bet you know people like your customers. Why don't you just start there?'",
+      "timestamp": "00:19:14",
+      "source": {
+        "slug": "teresa-torres",
+        "path": "episodes/teresa-torres/transcript.md",
+        "lineStart": 225,
+        "lineEnd": 225
+      },
+      "themes": ["customer-research", "empowerment", "resourcefulness"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "teresa-torres-q006",
+      "speaker": "Teresa Torres",
+      "text": "People make this mistake of we shouldn't put something in our backlog that hasn't been properly discovered. It's not true. Everything in our backlog is a bet, everything. Whether we do discovery or not, everything is a bet. Discovery is helping us make a better bet.",
+      "timestamp": "00:24:33",
+      "source": {
+        "slug": "teresa-torres",
+        "path": "episodes/teresa-torres/transcript.md",
+        "lineStart": 279,
+        "lineEnd": 279
+      },
+      "themes": ["discovery", "decision-making", "risk"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "teresa-torres-q007",
+      "speaker": "Teresa Torres",
+      "text": "I think the reason why people make this mistake is they think about it as phases. First I discover and then I deliver. No, you're always delivering and you're always discovering. The more you build this discovery habit, the better those bets are going to get with time.",
+      "timestamp": "00:25:29",
+      "source": {
+        "slug": "teresa-torres",
+        "path": "episodes/teresa-torres/transcript.md",
+        "lineStart": 285,
+        "lineEnd": 285
+      },
+      "themes": ["continuous-discovery", "delivery", "habits"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "teresa-torres-q008",
+      "speaker": "Teresa Torres",
+      "text": "The outcome is that we don't really collaborate. When we don't collaborate, I don't think we build very good products. So if we just go back to real life and when you're hanging out with friends and you're trying to accomplish something, you don't first stop and say, 'What's my role? What's your role?' That's just not how humans interact. We all collaborate intuitively. Business has taught us otherwise.",
+      "timestamp": "00:32:13",
+      "source": {
+        "slug": "teresa-torres",
+        "path": "episodes/teresa-torres/transcript.md",
+        "lineStart": 351,
+        "lineEnd": 351
+      },
+      "themes": ["collaboration", "product-trios", "culture"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "teresa-torres-q009",
+      "speaker": "Teresa Torres",
+      "text": "Kindergartners just start doing. They don't worry about their rules. They don't worry about who's in charge. They just brute force trial and error. What do MBA students do? There's posturing, like who has power and who's the decision-maker and who's right? They spend the whole time negotiating this political social space instead of just doing.",
+      "timestamp": "00:33:10",
+      "source": {
+        "slug": "teresa-torres",
+        "path": "episodes/teresa-torres/transcript.md",
+        "lineStart": 360,
+        "lineEnd": 360
+      },
+      "themes": ["experimentation", "action", "bureaucracy"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "teresa-torres-q010",
+      "speaker": "Teresa Torres",
+      "text": "Product people are in the business of changing behavior, understanding and changing behavior. I think that's a really big mistake that teams make is, both in their prototype tests and in their interviews, they focus on what people would do, on what people think. It's all really unreliable. It's a garbage in, garbage out situation. The real measure is tell me about your behavior. What did you actually do?",
+      "timestamp": "00:39:57",
+      "source": {
+        "slug": "teresa-torres",
+        "path": "episodes/teresa-torres/transcript.md",
+        "lineStart": 450,
+        "lineEnd": 450
+      },
+      "themes": ["user-research", "behavior", "interviewing"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "teresa-torres-q011",
+      "speaker": "Teresa Torres",
+      "text": "I don't know why product teams suddenly are held to a standard that nobody else is held to. When somebody says, 'Why is it reliable to make a decision based on one interview?' I flip the question around. Tell me about the decisions you made last week. How many customers did you talk to? Every human in business is making decisions with zero data. So I'm going to go with one is better than zero.",
+      "timestamp": "00:42:02",
+      "source": {
+        "slug": "teresa-torres",
+        "path": "episodes/teresa-torres/transcript.md",
+        "lineStart": 471,
+        "lineEnd": 474
+      },
+      "themes": ["data", "decision-making", "user-research"],
+      "zones": ["data", "intuition", "discovery"]
+    }
+  ],
+  "themes": ["continuous-discovery", "opportunity-solution-trees", "customer-interviewing", "product-discovery", "assumption-testing", "collaboration", "product-trios"],
+  "takeaways": [
+    "The opportunity solution tree provides scaffolding for outcome-focused work - starting with an outcome, branching into customer opportunities (needs, pain points, desires), then solutions. The key is staying in the problem space before jumping to solutions.",
+    "Interviewing is a grossly underestimated skill. Collect rich stories by asking 'what happened next?' rather than direct questions. The best interviews feel like having a beer with a friend, not a 50-question interrogation.",
+    "Discovery and delivery aren't phases - you're always doing both. Everything in your backlog is a bet; discovery helps you make better bets. Don't stop shipping to do research, start discovering in parallel.",
+    "Product trios (PM, designer, engineer) should truly collaborate without rigid role boundaries. Well-functioning trios find options everyone agrees on rather than fighting over who decides. Kindergartners outperform MBAs because they just start doing instead of posturing.",
+    "Focus on actual behavior, not hypotheticals. 'What did you do?' is more reliable than 'What would you do?' Product people are in the business of understanding and changing behavior - garbage in, garbage out if you collect unreliable data."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.05,
+    "discovery": 0.45,
+    "data": 0.15,
+    "intuition": 0.10,
+    "alignment": 0.10,
+    "chaos": 0.05,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "teresa-torres-q005",
+      "why": "Challenges the 'I'm not allowed to talk to customers' excuse by suggesting you find customers in your personal network - subverts organizational gatekeeping",
+      "related_zones": ["discovery", "chaos"]
+    },
+    {
+      "quoteId": "teresa-torres-q011",
+      "why": "Flips the small-sample-size criticism by pointing out everyone else makes decisions with zero data - defends qualitative research against data purists",
+      "related_zones": ["data", "intuition"]
+    },
+    {
+      "quoteId": "teresa-torres-q009",
+      "why": "Uses kindergartners vs MBA students to challenge business culture's obsession with roles, hierarchy, and planning over action",
+      "related_zones": ["chaos", "velocity"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "coach",
+    "company_stage": "consulting",
+    "primary_topics": ["continuous-discovery", "opportunity-solution-trees", "customer-interviewing", "product-trios", "assumption-testing"]
+  }
+}

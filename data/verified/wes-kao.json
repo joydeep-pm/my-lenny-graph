@@ -1,0 +1,194 @@
+{
+  "slug": "wes-kao",
+  "quotes": [
+    {
+      "id": "wes-kao-q001",
+      "speaker": "Wes Kao",
+      "text": "If I'm not getting the reaction that I'm looking for, how might I be contributing to that? Instead of blaming other people for not understanding me, I think about how could I explain this more clearly? How can I be more compelling? How can I anticipate any questions that they might have? I'm a big proponent of agency.",
+      "timestamp": "00:07:17",
+      "source": {
+        "slug": "wes-kao",
+        "path": "episodes/wes-kao-20/transcript.md",
+        "lineStart": 102,
+        "lineEnd": 102
+      },
+      "themes": ["agency", "communication", "self-improvement"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "wes-kao-q002",
+      "speaker": "Wes Kao",
+      "text": "I see a lot of operators who save their best behavior for executives only. They want to shine when they're presenting to senior leadership, but with everyone else, they're kind of calling it. I just don't think that you're going to be able to get enough reps to actually get good at executive communication if you are only doing it with executives.",
+      "timestamp": "00:08:46",
+      "source": {
+        "slug": "wes-kao",
+        "path": "episodes/wes-kao-20/transcript.md",
+        "lineStart": 114,
+        "lineEnd": 114
+      },
+      "themes": ["communication", "practice", "stakeholder-management"],
+      "zones": ["perfection", "alignment"]
+    },
+    {
+      "id": "wes-kao-q003",
+      "speaker": "Wes Kao",
+      "text": "A common mistake that I see is overestimating the amount of buy-in that you have from your audience. That looks like jumping straight into talking about the logistics, the details of the how to do something, when in reality your audience has not yet decided if they even want to do the thing.",
+      "timestamp": "00:11:07",
+      "source": {
+        "slug": "wes-kao",
+        "path": "episodes/wes-kao-20/transcript.md",
+        "lineStart": 132,
+        "lineEnd": 132
+      },
+      "themes": ["persuasion", "buy-in", "communication"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "wes-kao-q004",
+      "speaker": "Wes Kao",
+      "text": "Being concise is not about absolute word count, it's about economy of words. It's about the density of the insight that you're sharing. You can have a 300 word memo that's meandering and long-winded and a thousand word memo that is tight and concise.",
+      "timestamp": "00:18:31",
+      "source": {
+        "slug": "wes-kao",
+        "path": "episodes/wes-kao-20/transcript.md",
+        "lineStart": 183,
+        "lineEnd": 183
+      },
+      "themes": ["writing", "communication", "clarity"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "wes-kao-q005",
+      "speaker": "Wes Kao",
+      "text": "We've all heard 'Don't bury the lead, cut to the chase, put the main point at the top.' All of these pithy aphorisms assume that you actually know what your core point is. You can't cut to the chase unless you know what the chase is. That's the bottleneck to being concise. It's actually not being clear of what you are thinking.",
+      "timestamp": "00:19:05",
+      "source": {
+        "slug": "wes-kao",
+        "path": "episodes/wes-kao-20/transcript.md",
+        "lineStart": 186,
+        "lineEnd": 186
+      },
+      "themes": ["writing", "clarity", "thinking"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "wes-kao-q006",
+      "speaker": "Wes Kao",
+      "text": "The blast radius of a poorly written memo is way bigger than most people think. If you're just shooting off a message in a Slack channel with 15 other people and it's confusing, there's going to be a bunch of back and forth. Whereas if you had just taken another look at it, those 15 people would be off to the races.",
+      "timestamp": "00:25:37",
+      "source": {
+        "slug": "wes-kao",
+        "path": "episodes/wes-kao-20/transcript.md",
+        "lineStart": 240,
+        "lineEnd": 243
+      },
+      "themes": ["writing", "efficiency", "leverage"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "wes-kao-q007",
+      "speaker": "Wes Kao",
+      "text": "All these little things compound and make a big difference. I often hear people think this individual email or Slack message is not worth spending a couple more minutes on. The problem with that line of thinking is that no one instance is ever going to feel important enough, and when you zoom out, that's all your work then.",
+      "timestamp": "00:36:29",
+      "source": {
+        "slug": "wes-kao",
+        "path": "episodes/wes-kao-20/transcript.md",
+        "lineStart": 321,
+        "lineEnd": 321
+      },
+      "themes": ["quality", "compounding", "habits"],
+      "zones": ["perfection", "velocity"]
+    },
+    {
+      "id": "wes-kao-q008",
+      "speaker": "Wes Kao",
+      "text": "MOO stands for Most Obvious Objection. A lot of times we're surprised by the questions that we get, especially in meetings where we feel blindsided. When really, if you thought for even two minutes about what are obvious objections that I'm likely to get, you often immediately come up with what some of those things are.",
+      "timestamp": "00:50:26",
+      "source": {
+        "slug": "wes-kao",
+        "path": "episodes/wes-kao-20/transcript.md",
+        "lineStart": 411,
+        "lineEnd": 411
+      },
+      "themes": ["preparation", "persuasion", "frameworks"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "wes-kao-q009",
+      "speaker": "Wes Kao",
+      "text": "One of the most common myths about managing up that I definitely felt early on was that I would have to manage up if I were more junior, but eventually I would outgrow it. It was a rude awakening that no matter how senior I got, not only did I have to manage up, it actually became more important.",
+      "timestamp": "00:59:18",
+      "source": {
+        "slug": "wes-kao",
+        "path": "episodes/wes-kao-20/transcript.md",
+        "lineStart": 462,
+        "lineEnd": 462
+      },
+      "themes": ["managing-up", "career", "leadership"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "wes-kao-q010",
+      "speaker": "Wes Kao",
+      "text": "When you just ask your manager 'What should we do?' you're putting a lot of cognitive load on them to think about the problem, think about potential solutions, craft the solution, and then tell you what to do. Whereas if you said 'Here's what I think we should do, how does that sound?' you give them something to build off of.",
+      "timestamp": "01:00:54",
+      "source": {
+        "slug": "wes-kao",
+        "path": "episodes/wes-kao-20/transcript.md",
+        "lineStart": 471,
+        "lineEnd": 471
+      },
+      "themes": ["managing-up", "agency", "leadership"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "wes-kao-q011",
+      "speaker": "Wes Kao",
+      "text": "I have a framework called strategy, not self-expression. By the time we are giving feedback to someone, we have been frustrated for a while. The goal is behavior change. So trim everything that does not contribute to that goal and only keep the part that will make the person want to change.",
+      "timestamp": "01:05:05",
+      "source": {
+        "slug": "wes-kao",
+        "path": "episodes/wes-kao-20/transcript.md",
+        "lineStart": 489,
+        "lineEnd": 492
+      },
+      "themes": ["feedback", "communication", "management"],
+      "zones": ["focus", "alignment"]
+    }
+  ],
+  "themes": ["communication", "executive-communication", "managing-up", "persuasion", "writing", "frameworks", "career-development", "agency"],
+  "takeaways": [
+    "Take ownership of communication outcomes - if you're not getting the reaction you want, examine how you might be contributing to that rather than blaming others for not understanding.",
+    "Always sell before logistics - people haven't decided if they want to do something yet, so establish buy-in before diving into the how and process details.",
+    "Being concise means economy of words, not brevity - a longer document can be tighter and more concise than a short one if every word earns its place.",
+    "Use the MOO (Most Obvious Objection) framework before any presentation or proposal - spend even two minutes anticipating the obvious objections to avoid being blindsided.",
+    "Managing up becomes more important as you get senior, not less - share your point of view and recommendations rather than asking your manager what to do."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.20,
+    "discovery": 0.10,
+    "data": 0.05,
+    "intuition": 0.10,
+    "alignment": 0.30,
+    "chaos": 0.00,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "wes-kao-q005",
+      "why": "Challenges common advice about being concise - argues the bottleneck is clarity of thinking, not word count reduction",
+      "related_zones": ["focus", "discovery"]
+    },
+    {
+      "quoteId": "wes-kao-q009",
+      "why": "Counters the myth that managing up is a junior skill you outgrow - argues it becomes MORE important with seniority",
+      "related_zones": ["alignment", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["communication", "executive-communication", "managing-up", "cohort-based-courses"]
+  }
+}

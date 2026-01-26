@@ -1,0 +1,199 @@
+{
+  "slug": "scott-belsky",
+  "quotes": [
+    {
+      "id": "scott-belsky-q001",
+      "speaker": "Scott Belsky",
+      "text": "In the first 30 seconds of using a new product, you are lazy, vain, and selfish. You want to get it done super quickly. You want to look good to your colleagues or to your friends. You want to feel successful very quickly by engaging in this product. You don't want to have to watch a tour or read anything, really endure any learning curve whatsoever.",
+      "timestamp": "00:09:20",
+      "source": {
+        "slug": "scott-belsky",
+        "path": "episodes/scott-belsky/transcript.md",
+        "lineStart": 106,
+        "lineEnd": 109
+      },
+      "themes": ["first-mile", "user-psychology", "onboarding"],
+      "zones": ["velocity", "intuition"]
+    },
+    {
+      "id": "scott-belsky-q002",
+      "speaker": "Scott Belsky",
+      "text": "It's fascinating to me that most teams spend the final mile of their time building the product, considering the first mile of the customer's experience using the product. If you can just get more customers through that top of funnel, you are a world-class product team.",
+      "timestamp": "00:10:06",
+      "source": {
+        "slug": "scott-belsky",
+        "path": "episodes/scott-belsky/transcript.md",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "themes": ["first-mile", "prioritization", "product-teams"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "scott-belsky-q003",
+      "speaker": "Scott Belsky",
+      "text": "The most humbling moments for me as a product leader have always been shoulder to shoulder to customers. Watching them actually go about their day, not just use my product but go about their day because what you end up getting is context for a lot of data that you're missing.",
+      "timestamp": "00:13:41",
+      "source": {
+        "slug": "scott-belsky",
+        "path": "episodes/scott-belsky/transcript.md",
+        "lineStart": 145,
+        "lineEnd": 145
+      },
+      "themes": ["customer-empathy", "user-research", "product-sense"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "scott-belsky-q004",
+      "speaker": "Scott Belsky",
+      "text": "Product leaders expect people to talk about a product being great. And people don't talk about a product doing exactly what they expected it to do. They talk about a product doing what they didn't expect.",
+      "timestamp": "00:15:09",
+      "source": {
+        "slug": "scott-belsky",
+        "path": "episodes/scott-belsky/transcript.md",
+        "lineStart": 169,
+        "lineEnd": 169
+      },
+      "themes": ["product-led-growth", "word-of-mouth", "delight"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "scott-belsky-q005",
+      "speaker": "Scott Belsky",
+      "text": "Whenever I'm asked by teams, what features need to be part of their MVP, how do they decide which features they need to ship first, I always tell them to optimize for the problems they want to have. You want the problem of customers getting through your funnel, feeling successful, using your product and getting value.",
+      "timestamp": "00:21:29",
+      "source": {
+        "slug": "scott-belsky",
+        "path": "episodes/scott-belsky/transcript.md",
+        "lineStart": 223,
+        "lineEnd": 223
+      },
+      "themes": ["mvp", "prioritization", "product-strategy"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "scott-belsky-q006",
+      "speaker": "Scott Belsky",
+      "text": "So actually if you make the whole product about one thing, everyone does that. That core crank operates at 10X the velocity and if that's the most important metric for the business, that's gold. And so, we basically went on a killing spree. And we just started killing things.",
+      "timestamp": "00:23:33",
+      "source": {
+        "slug": "scott-belsky",
+        "path": "episodes/scott-belsky/transcript.md",
+        "lineStart": 241,
+        "lineEnd": 241
+      },
+      "themes": ["focus", "simplification", "behance"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "scott-belsky-q007",
+      "speaker": "Scott Belsky",
+      "text": "Some of the best product leaders that I've worked with, I do feel like they have this great reductionist or minimalistic tendency by default. They anchor themselves on the one thing they want people to do and do well. And they just are pretty ruthless about everything else.",
+      "timestamp": "00:25:08",
+      "source": {
+        "slug": "scott-belsky",
+        "path": "episodes/scott-belsky/transcript.md",
+        "lineStart": 253,
+        "lineEnd": 253
+      },
+      "themes": ["product-leadership", "focus", "simplification"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "scott-belsky-q008",
+      "speaker": "Scott Belsky",
+      "text": "I always like to use the analogy of we're driving our teams across country as product leaders with the windows blacked out in the backseat and everyone's sitting in the backseat. If they don't receive the narrative, they will go stir-crazy. As product leaders, we have to merchandise progress. We have to be the steward of this narrative.",
+      "timestamp": "00:43:39",
+      "source": {
+        "slug": "scott-belsky",
+        "path": "episodes/scott-belsky/transcript.md",
+        "lineStart": 409,
+        "lineEnd": 409
+      },
+      "themes": ["leadership", "messy-middle", "team-motivation"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "scott-belsky-q009",
+      "speaker": "Scott Belsky",
+      "text": "How much conviction do you have in the solution you're building? I know in the beginning before you knew all you know now, you had tons of conviction. That's what caused you to leave your job. Now, knowing all you know, do you have more or less conviction in the problem and the solution you're building?",
+      "timestamp": "00:44:46",
+      "source": {
+        "slug": "scott-belsky",
+        "path": "episodes/scott-belsky/transcript.md",
+        "lineStart": 415,
+        "lineEnd": 418
+      },
+      "themes": ["conviction", "founder-mindset", "perseverance"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "scott-belsky-q010",
+      "speaker": "Scott Belsky",
+      "text": "I have an allergic reaction to founders that are real promoters who are constantly trying to sugarcoat the truth, who like to gloss over the hard parts. I've always admired leaders that are optimistic about the future but very pragmatic and somewhat pessimistic about the present.",
+      "timestamp": "00:47:47",
+      "source": {
+        "slug": "scott-belsky",
+        "path": "episodes/scott-belsky/transcript.md",
+        "lineStart": 442,
+        "lineEnd": 442
+      },
+      "themes": ["founder-evaluation", "honesty", "leadership"],
+      "zones": ["data", "alignment"]
+    },
+    {
+      "id": "scott-belsky-q011",
+      "speaker": "Scott Belsky",
+      "text": "I've always found that resourcefulness brings you further than resources despite the fact that over the last seven to 10 years, we've basically thrown resources at every problem. If resources are carbs, resourcefulness is like muscle. It stays with you. It makes you stronger.",
+      "timestamp": "00:50:35",
+      "source": {
+        "slug": "scott-belsky",
+        "path": "episodes/scott-belsky/transcript.md",
+        "lineStart": 466,
+        "lineEnd": 472
+      },
+      "themes": ["resourcefulness", "startup-advice", "constraints"],
+      "zones": ["velocity", "chaos"]
+    }
+  ],
+  "themes": ["first-mile", "product-sense", "simplification", "messy-middle", "founder-mindset", "leadership", "resourcefulness", "conviction"],
+  "takeaways": [
+    "Users are lazy, vain, and selfish in the first 30 seconds - design your onboarding to make them feel successful immediately without requiring any learning curve or tutorials.",
+    "Focus your product on one core thing and ruthlessly eliminate everything else - when Behance killed features like groups and the tip exchange, their core metric of project publishing increased 10X.",
+    "Build empathy by being shoulder to shoulder with customers in their full context, not just watching them use your product but understanding everything else competing for their attention.",
+    "The conviction test determines whether to quit: if knowing everything you now know gives you more conviction than when you started, stay the course. If less, it's time to pivot or move on.",
+    "Resourcefulness beats resources - constraints force creative problem-solving that builds lasting muscle, while throwing money at problems creates temporary solutions that don't strengthen your team."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.10,
+    "discovery": 0.10,
+    "data": 0.05,
+    "intuition": 0.15,
+    "alignment": 0.10,
+    "chaos": 0.10,
+    "focus": 0.25
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "scott-belsky-q001",
+      "why": "Calls users lazy, vain, and selfish - a brutally honest framing that challenges the typical user-centric language of treating users as thoughtful rational actors",
+      "related_zones": ["velocity", "intuition"]
+    },
+    {
+      "quoteId": "scott-belsky-q006",
+      "why": "Advocates going on a 'killing spree' to eliminate features - directly opposes the common instinct to add more features and please all users",
+      "related_zones": ["focus", "velocity"]
+    },
+    {
+      "quoteId": "scott-belsky-q010",
+      "why": "Leaders should be pessimistic about the present while optimistic about the future - challenges the toxic positivity common in startup culture",
+      "related_zones": ["data", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder-executive",
+    "company_stage": "public",
+    "primary_topics": ["first-mile-experience", "product-sense", "messy-middle", "simplification", "founder-psychology"]
+  }
+}
