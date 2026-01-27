@@ -1,21 +1,21 @@
 ---
 name: curate-episode
-description: Extract verified quotes from Lenny's Podcast episode transcripts to populate the PM Philosophy Map with real, grounded content. Triggered when asked to curate episodes, extract quotes, or enrich the PM Philosophy Map with transcript data.
+description: Extract verified quotes from Lenny's Podcast episode transcripts to populate the PM Philosophy Recommendations with real, grounded content. Triggered when asked to curate episodes, extract quotes, or enrich the PM Philosophy Recommendations with transcript data.
 ---
 
 # Episode Curation Skill
 
 ## Purpose
-Extract verified quotes from Lenny's Podcast episode transcripts to power the PM Philosophy Map with real, grounded content.
+Extract verified quotes from Lenny's Podcast episode transcripts to power the PM Philosophy Recommendations with real, grounded content.
 
 ## When to Use This Skill
 - User asks to "curate an episode"
 - User wants to "extract quotes from transcript"
-- User requests to "enrich the PM Philosophy Map"
+- User requests to "enrich the PM Philosophy Recommendations"
 - User asks to "continue curating" or "scale episode coverage"
 
 ## Context
-- **Project**: PM Philosophy Map - interactive product philosophy discovery experience
+- **Project**: PM Philosophy Recommendations - interactive product philosophy discovery experience
 - **Data Source**: Episode transcripts in `episodes/{slug}/transcript.md`
 - **Output**: Verified JSON files in `data/verified/{slug}.json`
 - **Validation**: `scripts/build-verified.ts` ensures all content is valid
@@ -156,7 +156,7 @@ Where X and Y increase by the number of episodes and quotes you just added.
 
 ## What Gets Used Where
 
-**PM Philosophy Map Flow (Quiz → Map → Contradictions → Results):**
+**Philosophy Quiz Flow (Quiz → Contradictions → Results):**
 - Uses `zone_influence` to determine guest's philosophy profile
 - Uses verified `quotes` (via quoteId) in contradictions debate
 - Uses `takeaways` to show guest wisdom
