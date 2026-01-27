@@ -3,12 +3,12 @@
 import { useState, useMemo, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Heart, Sparkles, Quote, ArrowRight, Shuffle, ChevronLeft, Filter } from 'lucide-react';
+import { Heart, Sparkles, Quote, ArrowRight, Shuffle, ChevronLeft, Filter, Zap, ChevronRight } from 'lucide-react';
 import InteractiveSpace from '@/components/InteractiveSpace';
 import TopNav from '@/components/TopNav';
 import { zones } from '@/lib/zones';
 import { ZoneId } from '@/lib/types';
-import { getAllVerifiedQuotes, getRegistryInfo, getEpisodeEnrichment } from '@/lib/verifiedQuotes';
+import { getAllVerifiedQuotes, getRegistryInfo, getEpisodeEnrichment, getContrarianQuotes } from '@/lib/verifiedQuotes';
 import { allEpisodes } from '@/lib/allEpisodes';
 import {
   getFavoriteQuotes,
@@ -27,9 +27,39 @@ export default function InsightsPage() {
   const [favoriteQuoteIds, setFavoriteQuoteIds] = useState<Set<string>>(new Set());
   const [favoriteEpisodeSlugs, setFavoriteEpisodeSlugs] = useState<Set<string>>(new Set());
   const [randomQuote, setRandomQuote] = useState<typeof allQuotes[0] | null>(null);
+  const [carouselIndex, setCarouselIndex] = useState(0);
 
   const allQuotes = useMemo(() => getAllVerifiedQuotes(), []);
   const registryInfo = useMemo(() => getRegistryInfo(), []);
+  const contrarianQuotes = useMemo(() => getContrarianQuotes(), []);
+
+  // Featured quotes for carousel (pick diverse quotes across zones)
+  const carouselQuotes = useMemo(() => {
+    const featured: typeof allQuotes = [];
+    const usedZones = new Set<ZoneId>();
+
+    // Get one quote per zone for diversity
+    for (const quote of allQuotes) {
+      if (quote.zones.length > 0) {
+        const zone = quote.zones[0];
+        if (!usedZones.has(zone) && quote.text.length > 100 && quote.text.length < 400) {
+          featured.push(quote);
+          usedZones.add(zone);
+        }
+      }
+      if (featured.length >= 8) break;
+    }
+
+    return featured;
+  }, [allQuotes]);
+
+  const nextCarouselSlide = useCallback(() => {
+    setCarouselIndex(prev => (prev + 1) % carouselQuotes.length);
+  }, [carouselQuotes.length]);
+
+  const prevCarouselSlide = useCallback(() => {
+    setCarouselIndex(prev => (prev - 1 + carouselQuotes.length) % carouselQuotes.length);
+  }, [carouselQuotes.length]);
 
   // Load favorites on mount
   useEffect(() => {
@@ -231,11 +261,161 @@ export default function InsightsPage() {
             </motion.div>
           )}
 
+          {/* Quote Carousel */}
+          {carouselQuotes.length > 0 && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.1 }}
+              className="mb-10"
+            >
+              <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center gap-2 text-amber text-xs tracking-wider">
+                  <Sparkles className="w-4 h-4" />
+                  <span>FEATURED QUOTES</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <button
+                    onClick={prevCarouselSlide}
+                    className="p-2 border border-ash-darker text-ash-dark hover:border-amber hover:text-amber transition-all"
+                  >
+                    <ChevronLeft className="w-4 h-4" />
+                  </button>
+                  <span className="text-xs text-ash-dark">
+                    {carouselIndex + 1} / {carouselQuotes.length}
+                  </span>
+                  <button
+                    onClick={nextCarouselSlide}
+                    className="p-2 border border-ash-darker text-ash-dark hover:border-amber hover:text-amber transition-all"
+                  >
+                    <ChevronRight className="w-4 h-4" />
+                  </button>
+                </div>
+              </div>
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={carouselIndex}
+                  initial={{ opacity: 0, x: 20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  exit={{ opacity: 0, x: -20 }}
+                  transition={{ duration: 0.3 }}
+                  className="p-6 border border-ash-darker bg-void-light relative"
+                >
+                  {carouselQuotes[carouselIndex] && (
+                    <>
+                      <div className="flex gap-2 mb-3">
+                        {carouselQuotes[carouselIndex].zones.slice(0, 2).map(zoneId => {
+                          const zone = zones[zoneId];
+                          if (!zone) return null;
+                          return (
+                            <span
+                              key={zoneId}
+                              className="px-2 py-0.5 text-[10px] border"
+                              style={{ borderColor: zone.color, color: zone.color }}
+                            >
+                              {zone.icon} {zone.name}
+                            </span>
+                          );
+                        })}
+                      </div>
+                      <blockquote className="text-lg text-ash leading-relaxed mb-4">
+                        "{carouselQuotes[carouselIndex].text}"
+                      </blockquote>
+                      <div className="flex items-center justify-between">
+                        <div>
+                          <div className="text-amber font-bold text-sm">{carouselQuotes[carouselIndex].speaker}</div>
+                          <Link
+                            href={`/episodes/${carouselQuotes[carouselIndex].source.slug}`}
+                            className="text-xs text-ash-dark hover:text-amber transition-colors"
+                          >
+                            View Episode →
+                          </Link>
+                        </div>
+                        <button
+                          onClick={() => handleToggleQuoteFavorite(carouselQuotes[carouselIndex])}
+                          className={`p-2 border transition-all ${
+                            favoriteQuoteIds.has(carouselQuotes[carouselIndex].id)
+                              ? 'border-rose-400 bg-rose-400/20 text-rose-400'
+                              : 'border-ash-darker text-ash-dark hover:border-rose-400 hover:text-rose-400'
+                          }`}
+                        >
+                          <Heart className={`w-4 h-4 ${favoriteQuoteIds.has(carouselQuotes[carouselIndex].id) ? 'fill-current' : ''}`} />
+                        </button>
+                      </div>
+                    </>
+                  )}
+                </motion.div>
+              </AnimatePresence>
+            </motion.div>
+          )}
+
+          {/* Contrarian Corner */}
+          {contrarianQuotes.length > 0 && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.15 }}
+              className="mb-10 p-6 border-2 border-crimson/30 bg-gradient-to-br from-crimson/5 to-transparent"
+            >
+              <div className="flex items-center gap-2 mb-4 text-crimson text-xs tracking-wider">
+                <Zap className="w-4 h-4" />
+                <span>CONTRARIAN CORNER</span>
+                <span className="text-ash-dark">— {contrarianQuotes.length} challenge{contrarianQuotes.length !== 1 ? 's' : ''} to conventional wisdom</span>
+              </div>
+              <div className="grid md:grid-cols-2 gap-4">
+                {contrarianQuotes.slice(0, 4).map((item, idx) => (
+                  <div
+                    key={item.quote.id}
+                    className="p-4 border border-ash-darker bg-void hover:border-crimson/50 transition-colors"
+                  >
+                    <blockquote className="text-ash text-sm leading-relaxed mb-3">
+                      "{item.quote.text.length > 200 ? item.quote.text.substring(0, 200) + '...' : item.quote.text}"
+                    </blockquote>
+                    <div className="text-xs text-crimson mb-2 italic">
+                      {item.why}
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <span className="text-amber text-xs font-bold">{item.guest}</span>
+                        <Link
+                          href={`/episodes/${item.episodeSlug}`}
+                          className="text-xs text-ash-dark hover:text-amber transition-colors ml-2"
+                        >
+                          →
+                        </Link>
+                      </div>
+                      <button
+                        onClick={() => handleToggleQuoteFavorite(item.quote)}
+                        className={`p-1 transition-all ${
+                          favoriteQuoteIds.has(item.quote.id)
+                            ? 'text-rose-400'
+                            : 'text-ash-dark hover:text-rose-400'
+                        }`}
+                      >
+                        <Heart className={`w-3 h-3 ${favoriteQuoteIds.has(item.quote.id) ? 'fill-current' : ''}`} />
+                      </button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              {contrarianQuotes.length > 4 && (
+                <div className="mt-4 text-center">
+                  <button
+                    onClick={() => setSelectedZone('all')}
+                    className="text-xs text-crimson hover:text-crimson/80 transition-colors"
+                  >
+                    + {contrarianQuotes.length - 4} more contrarian takes below
+                  </button>
+                </div>
+              )}
+            </motion.div>
+          )}
+
           {/* Zone Filter Pills */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1 }}
+            transition={{ delay: 0.2 }}
             className="mb-8"
           >
             <div className="flex items-center gap-2 mb-3 text-xs text-ash-dark">
