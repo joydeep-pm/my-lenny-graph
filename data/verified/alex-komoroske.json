@@ -1,0 +1,301 @@
+{
+  "quotes": [
+    {
+      "id": "alex-komoroske-001",
+      "speaker": "Alex Komoroske",
+      "text": "Deep thinking takes time and space, and you got to create that space. The mundane, pointless bullshit will take every square inch you give it. So you got to make that space to sit back and reflect and luxuriate in these ideas.",
+      "timestamp": "00:07:54",
+      "source": {
+        "slug": "alex-komoroske",
+        "path": "episodes/alex-komoroske/transcript.md",
+        "lineStart": 85,
+        "lineEnd": 85
+      },
+      "themes": [
+        "productivity",
+        "deep-work",
+        "reflection",
+        "time-management"
+      ],
+      "zones": [
+        "focus",
+        "perfection"
+      ]
+    },
+    {
+      "id": "alex-komoroske-002",
+      "speaker": "Alex Komoroske",
+      "text": "To me, LLMs are magical duct tape. They're formed principally by the distilled intuition of all of society into a thing that operates between, a cost structure between human and plain old computing. So much of how the industry is built presupposes the idea that software is expensive to write and cheap to run, and LLMs undermine both of these.",
+      "timestamp": "00:10:56",
+      "source": {
+        "slug": "alex-komoroske",
+        "path": "episodes/alex-komoroske/transcript.md",
+        "lineStart": 106,
+        "lineEnd": 106
+      },
+      "themes": [
+        "ai",
+        "llms",
+        "disruption",
+        "ai-product-strategy"
+      ],
+      "zones": [
+        "chaos",
+        "velocity"
+      ]
+    },
+    {
+      "id": "alex-komoroske-003",
+      "speaker": "Alex Komoroske",
+      "text": "I think in this early stage, we're in the community gardening phase, not the factory farming phase of this technology. And so I think what people need most is curiosity and play. You should be playing with these things and trying out different things and seeing what weird things are possible now.",
+      "timestamp": "00:14:52",
+      "source": {
+        "slug": "alex-komoroske",
+        "path": "episodes/alex-komoroske/transcript.md",
+        "lineStart": 127,
+        "lineEnd": 127
+      },
+      "themes": [
+        "ai-adoption",
+        "experimentation",
+        "learning",
+        "curiosity"
+      ],
+      "zones": [
+        "chaos",
+        "discovery"
+      ]
+    },
+    {
+      "id": "alex-komoroske-004",
+      "speaker": "Alex Komoroske",
+      "text": "We've seen a vast reduction in the cost of distribution of information, and now we're seeing a reduction in the cost of information production. And most of it is slop. And so in this cacophony, how do you stand out? You stand out by having good taste.",
+      "timestamp": "00:16:28",
+      "source": {
+        "slug": "alex-komoroske",
+        "path": "episodes/alex-komoroske/transcript.md",
+        "lineStart": 133,
+        "lineEnd": 133
+      },
+      "themes": [
+        "ai-vs-human",
+        "taste",
+        "differentiation",
+        "content-strategy"
+      ],
+      "zones": [
+        "intuition",
+        "perfection"
+      ]
+    },
+    {
+      "id": "alex-komoroske-005",
+      "speaker": "Alex Komoroske",
+      "text": "Taste, one way of looking at this is differentiate from what the LLM would've written if given the same prompt. How different, how distinctive is what you have to say.",
+      "timestamp": "00:17:09",
+      "source": {
+        "slug": "alex-komoroske",
+        "path": "episodes/alex-komoroske/transcript.md",
+        "lineStart": 139,
+        "lineEnd": 139
+      },
+      "themes": [
+        "ai-vs-human",
+        "taste",
+        "creativity",
+        "personal-brand"
+      ],
+      "zones": [
+        "intuition",
+        "perfection"
+      ]
+    },
+    {
+      "id": "alex-komoroske-006",
+      "speaker": "Alex Komoroske",
+      "text": "Think of it as having an extremely well-read but slightly naive friend who will never make you feel dumb and is willing to engage you in any particular topic you want to go down. So I use LLMs to help me. It's like getting an electric bike for idea spaces. You can just cover so much more ground so much more quickly in them.",
+      "timestamp": "00:21:02",
+      "source": {
+        "slug": "alex-komoroske",
+        "path": "episodes/alex-komoroske/transcript.md",
+        "lineStart": 160,
+        "lineEnd": 163
+      },
+      "themes": [
+        "ai-workflows",
+        "productivity",
+        "thinking",
+        "problem-solving"
+      ],
+      "zones": [
+        "discovery",
+        "velocity"
+      ]
+    },
+    {
+      "id": "alex-komoroske-007",
+      "speaker": "Alex Komoroske",
+      "text": "Kayfabe is a word that comes from professional wrestling and it means a thing that everybody knows is fake and yet everybody acts like is real. And I think it's one of the defining forces within an organization, any organization. So kayfabe in the small is optimism, enthusiasm. The problem that you get is as organizations get larger, this compounds. So then your layer above you does the same, and levels up you can be many orders of magnitude off of the ground truth.",
+      "timestamp": "00:25:09",
+      "source": {
+        "slug": "alex-komoroske",
+        "path": "episodes/alex-komoroske/transcript.md",
+        "lineStart": 187,
+        "lineEnd": 193
+      },
+      "themes": [
+        "organizational-dynamics",
+        "culture",
+        "communication",
+        "truth"
+      ],
+      "zones": [
+        "alignment",
+        "chaos"
+      ]
+    },
+    {
+      "id": "alex-komoroske-008",
+      "speaker": "Alex Komoroske",
+      "text": "So much of the way that we tackle problems and build products is this builder mindset. It's like I have a plan, I then manipulate things to match my plan and make it happen. Part of the problem though is it can't possibly create more value than the effort that you put into it. What I look for instead are things that can be gardened, things that can grow on their own and that you can direct or maybe give a little bit of extra energy to.",
+      "timestamp": "00:32:02",
+      "source": {
+        "slug": "alex-komoroske",
+        "path": "episodes/alex-komoroske/transcript.md",
+        "lineStart": 229,
+        "lineEnd": 229
+      },
+      "themes": [
+        "leadership",
+        "strategy",
+        "growth-mindset",
+        "leverage"
+      ],
+      "zones": [
+        "chaos",
+        "discovery"
+      ]
+    },
+    {
+      "id": "alex-komoroske-009",
+      "speaker": "Alex Komoroske",
+      "text": "I think emergence is one of the most powerful forces if you know how to marshal it and you know how to work with it. And the only thing that's hard about it in my opinion is you're going to look like you aren't very serious. You're going to look like a weirdo. You're going to look like a kook.",
+      "timestamp": "00:35:03",
+      "source": {
+        "slug": "alex-komoroske",
+        "path": "episodes/alex-komoroske/transcript.md",
+        "lineStart": 247,
+        "lineEnd": 247
+      },
+      "themes": [
+        "emergence",
+        "leadership",
+        "strategy",
+        "risk"
+      ],
+      "zones": [
+        "chaos",
+        "intuition"
+      ]
+    },
+    {
+      "id": "alex-komoroske-010",
+      "speaker": "Alex Komoroske",
+      "text": "If you want to get your team to do good work, there's a million different paths to do that. If you want to get your team to do great work, there's no shortcut other than to have an extremely high-trust environment where people lean into their superpowers in a way that adds up to something greater than sum of its parts.",
+      "timestamp": "00:37:58",
+      "source": {
+        "slug": "alex-komoroske",
+        "path": "episodes/alex-komoroske/transcript.md",
+        "lineStart": 262,
+        "lineEnd": 262
+      },
+      "themes": [
+        "leadership",
+        "team-building",
+        "trust",
+        "excellence"
+      ],
+      "zones": [
+        "alignment",
+        "perfection"
+      ]
+    },
+    {
+      "id": "alex-komoroske-011",
+      "speaker": "Alex Komoroske",
+      "text": "The adjacent possible is a set of actions that you can do. They are right in front of you that if you do them, they would almost certainly work. And in the tech industry in particular, we default assume that the adjacent possible is like this and then flying leap to something. And in reality, the adjacent possible is quite small. It's within arm's reach.",
+      "timestamp": "01:08:20",
+      "source": {
+        "slug": "alex-komoroske",
+        "path": "episodes/alex-komoroske/transcript.md",
+        "lineStart": 487,
+        "lineEnd": 487
+      },
+      "themes": [
+        "strategy",
+        "decision-making",
+        "incremental-progress",
+        "risk-management"
+      ],
+      "zones": [
+        "focus",
+        "discovery"
+      ]
+    }
+  ],
+  "takeaways": [
+    "LLMs are 'magical duct tape' - they're powerful but squishy, enabling cheap prototyping but requiring product designs that gracefully handle occasional failures rather than expecting perfect accuracy",
+    "Stand out in the AI age by developing distinctive taste - your value is how different your perspective is from what an LLM would produce given the same prompt",
+    "Think like a gardener, not a builder - plant cheap seeds with compounding potential, nurture what grows naturally, and let emergence create value beyond your direct effort",
+    "Create 'strategy salons' or 'nerd clubs' - small groups of intrinsically motivated people who 'yes, and' each other's ideas in low-stakes environments to generate breakthrough insights",
+    "Navigate organizations by understanding kayfabe - the shared fictions everyone acts like are real compound up the chain, so seek disconfirming evidence before problems become critical"
+  ],
+  "zone_influence": {
+    "chaos": 0.25,
+    "discovery": 0.2,
+    "intuition": 0.2,
+    "focus": 0.15,
+    "alignment": 0.1,
+    "velocity": 0.05,
+    "perfection": 0.05,
+    "data": 0
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "alex-komoroske-003",
+      "why": "Contrarian against the 'scale AI adoption now' narrative - argues we're still in early exploration phase requiring play and curiosity, not factory farming optimization",
+      "related_zones": [
+        "chaos",
+        "discovery"
+      ]
+    },
+    {
+      "quoteId": "alex-komoroske-009",
+      "why": "Openly acknowledges that emergence-oriented work makes you look like 'a weirdo' and 'a kook' - challenges the legitimacy theater of traditional strategy work",
+      "related_zones": [
+        "chaos",
+        "intuition"
+      ]
+    },
+    {
+      "quoteId": "alex-komoroske-011",
+      "why": "Directly contradicts the 'think big, moonshot' advice dominant in tech - argues the adjacent possible is actually quite small and incremental steps beat flying leaps",
+      "related_zones": [
+        "focus",
+        "discovery"
+      ]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "mixed",
+    "primary_topics": [
+      "ai",
+      "systems-thinking",
+      "emergence",
+      "organizational-dynamics",
+      "strategy"
+    ]
+  },
+  "slug": "alex-komoroske"
+}

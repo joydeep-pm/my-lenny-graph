@@ -1,0 +1,302 @@
+{
+  "quotes": [
+    {
+      "id": "farhan-thawar-001",
+      "speaker": "Farhan Thawar",
+      "text": "If you do the hard path and it doesn't work, actually you still win because you've now done something hard. You've probably worked with smart people, you've learned something along the way that is valuable.",
+      "timestamp": "00:05:59",
+      "source": {
+        "slug": "farhan-thawar",
+        "path": "episodes/farhan-thawar/transcript.md",
+        "lineStart": 100,
+        "lineEnd": 100
+      },
+      "themes": [
+        "career-advice",
+        "learning",
+        "hard-path",
+        "personal-growth"
+      ],
+      "zones": [
+        "velocity",
+        "focus"
+      ]
+    },
+    {
+      "id": "farhan-thawar-002",
+      "speaker": "Farhan Thawar",
+      "text": "Everyone says, 'Oh yeah, work hard and do more hours when you're young, whatever.' I'm like, what if you just did more per minute?",
+      "timestamp": "00:21:26",
+      "source": {
+        "slug": "farhan-thawar",
+        "path": "episodes/farhan-thawar/transcript.md",
+        "lineStart": 184,
+        "lineEnd": 184
+      },
+      "themes": [
+        "intensity",
+        "velocity",
+        "productivity",
+        "time-management"
+      ],
+      "zones": [
+        "velocity",
+        "focus"
+      ]
+    },
+    {
+      "id": "farhan-thawar-003",
+      "speaker": "Farhan Thawar",
+      "text": "It is the most underutilized management tool in engineering, bar none. It is just not used as much as it could be.",
+      "timestamp": "00:22:30",
+      "source": {
+        "slug": "farhan-thawar",
+        "path": "episodes/farhan-thawar/transcript.md",
+        "lineStart": 190,
+        "lineEnd": 190
+      },
+      "themes": [
+        "pair-programming",
+        "engineering-management",
+        "productivity",
+        "team-structure"
+      ],
+      "zones": [
+        "velocity",
+        "perfection"
+      ]
+    },
+    {
+      "id": "farhan-thawar-004",
+      "speaker": "Farhan Thawar",
+      "text": "Tobi famously built a lot of Shopify paired programming, and what he would do is he would actually set a timer and him and the CTO Cody would pair program for one hour. And if they did not finish the problem in one hour, they would delete all the code and they would keep the tests and they would start over.",
+      "timestamp": "00:23:12",
+      "source": {
+        "slug": "farhan-thawar",
+        "path": "episodes/farhan-thawar/transcript.md",
+        "lineStart": 193,
+        "lineEnd": 193
+      },
+      "themes": [
+        "pair-programming",
+        "code-quality",
+        "discipline",
+        "founder-mode"
+      ],
+      "zones": [
+        "perfection",
+        "velocity",
+        "focus"
+      ]
+    },
+    {
+      "id": "farhan-thawar-005",
+      "speaker": "Farhan Thawar",
+      "text": "What better time to rewrite code than right after you've written it because you now know the problem domain? And by the way, it sounds like a waste of time. It sounds like I'm just deleting code but the reason is that code lives a long time. Code is a liability.",
+      "timestamp": "00:24:03",
+      "source": {
+        "slug": "farhan-thawar",
+        "path": "episodes/farhan-thawar/transcript.md",
+        "lineStart": 196,
+        "lineEnd": 196
+      },
+      "themes": [
+        "code-quality",
+        "technical-debt",
+        "simplification",
+        "craftsmanship"
+      ],
+      "zones": [
+        "perfection",
+        "focus"
+      ]
+    },
+    {
+      "id": "farhan-thawar-006",
+      "speaker": "Farhan Thawar",
+      "text": "If you're doing something monumental, I don't know, you're doing a reorg or something, right? You can do it the slow way. 'Let's sit down, and plan, and roll it out.' And it's probably six months in most companies. Shopify, this is a week or two. You sit down, you're like, 'Hey, this is the bones of it.' But then, it's going to start leaking. So we just launch it.",
+      "timestamp": "00:31:26",
+      "source": {
+        "slug": "farhan-thawar",
+        "path": "episodes/farhan-thawar/transcript.md",
+        "lineStart": 259,
+        "lineEnd": 259
+      },
+      "themes": [
+        "velocity",
+        "org-design",
+        "change-management",
+        "decision-making"
+      ],
+      "zones": [
+        "velocity",
+        "chaos"
+      ]
+    },
+    {
+      "id": "farhan-thawar-007",
+      "speaker": "Farhan Thawar",
+      "text": "Sitting with Tobi, he's like, 'You guys are thinking about it wrong.' He goes, 'How long would it take to build NFT gating?' I'm like, 'I don't know. Two, three weeks.' He goes, 'Now, how long would it take to build a platform layer, which exposes APIs so anyone could build NFT gating in one hour?' I'm like, 'I don't know. Two, three months.' He goes, 'Do that.'",
+      "timestamp": "00:43:18",
+      "source": {
+        "slug": "farhan-thawar",
+        "path": "episodes/farhan-thawar/transcript.md",
+        "lineStart": 349,
+        "lineEnd": 353
+      },
+      "themes": [
+        "infrastructure",
+        "platform-thinking",
+        "long-term-thinking",
+        "founder-mode"
+      ],
+      "zones": [
+        "focus",
+        "perfection"
+      ]
+    },
+    {
+      "id": "farhan-thawar-008",
+      "speaker": "Farhan Thawar",
+      "text": "I don't know why is everybody getting so crazy, because what I want to see is GitHub Copilot deleting 1 million lines of code. That's when you know we're actually at this point where this is close to an engineer.",
+      "timestamp": "00:45:29",
+      "source": {
+        "slug": "farhan-thawar",
+        "path": "episodes/farhan-thawar/transcript.md",
+        "lineStart": 361,
+        "lineEnd": 361
+      },
+      "themes": [
+        "ai-workflows",
+        "code-quality",
+        "simplification",
+        "ai-vs-human"
+      ],
+      "zones": [
+        "perfection",
+        "intuition"
+      ]
+    },
+    {
+      "id": "farhan-thawar-009",
+      "speaker": "Farhan Thawar",
+      "text": "The more you can simplify, the much easier everything becomes, resiliency, performance, reliability, maintainability, all the illities become much, much, much easier when the code base is simple.",
+      "timestamp": "00:47:22",
+      "source": {
+        "slug": "farhan-thawar",
+        "path": "episodes/farhan-thawar/transcript.md",
+        "lineStart": 367,
+        "lineEnd": 367
+      },
+      "themes": [
+        "simplification",
+        "code-quality",
+        "technical-excellence",
+        "maintainability"
+      ],
+      "zones": [
+        "perfection",
+        "focus"
+      ]
+    },
+    {
+      "id": "farhan-thawar-010",
+      "speaker": "Farhan Thawar",
+      "text": "I think if you don't have two or three big projects that are on fire, you're probably not pushing hard enough because you're not really trying things that are outside of your... If everything's going well, are you really taking the risks you need to be taking?",
+      "timestamp": "01:02:00",
+      "source": {
+        "slug": "farhan-thawar",
+        "path": "episodes/farhan-thawar/transcript.md",
+        "lineStart": 469,
+        "lineEnd": 469
+      },
+      "themes": [
+        "risk-taking",
+        "intensity",
+        "growth-mindset",
+        "leadership"
+      ],
+      "zones": [
+        "chaos",
+        "velocity"
+      ]
+    },
+    {
+      "id": "farhan-thawar-011",
+      "speaker": "Farhan Thawar",
+      "text": "People feel like the comfort gives you stability, and really the uncomfort gives you stability because now you're constantly learning and that makes you more robust against things that could come across.",
+      "timestamp": "01:02:55",
+      "source": {
+        "slug": "farhan-thawar",
+        "path": "episodes/farhan-thawar/transcript.md",
+        "lineStart": 475,
+        "lineEnd": 475
+      },
+      "themes": [
+        "resilience",
+        "learning",
+        "growth-mindset",
+        "adaptability"
+      ],
+      "zones": [
+        "chaos",
+        "velocity"
+      ]
+    }
+  ],
+  "takeaways": [
+    "Choose the hard path deliberately - even if you fail, you'll have worked with smart people and learned valuable skills, whereas the easy path teaches nothing when it fails.",
+    "Intensity beats hours - focus on getting more done per minute rather than extending your workday. Pair programming forces this intensity by eliminating distractions.",
+    "Code is a liability, not an asset - Shopify's Delete Code Club routinely removes millions of lines because simpler codebases are faster, more reliable, and easier to maintain.",
+    "Build infrastructure, not features - always ask 'what would make this easy to build?' and invest in platform layers that enable countless future use cases rather than point solutions.",
+    "Embrace productive chaos - if nothing is on fire, you're probably not taking enough risks. Discomfort creates resilience and learning that makes organizations more robust."
+  ],
+  "zone_influence": {
+    "velocity": 0.3,
+    "perfection": 0.25,
+    "discovery": 0,
+    "data": 0.05,
+    "intuition": 0.05,
+    "alignment": 0.1,
+    "chaos": 0.15,
+    "focus": 0.1
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "farhan-thawar-008",
+      "why": "Challenges the hype around AI code generation - argues the real breakthrough is AI that deletes code, not writes more",
+      "related_zones": [
+        "perfection",
+        "intuition"
+      ]
+    },
+    {
+      "quoteId": "farhan-thawar-010",
+      "why": "Argues that having projects on fire is actually healthy - contradicts conventional wisdom about stability and control",
+      "related_zones": [
+        "chaos",
+        "velocity"
+      ]
+    },
+    {
+      "quoteId": "farhan-thawar-004",
+      "why": "Advocates deleting all code if not done in one hour - extreme approach that most would consider wasteful",
+      "related_zones": [
+        "perfection",
+        "velocity"
+      ]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": [
+      "engineering-culture",
+      "pair-programming",
+      "velocity",
+      "hiring",
+      "simplification"
+    ]
+  },
+  "slug": "farhan-thawar"
+}

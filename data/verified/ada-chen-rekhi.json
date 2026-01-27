@@ -1,0 +1,320 @@
+{
+  "slug": "ada-chen-rekhi",
+  "quotes": [
+    {
+      "id": "ada-chen-rekhi-q001",
+      "speaker": "Ada Chen Rekhi",
+      "text": "One of the big reasons why I think curiosity loops are really useful is that it really fights the fact that there's a lot of bad advice out there. And it's not bad because it's not well-intentioned, but it's bad because it's not contextual.",
+      "timestamp": "00:05:54",
+      "source": {
+        "slug": "ada-chen-rekhi",
+        "path": "episodes/ada-chen-rekhi/transcript.md",
+        "lineStart": 75,
+        "lineEnd": 78
+      },
+      "themes": [
+        "decision-making",
+        "advice",
+        "context"
+      ],
+      "zones": [
+        "discovery",
+        "data"
+      ]
+    },
+    {
+      "id": "ada-chen-rekhi-q002",
+      "speaker": "Ada Chen Rekhi",
+      "text": "A question's good if it's specific, if it solicits rationale, and it's not biased. You don't want to start a question with, here's what I think because people have this tendency to want to please you or to agree with you.",
+      "timestamp": "00:06:44",
+      "source": {
+        "slug": "ada-chen-rekhi",
+        "path": "episodes/ada-chen-rekhi/transcript.md",
+        "lineStart": 80,
+        "lineEnd": 81
+      },
+      "themes": [
+        "questions",
+        "feedback",
+        "user-research"
+      ],
+      "zones": [
+        "data",
+        "discovery"
+      ]
+    },
+    {
+      "id": "ada-chen-rekhi-q003",
+      "speaker": "Ada Chen Rekhi",
+      "text": "Don't do what people tell you to do. Take it as an input and look for the hard feedback. Look for things that you strongly disagree with or are surprises to you. Because to me, I think these loops are more about looking around the corner and seeing if there's anything you missed in terms of the integrity of your decision making process.",
+      "timestamp": "00:15:19",
+      "source": {
+        "slug": "ada-chen-rekhi",
+        "path": "episodes/ada-chen-rekhi/transcript.md",
+        "lineStart": 140,
+        "lineEnd": 141
+      },
+      "themes": [
+        "decision-making",
+        "feedback",
+        "self-awareness"
+      ],
+      "zones": [
+        "intuition",
+        "discovery"
+      ]
+    },
+    {
+      "id": "ada-chen-rekhi-q004",
+      "speaker": "Ada Chen Rekhi",
+      "text": "It's this internal scorecard of what really matters to you in your decision making process as opposed to the external scorecard of status, money, wealth, how other people perceive you, that often we feel really pressured by. So it's this great way to look back and see how well do decisions, or how well do my situations in life align with my values.",
+      "timestamp": "00:16:51",
+      "source": {
+        "slug": "ada-chen-rekhi",
+        "path": "episodes/ada-chen-rekhi/transcript.md",
+        "lineStart": 158,
+        "lineEnd": 159
+      },
+      "themes": [
+        "values",
+        "self-awareness",
+        "career"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "ada-chen-rekhi-q005",
+      "speaker": "Ada Chen Rekhi",
+      "text": "Explore and exploit, if you're familiar with it from growth background, is really just around what mode you're in. You're either in a mode of explorer where you have a bunch of unknowns and you're testing to see whether or not you like it, how well it works, whether or not it fits for you. Or you're exploiting, where you actually have found something that's really rich and really deep and then you're just trying to get more.",
+      "timestamp": "00:26:29",
+      "source": {
+        "slug": "ada-chen-rekhi",
+        "path": "episodes/ada-chen-rekhi/transcript.md",
+        "lineStart": 254,
+        "lineEnd": 255
+      },
+      "themes": [
+        "career-strategy",
+        "growth",
+        "exploration"
+      ],
+      "zones": [
+        "discovery",
+        "velocity"
+      ]
+    },
+    {
+      "id": "ada-chen-rekhi-q006",
+      "speaker": "Ada Chen Rekhi",
+      "text": "Don't be the frog. If you take a frog and you put in a pot and you increase the temperature degree by degree by degree, the frog doesn't notice and before it knows, it's boiled alive. It's really easy to be a victim of inertia. It's really easy for all of us to be the frog where there are little things that make us uncomfortable, and we sit with them.",
+      "timestamp": "00:32:01",
+      "source": {
+        "slug": "ada-chen-rekhi",
+        "path": "episodes/ada-chen-rekhi/transcript.md",
+        "lineStart": 281,
+        "lineEnd": 282
+      },
+      "themes": [
+        "career",
+        "self-awareness",
+        "change"
+      ],
+      "zones": [
+        "chaos",
+        "discovery"
+      ]
+    },
+    {
+      "id": "ada-chen-rekhi-q007",
+      "speaker": "Ada Chen Rekhi",
+      "text": "I think it's a terrible outcome to wake up one day and be late career and feel trapped because you have a certain lifestyle or a certain expectations of the people around you that you have to go work this job, but then you look at yourself in the mirror and you're not happy going in there. I think that's a terrible trap that we should all try to avoid.",
+      "timestamp": "00:37:27",
+      "source": {
+        "slug": "ada-chen-rekhi",
+        "path": "episodes/ada-chen-rekhi/transcript.md",
+        "lineStart": 311,
+        "lineEnd": 312
+      },
+      "themes": [
+        "career",
+        "values",
+        "fulfillment"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "ada-chen-rekhi-q008",
+      "speaker": "Ada Chen Rekhi",
+      "text": "There's an outer scorecard, which is how the rest of the world evaluates you, how you keep score in terms of external factors. Top 10 lists, wealth status, title. And then your inner scorecard is things that actually matter to you, how you spent your day, how good of a person you are. Did you have an adventure today? Were you kind?",
+      "timestamp": "00:41:20",
+      "source": {
+        "slug": "ada-chen-rekhi",
+        "path": "episodes/ada-chen-rekhi/transcript.md",
+        "lineStart": 332,
+        "lineEnd": 333
+      },
+      "themes": [
+        "values",
+        "success",
+        "self-awareness"
+      ],
+      "zones": [
+        "alignment",
+        "intuition"
+      ]
+    },
+    {
+      "id": "ada-chen-rekhi-q009",
+      "speaker": "Ada Chen Rekhi",
+      "text": "My hot take is that for the vast majority of people, they probably do not need a coach. If you're looking for a mentor, a coach is actually a terrible mentor in some ways because it's this one person's opinion. It's actually way better to run a curiosity loop and get the benefit of a couple different minds on a specific topic.",
+      "timestamp": "00:42:42",
+      "source": {
+        "slug": "ada-chen-rekhi",
+        "path": "episodes/ada-chen-rekhi/transcript.md",
+        "lineStart": 338,
+        "lineEnd": 345
+      },
+      "themes": [
+        "coaching",
+        "mentorship",
+        "career-development"
+      ],
+      "zones": [
+        "discovery",
+        "data"
+      ]
+    },
+    {
+      "id": "ada-chen-rekhi-q010",
+      "speaker": "Ada Chen Rekhi",
+      "text": "We're not powerless, even though this game is rigged. We can study the game, we can help each other, and we can actually start to call out some of those rules and then find ways around them.",
+      "timestamp": "00:56:16",
+      "source": {
+        "slug": "ada-chen-rekhi",
+        "path": "episodes/ada-chen-rekhi/transcript.md",
+        "lineStart": 434,
+        "lineEnd": 435
+      },
+      "themes": [
+        "career",
+        "diversity",
+        "resilience"
+      ],
+      "zones": [
+        "chaos",
+        "alignment"
+      ]
+    },
+    {
+      "id": "ada-chen-rekhi-q011",
+      "speaker": "Ada Chen Rekhi",
+      "text": "Eating your vegetables is really this idea around how little kids don't really develop an appreciation for vegetables until they're 10 or 12 exposures in. You have to do things a number of times before you really develop an affinity for it. Because the first time you do it, you're just not going to be good.",
+      "timestamp": "01:00:30",
+      "source": {
+        "slug": "ada-chen-rekhi",
+        "path": "episodes/ada-chen-rekhi/transcript.md",
+        "lineStart": 473,
+        "lineEnd": 476
+      },
+      "themes": [
+        "growth",
+        "persistence",
+        "skill-building"
+      ],
+      "zones": [
+        "discovery",
+        "velocity"
+      ]
+    },
+    {
+      "id": "ada-chen-rekhi-q012",
+      "speaker": "Ada Chen Rekhi",
+      "text": "Figure out, maybe the night before, the one thing that you want to get done in your day, and then at the earliest opportunity, just try to give yourself five minutes on it. Just five minutes. Usually, what I find is that five minutes turns into a solid hour just knocking that thing out early in my day.",
+      "timestamp": "01:15:43",
+      "source": {
+        "slug": "ada-chen-rekhi",
+        "path": "episodes/ada-chen-rekhi/transcript.md",
+        "lineStart": 608,
+        "lineEnd": 609
+      },
+      "themes": [
+        "productivity",
+        "focus",
+        "habits"
+      ],
+      "zones": [
+        "focus",
+        "velocity"
+      ]
+    }
+  ],
+  "themes": [
+    "decision-making",
+    "career-strategy",
+    "values",
+    "coaching",
+    "self-awareness",
+    "productivity",
+    "feedback",
+    "growth"
+  ],
+  "takeaways": [
+    "Use curiosity loops to fight bad advice - gather structured input from 5-10 people who know you well or have subject matter expertise, then look for surprises and disagreements rather than following what they say.",
+    "Apply the explore/exploit framework to your career - early on, prioritize exploration with a thesis to discover what you love; once you find something rich, shift to exploit mode to go deeper.",
+    "Don't be the frog - be aware of your environment and whether the temperature is rising; it's easy to be a victim of inertia and miss when a situation is slowly becoming untenable.",
+    "Build an internal scorecard based on your values rather than chasing the external scorecard of status, titles, and wealth - this prevents waking up late career feeling trapped and unhappy.",
+    "Eat your vegetables by exposing yourself to uncomfortable skills 10-12 times before deciding you dislike them - the first time you try something, you won't be good at it, but persistence builds affinity."
+  ],
+  "zone_influence": {
+    "velocity": 0.1,
+    "perfection": 0.05,
+    "discovery": 0.3,
+    "data": 0.1,
+    "intuition": 0.1,
+    "alignment": 0.2,
+    "chaos": 0.1,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "ada-chen-rekhi-q009",
+      "why": "Challenges the common belief that everyone needs a coach - argues most people don't need one and curiosity loops are often better than paying for one person's opinion",
+      "related_zones": [
+        "discovery",
+        "data"
+      ]
+    },
+    {
+      "quoteId": "ada-chen-rekhi-q003",
+      "why": "Contradicts the instinct to follow advice from trusted people - instead look for what surprises or bothers you as signals of blind spots",
+      "related_zones": [
+        "intuition",
+        "discovery"
+      ]
+    },
+    {
+      "quoteId": "ada-chen-rekhi-q010",
+      "why": "Acknowledges the game is rigged while refusing victimhood - empowers agency even within unfair systems",
+      "related_zones": [
+        "chaos",
+        "alignment"
+      ]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder-coach",
+    "company_stage": "growth",
+    "primary_topics": [
+      "career-strategy",
+      "decision-making",
+      "coaching",
+      "values-alignment"
+    ]
+  }
+}

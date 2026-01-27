@@ -1,0 +1,326 @@
+{
+  "slug": "dr-fei-fei-li",
+  "quotes": [
+    {
+      "id": "dr-fei-fei-li-q001",
+      "speaker": "Dr. Fei-Fei Li",
+      "text": "I'm not a utopian, so it's not like I think AI will have no impact on jobs or people. In fact, I'm a humanist. I believe that whatever AI does, currently or in the future, is up to us. It's up to the people. So I do believe technology is a net positive for humanity.",
+      "timestamp": "00:06:30",
+      "source": {
+        "slug": "dr-fei-fei-li",
+        "path": "episodes/dr-fei-fei-li/transcript.md",
+        "lineStart": 85,
+        "lineEnd": 86
+      },
+      "themes": [
+        "AI-ethics",
+        "human-centered-AI",
+        "optimism"
+      ],
+      "zones": [
+        "alignment",
+        "intuition"
+      ]
+    },
+    {
+      "id": "dr-fei-fei-li-q002",
+      "speaker": "Dr. Fei-Fei Li",
+      "text": "I started working AI two and a half decades ago, and I've been having students for the past two decades and almost every student who graduates, I remind them when they graduate from my lab that your field is called artificial intelligence, but there's nothing artificial about it.",
+      "timestamp": "00:07:59",
+      "source": {
+        "slug": "dr-fei-fei-li",
+        "path": "episodes/dr-fei-fei-li/transcript.md",
+        "lineStart": 91,
+        "lineEnd": 92
+      },
+      "themes": [
+        "AI-ethics",
+        "mentorship",
+        "human-centered-AI"
+      ],
+      "zones": [
+        "alignment",
+        "discovery"
+      ]
+    },
+    {
+      "id": "dr-fei-fei-li-q003",
+      "speaker": "Dr. Fei-Fei Li",
+      "text": "I think people should be responsible individuals no matter what we do. This is what we teach our children, and this is what we need to do as grownups as well. No matter which part of the AI development or AI deployment or AI application you are participating in, we should act like responsible individuals and care about this.",
+      "timestamp": "00:08:41",
+      "source": {
+        "slug": "dr-fei-fei-li",
+        "path": "episodes/dr-fei-fei-li/transcript.md",
+        "lineStart": 103,
+        "lineEnd": 104
+      },
+      "themes": [
+        "responsibility",
+        "AI-ethics",
+        "individual-agency"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "dr-fei-fei-li-q004",
+      "speaker": "Dr. Fei-Fei Li",
+      "text": "There was one singular pain point: these models don't have data to be trained on. As a field, we were so focused on these models, but it dawned on me that human learning as well as evolution is actually a big data learning process. Humans learn with so much experience constantly.",
+      "timestamp": "00:16:53",
+      "source": {
+        "slug": "dr-fei-fei-li",
+        "path": "episodes/dr-fei-fei-li/transcript.md",
+        "lineStart": 136,
+        "lineEnd": 137
+      },
+      "themes": [
+        "data",
+        "machine-learning",
+        "breakthrough-insight"
+      ],
+      "zones": [
+        "data",
+        "discovery"
+      ]
+    },
+    {
+      "id": "dr-fei-fei-li-q005",
+      "speaker": "Dr. Fei-Fei Li",
+      "text": "I'm keenly aware that I am recognized for being part of the history, but there are so many heroes and so many researchers. We're talking about generations of researchers. AI is a field of 70 years old and we have gone through many generations. Nobody, no one could have gotten here by themselves.",
+      "timestamp": "00:23:01",
+      "source": {
+        "slug": "dr-fei-fei-li",
+        "path": "episodes/dr-fei-fei-li/transcript.md",
+        "lineStart": 202,
+        "lineEnd": 203
+      },
+      "themes": [
+        "humility",
+        "collaboration",
+        "research"
+      ],
+      "zones": [
+        "alignment",
+        "discovery"
+      ]
+    },
+    {
+      "id": "dr-fei-fei-li-q006",
+      "speaker": "Dr. Fei-Fei Li",
+      "text": "I don't know if anyone has ever defined AGI. There are many different definitions. As a scientist, I take science very seriously. I feel AGI is more a marketing term than a scientific term. AI is my north star, is my field's north star, and I'm happy people call it whatever name they want to call it.",
+      "timestamp": "00:24:13",
+      "source": {
+        "slug": "dr-fei-fei-li",
+        "path": "episodes/dr-fei-fei-li/transcript.md",
+        "lineStart": 208,
+        "lineEnd": 212
+      },
+      "themes": [
+        "AGI",
+        "scientific-rigor",
+        "terminology"
+      ],
+      "zones": [
+        "focus",
+        "discovery"
+      ]
+    },
+    {
+      "id": "dr-fei-fei-li-q007",
+      "speaker": "Dr. Fei-Fei Li",
+      "text": "I definitely think we need more innovations. Scaling loss of more data, more GPUs, and bigger current model architecture—there's still a lot to be done there, but I absolutely think we need to innovate more. There's not a single deeply scientific discipline in human history that has arrived at a place that says we're done innovating.",
+      "timestamp": "00:26:44",
+      "source": {
+        "slug": "dr-fei-fei-li",
+        "path": "episodes/dr-fei-fei-li/transcript.md",
+        "lineStart": 217,
+        "lineEnd": 218
+      },
+      "themes": [
+        "innovation",
+        "AI-progress",
+        "scientific-method"
+      ],
+      "zones": [
+        "discovery",
+        "velocity"
+      ]
+    },
+    {
+      "id": "dr-fei-fei-li-q008",
+      "speaker": "Dr. Fei-Fei Li",
+      "text": "We operate on about 20 watts. That's dimmer than any light bulb in the room I'm in right now. And yet we can do so much. So I think actually the more I work in AI, the more I respect humans.",
+      "timestamp": "00:47:44",
+      "source": {
+        "slug": "dr-fei-fei-li",
+        "path": "episodes/dr-fei-fei-li/transcript.md",
+        "lineStart": 301,
+        "lineEnd": 302
+      },
+      "themes": [
+        "human-intelligence",
+        "efficiency",
+        "perspective"
+      ],
+      "zones": [
+        "discovery",
+        "intuition"
+      ]
+    },
+    {
+      "id": "dr-fei-fei-li-q009",
+      "speaker": "Dr. Fei-Fei Li",
+      "text": "I'm an intellectually very fearless person, and when I hire young people, I look for that because I think that's a very important quality if one wants to make a difference. When you want to make a difference, you have to accept that you're creating something new. You almost have to allow yourself to be fearless and courageous.",
+      "timestamp": "01:05:25",
+      "source": {
+        "slug": "dr-fei-fei-li",
+        "path": "episodes/dr-fei-fei-li/transcript.md",
+        "lineStart": 430,
+        "lineEnd": 432
+      },
+      "themes": [
+        "hiring",
+        "courage",
+        "innovation"
+      ],
+      "zones": [
+        "chaos",
+        "discovery",
+        "velocity"
+      ]
+    },
+    {
+      "id": "dr-fei-fei-li-q010",
+      "speaker": "Dr. Fei-Fei Li",
+      "text": "I do find many young people today think about every single aspect of an equation when they decide on jobs. Sometimes I want to encourage them to focus on what's important: where's your passion? Do you align with the mission? Do you believe in and have faith in this team? Focus on the impact you can make.",
+      "timestamp": "01:08:43",
+      "source": {
+        "slug": "dr-fei-fei-li",
+        "path": "episodes/dr-fei-fei-li/transcript.md",
+        "lineStart": 442,
+        "lineEnd": 444
+      },
+      "themes": [
+        "career-advice",
+        "passion",
+        "mission-alignment"
+      ],
+      "zones": [
+        "focus",
+        "alignment",
+        "intuition"
+      ]
+    },
+    {
+      "id": "dr-fei-fei-li-q011",
+      "speaker": "Dr. Fei-Fei Li",
+      "text": "No technology should take away human dignity and the human dignity and agency should be at the heart of the development, the deployment, as well as the governance of every technology. If you are a young artist and your passion is storytelling, embrace AI as a tool. The way you tell your story is unique and the world still needs it.",
+      "timestamp": "01:16:03",
+      "source": {
+        "slug": "dr-fei-fei-li",
+        "path": "episodes/dr-fei-fei-li/transcript.md",
+        "lineStart": 475,
+        "lineEnd": 476
+      },
+      "themes": [
+        "human-dignity",
+        "AI-augmentation",
+        "creativity"
+      ],
+      "zones": [
+        "alignment",
+        "intuition",
+        "discovery"
+      ]
+    },
+    {
+      "id": "dr-fei-fei-li-q012",
+      "speaker": "Dr. Fei-Fei Li",
+      "text": "Spatial intelligence is the ability to create, reason, interact, make sense of deeply spatial world, whether it's 2D or 3D or 4D, including dynamics. World Labs is focusing on that. I think we shouldn't underestimate how humans, as embodied agents, can actually benefit from world models and spatial intelligence models.",
+      "timestamp": "00:36:17",
+      "source": {
+        "slug": "dr-fei-fei-li",
+        "path": "episodes/dr-fei-fei-li/transcript.md",
+        "lineStart": 256,
+        "lineEnd": 257
+      },
+      "themes": [
+        "spatial-intelligence",
+        "world-models",
+        "embodied-AI"
+      ],
+      "zones": [
+        "discovery",
+        "data",
+        "velocity"
+      ]
+    }
+  ],
+  "themes": [
+    "human-centered-AI",
+    "AI-ethics",
+    "spatial-intelligence",
+    "data",
+    "innovation",
+    "career-advice",
+    "scientific-rigor",
+    "world-models"
+  ],
+  "takeaways": [
+    "AI's impact on humanity is up to us - technology is a net positive force when developed responsibly, but every technology is a double-edged sword that requires individual and societal accountability.",
+    "Big data was the missing ingredient for AI breakthroughs - the insight that human learning is fundamentally a big data process led to ImageNet, which combined with neural networks and GPUs sparked the modern AI revolution.",
+    "AGI is more marketing than science - the term lacks clear definition, and serious AI researchers focus on the original audacious question of whether machines can think, not arbitrary goalposts.",
+    "Intellectual fearlessness is essential for making a difference - when hiring or building teams, look for people willing to create something new and dive into the unknown without overthinking every dimension.",
+    "Everyone has a role in AI - from artists using AI as a storytelling tool to citizens participating in governance discussions, human dignity and agency must remain at the heart of AI development and deployment."
+  ],
+  "zone_influence": {
+    "velocity": 0.1,
+    "perfection": 0.05,
+    "discovery": 0.25,
+    "data": 0.1,
+    "intuition": 0.1,
+    "alignment": 0.25,
+    "chaos": 0.05,
+    "focus": 0.1
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "dr-fei-fei-li-q006",
+      "why": "Dismisses AGI as a marketing term rather than scientific concept - challenges the hype around AGI timelines and definitions",
+      "related_zones": [
+        "focus",
+        "discovery"
+      ]
+    },
+    {
+      "quoteId": "dr-fei-fei-li-q008",
+      "why": "Working on AI increases respect for human intelligence - contrasts with narratives that AI will surpass humans soon",
+      "related_zones": [
+        "discovery",
+        "intuition"
+      ]
+    },
+    {
+      "quoteId": "dr-fei-fei-li-q010",
+      "why": "Young people overthink job decisions - challenges optimization mindset in favor of passion and mission alignment",
+      "related_zones": [
+        "focus",
+        "alignment",
+        "intuition"
+      ]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "researcher-founder",
+    "company_stage": "startup",
+    "primary_topics": [
+      "AI-history",
+      "spatial-intelligence",
+      "world-models",
+      "human-centered-AI",
+      "career-advice"
+    ]
+  }
+}
