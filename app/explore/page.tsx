@@ -369,7 +369,8 @@ export default function ExplorePage() {
                   value={sortBy}
                   onChange={(e) => setSortBy(e.target.value as SortOption)}
                   className="px-4 py-4 bg-void-light border-2 border-ash-darker text-ash
-                           focus:border-amber focus:outline-none transition-colors cursor-pointer"
+                           focus:border-amber focus:outline-none transition-colors cursor-pointer
+                           rounded-none"
                 >
                   <option value="date-desc">Newest First</option>
                   <option value="date-asc">Oldest First</option>

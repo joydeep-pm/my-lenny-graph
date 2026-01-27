@@ -68,16 +68,16 @@ export default function InsightsPage() {
     if (selectedZone === 'favorites') {
       result = result.filter(q => favoriteQuoteIds.has(q.id));
     } else if (selectedZone !== 'all') {
-      result = result.filter(q => q.zones.includes(selectedZone));
+      result = result.filter(q => q.zones?.includes(selectedZone));
     }
 
     // Filter by search
     if (searchQuery.trim()) {
       const query = searchQuery.toLowerCase();
       result = result.filter(q =>
-        q.text.toLowerCase().includes(query) ||
-        q.speaker.toLowerCase().includes(query) ||
-        q.themes.some(t => t.toLowerCase().includes(query))
+        q.text?.toLowerCase().includes(query) ||
+        q.speaker?.toLowerCase().includes(query) ||
+        q.themes?.some(t => t.toLowerCase().includes(query))
       );
     }
 
@@ -215,13 +215,13 @@ export default function InsightsPage() {
             className="mb-6"
           >
             <div className="relative">
-              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-ash-dark" />
+              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-amber" />
               <input
                 type="text"
                 placeholder="Search quotes, speakers, themes..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full pl-12 pr-12 py-3 min-h-[48px] bg-void border border-ash-darker text-ash placeholder:text-ash-dark focus:border-amber focus:outline-none transition-colors"
+                className="w-full pl-12 pr-12 py-4 bg-void-light border-2 border-ash-darker text-ash placeholder:text-ash-dark focus:border-amber focus:outline-none transition-colors"
               />
               {searchQuery && (
                 <button
@@ -310,12 +310,12 @@ export default function InsightsPage() {
                   <div className="flex items-center gap-3 text-sm">
                     <span className="text-amber font-bold">{quote.speaker}</span>
                     <Link
-                      href={`/episodes/${quote.source.slug}`}
+                      href={`/episodes/${quote.source?.slug || ''}`}
                       className="text-ash-dark hover:text-amber transition-colors"
                     >
                       →
                     </Link>
-                    {quote.zones.slice(0, 1).map(zoneId => {
+                    {(quote.zones || []).slice(0, 1).map(zoneId => {
                       const zone = zones[zoneId];
                       if (!zone) return null;
                       return (
