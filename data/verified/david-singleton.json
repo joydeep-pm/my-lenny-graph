@@ -1,177 +1,269 @@
 {
-  "episode_slug": "david-singleton",
-  "guest": "David Singleton",
-  "episode_title": "Building a culture of excellence | David Singleton (CTO of Stripe)",
-  "verification_date": "2026-01-26",
-  "verified_by": "claude-opus-4",
   "quotes": [
     {
       "id": "david-singleton-001",
+      "speaker": "David Singleton",
       "text": "Something that really delighted me was that when I started integrating the product, there were parts of the experience where I was stuck. But I wasn't stuck for very long because the team at Stripe had made the error messages coming out of our API link to the piece of the docs that told you how to solve the problem.",
+      "timestamp": "00:25:12",
       "source": {
-        "line_start": 180,
-        "line_end": 186,
-        "timestamp": "00:25:12",
-        "speaker": "David Singleton"
+        "slug": "david-singleton",
+        "path": "episodes/david-singleton/transcript.md",
+        "lineStart": 180,
+        "lineEnd": 186
       },
-      "context": "Describing what impressed him about Stripe's developer experience before he joined",
-      "themes": ["developer-experience", "meticulousness", "craft", "error-handling"],
-      "zones": ["perfection", "discovery"],
-      "verified": true
+      "themes": [
+        "developer-experience",
+        "meticulousness",
+        "craft",
+        "error-handling"
+      ],
+      "zones": [
+        "perfection",
+        "discovery"
+      ]
     },
     {
       "id": "david-singleton-002",
+      "speaker": "David Singleton",
       "text": "There's actually more code in the jobs that serve the Stripe API to handle those edge cases than in the actual main flow. And I think that's quite remarkable. Most people wouldn't do that, but it turns out it's a reason that they can adopt it more quickly and it's a reason that they keep adopting other Stripe products.",
+      "timestamp": "00:27:16",
       "source": {
-        "line_start": 197,
-        "line_end": 198,
-        "timestamp": "00:27:16",
-        "speaker": "David Singleton"
+        "slug": "david-singleton",
+        "path": "episodes/david-singleton/transcript.md",
+        "lineStart": 197,
+        "lineEnd": 198
       },
-      "context": "Explaining why investing in edge cases and error handling pays off",
-      "themes": ["craft", "developer-experience", "quality", "investment-in-details"],
-      "zones": ["perfection", "focus"],
-      "verified": true
+      "themes": [
+        "craft",
+        "developer-experience",
+        "quality",
+        "investment-in-details"
+      ],
+      "zones": [
+        "perfection",
+        "focus"
+      ]
     },
     {
       "id": "david-singleton-003",
+      "speaker": "David Singleton",
       "text": "You need to put yourself in a particular user's shoes. It's actually important to have a very clear idea of who is the person I am kind of modeling the friction for right now. I will go through the process of actually using the product and make really careful and meticulous notes of what the experience is.",
+      "timestamp": "00:26:09",
       "source": {
-        "line_start": 189,
-        "line_end": 195,
-        "timestamp": "00:26:09",
-        "speaker": "David Singleton"
+        "slug": "david-singleton",
+        "path": "episodes/david-singleton/transcript.md",
+        "lineStart": 189,
+        "lineEnd": 195
       },
-      "context": "Describing Stripe's friction logging process",
-      "themes": ["friction-logging", "user-research", "process", "meticulousness"],
-      "zones": ["discovery", "perfection"],
-      "verified": true
+      "themes": [
+        "friction-logging",
+        "user-research",
+        "process",
+        "meticulousness"
+      ],
+      "zones": [
+        "discovery",
+        "perfection"
+      ]
     },
     {
       "id": "david-singleton-004",
+      "speaker": "David Singleton",
       "text": "If you were a chef, you're going to taste the soup and you're going to talk to your kitchen staff about what went into the soup when it was good and wasn't so good. If you run a movie studio, you're going to sit down and watch a lot of movies together. Actually looking at product together I find extremely energizing.",
+      "timestamp": "00:38:36",
       "source": {
-        "line_start": 276,
-        "line_end": 279,
-        "timestamp": "00:38:36",
-        "speaker": "David Singleton"
+        "slug": "david-singleton",
+        "path": "episodes/david-singleton/transcript.md",
+        "lineStart": 276,
+        "lineEnd": 279
       },
-      "context": "Explaining the value of UX reviews and looking at product together as a team",
-      "themes": ["product-reviews", "craft", "team-collaboration", "quality"],
-      "zones": ["perfection", "alignment"],
-      "verified": true
+      "themes": [
+        "product-reviews",
+        "craft",
+        "team-collaboration",
+        "quality"
+      ],
+      "zones": [
+        "perfection",
+        "alignment"
+      ]
     },
     {
       "id": "david-singleton-005",
+      "speaker": "David Singleton",
       "text": "Almost anything that you talk about is a value. Being a value matters, but you need to have a practice behind that. That means that the value becomes real for everyone.",
+      "timestamp": "00:41:17",
       "source": {
-        "line_start": 290,
-        "line_end": 291,
-        "timestamp": "00:41:17",
-        "speaker": "David Singleton"
+        "slug": "david-singleton",
+        "path": "episodes/david-singleton/transcript.md",
+        "lineStart": 290,
+        "lineEnd": 291
       },
-      "context": "Explaining why values need operational practices to become real",
-      "themes": ["values", "culture", "execution", "operating-principles"],
-      "zones": ["alignment", "focus"],
-      "verified": true
+      "themes": [
+        "values",
+        "culture",
+        "execution",
+        "operating-principles"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
     },
     {
       "id": "david-singleton-006",
+      "speaker": "David Singleton",
       "text": "Put your user's hat on and if you understand your user well and what they're seeking to get out of the experience and anchor any questions you get asked back to, here's what we're trying to do for our users, that usually makes any meeting like that go really well.",
+      "timestamp": "00:42:12",
       "source": {
-        "line_start": 296,
-        "line_end": 297,
-        "timestamp": "00:42:12",
-        "speaker": "David Singleton"
+        "slug": "david-singleton",
+        "path": "episodes/david-singleton/transcript.md",
+        "lineStart": 296,
+        "lineEnd": 297
       },
-      "context": "Advice for PMs presenting in UX review meetings with executives",
-      "themes": ["user-focus", "communication", "presentations", "leadership"],
-      "zones": ["discovery", "alignment"],
-      "verified": true
+      "themes": [
+        "user-focus",
+        "communication",
+        "presentations",
+        "leadership"
+      ],
+      "zones": [
+        "discovery",
+        "alignment"
+      ]
     },
     {
       "id": "david-singleton-007",
+      "speaker": "David Singleton",
       "text": "If you have a mechanism to listen to users, get something in their hands quite quickly and then get their feedback on it to run it back through a feedback loop, you're very unlikely to go wrong. If you don't have that feedback loop, go figure out how to create it.",
+      "timestamp": "00:43:03",
       "source": {
-        "line_start": 305,
-        "line_end": 309,
-        "timestamp": "00:43:03",
-        "speaker": "David Singleton"
+        "slug": "david-singleton",
+        "path": "episodes/david-singleton/transcript.md",
+        "lineStart": 305,
+        "lineEnd": 309
       },
-      "context": "Core advice for building better product",
-      "themes": ["user-feedback", "iteration", "product-development", "feedback-loops"],
-      "zones": ["discovery", "velocity"],
-      "verified": true
+      "themes": [
+        "user-feedback",
+        "iteration",
+        "product-development",
+        "feedback-loops"
+      ],
+      "zones": [
+        "discovery",
+        "velocity"
+      ]
     },
     {
       "id": "david-singleton-008",
+      "speaker": "David Singleton",
       "text": "Engineer occasion is something I personally do. I'll clear several days, three or four days, actually join a team, pick up a small task, hopefully a small feature that we can get all the way from start to finish in production. You're actually going and joining a team and doing some work.",
+      "timestamp": "00:46:47",
       "source": {
-        "line_start": 327,
-        "line_end": 331,
-        "timestamp": "00:46:47",
-        "speaker": "David Singleton"
+        "slug": "david-singleton",
+        "path": "episodes/david-singleton/transcript.md",
+        "lineStart": 327,
+        "lineEnd": 331
       },
-      "context": "Explaining his engineercation practice as CTO",
-      "themes": ["leadership", "hands-on", "developer-experience", "engineering-culture"],
-      "zones": ["perfection", "discovery"],
-      "verified": true
+      "themes": [
+        "leadership",
+        "hands-on",
+        "developer-experience",
+        "engineering-culture"
+      ],
+      "zones": [
+        "perfection",
+        "discovery"
+      ]
     },
     {
       "id": "david-singleton-009",
+      "speaker": "David Singleton",
       "text": "It's really important to me that we are a continuously learning organization. We really obsess about reviewing incidents carefully and identifying not only what would've stopped this thing happening, but how could we prevent this whole class of issues in the future.",
+      "timestamp": "00:55:59",
       "source": {
-        "line_start": 372,
-        "line_end": 378,
-        "timestamp": "00:55:59",
-        "speaker": "David Singleton"
+        "slug": "david-singleton",
+        "path": "episodes/david-singleton/transcript.md",
+        "lineStart": 372,
+        "lineEnd": 378
       },
-      "context": "Discussing Stripe's approach to reliability and incident response",
-      "themes": ["reliability", "learning-culture", "incident-response", "systems-thinking"],
-      "zones": ["perfection", "data"],
-      "verified": true
+      "themes": [
+        "reliability",
+        "learning-culture",
+        "incident-response",
+        "systems-thinking"
+      ],
+      "zones": [
+        "perfection",
+        "data"
+      ]
     },
     {
       "id": "david-singleton-010",
+      "speaker": "David Singleton",
       "text": "Every change that a Stripe engineer submits gets run through tests and actually ends up in production automatically over the course of the next 45 minutes or so. That loop running inside of 24 hours I think is pretty important.",
+      "timestamp": "00:57:45",
       "source": {
-        "line_start": 385,
-        "line_end": 388,
-        "timestamp": "00:57:45",
-        "speaker": "David Singleton"
+        "slug": "david-singleton",
+        "path": "episodes/david-singleton/transcript.md",
+        "lineStart": 385,
+        "lineEnd": 388
       },
-      "context": "Describing Stripe's continuous deployment pipeline",
-      "themes": ["developer-productivity", "deployment", "velocity", "automation"],
-      "zones": ["velocity", "perfection"],
-      "verified": true
+      "themes": [
+        "developer-productivity",
+        "deployment",
+        "velocity",
+        "automation"
+      ],
+      "zones": [
+        "velocity",
+        "perfection"
+      ]
     },
     {
       "id": "david-singleton-011",
+      "speaker": "David Singleton",
       "text": "There are thousands of decisions that an organization of any scale is making every single day. The most important thing is to really focus on hiring the right people, and that means hiring people that you can trust with a tremendous amount of autonomy. If I try to get involved in lots of decisions, everything will grind to a halt.",
+      "timestamp": "01:09:41",
       "source": {
-        "line_start": 449,
-        "line_end": 453,
-        "timestamp": "01:09:41",
-        "speaker": "David Singleton"
+        "slug": "david-singleton",
+        "path": "episodes/david-singleton/transcript.md",
+        "lineStart": 449,
+        "lineEnd": 453
       },
-      "context": "On scaling leadership and trusting your team",
-      "themes": ["leadership", "hiring", "autonomy", "delegation", "scaling"],
-      "zones": ["alignment", "chaos"],
-      "verified": true
+      "themes": [
+        "leadership",
+        "hiring",
+        "autonomy",
+        "delegation",
+        "scaling"
+      ],
+      "zones": [
+        "alignment",
+        "chaos"
+      ]
     },
     {
       "id": "david-singleton-012",
+      "speaker": "David Singleton",
       "text": "We put a little button in every single developer tool at Stripe. It is an emoji of an octopus that is crying. If you click it, it makes it possible to just type in what's gone wrong. Frictionless problem recording turned out to be really valuable.",
+      "timestamp": "01:27:27",
       "source": {
-        "line_start": 635,
-        "line_end": 637,
-        "timestamp": "01:27:27",
-        "speaker": "David Singleton"
+        "slug": "david-singleton",
+        "path": "episodes/david-singleton/transcript.md",
+        "lineStart": 635,
+        "lineEnd": 637
       },
-      "context": "Describing a small but impactful process improvement for developer productivity",
-      "themes": ["developer-experience", "feedback", "process", "tooling"],
-      "zones": ["discovery", "velocity"],
-      "verified": true
+      "themes": [
+        "developer-experience",
+        "feedback",
+        "process",
+        "tooling"
+      ],
+      "zones": [
+        "discovery",
+        "velocity"
+      ]
     }
   ],
   "takeaways": [
@@ -183,11 +275,11 @@
   ],
   "zone_influence": {
     "velocity": 0.15,
-    "perfection": 0.30,
-    "discovery": 0.20,
-    "data": 0.10,
+    "perfection": 0.3,
+    "discovery": 0.2,
+    "data": 0.1,
     "intuition": 0.05,
-    "alignment": 0.10,
+    "alignment": 0.1,
     "chaos": 0.05,
     "focus": 0.05
   },
@@ -195,17 +287,30 @@
     {
       "quoteId": "david-singleton-002",
       "why": "Argues for investing MORE code in edge cases than the main flow - contrarian to 'ship fast and iterate' mindset",
-      "related_zones": ["perfection", "focus"]
+      "related_zones": [
+        "perfection",
+        "focus"
+      ]
     },
     {
       "quoteId": "david-singleton-011",
       "why": "Openly admits executives aren't involved in any decisions that matter - challenges traditional hierarchical leadership",
-      "related_zones": ["alignment", "chaos"]
+      "related_zones": [
+        "alignment",
+        "chaos"
+      ]
     }
   ],
   "guest_metadata": {
     "guest_type": "operator",
     "company_stage": "growth",
-    "primary_topics": ["engineering-culture", "developer-experience", "craft", "reliability", "leadership"]
-  }
+    "primary_topics": [
+      "engineering-culture",
+      "developer-experience",
+      "craft",
+      "reliability",
+      "leadership"
+    ]
+  },
+  "slug": "david-singleton"
 }

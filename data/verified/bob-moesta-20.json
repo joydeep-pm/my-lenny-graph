@@ -12,8 +12,15 @@
         "lineStart": 124,
         "lineEnd": 124
       },
-      "themes": ["career", "progress", "agency"],
-      "zones": ["discovery", "alignment"]
+      "themes": [
+        "career",
+        "progress",
+        "agency"
+      ],
+      "zones": [
+        "discovery",
+        "alignment"
+      ]
     },
     {
       "id": "bob-moesta-20-q002",
@@ -26,8 +33,15 @@
         "lineStart": 136,
         "lineEnd": 136
       },
-      "themes": ["compensation", "motivation", "self-awareness"],
-      "zones": ["intuition", "discovery"]
+      "themes": [
+        "compensation",
+        "motivation",
+        "self-awareness"
+      ],
+      "zones": [
+        "intuition",
+        "discovery"
+      ]
     },
     {
       "id": "bob-moesta-20-q003",
@@ -40,8 +54,15 @@
         "lineStart": 187,
         "lineEnd": 187
       },
-      "themes": ["energy-management", "work-satisfaction", "balance"],
-      "zones": ["focus", "alignment"]
+      "themes": [
+        "energy-management",
+        "work-satisfaction",
+        "balance"
+      ],
+      "zones": [
+        "focus",
+        "alignment"
+      ]
     },
     {
       "id": "bob-moesta-20-q004",
@@ -54,8 +75,15 @@
         "lineStart": 229,
         "lineEnd": 235
       },
-      "themes": ["job-descriptions", "negotiation", "self-advocacy"],
-      "zones": ["chaos", "focus"]
+      "themes": [
+        "job-descriptions",
+        "negotiation",
+        "self-advocacy"
+      ],
+      "zones": [
+        "chaos",
+        "focus"
+      ]
     },
     {
       "id": "bob-moesta-20-q005",
@@ -68,8 +96,15 @@
         "lineStart": 253,
         "lineEnd": 256
       },
-      "themes": ["career-strategy", "prototyping", "agency"],
-      "zones": ["discovery", "velocity"]
+      "themes": [
+        "career-strategy",
+        "prototyping",
+        "agency"
+      ],
+      "zones": [
+        "discovery",
+        "velocity"
+      ]
     },
     {
       "id": "bob-moesta-20-q006",
@@ -82,8 +117,15 @@
         "lineStart": 307,
         "lineEnd": 310
       },
-      "themes": ["trade-offs", "satisfaction", "maturity"],
-      "zones": ["focus", "intuition"]
+      "themes": [
+        "trade-offs",
+        "satisfaction",
+        "maturity"
+      ],
+      "zones": [
+        "focus",
+        "intuition"
+      ]
     },
     {
       "id": "bob-moesta-20-q007",
@@ -96,8 +138,15 @@
         "lineStart": 358,
         "lineEnd": 361
       },
-      "themes": ["startups", "identity", "recovery"],
-      "zones": ["alignment", "focus"]
+      "themes": [
+        "startups",
+        "identity",
+        "recovery"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
     },
     {
       "id": "bob-moesta-20-q008",
@@ -110,8 +159,15 @@
         "lineStart": 403,
         "lineEnd": 403
       },
-      "themes": ["self-awareness", "career-strategy", "hiring"],
-      "zones": ["discovery", "intuition"]
+      "themes": [
+        "self-awareness",
+        "career-strategy",
+        "hiring"
+      ],
+      "zones": [
+        "discovery",
+        "intuition"
+      ]
     },
     {
       "id": "bob-moesta-20-q009",
@@ -124,8 +180,15 @@
         "lineStart": 472,
         "lineEnd": 475
       },
-      "themes": ["innovation", "conflict", "strengths"],
-      "zones": ["chaos", "perfection"]
+      "themes": [
+        "innovation",
+        "conflict",
+        "strengths"
+      ],
+      "zones": [
+        "chaos",
+        "perfection"
+      ]
     },
     {
       "id": "bob-moesta-20-q010",
@@ -138,8 +201,15 @@
         "lineStart": 487,
         "lineEnd": 487
       },
-      "themes": ["self-awareness", "weaknesses", "energy-management"],
-      "zones": ["discovery", "focus"]
+      "themes": [
+        "self-awareness",
+        "weaknesses",
+        "energy-management"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ]
     },
     {
       "id": "bob-moesta-20-q011",
@@ -152,8 +222,15 @@
         "lineStart": 544,
         "lineEnd": 544
       },
-      "themes": ["disabilities", "strengths", "self-awareness"],
-      "zones": ["discovery", "intuition"]
+      "themes": [
+        "disabilities",
+        "strengths",
+        "self-awareness"
+      ],
+      "zones": [
+        "discovery",
+        "intuition"
+      ]
     },
     {
       "id": "bob-moesta-20-q012",
@@ -166,11 +243,29 @@
         "lineStart": 565,
         "lineEnd": 574
       },
-      "themes": ["founders", "self-awareness", "productivity"],
-      "zones": ["focus", "alignment"]
+      "themes": [
+        "founders",
+        "self-awareness",
+        "productivity"
+      ],
+      "zones": [
+        "focus",
+        "alignment"
+      ]
     }
   ],
-  "themes": ["jobs-to-be-done", "career-transitions", "self-awareness", "energy-management", "trade-offs", "job-search", "hiring", "founders", "prototyping", "strengths"],
+  "themes": [
+    "jobs-to-be-done",
+    "career-transitions",
+    "self-awareness",
+    "energy-management",
+    "trade-offs",
+    "job-search",
+    "hiring",
+    "founders",
+    "prototyping",
+    "strengths"
+  ],
   "takeaways": [
     "Employees hire companies more than companies hire employees - the moment you stop making progress in your career is the moment you start looking for another job, so take responsibility for your own career trajectory.",
     "Focus on energy drivers and drains rather than job features - if you can shift from 95% energy-draining work to 50-50, you won't even feel like you're working anymore.",
@@ -181,10 +276,10 @@
   "zone_influence": {
     "velocity": 0.05,
     "perfection": 0.05,
-    "discovery": 0.30,
+    "discovery": 0.3,
     "data": 0.05,
     "intuition": 0.15,
-    "alignment": 0.20,
+    "alignment": 0.2,
     "chaos": 0.05,
     "focus": 0.15
   },
@@ -192,22 +287,37 @@
     {
       "quoteId": "bob-moesta-20-q004",
       "why": "Challenges the reverence for job descriptions - they're made up and negotiable, not sacred requirements",
-      "related_zones": ["chaos", "focus"]
+      "related_zones": [
+        "chaos",
+        "focus"
+      ]
     },
     {
       "quoteId": "bob-moesta-20-q009",
       "why": "Argues innovation requires conflict, not harmony - trying to improve your weaknesses can destroy your superpowers",
-      "related_zones": ["chaos", "perfection"]
+      "related_zones": [
+        "chaos",
+        "perfection"
+      ]
     },
     {
       "quoteId": "bob-moesta-20-q007",
       "why": "Suggests startups fundamentally change who you are and advocates for deliberate recovery time - counter to hustle culture",
-      "related_zones": ["alignment", "focus"]
+      "related_zones": [
+        "alignment",
+        "focus"
+      ]
     }
   ],
   "guest_metadata": {
     "guest_type": "author",
     "company_stage": "consulting",
-    "primary_topics": ["jobs-to-be-done", "career-transitions", "hiring", "self-awareness", "energy-management"]
+    "primary_topics": [
+      "jobs-to-be-done",
+      "career-transitions",
+      "hiring",
+      "self-awareness",
+      "energy-management"
+    ]
   }
 }

@@ -12,8 +12,15 @@
         "lineStart": 75,
         "lineEnd": 78
       },
-      "themes": ["decision-making", "advice", "context"],
-      "zones": ["discovery", "data"]
+      "themes": [
+        "decision-making",
+        "advice",
+        "context"
+      ],
+      "zones": [
+        "discovery",
+        "data"
+      ]
     },
     {
       "id": "ada-chen-rekhi-q002",
@@ -26,8 +33,15 @@
         "lineStart": 80,
         "lineEnd": 81
       },
-      "themes": ["questions", "feedback", "user-research"],
-      "zones": ["data", "discovery"]
+      "themes": [
+        "questions",
+        "feedback",
+        "user-research"
+      ],
+      "zones": [
+        "data",
+        "discovery"
+      ]
     },
     {
       "id": "ada-chen-rekhi-q003",
@@ -40,8 +54,15 @@
         "lineStart": 140,
         "lineEnd": 141
       },
-      "themes": ["decision-making", "feedback", "self-awareness"],
-      "zones": ["intuition", "discovery"]
+      "themes": [
+        "decision-making",
+        "feedback",
+        "self-awareness"
+      ],
+      "zones": [
+        "intuition",
+        "discovery"
+      ]
     },
     {
       "id": "ada-chen-rekhi-q004",
@@ -54,8 +75,15 @@
         "lineStart": 158,
         "lineEnd": 159
       },
-      "themes": ["values", "self-awareness", "career"],
-      "zones": ["alignment", "focus"]
+      "themes": [
+        "values",
+        "self-awareness",
+        "career"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
     },
     {
       "id": "ada-chen-rekhi-q005",
@@ -68,8 +96,15 @@
         "lineStart": 254,
         "lineEnd": 255
       },
-      "themes": ["career-strategy", "growth", "exploration"],
-      "zones": ["discovery", "velocity"]
+      "themes": [
+        "career-strategy",
+        "growth",
+        "exploration"
+      ],
+      "zones": [
+        "discovery",
+        "velocity"
+      ]
     },
     {
       "id": "ada-chen-rekhi-q006",
@@ -82,8 +117,15 @@
         "lineStart": 281,
         "lineEnd": 282
       },
-      "themes": ["career", "self-awareness", "change"],
-      "zones": ["chaos", "discovery"]
+      "themes": [
+        "career",
+        "self-awareness",
+        "change"
+      ],
+      "zones": [
+        "chaos",
+        "discovery"
+      ]
     },
     {
       "id": "ada-chen-rekhi-q007",
@@ -96,8 +138,15 @@
         "lineStart": 311,
         "lineEnd": 312
       },
-      "themes": ["career", "values", "fulfillment"],
-      "zones": ["alignment", "focus"]
+      "themes": [
+        "career",
+        "values",
+        "fulfillment"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
     },
     {
       "id": "ada-chen-rekhi-q008",
@@ -110,8 +159,15 @@
         "lineStart": 332,
         "lineEnd": 333
       },
-      "themes": ["values", "success", "self-awareness"],
-      "zones": ["alignment", "intuition"]
+      "themes": [
+        "values",
+        "success",
+        "self-awareness"
+      ],
+      "zones": [
+        "alignment",
+        "intuition"
+      ]
     },
     {
       "id": "ada-chen-rekhi-q009",
@@ -124,8 +180,15 @@
         "lineStart": 338,
         "lineEnd": 345
       },
-      "themes": ["coaching", "mentorship", "career-development"],
-      "zones": ["discovery", "data"]
+      "themes": [
+        "coaching",
+        "mentorship",
+        "career-development"
+      ],
+      "zones": [
+        "discovery",
+        "data"
+      ]
     },
     {
       "id": "ada-chen-rekhi-q010",
@@ -138,8 +201,15 @@
         "lineStart": 434,
         "lineEnd": 435
       },
-      "themes": ["career", "diversity", "resilience"],
-      "zones": ["chaos", "alignment"]
+      "themes": [
+        "career",
+        "diversity",
+        "resilience"
+      ],
+      "zones": [
+        "chaos",
+        "alignment"
+      ]
     },
     {
       "id": "ada-chen-rekhi-q011",
@@ -152,8 +222,15 @@
         "lineStart": 473,
         "lineEnd": 476
       },
-      "themes": ["growth", "persistence", "skill-building"],
-      "zones": ["discovery", "velocity"]
+      "themes": [
+        "growth",
+        "persistence",
+        "skill-building"
+      ],
+      "zones": [
+        "discovery",
+        "velocity"
+      ]
     },
     {
       "id": "ada-chen-rekhi-q012",
@@ -166,11 +243,27 @@
         "lineStart": 608,
         "lineEnd": 609
       },
-      "themes": ["productivity", "focus", "habits"],
-      "zones": ["focus", "velocity"]
+      "themes": [
+        "productivity",
+        "focus",
+        "habits"
+      ],
+      "zones": [
+        "focus",
+        "velocity"
+      ]
     }
   ],
-  "themes": ["decision-making", "career-strategy", "values", "coaching", "self-awareness", "productivity", "feedback", "growth"],
+  "themes": [
+    "decision-making",
+    "career-strategy",
+    "values",
+    "coaching",
+    "self-awareness",
+    "productivity",
+    "feedback",
+    "growth"
+  ],
   "takeaways": [
     "Use curiosity loops to fight bad advice - gather structured input from 5-10 people who know you well or have subject matter expertise, then look for surprises and disagreements rather than following what they say.",
     "Apply the explore/exploit framework to your career - early on, prioritize exploration with a thesis to discover what you love; once you find something rich, shift to exploit mode to go deeper.",
@@ -179,35 +272,49 @@
     "Eat your vegetables by exposing yourself to uncomfortable skills 10-12 times before deciding you dislike them - the first time you try something, you won't be good at it, but persistence builds affinity."
   ],
   "zone_influence": {
-    "velocity": 0.10,
+    "velocity": 0.1,
     "perfection": 0.05,
-    "discovery": 0.30,
-    "data": 0.10,
-    "intuition": 0.10,
-    "alignment": 0.20,
-    "chaos": 0.10,
+    "discovery": 0.3,
+    "data": 0.1,
+    "intuition": 0.1,
+    "alignment": 0.2,
+    "chaos": 0.1,
     "focus": 0.05
   },
   "contrarian_candidates": [
     {
       "quoteId": "ada-chen-rekhi-q009",
       "why": "Challenges the common belief that everyone needs a coach - argues most people don't need one and curiosity loops are often better than paying for one person's opinion",
-      "related_zones": ["discovery", "data"]
+      "related_zones": [
+        "discovery",
+        "data"
+      ]
     },
     {
       "quoteId": "ada-chen-rekhi-q003",
       "why": "Contradicts the instinct to follow advice from trusted people - instead look for what surprises or bothers you as signals of blind spots",
-      "related_zones": ["intuition", "discovery"]
+      "related_zones": [
+        "intuition",
+        "discovery"
+      ]
     },
     {
       "quoteId": "ada-chen-rekhi-q010",
       "why": "Acknowledges the game is rigged while refusing victimhood - empowers agency even within unfair systems",
-      "related_zones": ["chaos", "alignment"]
+      "related_zones": [
+        "chaos",
+        "alignment"
+      ]
     }
   ],
   "guest_metadata": {
     "guest_type": "founder-coach",
     "company_stage": "growth",
-    "primary_topics": ["career-strategy", "decision-making", "coaching", "values-alignment"]
+    "primary_topics": [
+      "career-strategy",
+      "decision-making",
+      "coaching",
+      "values-alignment"
+    ]
   }
 }

@@ -1,177 +1,269 @@
 {
-  "episode_slug": "christian-idiodi",
-  "guest": "Christian Idiodi",
-  "episode_title": "The essence of product management | Christian Idiodi (SVPG)",
-  "verification_date": "2026-01-26",
-  "verified_by": "claude-opus-4-5",
   "quotes": [
     {
       "id": "christian-idiodi-001",
+      "speaker": "Christian Idiodi",
       "text": "I've only seen great product managers come out of two places. One, either a series of massive failure in their career or experiences that have been bad or from learning from great product leaders.",
+      "timestamp": "00:08:06",
       "source": {
-        "line_start": 83,
-        "line_end": 84,
-        "timestamp": "00:08:06",
-        "speaker": "Christian Idiodi"
+        "slug": "christian-idiodi",
+        "path": "episodes/christian-idiodi/transcript.md",
+        "lineStart": 83,
+        "lineEnd": 84
       },
-      "context": "Discussing how product managers develop expertise and what it takes to become a great PM",
-      "themes": ["product-management", "career-development", "learning-from-failure", "mentorship"],
-      "zones": ["discovery", "perfection"],
-      "verified": true
+      "themes": [
+        "product-management",
+        "career-development",
+        "learning-from-failure",
+        "mentorship"
+      ],
+      "zones": [
+        "discovery",
+        "perfection"
+      ]
     },
     {
       "id": "christian-idiodi-002",
+      "speaker": "Christian Idiodi",
       "text": "I try to explain to people that the real essence of this job is that you wake up on behalf of someone else to solve a problem for them. And what an amazing job. And you have to do it well enough that they give you something back in return. If it's not fun, you're probably not doing it right. If it's not hard, you're probably also not doing it right.",
+      "timestamp": "00:12:49",
       "source": {
-        "line_start": 110,
-        "line_end": 112,
-        "timestamp": "00:12:49",
-        "speaker": "Christian Idiodi"
+        "slug": "christian-idiodi",
+        "path": "episodes/christian-idiodi/transcript.md",
+        "lineStart": 110,
+        "lineEnd": 112
       },
-      "context": "Explaining the fundamental essence of product management and what makes it meaningful work",
-      "themes": ["product-management", "customer-centricity", "value-creation", "purpose"],
-      "zones": ["discovery", "focus"],
-      "verified": true
+      "themes": [
+        "product-management",
+        "customer-centricity",
+        "value-creation",
+        "purpose"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ]
     },
     {
       "id": "christian-idiodi-003",
+      "speaker": "Christian Idiodi",
       "text": "Value is probably the most important and the most overlooked. And the big driver for that is often because of the operating model of teams. Teams are often given roadmaps of projects and features to go build and deliver. If that's the case, you actually really don't need a product manager because they're going to assume value.",
+      "timestamp": "00:15:00",
       "source": {
-        "line_start": 125,
-        "line_end": 126,
-        "timestamp": "00:15:00",
-        "speaker": "Christian Idiodi"
+        "slug": "christian-idiodi",
+        "path": "episodes/christian-idiodi/transcript.md",
+        "lineStart": 125,
+        "lineEnd": 126
       },
-      "context": "Discussing the four risks in product (value, usability, feasibility, viability) and why value is most overlooked",
-      "themes": ["value-creation", "product-strategy", "roadmap", "operating-model"],
-      "zones": ["discovery", "focus"],
-      "verified": true
+      "themes": [
+        "value-creation",
+        "product-strategy",
+        "roadmap",
+        "operating-model"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ]
     },
     {
       "id": "christian-idiodi-004",
+      "speaker": "Christian Idiodi",
       "text": "The holy grail of product work is really a reference customer. This is somebody that has used your solution or your product, loves it enough to tell people about it.",
+      "timestamp": "00:17:35",
       "source": {
-        "line_start": 137,
-        "line_end": 138,
-        "timestamp": "00:17:35",
-        "speaker": "Christian Idiodi"
+        "slug": "christian-idiodi",
+        "path": "episodes/christian-idiodi/transcript.md",
+        "lineStart": 137,
+        "lineEnd": 138
       },
-      "context": "Introducing his favorite discovery technique - working with reference customers to achieve product market fit",
-      "themes": ["reference-customers", "product-market-fit", "word-of-mouth", "customer-love"],
-      "zones": ["discovery", "focus"],
-      "verified": true
+      "themes": [
+        "reference-customers",
+        "product-market-fit",
+        "word-of-mouth",
+        "customer-love"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ]
     },
     {
       "id": "christian-idiodi-005",
+      "speaker": "Christian Idiodi",
       "text": "If you truly, truly want to solve a problem, get out of your building, get out of the assumptions, get out of your opinions. Immerse yourself, find someone who has the problem, stick with them until you discover a solution for this problem.",
+      "timestamp": "00:21:36",
       "source": {
-        "line_start": 147,
-        "line_end": 148,
-        "timestamp": "00:21:36",
-        "speaker": "Christian Idiodi"
+        "slug": "christian-idiodi",
+        "path": "episodes/christian-idiodi/transcript.md",
+        "lineStart": 147,
+        "lineEnd": 148
       },
-      "context": "Explaining pressure-cooked discovery - immersing yourself with customers who have the problem",
-      "themes": ["user-research", "customer-immersion", "discovery", "assumptions"],
-      "zones": ["discovery", "velocity"],
-      "verified": true
+      "themes": [
+        "user-research",
+        "customer-immersion",
+        "discovery",
+        "assumptions"
+      ],
+      "zones": [
+        "discovery",
+        "velocity"
+      ]
     },
     {
       "id": "christian-idiodi-006",
+      "speaker": "Christian Idiodi",
       "text": "In every app I have ever put on the App Store, on the day I launch the app in the app store, there are 25 5-star reviews. I will never launch an app and be like, 'Let's hope Lenny loves it.' On the very first day of launching the app, there are 25 reference customers.",
+      "timestamp": "00:25:41",
       "source": {
-        "line_start": 170,
-        "line_end": 171,
-        "timestamp": "00:25:41",
-        "speaker": "Christian Idiodi"
+        "slug": "christian-idiodi",
+        "path": "episodes/christian-idiodi/transcript.md",
+        "lineStart": 170,
+        "lineEnd": 171
       },
-      "context": "Describing his approach to launching products - never launching without validated reference customers",
-      "themes": ["launch-strategy", "reference-customers", "product-market-fit", "validation"],
-      "zones": ["discovery", "focus", "data"],
-      "verified": true
+      "themes": [
+        "launch-strategy",
+        "reference-customers",
+        "product-market-fit",
+        "validation"
+      ],
+      "zones": [
+        "discovery",
+        "focus",
+        "data"
+      ]
     },
     {
       "id": "christian-idiodi-007",
+      "speaker": "Christian Idiodi",
       "text": "Product market fit is when you've discovered and delivered something so meaningful that these customers that are your target customers are willing to put their reputation on the line and be a reference. That's my indication.",
+      "timestamp": "00:28:37",
       "source": {
-        "line_start": 182,
-        "line_end": 183,
-        "timestamp": "00:28:37",
-        "speaker": "Christian Idiodi"
+        "slug": "christian-idiodi",
+        "path": "episodes/christian-idiodi/transcript.md",
+        "lineStart": 182,
+        "lineEnd": 183
       },
-      "context": "Defining product market fit through the lens of reference customers willing to stake their reputation",
-      "themes": ["product-market-fit", "reference-customers", "validation", "customer-love"],
-      "zones": ["discovery", "focus"],
-      "verified": true
+      "themes": [
+        "product-market-fit",
+        "reference-customers",
+        "validation",
+        "customer-love"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ]
     },
     {
       "id": "christian-idiodi-008",
+      "speaker": "Christian Idiodi",
       "text": "You do things that don't scale and then you do things that do scale. And it's so powerful when you discover how to do things that don't scale, when you actually know. Because the power of technology is just the beauty of what it can do at scale.",
+      "timestamp": "00:46:18",
       "source": {
-        "line_start": 260,
-        "line_end": 261,
-        "timestamp": "00:46:18",
-        "speaker": "Christian Idiodi"
+        "slug": "christian-idiodi",
+        "path": "episodes/christian-idiodi/transcript.md",
+        "lineStart": 260,
+        "lineEnd": 261
       },
-      "context": "Reflecting on the Starbucks/McDonald's story about discovering solutions manually before scaling with technology",
-      "themes": ["scaling", "do-things-that-dont-scale", "technology", "discovery"],
-      "zones": ["velocity", "discovery"],
-      "verified": true
+      "themes": [
+        "scaling",
+        "do-things-that-dont-scale",
+        "technology",
+        "discovery"
+      ],
+      "zones": [
+        "velocity",
+        "discovery"
+      ]
     },
     {
       "id": "christian-idiodi-009",
+      "speaker": "Christian Idiodi",
       "text": "There's nothing better in learning how to solve a problem than trying to solve the problem. You will get all the answers, the research, the failure, the mistakes, all the evidence. You know the difference between what people say and what they do.",
+      "timestamp": "00:47:00",
       "source": {
-        "line_start": 266,
-        "line_end": 267,
-        "timestamp": "00:47:00",
-        "speaker": "Christian Idiodi"
+        "slug": "christian-idiodi",
+        "path": "episodes/christian-idiodi/transcript.md",
+        "lineStart": 266,
+        "lineEnd": 267
       },
-      "context": "Explaining why direct problem-solving beats theoretical frameworks and user research interviews",
-      "themes": ["learning-by-doing", "discovery", "validation", "user-research"],
-      "zones": ["velocity", "discovery"],
-      "verified": true
+      "themes": [
+        "learning-by-doing",
+        "discovery",
+        "validation",
+        "user-research"
+      ],
+      "zones": [
+        "velocity",
+        "discovery"
+      ]
     },
     {
       "id": "christian-idiodi-010",
+      "speaker": "Christian Idiodi",
       "text": "Doing product management is a product manager's job, but getting better at product management is the manager's job, is the coach's job. If you are playing a game, you're in the game. The coaches are on the sideline watching you play the game and getting you better at playing the game.",
+      "timestamp": "00:50:57",
       "source": {
-        "line_start": 287,
-        "line_end": 291,
-        "timestamp": "00:50:57",
-        "speaker": "Christian Idiodi"
+        "slug": "christian-idiodi",
+        "path": "episodes/christian-idiodi/transcript.md",
+        "lineStart": 287,
+        "lineEnd": 291
       },
-      "context": "Explaining the crucial difference between doing the work and coaching others to get better at the work",
-      "themes": ["coaching", "leadership", "management", "growth"],
-      "zones": ["alignment", "perfection"],
-      "verified": true
+      "themes": [
+        "coaching",
+        "leadership",
+        "management",
+        "growth"
+      ],
+      "zones": [
+        "alignment",
+        "perfection"
+      ]
     },
     {
       "id": "christian-idiodi-011",
+      "speaker": "Christian Idiodi",
       "text": "The number one reason most people don't give good coaching is because they've never experienced good coaching themselves. And most people can only give to other people what has been given to them, what experiences they've seen.",
+      "timestamp": "00:51:16",
       "source": {
-        "line_start": 293,
-        "line_end": 294,
-        "timestamp": "00:51:16",
-        "speaker": "Christian Idiodi"
+        "slug": "christian-idiodi",
+        "path": "episodes/christian-idiodi/transcript.md",
+        "lineStart": 293,
+        "lineEnd": 294
       },
-      "context": "Explaining why coaching is often poor in organizations - leaders can only model what they experienced",
-      "themes": ["coaching", "leadership", "mentorship", "culture"],
-      "zones": ["alignment", "perfection"],
-      "verified": true
+      "themes": [
+        "coaching",
+        "leadership",
+        "mentorship",
+        "culture"
+      ],
+      "zones": [
+        "alignment",
+        "perfection"
+      ]
     },
     {
       "id": "christian-idiodi-012",
+      "speaker": "Christian Idiodi",
       "text": "The most powerful way I have found to get trust with many people is to have them accountable for an outcome of mine, which is to know. So if I wanted to accelerate trust with Lenny, I will ask Lenny to teach me.",
+      "timestamp": "00:56:51",
       "source": {
-        "line_start": 308,
-        "line_end": 310,
-        "timestamp": "00:56:51",
-        "speaker": "Christian Idiodi"
+        "slug": "christian-idiodi",
+        "path": "episodes/christian-idiodi/transcript.md",
+        "lineStart": 308,
+        "lineEnd": 310
       },
-      "context": "Revealing his technique for rapidly building trust with influential people in an organization",
-      "themes": ["trust-building", "relationships", "emotional-intelligence", "influence"],
-      "zones": ["alignment", "discovery"],
-      "verified": true
+      "themes": [
+        "trust-building",
+        "relationships",
+        "emotional-intelligence",
+        "influence"
+      ],
+      "zones": [
+        "alignment",
+        "discovery"
+      ]
     }
   ],
   "takeaways": [
@@ -182,11 +274,11 @@
     "Coaching is the day job of managers - doing product management is the PM's job, but getting better at product management is the coach's job"
   ],
   "zone_influence": {
-    "discovery": 0.30,
+    "discovery": 0.3,
     "alignment": 0.25,
     "focus": 0.15,
     "velocity": 0.12,
-    "perfection": 0.10,
+    "perfection": 0.1,
     "data": 0.05,
     "chaos": 0.02,
     "intuition": 0.01
@@ -195,22 +287,39 @@
     {
       "quoteId": "christian-idiodi-003",
       "why": "Challenges the common practice of giving teams roadmaps - argues it eliminates the need for product managers entirely",
-      "related_zones": ["discovery", "focus"]
+      "related_zones": [
+        "discovery",
+        "focus"
+      ]
     },
     {
       "quoteId": "christian-idiodi-006",
       "why": "Counter to typical launch advice - never launches without 25 validated reference customers already committed to 5-star reviews",
-      "related_zones": ["discovery", "focus", "data"]
+      "related_zones": [
+        "discovery",
+        "focus",
+        "data"
+      ]
     },
     {
       "quoteId": "christian-idiodi-009",
       "why": "Challenges reliance on frameworks and formal user research - argues direct problem-solving teaches more than any methodology",
-      "related_zones": ["velocity", "discovery"]
+      "related_zones": [
+        "velocity",
+        "discovery"
+      ]
     }
   ],
   "guest_metadata": {
     "guest_type": "advisor",
     "company_stage": "mixed",
-    "primary_topics": ["product-management", "coaching", "reference-customers", "discovery", "leadership"]
-  }
+    "primary_topics": [
+      "product-management",
+      "coaching",
+      "reference-customers",
+      "discovery",
+      "leadership"
+    ]
+  },
+  "slug": "christian-idiodi"
 }

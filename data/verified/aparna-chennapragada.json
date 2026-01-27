@@ -12,8 +12,15 @@
         "lineStart": 89,
         "lineEnd": 89
       },
-      "themes": ["iteration", "feedback", "resilience"],
-      "zones": ["velocity", "discovery"]
+      "themes": [
+        "iteration",
+        "feedback",
+        "resilience"
+      ],
+      "zones": [
+        "velocity",
+        "discovery"
+      ]
     },
     {
       "id": "aparna-chennapragada-q002",
@@ -26,8 +33,16 @@
         "lineStart": 134,
         "lineEnd": 134
       },
-      "themes": ["future-of-work", "AI-tools", "team-structure"],
-      "zones": ["discovery", "velocity", "chaos"]
+      "themes": [
+        "future-of-work",
+        "AI-tools",
+        "team-structure"
+      ],
+      "zones": [
+        "discovery",
+        "velocity",
+        "chaos"
+      ]
     },
     {
       "id": "aparna-chennapragada-q003",
@@ -40,8 +55,15 @@
         "lineStart": 164,
         "lineEnd": 164
       },
-      "themes": ["agents", "AI", "delegation"],
-      "zones": ["discovery", "velocity"]
+      "themes": [
+        "agents",
+        "AI",
+        "delegation"
+      ],
+      "zones": [
+        "discovery",
+        "velocity"
+      ]
     },
     {
       "id": "aparna-chennapragada-q004",
@@ -54,8 +76,17 @@
         "lineStart": 176,
         "lineEnd": 176
       },
-      "themes": ["NLX", "UX", "design", "conversational-AI"],
-      "zones": ["discovery", "intuition", "perfection"]
+      "themes": [
+        "NLX",
+        "UX",
+        "design",
+        "conversational-AI"
+      ],
+      "zones": [
+        "discovery",
+        "intuition",
+        "perfection"
+      ]
     },
     {
       "id": "aparna-chennapragada-q005",
@@ -68,8 +99,15 @@
         "lineStart": 206,
         "lineEnd": 206
       },
-      "themes": ["prototyping", "AI-tools", "product-development"],
-      "zones": ["velocity", "discovery"]
+      "themes": [
+        "prototyping",
+        "AI-tools",
+        "product-development"
+      ],
+      "zones": [
+        "velocity",
+        "discovery"
+      ]
     },
     {
       "id": "aparna-chennapragada-q006",
@@ -82,8 +120,16 @@
         "lineStart": 209,
         "lineEnd": 209
       },
-      "themes": ["product-development", "differentiation", "competition"],
-      "zones": ["velocity", "focus", "perfection"]
+      "themes": [
+        "product-development",
+        "differentiation",
+        "competition"
+      ],
+      "zones": [
+        "velocity",
+        "focus",
+        "perfection"
+      ]
     },
     {
       "id": "aparna-chennapragada-q007",
@@ -96,8 +142,16 @@
         "lineStart": 212,
         "lineEnd": 212
       },
-      "themes": ["taste-making", "editorial", "product-quality"],
-      "zones": ["intuition", "perfection", "focus"]
+      "themes": [
+        "taste-making",
+        "editorial",
+        "product-quality"
+      ],
+      "zones": [
+        "intuition",
+        "perfection",
+        "focus"
+      ]
     },
     {
       "id": "aparna-chennapragada-q008",
@@ -110,8 +164,15 @@
         "lineStart": 233,
         "lineEnd": 233
       },
-      "themes": ["product-management", "taste-making", "AI-impact"],
-      "zones": ["intuition", "focus"]
+      "themes": [
+        "product-management",
+        "taste-making",
+        "AI-impact"
+      ],
+      "zones": [
+        "intuition",
+        "focus"
+      ]
     },
     {
       "id": "aparna-chennapragada-q009",
@@ -124,8 +185,15 @@
         "lineStart": 251,
         "lineEnd": 251
       },
-      "themes": ["AI-adoption", "mental-models", "learning"],
-      "zones": ["discovery", "chaos"]
+      "themes": [
+        "AI-adoption",
+        "mental-models",
+        "learning"
+      ],
+      "zones": [
+        "discovery",
+        "chaos"
+      ]
     },
     {
       "id": "aparna-chennapragada-q010",
@@ -138,8 +206,16 @@
         "lineStart": 317,
         "lineEnd": 317
       },
-      "themes": ["zero-to-one", "product-strategy", "iteration"],
-      "zones": ["discovery", "chaos", "focus"]
+      "themes": [
+        "zero-to-one",
+        "product-strategy",
+        "iteration"
+      ],
+      "zones": [
+        "discovery",
+        "chaos",
+        "focus"
+      ]
     },
     {
       "id": "aparna-chennapragada-q011",
@@ -152,8 +228,16 @@
         "lineStart": 335,
         "lineEnd": 341
       },
-      "themes": ["zero-to-one", "product-timing", "strategy"],
-      "zones": ["discovery", "data", "intuition"]
+      "themes": [
+        "zero-to-one",
+        "product-timing",
+        "strategy"
+      ],
+      "zones": [
+        "discovery",
+        "data",
+        "intuition"
+      ]
     },
     {
       "id": "aparna-chennapragada-q012",
@@ -166,11 +250,28 @@
         "lineStart": 392,
         "lineEnd": 392
       },
-      "themes": ["timing", "zero-to-one", "failure"],
-      "zones": ["discovery", "intuition", "chaos"]
+      "themes": [
+        "timing",
+        "zero-to-one",
+        "failure"
+      ],
+      "zones": [
+        "discovery",
+        "intuition",
+        "chaos"
+      ]
     }
   ],
-  "themes": ["AI-product-development", "agents", "NLX", "prototyping", "taste-making", "zero-to-one", "future-of-work", "product-management"],
+  "themes": [
+    "AI-product-development",
+    "agents",
+    "NLX",
+    "prototyping",
+    "taste-making",
+    "zero-to-one",
+    "future-of-work",
+    "product-management"
+  ],
   "takeaways": [
     "Prompt sets are the new PRDs - in the AI era, if you're not prototyping and building to see what you want to build, you're doing it wrong. Demos before memos.",
     "NLX is the new UX - natural language interfaces require conscious design just like GUIs. Conversations have grammars, structures, and invisible UI elements that must be intentionally crafted.",
@@ -180,34 +281,52 @@
   ],
   "zone_influence": {
     "velocity": 0.15,
-    "perfection": 0.10,
-    "discovery": 0.30,
+    "perfection": 0.1,
+    "discovery": 0.3,
     "data": 0.05,
-    "intuition": 0.20,
-    "alignment": 0.00,
-    "chaos": 0.10,
-    "focus": 0.10
+    "intuition": 0.2,
+    "alignment": 0,
+    "chaos": 0.1,
+    "focus": 0.1
   },
   "contrarian_candidates": [
     {
       "quoteId": "aparna-chennapragada-q010",
       "why": "Challenges the common startup wisdom to move fast and scale quickly - argues you must solve before you scale and be comfortable with chaotic pivots",
-      "related_zones": ["discovery", "chaos", "focus"]
+      "related_zones": [
+        "discovery",
+        "chaos",
+        "focus"
+      ]
     },
     {
       "quoteId": "aparna-chennapragada-q012",
       "why": "Being early is the same as being wrong - challenges the 'first mover advantage' narrative with the harsh reality that timing matters more than being first",
-      "related_zones": ["discovery", "intuition", "chaos"]
+      "related_zones": [
+        "discovery",
+        "intuition",
+        "chaos"
+      ]
     },
     {
       "quoteId": "aparna-chennapragada-q007",
       "why": "In an age of AI democratization, argues taste-making becomes MORE important, not less - counters the 'everyone can build' narrative",
-      "related_zones": ["intuition", "perfection", "focus"]
+      "related_zones": [
+        "intuition",
+        "perfection",
+        "focus"
+      ]
     }
   ],
   "guest_metadata": {
     "guest_type": "executive",
     "company_stage": "public",
-    "primary_topics": ["AI-product-strategy", "agents", "NLX-design", "zero-to-one", "future-of-pm"]
+    "primary_topics": [
+      "AI-product-strategy",
+      "agents",
+      "NLX-design",
+      "zero-to-one",
+      "future-of-pm"
+    ]
   }
 }

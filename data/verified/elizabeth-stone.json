@@ -12,8 +12,15 @@
         "lineStart": 102,
         "lineEnd": 102
       },
-      "themes": ["dedication", "teamwork", "career"],
-      "zones": ["alignment", "perfection"]
+      "themes": [
+        "dedication",
+        "teamwork",
+        "career"
+      ],
+      "zones": [
+        "alignment",
+        "perfection"
+      ]
     },
     {
       "id": "elizabeth-stone-q002",
@@ -26,8 +33,15 @@
         "lineStart": 114,
         "lineEnd": 114
       },
-      "themes": ["excellence", "work-life-balance", "standards"],
-      "zones": ["perfection", "focus"]
+      "themes": [
+        "excellence",
+        "work-life-balance",
+        "standards"
+      ],
+      "zones": [
+        "perfection",
+        "focus"
+      ]
     },
     {
       "id": "elizabeth-stone-q003",
@@ -40,8 +54,14 @@
         "lineStart": 141,
         "lineEnd": 141
       },
-      "themes": ["excellence", "quality", "leadership"],
-      "zones": ["perfection"]
+      "themes": [
+        "excellence",
+        "quality",
+        "leadership"
+      ],
+      "zones": [
+        "perfection"
+      ]
     },
     {
       "id": "elizabeth-stone-q004",
@@ -54,8 +74,15 @@
         "lineStart": 147,
         "lineEnd": 150
       },
-      "themes": ["leadership", "feedback", "standards"],
-      "zones": ["alignment", "perfection"]
+      "themes": [
+        "leadership",
+        "feedback",
+        "standards"
+      ],
+      "zones": [
+        "alignment",
+        "perfection"
+      ]
     },
     {
       "id": "elizabeth-stone-q005",
@@ -68,8 +95,15 @@
         "lineStart": 156,
         "lineEnd": 156
       },
-      "themes": ["mentorship", "development", "leadership"],
-      "zones": ["alignment", "perfection"]
+      "themes": [
+        "mentorship",
+        "development",
+        "leadership"
+      ],
+      "zones": [
+        "alignment",
+        "perfection"
+      ]
     },
     {
       "id": "elizabeth-stone-q006",
@@ -82,8 +116,15 @@
         "lineStart": 177,
         "lineEnd": 177
       },
-      "themes": ["outcomes", "efficiency", "prioritization"],
-      "zones": ["focus", "velocity"]
+      "themes": [
+        "outcomes",
+        "efficiency",
+        "prioritization"
+      ],
+      "zones": [
+        "focus",
+        "velocity"
+      ]
     },
     {
       "id": "elizabeth-stone-q007",
@@ -96,8 +137,15 @@
         "lineStart": 195,
         "lineEnd": 195
       },
-      "themes": ["culture", "talent-density", "netflix"],
-      "zones": ["alignment", "perfection"]
+      "themes": [
+        "culture",
+        "talent-density",
+        "netflix"
+      ],
+      "zones": [
+        "alignment",
+        "perfection"
+      ]
     },
     {
       "id": "elizabeth-stone-q008",
@@ -110,8 +158,15 @@
         "lineStart": 201,
         "lineEnd": 201
       },
-      "themes": ["performance", "keeper-test", "management"],
-      "zones": ["perfection", "alignment"]
+      "themes": [
+        "performance",
+        "keeper-test",
+        "management"
+      ],
+      "zones": [
+        "perfection",
+        "alignment"
+      ]
     },
     {
       "id": "elizabeth-stone-q009",
@@ -124,8 +179,15 @@
         "lineStart": 246,
         "lineEnd": 246
       },
-      "themes": ["hiring", "talent-density", "team-building"],
-      "zones": ["discovery", "alignment"]
+      "themes": [
+        "hiring",
+        "talent-density",
+        "team-building"
+      ],
+      "zones": [
+        "discovery",
+        "alignment"
+      ]
     },
     {
       "id": "elizabeth-stone-q010",
@@ -138,8 +200,16 @@
         "lineStart": 273,
         "lineEnd": 273
       },
-      "themes": ["freedom-responsibility", "autonomy", "culture"],
-      "zones": ["chaos", "discovery", "alignment"]
+      "themes": [
+        "freedom-responsibility",
+        "autonomy",
+        "culture"
+      ],
+      "zones": [
+        "chaos",
+        "discovery",
+        "alignment"
+      ]
     },
     {
       "id": "elizabeth-stone-q011",
@@ -152,8 +222,15 @@
         "lineStart": 335,
         "lineEnd": 335
       },
-      "themes": ["data-science", "objectivity", "org-structure"],
-      "zones": ["data", "discovery"]
+      "themes": [
+        "data-science",
+        "objectivity",
+        "org-structure"
+      ],
+      "zones": [
+        "data",
+        "discovery"
+      ]
     },
     {
       "id": "elizabeth-stone-q012",
@@ -166,11 +243,28 @@
         "lineStart": 450,
         "lineEnd": 450
       },
-      "themes": ["resilience", "growth-mindset", "personal-development"],
-      "zones": ["focus", "chaos"]
+      "themes": [
+        "resilience",
+        "growth-mindset",
+        "personal-development"
+      ],
+      "zones": [
+        "focus",
+        "chaos"
+      ]
     }
   ],
-  "themes": ["culture", "talent-density", "excellence", "leadership", "feedback", "data-science", "hiring", "netflix", "freedom-responsibility"],
+  "themes": [
+    "culture",
+    "talent-density",
+    "excellence",
+    "leadership",
+    "feedback",
+    "data-science",
+    "hiring",
+    "netflix",
+    "freedom-responsibility"
+  ],
   "takeaways": [
     "Excellence is about outcomes and high standards, not long hours - dedication means holding yourself to a high bar and delivering for your team, not sacrificing vacations or working weekends.",
     "High talent density is the prerequisite for all other culture elements at Netflix - you can't have candor, freedom, or responsibility without excellent people first.",
@@ -180,11 +274,11 @@
   ],
   "zone_influence": {
     "velocity": 0.04,
-    "perfection": 0.30,
+    "perfection": 0.3,
     "discovery": 0.12,
     "data": 0.04,
-    "intuition": 0.00,
-    "alignment": 0.30,
+    "intuition": 0,
+    "alignment": 0.3,
     "chaos": 0.08,
     "focus": 0.12
   },
@@ -192,22 +286,37 @@
     {
       "quoteId": "elizabeth-stone-q008",
       "why": "The keeper test challenges conventional notions of loyalty and job security - managers should regularly evaluate if they'd fight to keep someone, a framework many find uncomfortable",
-      "related_zones": ["perfection", "alignment"]
+      "related_zones": [
+        "perfection",
+        "alignment"
+      ]
     },
     {
       "quoteId": "elizabeth-stone-q011",
       "why": "Data teams as independent truth-tellers challenges the norm of data serving stakeholder narratives - argues for structural independence over embedded partnership",
-      "related_zones": ["data", "discovery"]
+      "related_zones": [
+        "data",
+        "discovery"
+      ]
     },
     {
       "quoteId": "elizabeth-stone-q010",
       "why": "Freedom and autonomy can be 'dangerous' without talent density - challenges the blanket advice to trust teams and get out of the way without qualification",
-      "related_zones": ["chaos", "alignment"]
+      "related_zones": [
+        "chaos",
+        "alignment"
+      ]
     }
   ],
   "guest_metadata": {
     "guest_type": "executive",
     "company_stage": "public",
-    "primary_topics": ["culture", "talent-management", "data-science", "leadership", "netflix"]
+    "primary_topics": [
+      "culture",
+      "talent-management",
+      "data-science",
+      "leadership",
+      "netflix"
+    ]
   }
 }
