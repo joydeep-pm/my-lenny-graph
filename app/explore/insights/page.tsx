@@ -23,7 +23,7 @@ import {
 const ZONE_IDS: ZoneId[] = ['velocity', 'perfection', 'discovery', 'data', 'intuition', 'alignment', 'chaos', 'focus'];
 
 export default function InsightsPage() {
-  const [selectedZone, setSelectedZone] = useState<ZoneId | 'all' | 'favorites'>('all');
+  const [selectedZone, setSelectedZone] = useState<ZoneId | 'all' | 'favorites' | 'fav-episodes'>('all');
   const [favoriteQuoteIds, setFavoriteQuoteIds] = useState<Set<string>>(new Set());
   const [favoriteEpisodeSlugs, setFavoriteEpisodeSlugs] = useState<Set<string>>(new Set());
   const [randomQuote, setRandomQuote] = useState<typeof allQuotes[0] | null>(null);
@@ -55,13 +55,22 @@ export default function InsightsPage() {
   }, [allQuotes]);
 
   const shuffleQuote = useCallback(() => {
-    const idx = Math.floor(Math.random() * allQuotes.length);
-    setRandomQuote(allQuotes[idx]);
-  }, [allQuotes]);
+    if (allQuotes.length <= 1) return;
+
+    // Ensure we pick a different quote
+    let newIdx: number;
+    let attempts = 0;
+    do {
+      newIdx = Math.floor(Math.random() * allQuotes.length);
+      attempts++;
+    } while (randomQuote && allQuotes[newIdx].id === randomQuote.id && attempts < 10);
+
+    setRandomQuote(allQuotes[newIdx]);
+  }, [allQuotes, randomQuote]);
 
   // Filter quotes by zone
   const filteredQuotes = useMemo(() => {
-    if (selectedZone === 'all') return allQuotes;
+    if (selectedZone === 'all' || selectedZone === 'fav-episodes') return allQuotes;
     if (selectedZone === 'favorites') {
       return allQuotes.filter(q => favoriteQuoteIds.has(q.id));
     }
@@ -78,20 +87,25 @@ export default function InsightsPage() {
     });
 
     // Sort by number of quotes (most first)
-    return Object.entries(groups)
-      .sort((a, b) => b[1].length - a[1].length)
-      .map(([slug, quotes]) => {
-        const episode = allEpisodes.find(ep => ep.slug === slug);
-        const enrichment = getEpisodeEnrichment(slug);
-        return {
-          slug,
-          guest: episode?.guest || slug,
-          quotes,
-          zoneInfluence: enrichment?.zone_influence || {},
-          takeaways: enrichment?.takeaways || []
-        };
-      });
-  }, [filteredQuotes]);
+    let entries = Object.entries(groups).sort((a, b) => b[1].length - a[1].length);
+
+    // Filter by favorite episodes if that filter is active
+    if (selectedZone === 'fav-episodes') {
+      entries = entries.filter(([slug]) => favoriteEpisodeSlugs.has(slug));
+    }
+
+    return entries.map(([slug, quotes]) => {
+      const episode = allEpisodes.find(ep => ep.slug === slug);
+      const enrichment = getEpisodeEnrichment(slug);
+      return {
+        slug,
+        guest: episode?.guest || slug,
+        quotes,
+        zoneInfluence: enrichment?.zone_influence || {},
+        takeaways: enrichment?.takeaways || []
+      };
+    });
+  }, [filteredQuotes, selectedZone, favoriteEpisodeSlugs]);
 
   const handleToggleQuoteFavorite = (quote: typeof allQuotes[0]) => {
     const isFavorited = toggleFavoriteQuote({
@@ -248,7 +262,18 @@ export default function InsightsPage() {
                 }`}
               >
                 <Heart className="w-3 h-3" />
-                FAVORITES ({favoriteQuoteIds.size})
+                <span className="hidden sm:inline">SAVED</span> QUOTES ({favoriteQuoteIds.size})
+              </button>
+              <button
+                onClick={() => setSelectedZone('fav-episodes')}
+                className={`px-4 py-2 border-2 text-sm font-bold transition-all flex items-center gap-2 ${
+                  selectedZone === 'fav-episodes'
+                    ? 'border-rose-400 bg-rose-400 text-void'
+                    : 'border-ash-darker text-ash hover:border-rose-400 hover:text-rose-400'
+                }`}
+              >
+                <Heart className="w-3 h-3" />
+                <span className="hidden sm:inline">SAVED</span> EPISODES ({favoriteEpisodeSlugs.size})
               </button>
               {ZONE_IDS.map(zoneId => {
                 const zone = zones[zoneId];
@@ -412,7 +437,7 @@ export default function InsightsPage() {
             </AnimatePresence>
           </motion.div>
 
-          {/* Empty State for Favorites */}
+          {/* Empty State for Favorite Quotes */}
           {selectedZone === 'favorites' && favoriteQuoteIds.size === 0 && (
             <motion.div
               initial={{ opacity: 0 }}
@@ -429,6 +454,27 @@ export default function InsightsPage() {
                 className="px-6 py-3 border-2 border-amber text-amber hover:bg-amber hover:text-void transition-all font-bold"
               >
                 BROWSE ALL QUOTES
+              </button>
+            </motion.div>
+          )}
+
+          {/* Empty State for Favorite Episodes */}
+          {selectedZone === 'fav-episodes' && favoriteEpisodeSlugs.size === 0 && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              className="text-center py-20"
+            >
+              <Heart className="w-12 h-12 text-ash-dark mx-auto mb-4" />
+              <div className="text-xl text-ash mb-2">No favorite episodes yet</div>
+              <div className="text-sm text-ash-dark mb-6">
+                Click the heart icon on any episode card to save it here
+              </div>
+              <button
+                onClick={() => setSelectedZone('all')}
+                className="px-6 py-3 border-2 border-amber text-amber hover:bg-amber hover:text-void transition-all font-bold"
+              >
+                BROWSE ALL EPISODES
               </button>
             </motion.div>
           )}
