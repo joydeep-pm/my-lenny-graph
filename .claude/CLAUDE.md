@@ -1,12 +1,12 @@
-# Working with Claude on PM Philosophy Map
+# Working with Claude on PM Philosophy Recommendations
 
-This document explains how to effectively collaborate with Claude on the PM Philosophy Map project.
+This document explains how to effectively collaborate with Claude on the PM Philosophy Recommendations project.
 
 ---
 
 ## 🎯 Project Overview
 
-**PM Philosophy Map** is an interactive experience where product managers discover their philosophy through a dark sci-fi quiz built from 295 episodes of Lenny's Podcast. Every insight, quote, and recommendation is grounded in actual transcript data.
+**PM Philosophy Recommendations** is an interactive experience where product managers discover their philosophy through a quiz built from Lenny's Podcast episodes. Every insight, quote, and recommendation is grounded in actual transcript data.
 
 **Live Site:** https://lenny.productbuilder.net
 **Repository:** https://github.com/renedeanda/lenny
@@ -27,22 +27,22 @@ This document explains how to effectively collaborate with Claude on the PM Phil
 │       └── update-og-images/     # OG image management
 ├── app/                          # Next.js App Router pages
 │   ├── episodes/[slug]/          # Individual episode pages
-│   ├── quiz/                     # 10-question philosophy quiz
+│   ├── quiz/                     # Philosophy quiz
 │   ├── results/                  # Philosophy profile results
 │   ├── explore/                  # Browse all episodes
 │   └── layout.tsx                # Root layout + metadata
 ├── components/                   # React components
 │   ├── VerifiedQuotes.tsx        # Quote display with filtering
 │   ├── GoogleAnalytics.tsx       # GA4 integration
-│   └── CustomCursor.tsx          # Sci-fi cursor effect
+│   └── CustomCursor.tsx          # Custom cursor effect
 ├── data/                         # Verified episode data
 │   └── verified/                 # Curated episode JSON files
 │       ├── brian-chesky.json     # Example curated episode
 │       └── verified-content.json # Master registry
 ├── episodes/                     # Raw transcript markdown files
-│   └── [slug]/transcript.md      # Episode transcripts (302 total)
+│   └── [slug]/transcript.md      # Episode transcripts
 ├── lib/                          # Core business logic
-│   ├── allEpisodes.ts            # Episode metadata (295 episodes)
+│   ├── allEpisodes.ts            # Episode metadata
 │   ├── zones.ts                  # 8 philosophy zones
 │   ├── questions.ts              # Quiz questions
 │   ├── scoring.ts                # Quiz → philosophy calculation
@@ -75,7 +75,7 @@ Extract verified quotes from Lenny's Podcast transcripts.
 
 **When to use:**
 - User asks to "curate an episode"
-- Scaling episode coverage (currently 8/302)
+- Scaling episode coverage
 - Building quote database
 
 **What it does:**
@@ -124,7 +124,7 @@ Validate dynamic sitemap generation.
 - When changing domain
 
 **What it checks:**
-- 302 total URLs (3 static + 295 episodes)
+- All episode URLs are included
 - Correct domain (lenny.productbuilder.net)
 - No localhost references
 - Valid XML structure
@@ -227,7 +227,7 @@ git push
 
 ## 🎨 Design Principles
 
-### Dark Sci-Fi Aesthetic
+### Visual Design
 - **Background:** Pure black (`#000000`)
 - **Primary:** Amber/gold (`#ffb347`)
 - **Secondary:** Crimson (`#dc143c`)
@@ -238,12 +238,12 @@ git push
 - **Real over fake:** Every quote is verifiable
 - **Grounded in transcripts:** No made-up insights
 - **Timestamp accuracy:** Link to exact moments
-- **Quality over quantity:** Better to have 8 great episodes than 100 mediocre ones
+- **Quality over quantity:** Better to curate fewer high-quality episodes than many mediocre ones
 
 ### UX Philosophy
 - **Smooth and delightful:** Animations everywhere
 - **Outside the box:** Not typical SV aesthetic
-- **Mystery:** Dark, exploratory, space-themed
+- **Mystery:** Exploratory experience
 - **No fluff:** Direct, honest, terminal-style
 
 ---
@@ -253,7 +253,7 @@ git push
 ### Core Data Files
 
 **`lib/allEpisodes.ts`**
-- 302 episode metadata
+- All episode metadata
 - Generated from transcript frontmatter
 - Used across entire app
 
@@ -268,7 +268,7 @@ git push
 - Used in quiz results
 
 **`lib/questions.ts`**
-- 7 quiz questions
+- Quiz questions
 - Each question maps to zones
 - Used in quiz flow
 
@@ -300,21 +300,19 @@ git push
 
 ## 🚧 Current Priorities
 
-### 1. Scale Episode Curation (HIGH)
-- **Current:** 8/295 episodes (2.6%)
-- **Target:** 100+ episodes (33%)
-- **Focus:** Curate 10-15 episodes per session
+### Scale Episode Curation
+- Build out verified quote database
+- Focus on quality over quantity
+- Ensure diverse zone coverage
 
-### 2. Podcast Recommendation Engine (HIGH)
-- **Goal:** Transform quiz results into episode recommendations
-- **Components:**
-  - Matching algorithm (quiz answers → quotes)
-  - Episode alignment scoring
-  - Contrarian recommendations
-  - Results page redesign
-- **Why:** Drive podcast listening and engagement
+### Podcast Recommendation Engine
+- Transform quiz results into episode recommendations
+- Matching algorithm (quiz answers → quotes)
+- Episode alignment scoring
+- Contrarian recommendations
+- Results page redesign
 
-### 3. Quality Maintenance (ONGOING)
+### Quality Maintenance
 - Run `/verify-seo` before deployments
 - Keep OG images up to date
 - Maintain transcript accuracy
@@ -415,17 +413,14 @@ git push                   # Push to remote
 
 ## 🎉 Success Metrics
 
+Track progress with:
+```bash
+npm run stats  # Coverage statistics
+```
+
 **Episode Coverage:**
-- Current: 8/302 (2.6%)
-- Target: 100+ (33%)
-
-**Verified Quotes:**
-- Current: 91 quotes
-- Target: 800+ quotes
-
-**Zone Coverage:**
-- All zones need 10+ episodes
-- Currently: 2-8 episodes per zone
+- Scale curated episode database
+- Balanced zone representation
 
 **User Engagement:**
 - Quiz completion rate
@@ -435,5 +430,5 @@ git push                   # Push to remote
 
 ---
 
-**Last Updated:** January 22, 2026
-**Current Focus:** Quality improvements complete, ready for curation scale-up and recommendation engine development
+**Last Updated:** January 27, 2026
+**Current Focus:** Scale curation and develop recommendation engine
