@@ -5,6 +5,8 @@
 export interface Episode {
   slug: string;
   guest: string;
+  company: string | null;
+  topSkills: string[];
   title: string;
   publishDate: string | null;
   duration: string | null;
@@ -34,6 +36,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "aishwarya-naresh-reganti-kiriti-badam",
     "guest": "Aishwarya Naresh Reganti + Kiriti Badam",
+    "company": "Every",
+    "topSkills": [
+      "strategy",
+      "roadmap",
+      "user research"
+    ],
     "title": "Why most AI products fail: Lessons from 50+ AI deployments at OpenAI, Google & Amazon",
     "publishDate": "2026-01-11T00:00:00.000Z",
     "duration": "1:26:22",
@@ -155,6 +163,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "molly-graham",
     "guest": "Molly Graham",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "strategy",
+      "leadership"
+    ],
     "title": "“I like being scared”: Molly Graham’s frameworks for rapid career growth | Molly Graham",
     "publishDate": "2026-01-04T00:00:00.000Z",
     "duration": "1:31:57",
@@ -276,6 +290,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "matt-macinnis",
     "guest": "Matt MacInnis",
+    "company": "Rippling",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "metrics"
+    ],
     "title": "\"I deliberately understaff every project\" | Leadership lessons from Rippling's $16B journey",
     "publishDate": "2025-12-28T00:00:00.000Z",
     "duration": "1:36:17",
@@ -397,6 +417,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "sander-schulhoff-20",
     "guest": "Sander Schulhoff 2.0",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "metrics",
+      "experimentation"
+    ],
     "title": "Why securing AI is harder than anyone expected and guardrails are failing | HackAPrompt CEO",
     "publishDate": "2025-12-21T00:00:00.000Z",
     "duration": "1:32:41",
@@ -518,6 +544,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "alexander-embiricos",
     "guest": "Alexander Embiricos",
+    "company": "OpenAI",
+    "topSkills": [
+      "AI",
+      "OpenAI",
+      "Codex"
+    ],
     "title": "Why humans are AI's biggest bottleneck (and what's coming in 2026) | Alexander Embiricos (OpenAI Codex Product Lead)",
     "publishDate": "2025-12-14T00:00:00.000Z",
     "duration": "1:25:00",
@@ -631,6 +663,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "tomer-cohen-20",
     "guest": "Tomer Cohen 2.0",
+    "company": "LinkedIn",
+    "topSkills": [
+      "growth",
+      "user research",
+      "experimentation"
+    ],
     "title": "Why AI is disrupting traditional product management | Tomer Cohen (LinkedIn CPO)",
     "publishDate": "2025-12-04T00:00:00.000Z",
     "duration": "1:07:32",
@@ -752,6 +790,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "rachel-lockett",
     "guest": "Rachel Lockett",
+    "company": "Reboot",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "A guide to difficult conversations, building high-trust teams, and designing a life you love",
     "publishDate": "2025-11-23T00:00:00.000Z",
     "duration": "1:45:19",
@@ -873,6 +917,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "stewart-butterfield",
     "guest": "Stewart Butterfield",
+    "company": "Slack",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "prioritization"
+    ],
     "title": "Mental models for building products people love ft. Stewart Butterfield",
     "publishDate": "2025-11-20T00:00:00.000Z",
     "duration": "1:30:36",
@@ -994,6 +1044,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "melanie-perkins",
     "guest": "Melanie Perkins",
+    "company": "Canva",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "leadership"
+    ],
     "title": "She turned 100+ rejections into a $42B company | Melanie Perkins",
     "publishDate": "2025-11-02T00:00:00.000Z",
     "duration": "1:06:10",
@@ -1115,6 +1171,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "dhanji-r-prasanna",
     "guest": "Dhanji R. Prasanna",
+    "company": "Square",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
     "publishDate": "2025-10-26T00:00:00.000Z",
     "duration": "1:26:42",
@@ -1236,6 +1298,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "chip-huyen",
     "guest": "Chip Huyen",
+    "company": "Nvidia",
+    "topSkills": [
+      "strategy",
+      "metrics",
+      "hiring"
+    ],
     "title": "Al Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
     "publishDate": "2025-10-23T00:00:00.000Z",
     "duration": "1:22:36",
@@ -1357,6 +1425,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "nicole-forsgren-20",
     "guest": "Nicole Forsgren 2.0",
+    "company": "Accel",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "metrics"
+    ],
     "title": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
     "publishDate": "2025-10-19T00:00:00.000Z",
     "duration": "1:07:48",
@@ -1478,6 +1552,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "robby-stein",
     "guest": "Robby Stein",
+    "company": "Google",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Inside Google's AI turnaround: AI Mode, AI Overviews, and vision for AI-powered search | Robby Stein",
     "publishDate": "2025-10-10T00:00:00.000Z",
     "duration": "1:21:38",
@@ -1599,6 +1679,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "albert-cheng",
     "guest": "Albert Cheng",
+    "company": "Duolingo",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "user research"
+    ],
     "title": "Finding hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
     "publishDate": "2025-10-05T00:00:00.000Z",
     "duration": "1:25:25",
@@ -1720,6 +1806,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "julie-zhuo-20",
     "guest": "Julie Zhuo 2.0",
+    "company": "Meta",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "metrics"
+    ],
     "title": "From managing people to managing AI: The leadership skills everyone needs now | Julie Zhuo",
     "publishDate": "2025-09-21T00:00:00.000Z",
     "duration": "1:36:24",
@@ -1841,6 +1933,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "brendan-foody",
     "guest": "Brendan Foody",
+    "company": "Mercor",
+    "topSkills": [
+      "product-market fit",
+      "growth",
+      "strategy"
+    ],
     "title": "Why experts writing AI evals is creating the fastest-growing companies in history | Brendan Foody",
     "publishDate": "2025-09-18T00:00:00.000Z",
     "duration": "1:07:08",
@@ -1962,6 +2060,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "ben-horowitz",
     "guest": "Ben Horowitz",
+    "company": "a16z",
+    "topSkills": [
+      "growth",
+      "leadership",
+      "hiring"
+    ],
     "title": "$46B of hard truths: Why founders fail and why you need to run toward fear | Ben Horowitz (a16z)",
     "publishDate": "2025-09-11T00:00:00.000Z",
     "duration": "1:38:00",
@@ -2083,6 +2187,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "asha-sharma",
     "guest": "Asha Sharma",
+    "company": "Microsoft",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "How 80,000 companies build with AI: Products as organisms and the death of org charts | Asha Sharma",
     "publishDate": "2025-08-28T00:00:00.000Z",
     "duration": "57:11",
@@ -2117,6 +2227,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "brian-balfour",
     "guest": "Brian Balfour",
+    "company": "Reforge",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "metrics"
+    ],
     "title": "Why ChatGPT will be the next big growth channel (and how to capitalize on it) | Brian Balfour",
     "publishDate": "2025-08-17T00:00:00.000Z",
     "duration": "1:29:12",
@@ -2238,6 +2354,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "matt-lemay",
     "guest": "Matt LeMay",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "prioritization",
+      "user research"
+    ],
     "title": "The one question that saves product careers | Matt LeMay",
     "publishDate": "2025-08-14T00:00:00.000Z",
     "duration": "1:32:09",
@@ -2359,6 +2481,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "nick-turley",
     "guest": "Nick Turley",
+    "company": "OpenAI",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "metrics"
+    ],
     "title": "Inside ChatGPT: The fastest growing product in history | Nick Turley (OpenAI)",
     "publishDate": "2025-08-09T00:00:00.000Z",
     "duration": "1:35:38",
@@ -2480,6 +2608,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "chip-conley",
     "guest": "Chip Conley",
+    "company": "Joie",
+    "topSkills": [
+      "strategy",
+      "leadership",
+      "culture"
+    ],
     "title": "Brian Chesky's secret mentor who scaled Airbnb (after dying 9 times & building a hotel empire)",
     "publishDate": "2025-08-03T00:00:00.000Z",
     "duration": "1:19:36",
@@ -2596,6 +2730,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "bret-taylor",
     "guest": "Bret Taylor",
+    "company": "Sierra",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "leadership"
+    ],
     "title": "He saved OpenAI, invented the “Like” button, and built Google Maps: Bret Taylor (Sierra)",
     "publishDate": "2025-07-31T00:00:00.000Z",
     "duration": "1:28:58",
@@ -2717,6 +2857,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "madhavan-ramanujam-20",
     "guest": "Madhavan Ramanujam 2.0",
+    "company": "Simon",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "metrics"
+    ],
     "title": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
     "publishDate": "2025-07-27T00:00:00.000Z",
     "duration": "1:11:44",
@@ -2838,6 +2984,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "benjamin-mann",
     "guest": "Benjamin Mann",
+    "company": "Anthropic",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "leadership"
+    ],
     "title": "Anthropic co-founder: AGI predictions, leaving OpenAI, what keeps him up at night | Benjamin Mann",
     "publishDate": "2025-07-20T00:00:00.000Z",
     "duration": "1:14:59",
@@ -2954,6 +3106,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "dan-shipper",
     "guest": "Dan Shipper",
+    "company": "Every",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "metrics"
+    ],
     "title": "The AI-native startup: 5 products, 7-figure revenue, 100% AI-written code. | Dan Shipper (Every)",
     "publishDate": "2025-07-17T00:00:00.000Z",
     "duration": "1:34:57",
@@ -3075,6 +3233,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "andrew-wilkinson",
     "guest": "Andrew Wilkinson",
+    "company": "Tiny",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "metrics"
+    ],
     "title": "I’ve run 75+ businesses. Here’s why you’re probably chasing the wrong idea. | Andrew Wilkinson",
     "publishDate": "2025-07-03T00:00:00.000Z",
     "duration": "1:28:28",
@@ -3196,6 +3360,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "david-placek",
     "guest": "David Placek",
+    "company": "Lexicon Branding",
+    "topSkills": [
+      "branding",
+      "naming",
+      "brand strategy"
+    ],
     "title": "Naming expert shares the process behind creating billion-dollar brand names like Azure, Vercel, Windsurf, Sonos, Blackberry, and Impossible Burger | David Placek (Lexicon Branding)",
     "publishDate": "2025-06-29T00:00:00.000Z",
     "duration": "1:23:00",
@@ -3309,6 +3479,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "sander-schulhoff",
     "guest": "Sander Schulhoff 1.0",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "experimentation",
+      "monetization"
+    ],
     "title": "AI prompt engineering in 2025: What works and what doesn’t | Sander Schulhoff",
     "publishDate": "2025-06-19T00:00:00.000Z",
     "duration": "1:37:47",
@@ -3430,6 +3606,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "bob-baxley",
     "guest": "Bob Baxley",
+    "company": "Apple",
+    "topSkills": [
+      "strategy",
+      "roadmap",
+      "metrics"
+    ],
     "title": "35 years of product design wisdom from Apple, Disney, Pinterest and beyond | Bob Baxley",
     "publishDate": "2025-06-12T00:00:00.000Z",
     "duration": "1:41:59",
@@ -3551,6 +3733,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "mike-krieger",
     "guest": "Mike Krieger",
+    "company": "co-founder of Instagram",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Anthropic's CPO on what comes next | Mike Krieger (co-founder of Instagram)",
     "publishDate": "2025-06-05T00:00:00.000Z",
     "duration": "1:06:22",
@@ -3672,6 +3860,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "sanchan-saxena",
     "guest": "Sanchan Saxena",
+    "company": "Uber",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Why Uber’s CPO delivers food on weekends | Sachin Kansal",
     "publishDate": "2025-06-01T00:00:00.000Z",
     "duration": "1:21:57",
@@ -3793,6 +3987,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "krithika-shankarraman",
     "guest": "Krithika Shankarraman",
+    "company": "Stripe",
+    "topSkills": [
+      "growth",
+      "prioritization",
+      "user research"
+    ],
     "title": "Growth tactics from OpenAI and Stripe’s first marketer | Krithika Shankarraman",
     "publishDate": "2025-05-25T00:00:00.000Z",
     "duration": "1:14:03",
@@ -3914,6 +4114,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "mayur-kamat",
     "guest": "Mayur Kamat",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "metrics"
+    ],
     "title": "Unconventional product lessons from Binance, N26, Google, more | Mayur Kamat (CPO at N26)",
     "publishDate": "2025-05-22T00:00:00.000Z",
     "duration": "1:37:56",
@@ -4035,6 +4241,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "aparna-chennapragada",
     "guest": "Aparna Chennapragada",
+    "company": "Microsoft",
+    "topSkills": [
+      "pmf",
+      "growth",
+      "strategy"
+    ],
     "title": "Microsoft CPO: If you aren’t prototyping with AI you’re doing it wrong | Aparna Chennapragada",
     "publishDate": "2025-05-18T00:00:00.000Z",
     "duration": "1:01:13",
@@ -4156,6 +4368,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "nabeel-s-qureshi",
     "guest": "Nabeel S. Qureshi",
+    "company": "founder",
+    "topSkills": [
+      "roadmap",
+      "metrics",
+      "retention"
+    ],
     "title": "How Palantir built the ultimate founder factory | Nabeel S. Qureshi (founder, writer, ex-Palantir)",
     "publishDate": "2025-05-11T00:00:00.000Z",
     "duration": "1:37:29",
@@ -4277,6 +4495,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "kim-scott",
     "guest": "Kim Scott",
+    "company": "Cognition",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Inside Devin: The AI engineer that's set to write 50% of its company’s code this year | Scott Wu",
     "publishDate": "2025-05-04T00:00:00.000Z",
     "duration": "1:32:32",
@@ -4398,6 +4622,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "scott-wu",
     "guest": "Scott Wu",
+    "company": "Cognition",
+    "topSkills": [
+      "product-market fit",
+      "growth",
+      "strategy"
+    ],
     "title": "Inside Devin: The AI engineer that's set to write 50% of its company’s code this year | Scott Wu",
     "publishDate": "2025-05-04T00:00:00.000Z",
     "duration": "1:32:32",
@@ -4519,6 +4749,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "michael-truell",
     "guest": "Michael Truell",
+    "company": "Anysphere",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "The rise of Cursor: The $300M ARR AI tool that engineers can’t stop using | Michael Truell",
     "publishDate": "2025-05-01T00:00:00.000Z",
     "duration": "1:11:14",
@@ -4640,6 +4876,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "varun-mohan",
     "guest": "Varun Mohan",
+    "company": "Windsurf",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Building a magical AI code editor used by over 1m developers in 4 months: Inside Windsurf",
     "publishDate": "2025-04-20T00:00:00.000Z",
     "duration": "1:14:06",
@@ -4761,6 +5003,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "kevin-weil",
     "guest": "Kevin Weil",
+    "company": "Twitter",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "OpenAI’s CPO on how AI changes must-have skills, moats, coding, startup playbooks, more | Kevin Weil",
     "publishDate": "2025-04-10T00:00:00.000Z",
     "duration": "1:31:41",
@@ -4882,6 +5130,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "wes-kao-20",
     "guest": "Wes Kao 2.0",
+    "company": "entrepreneur",
+    "topSkills": [
+      "strategy",
+      "leadership",
+      "management"
+    ],
     "title": "Become a better communicator: Specific frameworks to improve your clarity, influence, and impact | Wes Kao (coach, entrepreneur, advisor)",
     "publishDate": "2025-04-06T00:00:00.000Z",
     "duration": "1:33:38",
@@ -4998,6 +5252,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "ryan-singer",
     "guest": "Ryan Singer",
+    "company": "creator of “Shape Up\"",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "experimentation"
+    ],
     "title": "A better way to plan, build, and ship products | Ryan Singer (creator of “Shape Up\")",
     "publishDate": "2025-03-30T00:00:00.000Z",
     "duration": "1:45:10",
@@ -5119,6 +5379,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "rahul-vohra",
     "guest": "Rahul Vohra",
+    "company": "Superhuman",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "metrics"
+    ],
     "title": "Superhuman's secret to success | Rahul Vohra (CEO and founder)",
     "publishDate": "2025-03-23T00:00:00.000Z",
     "duration": "1:25:08",
@@ -5240,6 +5506,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "anton-osika",
     "guest": "Anton Osika",
+    "company": "Lovable",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "Building Lovable: $10M ARR in 60 days with 15 people | Anton Osika (CEO and co-founder)",
     "publishDate": "2025-03-09T00:00:00.000Z",
     "duration": "1:09:48",
@@ -5361,6 +5633,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "matt-mullenweg",
     "guest": "Matt Mullenweg",
+    "company": "Automattic",
+    "topSkills": [
+      "leadership",
+      "WordPress",
+      "open source"
+    ],
     "title": "The creator of WordPress opens up about becoming an internet villain, why he's taking a stand, and the future of open source | Matt Mullenweg (founder and CEO, Automattic)",
     "publishDate": "2025-03-02T00:00:00.000Z",
     "duration": "1:34:00",
@@ -5474,6 +5752,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "keith-coleman-jay-baxter",
     "guest": "Keith Coleman & Jay Baxter",
+    "company": "Twitter",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "An inside look at X’s Community Notes | Keith Coleman & Jay Baxter",
     "publishDate": "2025-02-27T00:00:00.000Z",
     "duration": "1:47:58",
@@ -5595,6 +5879,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "bob-moesta-20",
     "guest": "Bob Moesta 2.0",
+    "company": "Jobs-to-be-Done co-creator",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "metrics"
+    ],
     "title": "How to find work you love | Bob Moesta (Jobs-to-be-Done co-creator, author of \"Job Moves”)",
     "publishDate": "2025-02-23T00:00:00.000Z",
     "duration": "1:24:56",
@@ -5716,6 +6006,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "uri-levine",
     "guest": "Uri Levine",
+    "company": "Waze co-founder",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "leadership"
+    ],
     "title": "A founder’s guide to crisis management | Uri Levine (Waze co-founder, serial entrepreneur)",
     "publishDate": "2025-02-16T00:00:00.000Z",
     "duration": "1:23:46",
@@ -5837,6 +6133,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "uri-levine-20",
     "guest": "Uri Levine 2.0",
+    "company": "Waze co-founder",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "A founder’s guide to crisis management | Uri Levine (Waze co-founder, serial entrepreneur)",
     "publishDate": "2025-02-16T00:00:00.000Z",
     "duration": "1:23:46",
@@ -5958,6 +6260,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "karina-nguyen",
     "guest": "Karina Nguyen",
+    "company": "Canva",
+    "topSkills": [
+      "strategy",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "OpenAI researcher on why soft skills are the future of work | Karina Nguyen",
     "publishDate": "2025-02-09T00:00:00.000Z",
     "duration": "1:14:34",
@@ -6079,6 +6387,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "tobi-lutke",
     "guest": "Tobi Lutke",
+    "company": "Shopify",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "metrics"
+    ],
     "title": "Tobi Lütke's leadership playbook: First principles, infinite games, and maximizing human potential",
     "publishDate": "2025-02-02T00:00:00.000Z",
     "duration": "1:41:43",
@@ -6200,6 +6514,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "nan-yu",
     "guest": "Nan Yu",
+    "company": "Linear",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Linear’s secret to building beloved B2B products | Nan Yu (Head of Product)",
     "publishDate": "2025-01-30T00:00:00.000Z",
     "duration": "1:21:08",
@@ -6321,6 +6641,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "chandra-janakiraman",
     "guest": "Chandra Janakiraman",
+    "company": "ex-Meta",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "An operator’s guide to product strategy | Chandra Janakiraman (CPO at VRChat, ex-Meta, Headspace)",
     "publishDate": "2025-01-26T00:00:00.000Z",
     "duration": "1:47:22",
@@ -6442,6 +6768,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "alisa-cohn",
     "guest": "Alisa Cohn",
+    "company": "executive coach",
+    "topSkills": [
+      "growth",
+      "experimentation",
+      "leadership"
+    ],
     "title": "Scripts for navigating difficult conversations | Alisa Cohn (executive coach)",
     "publishDate": "2025-01-05T00:00:00.000Z",
     "duration": "1:23:43",
@@ -6563,6 +6895,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "shaun-clowes",
     "guest": "Shaun Clowes",
+    "company": "Salesforce",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "user research"
+    ],
     "title": "Why great AI products are all about the data | Shaun Clowes (CPO at Confluent)",
     "publishDate": "2024-12-29T00:00:00.000Z",
     "duration": "1:21:35",
@@ -6684,6 +7022,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "marc-benioff",
     "guest": "Marc Benioff",
+    "company": "Salesforce",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Behind the founder: Marc Benioff",
     "publishDate": "2024-12-22T00:00:00.000Z",
     "duration": "57:19",
@@ -6718,6 +7062,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "julie-zhuo",
     "guest": "Julie Zhuo 1.0",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "strategy",
+      "metrics"
+    ],
     "title": "How To Win Friends & Influence Decisions (Julie Zhuo) | Lenny & Friends Summit 2024",
     "publishDate": "2024-12-12T00:00:00.000Z",
     "duration": "30:20",
@@ -6752,6 +7102,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "seth-godin",
     "guest": "Seth Godin",
+    "company": null,
+    "topSkills": [
+      "strategy",
+      "roadmap",
+      "metrics"
+    ],
     "title": "Seth Godin's best tactics for building remarkable products, strategies, brands and more",
     "publishDate": "2024-12-08T00:00:00.000Z",
     "duration": "45:16",
@@ -6786,6 +7142,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jonathan-lowenhar",
     "guest": "Jonathan Lowenhar",
+    "company": "Enjoy",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "experimentation"
+    ],
     "title": "How a great founder becomes a great CEO | Jonathan Lowenhar (co-founder of Enjoy The Work)",
     "publishDate": "2024-12-05T00:00:00.000Z",
     "duration": "1:34:36",
@@ -6907,6 +7269,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "amjad-masad",
     "guest": "Amjad Masad",
+    "company": "Replit",
+    "topSkills": [
+      "roadmap",
+      "experimentation",
+      "activation"
+    ],
     "title": "Behind the product: Replit | Amjad Masad (co-founder and CEO)",
     "publishDate": "2024-11-21T00:00:00.000Z",
     "duration": "1:04:09",
@@ -7028,6 +7396,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "raaz-herzberg",
     "guest": "Raaz Herzberg",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "strategy",
+      "leadership"
+    ],
     "title": "Building Wiz: the fastest-growing startup in history | Raaz Herzberg (CMO and VP Product Strategy)",
     "publishDate": "2024-11-17T00:00:00.000Z",
     "duration": "1:05:20",
@@ -7149,6 +7523,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "melissa-perri-20",
     "guest": "Melissa Perri",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Everything you’ve ever wanted to know about SAFe and the product owner role | Melissa Perri",
     "publishDate": "2024-11-10T00:00:00.000Z",
     "duration": "1:24:20",
@@ -7270,6 +7650,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "archie-abrams",
     "guest": "Archie Abrams",
+    "company": "Shopify",
+    "topSkills": [
+      "growth",
+      "experimentation",
+      "leadership"
+    ],
     "title": "Breaking the rules of growth: Why Shopify bans KPIs, optimizes for churn, prioritizes intuition, and builds toward a 100-year vision | Archie Abrams (VP Product, Head of Growth at Shopify)",
     "publishDate": "2024-11-07T00:00:00.000Z",
     "duration": "1:18:00",
@@ -7383,6 +7769,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "shreyas-doshi-20",
     "guest": "Shreyas Doshi 2.0",
+    "company": "Stripe",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Four questions to ask yourself about your career | Shreyas Doshi (Stripe, Twitter, Google)",
     "publishDate": "2024-10-31T00:00:00.000Z",
     "duration": "45:34",
@@ -7414,6 +7806,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "naomi-gleit",
     "guest": "Naomi Gleit",
+    "company": "Meta",
+    "topSkills": [
+      "product-market fit",
+      "growth",
+      "roadmap"
+    ],
     "title": "Meta’s head of product on working with Mark Zuckerberg, early growth tactics, and more | Naomi Gleit",
     "publishDate": "2024-10-27T00:00:00.000Z",
     "duration": "1:38:14",
@@ -7535,6 +7933,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "anneka-gupta",
     "guest": "Anneka Gupta",
+    "company": "Ramp",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Becoming more strategic, navigating difficult colleagues, founder mode, more | Anneka Gupta",
     "publishDate": "2024-10-17T00:00:00.000Z",
     "duration": "1:08:37",
@@ -7656,6 +8060,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "tristan-de-montebello",
     "guest": "Tristan de Montebello",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "experimentation",
+      "monetization"
+    ],
     "title": "Why most public speaking advice is wrong—and how to finally overcome anxiety | Tristan de Montebello",
     "publishDate": "2024-10-13T00:00:00.000Z",
     "duration": "1:56:31",
@@ -7777,6 +8187,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "john-mark-nickels",
     "guest": "John Mark Nickels",
+    "company": "Uber",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Conscious leadership: Unlocking vision, strategy and purpose | JM Nickels (Uber, Waymo, DoorDash)",
     "publishDate": "2024-10-06T00:00:00.000Z",
     "duration": "1:18:06",
@@ -7898,6 +8314,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "alex-komoroske",
     "guest": "Alex Komoroske",
+    "company": "Google",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Thinking like a gardener, slime mold, the adjacent possible: Product advice from Alex Komoroske",
     "publishDate": "2024-10-03T00:00:00.000Z",
     "duration": "1:24:38",
@@ -8019,6 +8441,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "benjamin-lauzier",
     "guest": "Benjamin Lauzier",
+    "company": "Lyft",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "experimentation"
+    ],
     "title": "How marketplaces win: Liquidity, growth levers, quality, more | Benjamin Lauzier (Lyft, Thumbtack)",
     "publishDate": "2024-09-29T00:00:00.000Z",
     "duration": "1:24:03",
@@ -8140,6 +8568,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "tamar-yehoshua",
     "guest": "Tamar Yehoshua",
+    "company": "Slack",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Lessons in product leadership and AI strategy from Glean, Google, Amazon, and Slack | Tamar Yehoshua",
     "publishDate": "2024-09-26T00:00:00.000Z",
     "duration": "1:17:24",
@@ -8261,6 +8695,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "camille-fournier",
     "guest": "Camille Fournier",
+    "company": "“The Manager’s Path”",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "The things engineers are desperate for PMs to understand | Camille Fournier (“The Manager’s Path”)",
     "publishDate": "2024-09-15T00:00:00.000Z",
     "duration": "1:23:15",
@@ -8382,6 +8822,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "phyl-terry",
     "guest": "Phyl Terry",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "strategy",
+      "retention"
+    ],
     "title": "Land your dream job in today’s market: negotiation tactics, job search councils, more | Phyl Terry",
     "publishDate": "2024-09-12T00:00:00.000Z",
     "duration": "1:51:30",
@@ -8503,6 +8949,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "tomer-cohen",
     "guest": "Tomer Cohen 1.0",
+    "company": "LinkedIn",
+    "topSkills": [
+      "strategy",
+      "leadership",
+      "culture"
+    ],
     "title": "How LinkedIn became interesting: The inside story | Tomer Cohen (CPO at LinkedIn)",
     "publishDate": "2024-09-08T00:00:00.000Z",
     "duration": "1:09:01",
@@ -8620,6 +9072,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "sean-ellis",
     "guest": "Sean Ellis",
+    "company": null,
+    "topSkills": [
+      "product-market fit",
+      "pmf",
+      "growth"
+    ],
     "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
     "publishDate": "2024-09-05T00:00:00.000Z",
     "duration": "1:44:26",
@@ -8741,6 +9199,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "nikita-bier",
     "guest": "Nikita Bier",
+    "company": "co-founder of TBH",
+    "topSkills": [
+      "growth",
+      "consumer apps",
+      "viral growth"
+    ],
     "title": "How to consistently go viral: Nikita Bier's playbook for winning at consumer apps (co-founder of TBH, Gas, advisor, investor)",
     "publishDate": "2024-08-25T00:00:00.000Z",
     "duration": "1:38:00",
@@ -8855,6 +9319,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "deb-liu",
     "guest": "Deb Liu",
+    "company": "Ancestry",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Succeeding as an introvert, building zero-to-one, and PM’ing your career like a product | Deb Liu",
     "publishDate": "2024-08-22T00:00:00.000Z",
     "duration": "1:11:26",
@@ -8976,6 +9446,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "kevin-yien",
     "guest": "Kevin Yien",
+    "company": "Stripe",
+    "topSkills": [
+      "product-market fit",
+      "growth",
+      "roadmap"
+    ],
     "title": "Unorthodox PM tips: Automating user insights, unselling candidates, decision logs, more | Kevin Yien",
     "publishDate": "2024-08-18T00:00:00.000Z",
     "duration": "1:28:41",
@@ -9097,6 +9573,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "joe-hudson",
     "guest": "Joe Hudson",
+    "company": "Art of Accomplishment",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "How embracing your emotions will accelerate your career | Joe Hudson (Art of Accomplishment)",
     "publishDate": "2024-08-08T00:00:00.000Z",
     "duration": "1:18:47",
@@ -9218,6 +9700,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "brian-tolkin",
     "guest": "Brian Tolkin",
+    "company": "ex-Uber",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Lessons from scaling Uber and Opendoor | Brian Tolkin (Head of Product at Opendoor, ex-Uber)",
     "publishDate": "2024-08-04T00:00:00.000Z",
     "duration": "1:14:40",
@@ -9339,6 +9827,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "timothy-davis",
     "guest": "Timothy Davis",
+    "company": "Shopify",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "user research"
+    ],
     "title": "The ultimate guide to paid growth | Timothy Davis (Shopify)",
     "publishDate": "2024-07-28T00:00:00.000Z",
     "duration": "1:42:04",
@@ -9460,6 +9954,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "roger-martin",
     "guest": "Roger Martin",
+    "company": "speaker",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "user research"
+    ],
     "title": "5 essential questions to craft a winning strategy | Roger Martin (author, advisor, speaker)",
     "publishDate": "2024-07-25T00:00:00.000Z",
     "duration": "1:22:03",
@@ -9581,6 +10081,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "mike-maples-jr",
     "guest": "Mike Maples Jr",
+    "company": "Partner at Floodgate",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Pattern Breakers: How to find a breakthrough startup idea | Mike Maples, Jr. (Partner at Floodgate)",
     "publishDate": "2024-07-07T00:00:00.000Z",
     "duration": "1:49:14",
@@ -9702,6 +10208,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "ami-vora",
     "guest": "Ami Vora",
+    "company": "ex-WhatsApp",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Making an impact through authenticity and curiosity | Ami Vora (CPO at Faire, ex-WhatsApp, FB, IG)",
     "publishDate": "2024-06-23T00:00:00.000Z",
     "duration": "1:23:59",
@@ -9823,6 +10335,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "tanguy-crusson",
     "guest": "Tanguy Crusson",
+    "company": "Atlassian",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "Hard-won lessons building 0 to 1 inside Atlassian | Tanguy Crusson (Head of Jira Product Discovery)",
     "publishDate": "2024-06-16T00:00:00.000Z",
     "duration": "1:54:03",
@@ -9944,6 +10462,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "cam-adams",
     "guest": "Cam Adams",
+    "company": "Canva",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Inside Canva: Coaches not managers, giving away your Legos, and embracing AI | Cameron Adams",
     "publishDate": "2024-06-02T00:00:00.000Z",
     "duration": "1:03:09",
@@ -10065,6 +10589,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "matt-dixon",
     "guest": "Matt Dixon",
+    "company": "Amazon",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "The surprising truth about what closes deals: Insights from 2.5m sales conversations | Matt Dixon",
     "publishDate": "2024-05-30T00:00:00.000Z",
     "duration": "56:39",
@@ -10099,6 +10629,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "bangaly-kaba",
     "guest": "Bangaly Kaba",
+    "company": "YT",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "Unorthodox frameworks for growing your product, career, and impact | Bangaly Kaba (YT, IG, FB)",
     "publishDate": "2024-05-26T00:00:00.000Z",
     "duration": "1:42:05",
@@ -10220,6 +10756,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "kenneth-berger",
     "guest": "Kenneth Berger",
+    "company": "exec coach",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "user research"
+    ],
     "title": "Why not asking for what you want is holding you back | Kenneth Berger (exec coach, first PM @Slack)",
     "publishDate": "2024-05-19T00:00:00.000Z",
     "duration": "1:13:36",
@@ -10341,6 +10883,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "vikrama-dhiman",
     "guest": "Vikrama Dhiman",
+    "company": "Gojek",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "A framework for PM skill development | Vikrama Dhiman (Gojek)",
     "publishDate": "2024-05-12T00:00:00.000Z",
     "duration": "1:12:19",
@@ -10462,6 +11010,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "annie-duke",
     "guest": "Annie Duke",
+    "company": "Thinking In Bets",
+    "topSkills": [
+      "roadmap",
+      "user research",
+      "leadership"
+    ],
     "title": "This will make you a better decision maker | Annie Duke (Thinking In Bets, former pro poker player)",
     "publishDate": "2024-05-02T00:00:00.000Z",
     "duration": "1:21:01",
@@ -10583,6 +11137,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "kayvon-beykpour",
     "guest": "Kayvon Beykpour",
+    "company": "Twitter",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "metrics"
+    ],
     "title": "Twitter’s ex-Head of Product on Elon, consumer products, culture, more | Kayvon Beykpour",
     "publishDate": "2024-04-28T00:00:00.000Z",
     "duration": "1:35:27",
@@ -10704,6 +11264,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "carole-robin",
     "guest": "Carole Robin",
+    "company": "Stanford professor",
+    "topSkills": [
+      "growth",
+      "experimentation",
+      "leadership"
+    ],
     "title": "How to build deeper, more robust relationships | Carole Robin (Stanford professor, “Touchy Feely”)",
     "publishDate": "2024-04-25T00:00:00.000Z",
     "duration": "1:27:00",
@@ -10825,6 +11391,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "mihika-kapoor",
     "guest": "Mihika Kapoor",
+    "company": "Figma",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Vision, conviction, and hype: How to build 0 to 1 inside a company | Mihika Kapoor (Product, Figma)",
     "publishDate": "2024-04-21T00:00:00.000Z",
     "duration": "1:40:41",
@@ -10946,6 +11518,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "dalton-caldwell",
     "guest": "Dalton Caldwell",
+    "company": "YC",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (YC)",
     "publishDate": "2024-04-18T00:00:00.000Z",
     "duration": "1:20:53",
@@ -11067,6 +11645,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "todd-jackson",
     "guest": "Todd Jackson",
+    "company": "First Round Capital",
+    "topSkills": [
+      "product-market fit",
+      "pmf",
+      "growth"
+    ],
     "title": "A framework for finding product-market fit | Todd Jackson (First Round Capital)",
     "publishDate": "2024-04-11T00:00:00.000Z",
     "duration": "1:27:13",
@@ -11188,6 +11772,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "claire-vo",
     "guest": "Claire Vo",
+    "company": "LaunchDarkly",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Bending the universe in your favor | Claire Vo (LaunchDarkly, Color, Optimizely, ChatPRD)",
     "publishDate": "2024-04-07T00:00:00.000Z",
     "duration": "1:27:45",
@@ -11309,6 +11899,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "matt-abrahams",
     "guest": "Matt Abrahams",
+    "company": "professor",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "How to speak more confidently and persuasively | Matt Abrahams (professor, speaker, author)",
     "publishDate": "2024-03-31T00:00:00.000Z",
     "duration": "1:11:58",
@@ -11430,6 +12026,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "kunal-shah",
     "guest": "Kunal Shah",
+    "company": "CRED",
+    "topSkills": [
+      "Delta 4 framework",
+      "efficiency",
+      "trust"
+    ],
     "title": "Kunal Shah on winning in India, second-order thinking, the philosophy of startups, and more",
     "publishDate": "2024-03-24T00:00:00.000Z",
     "duration": "1:18:57",
@@ -11549,6 +12151,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "noam-lovinsky",
     "guest": "Noam Lovinsky",
+    "company": "Grammarly",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "The happiness and pain of product management | Noam Lovinsky (Grammarly, FB, Thumbtack, YT)",
     "publishDate": "2024-03-17T00:00:00.000Z",
     "duration": "1:09:35",
@@ -11670,6 +12278,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "marty-cagan-20",
     "guest": "Marty Cagan 2.0",
+    "company": "Silicon Valley Product Group",
+    "topSkills": [
+      "product-market fit",
+      "growth",
+      "strategy"
+    ],
     "title": "Product management theater | Marty Cagan (Silicon Valley Product Group)",
     "publishDate": "2024-03-10T00:00:00.000Z",
     "duration": "1:25:15",
@@ -11791,6 +12405,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "ray-cao",
     "guest": "Ray Cao",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "Inside TikTok: Culture, strategy, monetization, and more | Ray Cao (Global Head of Monetization Product Strategy and Operations)",
     "publishDate": "2024-03-07T00:00:00.000Z",
     "duration": "1:11:50",
@@ -11912,6 +12532,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "boz",
     "guest": "Boz",
+    "company": "Reality",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Making Meta | Andrew ‘Boz’ Bosworth (CTO)",
     "publishDate": "2024-03-03T00:00:00.000Z",
     "duration": "1:42:21",
@@ -12033,6 +12659,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "logan-kilpatrick",
     "guest": "Logan Kilpatrick",
+    "company": "OpenAI",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "Inside OpenAI | Logan Kilpatrick (head of developer relations)",
     "publishDate": "2024-02-08T00:00:00.000Z",
     "duration": "1:08:07",
@@ -12154,6 +12786,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "megan-cook",
     "guest": "Megan Cook",
+    "company": "Jira",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Lessons from Atlassian | Megan Cook (Head of Product, Jira)",
     "publishDate": "2024-02-04T00:00:00.000Z",
     "duration": "1:21:08",
@@ -12275,6 +12913,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jonny-miller",
     "guest": "Jonny Miller",
+    "company": "Nervous Systems Mastery",
+    "topSkills": [
+      "growth",
+      "leadership",
+      "vision"
+    ],
     "title": "Managing nerves, anxiety, and burnout | Jonny Miller (Nervous Systems Mastery)",
     "publishDate": "2024-01-28T00:00:00.000Z",
     "duration": "1:14:15",
@@ -12396,6 +13040,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "richard-rumelt",
     "guest": "Richard Rumelt",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "strategy",
+      "leadership"
+    ],
     "title": "Good Strategy, Bad Strategy | Richard Rumelt",
     "publishDate": "2024-01-21T00:00:00.000Z",
     "duration": "1:49:17",
@@ -12517,6 +13167,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "sam-schillace",
     "guest": "Sam Schillace",
+    "company": "creator of Google Docs",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "leadership"
+    ],
     "title": "How to be more innovative | Sam Schillace (Microsoft deputy CTO, creator of Google Docs)",
     "publishDate": "2024-01-11T00:00:00.000Z",
     "duration": "1:27:51",
@@ -12638,6 +13294,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "will-larson",
     "guest": "Will Larson",
+    "company": "Carta",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "The engineering mindset | Will Larson (Carta, Stripe, Uber, Calm, Digg)",
     "publishDate": "2024-01-07T00:00:00.000Z",
     "duration": "1:16:53",
@@ -12759,6 +13421,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "judd-antin",
     "guest": "Judd Antin",
+    "company": "Airbnb",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "The UX Research reckoning is here | Judd Antin (Airbnb, Meta)",
     "publishDate": "2024-01-04T00:00:00.000Z",
     "duration": "1:14:35",
@@ -12880,6 +13548,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "nir-eyal",
     "guest": "Nir Eyal",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Strategies for becoming less distractible and improving focus | Nir Eyal",
     "publishDate": "2023-12-29T00:00:00.000Z",
     "duration": "1:24:42",
@@ -13001,6 +13675,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "sarah-tavel",
     "guest": "Sarah Tavel",
+    "company": "Benchmark",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "The hierarchy of engagement | Sarah Tavel (Benchmark, Greylock, Pinterest)",
     "publishDate": "2023-12-27T00:00:00.000Z",
     "duration": "1:50:55",
@@ -13122,6 +13802,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "christian-idiodi",
     "guest": "Christian Idiodi",
+    "company": "SVPG",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "The essence of product management | Christian Idiodi (SVPG)",
     "publishDate": "2023-12-21T00:00:00.000Z",
     "duration": "1:33:14",
@@ -13243,6 +13929,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "matthew-dicks",
     "guest": "Matthew Dicks",
+    "company": "Storyworthy",
+    "topSkills": [
+      "growth",
+      "hiring",
+      "conversion"
+    ],
     "title": "How to tell better stories | Matthew Dicks (Storyworthy)",
     "publishDate": "2023-12-15T00:00:00.000Z",
     "duration": "1:42:57",
@@ -13364,6 +14056,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "anuj-rathi",
     "guest": "Anuj Rathi",
+    "company": "Swiggy",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "The full-stack PM | Anuj Rathi (Swiggy, Jupiter Money, Flipkart)",
     "publishDate": "2023-12-07T00:00:00.000Z",
     "duration": "1:12:29",
@@ -13485,6 +14183,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "tom-conrad",
     "guest": "Tom Conrad",
+    "company": "Quibi",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "Billion dollar failures, and billion dollar success | Tom Conrad (Quibi, Pandora, Pets.com, Zero)",
     "publishDate": "2023-11-26T00:00:00.000Z",
     "duration": "1:40:04",
@@ -13606,6 +14310,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "paul-millerd",
     "guest": "Paul Millerd",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "strategy",
+      "hiring"
+    ],
     "title": "Redefining success, money, and belonging | Paul Millerd (The Pathless Path)",
     "publishDate": "2023-11-19T00:00:00.000Z",
     "duration": "1:04:53",
@@ -13727,6 +14437,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "melissa-perri-denise-tilles",
     "guest": "Melissa Perri + Denise Tilles",
+    "company": "Produx",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "The ultimate guide to product operations | Melissa Perri and Denise Tilles",
     "publishDate": "2023-11-16T00:00:00.000Z",
     "duration": "1:19:32",
@@ -13848,6 +14564,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "brian-chesky",
     "guest": "Brian Chesky",
+    "company": "Airbnb",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Brian Chesky’s new playbook",
     "publishDate": "2023-11-12T00:00:00.000Z",
     "duration": "1:13:28",
@@ -13969,6 +14691,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "ramesh-johari",
     "guest": "Ramesh Johari",
+    "company": "Stanford professor",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "metrics"
+    ],
     "title": "Marketplace lessons from Uber, Airbnb, Bumble, and more | Ramesh Johari (Stanford professor)",
     "publishDate": "2023-11-09T00:00:00.000Z",
     "duration": "1:23:36",
@@ -14090,6 +14818,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "maggie-crowley",
     "guest": "Maggie Crowley",
+    "company": "Toast",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "Mastering product strategy and growing as a PM | Maggie Crowley (Toast, Drift, TripAdvisor)",
     "publishDate": "2023-11-05T00:00:00.000Z",
     "duration": "1:22:34",
@@ -14211,6 +14945,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "bill-carr",
     "guest": "Bill Carr",
+    "company": "Amazon",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "metrics"
+    ],
     "title": "Unpacking Amazon’s unique ways of working | Bill Carr (author of Working Backwards)",
     "publishDate": "2023-11-02T00:00:00.000Z",
     "duration": "1:33:28",
@@ -14332,6 +15072,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "paul-adams",
     "guest": "Paul Adams",
+    "company": "Intercom",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "user research"
+    ],
     "title": "What AI means for your product strategy | Paul Adams (CPO of Intercom)",
     "publishDate": "2023-10-26T00:00:00.000Z",
     "duration": "1:23:01",
@@ -14453,6 +15199,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "april-dunford-20",
     "guest": "April Dunford 2.0",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "strategy",
+      "prioritization"
+    ],
     "title": "A step-by-step guide to crafting a sales pitch that wins | April Dunford (author of Sales Pitch)",
     "publishDate": "2023-10-22T00:00:00.000Z",
     "duration": "1:30:53",
@@ -14574,6 +15326,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "katie-dill",
     "guest": "Katie Dill",
+    "company": "Stripe",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "Building beautiful products with Stripe’s Head of Design | Katie Dill (Stripe, Airbnb, Lyft)",
     "publishDate": "2023-10-15T00:00:00.000Z",
     "duration": "1:34:01",
@@ -14695,6 +15453,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "karri-saarinen",
     "guest": "Karri Saarinen",
+    "company": "co-founder",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Inside Linear: Building with taste, craft, and focus | Karri Saarinen (co-founder, designer, CEO)",
     "publishDate": "2023-10-08T00:00:00.000Z",
     "duration": "1:39:50",
@@ -14816,6 +15580,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "lane-shackleton",
     "guest": "Lane Shackleton",
+    "company": "Coda",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "What sets great teams apart | Lane Shackleton (CPO of Coda)",
     "publishDate": "2023-10-01T00:00:00.000Z",
     "duration": "1:29:52",
@@ -14937,6 +15707,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "maya-prohovnik",
     "guest": "Maya Prohovnik",
+    "company": "Podcast",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Building Anchor, selling to Spotify, and lessons learned | Maya Prohovnik (Head of Podcast Product)",
     "publishDate": "2023-09-28T00:00:00.000Z",
     "duration": "1:07:36",
@@ -15058,6 +15834,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "nilan-peiris",
     "guest": "Nilan Peiris",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "How to drive word of mouth | Nilan Peiris (CPO of Wise)",
     "publishDate": "2023-09-24T00:00:00.000Z",
     "duration": "1:16:34",
@@ -15179,6 +15961,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "christopher-lochhead",
     "guest": "Christopher Lochhead",
+    "company": "Niche Down",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "retention"
+    ],
     "title": "How to become a category pirate | Christopher Lochhead (Author of Play Bigger, Niche Down, more)",
     "publishDate": "2023-09-17T00:00:00.000Z",
     "duration": "1:48:35",
@@ -15300,6 +16088,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "oji-udezue",
     "guest": "Oji Udezue",
+    "company": "Typeform",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "Picking sharp problems, increasing virality, and unique product frameworks | Oji Udezue (Typeform)",
     "publishDate": "2023-09-14T00:00:00.000Z",
     "duration": "1:16:16",
@@ -15421,6 +16215,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "andy-johns",
     "guest": "Andy Johns",
+    "company": "ex-FB",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "When enough is enough | Andy Johns (ex-FB, Twitter, Quora)",
     "publishDate": "2023-09-10T00:00:00.000Z",
     "duration": "1:26:32",
@@ -15542,6 +16342,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "claire-butler",
     "guest": "Claire Butler",
+    "company": "first GTM hire",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "metrics"
+    ],
     "title": "An inside look at Figma’s unique GTM motion | Claire Butler (first GTM hire)",
     "publishDate": "2023-09-07T00:00:00.000Z",
     "duration": "1:31:26",
@@ -15663,6 +16469,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "tim-holley",
     "guest": "Tim Holley",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "Inside Etsy’s product, growth, and marketplace evolution | Tim Holley (VP of Product)",
     "publishDate": "2023-09-03T00:00:00.000Z",
     "duration": "1:11:57",
@@ -15784,6 +16596,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "meltem-kuran",
     "guest": "Meltem Kuran",
+    "company": "Deel",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "prioritization"
+    ],
     "title": "An inside look at Deel’s unprecedented growth | Meltem Kuran Berkowitz (Head of Growth)",
     "publishDate": "2023-08-27T00:00:00.000Z",
     "duration": "1:11:51",
@@ -15905,6 +16723,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "bob-moesta",
     "guest": "Bob Moesta 1.0",
+    "company": "co-creator of the framework",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "experimentation"
+    ],
     "title": "The ultimate guide to JTBD | Bob Moesta (co-creator of the framework)",
     "publishDate": "2023-08-24T00:00:00.000Z",
     "duration": "1:09:55",
@@ -16026,6 +16850,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "camille-hearst",
     "guest": "Camille Hearst",
+    "company": "Fan",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Monetizing passions, scaling marketplaces, and stories from a creator economy vet | Camille Hearst",
     "publishDate": "2023-08-20T00:00:00.000Z",
     "duration": "1:03:42",
@@ -16147,6 +16977,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "austin-hay",
     "guest": "Austin Hay",
+    "company": "Reforge",
+    "topSkills": [
+      "growth",
+      "metrics",
+      "experimentation"
+    ],
     "title": "The ultimate guide to Martech | Austin Hay (Reforge, Ramp, Runway)",
     "publishDate": "2023-08-13T00:00:00.000Z",
     "duration": "1:24:37",
@@ -16268,6 +17104,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "christopher-miller",
     "guest": "Christopher Miller",
+    "company": "HubSpot",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "user research"
+    ],
     "title": "Relentless curiosity, radical accountability, and HubSpot’s winning growth formula | Chris Miller",
     "publishDate": "2023-08-10T00:00:00.000Z",
     "duration": "1:31:24",
@@ -16389,6 +17231,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "nicole-forsgren",
     "guest": "Nicole Forsgren 1.0",
+    "company": "Microsoft Research",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "metrics"
+    ],
     "title": "How to measure and improve developer productivity | Nicole Forsgren (Microsoft Research, GitHub)",
     "publishDate": "2023-07-30T00:00:00.000Z",
     "duration": "1:16:17",
@@ -16423,6 +17271,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "ronny-kohavi",
     "guest": "Ronny Kohavi",
+    "company": "Airbnb",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "metrics"
+    ],
     "title": "The ultimate guide to A/B testing | Ronny Kohavi (Airbnb, Microsoft, Amazon)",
     "publishDate": "2023-07-27T00:00:00.000Z",
     "duration": "1:23:08",
@@ -16544,6 +17398,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "noah-weiss",
     "guest": "Noah Weiss",
+    "company": "Slack",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "user research"
+    ],
     "title": "The 10 traits of great PMs, AI, and Slack’s approach to product | Noah Weiss (Slack, Google)",
     "publishDate": "2023-07-23T00:00:00.000Z",
     "duration": "1:25:34",
@@ -16665,6 +17525,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "julia-schottenstein",
     "guest": "Julia Schottenstein",
+    "company": "dbt Labs",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "prioritization"
+    ],
     "title": "M&A, competition, pricing, and investing | Julia Schottenstein (dbt Labs)",
     "publishDate": "2023-07-13T00:00:00.000Z",
     "duration": "1:00:51",
@@ -16786,6 +17652,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "paige-costello",
     "guest": "Paige Costello",
+    "company": "Asana",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "How to ask the right questions, project confidence, and win over skeptics | Paige Costello (Asana)",
     "publishDate": "2023-07-09T00:00:00.000Z",
     "duration": "1:03:21",
@@ -16907,6 +17779,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "sri-batchu",
     "guest": "Sri Batchu",
+    "company": "Ramp",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "Lessons from scaling Ramp | Sri Batchu (Ramp, Instacart, Opendoor)",
     "publishDate": "2023-06-25T00:00:00.000Z",
     "duration": "1:17:18",
@@ -17028,6 +17906,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "melissa-tan",
     "guest": "Melissa Tan",
+    "company": "Webflow",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "metrics"
+    ],
     "title": "Building high-performing teams | Melissa Tan (Webflow, Dropbox, Canva)",
     "publishDate": "2023-06-18T00:00:00.000Z",
     "duration": "1:14:42",
@@ -17149,6 +18033,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "luc-levesque",
     "guest": "Luc Levesque",
+    "company": "Shopify",
+    "topSkills": [
+      "growth",
+      "prioritization",
+      "metrics"
+    ],
     "title": "Leveraging growth advisors, mastering SEO, and honing your craft | Luc Levesque (Shopify, Meta)",
     "publishDate": "2023-06-15T00:00:00.000Z",
     "duration": "1:20:12",
@@ -17270,6 +18160,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "nikhyl-singhal",
     "guest": "Nikhyl Singhal",
+    "company": "Meta",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "metrics"
+    ],
     "title": "Building a long and meaningful career | Nikhyl Singhal (Meta, Google)",
     "publishDate": "2023-06-11T00:00:00.000Z",
     "duration": "1:25:51",
@@ -17391,6 +18287,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "nancy-duarte",
     "guest": "Nancy Duarte",
+    "company": "Duarte",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Storytelling with Nancy Duarte: How to craft compelling presentations and tell a story that sticks",
     "publishDate": "2023-06-01T00:00:00.000Z",
     "duration": "1:17:24",
@@ -17512,6 +18414,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "andy-raskin",
     "guest": "Andy Raskin",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "The power of strategic narrative | Andy Raskin",
     "publishDate": "2023-05-28T00:00:00.000Z",
     "duration": "1:02:49",
@@ -17633,6 +18541,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "scott-belsky",
     "guest": "Scott Belsky",
+    "company": "Adobe",
+    "topSkills": [
+      "growth",
+      "prioritization",
+      "metrics"
+    ],
     "title": "Lessons on product sense, AI, the first mile experience, and the messy middle | Scott Belsky (Adobe)",
     "publishDate": "2023-05-18T00:00:00.000Z",
     "duration": "1:02:33",
@@ -17754,6 +18668,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "ayo-omojola",
     "guest": "Ayo Omojola",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "strategy",
+      "user research"
+    ],
     "title": "Frameworks for product differentiation, team building, and first principles thinking | Ayo Omojola",
     "publishDate": "2023-05-14T00:00:00.000Z",
     "duration": "52:09",
@@ -17788,6 +18708,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jonathan-becker",
     "guest": "Jonathan Becker",
+    "company": "Thrive Digital",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "The crazy story of landing Uber as a client | Jonathan Becker (Thrive Digital)",
     "publishDate": "2023-05-12T00:00:00.000Z",
     "duration": "2:02",
@@ -17909,6 +18835,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "david-singleton",
     "guest": "David Singleton",
+    "company": "Stripe",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "Building a culture of excellence | David Singleton (CTO of Stripe)",
     "publishDate": "2023-05-04T00:00:00.000Z",
     "duration": "1:30:00",
@@ -18030,6 +18962,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "carilu-dietrich",
     "guest": "Carilu Dietrich",
+    "company": "Atlassian",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "How to achieve hypergrowth in your business and career | Carilu Dietrich (Atlassian)",
     "publishDate": "2023-04-30T00:00:00.000Z",
     "duration": "1:07:20",
@@ -18149,129 +19087,14 @@ export const allEpisodes: Episode[] = [
     ]
   },
   {
-    "slug": "ada-chen-rekhi",
-    "guest": "Ada Chen Rekhi",
-    "title": "How to make better decisions and build a joyful career | Ada Chen Rekhi (Notejoy, LinkedIn)",
-    "publishDate": "2023-04-16T00:00:00.000Z",
-    "duration": "1:18:27",
-    "durationSeconds": 4707,
-    "viewCount": 14375,
-    "youtubeUrl": "https://www.youtube.com/watch?v=N64vIY2nJQo",
-    "videoId": "N64vIY2nJQo",
-    "description": "Ada Chen Rekhi is an executive coach and co-founder of Notejoy. She helps founders scale themselves alongside their teams. She has over a decade of experience leading teams through periods of rapid transition, from founding early-stage startups to leadership roles in growing SurveyMonkey and LinkedIn.\n",
-    "keywords": [
-      "growth",
-      "roadmap",
-      "user research",
-      "funnel",
-      "conversion",
-      "pricing",
-      "subscription",
-      "hiring",
-      "culture",
-      "leadership",
-      "management",
-      "strategy",
-      "vision",
-      "mission",
-      "market"
-    ],
-    "dialogueCount": 202,
-    "keyQuotesCount": 65,
-    "contrarianCount": 53,
-    "sampleQuotes": [
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:03:22",
-        "quote": "So I've heard such great things about you from a lot of people, including a bunch of guests that have been on the podcast. And you also have this really great event diagram of maybe an ideal guest for the podcast. You've done growth. You've done products. You've started a company. You're also an executive coach to founders. So there's a variety of topics I'm excited to begin too. So thanks again for being here.",
-        "length": 414
-      },
-      {
-        "speaker": "Ada Chen Rekhi",
-        "timestamp": "00:10:55",
-        "quote": "I would try to optimize for getting at least three or four responses. It just depends on the nature of the loop. And then you think about what is your response rate. So if you're emailing really busy people that you don't know very well, maybe you would assume that you only get half of people to respond. If you're emailing people really well and it's really lightweight like, yes or no, and here's why, then you might just send out a handful.",
-        "length": 444
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:11:22",
-        "quote": "Okay, awesome. So it's five to 10 people, broadly sounds like. Oh yeah, you want to make it really quick and easy. So it's like, here's 10 things, which of these two do you think I should focus on? So it's a quick ask as something you recommend, and then just thank them for it after you finish. Is that broadly the approach?",
-        "length": 325
-      },
-      {
-        "speaker": "Yep, that's the approach. One thing I want to note is that it's actually really useful for personal things as well. So we framed it in this professional context of, I'm trying to change a job. But one example that I have is when we had our daughter who's now three years old, one of the debates that my partner and I were having was how do we actually set up our estate planning in terms of if, God forbids, something happened to both of us. How should she inherit the state? And my partner was basically saying, \"18 years old, she gets everything fully unlocked.\" I was saying, \"Oh, well maybe 25.\" And we're at this impasse. And we actually just started to tell each other, why don't we, in our day-to-day conversations with folks that we trust in our family, people that we think are smart, that have kids ask people what their perspective is on it.",
-        "timestamp": "00:12:28",
-        "quote": "One thing was really telling, no one out of everyone we asked said 18. So that really dragged my partner up. And then the other thing that was really interesting was that we learned a little bit about executive function and the research around it. So executive function, which is your ability to make decisions and plans and be thoughtful peaks at the age of 30, and it's all downhill from there. So bad news for people like me that are older.",
-        "length": 443
-      },
-      {
-        "speaker": "Ada Chen Rekhi",
-        "timestamp": "00:12:57",
-        "quote": "But if you're thinking about 18, you are so far from your peak. So it dragged us both up in terms of what our set point was to make a decision like that. But we wouldn't have figured that out without a curiosity loop because it's too much work to dig through papers or research or whatever else to try to come to a good decision on it.",
-        "length": 335
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:13:14",
-        "quote": "So the core lesson here is just, versus just emailing a bunch of people, asking for advice, which I imagine people often do, just what should I do here? Creating a little bit of the structure and even calling it a curiosity loop, I bet, helps people feel like they want to be a part of this and participate and help.",
-        "length": 316
-      },
-      {
-        "speaker": "Ada Chen Rekhi",
-        "timestamp": "00:13:31",
-        "quote": "Yeah, definitely. One of the things that I always try to do is I try to explain to people in my ask, here's why I picked you. So for example, I picked you because I really trust you to be a sound source of truthful advice and give me some feedback. So I really value that. Do you mind spending a couple of minutes and just giving me some thoughts on this?",
-        "length": 355
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:13:53",
-        "quote": "And how often are you pinging people? If you're a friend of Ada, are you getting curiosity looped every week, or how often? What's your rate limit?",
-        "length": 147
-      },
-      {
-        "speaker": "Ada Chen Rekhi",
-        "timestamp": "00:14:02",
-        "quote": "I usually reserve it for bigger things. So probably quarterly or anything where I'm having a big debate, and I'm feeling really indecisive.",
-        "length": 139
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:14:12",
-        "quote": "Awesome. It also makes me think about this idea of a personal board of directors, and this feels like an asynchronous approach to that concept where instead of a call every, I don't know, quarter month with small group, it's asynchronous. Here's an ask I have-",
-        "length": 260
-      }
-    ],
-    "sampleContrarian": [
-      {
-        "speaker": "Ada Chen Rekhi",
-        "timestamp": "00:00:00",
-        "text": "It's a terrible outcome to wake up one day and be late career and feel trapped because you have a certain lifestyle or a certain expectations of the people around you that you have to go work this job, but then you look at yourself in the mirror and you're not happy going in there. I think that's a terrible trap that we should all try to avoid as we navigate our career paths and find the thing that's most optimal for us. Which is usually a mix of career success, but also meaningfulness and alignment in the work that we're doing with our values."
-      },
-      {
-        "speaker": "Ada Chen Rekhi",
-        "timestamp": "00:04:08",
-        "text": "A curiosity loop is essentially going to a whole bunch of people. In this case, I sent out an email very quickly to about 10 or 11 people and asking them, \"Hey, here are nine topics for Lenny's Podcast. What are two or three of the topics that resonate with you and why?\" And I got back such an incredible amount of information for about 20 minutes of work. I don't normally do this, but I actually showed you some of the anonymized feedback from people really just talking about what resonated and what didn't. So I came out of it just so much smarter, and curiosity loops are my method of doing so."
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:04:42",
-        "text": "Often, people ask friends for advice on just like, \"Hey, what should I do here? What can I maybe talk about on this podcast?\" Your approach had a lot of structure to it. So maybe two questions just like, what is the actual structure to this concept? And then two, just people... You can often ask friends for advice, but you also don't want to over bug them with questions. How do you think about just not over asking everyone questions all the time, but all decisions you want to make? So I guess the question is, when do you use this versus just not?"
-      },
-      {
-        "speaker": "Ask the question in a way that really gets you a useful constructive answer, but doesn't put too much weight on people. So what I usually like to do is just make it very lightweight. So in your case, I said, \"Here are nine topics. Can you pick your top two and tell me why you like them?\" Some people went above and beyond and scrolled through and gave me feedback on every single topic. Some of them just said, \"Here are my top two, and here's one I think you should avoid.\" I wanted to design it in a way where if you're a busy founder, you're a busy product person, which is the list that I chose for this curiosity loop, you would be able to sit down on your couch at the end of the night, read this interesting email and tap out a quick reply and give me that answer. Because the risk that you're running is either you're getting poor answers or you're getting a really low response rate because you've given them way too much cognitive load in terms of answering it.",
-        "timestamp": "00:09:35",
-        "text": "And then finally, to close the loop, I think a big piece of it is processing that information and then thanking them for it. So a big misconception that people have when they're really getting into this work of asking for advice or input from other people in the community is often that it's really one-sided. I'm asking you for help and you're getting nothing out of it. The reminder that I would have for all of you is that it feels really good to help someone. It feels really good to be heard and give input. And a big piece of that is, if someone comes to you and they said, \"You gave me this advice, it changed my life. Maybe it's not at that level, but it really affected my decision and here's how it turned out. Thank you so much.\" That feels so good, especially if you only spent a few minutes giving them the input that enabled them to make a better decision."
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:10:21",
-        "text": "So to summarize, I wrote these pieces down. The concept broadly is if you want advice on a decision you're trying to make, pick some friends and this is... I guess I'll go through the four things you just mentioned. And part two is actually pick the right friends. But one is just, come up with a question that's specific. As in just like, what should I do with my life? But more, should I take the specific role at the specific company? Figure out the people that know you well and maybe have some context on this decision. How many people do you usually email for this sort of thing? What's a number?"
-      }
-    ]
-  },
-  {
     "slug": "varun-parmar",
     "guest": "Varun Parmar",
+    "company": "Miro",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "An inside look at how Miro builds product | Varun Parmar (CPO of Miro)",
     "publishDate": "2023-04-20T00:00:00.000Z",
     "duration": "1:25:11",
@@ -18391,8 +19214,141 @@ export const allEpisodes: Episode[] = [
     ]
   },
   {
+    "slug": "ada-chen-rekhi",
+    "guest": "Ada Chen Rekhi",
+    "company": "Notejoy",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
+    "title": "How to make better decisions and build a joyful career | Ada Chen Rekhi (Notejoy, LinkedIn)",
+    "publishDate": "2023-04-16T00:00:00.000Z",
+    "duration": "1:18:27",
+    "durationSeconds": 4707,
+    "viewCount": 14375,
+    "youtubeUrl": "https://www.youtube.com/watch?v=N64vIY2nJQo",
+    "videoId": "N64vIY2nJQo",
+    "description": "Ada Chen Rekhi is an executive coach and co-founder of Notejoy. She helps founders scale themselves alongside their teams. She has over a decade of experience leading teams through periods of rapid transition, from founding early-stage startups to leadership roles in growing SurveyMonkey and LinkedIn. ",
+    "keywords": [
+      "growth",
+      "roadmap",
+      "user research",
+      "funnel",
+      "conversion",
+      "pricing",
+      "subscription",
+      "hiring",
+      "culture",
+      "leadership",
+      "management",
+      "strategy",
+      "vision",
+      "mission",
+      "market"
+    ],
+    "dialogueCount": 202,
+    "keyQuotesCount": 65,
+    "contrarianCount": 53,
+    "sampleQuotes": [
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:03:22",
+        "quote": "So I've heard such great things about you from a lot of people, including a bunch of guests that have been on the podcast. And you also have this really great event diagram of maybe an ideal guest for the podcast. You've done growth. You've done products. You've started a company. You're also an executive coach to founders. So there's a variety of topics I'm excited to begin too. So thanks again for being here.",
+        "length": 414
+      },
+      {
+        "speaker": "Ada Chen Rekhi",
+        "timestamp": "00:10:55",
+        "quote": "I would try to optimize for getting at least three or four responses. It just depends on the nature of the loop. And then you think about what is your response rate. So if you're emailing really busy people that you don't know very well, maybe you would assume that you only get half of people to respond. If you're emailing people really well and it's really lightweight like, yes or no, and here's why, then you might just send out a handful.",
+        "length": 444
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:11:22",
+        "quote": "Okay, awesome. So it's five to 10 people, broadly sounds like. Oh yeah, you want to make it really quick and easy. So it's like, here's 10 things, which of these two do you think I should focus on? So it's a quick ask as something you recommend, and then just thank them for it after you finish. Is that broadly the approach?",
+        "length": 325
+      },
+      {
+        "speaker": "Yep, that's the approach. One thing I want to note is that it's actually really useful for personal things as well. So we framed it in this professional context of, I'm trying to change a job. But one example that I have is when we had our daughter who's now three years old, one of the debates that my partner and I were having was how do we actually set up our estate planning in terms of if, God forbids, something happened to both of us. How should she inherit the state? And my partner was basically saying, \"18 years old, she gets everything fully unlocked.\" I was saying, \"Oh, well maybe 25.\" And we're at this impasse. And we actually just started to tell each other, why don't we, in our day-to-day conversations with folks that we trust in our family, people that we think are smart, that have kids ask people what their perspective is on it.",
+        "timestamp": "00:12:28",
+        "quote": "One thing was really telling, no one out of everyone we asked said 18. So that really dragged my partner up. And then the other thing that was really interesting was that we learned a little bit about executive function and the research around it. So executive function, which is your ability to make decisions and plans and be thoughtful peaks at the age of 30, and it's all downhill from there. So bad news for people like me that are older.",
+        "length": 443
+      },
+      {
+        "speaker": "Ada Chen Rekhi",
+        "timestamp": "00:12:57",
+        "quote": "But if you're thinking about 18, you are so far from your peak. So it dragged us both up in terms of what our set point was to make a decision like that. But we wouldn't have figured that out without a curiosity loop because it's too much work to dig through papers or research or whatever else to try to come to a good decision on it.",
+        "length": 335
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:13:14",
+        "quote": "So the core lesson here is just, versus just emailing a bunch of people, asking for advice, which I imagine people often do, just what should I do here? Creating a little bit of the structure and even calling it a curiosity loop, I bet, helps people feel like they want to be a part of this and participate and help.",
+        "length": 316
+      },
+      {
+        "speaker": "Ada Chen Rekhi",
+        "timestamp": "00:13:31",
+        "quote": "Yeah, definitely. One of the things that I always try to do is I try to explain to people in my ask, here's why I picked you. So for example, I picked you because I really trust you to be a sound source of truthful advice and give me some feedback. So I really value that. Do you mind spending a couple of minutes and just giving me some thoughts on this?",
+        "length": 355
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:13:53",
+        "quote": "And how often are you pinging people? If you're a friend of Ada, are you getting curiosity looped every week, or how often? What's your rate limit?",
+        "length": 147
+      },
+      {
+        "speaker": "Ada Chen Rekhi",
+        "timestamp": "00:14:02",
+        "quote": "I usually reserve it for bigger things. So probably quarterly or anything where I'm having a big debate, and I'm feeling really indecisive.",
+        "length": 139
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:14:12",
+        "quote": "Awesome. It also makes me think about this idea of a personal board of directors, and this feels like an asynchronous approach to that concept where instead of a call every, I don't know, quarter month with small group, it's asynchronous. Here's an ask I have-",
+        "length": 260
+      }
+    ],
+    "sampleContrarian": [
+      {
+        "speaker": "Ada Chen Rekhi",
+        "timestamp": "00:00:00",
+        "text": "It's a terrible outcome to wake up one day and be late career and feel trapped because you have a certain lifestyle or a certain expectations of the people around you that you have to go work this job, but then you look at yourself in the mirror and you're not happy going in there. I think that's a terrible trap that we should all try to avoid as we navigate our career paths and find the thing that's most optimal for us. Which is usually a mix of career success, but also meaningfulness and alignment in the work that we're doing with our values."
+      },
+      {
+        "speaker": "Ada Chen Rekhi",
+        "timestamp": "00:04:08",
+        "text": "A curiosity loop is essentially going to a whole bunch of people. In this case, I sent out an email very quickly to about 10 or 11 people and asking them, \"Hey, here are nine topics for Lenny's Podcast. What are two or three of the topics that resonate with you and why?\" And I got back such an incredible amount of information for about 20 minutes of work. I don't normally do this, but I actually showed you some of the anonymized feedback from people really just talking about what resonated and what didn't. So I came out of it just so much smarter, and curiosity loops are my method of doing so."
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:04:42",
+        "text": "Often, people ask friends for advice on just like, \"Hey, what should I do here? What can I maybe talk about on this podcast?\" Your approach had a lot of structure to it. So maybe two questions just like, what is the actual structure to this concept? And then two, just people... You can often ask friends for advice, but you also don't want to over bug them with questions. How do you think about just not over asking everyone questions all the time, but all decisions you want to make? So I guess the question is, when do you use this versus just not?"
+      },
+      {
+        "speaker": "Ask the question in a way that really gets you a useful constructive answer, but doesn't put too much weight on people. So what I usually like to do is just make it very lightweight. So in your case, I said, \"Here are nine topics. Can you pick your top two and tell me why you like them?\" Some people went above and beyond and scrolled through and gave me feedback on every single topic. Some of them just said, \"Here are my top two, and here's one I think you should avoid.\" I wanted to design it in a way where if you're a busy founder, you're a busy product person, which is the list that I chose for this curiosity loop, you would be able to sit down on your couch at the end of the night, read this interesting email and tap out a quick reply and give me that answer. Because the risk that you're running is either you're getting poor answers or you're getting a really low response rate because you've given them way too much cognitive load in terms of answering it.",
+        "timestamp": "00:09:35",
+        "text": "And then finally, to close the loop, I think a big piece of it is processing that information and then thanking them for it. So a big misconception that people have when they're really getting into this work of asking for advice or input from other people in the community is often that it's really one-sided. I'm asking you for help and you're getting nothing out of it. The reminder that I would have for all of you is that it feels really good to help someone. It feels really good to be heard and give input. And a big piece of that is, if someone comes to you and they said, \"You gave me this advice, it changed my life. Maybe it's not at that level, but it really affected my decision and here's how it turned out. Thank you so much.\" That feels so good, especially if you only spent a few minutes giving them the input that enabled them to make a better decision."
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:10:21",
+        "text": "So to summarize, I wrote these pieces down. The concept broadly is if you want advice on a decision you're trying to make, pick some friends and this is... I guess I'll go through the four things you just mentioned. And part two is actually pick the right friends. But one is just, come up with a question that's specific. As in just like, what should I do with my life? But more, should I take the specific role at the specific company? Figure out the people that know you well and maybe have some context on this decision. How many people do you usually email for this sort of thing? What's a number?"
+      }
+    ]
+  },
+  {
     "slug": "casey-winters-20",
     "guest": "Casey Winters 2.0",
+    "company": "Pinterest",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Thinking beyond frameworks | Casey Winters (Pinterest, Eventbrite, Airbnb, Reddit)",
     "publishDate": "2023-04-14T00:00:00.000Z",
     "duration": "1:17:44",
@@ -18514,6 +19470,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "laura-modi",
     "guest": "Laura Modi",
+    "company": "Bobbie",
+    "topSkills": [
+      "leadership",
+      "culture",
+      "Bobbie"
+    ],
     "title": "How to build a cult-like brand | Laura Modi (Bobbie)",
     "publishDate": "2023-04-13T00:00:00.000Z",
     "duration": "1:00:41",
@@ -18628,6 +19590,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "shweta-shriva",
     "guest": "Shweta Shriva",
+    "company": "Waymo",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "prioritization"
+    ],
     "title": "Product lessons from Waymo | Shweta Shrivastava (Waymo, Amazon, Cisco)",
     "publishDate": "2023-04-09T00:00:00.000Z",
     "duration": "42:16",
@@ -18662,6 +19630,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "nikita-miller",
     "guest": "Nikita Miller",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "strategy",
+      "prioritization"
+    ],
     "title": "Driving alignment within teams, work-life balance, and the changing PM landscape | Nikita Miller",
     "publishDate": "2023-04-06T00:00:00.000Z",
     "duration": "59:20",
@@ -18696,6 +19670,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "lulu-cheng-meservey",
     "guest": "Lulu Cheng Meservey",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "strategy",
+      "metrics"
+    ],
     "title": "Gain attention as an underdog with this framework | Lulu Cheng Meservey",
     "publishDate": "2023-03-27T00:00:00.000Z",
     "duration": "2:44",
@@ -18817,6 +19797,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "kevin-aluwi",
     "guest": "Kevin Aluwi",
+    "company": "Gojek",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Taxi mafias, cash vaults & 100% MoM growth: The story of SEA’s biggest startup | Kevin Aluwi (Gojek)",
     "publishDate": "2023-03-26T00:00:00.000Z",
     "duration": "1:02:51",
@@ -18938,6 +19924,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "josh-miller",
     "guest": "Josh Miller",
+    "company": "The",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Competing with giants: An inside look at how The Browser Company builds product | Josh Miller (CEO)",
     "publishDate": "2023-03-19T00:00:00.000Z",
     "duration": "1:28:38",
@@ -19059,6 +20051,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "christina-wodtke",
     "guest": "Christina Wodtke",
+    "company": "Stanford",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "The ultimate guide to OKRs | Christina Wodtke (Stanford)",
     "publishDate": "2023-03-16T00:00:00.000Z",
     "duration": "1:13:13",
@@ -19180,6 +20178,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "sriram-and-aarthi",
     "guest": "Sriram and Aarthi",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "strategy",
+      "leadership"
+    ],
     "title": "Hot takes and techno-optimism from tech’s top power couple | Sriram and Aarthi",
     "publishDate": "2023-03-12T00:00:00.000Z",
     "duration": "1:22:52",
@@ -19301,6 +20305,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "laura-schaffer",
     "guest": "Laura Schaffer",
+    "company": "Amplitude",
+    "topSkills": [
+      "growth",
+      "prioritization",
+      "metrics"
+    ],
     "title": "Career frameworks, A/B testing, onboarding tips, selling to engineers |  Laura Schaffer (Amplitude)",
     "publishDate": "2023-03-09T00:00:00.000Z",
     "duration": "1:21:13",
@@ -19422,6 +20432,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "claire-hughes-johnson",
     "guest": "Claire Hughes Johnson",
+    "company": "Google",
+    "topSkills": [
+      "pmf",
+      "growth",
+      "strategy"
+    ],
     "title": "Lessons from scaling Stripe | Claire Hughes Johnson (ex-COO of Stripe)",
     "publishDate": "2023-03-05T00:00:00.000Z",
     "duration": "1:21:17",
@@ -19543,6 +20559,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "annie-pearl",
     "guest": "Annie Pearl",
+    "company": "Calendly",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "Behind the scenes of Calendly’s rapid growth | Annie Pearl (CPO)",
     "publishDate": "2023-02-26T00:00:00.000Z",
     "duration": "1:01:49",
@@ -19664,6 +20686,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "upasna-gautam",
     "guest": "Upasna Gautam",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "leadership"
+    ],
     "title": "An inside look at how CNN builds product | Upasna Gautam",
     "publishDate": "2023-02-23T00:00:00.000Z",
     "duration": "58:12",
@@ -19698,6 +20726,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "patrick-campbell",
     "guest": "Patrick Campbell",
+    "company": "ProfitWell",
+    "topSkills": [
+      "growth",
+      "user research",
+      "metrics"
+    ],
     "title": "10 lessons on bootstrapping a $200m business | Patrick Campbell (ProfitWell)",
     "publishDate": "2023-02-19T00:00:00.000Z",
     "duration": "1:13:37",
@@ -19819,6 +20853,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "christine-itwaru",
     "guest": "Christine Itwaru",
+    "company": "Pendo",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Understanding the role of product ops | Christine Itwaru (Pendo)",
     "publishDate": "2023-02-16T00:00:00.000Z",
     "duration": "1:06:40",
@@ -19940,6 +20980,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "lauryn-isford",
     "guest": "Lauryn Isford",
+    "company": "Airtable",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
     "publishDate": "2023-02-12T00:00:00.000Z",
     "duration": "1:04:21",
@@ -20061,6 +21107,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "keith-yandell",
     "guest": "Keith Yandell",
+    "company": "DoorDash",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "leadership"
+    ],
     "title": "Leading with empathy | Keith Yandell (DoorDash, Uber)",
     "publishDate": "2023-02-09T00:00:00.000Z",
     "duration": "55:51",
@@ -20095,6 +21147,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "marily-nika",
     "guest": "Marily Nika",
+    "company": "Meta",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "metrics"
+    ],
     "title": "AI and product management | Marily Nika (Meta, Google)",
     "publishDate": "2023-02-05T00:00:00.000Z",
     "duration": "48:02",
@@ -20129,6 +21187,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "zoelle-egner",
     "guest": "Zoelle Egner",
+    "company": "Airtable",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "metrics"
+    ],
     "title": "Lessons from Airtable’s unconventional growth strategy | Zoelle Egner",
     "publishDate": "2023-01-29T00:00:00.000Z",
     "duration": "1:13:52",
@@ -20250,6 +21314,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "vijay",
     "guest": "Vijay",
+    "company": "Mixpanel",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "An inside look at Mixpanel’s product journey | Vijay Iyengar",
     "publishDate": "2023-01-26T00:00:00.000Z",
     "duration": "46:51",
@@ -20284,6 +21354,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "april-dunford",
     "guest": "April Dunford 1.0",
+    "company": "Obviously Awesome",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "prioritization"
+    ],
     "title": "How to nail your product positioning | April Dunford (Obviously Awesome)",
     "publishDate": "2023-01-22T00:00:00.000Z",
     "duration": "1:05:39",
@@ -20318,6 +21394,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "matt-mochary",
     "guest": "Matt Mochary",
+    "company": "Mochary",
+    "topSkills": [
+      "growth",
+      "leadership",
+      "hiring"
+    ],
     "title": "Are your fears giving you terrible advice? | Matt Mochary",
     "publishDate": "2023-01-17T00:00:00.000Z",
     "duration": "7:00",
@@ -20439,6 +21521,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "john-cutler",
     "guest": "John Cutler",
+    "company": "Amplitude",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "What differentiates the highest-performing product teams | John Cutler (The Beautiful Mess)",
     "publishDate": "2023-01-15T00:00:00.000Z",
     "duration": "1:40:44",
@@ -20560,6 +21648,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "naomi-ionita",
     "guest": "Naomi Ionita",
+    "company": "Menlo Ventures",
+    "topSkills": [
+      "product-market fit",
+      "growth",
+      "roadmap"
+    ],
     "title": "How to price your product | Naomi Ionita (Menlo Ventures)",
     "publishDate": "2023-01-12T00:00:00.000Z",
     "duration": "53:17",
@@ -20594,6 +21688,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "yuhki-yamashata",
     "guest": "Yuhki Yamashata",
+    "company": "Google",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "An inside look at how Figma builds product | Yuhki Yamashita (CPO of Figma)",
     "publishDate": "2023-01-08T00:00:00.000Z",
     "duration": "1:08:36",
@@ -20715,6 +21815,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jules-walter",
     "guest": "Jules Walter",
+    "company": "YouTube",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Leveraging mentors to uplevel your career | Jules Walter (YouTube, Slack)",
     "publishDate": "2023-01-05T00:00:00.000Z",
     "duration": "1:10:27",
@@ -20836,6 +21942,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "chris-hutchins",
     "guest": "Chris Hutchins",
+    "company": "All the Hacks",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Launching and growing a podcast | Chris Hutchins (All the Hacks, Wealthfront, Google)",
     "publishDate": "2022-12-18T00:00:00.000Z",
     "duration": "1:17:35",
@@ -20957,6 +22069,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "pete-kazanjy",
     "guest": "Pete Kazanjy",
+    "company": "Founding Sales",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "metrics"
+    ],
     "title": "Founder-led sales | Pete Kazanjy (Founding Sales, Atrium)",
     "publishDate": "2022-12-15T00:00:00.000Z",
     "duration": "1:01:41",
@@ -21078,6 +22196,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "camille-ricketts",
     "guest": "Camille Ricketts",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "metrics",
+      "experimentation"
+    ],
     "title": "How Notion leveraged community to build a $10B business | Camille Ricketts",
     "publishDate": "2022-12-11T00:00:00.000Z",
     "duration": "1:07:36",
@@ -21199,6 +22323,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "madhavan-ramanujam",
     "guest": "Madhavan Ramanujam 1.0",
+    "company": "Monetizing Innovation",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "metrics"
+    ],
     "title": "The art and science of pricing | Madhavan Ramanujam (Monetizing Innovation, Simon-Kucher)",
     "publishDate": "2022-12-08T00:00:00.000Z",
     "duration": "1:38:33",
@@ -21233,6 +22363,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "alex-hardimen",
     "guest": "Alex Hardimen",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "An inside look at how the New York Times builds product | Alex Hardiman (CPO, the New York Times)",
     "publishDate": "2022-11-13T00:00:00.000Z",
     "duration": "1:07:21",
@@ -21354,6 +22490,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "merci-grace",
     "guest": "Merci Grace",
+    "company": "Mochary",
+    "topSkills": [
+      "growth",
+      "user research",
+      "metrics"
+    ],
     "title": "How to work through fear, give hard feedback, and doing layoffs with grace | Matt Mochary",
     "publishDate": "2022-11-10T00:00:00.000Z",
     "duration": "1:11:08",
@@ -21388,6 +22530,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "ben-williams",
     "guest": "Ben Williams",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "user research",
+      "metrics"
+    ],
     "title": "How Snyk built a product-led growth juggernaut | Ben Williams (VP of Product at Snyk)",
     "publishDate": "2022-11-06T00:00:00.000Z",
     "duration": "1:31:34",
@@ -21509,6 +22657,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "lauren-ipsen",
     "guest": "Lauren Ipsen",
+    "company": "Daversa Partners",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Lessons from one of the world’s top executive recruiters | Lauren Ipsen (Daversa Partners, GC)",
     "publishDate": "2022-11-03T00:00:00.000Z",
     "duration": "1:08:53",
@@ -21630,6 +22784,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "barbra-gago",
     "guest": "Barbra Gago",
+    "company": "Pando",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "metrics"
+    ],
     "title": "Category creation and brand building | Barbra Gago (Pando, Miro, Greenhouse, Culture Amp)",
     "publishDate": "2022-10-27T00:00:00.000Z",
     "duration": "55:48",
@@ -21664,6 +22824,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "adriel-frederick",
     "guest": "Adriel Frederick",
+    "company": "Reddit",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "metrics"
+    ],
     "title": "Humanizing product development | Adriel Frederick (Reddit, Lyft, Facebook)",
     "publishDate": "2022-10-20T00:00:00.000Z",
     "duration": "1:07:26",
@@ -21698,6 +22864,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "adam-fishman",
     "guest": "Adam Fishman",
+    "company": "Patreon",
+    "topSkills": [
+      "product-market fit",
+      "pmf",
+      "growth"
+    ],
     "title": "How to build a high-performing growth team | Adam Fishman (Patreon, Lyft, Imperfect Foods)",
     "publishDate": "2022-10-13T00:00:00.000Z",
     "duration": "1:05:46",
@@ -21819,6 +22991,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "dan-hockenmaier",
     "guest": "Dan Hockenmaier",
+    "company": "Reforge",
+    "topSkills": [
+      "growth",
+      "prioritization",
+      "metrics"
+    ],
     "title": "Developing a growth model + marketplace growth strategy | Dan Hockenmaier",
     "publishDate": "2022-10-09T00:00:00.000Z",
     "duration": "1:04:06",
@@ -21940,6 +23118,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "kristen-berman",
     "guest": "Kristen Berman",
+    "company": "Irrational Labs",
+    "topSkills": [
+      "growth",
+      "retention",
+      "activation"
+    ],
     "title": "Using behavioral science to improve your product | Kristen Berman (Irrational Labs)",
     "publishDate": "2022-10-02T00:00:00.000Z",
     "duration": "56:15",
@@ -21974,6 +23158,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "julian-shapiro",
     "guest": "Julian Shapiro",
+    "company": "Demand Curve",
+    "topSkills": [
+      "growth",
+      "retention",
+      "product-led acquisition"
+    ],
     "title": "Growth tactics, retention strategies, and becoming a better writer | Julian Shapiro (Demand Curve, Hyper, Webflow, TechCrunch)",
     "publishDate": "2022-09-25T00:00:00.000Z",
     "duration": "59:00",
@@ -22000,6 +23190,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "adam-grenier",
     "guest": "Adam Grenier",
+    "company": "Uber",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "experimentation"
+    ],
     "title": "When to invest in new acquisition channels | Adam Grenier (Uber, MasterClass)",
     "publishDate": "2022-09-15T00:00:00.000Z",
     "duration": "1:09:51",
@@ -22121,6 +23317,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "marty-cagan",
     "guest": "Marty Cagan 1.0",
+    "company": "Silicon Valley Product Group",
+    "topSkills": [
+      "product-market fit",
+      "growth",
+      "strategy"
+    ],
     "title": "The nature of product | Marty Cagan (Silicon Valley Product Group)",
     "publishDate": "2022-08-21T00:00:00.000Z",
     "duration": "1:25:53",
@@ -22155,6 +23357,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "arielle-jackson",
     "guest": "Arielle Jackson",
+    "company": "Google",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "retention"
+    ],
     "title": "The art of building legendary brands | Arielle Jackson (Google, Square, First Round Capital)",
     "publishDate": "2022-08-18T00:00:00.000Z",
     "duration": "1:22:34",
@@ -22276,6 +23484,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "crystal-w",
     "guest": "Crystal W",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "metrics",
+      "experimentation"
+    ],
     "title": "How to scrappily hire for, measure, and unlock growth | Crystal Widjaja, Gojek and Kumu",
     "publishDate": "2022-07-31T00:00:00.000Z",
     "duration": "1:03:10",
@@ -22397,6 +23611,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "melissa-perri",
     "guest": "Melissa Perri",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "user research"
+    ],
     "title": "How to create a winning product strategy | Melissa Perri",
     "publishDate": "2022-07-28T00:00:00.000Z",
     "duration": "0:53:41",
@@ -22431,6 +23651,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "ken-norton",
     "guest": "Ken Norton",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "metrics",
+      "experimentation"
+    ],
     "title": "How to unlock your product leadership skills | Ken Norton, Ex-Google",
     "publishDate": "2022-07-24T00:00:00.000Z",
     "duration": "1:18:09",
@@ -22552,6 +23778,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "casey-winters",
     "guest": "Casey Winters 1.0",
+    "company": null,
+    "topSkills": [
+      "product-market fit",
+      "growth",
+      "user research"
+    ],
     "title": "How to sell your ideas and rise within your company | Casey Winters, Eventbrite",
     "publishDate": "2022-07-21T00:00:00.000Z",
     "duration": "55:09",
@@ -22586,6 +23818,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "nickey-skarstad",
     "guest": "Nickey Skarstad",
+    "company": "Airbnb",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "user research"
+    ],
     "title": "Nickey Skarstad (Airbnb, Etsy, Shopify, Duolingo) on translating vision into goals, operationalizing product quality, second-order decisions, brainstorming, influence, and much more",
     "publishDate": "2022-07-18T00:00:00.000Z",
     "duration": "1:00:54",
@@ -22707,6 +23945,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "manik-gupta",
     "guest": "Manik Gupta",
+    "company": "Google",
+    "topSkills": [
+      "Google Maps",
+      "Uber",
+      "CPO"
+    ],
     "title": "Manik Gupta (ex-CPO Uber, Google Maps) on how to build consumer apps, why it’s useful to be optimistic about technology, creating inflections in your PM career, the changing CPO role, and more",
     "publishDate": "2022-07-14T00:00:00.000Z",
     "duration": "1:04:55",
@@ -22820,6 +24064,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "brandon-chu",
     "guest": "Brandon Chu",
+    "company": "Shopify",
+    "topSkills": [
+      "leadership",
+      "management",
+      "product management"
+    ],
     "title": "Brandon Chu on building product at Shopify, how writing changed the trajectory of his career, the habits that make you a great PM, pros and cons of being a platform PM, how Shopify got through Covid",
     "publishDate": "2022-06-27T00:00:00.000Z",
     "duration": "49:49",
@@ -22847,6 +24097,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "daniel-lereya",
     "guest": "Daniel Lereya",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "metrics"
+    ],
     "title": "Daniel Lereya",
     "publishDate": null,
     "duration": "0:00",
@@ -22968,6 +24224,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jason-m-lemkin",
     "guest": "Jason M Lemkin",
+    "company": "SaaStr",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "metrics"
+    ],
     "title": "We replaced our sales team with 20 AI agents—here’s what happened next | Jason Lemkin (SaaStr)",
     "publishDate": "2026-01-01T00:00:00.000Z",
     "duration": "1:42:11",
@@ -23089,6 +24351,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "elena-verna-40",
     "guest": "Elena Verna 4.0",
+    "company": null,
+    "topSkills": [
+      "product-market fit",
+      "growth",
+      "roadmap"
+    ],
     "title": "The new AI growth playbook for 2026 | How Lovable hit $200M ARR in one year",
     "publishDate": "2025-12-18T00:00:00.000Z",
     "duration": "1:31:56",
@@ -23210,6 +24478,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "edwin-chen",
     "guest": "Edwin Chen",
+    "company": "Surge",
+    "topSkills": [
+      "growth",
+      "metrics",
+      "hiring"
+    ],
     "title": "The $1B Al company training ChatGPT, Claude & Gemini on the path to responsible AGI | Edwin Chen",
     "publishDate": "2025-12-07T00:00:00.000Z",
     "duration": "1:10:32",
@@ -23331,6 +24605,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jeanne-grosser",
     "guest": "Jeanne Grosser",
+    "company": "Vercel",
+    "topSkills": [
+      "growth",
+      "metrics",
+      "experimentation"
+    ],
     "title": "What world-class GTM looks like in 2026 | Jeanne DeWitt Grosser (Vercel, Stripe, Google)",
     "publishDate": "2025-11-30T00:00:00.000Z",
     "duration": "1:26:02",
@@ -23452,6 +24732,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "dr-fei-fei-li",
     "guest": "Dr. Fei Fei Li",
+    "company": null,
+    "topSkills": [
+      "experimentation",
+      "hiring",
+      "culture"
+    ],
     "title": "The Godmother of AI on jobs, robots & why world models are next | Dr. Fei-Fei Li",
     "publishDate": "2025-11-16T00:00:00.000Z",
     "duration": "1:19:34",
@@ -23573,6 +24859,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "grant-lee",
     "guest": "Grant Lee",
+    "company": "co-founder",
+    "topSkills": [
+      "pmf",
+      "growth",
+      "prioritization"
+    ],
     "title": "“Dumbest idea I’ve heard” to $100M ARR: Inside the rise of Gamma | Grant Lee (co-founder)",
     "publishDate": "2025-11-13T00:00:00.000Z",
     "duration": "1:53:54",
@@ -23694,6 +24986,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jen-abel-20",
     "guest": "Jen Abel 2.0",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "$1M to $10M: The enterprise sales playbook with Jen Abel",
     "publishDate": "2025-11-09T00:00:00.000Z",
     "duration": "1:21:36",
@@ -23815,6 +25113,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "dylan-field-20",
     "guest": "Dylan Field 2.0",
+    "company": "Figma",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "user research"
+    ],
     "title": "Figma’s CEO: Why AI makes design, craft, and quality the new moat for startups | Dylan Field",
     "publishDate": "2025-10-16T00:00:00.000Z",
     "duration": "1:26:50",
@@ -23849,6 +25153,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jason-droege",
     "guest": "Jason Droege",
+    "company": "Scale",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Scale AI CEO on Meta's $14B deal, scaling Uber Eats to $80B, & what frontier labs are building next",
     "publishDate": "2025-10-09T00:00:00.000Z",
     "duration": "1:24:02",
@@ -23970,6 +25280,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "hamel-husain-shreya-shankar",
     "guest": "Hamel Husain & Shreya Shankar",
+    "company": "OpenAI",
+    "topSkills": [
+      "metrics",
+      "analytics",
+      "vision"
+    ],
     "title": "Why AI evals are the hottest new skill for product builders | Hamel Husain & Shreya Shankar",
     "publishDate": "2025-09-25T00:00:00.000Z",
     "duration": "1:46:33",
@@ -24091,6 +25407,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "hamelshreya",
     "guest": "Hamel+Shreya",
+    "company": "OpenAI",
+    "topSkills": [
+      "metrics",
+      "analytics",
+      "culture"
+    ],
     "title": "Why AI evals are the hottest new skill for product builders | Hamel Husain & Shreya Shankar",
     "publishDate": "2025-09-25T00:00:00.000Z",
     "duration": "1:46:33",
@@ -24212,6 +25534,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "ethan-smith",
     "guest": "Ethan Smith",
+    "company": "Graphite",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "The ultimate guide to AEO: How to get ChatGPT to recommend your product | Ethan Smith (Graphite)",
     "publishDate": "2025-09-14T00:00:00.000Z",
     "duration": "1:11:56",
@@ -24333,6 +25661,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "howie-liu",
     "guest": "Howie Liu",
+    "company": "Airtable",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "user research"
+    ],
     "title": "How we restructured Airtable's entire org for AI | Howie Liu (co-founder and CEO)",
     "publishDate": "2025-08-31T00:00:00.000Z",
     "duration": "1:40:42",
@@ -24454,6 +25788,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "garrett-lord",
     "guest": "Garrett Lord",
+    "company": "Handshake",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "user research"
+    ],
     "title": "Inside the expert network training every frontier AI model | Garrett Lord",
     "publishDate": "2025-08-24T00:00:00.000Z",
     "duration": "1:09:51",
@@ -24575,6 +25915,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "eoghan-mccabe",
     "guest": "Eoghan McCabe",
+    "company": "Intercom",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "How Intercom rose from the ashes by betting everything on AI | Eoghan McCabe (founder and CEO)",
     "publishDate": "2025-08-21T00:00:00.000Z",
     "duration": "1:23:20",
@@ -24696,6 +26042,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jake-knapp-john-zeratsky-20",
     "guest": "Jake Knapp + John Zeratsky 2.0",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "strategy",
+      "leadership"
+    ],
     "title": "Rapidly test and validate any startup idea with the 2-day Foundation Sprint | Jake Knapp and John Zeratsky",
     "publishDate": "2025-07-13T00:00:00.000Z",
     "duration": "1:41:33",
@@ -24817,6 +26169,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "hilary-gridley",
     "guest": "Hilary Gridley",
+    "company": "Whoop",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "metrics"
+    ],
     "title": "How to build a team that can “take a punch” | Hilary Gridley (Head of Core Product, Whoop)",
     "publishDate": "2025-06-15T00:00:00.000Z",
     "duration": "1:54:40",
@@ -24938,6 +26296,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "dmitry-zlokazov",
     "guest": "Dmitry Zlokazov",
+    "company": "Stripe",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "How Revolut trains world-class PMs: The “Local CEO” model, raw intellect & building wow products",
     "publishDate": "2025-05-15T00:00:00.000Z",
     "duration": "1:10:02",
@@ -25059,6 +26423,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jerry-colonna",
     "guest": "Jerry Colonna",
+    "company": "Reboot",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "How have I been complicit in creating the conditions I say I don’t want? | Jerry Colonna",
     "publishDate": "2025-05-08T00:00:00.000Z",
     "duration": "1:22:50",
@@ -25180,6 +26550,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "guillermo-rauch",
     "guest": "Guillermo Rauch",
+    "company": "Vercel",
+    "topSkills": [
+      "retention",
+      "vision",
+      "mission"
+    ],
     "title": "Everyone’s an engineer now: Inside v0’s mission to create 100 million builders | Guillermo Rauch",
     "publishDate": "2025-04-13T00:00:00.000Z",
     "duration": "1:27:44",
@@ -25301,6 +26677,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "gaurav-misra",
     "guest": "Gaurav Misra",
+    "company": "Captions",
+    "topSkills": [
+      "growth",
+      "AI",
+      "Captions"
+    ],
     "title": "How to win in the AI era: Ship a feature every week, embrace technical debt, ruthlessly cut scope, and create magic your competitors can't copy | Gaurav Misra (CEO and co-founder of Captions)",
     "publishDate": "2025-03-15T00:00:00.000Z",
     "duration": "1:25:25",
@@ -25414,6 +26796,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "eric-simons",
     "guest": "Eric Simons",
+    "company": "StackBlitz",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Inside Bolt: From near-death to one of the fastest-growing products in history | Eric Simons",
     "publishDate": "2025-03-13T00:00:00.000Z",
     "duration": "1:28:51",
@@ -25535,6 +26923,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "ivan-zhao",
     "guest": "Ivan Zhao",
+    "company": "Notion",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Notion's lost years, near collapse during COVID, staying small to move fast, building horizontal",
     "publishDate": "2025-03-06T00:00:00.000Z",
     "duration": "1:12:18",
@@ -25656,6 +27050,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "elena-verna-30",
     "guest": "Elena Verna 3.0",
+    "company": "Amplitude",
+    "topSkills": [
+      "product-market fit",
+      "pmf",
+      "growth"
+    ],
     "title": "10 growth tactics that never work | Elena Verna (Amplitude, Miro, Dropbox, SurveyMonkey)",
     "publishDate": "2025-01-19T00:00:00.000Z",
     "duration": "1:35:10",
@@ -25777,6 +27177,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "graham-weaver",
     "guest": "Graham Weaver",
+    "company": "Stanford GSB professor",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "leadership"
+    ],
     "title": "How to break out of autopilot and create the life you want | Graham Weaver (Stanford GSB professor)",
     "publishDate": "2025-01-16T00:00:00.000Z",
     "duration": "1:12:13",
@@ -25898,6 +27304,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "drew-houston",
     "guest": "Drew Houston",
+    "company": "Dropbox",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "analytics"
+    ],
     "title": "Behind the founder | Drew Houston (Dropbox)",
     "publishDate": "2025-01-09T00:00:00.000Z",
     "duration": "1:47:30",
@@ -26021,6 +27433,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "farhan-thawar",
     "guest": "Farhan Thawar",
+    "company": "Shopify",
+    "topSkills": [
+      "strategy",
+      "roadmap",
+      "metrics"
+    ],
     "title": "How Shopify builds a high-intensity culture | Farhan Thawar (VP and Head of Eng)",
     "publishDate": "2024-12-19T00:00:00.000Z",
     "duration": "1:40:03",
@@ -26142,6 +27560,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jackson-shuttleworth",
     "guest": "Jackson Shuttleworth",
+    "company": "Group PM",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "metrics"
+    ],
     "title": "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention Team)",
     "publishDate": "2024-12-15T00:00:00.000Z",
     "duration": "1:28:32",
@@ -26263,6 +27687,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jen-abel",
     "guest": "Jen Abel 1.0",
+    "company": "co-founder of JJELLYFISH",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "The ultimate guide to founder-led sales | Jen Abel (co-founder of JJELLYFISH)",
     "publishDate": "2024-11-24T00:00:00.000Z",
     "duration": "1:16:05",
@@ -26384,6 +27814,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jessica-hische",
     "guest": "Jessica Hische",
+    "company": null,
+    "topSkills": [
+      "roadmap",
+      "leadership",
+      "hiring"
+    ],
     "title": "How to see like a designer: The hidden power of typography and logos | Jessica Hische",
     "publishDate": "2024-10-20T00:00:00.000Z",
     "duration": "1:21:48",
@@ -26505,6 +27941,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "eli-schwartz",
     "guest": "Eli Schwartz",
+    "company": "SEO advisor",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Rethinking SEO in the age of AI | Eli Schwartz (SEO advisor, author)",
     "publishDate": "2024-09-19T00:00:00.000Z",
     "duration": "1:55:10",
@@ -26626,6 +28068,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "evan-lapointe",
     "guest": "Evan LaPointe",
+    "company": "CORE",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Improve strategy, influence, and decision-making by understanding your brain | Evan LaPointe",
     "publishDate": "2024-08-11T00:00:00.000Z",
     "duration": "2:14:39",
@@ -26747,6 +28195,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jess-lachs",
     "guest": "Jess Lachs",
+    "company": "analytics",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "Building a world-class data org | Jessica Lachs (VP of Analytics and Data Science at DoorDash)",
     "publishDate": "2024-07-14T00:00:00.000Z",
     "duration": "1:19:56",
@@ -26868,6 +28322,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jeff-weinstein",
     "guest": "Jeff Weinstein",
+    "company": "Stripe",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "Building product at Stripe: craft, metrics, and customer obsession | Jeff Weinstein (Product lead)",
     "publishDate": "2024-07-11T00:00:00.000Z",
     "duration": "2:35:00",
@@ -26989,6 +28449,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "dylan-field",
     "guest": "Dylan Field 1.0",
+    "company": "Figma",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "metrics"
+    ],
     "title": "Dylan Field live at Figma's Config: Intuition, simplicity, and the future of design",
     "publishDate": "2024-06-30T00:00:00.000Z",
     "duration": "48:08",
@@ -27110,6 +28576,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jessica-livingston",
     "guest": "Jessica Livingston",
+    "company": "co-founder of YC",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "The social radar: Y Combinator’s secret weapon | Jessica Livingston (co-founder of YC, author)",
     "publishDate": "2024-06-27T00:00:00.000Z",
     "duration": "1:24:56",
@@ -27231,6 +28703,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jeffrey-pfeffer",
     "guest": "Jeffrey Pfeffer",
+    "company": "Stanford",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "leadership"
+    ],
     "title": "The paths to power: How to grow your influence and advance your career | Jeffrey Pfeffer (Stanford)",
     "publishDate": "2024-06-13T00:00:00.000Z",
     "duration": "1:22:31",
@@ -27352,6 +28830,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jag-duggal",
     "guest": "Jag Duggal",
+    "company": "Nubank",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "user research"
+    ],
     "title": "Be fundamentally different, not incrementally better | Jag Duggal (Nubank, Facebook, Google)",
     "publishDate": "2024-05-16T00:00:00.000Z",
     "duration": "1:35:17",
@@ -27473,6 +28957,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "hamilton-helmer",
     "guest": "Hamilton Helmer",
+    "company": null,
+    "topSkills": [
+      "product-market fit",
+      "growth",
+      "strategy"
+    ],
     "title": "Business strategy with Hamilton Helmer (author of 7 Powers)",
     "publishDate": "2024-05-05T00:00:00.000Z",
     "duration": "1:08:08",
@@ -27594,6 +29084,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "dharmesh-shah",
     "guest": "Dharmesh Shah",
+    "company": "HubSpot",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Zigging vs. zagging: How HubSpot built a $30B company | Dharmesh Shah (co-founder/CTO)",
     "publishDate": "2024-04-04T00:00:00.000Z",
     "duration": "1:41:44",
@@ -27715,6 +29211,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "emilie-gerber",
     "guest": "Emilie Gerber",
+    "company": "founder of Six Eastern",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "metrics"
+    ],
     "title": "The ultimate guide to PR | Emilie Gerber (founder of Six Eastern)",
     "publishDate": "2024-03-21T00:00:00.000Z",
     "duration": "1:33:55",
@@ -27836,6 +29338,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "donna-lichaw",
     "guest": "Donna Lichaw",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "How to discover your superpowers, own your story, and unlock personal growth | Donna Lichaw",
     "publishDate": "2024-02-25T00:00:00.000Z",
     "duration": "1:27:03",
@@ -27957,6 +29465,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "elizabeth-stone",
     "guest": "Elizabeth Stone",
+    "company": "Netflix",
+    "topSkills": [
+      "strategy",
+      "roadmap",
+      "user research"
+    ],
     "title": "How Netflix builds a culture of excellence | Elizabeth Stone (CTO)",
     "publishDate": "2024-02-22T00:00:00.000Z",
     "duration": "1:13:44",
@@ -28078,6 +29592,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jake-knapp-john-zeratsky",
     "guest": "Jake Knapp + John Zeratsky 1.0",
+    "company": "Authors of Make Time",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "leadership"
+    ],
     "title": "Making time for what matters | Jake Knapp and John Zeratsky (Authors of Make Time, Character VC)",
     "publishDate": "2024-02-11T00:00:00.000Z",
     "duration": "1:35:39",
@@ -28199,6 +29719,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "geoffrey-moore",
     "guest": "Geoffrey Moore",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Geoffrey Moore on finding your beachhead, crossing the chasm, and dominating a market",
     "publishDate": "2024-01-25T00:00:00.000Z",
     "duration": "1:24:50",
@@ -28320,6 +29846,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "heidi-helfand",
     "guest": "Heidi Helfand",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "The art and wisdom of changing teams | Heidi Helfand (Author of Dynamic Reteaming)",
     "publishDate": "2024-01-18T00:00:00.000Z",
     "duration": "1:10:21",
@@ -28441,6 +29973,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "ethan-evans",
     "guest": "Ethan Evans",
+    "company": "Amazon",
+    "topSkills": [
+      "growth",
+      "leadership",
+      "hiring"
+    ],
     "title": "Taking control of your career | Ethan Evans (Amazon)",
     "publishDate": "2024-01-14T00:00:00.000Z",
     "duration": "1:21:08",
@@ -28562,6 +30100,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jason-fried",
     "guest": "Jason Fried",
+    "company": null,
+    "topSkills": [
+      "bootstrapping",
+      "venture-capital",
+      "independence"
+    ],
     "title": "Jason Fried challenges your thinking on fundraising, goals, growth, and more",
     "publishDate": "2023-12-17T00:00:00.000Z",
     "duration": "1:50:00",
@@ -28680,6 +30224,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "ebi-atawodi",
     "guest": "Ebi Atawodi",
+    "company": "YouTube",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Crafting a compelling product vision | Ebi Atawodi (YouTube, Netflix, Uber)",
     "publishDate": "2023-12-03T00:00:00.000Z",
     "duration": "1:39:47",
@@ -28801,6 +30351,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "inbal-s",
     "guest": "Inbal S",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "The future of AI in software development | Inbal Shani (CPO of GitHub)",
     "publishDate": "2023-12-01T00:00:00.000Z",
     "duration": "50:04",
@@ -28835,6 +30391,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "eric-ries",
     "guest": "Eric Ries",
+    "company": "the",
+    "topSkills": [
+      "product-market fit",
+      "growth",
+      "roadmap"
+    ],
     "title": "Reflections on a movement | Eric Ries (creator of the Lean Startup methodology)",
     "publishDate": "2023-10-29T00:00:00.000Z",
     "duration": "2:14:15",
@@ -28956,6 +30518,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "gina-gotthilf",
     "guest": "Gina Gotthilf",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Scaling Duolingo, embracing failure, and insight into Latin America’s tech scene | Gina Gotthilf",
     "publishDate": "2023-10-19T00:00:00.000Z",
     "duration": "1:36:49",
@@ -29077,6 +30645,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jason-feifer",
     "guest": "Jason Feifer",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "strategy",
+      "metrics"
+    ],
     "title": "How to get press for your product | Jason Feifer (editor in chief of Entrepreneur magazine)",
     "publishDate": "2023-10-12T00:00:00.000Z",
     "duration": "1:42:28",
@@ -29198,6 +30772,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "itamar-gilad",
     "guest": "Itamar Gilad",
+    "company": "Gmail",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "Becoming evidence-guided | Itamar Gilad (Gmail, YouTube, Microsoft)",
     "publishDate": "2023-09-21T00:00:00.000Z",
     "duration": "1:12:52",
@@ -29319,6 +30899,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "geoff-charles",
     "guest": "Geoff Charles",
+    "company": "Ramp",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Velocity over everything: How Ramp became the fastest-growing SaaS startup ever | Geoff Charles",
     "publishDate": "2023-08-06T00:00:00.000Z",
     "duration": "1:16:57",
@@ -29440,6 +31026,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "hari-srinivasan",
     "guest": "Hari Srinivasan",
+    "company": "LinkedIn",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "user research"
+    ],
     "title": "LinkedIn’s product evolution and the art of building complex systems | Hari Srinivasan (LinkedIn)",
     "publishDate": "2023-07-16T00:00:00.000Z",
     "duration": "1:04:48",
@@ -29561,6 +31153,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jiaona-zhang",
     "guest": "Jiaona Zhang",
+    "company": "Webflow",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "Building minimum lovable products, stories from WeWork & Airbnb, and thriving as a PM | Jiaona Zhang",
     "publishDate": "2023-07-02T00:00:00.000Z",
     "duration": "1:07:32",
@@ -29682,6 +31280,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jeremy-henrickson",
     "guest": "Jeremy Henrickson",
+    "company": "Rippling",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "prioritization"
+    ],
     "title": "Moving fast and navigating uncertainty | Jeremy Henrickson (Rippling, Coinbase)",
     "publishDate": "2023-06-04T00:00:00.000Z",
     "duration": "1:08:32",
@@ -29803,6 +31407,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "gustav-söderström",
     "guest": "Gustav Söderström",
+    "company": "Spotify",
+    "topSkills": [
+      "growth",
+      "user research",
+      "metrics"
+    ],
     "title": "The science of product, big bets, and how AI is impacting the future of music | Gustav Söderström",
     "publishDate": "2023-05-21T00:00:00.000Z",
     "duration": "1:24:30",
@@ -29924,6 +31534,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "elena-verna-20",
     "guest": "Elena Verna 2.0",
+    "company": "Miro",
+    "topSkills": [
+      "product-market fit",
+      "growth",
+      "roadmap"
+    ],
     "title": "The ultimate guide to product-led sales | Elena Verna",
     "publishDate": "2023-04-23T00:00:00.000Z",
     "duration": "1:16:10",
@@ -30045,6 +31661,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "hila-qu",
     "guest": "Hila Qu",
+    "company": "Reforge",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "user research"
+    ],
     "title": "The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)",
     "publishDate": "2023-04-02T00:00:00.000Z",
     "duration": "1:33:23",
@@ -30166,6 +31788,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "gustaf-alstromer",
     "guest": "Gustaf Alstromer",
+    "company": "Y Combinator",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "metrics"
+    ],
     "title": "Lessons from working with 600+ YC startups | Gustaf Alströmer (Y Combinator, Airbnb)",
     "publishDate": "2023-03-02T00:00:00.000Z",
     "duration": "1:25:36",
@@ -30287,6 +31915,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "eeke-de-milliano",
     "guest": "Eeke de Milliano",
+    "company": "Retool",
+    "topSkills": [
+      "pmf",
+      "growth",
+      "roadmap"
+    ],
     "title": "How to foster innovation and big thinking | Eeke de Milliano (Retool, Stripe)",
     "publishDate": "2023-02-02T00:00:00.000Z",
     "duration": "1:02:56",
@@ -30408,6 +32042,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "elena-verna",
     "guest": "Elena Verna 1.0",
+    "company": "Amplitude",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "metrics"
+    ],
     "title": "Why product-led growth is the future | Elena Verna (Amplitude, Miro, Dropbox, SurveyMonkey)",
     "publishDate": "2023-01-22T00:00:00.000Z",
     "duration": "1:00:00",
@@ -30437,6 +32077,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "ian-mcallister",
     "guest": "Ian McAllister",
+    "company": "Uber",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "What it takes to become a top 1% PM | Ian McAllister (Uber, Amazon, Airbnb)",
     "publishDate": "2022-11-20T00:00:00.000Z",
     "duration": "1:04:59",
@@ -30558,6 +32204,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "gergely",
     "guest": "Gergely",
+    "company": "Substack",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "metrics"
+    ],
     "title": "Leaving big tech to build the #1 technology newsletter | Gergely Orosz (The Pragmatic Engineer)",
     "publishDate": "2022-11-17T00:00:00.000Z",
     "duration": "1:14:51",
@@ -30679,6 +32331,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "fareed-mosavat",
     "guest": "Fareed Mosavat",
+    "company": "Reforge",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "How to build trust and grow as a product leader | Fareed Mosavat (Reforge, Slack, Instacart, Pixar)",
     "publishDate": "2022-10-23T00:00:00.000Z",
     "duration": "1:05:10",
@@ -30800,6 +32458,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "janna-bastow",
     "guest": "Janna Bastow",
+    "company": "Mind the Product",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "experimentation"
+    ],
     "title": "Building better roadmaps | Janna Bastow (Mind the Product, ProdPad)",
     "publishDate": "2022-10-16T00:00:00.000Z",
     "duration": "53:40",
@@ -30834,6 +32498,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "gia-laudi",
     "guest": "Gia Laudi",
+    "company": "Forget The Funnel",
+    "topSkills": [
+      "growth",
+      "metrics",
+      "experimentation"
+    ],
     "title": "Customer-led growth | Georgiana Laudi (Forget The Funnel)",
     "publishDate": "2022-09-29T00:00:00.000Z",
     "duration": "1:06:48",
@@ -30955,6 +32625,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jason-shah",
     "guest": "Jason Shah",
+    "company": "Airbnb",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "experimentation"
+    ],
     "title": "Building a meaningful career | Jason Shah (Airbnb, Amazon, Microsoft, Alchemy)",
     "publishDate": "2022-09-18T00:00:00.000Z",
     "duration": "1:10:14",
@@ -31076,6 +32752,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "emily-kramer",
     "guest": "Emily Kramer",
+    "company": "Asana",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "How to build a powerful marketing machine | Emily Kramer (Asana, Carta, MKT1)",
     "publishDate": "2022-09-11T00:00:00.000Z",
     "duration": "1:10:54",
@@ -31197,6 +32879,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "gibson-biddle",
     "guest": "Gibson Biddle",
+    "company": "Netflix",
+    "topSkills": [
+      "leadership",
+      "product strategy",
+      "DHM model"
+    ],
     "title": "Gibson Biddle on his DHM product strategy framework, GEM roadmap prioritization framework, 5 Netflix strategy mini case studies, building a personal board of directors, and much more",
     "publishDate": "2022-06-20T00:00:00.000Z",
     "duration": "1:00:00",
@@ -31223,6 +32911,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "jackie-bavaro",
     "guest": "Jackie Bavaro",
+    "company": "Google",
+    "topSkills": [
+      "leadership",
+      "management",
+      "product strategy"
+    ],
     "title": "Jackie Bavaro on getting better at product strategy, what exactly is strategy, PM pitfalls to avoid, advancing your career, getting into management, and much more",
     "publishDate": "2022-06-16T00:00:00.000Z",
     "duration": "49:00",
@@ -31249,6 +32943,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "gokul-rajaram",
     "guest": "Gokul Rajaram",
+    "company": "Facebook",
+    "topSkills": [
+      "leadership",
+      "hiring",
+      "careers"
+    ],
     "title": "Gokul Rajaram on designing your product development process, when and how to hire your first PM, a playbook for hiring leaders, getting ahead in your career, how to get started angel investing, and more",
     "publishDate": "2022-01-01T00:00:00.000Z",
     "duration": "1:02:00",
@@ -31362,6 +33062,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "peter-deng",
     "guest": "Peter Deng",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "strategy",
+      "user research"
+    ],
     "title": "Peter Deng",
     "publishDate": null,
     "duration": "0:00",
@@ -31483,6 +33189,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "ravi-mehta",
     "guest": "Ravi Mehta",
+    "company": "Tinder",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "How to build your product strategy stack | Ravi Mehta (Tinder, Facebook, Tripadvisor, Outpace)",
     "publishDate": "2023-01-19T00:00:00.000Z",
     "duration": "1:21:25",
@@ -31604,6 +33316,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "sahil-mansuri",
     "guest": "Sahil Mansuri",
+    "company": "Bravado",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "How to hit revenue targets in a recession | Sahil Mansuri (Bravado)",
     "publishDate": "2022-12-04T00:00:00.000Z",
     "duration": "1:26:31",
@@ -31725,6 +33443,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "petra-wille",
     "guest": "Petra Wille",
+    "company": "Strong Product People",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "roadmap"
+    ],
     "title": "How to be the best coach to product people | Petra Wille (Strong Product People)",
     "publishDate": "2022-11-27T00:00:00.000Z",
     "duration": "1:12:17",
@@ -31846,6 +33570,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "sachin-monga",
     "guest": "Sachin Monga",
+    "company": "Substack",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "prioritization"
+    ],
     "title": "Building Substack | Sachin Monga (Substack, Facebook)",
     "publishDate": "2022-10-30T00:00:00.000Z",
     "duration": "1:01:00",
@@ -31967,6 +33697,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "teresa-torres",
     "guest": "Teresa Torres",
+    "company": null,
+    "topSkills": [
+      "strategy",
+      "roadmap",
+      "user research"
+    ],
     "title": "Build better products with continuous product discovery | Teresa Torres",
     "publishDate": "2022-10-06T00:00:00.000Z",
     "duration": "48:18",
@@ -32001,6 +33737,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "ryan-j-salva",
     "guest": "Ryan J. Salva",
+    "company": "OpenAI",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "metrics"
+    ],
     "title": "The role of AI in new product development | Ryan J. Salva (VP of Product at GitHub)",
     "publishDate": "2022-09-04T00:00:00.000Z",
     "duration": "1:05:00",
@@ -32122,6 +33864,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "yuriy-timen",
     "guest": "Yuriy Timen",
+    "company": "Grammarly",
+    "topSkills": [
+      "growth",
+      "prioritization",
+      "metrics"
+    ],
     "title": "How to grow a subscription business | Yuriy Timen (Grammarly, Canva, Airtable)",
     "publishDate": "2022-09-01T00:00:00.000Z",
     "duration": "1:08:16",
@@ -32243,6 +33991,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "wes-kao",
     "guest": "Wes Kao 1.0",
+    "company": "Maven",
+    "topSkills": [
+      "growth",
+      "strategy",
+      "leadership"
+    ],
     "title": "Persuasive communication and managing up | Wes Kao (Maven, altMBA, Section4)",
     "publishDate": "2022-08-28T00:00:00.000Z",
     "duration": "53:08",
@@ -32277,6 +34031,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "shreyas-doshi",
     "guest": "Shreyas Doshi",
+    "company": "Stripe",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "prioritization"
+    ],
     "title": "The art of product management | Shreyas Doshi (Stripe, Twitter, Google, Yahoo)",
     "publishDate": "2022-08-25T00:00:00.000Z",
     "duration": "1:31:22",
@@ -32398,6 +34158,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "shishir-mehrotra",
     "guest": "Shishir Mehrotra",
+    "company": "Coda",
+    "topSkills": [
+      "growth",
+      "roadmap",
+      "metrics"
+    ],
     "title": "The rituals of great teams | Shishir Mehrotra, Coda, YouTube, Microsoft",
     "publishDate": "2022-08-14T00:00:00.000Z",
     "duration": "1:31:49",
@@ -32519,6 +34285,12 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "ryan-hoover",
     "guest": "Ryan Hoover",
+    "company": null,
+    "topSkills": [
+      "growth",
+      "Product Hunt",
+      "launching products"
+    ],
     "title": "How to launch and grow your product | Ryan Hoover of Product Hunt and Weekend Fund",
     "publishDate": "2022-08-07T00:00:00.000Z",
     "duration": "1:09:06",

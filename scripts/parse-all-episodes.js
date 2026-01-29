@@ -129,6 +129,145 @@ function detectContrarianPatterns(dialogue) {
   });
 }
 
+/**
+ * Extract company names from episode title
+ * Common patterns:
+ * - "Topic | Guest Name (Company1, Company2, Company3)"
+ * - "Guest Name (Company)"
+ * - "Topic with Guest Name, Company"
+ */
+function extractCompany(title, description) {
+  // Words/phrases that are NOT company names
+  const invalidCompanies = new Set([
+    'product', 'design', 'ai', 'growth', 'marketing', 'sales', 'engineering',
+    'ceo', 'cto', 'cpo', 'coo', 'vp', 'head', 'director', 'partner', 'lead',
+    'author', 'writer', 'coach', 'advisor', 'consultant', 'investor',
+    'product lead', 'design lead', 'tech lead', 'engineering lead',
+    'openai codex product lead', 'linkedin cpo', 'former', 'ex-'
+  ]);
+
+  function isValidCompany(name) {
+    if (!name || name.length < 2) return false;
+    const lower = name.toLowerCase().trim();
+
+    // Check against invalid list
+    if (invalidCompanies.has(lower)) return false;
+
+    // Filter out generic terms and titles
+    if (lower.match(/^(the|a|an|former|ex-|after|before|while|during)\s/i)) return false;
+    if (lower.match(/\b(lead|head|director|vp|ceo|cto|cpo|coo)\b/i)) return false;
+    if (lower.match(/^\d+$/)) return false;
+    if (lower.includes('part ')) return false;
+    if (lower.includes('author of')) return false;
+    if (lower.length > 40) return false; // Too long to be a company name
+
+    // Filter out phrases (contain common verbs or too many words)
+    if (lower.match(/\b(dying|building|scaling|growing|making|creating|starting|running|leading)\b/)) return false;
+    if (lower.split(/\s+/).length > 4) return false; // More than 4 words is likely a phrase
+
+    return true;
+  }
+
+  // Pattern 1: Companies in parentheses at the end of title
+  // e.g., "How to build X | Adam Fishman (Patreon, Lyft, Imperfect Foods)"
+  const parenMatch = title.match(/\(([^)]+)\)\s*$/);
+  if (parenMatch) {
+    const companies = parenMatch[1]
+      .split(/,|&/)
+      .map(c => c.trim())
+      .filter(isValidCompany);
+    if (companies.length > 0) {
+      return companies[0]; // Return primary company
+    }
+  }
+
+  // Pattern 2: Check description for company mentions
+  if (description) {
+    // "is the CEO/founder of X" - capture the company after "of"
+    const ofMatch = description.match(/(?:CEO|founder|co-founder|CPO|CTO|VP|Head|Partner|Director|President)\s+(?:of|at)\s+([A-Z][A-Za-z0-9]+)/i);
+    if (ofMatch && isValidCompany(ofMatch[1])) {
+      return ofMatch[1].trim();
+    }
+
+    // Try to find well-known companies mentioned early in description
+    const knownCompanies = [
+      'Airbnb', 'Google', 'Meta', 'Facebook', 'Apple', 'Amazon', 'Microsoft', 'Netflix',
+      'Spotify', 'Uber', 'Lyft', 'Stripe', 'Shopify', 'Slack', 'Figma', 'Notion',
+      'LinkedIn', 'Twitter', 'Square', 'PayPal', 'Dropbox', 'Zoom', 'Salesforce',
+      'Pinterest', 'Snap', 'TikTok', 'ByteDance', 'Instacart', 'DoorDash', 'Coinbase',
+      'Robinhood', 'Canva', 'Duolingo', 'Replit', 'OpenAI', 'Anthropic', 'Nvidia',
+      'Atlassian', 'HubSpot', 'Zendesk', 'Twilio', 'MongoDB', 'Datadog', 'Snowflake',
+      'Plaid', 'Ramp', 'Brex', 'Amplitude', 'Segment', 'Mixpanel', 'Intercom',
+      'Patreon', 'Substack', 'Medium', 'Calendly', 'Loom', 'Miro', 'Airtable',
+      'Webflow', 'Vercel', 'Supabase', 'PlanetScale', 'Linear', 'Retool', 'Coda',
+      'a16z', 'Sequoia', 'Benchmark', 'Greylock', 'Accel', 'Index', 'Bessemer',
+      'Superhuman', 'Rippling', 'Gusto', 'Lattice', 'Culture Amp', 'Deel',
+      'Reforge', 'Maven', 'On Deck', 'Y Combinator', 'YC', 'First Round',
+      'Kleiner Perkins', 'GV', 'IVP', 'General Catalyst', 'Lightspeed',
+      'SVPG', 'Silicon Valley Product Group'
+    ];
+
+    for (const company of knownCompanies) {
+      if (description.includes(company)) {
+        return company;
+      }
+    }
+  }
+
+  return null;
+}
+
+/**
+ * Get top 3 most relevant PM skills from keywords
+ * Prioritizes action-oriented and PM-specific terms
+ */
+function getTopSkills(keywords) {
+  if (!keywords || keywords.length === 0) return [];
+
+  // PM skill priority (higher = more relevant)
+  const skillPriority = {
+    'product-market fit': 10,
+    'pmf': 10,
+    'growth': 9,
+    'strategy': 9,
+    'roadmap': 8,
+    'prioritization': 8,
+    'user research': 8,
+    'metrics': 7,
+    'experimentation': 7,
+    'leadership': 7,
+    'retention': 6,
+    'activation': 6,
+    'onboarding': 6,
+    'hiring': 6,
+    'culture': 5,
+    'pricing': 5,
+    'monetization': 5,
+    'analytics': 5,
+    'conversion': 4,
+    'churn': 4,
+    'okrs': 4,
+    'vision': 4,
+    'mission': 4,
+    'management': 3,
+    'design': 3,
+    'prototype': 3,
+    'market': 3,
+    'competition': 2,
+    'subscription': 2,
+    'acquisition': 2
+  };
+
+  // Sort keywords by priority, then take top 3
+  const sorted = [...keywords].sort((a, b) => {
+    const priorityA = skillPriority[a.toLowerCase()] || 0;
+    const priorityB = skillPriority[b.toLowerCase()] || 0;
+    return priorityB - priorityA;
+  });
+
+  return sorted.slice(0, 3);
+}
+
 function processAllEpisodes() {
   const episodeDirs = getAllEpisodeDirectories();
   console.log(`Found ${episodeDirs.length} episode directories`);
@@ -160,9 +299,20 @@ function processAllEpisodes() {
         ? rawViewCount
         : null;
 
+      // Extract company from title/description
+      const company = extractCompany(
+        parsed.metadata.title || '',
+        parsed.metadata.description || ''
+      );
+
+      // Get top 3 PM skills from keywords
+      const topSkills = getTopSkills(parsed.metadata.keywords || []);
+
       const episode = {
         slug,
         guest: parsed.metadata.guest || 'Unknown',
+        company: company,
+        topSkills: topSkills,
         title: parsed.metadata.title || '',
         publishDate: parsed.metadata.publish_date || null,
         duration: parsed.metadata.duration || null,
@@ -212,6 +362,8 @@ function generateTypeScriptFile(episodes) {
 export interface Episode {
   slug: string;
   guest: string;
+  company: string | null;
+  topSkills: string[];
   title: string;
   publishDate: string | null;
   duration: string | null;
