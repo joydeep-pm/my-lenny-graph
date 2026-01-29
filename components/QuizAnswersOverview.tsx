@@ -54,29 +54,29 @@ export default function QuizAnswersOverview({ answers, userName }: QuizAnswersOv
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.2 }}
-      className="border-2 border-ash-darker bg-void-light/50 backdrop-blur-sm p-6 md:p-8"
+      className="border-2 border-brand-border bg-white/50 backdrop-blur-sm p-6 md:p-8"
     >
       {/* Header */}
       <div className="flex items-start justify-between mb-6">
         <div>
-          <h2 className="text-2xl md:text-3xl font-bold text-amber mb-2">
+          <h2 className="text-2xl md:text-3xl font-bold text-brand-primary mb-2">
             How You Think
           </h2>
-          <p className="text-sm md:text-base text-ash-dark">
+          <p className="text-sm md:text-base text-brand-text-secondary">
             Your answers to the 10 philosophy questions
           </p>
         </div>
         <div className="flex gap-2">
           <button
             onClick={handleCopyAnswers}
-            className="p-2 md:p-3 border border-ash-darker text-ash-dark hover:text-amber hover:border-amber transition-all"
+            className="p-2 md:p-3 border border-brand-border text-brand-text-secondary hover:text-brand-primary hover:border-brand-primary transition-all"
             title="Copy answers"
           >
-            {copied ? <Check className="w-4 h-4 md:w-5 md:h-5 text-amber" /> : <Copy className="w-4 h-4 md:w-5 md:h-5" />}
+            {copied ? <Check className="w-4 h-4 md:w-5 md:h-5 text-brand-primary" /> : <Copy className="w-4 h-4 md:w-5 md:h-5" />}
           </button>
           <button
             onClick={handleShare}
-            className="p-2 md:p-3 border border-ash-darker text-ash-dark hover:text-amber hover:border-amber transition-all"
+            className="p-2 md:p-3 border border-brand-border text-brand-text-secondary hover:text-brand-primary hover:border-brand-primary transition-all"
             title="Share answers"
           >
             <Share2 className="w-4 h-4 md:w-5 md:h-5" />
@@ -98,26 +98,26 @@ export default function QuizAnswersOverview({ answers, userName }: QuizAnswersOv
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.3 + index * 0.05 }}
-              className="border-l-2 border-amber/30 pl-4 md:pl-6 py-2"
+              className="border-l-2 border-brand-primary/30 pl-4 md:pl-6 py-2"
             >
               {/* Question Number & Text */}
               <div className="flex items-start gap-3 mb-2">
-                <span className="text-xs md:text-sm font-mono text-amber font-bold flex-shrink-0 mt-1">
+                <span className="text-xs md:text-sm font-brand text-brand-primary font-bold flex-shrink-0 mt-1">
                   Q{index + 1}
                 </span>
-                <p className="text-sm md:text-base text-ash-dark leading-relaxed">
+                <p className="text-sm md:text-base text-brand-text-secondary leading-relaxed">
                   {question.text}
                 </p>
               </div>
 
               {/* Selected Answer */}
-              <div className="ml-7 md:ml-9 flex items-start gap-2 bg-void border border-amber/20 p-3 md:p-4">
+              <div className="ml-7 md:ml-9 flex items-start gap-2 bg-brand-background border border-brand-primary/20 p-3 md:p-4">
                 <span className="text-xl md:text-2xl flex-shrink-0">{selectedAnswer.icon}</span>
                 <div className="flex-1 min-w-0">
-                  <p className="text-xs md:text-sm text-amber font-mono font-bold mb-1">
+                  <p className="text-xs md:text-sm text-brand-primary font-brand font-bold mb-1">
                     YOUR ANSWER
                   </p>
-                  <p className="text-sm md:text-base text-ash leading-relaxed">
+                  <p className="text-sm md:text-base text-brand-text-primary leading-relaxed">
                     {selectedAnswer.text}
                   </p>
                 </div>
@@ -132,15 +132,15 @@ export default function QuizAnswersOverview({ answers, userName }: QuizAnswersOv
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
-          className="mt-4 p-3 bg-amber/10 border border-amber text-amber text-sm text-center font-mono"
+          className="mt-4 p-3 bg-brand-primary/10 border border-brand-primary text-brand-primary text-sm text-center font-brand"
         >
           ✓ Answers copied to clipboard!
         </motion.div>
       )}
 
       {/* Footer note */}
-      <div className="mt-6 pt-6 border-t border-ash-darker/50">
-        <p className="text-xs text-ash-darker text-center font-mono">
+      <div className="mt-6 pt-6 border-t border-brand-border/50">
+        <p className="text-xs text-brand-text-muted text-center font-brand">
           Share this with your team to understand how each person approaches product decisions
         </p>
       </div>

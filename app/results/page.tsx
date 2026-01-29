@@ -126,11 +126,11 @@ ${window.location.origin}`;
   // Show loading state during SSR/hydration
   if (!isClient) {
     return (
-      <div className="min-h-screen bg-void text-ash flex items-center justify-center p-4">
+      <div className="min-h-screen bg-brand-background text-brand-text-primary flex items-center justify-center p-4">
         <TopNav />
         <div className="text-center">
           <div className="text-4xl mb-4 animate-pulse">⚡</div>
-          <div className="text-ash-dark font-mono text-sm">Loading your philosophy...</div>
+          <div className="text-brand-text-secondary font-brand text-sm">Loading your philosophy...</div>
         </div>
       </div>
     );
@@ -138,14 +138,14 @@ ${window.location.origin}`;
 
   if (!recommendations) {
     return (
-      <div className="min-h-screen bg-void text-ash flex items-center justify-center p-4">
+      <div className="min-h-screen bg-brand-background text-brand-text-primary flex items-center justify-center p-4">
         <TopNav />
         <div className="text-center">
-          <h1 className="text-2xl font-bold text-amber mb-4">No quiz answers found</h1>
-          <p className="text-ash-dark mb-6">Take the quiz to discover your philosophy</p>
+          <h1 className="text-2xl font-bold text-brand-primary mb-4">No quiz answers found</h1>
+          <p className="text-brand-text-secondary mb-6">Take the quiz to discover your philosophy</p>
           <button
             onClick={handleRetake}
-            className="px-8 py-4 border-2 border-amber text-amber font-mono font-bold hover:bg-amber hover:text-void transition-all"
+            className="px-8 py-4 border-2 border-brand-primary text-brand-primary font-brand font-bold hover:bg-brand-primary hover:text-void transition-all"
           >
             TAKE THE QUIZ
           </button>
@@ -157,7 +157,7 @@ ${window.location.origin}`;
   const { userProfile, primary, contrarian } = recommendations;
 
   return (
-    <div className="min-h-screen bg-void text-ash p-4 md:p-8 pt-20 md:pt-24">
+    <div className="min-h-screen bg-brand-background text-brand-text-primary p-4 md:p-8 pt-20 md:pt-24">
       <TopNav />
       {/* Header */}
       <motion.div
@@ -167,19 +167,19 @@ ${window.location.origin}`;
       >
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center gap-3">
-            <div className="w-2 h-2 bg-amber rounded-full animate-pulse" />
-            <div className="text-xs text-ash-dark font-mono tracking-wider">
+            <div className="w-2 h-2 bg-brand-primary rounded-full animate-pulse" />
+            <div className="text-xs text-brand-text-secondary font-brand tracking-wider">
               PHILOSOPHY DISCOVERED
             </div>
           </div>
-          <div className="px-3 py-1 bg-amber/10 border border-amber/30 text-amber text-xs font-mono">
+          <div className="px-3 py-1 bg-brand-primary/10 border border-brand-primary/30 text-brand-primary text-xs font-brand">
             {primary.length + contrarian.length} EPISODES MATCHED
           </div>
         </div>
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-amber mb-4 leading-tight">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-brand-primary mb-4 leading-tight">
           {userName !== 'Your' ? `${userName}'s` : 'Your'} Product Philosophy
         </h1>
-        <p className="text-xl md:text-2xl text-ash leading-relaxed">
+        <p className="text-xl md:text-2xl text-brand-text-primary leading-relaxed">
           Podcast episodes curated for how you work as a PM
         </p>
       </motion.div>
@@ -201,10 +201,10 @@ ${window.location.origin}`;
             transition={{ delay: 0.3 }}
           >
             <div className="mb-6">
-              <h2 className="text-3xl font-bold text-amber mb-2">
+              <h2 className="text-3xl font-bold text-brand-primary mb-2">
                 Episodes For You
               </h2>
-              <p className="text-ash-dark">
+              <p className="text-brand-text-secondary">
                 Based on your philosophy, these episodes will resonate with how you work
               </p>
             </div>
@@ -221,8 +221,8 @@ ${window.location.origin}`;
             </div>
 
             {primary.length < 5 && (
-              <div className="mt-4 p-4 border border-ash-darker bg-void-light">
-                <p className="text-sm text-ash-dark">
+              <div className="mt-4 p-4 border border-brand-border bg-white">
+                <p className="text-sm text-brand-text-secondary">
                   More episodes coming soon! We're currently building a library of {getRegistryInfo().episodeCount} curated episodes from 295 total episodes.
                 </p>
               </div>
@@ -241,7 +241,7 @@ ${window.location.origin}`;
               <h2 className="text-3xl font-bold text-rose-400 mb-2">
                 Perspectives to Explore
               </h2>
-              <p className="text-ash-dark">
+              <p className="text-brand-text-secondary">
                 {getBlindSpotDescription(userProfile.blindSpotZone)}
               </p>
             </div>
@@ -264,10 +264,10 @@ ${window.location.origin}`;
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.7 }}
-          className="border border-ash-darker bg-void-light p-8"
+          className="border border-brand-border bg-white p-8"
         >
-          <h3 className="text-2xl font-bold text-amber mb-2">Your Philosophy Mix</h3>
-          <p className="text-sm text-ash-dark mb-8">
+          <h3 className="text-2xl font-bold text-brand-primary mb-2">Your Philosophy Mix</h3>
+          <p className="text-sm text-brand-text-secondary mb-8">
             Your top approaches to product management
           </p>
 
@@ -290,19 +290,19 @@ ${window.location.origin}`;
                     transition={{ delay: 0.8 + index * 0.1 }}
                     className={`border-2 p-5 transition-all ${
                       isPrimary
-                        ? 'border-amber bg-amber/5'
+                        ? 'border-brand-primary bg-brand-primary/5'
                         : isSecondary
-                        ? 'border-amber/50 bg-void'
-                        : 'border-ash-darker bg-void'
+                        ? 'border-brand-primary/50 bg-brand-background'
+                        : 'border-brand-border bg-brand-background'
                     }`}
                   >
                     {/* Badge */}
                     {(isPrimary || isSecondary) && (
                       <div className="mb-3">
-                        <span className={`inline-block px-2 py-1 text-xs font-bold font-mono ${
+                        <span className={`inline-block px-2 py-1 text-xs font-bold font-brand ${
                           isPrimary
-                            ? 'bg-amber text-void'
-                            : 'border border-amber/50 text-amber'
+                            ? 'bg-brand-primary text-void'
+                            : 'border border-brand-primary/50 text-brand-primary'
                         }`}>
                           {isPrimary ? 'PRIMARY' : 'SECONDARY'}
                         </span>
@@ -314,18 +314,18 @@ ${window.location.origin}`;
                       <div className="flex items-center gap-3">
                         <span className="text-3xl">{zone.icon}</span>
                         <div>
-                          <div className={`font-bold font-mono ${
-                            isPrimary ? 'text-amber text-lg' : 'text-ash'
+                          <div className={`font-bold font-brand ${
+                            isPrimary ? 'text-brand-primary text-lg' : 'text-brand-text-primary'
                           }`}>
                             {zone.name}
                           </div>
-                          <div className="text-xs text-ash-dark mt-0.5">
+                          <div className="text-xs text-brand-text-secondary mt-0.5">
                             {zone.tagline}
                           </div>
                         </div>
                       </div>
-                      <div className={`text-2xl font-bold font-mono ${
-                        isPrimary ? 'text-amber' : 'text-ash-dark'
+                      <div className={`text-2xl font-bold font-brand ${
+                        isPrimary ? 'text-brand-primary' : 'text-brand-text-secondary'
                       }`}>
                         {percentage}%
                       </div>
@@ -333,7 +333,7 @@ ${window.location.origin}`;
 
                     {/* Description (only for top 2) */}
                     {(isPrimary || isSecondary) && (
-                      <p className="text-sm text-ash-dark leading-relaxed">
+                      <p className="text-sm text-brand-text-secondary leading-relaxed">
                         {zone.description}
                       </p>
                     )}
@@ -344,12 +344,12 @@ ${window.location.origin}`;
 
           {/* View Full Breakdown Link */}
           <div className="mt-6 text-center">
-            <details className="text-sm text-ash-dark hover:text-amber transition-colors cursor-pointer">
-              <summary className="font-mono font-bold list-none inline-flex items-center gap-2">
+            <details className="text-sm text-brand-text-secondary hover:text-brand-primary transition-colors cursor-pointer">
+              <summary className="font-brand font-bold list-none inline-flex items-center gap-2">
                 <span>View all 8 zones</span>
                 <span className="text-xs">▼</span>
               </summary>
-              <div className="mt-4 pt-4 border-t border-ash-darker grid grid-cols-2 md:grid-cols-4 gap-3 text-xs">
+              <div className="mt-4 pt-4 border-t border-brand-border grid grid-cols-2 md:grid-cols-4 gap-3 text-xs">
                 {Object.entries(userProfile.zonePercentages)
                   .sort((a, b) => b[1] - a[1])
                   .map(([zoneId, percentage]) => {
@@ -357,8 +357,8 @@ ${window.location.origin}`;
                     return (
                       <div key={zoneId} className="text-center">
                         <div className="text-lg mb-1">{zone.icon}</div>
-                        <div className="font-mono text-ash-dark">{zone.name}</div>
-                        <div className="font-mono font-bold text-amber">{percentage}%</div>
+                        <div className="font-brand text-brand-text-secondary">{zone.name}</div>
+                        <div className="font-brand font-bold text-brand-primary">{percentage}%</div>
                       </div>
                     );
                   })}
@@ -378,13 +378,13 @@ ${window.location.origin}`;
           <div className="flex flex-wrap gap-4 justify-center">
             <button
               onClick={handleShare}
-              className="px-10 py-5 bg-amber text-void font-mono font-bold hover:bg-amber-dark transition-all hover:scale-105 active:scale-95 text-lg"
+              className="px-10 py-5 bg-brand-primary text-void font-brand font-bold hover:bg-brand-primary-dark transition-all hover:scale-105 active:scale-95 text-lg"
             >
               🔥 SHARE YOUR PHILOSOPHY
             </button>
             <button
               onClick={handleDownload}
-              className="px-10 py-5 border-2 border-amber text-amber font-mono font-bold hover:bg-amber hover:text-void transition-all hover:scale-105 active:scale-95 text-lg"
+              className="px-10 py-5 border-2 border-brand-primary text-brand-primary font-brand font-bold hover:bg-brand-primary hover:text-void transition-all hover:scale-105 active:scale-95 text-lg"
             >
               📥 DOWNLOAD RESULTS
             </button>
@@ -394,13 +394,13 @@ ${window.location.origin}`;
           <div className="flex flex-wrap gap-4 justify-center text-sm">
             <button
               onClick={handleExplore}
-              className="px-6 py-3 border border-ash-darker text-ash-dark font-mono hover:text-amber hover:border-amber transition-all"
+              className="px-6 py-3 border border-brand-border text-brand-text-secondary font-brand hover:text-brand-primary hover:border-brand-primary transition-all"
             >
               Browse All Episodes
             </button>
             <button
               onClick={handleRetake}
-              className="px-6 py-3 border border-ash-darker text-ash-dark font-mono hover:text-amber hover:border-amber transition-all"
+              className="px-6 py-3 border border-brand-border text-brand-text-secondary font-brand hover:text-brand-primary hover:border-brand-primary transition-all"
             >
               Retake Quiz
             </button>
@@ -412,12 +412,12 @@ ${window.location.origin}`;
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
-          className="text-center py-8 border-t border-ash-darker mt-12"
+          className="text-center py-8 border-t border-brand-border mt-12"
         >
-          <div className="text-xs text-ash-darker font-mono">
-            Based on {Object.keys(answers).length} questions and 295 episodes of Lenny's Podcast
+          <div className="text-xs text-brand-text-muted font-brand">
+            Based on {Object.keys(answers).length} questions and 295 AI-curated podcast episodes
           </div>
-          <div className="text-xs text-ash-darker font-mono mt-2">
+          <div className="text-xs text-brand-text-muted font-brand mt-2">
             Built for the PM community
           </div>
         </motion.div>
@@ -429,10 +429,10 @@ ${window.location.origin}`;
 export default function ResultsPage() {
   return (
     <Suspense fallback={
-      <div className="min-h-screen bg-void text-ash flex items-center justify-center">
+      <div className="min-h-screen bg-brand-background text-brand-text-primary flex items-center justify-center">
         <div className="text-center">
           <div className="text-4xl mb-4 animate-pulse">⚡</div>
-          <div className="text-ash-dark font-mono text-sm">Analyzing your philosophy...</div>
+          <div className="text-brand-text-secondary font-brand text-sm">Analyzing your philosophy...</div>
         </div>
       </div>
     }>

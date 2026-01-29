@@ -19,9 +19,24 @@ const config: Config = {
         ash: '#e0e0e0',           // Improved from #cccccc for better contrast
         'ash-dark': '#999999',    // Improved from #666666 for better readability
         'ash-darker': '#444444',  // Improved from #333333
+        // Brand colors from joydeepsarkar.me
+        brand: {
+          primary: '#2563eb',      // Blue accent
+          secondary: '#1a1a1a',    // Dark text/bg
+          background: '#faf9f6',   // Warm off-white
+          'bg-secondary': '#f5f4f0',
+          border: '#e8e6e1',
+          'text-primary': '#1a1a1a',
+          'text-secondary': '#4a4a4a',
+          'text-muted': '#8a8a8a',
+          success: '#059669',
+        },
       },
       fontFamily: {
         mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace'],
+        // Brand fonts from joydeepsarkar.me
+        brand: ['var(--font-brand)', 'system-ui', 'sans-serif'],
+        'brand-display': ['var(--font-brand-display)', 'Georgia', 'serif'],
       },
       animation: {
         'glitch': 'glitch 3s infinite',

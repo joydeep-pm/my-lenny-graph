@@ -49,9 +49,9 @@ export default function EpisodePage() {
   // Update document title dynamically
   useEffect(() => {
     if (episode) {
-      document.title = `${episode.guest} | Lenny's Podcast Philosophy`;
+      document.title = `${episode.guest} | PM Intelligence Engine`;
     } else {
-      document.title = "Episode Not Found | Lenny's Podcast Philosophy";
+      document.title = "Episode Not Found | PM Intelligence Engine";
     }
   }, [episode]);
   const verifiedEnrichment = useMemo(() => getEpisodeEnrichment(slug), [slug]);
@@ -334,10 +334,10 @@ export default function EpisodePage() {
 
   if (!episode) {
     return (
-      <div className="min-h-screen bg-void text-ash font-mono flex items-center justify-center">
+      <div className="min-h-screen bg-brand-background text-brand-text-primary font-brand flex items-center justify-center">
         <div className="text-center">
-          <h1 className="text-4xl font-bold text-amber mb-4">Episode Not Found</h1>
-          <Link href="/explore" className="text-ash-dark hover:text-amber transition-colors">
+          <h1 className="text-4xl font-bold text-brand-primary mb-4">Episode Not Found</h1>
+          <Link href="/explore" className="text-brand-text-secondary hover:text-brand-primary transition-colors">
             ← Back to Explore
           </Link>
         </div>
@@ -346,13 +346,9 @@ export default function EpisodePage() {
   }
 
   return (
-    <div className="min-h-screen bg-void text-ash font-mono">
+    <div className="min-h-screen bg-brand-background text-brand-text-primary font-brand">
       <TopNav />
 
-      {/* Scanlines */}
-      <div className="fixed inset-0 pointer-events-none z-20 opacity-5">
-        <div className="w-full h-full bg-[repeating-linear-gradient(0deg,transparent,transparent_2px,#ffb347_2px,#ffb347_4px)]" />
-      </div>
 
       {/* Share Toast */}
       {showShareToast && (
@@ -360,7 +356,7 @@ export default function EpisodePage() {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0 }}
-          className="fixed top-8 right-8 z-50 px-6 py-3 bg-amber text-void font-bold"
+          className="fixed top-8 right-8 z-50 px-6 py-3 bg-brand-primary text-white font-bold"
         >
           ✓ Quote copied to clipboard!
         </motion.div>
@@ -371,16 +367,16 @@ export default function EpisodePage() {
         {/* Mobile Layout */}
         <div className="lg:hidden max-w-4xl mx-auto">
           {/* Header */}
-          <div className="mb-6 pb-6 border-b-2 border-ash-darker">
-            <h1 className="text-3xl md:text-4xl font-bold text-amber mb-3 leading-tight">
+          <div className="mb-6 pb-6 border-b-2 border-brand-border">
+            <h1 className="text-3xl md:text-4xl font-bold text-brand-primary mb-3 leading-tight">
               {episode.guest}
             </h1>
-            <h2 className="text-lg md:text-xl text-ash-dark mb-4 leading-relaxed">
+            <h2 className="text-lg md:text-xl text-brand-text-secondary mb-4 leading-relaxed">
               {episode.title}
             </h2>
 
             {/* Metadata */}
-            <div className="flex flex-wrap gap-3 mb-4 text-sm text-ash-dark">
+            <div className="flex flex-wrap gap-3 mb-4 text-sm text-brand-text-secondary">
               {episode.publishDate && (
                 <div className="flex items-center gap-2">
                   <Calendar className="w-4 h-4" />
@@ -410,12 +406,12 @@ export default function EpisodePage() {
             {/* Keywords */}
             {episode.keywords && episode.keywords.length > 0 && (
               <div className="mt-4">
-                <p className="text-xs text-amber tracking-wider mb-2">TOPICS</p>
+                <p className="text-xs text-brand-primary tracking-wider mb-2">TOPICS</p>
                 <div className="flex flex-wrap gap-2">
                   {episode.keywords.slice(0, 8).map((keyword) => (
                     <span
                       key={keyword}
-                      className="px-2 py-1 text-xs border border-ash-darker text-ash-dark bg-void-light"
+                      className="px-2 py-1 text-xs border border-brand-border text-brand-text-secondary bg-white"
                     >
                       {keyword}
                     </span>
@@ -427,8 +423,8 @@ export default function EpisodePage() {
 
           {/* YouTube Embed - Sticky on mobile */}
           {episode.videoId && (
-            <div className="mb-6 sticky top-16 md:top-20 z-30 bg-void pb-4">
-              <div className="relative w-full aspect-video bg-void-light border-2 border-crimson">
+            <div className="mb-6 sticky top-16 md:top-20 z-30 bg-brand-background pb-4">
+              <div className="relative w-full aspect-video bg-white border-2 border-crimson">
                 <div
                   id="youtube-player"
                   className="absolute inset-0 w-full h-full"
@@ -439,15 +435,15 @@ export default function EpisodePage() {
 
           {/* External Link for non-YouTube episodes */}
           {!episode.videoId && episode.youtubeUrl && (
-            <div className="mb-6 bg-void-light border-2 border-amber p-6">
-              <p className="text-sm text-ash-dark mb-4">
+            <div className="mb-6 bg-white border-2 border-brand-primary p-6">
+              <p className="text-sm text-brand-text-secondary mb-4">
                 This episode is available on Lenny&apos;s Newsletter
               </p>
               <a
                 href={episode.youtubeUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-amber text-void font-bold hover:bg-amber-light transition-colors"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-brand-primary text-white font-bold hover:bg-brand-primary-light transition-colors"
               >
                 <ExternalLink className="w-5 h-5" />
                 Listen to Episode
@@ -456,14 +452,14 @@ export default function EpisodePage() {
           )}
 
           {/* Mobile Tabs - Not sticky */}
-          <div className="mb-6 border-b-2 border-ash-darker">
+          <div className="mb-6 border-b-2 border-brand-border">
             <div className="flex gap-6">
               <button
                 onClick={() => setActiveTab('transcript')}
                 className={`pb-3 px-2 font-bold text-sm tracking-wider transition-colors ${
                   activeTab === 'transcript'
-                    ? 'text-amber border-b-2 border-amber -mb-[2px]'
-                    : 'text-ash-dark hover:text-amber'
+                    ? 'text-brand-primary border-b-2 border-brand-primary -mb-[2px]'
+                    : 'text-brand-text-secondary hover:text-brand-primary'
                 }`}
               >
                 TRANSCRIPT
@@ -472,8 +468,8 @@ export default function EpisodePage() {
                 onClick={() => setActiveTab('insights')}
                 className={`pb-3 px-2 font-bold text-sm tracking-wider transition-colors ${
                   activeTab === 'insights'
-                    ? 'text-amber border-b-2 border-amber -mb-[2px]'
-                    : 'text-ash-dark hover:text-amber'
+                    ? 'text-brand-primary border-b-2 border-brand-primary -mb-[2px]'
+                    : 'text-brand-text-secondary hover:text-brand-primary'
                 }`}
               >
                 INSIGHTS
@@ -487,27 +483,27 @@ export default function EpisodePage() {
               {/* Search Transcript */}
               <div className="mb-6">
                 <div className="relative">
-                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-amber" />
+                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-brand-primary" />
                   <input
                     type="text"
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     placeholder="Search transcript..."
-                    className="w-full bg-void-light border-2 border-ash-darker text-ash pl-11 pr-11 py-3
-                             focus:border-amber focus:outline-none transition-colors text-sm
-                             placeholder:text-ash-dark"
+                    className="w-full bg-white border-2 border-brand-border text-brand-text-primary pl-11 pr-11 py-3
+                             focus:border-brand-primary focus:outline-none transition-colors text-sm
+                             placeholder:text-brand-text-secondary"
                   />
                   {searchQuery && (
                     <button
                       onClick={() => setSearchQuery('')}
-                      className="absolute right-3 top-1/2 -translate-y-1/2 text-ash-dark hover:text-amber transition-colors"
+                      className="absolute right-3 top-1/2 -translate-y-1/2 text-brand-text-secondary hover:text-brand-primary transition-colors"
                     >
                       <X className="w-5 h-5" />
                     </button>
                   )}
                 </div>
                 {searchQuery && (
-                  <p className="text-sm text-ash-dark mt-2">
+                  <p className="text-sm text-brand-text-secondary mt-2">
                     {filteredSections.length} result{filteredSections.length !== 1 ? 's' : ''} found
                   </p>
                 )}
@@ -516,14 +512,14 @@ export default function EpisodePage() {
               {/* Transcript */}
               <div>
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-xl font-bold text-amber">TRANSCRIPT</h3>
-                  <div className="text-sm text-ash-dark">
+                  <h3 className="text-xl font-bold text-brand-primary">TRANSCRIPT</h3>
+                  <div className="text-sm text-brand-text-secondary">
                     {isLoading ? 'Loading...' : `${filteredSections.length} segments`}
                   </div>
                 </div>
 
                 {isLoading ? (
-                  <div className="text-center py-12 text-ash-dark">
+                  <div className="text-center py-12 text-brand-text-secondary">
                     <div className="animate-pulse">Loading transcript...</div>
                   </div>
                 ) : filteredSections.length > 0 ? (
@@ -532,8 +528,8 @@ export default function EpisodePage() {
                       <div
                         key={originalIndex}
                         ref={el => { sectionRefs.current[originalIndex] = el; }}
-                        className={`group hover:bg-void-light transition-colors p-3 -mx-3 ${
-                          selectedSection === originalIndex ? 'bg-amber/10' : ''
+                        className={`group hover:bg-white transition-colors p-3 -mx-3 ${
+                          selectedSection === originalIndex ? 'bg-brand-primary/10' : ''
                         }`}
                       >
                         <div className="flex items-start gap-3">
@@ -542,22 +538,22 @@ export default function EpisodePage() {
                               e.preventDefault();
                               jumpToTimestamp(originalIndex);
                             }}
-                            className="flex-shrink-0 w-16 text-xs font-mono text-ash-dark hover:text-amber transition-colors flex items-center gap-1"
+                            className="flex-shrink-0 w-16 text-xs font-brand text-brand-text-secondary hover:text-brand-primary transition-colors flex items-center gap-1"
                             title="Jump to timestamp"
                           >
                             <Hash className="w-3 h-3" />
                             {section.timestamp}
                           </button>
                           <div className="flex-1 min-w-0">
-                            <div className="font-bold text-amber text-sm mb-1">
+                            <div className="font-bold text-brand-primary text-sm mb-1">
                               {section.speaker}
                             </div>
-                            <div className="text-ash-dark text-sm leading-relaxed">
+                            <div className="text-brand-text-secondary text-sm leading-relaxed">
                               {searchQuery ? (
                                 <span dangerouslySetInnerHTML={{
                                   __html: section.text.replace(
                                     new RegExp(`(${searchQuery})`, 'gi'),
-                                    '<mark class="bg-amber/30 text-ash">$1</mark>'
+                                    '<mark class="bg-brand-primary/30 text-brand-text-primary">$1</mark>'
                                   )
                                 }} />
                               ) : (
@@ -571,13 +567,13 @@ export default function EpisodePage() {
                   </div>
                 ) : (
                   <div className="text-center py-12">
-                    <p className="text-ash-dark mb-4">
+                    <p className="text-brand-text-secondary mb-4">
                       {searchQuery ? 'No results found' : 'No transcript available'}
                     </p>
                     {searchQuery && (
                       <button
                         onClick={() => setSearchQuery('')}
-                        className="text-amber hover:text-amber-dark transition-colors text-sm"
+                        className="text-brand-primary hover:text-brand-primary transition-colors text-sm"
                       >
                         Clear search
                       </button>
@@ -592,13 +588,13 @@ export default function EpisodePage() {
             <div className="space-y-6">
               {/* Key Takeaways */}
               {verifiedEnrichment && verifiedEnrichment.takeaways && verifiedEnrichment.takeaways.length > 0 && (
-                <div className="border-2 border-amber bg-void-light p-5">
-                  <h3 className="text-lg font-bold text-amber mb-4">🎯 KEY TAKEAWAYS</h3>
+                <div className="border-2 border-brand-primary bg-white p-5">
+                  <h3 className="text-lg font-bold text-brand-primary mb-4">🎯 KEY TAKEAWAYS</h3>
                   <div className="space-y-3">
                     {verifiedEnrichment.takeaways.map((takeaway, i) => (
                       <div key={i} className="flex gap-3">
-                        <span className="text-amber font-bold text-sm flex-shrink-0">{i + 1}.</span>
-                        <p className="text-ash-dark text-sm leading-relaxed">{takeaway}</p>
+                        <span className="text-brand-primary font-bold text-sm flex-shrink-0">{i + 1}.</span>
+                        <p className="text-brand-text-secondary text-sm leading-relaxed">{takeaway}</p>
                       </div>
                     ))}
                   </div>
@@ -620,7 +616,7 @@ export default function EpisodePage() {
 
               {/* Contrarian Views */}
               {insights && insights.contrarianViews.length > 0 && (
-                <div className="border-2 border-crimson/30 bg-void-light p-5">
+                <div className="border-2 border-crimson/30 bg-white p-5">
                   <h3 className="text-lg font-bold text-crimson mb-4">🔥 CONTRARIAN TAKES</h3>
                   <div className="space-y-4">
                     {insights.contrarianViews.slice(0, showAllContrarian ? undefined : 2).map((view, i) => (
@@ -644,17 +640,17 @@ export default function EpisodePage() {
 
               {/* Other Episodes */}
               {otherGuestEpisodes.length > 0 && (
-                <div className="border-2 border-amber bg-void-light p-5">
-                  <h3 className="text-lg font-bold text-amber mb-4">MORE FROM {episode.guest.replace(/\s+\d+\.\d+$/, '').toUpperCase()}</h3>
+                <div className="border-2 border-brand-primary bg-white p-5">
+                  <h3 className="text-lg font-bold text-brand-primary mb-4">MORE FROM {episode.guest.replace(/\s+\d+\.\d+$/, '').toUpperCase()}</h3>
                   <div className="space-y-3">
                     {otherGuestEpisodes.map((ep) => (
                       <Link
                         key={ep.slug}
                         href={`/episodes/${ep.slug}`}
-                        className="block p-3 border border-ash-darker hover:border-amber transition-colors"
+                        className="block p-3 border border-brand-border hover:border-brand-primary transition-colors"
                       >
-                        <div className="text-sm font-bold text-amber mb-1">{ep.guest}</div>
-                        <div className="text-xs text-ash-dark line-clamp-2">{ep.title}</div>
+                        <div className="text-sm font-bold text-brand-primary mb-1">{ep.guest}</div>
+                        <div className="text-xs text-brand-text-secondary line-clamp-2">{ep.title}</div>
                       </Link>
                     ))}
                   </div>
@@ -663,8 +659,8 @@ export default function EpisodePage() {
 
               {/* Related Episodes */}
               {relatedEpisodes.length > 0 && (
-                <div className="border-2 border-ash-darker bg-void-light p-5">
-                  <h3 className="text-lg font-bold text-amber mb-4">RELATED EPISODES</h3>
+                <div className="border-2 border-brand-border bg-white p-5">
+                  <h3 className="text-lg font-bold text-brand-primary mb-4">RELATED EPISODES</h3>
                   <div className="space-y-4">
                     {relatedEpisodes.map((related) => (
                       <Link
@@ -672,15 +668,15 @@ export default function EpisodePage() {
                         href={`/episodes/${related.slug}`}
                         className="block group"
                       >
-                        <div className="text-sm font-bold text-ash group-hover:text-amber transition-colors mb-1">
+                        <div className="text-sm font-bold text-brand-text-primary group-hover:text-brand-primary transition-colors mb-1">
                           {related.guest}
                         </div>
-                        <div className="text-xs text-ash-dark line-clamp-2">
+                        <div className="text-xs text-brand-text-secondary line-clamp-2">
                           {related.title}
                         </div>
                         <div className="flex gap-2 mt-2 flex-wrap">
                           {related.keywords.filter(kw => episode.keywords.includes(kw)).slice(0, 3).map(kw => (
-                            <span key={kw} className="text-xs text-amber">{kw}</span>
+                            <span key={kw} className="text-xs text-brand-primary">{kw}</span>
                           ))}
                         </div>
                       </Link>
@@ -698,16 +694,16 @@ export default function EpisodePage() {
             {/* Left Column: Header + Tabs (Transcript/Insights) */}
             <div className="col-span-7">
               {/* Header */}
-              <div className="mb-8 pb-8 border-b-2 border-ash-darker">
-                <h1 className="text-4xl xl:text-5xl font-bold text-amber mb-4 leading-tight">
+              <div className="mb-8 pb-8 border-b-2 border-brand-border">
+                <h1 className="text-4xl xl:text-5xl font-bold text-brand-primary mb-4 leading-tight">
                   {episode.guest}
                 </h1>
-                <h2 className="text-xl xl:text-2xl text-ash-dark mb-6 leading-relaxed">
+                <h2 className="text-xl xl:text-2xl text-brand-text-secondary mb-6 leading-relaxed">
                   {episode.title}
                 </h2>
 
                 {/* Metadata */}
-                <div className="flex flex-wrap gap-4 mb-6 text-sm text-ash-dark">
+                <div className="flex flex-wrap gap-4 mb-6 text-sm text-brand-text-secondary">
                   {episode.publishDate && (
                     <div className="flex items-center gap-2">
                       <Calendar className="w-4 h-4" />
@@ -737,12 +733,12 @@ export default function EpisodePage() {
                 {/* Keywords */}
                 {episode.keywords && episode.keywords.length > 0 && (
                   <div className="mt-6">
-                    <p className="text-xs text-amber tracking-wider mb-2">TOPICS</p>
+                    <p className="text-xs text-brand-primary tracking-wider mb-2">TOPICS</p>
                     <div className="flex flex-wrap gap-2">
                       {episode.keywords.map((keyword) => (
                         <span
                           key={keyword}
-                          className="px-3 py-1 text-xs border border-ash-darker text-ash-dark bg-void-light"
+                          className="px-3 py-1 text-xs border border-brand-border text-brand-text-secondary bg-white"
                         >
                           {keyword}
                         </span>
@@ -753,14 +749,14 @@ export default function EpisodePage() {
               </div>
 
               {/* Desktop Tabs */}
-              <div className="mb-6 border-b-2 border-ash-darker">
+              <div className="mb-6 border-b-2 border-brand-border">
                 <div className="flex gap-8">
                   <button
                     onClick={() => setActiveTab('transcript')}
                     className={`pb-4 px-2 font-bold text-lg tracking-wider transition-colors ${
                       activeTab === 'transcript'
-                        ? 'text-amber border-b-2 border-amber -mb-[2px]'
-                        : 'text-ash-dark hover:text-amber'
+                        ? 'text-brand-primary border-b-2 border-brand-primary -mb-[2px]'
+                        : 'text-brand-text-secondary hover:text-brand-primary'
                     }`}
                   >
                     TRANSCRIPT
@@ -769,8 +765,8 @@ export default function EpisodePage() {
                     onClick={() => setActiveTab('insights')}
                     className={`pb-4 px-2 font-bold text-lg tracking-wider transition-colors ${
                       activeTab === 'insights'
-                        ? 'text-amber border-b-2 border-amber -mb-[2px]'
-                        : 'text-ash-dark hover:text-amber'
+                        ? 'text-brand-primary border-b-2 border-brand-primary -mb-[2px]'
+                        : 'text-brand-text-secondary hover:text-brand-primary'
                     }`}
                   >
                     INSIGHTS
@@ -784,27 +780,27 @@ export default function EpisodePage() {
                   {/* Search Transcript */}
                   <div className="mb-6">
                     <div className="relative">
-                      <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-amber" />
+                      <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-brand-primary" />
                       <input
                         type="text"
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
                         placeholder="Search transcript..."
-                        className="w-full bg-void-light border-2 border-ash-darker text-ash pl-12 pr-12 py-3
-                                 focus:border-amber focus:outline-none transition-colors
-                                 placeholder:text-ash-dark"
+                        className="w-full bg-white border-2 border-brand-border text-brand-text-primary pl-12 pr-12 py-3
+                                 focus:border-brand-primary focus:outline-none transition-colors
+                                 placeholder:text-brand-text-secondary"
                       />
                       {searchQuery && (
                         <button
                           onClick={() => setSearchQuery('')}
-                          className="absolute right-4 top-1/2 -translate-y-1/2 text-ash-dark hover:text-amber transition-colors"
+                          className="absolute right-4 top-1/2 -translate-y-1/2 text-brand-text-secondary hover:text-brand-primary transition-colors"
                         >
                           <X className="w-5 h-5" />
                         </button>
                       )}
                     </div>
                     {searchQuery && (
-                      <p className="text-sm text-ash-dark mt-2">
+                      <p className="text-sm text-brand-text-secondary mt-2">
                         {filteredSections.length} result{filteredSections.length !== 1 ? 's' : ''} found
                       </p>
                     )}
@@ -813,13 +809,13 @@ export default function EpisodePage() {
                   {/* Transcript Content */}
                   <div>
                     <div className="flex items-center justify-between mb-6">
-                      <div className="text-sm text-ash-dark">
+                      <div className="text-sm text-brand-text-secondary">
                         {isLoading ? 'Loading...' : `${filteredSections.length} segments`}
                       </div>
                     </div>
 
                     {isLoading ? (
-                      <div className="text-center py-12 text-ash-dark">
+                      <div className="text-center py-12 text-brand-text-secondary">
                         <div className="animate-pulse">Loading transcript...</div>
                       </div>
                     ) : filteredSections.length > 0 ? (
@@ -828,8 +824,8 @@ export default function EpisodePage() {
                           <div
                             key={originalIndex}
                             ref={el => { sectionRefs.current[originalIndex] = el; }}
-                            className={`group hover:bg-void-light transition-colors p-4 -mx-4 ${
-                              selectedSection === originalIndex ? 'bg-amber/10' : ''
+                            className={`group hover:bg-white transition-colors p-4 -mx-4 ${
+                              selectedSection === originalIndex ? 'bg-brand-primary/10' : ''
                             }`}
                           >
                             <div className="flex items-start gap-4">
@@ -838,22 +834,22 @@ export default function EpisodePage() {
                                   e.preventDefault();
                                   jumpToTimestamp(originalIndex);
                                 }}
-                                className="flex-shrink-0 w-20 text-xs font-mono text-ash-dark hover:text-amber transition-colors flex items-center gap-1 cursor-pointer"
+                                className="flex-shrink-0 w-20 text-xs font-brand text-brand-text-secondary hover:text-brand-primary transition-colors flex items-center gap-1 cursor-pointer"
                                 title="Jump to timestamp"
                               >
                                 <Hash className="w-3 h-3" />
                                 {section.timestamp}
                               </button>
                               <div className="flex-1 min-w-0">
-                                <div className="font-bold text-amber text-sm mb-2">
+                                <div className="font-bold text-brand-primary text-sm mb-2">
                                   {section.speaker}
                                 </div>
-                                <div className="text-ash-dark leading-relaxed">
+                                <div className="text-brand-text-secondary leading-relaxed">
                                   {searchQuery ? (
                                     <span dangerouslySetInnerHTML={{
                                       __html: section.text.replace(
                                         new RegExp(`(${searchQuery})`, 'gi'),
-                                        '<mark class="bg-amber/30 text-ash">$1</mark>'
+                                        '<mark class="bg-brand-primary/30 text-brand-text-primary">$1</mark>'
                                       )
                                     }} />
                                   ) : (
@@ -867,13 +863,13 @@ export default function EpisodePage() {
                       </div>
                     ) : (
                       <div className="text-center py-12">
-                        <p className="text-ash-dark mb-4">
+                        <p className="text-brand-text-secondary mb-4">
                           {searchQuery ? 'No results found' : 'No transcript available'}
                         </p>
                         {searchQuery && (
                           <button
                             onClick={() => setSearchQuery('')}
-                            className="text-amber hover:text-amber-dark transition-colors"
+                            className="text-brand-primary hover:text-brand-primary transition-colors"
                           >
                             Clear search
                           </button>
@@ -888,13 +884,13 @@ export default function EpisodePage() {
                 <div className="space-y-6">
                   {/* Key Takeaways */}
                   {verifiedEnrichment && verifiedEnrichment.takeaways && verifiedEnrichment.takeaways.length > 0 && (
-                    <div className="border-2 border-amber bg-void-light p-6">
-                      <h3 className="text-lg font-bold text-amber mb-4">🎯 KEY TAKEAWAYS</h3>
+                    <div className="border-2 border-brand-primary bg-white p-6">
+                      <h3 className="text-lg font-bold text-brand-primary mb-4">🎯 KEY TAKEAWAYS</h3>
                       <div className="space-y-3">
                         {verifiedEnrichment.takeaways.map((takeaway, i) => (
                           <div key={i} className="flex gap-3">
-                            <span className="text-amber font-bold text-sm flex-shrink-0">{i + 1}.</span>
-                            <p className="text-ash-dark text-sm leading-relaxed">{takeaway}</p>
+                            <span className="text-brand-primary font-bold text-sm flex-shrink-0">{i + 1}.</span>
+                            <p className="text-brand-text-secondary text-sm leading-relaxed">{takeaway}</p>
                           </div>
                         ))}
                       </div>
@@ -916,7 +912,7 @@ export default function EpisodePage() {
 
                   {/* Contrarian Views */}
                   {insights && insights.contrarianViews.length > 0 && (
-                    <div className="border-2 border-crimson/30 bg-void-light p-6">
+                    <div className="border-2 border-crimson/30 bg-white p-6">
                       <h3 className="text-lg font-bold text-crimson mb-4">🔥 CONTRARIAN TAKES</h3>
                       <div className="space-y-4">
                         {insights.contrarianViews.slice(0, showAllContrarian ? undefined : 3).map((view, i) => (
@@ -940,17 +936,17 @@ export default function EpisodePage() {
 
                   {/* Other Episodes */}
                   {otherGuestEpisodes.length > 0 && (
-                    <div className="border-2 border-amber bg-void-light p-6">
-                      <h3 className="text-lg font-bold text-amber mb-4">MORE FROM {episode.guest.replace(/\s+\d+\.\d+$/, '').toUpperCase()}</h3>
+                    <div className="border-2 border-brand-primary bg-white p-6">
+                      <h3 className="text-lg font-bold text-brand-primary mb-4">MORE FROM {episode.guest.replace(/\s+\d+\.\d+$/, '').toUpperCase()}</h3>
                       <div className="space-y-3">
                         {otherGuestEpisodes.map((ep) => (
                           <Link
                             key={ep.slug}
                             href={`/episodes/${ep.slug}`}
-                            className="block p-3 border border-ash-darker hover:border-amber transition-colors"
+                            className="block p-3 border border-brand-border hover:border-brand-primary transition-colors"
                           >
-                            <div className="text-sm font-bold text-amber mb-1">{ep.guest}</div>
-                            <div className="text-xs text-ash-dark line-clamp-2">{ep.title}</div>
+                            <div className="text-sm font-bold text-brand-primary mb-1">{ep.guest}</div>
+                            <div className="text-xs text-brand-text-secondary line-clamp-2">{ep.title}</div>
                           </Link>
                         ))}
                       </div>
@@ -959,8 +955,8 @@ export default function EpisodePage() {
 
                   {/* Related Episodes */}
                   {relatedEpisodes.length > 0 && (
-                    <div className="border-2 border-ash-darker bg-void-light p-6">
-                      <h3 className="text-lg font-bold text-amber mb-4">RELATED EPISODES</h3>
+                    <div className="border-2 border-brand-border bg-white p-6">
+                      <h3 className="text-lg font-bold text-brand-primary mb-4">RELATED EPISODES</h3>
                       <div className="space-y-4">
                         {relatedEpisodes.map((related) => (
                           <Link
@@ -968,15 +964,15 @@ export default function EpisodePage() {
                             href={`/episodes/${related.slug}`}
                             className="block group"
                           >
-                            <div className="text-sm font-bold text-ash group-hover:text-amber transition-colors mb-1">
+                            <div className="text-sm font-bold text-brand-text-primary group-hover:text-brand-primary transition-colors mb-1">
                               {related.guest}
                             </div>
-                            <div className="text-xs text-ash-dark line-clamp-2">
+                            <div className="text-xs text-brand-text-secondary line-clamp-2">
                               {related.title}
                             </div>
                             <div className="flex gap-2 mt-2 flex-wrap">
                               {related.keywords.filter(kw => episode.keywords.includes(kw)).slice(0, 3).map(kw => (
-                                <span key={kw} className="text-xs text-amber">{kw}</span>
+                                <span key={kw} className="text-xs text-brand-primary">{kw}</span>
                               ))}
                             </div>
                           </Link>
@@ -993,7 +989,7 @@ export default function EpisodePage() {
               <div className="sticky top-24">
                 {/* YouTube Embed */}
                 {episode.videoId && (
-                  <div className="relative w-full aspect-video bg-void-light border-2 border-crimson">
+                  <div className="relative w-full aspect-video bg-white border-2 border-crimson">
                     <div
                       id="youtube-player-desktop"
                       className="absolute inset-0 w-full h-full"
@@ -1003,15 +999,15 @@ export default function EpisodePage() {
 
                 {/* External Link for non-YouTube episodes */}
                 {!episode.videoId && episode.youtubeUrl && (
-                  <div className="bg-void-light border-2 border-amber p-6">
-                    <p className="text-sm text-ash-dark mb-4">
+                  <div className="bg-white border-2 border-brand-primary p-6">
+                    <p className="text-sm text-brand-text-secondary mb-4">
                       This episode is available on Lenny&apos;s Newsletter
                     </p>
                     <a
                       href={episode.youtubeUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 px-6 py-3 bg-amber text-void font-bold hover:bg-amber-light transition-colors"
+                      className="inline-flex items-center gap-2 px-6 py-3 bg-brand-primary text-white font-bold hover:bg-brand-primary-light transition-colors"
                     >
                       <ExternalLink className="w-5 h-5" />
                       Listen to Episode

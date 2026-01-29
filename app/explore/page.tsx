@@ -157,14 +157,8 @@ export default function ExplorePage() {
   };
 
   return (
-    <div className="min-h-screen bg-void text-ash font-mono">
-      <InteractiveSpace />
+    <div className="min-h-screen bg-brand-background">
       <TopNav />
-
-      {/* Scanlines */}
-      <div className="fixed inset-0 pointer-events-none z-20 opacity-5">
-        <div className="w-full h-full bg-[repeating-linear-gradient(0deg,transparent,transparent_2px,#ffb347_2px,#ffb347_4px)]" />
-      </div>
 
       {/* Main Content */}
       <div className="relative z-10 min-h-screen px-4 pt-20 pb-12 md:pt-24 md:pb-20">
@@ -175,22 +169,22 @@ export default function ExplorePage() {
             animate={{ opacity: 1, y: 0 }}
             className="mb-12"
           >
-            <div className="flex items-center gap-3 mb-2 text-amber text-xs tracking-wider">
+            <div className="flex items-center gap-3 mb-2 text-brand-primary text-sm font-medium">
               <Flame className="w-4 h-4" />
-              <span>DATA EXPLORER</span>
+              <span>Episode Library</span>
             </div>
-            <h1 className="text-4xl md:text-6xl font-bold text-amber mb-4">
-              295 EPISODES
+            <h1 className="text-4xl md:text-5xl font-brand-display font-bold text-brand-secondary mb-4">
+              295 Episodes
             </h1>
-            <p className="text-ash text-lg max-w-2xl leading-relaxed">
-              Search, filter, and explore every conversation from Lenny's Podcast.
+            <p className="text-brand-text-secondary text-lg max-w-2xl leading-relaxed">
+              Search, filter, and explore AI-curated podcast conversations.
               Real insights from the world's best product leaders, builders, and founders.
             </p>
 
             {/* Insights Page Link */}
             <Link
               href="/explore/insights"
-              className="inline-flex items-center gap-2 mt-4 px-4 py-2 border border-amber/50 text-amber text-sm hover:bg-amber hover:text-void transition-all"
+              className="inline-flex items-center gap-2 mt-4 px-4 py-2 bg-brand-primary/10 text-brand-primary text-sm rounded-lg hover:bg-brand-primary hover:text-white transition-all"
             >
               <Sparkles className="w-4 h-4" />
               Browse {enrichedSlugs.size} Curated Episodes with Verified Quotes →
@@ -210,8 +204,8 @@ export default function ExplorePage() {
                 }}
                 className={`mt-6 px-6 py-3 border-2 font-bold text-sm tracking-wider transition-all flex items-center gap-2 ${
                   showRecommendations
-                    ? 'border-amber bg-amber text-void'
-                    : 'border-amber/50 bg-amber/10 text-amber hover:border-amber'
+                    ? 'border-brand-primary bg-brand-primary text-void'
+                    : 'border-brand-primary/50 bg-brand-primary/10 text-brand-primary hover:border-brand-primary'
                 }`}
               >
                 <Sparkles className="w-4 h-4" />
@@ -228,19 +222,19 @@ export default function ExplorePage() {
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
-                className="mt-6 px-6 py-4 border border-amber/30 bg-amber/5"
+                className="mt-6 px-6 py-4 border border-brand-primary/30 bg-brand-primary/5"
               >
                 <div className="flex items-center justify-between gap-4">
                   <div className="flex items-center gap-3">
-                    <Sparkles className="w-5 h-5 text-amber" />
+                    <Sparkles className="w-5 h-5 text-brand-primary" />
                     <div>
-                      <div className="text-sm font-bold text-amber">Get personalized recommendations</div>
-                      <div className="text-xs text-ash-dark mt-1">Take the quiz to discover episodes that match your philosophy</div>
+                      <div className="text-sm font-bold text-brand-primary">Get personalized recommendations</div>
+                      <div className="text-xs text-brand-text-secondary mt-1">Take the quiz to discover episodes that match your philosophy</div>
                     </div>
                   </div>
                   <button
                     onClick={() => router.push('/quiz')}
-                    className="px-4 py-2 bg-amber text-void font-bold text-sm hover:bg-amber-dark transition-all whitespace-nowrap"
+                    className="px-4 py-2 bg-brand-primary text-void font-bold text-sm hover:bg-brand-primary-dark transition-all whitespace-nowrap"
                   >
                     TAKE QUIZ →
                   </button>
@@ -261,8 +255,8 @@ export default function ExplorePage() {
               {recommendations.primary.length > 0 && (
                 <div>
                   <div className="mb-6">
-                    <h2 className="text-2xl font-bold text-amber mb-2">Episodes For You</h2>
-                    <p className="text-ash-dark text-sm">Based on your quiz results, these episodes will resonate with how you work</p>
+                    <h2 className="text-2xl font-bold text-brand-primary mb-2">Episodes For You</h2>
+                    <p className="text-brand-text-secondary text-sm">Based on your quiz results, these episodes will resonate with how you work</p>
                   </div>
                   <div className="grid gap-6 md:grid-cols-2">
                     {recommendations.primary.map((episode, index) => (
@@ -282,7 +276,7 @@ export default function ExplorePage() {
                 <div>
                   <div className="mb-6">
                     <h2 className="text-2xl font-bold text-rose-400 mb-2">Perspectives to Explore</h2>
-                    <p className="text-ash-dark text-sm">These episodes offer different viewpoints that might expand your thinking</p>
+                    <p className="text-brand-text-secondary text-sm">These episodes offer different viewpoints that might expand your thinking</p>
                   </div>
                   <div className="grid gap-6 md:grid-cols-2">
                     {recommendations.contrarian.map((episode, index) => (
@@ -297,10 +291,10 @@ export default function ExplorePage() {
                 </div>
               )}
 
-              <div className="border-t-2 border-ash-darker pt-8">
-                <p className="text-center text-sm text-ash-dark">
+              <div className="border-t-2 border-brand-border pt-8">
+                <p className="text-center text-sm text-brand-text-secondary">
                   Browse all episodes below or{' '}
-                  <Link href="/results" className="text-amber hover:text-amber-dark transition-colors">
+                  <Link href="/results" className="text-brand-primary hover:text-brand-primary-dark transition-colors">
                     view your full results
                   </Link>
                 </p>
@@ -318,15 +312,15 @@ export default function ExplorePage() {
             {/* Search Input */}
             <div className="flex flex-col md:flex-row gap-4">
               <div className="flex-1 relative">
-                <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-amber" />
+                <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-brand-primary" />
                 <input
                   type="text"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   placeholder="Search guests, topics, keywords..."
-                  className="w-full bg-void-light border-2 border-ash-darker text-ash pl-12 pr-4 py-4
-                           focus:border-amber focus:outline-none transition-colors
-                           placeholder:text-ash-dark"
+                  className="w-full bg-white-light border-2 border-brand-border text-brand-text-primary pl-12 pr-4 py-4
+                           focus:border-brand-primary focus:outline-none transition-colors
+                           placeholder:text-brand-text-secondary"
                 />
               </div>
 
@@ -336,14 +330,14 @@ export default function ExplorePage() {
                   onClick={() => setShowCuratedOnly(!showCuratedOnly)}
                   className={`px-4 py-4 border-2 transition-all flex items-center gap-2
                            ${showCuratedOnly
-                      ? 'border-amber bg-amber text-void'
-                      : 'border-ash-darker text-ash hover:border-amber hover:text-amber'
+                      ? 'border-brand-primary bg-brand-primary text-void'
+                      : 'border-brand-border text-brand-text-primary hover:border-brand-primary hover:text-brand-primary'
                     }`}
                   title={`${enrichedSlugs.size} curated episodes with verified quotes`}
                 >
                   <Sparkles className="w-4 h-4" />
                   <span className="hidden sm:inline">CURATED</span>
-                  <span className="bg-void/20 text-current rounded px-1.5 py-0.5 text-xs font-bold">
+                  <span className="bg-white/20 text-current rounded px-1.5 py-0.5 text-xs font-bold">
                     {enrichedSlugs.size}
                   </span>
                 </button>
@@ -352,14 +346,14 @@ export default function ExplorePage() {
                   onClick={() => setShowFilters(!showFilters)}
                   className={`px-6 py-4 border-2 transition-all flex items-center gap-2
                            ${showFilters
-                      ? 'border-amber bg-amber/10 text-amber'
-                      : 'border-ash-darker text-ash hover:border-amber hover:text-amber'
+                      ? 'border-brand-primary bg-brand-primary/10 text-brand-primary'
+                      : 'border-brand-border text-brand-text-primary hover:border-brand-primary hover:text-brand-primary'
                     }`}
                 >
                   <Filter className="w-4 h-4" />
                   <span className="hidden sm:inline">FILTERS</span>
                   {selectedKeywords.length > 0 && (
-                    <span className="bg-amber text-void rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold">
+                    <span className="bg-brand-primary text-void rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold">
                       {selectedKeywords.length}
                     </span>
                   )}
@@ -368,8 +362,8 @@ export default function ExplorePage() {
                 <select
                   value={sortBy}
                   onChange={(e) => setSortBy(e.target.value as SortOption)}
-                  className="px-4 py-4 bg-void-light border-2 border-ash-darker text-ash
-                           focus:border-amber focus:outline-none transition-colors cursor-pointer
+                  className="px-4 py-4 bg-white-light border-2 border-brand-border text-brand-text-primary
+                           focus:border-brand-primary focus:outline-none transition-colors cursor-pointer
                            rounded-none"
                 >
                   <option value="date-desc">Newest First</option>
@@ -388,10 +382,10 @@ export default function ExplorePage() {
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: 'auto' }}
                   exit={{ opacity: 0, height: 0 }}
-                  className="border-2 border-ash-darker bg-void-light p-4 overflow-hidden"
+                  className="border-2 border-brand-border bg-white-light p-4 overflow-hidden"
                 >
                   <div className="flex items-center justify-between mb-3">
-                    <div className="text-xs text-amber tracking-wider">FILTER BY TOPIC</div>
+                    <div className="text-xs text-brand-primary tracking-wider">FILTER BY TOPIC</div>
                     {selectedKeywords.length > 0 && (
                       <button
                         onClick={clearFilters}
@@ -408,8 +402,8 @@ export default function ExplorePage() {
                         onClick={() => toggleKeyword(keyword)}
                         className={`px-3 py-2 text-sm border-2 transition-all font-medium
                                  ${selectedKeywords.includes(keyword)
-                            ? 'border-amber bg-amber text-void'
-                            : 'border-ash-darker text-ash bg-void-light hover:border-amber hover:text-amber'
+                            ? 'border-brand-primary bg-brand-primary text-void'
+                            : 'border-brand-border text-brand-text-primary bg-white-light hover:border-brand-primary hover:text-brand-primary'
                           }`}
                       >
                         {keyword}
@@ -426,7 +420,7 @@ export default function ExplorePage() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="mb-6 text-amber text-sm font-bold"
+            className="mb-6 text-brand-primary text-sm font-bold"
           >
             {filteredAndSortedEpisodes.length} episode{filteredAndSortedEpisodes.length !== 1 ? 's' : ''} found
           </motion.div>
@@ -463,8 +457,8 @@ export default function ExplorePage() {
                 <button
                   onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
                   disabled={currentPage === 1}
-                  className="p-2 md:p-3 border-2 border-ash-darker text-ash hover:border-amber hover:text-amber
-                           transition-all disabled:opacity-30 disabled:cursor-not-allowed disabled:hover:border-ash-darker disabled:hover:text-ash"
+                  className="p-2 md:p-3 border-2 border-brand-border text-brand-text-primary hover:border-brand-primary hover:text-brand-primary
+                           transition-all disabled:opacity-30 disabled:cursor-not-allowed disabled:hover:border-brand-border disabled:hover:text-brand-text-primary"
                   aria-label="Previous page"
                 >
                   <ChevronLeft className="w-4 h-4 md:w-5 md:h-5" />
@@ -491,8 +485,8 @@ export default function ExplorePage() {
                         onClick={() => setCurrentPage(pageNum)}
                         className={`px-3 py-2 md:px-4 md:py-2 border-2 font-bold transition-all text-sm
                                  ${currentPage === pageNum
-                            ? 'border-amber bg-amber text-void'
-                            : 'border-ash-darker text-ash hover:border-amber hover:text-amber'
+                            ? 'border-brand-primary bg-brand-primary text-void'
+                            : 'border-brand-border text-brand-text-primary hover:border-brand-primary hover:text-brand-primary'
                           }`}
                       >
                         {pageNum}
@@ -504,15 +498,15 @@ export default function ExplorePage() {
                 <button
                   onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
                   disabled={currentPage === totalPages}
-                  className="p-2 md:p-3 border-2 border-ash-darker text-ash hover:border-amber hover:text-amber
-                           transition-all disabled:opacity-30 disabled:cursor-not-allowed disabled:hover:border-ash-darker disabled:hover:text-ash"
+                  className="p-2 md:p-3 border-2 border-brand-border text-brand-text-primary hover:border-brand-primary hover:text-brand-primary
+                           transition-all disabled:opacity-30 disabled:cursor-not-allowed disabled:hover:border-brand-border disabled:hover:text-brand-text-primary"
                   aria-label="Next page"
                 >
                   <ChevronRight className="w-4 h-4 md:w-5 md:h-5" />
                 </button>
               </div>
 
-              <div className="text-xs md:text-sm text-ash-dark font-mono">
+              <div className="text-xs md:text-sm text-brand-text-secondary font-mono">
                 Page {currentPage} of {totalPages}
               </div>
             </motion.div>
@@ -526,13 +520,13 @@ export default function ExplorePage() {
               className="text-center py-20"
             >
               <div className="text-4xl mb-4">🔍</div>
-              <div className="text-xl text-ash mb-2">No episodes found</div>
-              <div className="text-sm text-ash-dark mb-6">
+              <div className="text-xl text-brand-text-primary mb-2">No episodes found</div>
+              <div className="text-sm text-brand-text-secondary mb-6">
                 Try adjusting your search or filters
               </div>
               <button
                 onClick={clearFilters}
-                className="px-6 py-3 border-2 border-amber text-amber hover:bg-amber hover:text-void
+                className="px-6 py-3 border-2 border-brand-primary text-brand-primary hover:bg-brand-primary hover:text-void
                          transition-all font-bold"
               >
                 CLEAR FILTERS
@@ -545,39 +539,39 @@ export default function ExplorePage() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
-            className="mt-16 pt-8 border-t-2 border-ash-darker text-center"
+            className="mt-16 pt-8 border-t-2 border-brand-border text-center"
           >
             <div className="grid grid-cols-2 md:grid-cols-5 gap-6 mb-8">
               <div>
-                <div className="text-3xl font-bold text-amber mb-1">{allEpisodes.length}</div>
-                <div className="text-xs text-ash tracking-wider">TOTAL EPISODES</div>
+                <div className="text-3xl font-bold text-brand-primary mb-1">{allEpisodes.length}</div>
+                <div className="text-xs text-brand-text-primary tracking-wider">TOTAL EPISODES</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-amber mb-1">{enrichedSlugs.size}</div>
-                <div className="text-xs text-ash tracking-wider">CURATED</div>
+                <div className="text-3xl font-bold text-brand-primary mb-1">{enrichedSlugs.size}</div>
+                <div className="text-xs text-brand-text-primary tracking-wider">CURATED</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-amber mb-1">{allKeywords.length}</div>
-                <div className="text-xs text-ash tracking-wider">UNIQUE TOPICS</div>
+                <div className="text-3xl font-bold text-brand-primary mb-1">{allKeywords.length}</div>
+                <div className="text-xs text-brand-text-primary tracking-wider">UNIQUE TOPICS</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-amber mb-1">
+                <div className="text-3xl font-bold text-brand-primary mb-1">
                   {filteredAndSortedEpisodes.length}
                 </div>
-                <div className="text-xs text-ash tracking-wider">RESULTS SHOWN</div>
+                <div className="text-xs text-brand-text-primary tracking-wider">RESULTS SHOWN</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-amber mb-1">
+                <div className="text-3xl font-bold text-brand-primary mb-1">
                   {selectedKeywords.length + (showCuratedOnly ? 1 : 0)}
                 </div>
-                <div className="text-xs text-ash tracking-wider">ACTIVE FILTERS</div>
+                <div className="text-xs text-brand-text-primary tracking-wider">ACTIVE FILTERS</div>
               </div>
             </div>
             <a
               href="https://github.com/ChatPRD/lennys-podcast-transcripts"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xs text-ash-dark cursor-pointer hover:underline"
+              className="text-xs text-brand-text-secondary cursor-pointer hover:underline"
             >
               Data sourced from Lenny&apos;s Podcast transcripts
             </a>
@@ -606,11 +600,11 @@ const EpisodeCard = memo(function EpisodeCard({
 }) {
   return (
     <div
-      className="border-2 border-ash-darker bg-void-light p-6 hover:border-amber
+      className="border-2 border-brand-border bg-white-light p-6 hover:border-brand-primary
                transition-all group relative overflow-hidden"
     >
       {/* Hover Effect */}
-      <div className="absolute top-0 right-0 w-2 h-full bg-amber opacity-0
+      <div className="absolute top-0 right-0 w-2 h-full bg-brand-primary opacity-0
                     group-hover:opacity-100 transition-opacity" />
 
       {/* Favorite Button */}
@@ -622,7 +616,7 @@ const EpisodeCard = memo(function EpisodeCard({
         className={`absolute top-4 right-4 p-2 transition-all z-10 ${
           isFavorited
             ? 'text-rose-400'
-            : 'text-ash-dark opacity-0 group-hover:opacity-100 hover:text-rose-400'
+            : 'text-brand-text-secondary opacity-0 group-hover:opacity-100 hover:text-rose-400'
         }`}
         title={isFavorited ? 'Remove from favorites' : 'Add to favorites'}
       >
@@ -632,14 +626,14 @@ const EpisodeCard = memo(function EpisodeCard({
       {/* Guest Name */}
       <div className="mb-3 pr-8">
         <Link href={`/episodes/${episode.slug}`}>
-          <h3 className="text-xl font-bold text-amber group-hover:text-amber-dark transition-colors leading-tight cursor-pointer">
+          <h3 className="text-xl font-bold text-brand-primary group-hover:text-brand-primary-dark transition-colors leading-tight cursor-pointer">
             {episode.guest}
           </h3>
         </Link>
       </div>
 
       {/* Metadata */}
-      <div className="flex flex-wrap gap-3 mb-4 text-xs text-ash-dark">
+      <div className="flex flex-wrap gap-3 mb-4 text-xs text-brand-text-secondary">
         {episode.publishDate && (
           <div className="flex items-center gap-1">
             <Calendar className="w-3 h-3" />
@@ -667,7 +661,7 @@ const EpisodeCard = memo(function EpisodeCard({
       </div>
 
       {/* Title/Description */}
-      <p className="text-sm text-ash-dark leading-relaxed mb-4 line-clamp-3">
+      <p className="text-sm text-brand-text-secondary leading-relaxed mb-4 line-clamp-3">
         {episode.description || episode.title}
       </p>
 
@@ -678,15 +672,15 @@ const EpisodeCard = memo(function EpisodeCard({
             key={keyword}
             className={`px-2 py-1 text-xs border transition-colors font-medium
                      ${selectedKeywords.includes(keyword)
-                ? 'border-amber bg-amber text-void'
-                : 'border-ash-darker text-ash-dark bg-void'
+                ? 'border-brand-primary bg-brand-primary text-void'
+                : 'border-brand-border text-brand-text-secondary bg-white'
               }`}
           >
             {keyword}
           </span>
         ))}
         {episode.keywords.length > 6 && (
-          <span className="px-2 py-1 text-xs text-ash-dark font-mono">
+          <span className="px-2 py-1 text-xs text-brand-text-secondary font-mono">
             +{episode.keywords.length - 6}
           </span>
         )}
@@ -694,9 +688,9 @@ const EpisodeCard = memo(function EpisodeCard({
 
       {/* Curated indicator */}
       {hasEnrichment && (
-        <div className="flex items-center gap-4 text-xs text-ash-dark mb-4 pt-4 border-t border-ash-darker">
+        <div className="flex items-center gap-4 text-xs text-brand-text-secondary mb-4 pt-4 border-t border-brand-border">
           <div className="font-mono flex items-center gap-1">
-            <span className="text-amber">✓</span> curated quotes
+            <span className="text-brand-primary">✓</span> curated quotes
           </div>
         </div>
       )}
@@ -705,7 +699,7 @@ const EpisodeCard = memo(function EpisodeCard({
       <div className="flex items-center gap-3">
         <Link
           href={`/episodes/${episode.slug}`}
-          className="flex-1 flex items-center justify-center gap-2 px-4 py-3 border-2 border-amber bg-amber/10 text-amber hover:bg-amber hover:text-void transition-all font-bold text-sm"
+          className="flex-1 flex items-center justify-center gap-2 px-4 py-3 border-2 border-brand-primary bg-brand-primary/10 text-brand-primary hover:bg-brand-primary hover:text-void transition-all font-bold text-sm"
         >
           <Play className="w-4 h-4" />
           VIEW EPISODE
@@ -715,7 +709,7 @@ const EpisodeCard = memo(function EpisodeCard({
             href={episode.youtubeUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-3 border-2 border-ash-darker text-ash hover:border-amber hover:text-amber transition-all"
+            className="px-4 py-3 border-2 border-brand-border text-brand-text-primary hover:border-brand-primary hover:text-brand-primary transition-all"
             title="Watch on YouTube"
           >
             <ExternalLink className="w-5 h-5" />

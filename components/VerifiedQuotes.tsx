@@ -79,12 +79,12 @@ export default function VerifiedQuotes({ enrichment, onJumpToTranscript }: Verif
   return (
     <div className="space-y-8">
       {/* Section Header */}
-      <div className="border-b-2 border-amber/20 pb-4">
+      <div className="border-b-2 border-brand-primary/20 pb-4">
         <div className="flex items-center gap-3 mb-2">
-          <QuoteIcon className="w-6 h-6 text-amber" />
-          <h2 className="text-2xl font-bold text-amber">CURATED QUOTES</h2>
+          <QuoteIcon className="w-6 h-6 text-brand-primary" />
+          <h2 className="text-2xl font-bold text-brand-primary">CURATED QUOTES</h2>
         </div>
-        <p className="text-ash-dark text-sm">
+        <p className="text-brand-text-secondary text-sm">
           {quotes.length} curated quotes extracted from the transcript
         </p>
       </div>
@@ -92,7 +92,7 @@ export default function VerifiedQuotes({ enrichment, onJumpToTranscript }: Verif
       {/* Filters */}
       {themes.length > 0 && (
         <div>
-          <label className="text-xs text-ash-dark uppercase tracking-wider mb-2 block">
+          <label className="text-xs text-brand-text-secondary uppercase tracking-wider mb-2 block">
             Filter by Theme
           </label>
           <div className="flex flex-wrap gap-2">
@@ -100,8 +100,8 @@ export default function VerifiedQuotes({ enrichment, onJumpToTranscript }: Verif
               onClick={() => setSelectedTheme(null)}
               className={`px-3 py-1 text-xs uppercase tracking-wider transition-colors ${
                 selectedTheme === null
-                  ? 'bg-amber text-void'
-                  : 'bg-void-light text-ash-dark hover:text-amber border border-ash-darker'
+                  ? 'bg-brand-primary text-void'
+                  : 'bg-white text-brand-text-secondary hover:text-brand-primary border border-brand-border'
               }`}
             >
               All
@@ -113,8 +113,8 @@ export default function VerifiedQuotes({ enrichment, onJumpToTranscript }: Verif
                 onClick={() => setSelectedTheme(theme === selectedTheme ? null : theme)}
                 className={`px-3 py-1 text-xs uppercase tracking-wider transition-colors ${
                   theme === selectedTheme
-                    ? 'bg-amber text-void'
-                    : 'bg-void-light text-ash-dark hover:text-amber border border-ash-darker'
+                    ? 'bg-brand-primary text-void'
+                    : 'bg-white text-brand-text-secondary hover:text-brand-primary border border-brand-border'
                 }`}
               >
                 {theme}
@@ -134,7 +134,7 @@ export default function VerifiedQuotes({ enrichment, onJumpToTranscript }: Verif
           className="grid gap-4"
         >
           {filteredQuotes.length === 0 ? (
-            <div className="text-center py-12 text-ash-dark">
+            <div className="text-center py-12 text-brand-text-secondary">
               No quotes match the selected filters
             </div>
           ) : (
@@ -175,7 +175,7 @@ function QuoteCard({ quote, index, onJumpToTranscript, isFavorited, onToggleFavo
     : quote.text;
 
   const handleCopy = () => {
-    const text = `"${quote.text}"\n\n— ${quote.speaker}\nLenny's Podcast`;
+    const text = `"${quote.text}"\n\n— ${quote.speaker}\nPM Intelligence Engine`;
     navigator.clipboard.writeText(text);
     setShowCopied(true);
     setTimeout(() => setShowCopied(false), 2000);
@@ -192,7 +192,7 @@ function QuoteCard({ quote, index, onJumpToTranscript, isFavorited, onToggleFavo
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: index * 0.05 }}
-      className="group relative p-6 bg-void-light border-l-4 border-amber/30 hover:border-amber transition-all duration-300"
+      className="group relative p-6 bg-white border-l-4 border-brand-primary/30 hover:border-brand-primary transition-all duration-300"
     >
       {/* Copy notification */}
       {showCopied && (
@@ -200,19 +200,19 @@ function QuoteCard({ quote, index, onJumpToTranscript, isFavorited, onToggleFavo
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0 }}
-          className="absolute top-4 right-4 px-3 py-1 bg-amber text-void text-xs font-bold"
+          className="absolute top-4 right-4 px-3 py-1 bg-brand-primary text-void text-xs font-bold"
         >
           COPIED
         </motion.div>
       )}
 
       {/* Quote Text */}
-      <blockquote className="text-ash leading-relaxed mb-4 text-base">
+      <blockquote className="text-brand-text-primary leading-relaxed mb-4 text-base">
         "{displayText}"
         {isLongQuote && (
           <button
             onClick={() => setIsExpanded(!isExpanded)}
-            className="ml-2 text-amber hover:text-amber/80 text-sm font-semibold transition-colors"
+            className="ml-2 text-brand-primary hover:text-brand-primary/80 text-sm font-semibold transition-colors"
           >
             {isExpanded ? '▲ Less' : '▼ More'}
           </button>
@@ -221,15 +221,15 @@ function QuoteCard({ quote, index, onJumpToTranscript, isFavorited, onToggleFavo
 
       {/* Metadata */}
       <div className="flex items-center justify-between flex-wrap gap-4">
-        <div className="flex items-center gap-4 text-xs text-ash-dark">
+        <div className="flex items-center gap-4 text-xs text-brand-text-secondary">
           <div className="flex items-center gap-2">
-            <span className="text-amber">—</span>
+            <span className="text-brand-primary">—</span>
             <span className="font-semibold">{quote.speaker}</span>
           </div>
           {quote.timestamp && (
             <button
               onClick={handleTimestampClick}
-              className="flex items-center gap-1 hover:text-amber transition-colors cursor-pointer"
+              className="flex items-center gap-1 hover:text-brand-primary transition-colors cursor-pointer"
               title="Jump to timestamp in video"
             >
               <Clock className="w-3 h-3" />
@@ -245,7 +245,7 @@ function QuoteCard({ quote, index, onJumpToTranscript, isFavorited, onToggleFavo
             className={`p-1.5 border transition-all ${
               isFavorited
                 ? 'border-rose-400 bg-rose-400/20 text-rose-400'
-                : 'border-ash-darker text-ash-dark hover:border-rose-400 hover:text-rose-400'
+                : 'border-brand-border text-brand-text-secondary hover:border-rose-400 hover:text-rose-400'
             }`}
             title={isFavorited ? 'Remove from favorites' : 'Add to favorites'}
           >
@@ -253,7 +253,7 @@ function QuoteCard({ quote, index, onJumpToTranscript, isFavorited, onToggleFavo
           </button>
           <button
             onClick={handleCopy}
-            className="px-3 py-1 text-xs uppercase tracking-wider bg-void border border-ash-darker hover:border-amber hover:text-amber transition-colors"
+            className="px-3 py-1 text-xs uppercase tracking-wider bg-brand-background border border-brand-border hover:border-brand-primary hover:text-brand-primary transition-colors"
           >
             Copy
           </button>
@@ -262,11 +262,11 @@ function QuoteCard({ quote, index, onJumpToTranscript, isFavorited, onToggleFavo
 
       {/* Theme Tags */}
       {quote.themes?.length > 0 && (
-        <div className="mt-4 pt-4 border-t border-ash-darker flex flex-wrap gap-2">
+        <div className="mt-4 pt-4 border-t border-brand-border flex flex-wrap gap-2">
           {quote.themes.map(theme => (
             <span
               key={theme}
-              className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-void border border-ash-darker text-ash-dark"
+              className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-brand-background border border-brand-border text-brand-text-secondary"
             >
               {theme}
             </span>

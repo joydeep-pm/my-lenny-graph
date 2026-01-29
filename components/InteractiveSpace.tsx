@@ -52,7 +52,7 @@ function InteractiveStars({ mouseX, mouseY }: InteractiveStarsProps) {
     <Points ref={ref} positions={positions} stride={3} frustumCulled={false}>
       <PointMaterial
         transparent
-        color="#ffb347"
+        color="#2563eb"
         size={0.004}
         sizeAttenuation={true}
         depthWrite={false}
@@ -90,7 +90,7 @@ function DeepStars({ mouseX, mouseY }: InteractiveStarsProps) {
     <Points ref={ref} positions={positions} stride={3} frustumCulled={false}>
       <PointMaterial
         transparent
-        color="#cc7a00"
+        color="#1e40af"
         size={0.002}
         sizeAttenuation={true}
         depthWrite={false}
@@ -118,7 +118,7 @@ export default function InteractiveSpace() {
   }, []);
 
   return (
-    <div className="fixed inset-0 z-0 bg-void">
+    <div className="fixed inset-0 z-0 bg-brand-secondary">
       <Canvas
         camera={{ position: [0, 0, 1], fov: 75 }}
         gl={{ alpha: true, antialias: true }}
@@ -128,10 +128,10 @@ export default function InteractiveSpace() {
       </Canvas>
 
       {/* Dark scrim for text readability */}
-      <div className="absolute inset-0 bg-void/60 pointer-events-none" />
-      
+      <div className="absolute inset-0 bg-brand-secondary/60 pointer-events-none" />
+
       {/* Vignette effect */}
-      <div className="absolute inset-0 bg-gradient-radial from-transparent via-transparent to-void pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-radial from-transparent via-transparent to-brand-secondary pointer-events-none" />
     </div>
   );
 }

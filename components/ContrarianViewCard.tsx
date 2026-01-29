@@ -24,7 +24,7 @@ export default function ContrarianViewCard({ view, onTimestampClick }: Contraria
 
   return (
     <div className="border-l-2 border-crimson/50 pl-3">
-      <p className="text-sm text-ash italic mb-2">
+      <p className="text-sm text-brand-text-primary italic mb-2">
         "{displayText}"
         {isLongQuote && (
           <button
@@ -35,7 +35,7 @@ export default function ContrarianViewCard({ view, onTimestampClick }: Contraria
           </button>
         )}
       </p>
-      <div className="flex items-center gap-2 text-xs text-ash-dark">
+      <div className="flex items-center gap-2 text-xs text-brand-text-secondary">
         <span className="text-crimson font-bold">{view.speaker}</span>
         <span>•</span>
         {onTimestampClick ? (

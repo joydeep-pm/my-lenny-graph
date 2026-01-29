@@ -120,7 +120,7 @@ function QuizContent() {
   };
 
   return (
-    <main className="min-h-screen bg-void text-ash overflow-hidden font-mono">
+    <main className="min-h-screen bg-brand-background text-brand-text-primary overflow-hidden font-brand">
       <InteractiveSpace />
 
       {/* Personalization Modal */}
@@ -149,12 +149,12 @@ function QuizContent() {
           className="mb-6 md:mb-12 text-center space-y-2 md:space-y-3"
         >
           {userName && (
-            <div className="flex items-center justify-center gap-2 text-amber text-xs md:text-sm">
+            <div className="flex items-center justify-center gap-2 text-brand-primary text-xs md:text-sm">
               <User className="w-3 h-3 md:w-4 md:h-4" />
               <span>{userName}'s Philosophy Assessment</span>
             </div>
           )}
-          <div className="flex items-center justify-center gap-3 text-amber/60 text-xs md:text-sm">
+          <div className="flex items-center justify-center gap-3 text-brand-primary/60 text-xs md:text-sm">
             <Flame className="w-3 h-3 md:w-4 md:h-4 animate-pulse" />
             <span>QUESTION {question.number} OF {questions.length}</span>
           </div>
@@ -171,7 +171,7 @@ function QuizContent() {
           >
             {/* Question text */}
             <motion.h2
-              className="text-xl md:text-4xl font-bold text-ash leading-snug md:leading-relaxed text-center px-2"
+              className="text-xl md:text-4xl font-bold text-brand-text-primary leading-snug md:leading-relaxed text-center px-2"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
@@ -189,10 +189,10 @@ function QuizContent() {
                     onClick={() => handleAnswer(answer.id)}
                     className={`group relative w-full p-4 md:p-6 text-left border-2 transition-all duration-300 ${
                       selectedAnswer === answer.id
-                        ? 'border-amber bg-amber/10'
+                        ? 'border-brand-primary bg-brand-primary/10'
                         : isPreviouslySelected
-                        ? 'border-amber/50 bg-amber/5'
-                        : 'border-ash-darker/30 hover:border-amber/50 bg-void-light/50'
+                        ? 'border-brand-primary/50 bg-brand-primary/5'
+                        : 'border-brand-border/30 hover:border-brand-primary/50 bg-white/50'
                     }`}
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -210,7 +210,7 @@ function QuizContent() {
                         {answer.icon}
                       </span>
                       <div className="flex-1">
-                        <div className="text-sm md:text-lg text-ash group-hover:text-white transition-colors leading-snug md:leading-normal">
+                        <div className="text-sm md:text-lg text-brand-text-primary group-hover:text-white transition-colors leading-snug md:leading-normal">
                           {answer.text}
                         </div>
                       </div>
@@ -218,7 +218,7 @@ function QuizContent() {
 
                     {/* Previously selected badge */}
                     {isPreviouslySelected && !selectedAnswer && (
-                      <div className="absolute top-2 right-2 text-xs text-amber/60 font-mono">
+                      <div className="absolute top-2 right-2 text-xs text-brand-primary/60 font-brand">
                         ✓
                       </div>
                     )}
@@ -226,7 +226,7 @@ function QuizContent() {
                     {/* Selection indicator */}
                     {selectedAnswer === answer.id && (
                       <motion.div
-                        className="absolute inset-0 border-2 border-amber"
+                        className="absolute inset-0 border-2 border-brand-primary"
                         initial={{ opacity: 0, scale: 0.9 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.3 }}
@@ -234,7 +234,7 @@ function QuizContent() {
                     )}
 
                     {/* Corner accent */}
-                    <div className="absolute top-0 right-0 w-2 h-2 bg-amber opacity-0 group-hover:opacity-100 transition-opacity" />
+                    <div className="absolute top-0 right-0 w-2 h-2 bg-brand-primary opacity-0 group-hover:opacity-100 transition-opacity" />
                   </motion.button>
                 );
               })}
@@ -247,7 +247,7 @@ function QuizContent() {
           {currentQuestion > 0 && (
             <motion.button
               onClick={handleBack}
-              className="flex items-center gap-2 text-ash-dark hover:text-amber transition-colors"
+              className="flex items-center gap-2 text-brand-text-secondary hover:text-brand-primary transition-colors"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               whileHover={{ x: -5 }}
@@ -260,10 +260,6 @@ function QuizContent() {
         </div>
       </div>
 
-      {/* Scanlines */}
-      <div className="fixed inset-0 pointer-events-none z-20 opacity-5">
-        <div className="w-full h-full bg-[repeating-linear-gradient(0deg,transparent,transparent_2px,#ffb347_2px,#ffb347_4px)]" />
-      </div>
     </main>
   );
 }
@@ -271,9 +267,9 @@ function QuizContent() {
 export default function QuizPage() {
   return (
     <Suspense fallback={
-      <main className="min-h-screen bg-void flex items-center justify-center font-mono">
+      <main className="min-h-screen bg-brand-background flex items-center justify-center font-brand">
         <div className="text-center space-y-4">
-          <div className="text-amber text-xl animate-pulse">INITIALIZING...</div>
+          <div className="text-brand-primary text-xl animate-pulse">INITIALIZING...</div>
         </div>
       </main>
     }>

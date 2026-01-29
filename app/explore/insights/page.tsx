@@ -125,10 +125,6 @@ export default function InsightsPage() {
       <InteractiveSpace />
       <TopNav />
 
-      {/* Scanlines */}
-      <div className="fixed inset-0 pointer-events-none z-20 opacity-5">
-        <div className="w-full h-full bg-[repeating-linear-gradient(0deg,transparent,transparent_2px,#ffb347_2px,#ffb347_4px)]" />
-      </div>
 
       {/* Main Content */}
       <div className="relative z-10 min-h-screen px-4 pt-20 pb-12 md:pt-24 md:pb-20">
@@ -174,7 +170,7 @@ export default function InsightsPage() {
                 </span>
                 <button
                   onClick={shuffleInspire}
-                  className="flex items-center gap-2 px-4 py-2 min-h-[44px] border border-amber text-amber text-sm hover:bg-amber hover:text-void transition-all active:scale-95"
+                  className="flex items-center gap-2 px-4 py-2 min-h-[44px] border border-amber text-amber text-sm hover:bg-amber hover:text-white transition-all active:scale-95"
                 >
                   <Shuffle className="w-4 h-4" />
                   <span className="hidden sm:inline">SHUFFLE</span>
@@ -246,7 +242,7 @@ export default function InsightsPage() {
                 onClick={() => setSelectedZone('all')}
                 className={`px-4 py-2 min-h-[44px] border text-sm font-bold transition-all whitespace-nowrap ${
                   selectedZone === 'all'
-                    ? 'border-amber bg-amber text-void'
+                    ? 'border-amber bg-amber text-white'
                     : 'border-ash-darker text-ash hover:border-amber'
                 }`}
               >
@@ -256,7 +252,7 @@ export default function InsightsPage() {
                 onClick={() => setSelectedZone('favorites')}
                 className={`px-4 py-2 min-h-[44px] border text-sm font-bold transition-all flex items-center gap-2 whitespace-nowrap ${
                   selectedZone === 'favorites'
-                    ? 'border-rose-400 bg-rose-400 text-void'
+                    ? 'border-rose-400 bg-rose-400 text-white'
                     : 'border-ash-darker text-ash hover:border-rose-400'
                 }`}
               >
@@ -271,7 +267,7 @@ export default function InsightsPage() {
                     onClick={() => setSelectedZone(zoneId)}
                     className={`px-4 py-2 min-h-[44px] border text-sm font-bold transition-all flex items-center gap-2 whitespace-nowrap ${
                       selectedZone === zoneId
-                        ? 'text-void'
+                        ? 'text-white'
                         : 'border-ash-darker text-ash hover:border-amber'
                     }`}
                     style={{
@@ -358,7 +354,7 @@ export default function InsightsPage() {
                   setSelectedZone('all');
                   setSearchQuery('');
                 }}
-                className="px-6 py-3 min-h-[48px] border border-amber text-amber hover:bg-amber hover:text-void transition-all font-bold"
+                className="px-6 py-3 min-h-[48px] border border-amber text-amber hover:bg-amber hover:text-white transition-all font-bold"
               >
                 SHOW ALL QUOTES
               </button>
@@ -370,7 +366,7 @@ export default function InsightsPage() {
             <div className="mt-8 text-center">
               <button
                 onClick={loadMore}
-                className="px-8 py-4 min-h-[52px] border-2 border-amber text-amber hover:bg-amber hover:text-void transition-all font-bold"
+                className="px-8 py-4 min-h-[52px] border-2 border-amber text-amber hover:bg-amber hover:text-white transition-all font-bold"
               >
                 LOAD MORE ({filteredQuotes.length - displayCount} remaining)
               </button>

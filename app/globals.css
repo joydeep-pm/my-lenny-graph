@@ -3,22 +3,28 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 204, 204, 204;
-  --background-rgb: 0, 0, 0;
+  --foreground-rgb: 26, 26, 26;
+  --background-rgb: 250, 249, 246;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb));
-  cursor: none;
-}
-
-* {
-  cursor: none !important;
 }
 
 @layer utilities {
   .bg-gradient-radial {
     background: radial-gradient(var(--tw-gradient-stops));
   }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  background-color: #2563eb;
+  color: white;
 }

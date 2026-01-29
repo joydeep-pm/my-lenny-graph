@@ -157,7 +157,7 @@ function StarField() {
       </bufferGeometry>
       <pointsMaterial
         size={0.05}
-        color="#ffb347"
+        color="#2563eb"
         transparent
         opacity={0.6}
         sizeAttenuation
@@ -230,8 +230,8 @@ export default function UniverseMap3D({ primaryZone, topZones, onZoneClick }: Un
         
         {/* Lighting */}
         <ambientLight intensity={0.3} />
-        <pointLight position={[10, 10, 10]} intensity={1} color="#ffb347" />
-        <pointLight position={[-10, -10, -10]} intensity={0.5} color="#dc143c" />
+        <pointLight position={[10, 10, 10]} intensity={1} color="#2563eb" />
+        <pointLight position={[-10, -10, -10]} intensity={0.5} color="#1e40af" />
         
         {/* Starfield */}
         <StarField />

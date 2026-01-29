@@ -1,43 +1,14 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { motion, useMotionValue, useSpring } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { useRouter } from 'next/navigation';
-import InteractiveSpace from '@/components/InteractiveSpace';
 import TopNav from '@/components/TopNav';
+import { ArrowRight, Sparkles, Users, BookOpen } from 'lucide-react';
 
 export default function Home() {
   const router = useRouter();
-  const [glitchActive, setGlitchActive] = useState(false);
-  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
   const [hasQuizResults, setHasQuizResults] = useState(false);
-
-  const cursorX = useMotionValue(0);
-  const cursorY = useMotionValue(0);
-
-  const springConfig = { damping: 25, stiffness: 150 };
-  const cursorXSpring = useSpring(cursorX, springConfig);
-  const cursorYSpring = useSpring(cursorY, springConfig);
-
-  useEffect(() => {
-    const moveCursor = (e: MouseEvent) => {
-      cursorX.set(e.clientX);
-      cursorY.set(e.clientY);
-      setMousePos({ x: e.clientX, y: e.clientY });
-    };
-
-    window.addEventListener('mousemove', moveCursor);
-    return () => window.removeEventListener('mousemove', moveCursor);
-  }, [cursorX, cursorY]);
-
-  useEffect(() => {
-    const glitchInterval = setInterval(() => {
-      setGlitchActive(true);
-      setTimeout(() => setGlitchActive(false), 150);
-    }, 5000 + Math.random() * 5000);
-
-    return () => clearInterval(glitchInterval);
-  }, []);
 
   // Check if user has completed the quiz
   useEffect(() => {
@@ -46,7 +17,6 @@ export default function Home() {
         const savedAnswers = localStorage.getItem('pm_quiz_answers');
         if (savedAnswers) {
           const answers = JSON.parse(savedAnswers);
-          // Check if quiz has at least 7 answers (old quiz had 7, new has 10)
           const answerCount = Object.keys(answers).length;
           setHasQuizResults(answerCount >= 7);
         }
@@ -65,10 +35,7 @@ export default function Home() {
       localStorage.removeItem('pm_map_role');
       localStorage.removeItem('pm_map_quiz_progress');
       setHasQuizResults(false);
-
-      // Dispatch event to update footer and other components
       window.dispatchEvent(new Event('quizUpdated'));
-
       router.push('/quiz');
     } catch (e) {
       console.error('Error clearing quiz data:', e);
@@ -77,219 +44,199 @@ export default function Home() {
   };
 
   return (
-    <main className="relative min-h-screen bg-void text-ash overflow-hidden font-mono">
-      <InteractiveSpace />
+    <main className="min-h-screen bg-brand-background">
       <TopNav />
 
-      {/* Custom cursor */}
-      <motion.div
-        className="fixed w-8 h-8 border border-amber/30 rounded-full pointer-events-none z-50 mix-blend-difference"
-        style={{
-          left: cursorXSpring,
-          top: cursorYSpring,
-          translateX: '-50%',
-          translateY: '-50%',
-        }}
-      />
-
-      {/* Scanlines */}
-      <div className="fixed inset-0 pointer-events-none z-20 opacity-5">
-        <div className="w-full h-full bg-[repeating-linear-gradient(0deg,transparent,transparent_2px,#ffb347_2px,#ffb347_4px)]" />
-      </div>
-
-      {/* Main content */}
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-12 pt-20 md:pt-24">
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1.5 }}
-          className="max-w-5xl w-full space-y-16"
-        >
-          {/* System status */}
+      {/* Hero Section */}
+      <div className="relative pt-24 pb-16 md:pt-32 md:pb-24">
+        <div className="max-w-6xl mx-auto px-4">
           <motion.div
-            initial={{ opacity: 0, y: -20 }}
+            initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3 }}
-            className="flex items-center justify-between text-xs text-amber/50 border-b border-amber/10 pb-2"
+            transition={{ duration: 0.6 }}
+            className="text-center"
           >
-            <span className="font-mono">SYSTEM.INIT</span>
-            <span className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 bg-amber rounded-full animate-pulse" />
-              ONLINE
-            </span>
-          </motion.div>
-
-          {/* Title with glitch */}
-          <div className="space-y-6">
+            {/* Badge */}
             <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.5, type: 'spring', damping: 20 }}
-              className="relative"
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 0.1 }}
+              className="inline-flex items-center gap-2 px-4 py-2 bg-brand-primary/10 text-brand-primary rounded-full text-sm font-medium mb-8"
             >
-              <h1
-                className={`text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight ${
-                  glitchActive ? 'animate-glitch' : ''
-                }`}
-              >
-                <span className="text-amber drop-shadow-[0_0_30px_rgba(255,179,71,0.3)]">
-                  DISCOVER YOUR
-                </span>
-                <br />
-                <span className="text-ash">PRODUCT</span>
-                <br />
-                <span className="text-amber-dark">PHILOSOPHY</span>
-              </h1>
-
-              {/* Glitch layers */}
-              {glitchActive && (
-                <>
-                  <h1
-                    className="absolute top-0 left-0 text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight opacity-70 mix-blend-screen"
-                    style={{
-                      color: '#dc143c',
-                      transform: 'translate(-2px, 2px)',
-                    }}
-                  >
-                    <span>DISCOVER YOUR</span>
-                    <br />
-                    <span>PRODUCT</span>
-                    <br />
-                    <span>PHILOSOPHY</span>
-                  </h1>
-                  <h1
-                    className="absolute top-0 left-0 text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight opacity-70 mix-blend-screen"
-                    style={{
-                      color: '#00d4ff',
-                      transform: 'translate(2px, -2px)',
-                    }}
-                  >
-                    <span>DISCOVER YOUR</span>
-                    <br />
-                    <span>PRODUCT</span>
-                    <br />
-                    <span>PHILOSOPHY</span>
-                  </h1>
-                </>
-              )}
+              <Sparkles className="w-4 h-4" />
+              AI-Curated Insights from 295 Episodes
             </motion.div>
 
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.8 }}
-              className="text-lg md:text-xl text-ash-dark max-w-2xl leading-relaxed"
+            {/* Main Heading */}
+            <h1 className="font-brand-display text-4xl md:text-6xl lg:text-7xl font-bold text-brand-secondary leading-tight mb-6">
+              Discover Your
+              <span className="text-brand-primary block">Product Philosophy</span>
+            </h1>
+
+            {/* Subtitle */}
+            <p className="text-lg md:text-xl text-brand-text-secondary max-w-2xl mx-auto mb-10 leading-relaxed">
+              Take a 10-question quiz and get personalized podcast recommendations
+              that match how you think and work as a product manager.
+            </p>
+
+            {/* CTA Buttons */}
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.3 }}
+              className="flex flex-col sm:flex-row gap-4 justify-center"
             >
-              Find podcast episodes that match how you work—based on 295 episodes of Lenny's Podcast
-            </motion.p>
-          </div>
-
-          {/* Steps */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1 }}
-            className="grid md:grid-cols-3 gap-8 md:gap-12"
-          >
-            {[
-              { num: '01', text: 'Answer 10 questions about how you work' },
-              { num: '02', text: 'Get your product philosophy profile' },
-              { num: '03', text: 'Discover episodes that match your approach' },
-            ].map((step, i) => (
-              <motion.div
-                key={step.num}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 1.2 + i * 0.1 }}
-                className="relative group"
-              >
-                <div className="border border-amber/20 bg-void-light/50 p-6 backdrop-blur-sm hover:border-amber/40 transition-all duration-300">
-                  <div className="text-3xl font-bold text-amber mb-3">{step.num}</div>
-                  <div className="text-ash-dark group-hover:text-ash transition-colors">
-                    {step.text}
-                  </div>
-                </div>
-                <div className="absolute -inset-0.5 bg-gradient-to-r from-amber/0 via-amber/10 to-amber/0 opacity-0 group-hover:opacity-100 transition-opacity -z-10 blur" />
-              </motion.div>
-            ))}
-          </motion.div>
-
-          {/* CTA */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 1.5 }}
-            className="flex flex-col items-center gap-6"
-          >
-            <div className="flex flex-col md:flex-row gap-4">
               {hasQuizResults ? (
                 <>
                   <button
                     onClick={() => router.push('/results')}
-                    className="group relative px-12 py-5 bg-void-light border-2 border-amber text-amber font-bold text-lg tracking-wide hover:bg-amber hover:text-void transition-all duration-300"
+                    className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-brand-primary text-white font-semibold rounded-lg hover:bg-brand-primary/90 transition-all shadow-lg shadow-brand-primary/20"
                   >
-                    <span className="relative z-10 flex items-center gap-3">
-                      SEE YOUR RESULTS
-                      <span className="group-hover:translate-x-1 transition-transform">→</span>
-                    </span>
-                    <div className="absolute inset-0 bg-amber opacity-0 group-hover:opacity-10 transition-opacity" />
+                    View Your Results
+                    <ArrowRight className="w-5 h-5" />
                   </button>
-
                   <button
                     onClick={handleRetakeQuiz}
-                    className="group relative px-12 py-5 bg-void-light border border-ash-darker text-ash-dark font-bold text-lg tracking-wide hover:border-amber hover:text-amber transition-all duration-300"
+                    className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-brand-secondary font-semibold rounded-lg border border-brand-border hover:border-brand-primary hover:text-brand-primary transition-all"
                   >
-                    <span className="relative z-10 flex items-center gap-3">
-                      RETAKE QUIZ
-                      <span className="text-amber">↻</span>
-                    </span>
+                    Retake Quiz
                   </button>
                 </>
               ) : (
                 <button
                   onClick={() => router.push('/quiz')}
-                  className="group relative px-12 py-5 bg-void-light border-2 border-amber text-amber font-bold text-lg tracking-wide hover:bg-amber hover:text-void transition-all duration-300"
+                  className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-brand-primary text-white font-semibold rounded-lg hover:bg-brand-primary/90 transition-all shadow-lg shadow-brand-primary/20"
                 >
-                  <span className="relative z-10 flex items-center gap-3">
-                    START QUIZ
-                    <span className="group-hover:translate-x-1 transition-transform">→</span>
-                  </span>
-                  <div className="absolute inset-0 bg-amber opacity-0 group-hover:opacity-10 transition-opacity" />
+                  Start the Quiz
+                  <ArrowRight className="w-5 h-5" />
                 </button>
               )}
-
               <button
                 onClick={() => router.push('/explore')}
-                className="group relative px-12 py-5 bg-void-light border border-ash-darker text-ash-dark font-bold text-lg tracking-wide hover:border-amber hover:text-amber transition-all duration-300"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-brand-secondary font-semibold rounded-lg border border-brand-border hover:border-brand-primary hover:text-brand-primary transition-all"
               >
-                <span className="relative z-10 flex items-center gap-3">
-                  BROWSE EPISODES
-                  <span className="text-amber">🔥</span>
-                </span>
+                Browse Episodes
               </button>
-            </div>
-
-            <div className="flex items-center gap-8 text-xs text-ash-dark">
-              <span className="flex items-center gap-2">
-                <span className="w-1 h-1 bg-amber-dark" />10 QUESTIONS
-              </span>
-              <span className="flex items-center gap-2">
-                <span className="w-1 h-1 bg-amber-dark" />
-                295 EPISODES
-              </span>
-              <span className="flex items-center gap-2">
-                <span className="w-1 h-1 bg-amber-dark" />
-                VERIFIED QUOTES
-              </span>
-            </div>
+            </motion.div>
           </motion.div>
-
-        </motion.div>
+        </div>
       </div>
 
-      {/* Corner coordinates */}
-      <div className="fixed bottom-4 right-4 text-[10px] text-amber/30 font-mono z-30">
-        [{Math.floor(mousePos.x)}, {Math.floor(mousePos.y)}]
+      {/* How it Works Section */}
+      <div className="py-16 md:py-24 bg-brand-bg-secondary">
+        <div className="max-w-6xl mx-auto px-4">
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            className="text-center mb-12"
+          >
+            <h2 className="font-brand-display text-3xl md:text-4xl font-bold text-brand-secondary mb-4">
+              How It Works
+            </h2>
+            <p className="text-brand-text-secondary max-w-xl mx-auto">
+              Three simple steps to discover your product management style
+            </p>
+          </motion.div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              {
+                step: '01',
+                title: 'Answer Questions',
+                description: 'Complete a 10-question quiz about how you approach product decisions and challenges.',
+                icon: BookOpen,
+              },
+              {
+                step: '02',
+                title: 'Get Your Profile',
+                description: 'Discover your unique product philosophy based on eight distinct PM archetypes.',
+                icon: Users,
+              },
+              {
+                step: '03',
+                title: 'Find Episodes',
+                description: 'Get personalized podcast recommendations that match your thinking style.',
+                icon: Sparkles,
+              },
+            ].map((item, index) => (
+              <motion.div
+                key={item.step}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1 }}
+                className="bg-white p-8 rounded-2xl border border-brand-border hover:border-brand-primary/30 hover:shadow-lg transition-all"
+              >
+                <div className="w-12 h-12 bg-brand-primary/10 rounded-xl flex items-center justify-center mb-6">
+                  <item.icon className="w-6 h-6 text-brand-primary" />
+                </div>
+                <div className="text-sm font-medium text-brand-primary mb-2">Step {item.step}</div>
+                <h3 className="font-brand-display text-xl font-semibold text-brand-secondary mb-3">
+                  {item.title}
+                </h3>
+                <p className="text-brand-text-secondary leading-relaxed">
+                  {item.description}
+                </p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Stats Section */}
+      <div className="py-16 md:py-24">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            {[
+              { value: '295', label: 'Episodes Analyzed' },
+              { value: '8', label: 'Philosophy Types' },
+              { value: '10', label: 'Quiz Questions' },
+              { value: '100%', label: 'AI-Curated' },
+            ].map((stat, index) => (
+              <motion.div
+                key={stat.label}
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.05 }}
+                className="text-center"
+              >
+                <div className="font-brand-display text-4xl md:text-5xl font-bold text-brand-primary mb-2">
+                  {stat.value}
+                </div>
+                <div className="text-brand-text-secondary text-sm">
+                  {stat.label}
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* CTA Section */}
+      <div className="py-16 md:py-24 bg-brand-secondary">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="font-brand-display text-3xl md:text-4xl font-bold text-white mb-4">
+              Ready to discover your PM philosophy?
+            </h2>
+            <p className="text-white/70 mb-8 max-w-xl mx-auto">
+              Join product managers who have discovered their unique approach to building great products.
+            </p>
+            <button
+              onClick={() => router.push(hasQuizResults ? '/results' : '/quiz')}
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-brand-secondary font-semibold rounded-lg hover:bg-brand-background transition-all"
+            >
+              {hasQuizResults ? 'View Your Results' : 'Start the Quiz'}
+              <ArrowRight className="w-5 h-5" />
+            </button>
+          </motion.div>
+        </div>
       </div>
     </main>
   );

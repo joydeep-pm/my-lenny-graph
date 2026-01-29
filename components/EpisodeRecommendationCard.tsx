@@ -11,7 +11,7 @@ import { trackRecommendationClicked } from '@/lib/analytics';
 
 // Zone display names and colors
 const ZONE_CONFIG: Record<ZoneId, { name: string; color: string }> = {
-  velocity: { name: 'Speed', color: 'bg-amber/20 text-amber border-amber/40' },
+  velocity: { name: 'Speed', color: 'bg-brand-primary/20 text-brand-primary border-brand-primary/40' },
   perfection: { name: 'Craft', color: 'bg-purple-500/20 text-purple-400 border-purple-500/40' },
   discovery: { name: 'Discovery', color: 'bg-blue-500/20 text-blue-400 border-blue-500/40' },
   data: { name: 'Data', color: 'bg-green-500/20 text-green-400 border-green-500/40' },
@@ -72,7 +72,7 @@ export default function EpisodeRecommendationCard({ episode, index, variant = 'p
         className={`block p-6 border transition-all ${
           isContrarian
             ? 'border-rose-900/40 bg-rose-950/10 hover:border-rose-700/60 hover:bg-rose-950/20'
-            : 'border-ash-darker bg-void-light hover:border-amber hover:bg-void'
+            : 'border-brand-border bg-white hover:border-brand-primary hover:bg-brand-background'
         }`}
       >
         {/* Header */}
@@ -81,22 +81,22 @@ export default function EpisodeRecommendationCard({ episode, index, variant = 'p
             <h3 className={`text-xl font-bold transition-colors ${
               isContrarian
                 ? 'text-rose-400 group-hover:text-rose-300'
-                : 'text-amber group-hover:text-amber-dark'
+                : 'text-brand-primary group-hover:text-brand-primary'
             }`}>
               {episode.guest}
             </h3>
             {isPrimary && (
-              <div className="flex-shrink-0 ml-4 px-3 py-1 bg-amber/10 border border-amber/30 text-amber text-xs font-mono">
+              <div className="flex-shrink-0 ml-4 px-3 py-1 bg-brand-primary/10 border border-brand-primary/30 text-brand-primary text-xs font-brand">
                 RECOMMENDED
               </div>
             )}
             {isContrarian && (
-              <div className="flex-shrink-0 ml-4 px-3 py-1 bg-rose-950/30 border border-rose-800/40 text-rose-400 text-xs font-mono">
+              <div className="flex-shrink-0 ml-4 px-3 py-1 bg-rose-950/30 border border-rose-800/40 text-rose-400 text-xs font-brand">
                 PERSPECTIVE
               </div>
             )}
           </div>
-          <p className="text-sm text-ash-dark line-clamp-1">
+          <p className="text-sm text-brand-text-secondary line-clamp-1">
             {episode.title}
           </p>
 
@@ -106,7 +106,7 @@ export default function EpisodeRecommendationCard({ episode, index, variant = 'p
               {topZones.map(zone => (
                 <span
                   key={zone}
-                  className={`px-2 py-0.5 text-xs font-mono border ${ZONE_CONFIG[zone].color}`}
+                  className={`px-2 py-0.5 text-xs font-brand border ${ZONE_CONFIG[zone].color}`}
                 >
                   {ZONE_CONFIG[zone].name}
                 </span>
@@ -125,14 +125,14 @@ export default function EpisodeRecommendationCard({ episode, index, variant = 'p
         {/* Quote Section with Expand/Collapse */}
         {quoteText && (
           <div className={`border-l-2 pl-4 mb-4 ${
-            isContrarian ? 'border-rose-800/40' : 'border-amber/30'
+            isContrarian ? 'border-rose-800/40' : 'border-brand-primary/30'
           }`}>
             <div className="flex items-start gap-2">
               <Quote className={`w-4 h-4 flex-shrink-0 mt-1 ${
-                isContrarian ? 'text-rose-500/60' : 'text-amber/60'
+                isContrarian ? 'text-rose-500/60' : 'text-brand-primary/60'
               }`} />
               <div className="flex-1 min-w-0">
-                <p className="text-sm text-ash italic">
+                <p className="text-sm text-brand-text-primary italic">
                   {isExpanded || !isLongQuote
                     ? `"${quoteText}"`
                     : `"${quoteText.substring(0, 147)}..."`
@@ -141,10 +141,10 @@ export default function EpisodeRecommendationCard({ episode, index, variant = 'p
                 {isLongQuote && (
                   <button
                     onClick={handleExpandClick}
-                    className={`mt-2 flex items-center gap-1 text-xs font-mono transition-colors ${
+                    className={`mt-2 flex items-center gap-1 text-xs font-brand transition-colors ${
                       isContrarian
                         ? 'text-rose-400/70 hover:text-rose-300'
-                        : 'text-amber/70 hover:text-amber'
+                        : 'text-brand-primary/70 hover:text-brand-primary'
                     }`}
                   >
                     {isExpanded ? (
@@ -160,8 +160,8 @@ export default function EpisodeRecommendationCard({ episode, index, variant = 'p
         )}
 
         {/* CTA */}
-        <div className={`flex items-center gap-2 text-sm font-mono group-hover:gap-3 transition-all ${
-          isContrarian ? 'text-rose-400' : 'text-amber'
+        <div className={`flex items-center gap-2 text-sm font-brand group-hover:gap-3 transition-all ${
+          isContrarian ? 'text-rose-400' : 'text-brand-primary'
         }`}>
           <span>{isPrimary ? 'Listen to Episode' : 'Explore Perspective'}</span>
           <ArrowRight className="w-4 h-4" />

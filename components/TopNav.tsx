@@ -36,23 +36,23 @@ export default function TopNav() {
   }, []);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-30 bg-void/80 backdrop-blur-md border-b border-ash-darker/30">
+    <nav className="fixed top-0 left-0 right-0 z-30 bg-brand-background/80 backdrop-blur-md border-b border-brand-border">
       <div className="max-w-7xl mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           {/* Logo/Home */}
           <Link
             href="/"
-            className="flex items-center gap-2 text-amber hover:text-amber-dark transition-colors text-sm font-bold tracking-wider"
+            className="flex items-center gap-2 text-brand-secondary hover:text-brand-primary transition-colors font-brand-display font-semibold tracking-wide"
           >
             <Home className="w-4 h-4" />
-            <span className="hidden sm:inline">PM PHILOSOPHY</span>
+            <span className="hidden sm:inline">PM Intelligence</span>
           </Link>
 
           {/* Navigation Links */}
           <div className="flex items-center gap-4">
             <Link
               href="/explore"
-              className="flex items-center gap-2 text-ash-dark hover:text-amber transition-colors text-sm"
+              className="flex items-center gap-2 text-brand-text-secondary hover:text-brand-primary transition-colors text-sm"
             >
               <Compass className="w-4 h-4" />
               <span className="hidden sm:inline">Explore</span>
@@ -61,7 +61,7 @@ export default function TopNav() {
             {hasQuizResults ? (
               <Link
                 href="/results"
-                className="flex items-center gap-2 text-ash-dark hover:text-amber transition-colors text-sm"
+                className="flex items-center gap-2 text-brand-text-secondary hover:text-brand-primary transition-colors text-sm"
               >
                 <CheckCircle className="w-4 h-4" />
                 <span className="hidden sm:inline">Results</span>
@@ -69,10 +69,10 @@ export default function TopNav() {
             ) : (
               <Link
                 href="/quiz"
-                className="flex items-center gap-2 px-3 py-1.5 bg-amber/10 border border-amber/30 text-amber hover:bg-amber hover:text-void transition-all text-sm font-bold"
+                className="flex items-center gap-2 px-4 py-2 bg-brand-primary text-white hover:bg-brand-primary/90 transition-all text-sm font-semibold rounded-lg"
               >
                 <Flame className="w-4 h-4" />
-                <span className="hidden sm:inline">Quiz</span>
+                <span className="hidden sm:inline">Take Quiz</span>
               </Link>
             )}
           </div>
